@@ -1,0 +1,142 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Generates a list of all arrangements by selecting at least 1 item and at most the number of internal datas.\n        :return: List, a list of all arrangements.\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".permutations",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "arglist",
+        "inserted": "self.datas, i",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "list",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "operator",
+        "inserted": "",
+        "deleted": "+",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "number",
+        "inserted": "",
+        "deleted": "1",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "simple_stmt",
+        "inserted": "",
+        "deleted": "arrangement = internal_datas[j:j+i]\n",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "len(internal_datas)",
+        "deleted": "len(internal_datas)",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": "-",
+        "deleted": "-",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "i",
+        "deleted": "i",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "trailer",
+        "inserted": "(internal_datas)",
+        "deleted": "(internal_datas)",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "trailer",
+        "inserted": "(arrangement)",
+        "deleted": "(arrangement)",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "internal_datas",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "arrangement",
+        "deleted": "j",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "itertools",
+        "deleted": "range",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "-",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "len",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "datas",
+        "deleted": "internal_datas",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "datas",
+        "deleted": "internal_datas",
+        "type": "Refactoring"
+    }
+]

@@ -1,0 +1,124 @@
+{
+  "matches": [
+    {
+      "src": "suite [21,102]",
+      "dest": "suite [21,349]"
+    },
+    {
+      "src": "name: pi [79,81]",
+      "dest": "name: pi [325,327]"
+    },
+    {
+      "src": "name: AreaCalculator [6,20]",
+      "dest": "name: AreaCalculator [6,20]"
+    },
+    {
+      "src": "classdef [0,102]",
+      "dest": "classdef [0,349]"
+    },
+    {
+      "src": "name: self [52,56]",
+      "dest": "name: self [52,56]"
+    },
+    {
+      "src": "suite [58,102]",
+      "dest": "suite [58,349]"
+    },
+    {
+      "src": "term [74,102]",
+      "dest": "term [320,348]"
+    },
+    {
+      "src": "atom_expr [85,96]",
+      "dest": "atom_expr [331,342]"
+    },
+    {
+      "src": "name: calculate_circle_area [30,51]",
+      "dest": "name: calculate_circle_area [30,51]"
+    },
+    {
+      "src": "operator: * [82,83]",
+      "dest": "operator: * [328,329]"
+    },
+    {
+      "src": "power [85,101]",
+      "dest": "power [331,347]"
+    },
+    {
+      "src": "name: radius [90,96]",
+      "dest": "name: radius [336,342]"
+    },
+    {
+      "src": "atom_expr [74,81]",
+      "dest": "atom_expr [320,327]"
+    },
+    {
+      "src": "param [52,56]",
+      "dest": "param [52,56]"
+    },
+    {
+      "src": "trailer [78,81]",
+      "dest": "trailer [324,327]"
+    },
+    {
+      "src": "file_input [0,102]",
+      "dest": "file_input [0,350]"
+    },
+    {
+      "src": "operator: ** [97,99]",
+      "dest": "operator: ** [343,345]"
+    },
+    {
+      "src": "atom [84,102]",
+      "dest": "atom [330,348]"
+    },
+    {
+      "src": "trailer [89,96]",
+      "dest": "trailer [335,342]"
+    },
+    {
+      "src": "parameters [51,57]",
+      "dest": "parameters [51,57]"
+    },
+    {
+      "src": "number: 2 [100,101]",
+      "dest": "number: 2 [346,347]"
+    },
+    {
+      "src": "name: self [85,89]",
+      "dest": "name: self [331,335]"
+    },
+    {
+      "src": "return_stmt [67,102]",
+      "dest": "return_stmt [313,348]"
+    },
+    {
+      "src": "name: math [74,78]",
+      "dest": "name: math [320,324]"
+    },
+    {
+      "src": "funcdef [26,102]",
+      "dest": "funcdef [26,349]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [67,305]",
+      "parent": "suite [58,349]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [313,349]",
+      "parent": "suite [58,349]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [67,102]",
+      "parent": "simple_stmt [313,349]",
+      "at": 0
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Return the value corresponding to the key\n        :param key:str\n        :return:str,the value corresponding to the key\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "camel_key",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "[camel_key]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "._convert_key",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "trailer",
+        "inserted": "[key]",
+        "deleted": "[key]",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "_data",
+        "deleted": "data",
+        "type": "Refactoring"
+    }
+]

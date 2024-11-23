@@ -1,0 +1,134 @@
+{
+  "matches": [
+    {
+      "src": "param [48,54]",
+      "dest": "param [48,53]"
+    },
+    {
+      "src": "suite [31,145]",
+      "dest": "suite [31,575]"
+    },
+    {
+      "src": "param [55,59]",
+      "dest": "param [59,64]"
+    },
+    {
+      "src": "string: \"Normal Guitar Playing -- Chord: %s, Play Tune: %s.\" [76,128]",
+      "dest": "string: \"Normal Guitar Playing -- Chord: %s, Play Tune: %s.\" [507,559]"
+    },
+    {
+      "src": "name: display [40,47]",
+      "dest": "name: display [40,47]"
+    },
+    {
+      "src": "name: chord [132,137]",
+      "dest": "name: key [563,566]"
+    },
+    {
+      "src": "classdef [0,145]",
+      "dest": "classdef [0,575]"
+    },
+    {
+      "src": "name: chord [48,53]",
+      "dest": "name: self [48,52]"
+    },
+    {
+      "src": "suite [61,145]",
+      "dest": "suite [66,575]"
+    },
+    {
+      "src": "name: print [70,75]",
+      "dest": "name: print [501,506]"
+    },
+    {
+      "src": "operator: % [129,130]",
+      "dest": "operator: % [560,561]"
+    },
+    {
+      "src": "operator: , [53,54]",
+      "dest": "operator: , [52,53]"
+    },
+    {
+      "src": "testlist_comp [132,143]",
+      "dest": "testlist_comp [563,573]"
+    },
+    {
+      "src": "term [76,144]",
+      "dest": "term [507,574]"
+    },
+    {
+      "src": "parameters [47,60]",
+      "dest": "parameters [47,65]"
+    },
+    {
+      "src": "name: tune [139,143]",
+      "dest": "name: value [568,573]"
+    },
+    {
+      "src": "file_input [0,145]",
+      "dest": "file_input [0,575]"
+    },
+    {
+      "src": "atom_expr [70,145]",
+      "dest": "atom_expr [501,575]"
+    },
+    {
+      "src": "funcdef [36,145]",
+      "dest": "funcdef [36,575]"
+    },
+    {
+      "src": "atom [131,144]",
+      "dest": "atom [562,574]"
+    },
+    {
+      "src": "name: tune [55,59]",
+      "dest": "name: value [59,64]"
+    },
+    {
+      "src": "trailer [75,145]",
+      "dest": "trailer [506,575]"
+    },
+    {
+      "src": "name: AutomaticGuitarSimulator [6,30]",
+      "dest": "name: AutomaticGuitarSimulator [6,30]"
+    },
+    {
+      "src": "operator: , [137,138]",
+      "dest": "operator: , [566,567]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [54,58]",
+      "parent": "parameters [47,65]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [75,493]",
+      "parent": "suite [66,575]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: chord [48,53]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: tune [55,59]",
+      "label": "value"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: chord [132,137]",
+      "label": "key"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: tune [139,143]",
+      "label": "value"
+    }
+  ]
+}

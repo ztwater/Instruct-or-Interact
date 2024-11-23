@@ -1,0 +1,200 @@
+{
+  "matches": [
+    {
+      "src": "suite [18,184]",
+      "dest": "suite [18,367]"
+    },
+    {
+      "src": "name: play [27,31]",
+      "dest": "name: play [27,31]"
+    },
+    {
+      "src": "classdef [0,184]",
+      "dest": "classdef [0,367]"
+    },
+    {
+      "src": "arglist [155,183]",
+      "dest": "arglist [295,328]"
+    },
+    {
+      "src": "suite [42,184]",
+      "dest": "suite [38,367]"
+    },
+    {
+      "src": "parameters [31,41]",
+      "dest": "parameters [31,37]"
+    },
+    {
+      "src": "name: MusicPlayer [6,17]",
+      "dest": "name: MusicPlayer [6,17]"
+    },
+    {
+      "src": "atom_expr [66,77]",
+      "dest": "atom_expr [211,228]"
+    },
+    {
+      "src": "name: current_song [171,183]",
+      "dest": "name: current_song [316,328]"
+    },
+    {
+      "src": "name: print [149,154]",
+      "dest": "name: print [289,294]"
+    },
+    {
+      "src": "name: playlist [66,74]",
+      "dest": "name: self [211,215]"
+    },
+    {
+      "src": "file_input [0,184]",
+      "dest": "file_input [0,367]"
+    },
+    {
+      "src": "trailer [74,77]",
+      "dest": "trailer [215,228]"
+    },
+    {
+      "src": "funcdef [23,184]",
+      "dest": "funcdef [23,367]"
+    },
+    {
+      "src": "atom_expr [149,184]",
+      "dest": "atom_expr [289,329]"
+    },
+    {
+      "src": "string: \"Now playing:\" [155,169]",
+      "dest": "string: \"Now playing:\" [295,309]"
+    },
+    {
+      "src": "param [32,40]",
+      "dest": "param [32,36]"
+    },
+    {
+      "src": "trailer [154,184]",
+      "dest": "trailer [294,329]"
+    },
+    {
+      "src": "name: playlist [32,40]",
+      "dest": "name: self [32,36]"
+    },
+    {
+      "src": "operator: , [169,170]",
+      "dest": "operator: , [309,310]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [47,200]",
+      "parent": "suite [38,367]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [208,367]",
+      "parent": "suite [38,367]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: playlist [32,40]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "comparison [211,236]",
+      "parent": "if_stmt [208,367]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [237,263]",
+      "parent": "if_stmt [208,367]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [276,367]",
+      "parent": "if_stmt [208,367]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [66,77]",
+      "parent": "comparison [211,236]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [289,330]",
+      "parent": "suite [276,367]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [342,367]",
+      "parent": "suite [276,367]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: playlist [66,74]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [149,184]",
+      "parent": "simple_stmt [289,330]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: current_song [216,228]",
+      "parent": "trailer [215,228]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [311,328]",
+      "parent": "arglist [295,328]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [311,315]",
+      "parent": "atom_expr [311,328]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [315,328]",
+      "parent": "atom_expr [311,328]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: current_song [171,183]",
+      "parent": "trailer [315,328]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 0 [75,76]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: current_song [51,63]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: = [64,65]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [51,77]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [51,141]"
+    }
+  ]
+}

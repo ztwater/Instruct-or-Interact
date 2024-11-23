@@ -1,0 +1,154 @@
+{
+  "matches": [
+    {
+      "src": "name: users [105,110]",
+      "dest": "name: users [105,110]"
+    },
+    {
+      "src": "name: username [42,50]",
+      "dest": "name: username [42,50]"
+    },
+    {
+      "src": "funcdef [24,253]",
+      "dest": "funcdef [24,190]"
+    },
+    {
+      "src": "trailer [80,86]",
+      "dest": "trailer [80,86]"
+    },
+    {
+      "src": "suite [19,253]",
+      "dest": "suite [19,190]"
+    },
+    {
+      "src": "operator: , [40,41]",
+      "dest": "operator: , [40,41]"
+    },
+    {
+      "src": "if_stmt [61,253]",
+      "dest": "if_stmt [61,190]"
+    },
+    {
+      "src": "operator: = [121,122]",
+      "dest": "operator: = [121,122]"
+    },
+    {
+      "src": "name: sign_in [28,35]",
+      "dest": "name: sign_in [28,35]"
+    },
+    {
+      "src": "file_input [0,253]",
+      "dest": "file_input [0,190]"
+    },
+    {
+      "src": "atom_expr [76,86]",
+      "dest": "atom_expr [76,86]"
+    },
+    {
+      "src": "name: SignInSystem [6,18]",
+      "dest": "name: SignInSystem [6,18]"
+    },
+    {
+      "src": "simple_stmt [100,128]",
+      "dest": "simple_stmt [100,128]"
+    },
+    {
+      "src": "classdef [0,253]",
+      "dest": "classdef [0,190]"
+    },
+    {
+      "src": "comparison [64,86]",
+      "dest": "comparison [64,86]"
+    },
+    {
+      "src": "param [42,50]",
+      "dest": "param [42,50]"
+    },
+    {
+      "src": "suite [199,253]",
+      "dest": "suite [165,190]"
+    },
+    {
+      "src": "name: self [36,40]",
+      "dest": "name: self [36,40]"
+    },
+    {
+      "src": "param [36,41]",
+      "dest": "param [36,41]"
+    },
+    {
+      "src": "trailer [104,110]",
+      "dest": "trailer [104,110]"
+    },
+    {
+      "src": "name: username [111,119]",
+      "dest": "name: username [111,119]"
+    },
+    {
+      "src": "name: users [81,86]",
+      "dest": "name: users [81,86]"
+    },
+    {
+      "src": "trailer [110,120]",
+      "dest": "trailer [110,120]"
+    },
+    {
+      "src": "expr_stmt [100,127]",
+      "dest": "expr_stmt [100,127]"
+    },
+    {
+      "src": "name: self [100,104]",
+      "dest": "name: self [100,104]"
+    },
+    {
+      "src": "name: username [64,72]",
+      "dest": "name: username [64,72]"
+    },
+    {
+      "src": "parameters [35,51]",
+      "dest": "parameters [35,51]"
+    },
+    {
+      "src": "suite [87,186]",
+      "dest": "suite [87,152]"
+    },
+    {
+      "src": "atom_expr [100,120]",
+      "dest": "atom_expr [100,120]"
+    },
+    {
+      "src": "simple_stmt [140,186]",
+      "dest": "simple_stmt [140,152]"
+    },
+    {
+      "src": "suite [52,253]",
+      "dest": "suite [52,190]"
+    },
+    {
+      "src": "name: self [76,80]",
+      "dest": "name: self [76,80]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "return_stmt [178,190]",
+      "parent": "suite [165,190]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "return_stmt [140,151]",
+      "parent": "simple_stmt [140,152]",
+      "at": 0
+    },
+    {
+      "action": "delete-tree",
+      "tree": "atom_expr [140,185]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "atom_expr [212,253]"
+    }
+  ]
+}

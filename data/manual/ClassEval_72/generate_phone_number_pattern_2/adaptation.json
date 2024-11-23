@@ -1,0 +1,23 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Generate regular expression patterns that match phone numbers\n        :return: string, regular expression patterns that match phone numbers\n        >>> ru = RegexUtils()\n        >>> ru.generate_phone_number_pattern()\n        '\\b\\d{3}-\\d{3}-\\d{4}\\b'\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "UPD",
+        "label": "string",
+        "inserted": "r'\\b\\d{3}-\\d{3}-\\d{4}\\b'",
+        "deleted": "r'^\\+?\\d{1,3}[-.\\s]?\\(?\\d{1,3}\\)?[-.\\s]?\\d{1,4}[-.\\s]?\\d{1,4}$'",
+        "type": "Logic"
+    }
+]

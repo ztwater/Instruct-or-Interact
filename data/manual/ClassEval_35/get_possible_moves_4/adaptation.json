@@ -1,0 +1,37 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        According the current state, find all the possible moving directions. Only has 4 direction 'up', 'down', 'left', 'right'.\n        :param state: a 3*3 size list of Integer, stores the current state.\n        :return moves: a list of str, store all the possible moving directions according to the current state.\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return possible_moves\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return possible_moves",
+        "deleted": "return possible_moves",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "state",
+        "deleted": "current_state",
+        "type": "Refactoring"
+    }
+]

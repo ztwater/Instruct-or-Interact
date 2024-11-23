@@ -1,0 +1,30 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "self.table_name",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "string:",
+        "inserted": "\"SELECT * FROM {} WHERE age BETWEEN {} AND {};\"",
+        "deleted": "\"SELECT * FROM records WHERE age >= {} AND age <= {};\"",
+        "type": "Logic"
+    }
+]

@@ -1,0 +1,236 @@
+{
+  "matches": [
+    {
+      "src": "parameters [43,53]",
+      "dest": "parameters [43,49]"
+    },
+    {
+      "src": "name: products [44,52]",
+      "dest": "name: self [44,48]"
+    },
+    {
+      "src": "suite [21,114]",
+      "dest": "suite [21,809]"
+    },
+    {
+      "src": "atom_expr [100,114]",
+      "dest": "atom_expr [769,809]"
+    },
+    {
+      "src": "name: product [106,113]",
+      "dest": "name: price [788,793]"
+    },
+    {
+      "src": "trailer [105,114]",
+      "dest": "trailer [774,809]"
+    },
+    {
+      "src": "classdef [0,114]",
+      "dest": "classdef [0,809]"
+    },
+    {
+      "src": "name: VendingMachine [6,20]",
+      "dest": "name: VendingMachine [6,20]"
+    },
+    {
+      "src": "suite [54,114]",
+      "dest": "suite [598,809]"
+    },
+    {
+      "src": "for_stmt [63,114]",
+      "dest": "for_stmt [611,809]"
+    },
+    {
+      "src": "name: print [100,105]",
+      "dest": "name: print [769,774]"
+    },
+    {
+      "src": "name: display_items [30,43]",
+      "dest": "name: display_items [30,43]"
+    },
+    {
+      "src": "name: product [67,74]",
+      "dest": "name: item [615,619]"
+    },
+    {
+      "src": "param [44,52]",
+      "dest": "param [44,48]"
+    },
+    {
+      "src": "suite [87,114]",
+      "dest": "suite [638,809]"
+    },
+    {
+      "src": "file_input [0,114]",
+      "dest": "file_input [0,809]"
+    },
+    {
+      "src": "funcdef [26,114]",
+      "dest": "funcdef [26,809]"
+    },
+    {
+      "src": "name: products [78,86]",
+      "dest": "name: self [623,627]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "suite [50,809]",
+      "parent": "funcdef [26,809]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [59,523]",
+      "parent": "suite [50,809]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [531,809]",
+      "parent": "suite [50,809]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: products [44,52]",
+      "label": "self"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [534,558]",
+      "parent": "if_stmt [531,809]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [559,585]",
+      "parent": "if_stmt [531,809]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [54,114]",
+      "parent": "if_stmt [531,809]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: product [67,74]",
+      "label": "item"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [623,637]",
+      "parent": "for_stmt [611,809]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: products [78,86]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: products [78,86]",
+      "parent": "atom_expr [623,637]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [627,637]",
+      "parent": "atom_expr [623,637]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [655,693]",
+      "parent": "suite [638,809]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [709,753]",
+      "parent": "suite [638,809]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "fstring [775,808]",
+      "parent": "trailer [774,809]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "fstring_start: f\" [775,777]",
+      "parent": "fstring [775,808]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "fstring_expr [777,783]",
+      "parent": "fstring [775,808]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "fstring_string:  - $ [783,787]",
+      "parent": "fstring [775,808]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "fstring_expr [787,794]",
+      "parent": "fstring [775,808]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "fstring_string:  [ [794,796]",
+      "parent": "fstring [775,808]",
+      "at": 4
+    },
+    {
+      "action": "insert-tree",
+      "tree": "fstring_expr [796,806]",
+      "parent": "fstring [775,808]",
+      "at": 5
+    },
+    {
+      "action": "insert-node",
+      "tree": "fstring_string: ] [806,807]",
+      "parent": "fstring [775,808]",
+      "at": 6
+    },
+    {
+      "action": "insert-node",
+      "tree": "fstring_end: \" [807,808]",
+      "parent": "fstring [775,808]",
+      "at": 7
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: { [787,788]",
+      "parent": "fstring_expr [787,794]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: product [106,113]",
+      "label": "price"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: product [106,113]",
+      "parent": "fstring_expr [787,794]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: } [793,794]",
+      "parent": "fstring_expr [787,794]",
+      "at": 2
+    }
+  ]
+}

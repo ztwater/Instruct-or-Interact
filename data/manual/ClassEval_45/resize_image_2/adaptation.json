@@ -1,0 +1,198 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "width,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "height",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Resize the image if image has opened.\n        :param width: int, the target width of image\n        :param height: int, the target height of image\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "return_stmt",
+        "inserted": "return None",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "comparison",
+        "inserted": "self.image is not None",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "self.image = image\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return image\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".image",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".image",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "operator",
+        "inserted": "",
+        "deleted": "//",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "number",
+        "inserted": "",
+        "deleted": "2",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "operator",
+        "inserted": "",
+        "deleted": "//",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "number",
+        "inserted": "",
+        "deleted": "2",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "operator",
+        "inserted": "",
+        "deleted": ",",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "name",
+        "inserted": "",
+        "deleted": "height",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "operator",
+        "inserted": "",
+        "deleted": "=",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "atom_expr",
+        "inserted": "",
+        "deleted": "image.size",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "or_test",
+        "inserted": "",
+        "deleted": "width > 1000 or height > 1000",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "width",
+        "deleted": "width",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return image",
+        "deleted": "return image",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "image",
+        "deleted": "image",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "image",
+        "deleted": "image",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "width",
+        "deleted": "width",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "height",
+        "deleted": "height",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "image",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "width",
+        "type": "Refactoring"
+    }
+]

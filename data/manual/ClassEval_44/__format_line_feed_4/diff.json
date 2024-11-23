@@ -1,0 +1,164 @@
+{
+  "matches": [
+    {
+      "src": "suite [15,134]",
+      "dest": "suite [15,343]"
+    },
+    {
+      "src": "atom_expr [121,133]",
+      "dest": "atom_expr [329,341]"
+    },
+    {
+      "src": "trailer [74,134]",
+      "dest": "trailer [282,342]"
+    },
+    {
+      "src": "classdef [0,134]",
+      "dest": "classdef [0,343]"
+    },
+    {
+      "src": "name: splitlines [105,115]",
+      "dest": "name: splitlines [313,323]"
+    },
+    {
+      "src": "suite [49,134]",
+      "dest": "suite [49,343]"
+    },
+    {
+      "src": "atom_expr [65,134]",
+      "dest": "atom_expr [273,342]"
+    },
+    {
+      "src": "trailer [79,85]",
+      "dest": "trailer [287,293]"
+    },
+    {
+      "src": "parameters [42,48]",
+      "dest": "parameters [42,48]"
+    },
+    {
+      "src": "argument [75,133]",
+      "dest": "argument [283,341]"
+    },
+    {
+      "src": "param [43,47]",
+      "dest": "param [43,47]"
+    },
+    {
+      "src": "name: line [75,79]",
+      "dest": "name: line [283,287]"
+    },
+    {
+      "src": "sync_comp_for [88,133]",
+      "dest": "sync_comp_for [296,341]"
+    },
+    {
+      "src": "name: __format_line_feed [24,42]",
+      "dest": "name: __format_line_feed [24,42]"
+    },
+    {
+      "src": "name: HtmlUtil [6,14]",
+      "dest": "name: HtmlUtil [6,14]"
+    },
+    {
+      "src": "string: '\\n' [65,69]",
+      "dest": "string: '\\n' [273,277]"
+    },
+    {
+      "src": "trailer [104,115]",
+      "dest": "trailer [312,323]"
+    },
+    {
+      "src": "name: join [70,74]",
+      "dest": "name: join [278,282]"
+    },
+    {
+      "src": "file_input [0,134]",
+      "dest": "file_input [0,343]"
+    },
+    {
+      "src": "trailer [115,117]",
+      "dest": "trailer [323,325]"
+    },
+    {
+      "src": "trailer [125,131]",
+      "dest": "trailer [333,339]"
+    },
+    {
+      "src": "comp_if [118,133]",
+      "dest": "comp_if [326,341]"
+    },
+    {
+      "src": "name: line [92,96]",
+      "dest": "name: line [300,304]"
+    },
+    {
+      "src": "name: strip [126,131]",
+      "dest": "name: strip [334,339]"
+    },
+    {
+      "src": "atom_expr [75,87]",
+      "dest": "atom_expr [283,295]"
+    },
+    {
+      "src": "trailer [85,87]",
+      "dest": "trailer [293,295]"
+    },
+    {
+      "src": "name: text [100,104]",
+      "dest": "name: text [308,312]"
+    },
+    {
+      "src": "atom_expr [100,117]",
+      "dest": "atom_expr [308,325]"
+    },
+    {
+      "src": "name: strip [80,85]",
+      "dest": "name: strip [288,293]"
+    },
+    {
+      "src": "name: line [121,125]",
+      "dest": "name: line [329,333]"
+    },
+    {
+      "src": "trailer [131,133]",
+      "dest": "trailer [339,341]"
+    },
+    {
+      "src": "return_stmt [58,134]",
+      "dest": "return_stmt [266,342]"
+    },
+    {
+      "src": "trailer [69,74]",
+      "dest": "trailer [277,282]"
+    },
+    {
+      "src": "funcdef [20,134]",
+      "dest": "funcdef [20,343]"
+    },
+    {
+      "src": "name: text [43,47]",
+      "dest": "name: text [43,47]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [58,258]",
+      "parent": "suite [49,343]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [266,343]",
+      "parent": "suite [49,343]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [58,134]",
+      "parent": "simple_stmt [266,343]",
+      "at": 0
+    }
+  ]
+}

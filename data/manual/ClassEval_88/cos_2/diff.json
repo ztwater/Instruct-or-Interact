@@ -1,0 +1,146 @@
+{
+  "matches": [
+    {
+      "src": "suite [20,240]",
+      "dest": "suite [20,459]"
+    },
+    {
+      "src": "parameters [32,35]",
+      "dest": "parameters [32,41]"
+    },
+    {
+      "src": "atom_expr [107,122]",
+      "dest": "atom_expr [326,341]"
+    },
+    {
+      "src": "classdef [0,240]",
+      "dest": "classdef [0,459]"
+    },
+    {
+      "src": "simple_stmt [177,207]",
+      "dest": "simple_stmt [396,426]"
+    },
+    {
+      "src": "name: cos [194,197]",
+      "dest": "name: cos [413,416]"
+    },
+    {
+      "src": "suite [36,240]",
+      "dest": "suite [42,459]"
+    },
+    {
+      "src": "trailer [119,122]",
+      "dest": "trailer [338,341]"
+    },
+    {
+      "src": "name: x [33,34]",
+      "dest": "name: x [39,40]"
+    },
+    {
+      "src": "name: math [107,111]",
+      "dest": "name: math [326,330]"
+    },
+    {
+      "src": "name: TriCalculator [6,19]",
+      "dest": "name: TriCalculator [6,19]"
+    },
+    {
+      "src": "name: radians [112,119]",
+      "dest": "name: radians [331,338]"
+    },
+    {
+      "src": "name: cos_value [177,186]",
+      "dest": "name: cos_value [396,405]"
+    },
+    {
+      "src": "expr_stmt [97,122]",
+      "dest": "expr_stmt [316,341]"
+    },
+    {
+      "src": "trailer [193,197]",
+      "dest": "trailer [412,416]"
+    },
+    {
+      "src": "operator: = [105,106]",
+      "dest": "operator: = [324,325]"
+    },
+    {
+      "src": "name: cos [29,32]",
+      "dest": "name: cos [29,32]"
+    },
+    {
+      "src": "file_input [0,240]",
+      "dest": "file_input [0,459]"
+    },
+    {
+      "src": "trailer [197,206]",
+      "dest": "trailer [416,425]"
+    },
+    {
+      "src": "name: radians [198,205]",
+      "dest": "name: radians [417,424]"
+    },
+    {
+      "src": "param [33,34]",
+      "dest": "param [39,40]"
+    },
+    {
+      "src": "operator: = [187,188]",
+      "dest": "operator: = [406,407]"
+    },
+    {
+      "src": "trailer [111,119]",
+      "dest": "trailer [330,338]"
+    },
+    {
+      "src": "expr_stmt [177,206]",
+      "dest": "expr_stmt [396,425]"
+    },
+    {
+      "src": "name: math [189,193]",
+      "dest": "name: math [408,412]"
+    },
+    {
+      "src": "atom_expr [189,206]",
+      "dest": "atom_expr [408,425]"
+    },
+    {
+      "src": "name: x [120,121]",
+      "dest": "name: x [339,340]"
+    },
+    {
+      "src": "return_stmt [224,240]",
+      "dest": "return_stmt [443,459]"
+    },
+    {
+      "src": "name: cos_value [231,240]",
+      "dest": "name: cos_value [450,459]"
+    },
+    {
+      "src": "simple_stmt [97,123]",
+      "dest": "simple_stmt [316,342]"
+    },
+    {
+      "src": "name: radians [97,104]",
+      "dest": "name: radians [316,323]"
+    },
+    {
+      "src": "funcdef [25,240]",
+      "dest": "funcdef [25,459]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [33,38]",
+      "parent": "parameters [32,41]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [51,256]",
+      "parent": "suite [42,459]",
+      "at": 0
+    }
+  ]
+}

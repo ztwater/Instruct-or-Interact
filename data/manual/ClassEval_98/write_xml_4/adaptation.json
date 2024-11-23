@@ -1,0 +1,72 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Writes the XML data to the specified file.\n        :param file_name: string, the name of the file to write the XML data.\n        :return: bool, True if the write operation is successful, False otherwise.\n        >>> xml_processor = XMLProcessor('test.xml')\n        >>> root = xml_processor.read_xml()\n        >>> success = xml_processor.write_xml('output.xml')\n        >>> print(success)\n        True\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "tree.write(file_name)\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "return_stmt",
+        "inserted": "return True",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".data",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "tree.write(file_path)",
+        "deleted": "tree.write(file_path)",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "data",
+        "deleted": "data",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "data",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "file_name",
+        "deleted": "file_path",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "file_name",
+        "deleted": "file_path",
+        "type": "Refactoring"
+    }
+]

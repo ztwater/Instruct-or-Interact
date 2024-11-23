@@ -1,0 +1,100 @@
+[
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".resumes",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".resumes",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "trailer",
+        "inserted": "",
+        "deleted": "['id']",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "resumes",
+        "deleted": "resumes",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "resume",
+        "deleted": "resume",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "resumes",
+        "deleted": "resumes",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "resumes",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "resume",
+        "deleted": "resume_id",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "r",
+        "deleted": "resume",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "r",
+        "deleted": "resume",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "resume",
+        "deleted": "resume_id",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "r",
+        "deleted": "resume",
+        "type": "Refactoring"
+    }
+]

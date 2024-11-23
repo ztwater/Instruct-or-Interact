@@ -1,0 +1,294 @@
+{
+  "matches": [
+    {
+      "src": "suite [239,277]",
+      "dest": "suite [235,296]"
+    },
+    {
+      "src": "name: alignment_value [368,383]",
+      "dest": "name: alignment_value [418,433]"
+    },
+    {
+      "src": "suite [21,383]",
+      "dest": "suite [21,433]"
+    },
+    {
+      "src": "suite [306,344]",
+      "dest": "suite [330,390]"
+    },
+    {
+      "src": "expr_stmt [189,209]",
+      "dest": "expr_stmt [154,199]"
+    },
+    {
+      "src": "comparison [160,171]",
+      "dest": "comparison [121,140]"
+    },
+    {
+      "src": "classdef [0,383]",
+      "dest": "classdef [0,433]"
+    },
+    {
+      "src": "parameters [50,68]",
+      "dest": "parameters [50,67]"
+    },
+    {
+      "src": "name: alignment_value [323,338]",
+      "dest": "name: alignment_value [343,358]"
+    },
+    {
+      "src": "return_stmt [361,383]",
+      "dest": "return_stmt [411,433]"
+    },
+    {
+      "src": "suite [69,383]",
+      "dest": "suite [68,433]"
+    },
+    {
+      "src": "name: alignment_value [189,204]",
+      "dest": "name: alignment_value [154,169]"
+    },
+    {
+      "src": "name: char [227,231]",
+      "dest": "name: alignment [213,222]"
+    },
+    {
+      "src": "name: char [160,164]",
+      "dest": "name: alignment [121,130]"
+    },
+    {
+      "src": "param [51,67]",
+      "dest": "param [57,66]"
+    },
+    {
+      "src": "suite [172,210]",
+      "dest": "suite [141,200]"
+    },
+    {
+      "src": "operator: += [339,341]",
+      "dest": "operator: = [359,360]"
+    },
+    {
+      "src": "number: 0 [96,97]",
+      "dest": "number: 0 [95,96]"
+    },
+    {
+      "src": "operator: == [165,167]",
+      "dest": "operator: == [131,133]"
+    },
+    {
+      "src": "simple_stmt [256,277]",
+      "dest": "simple_stmt [248,296]"
+    },
+    {
+      "src": "operator: == [232,234]",
+      "dest": "operator: == [223,225]"
+    },
+    {
+      "src": "file_input [0,383]",
+      "dest": "file_input [0,433]"
+    },
+    {
+      "src": "name: DocFileHandler [6,20]",
+      "dest": "name: DocFileHandler [6,20]"
+    },
+    {
+      "src": "string: '=' [302,305]",
+      "dest": "string: 'right' [322,329]"
+    },
+    {
+      "src": "comparison [227,238]",
+      "dest": "comparison [213,234]"
+    },
+    {
+      "src": "name: alignment_string [51,67]",
+      "dest": "name: alignment [57,66]"
+    },
+    {
+      "src": "expr_stmt [323,343]",
+      "dest": "expr_stmt [343,389]"
+    },
+    {
+      "src": "expr_stmt [78,97]",
+      "dest": "expr_stmt [77,96]"
+    },
+    {
+      "src": "operator: == [299,301]",
+      "dest": "operator: == [319,321]"
+    },
+    {
+      "src": "name: char [294,298]",
+      "dest": "name: alignment [309,318]"
+    },
+    {
+      "src": "operator: = [94,95]",
+      "dest": "operator: = [93,94]"
+    },
+    {
+      "src": "name: alignment_value [256,271]",
+      "dest": "name: alignment_value [248,263]"
+    },
+    {
+      "src": "name: alignment_value [78,93]",
+      "dest": "name: alignment_value [77,92]"
+    },
+    {
+      "src": "comparison [294,305]",
+      "dest": "comparison [309,329]"
+    },
+    {
+      "src": "expr_stmt [256,276]",
+      "dest": "expr_stmt [248,295]"
+    },
+    {
+      "src": "simple_stmt [323,344]",
+      "dest": "simple_stmt [343,390]"
+    },
+    {
+      "src": "if_stmt [157,344]",
+      "dest": "if_stmt [118,390]"
+    },
+    {
+      "src": "simple_stmt [78,98]",
+      "dest": "simple_stmt [77,97]"
+    },
+    {
+      "src": "string: '|' [235,238]",
+      "dest": "string: 'center' [226,234]"
+    },
+    {
+      "src": "operator: += [205,207]",
+      "dest": "operator: = [170,171]"
+    },
+    {
+      "src": "funcdef [26,383]",
+      "dest": "funcdef [26,433]"
+    },
+    {
+      "src": "string: '-' [168,171]",
+      "dest": "string: 'left' [134,140]"
+    },
+    {
+      "src": "name: _get_alignment_value [30,50]",
+      "dest": "name: _get_alignment_value [30,50]"
+    },
+    {
+      "src": "simple_stmt [189,210]",
+      "dest": "simple_stmt [154,200]"
+    },
+    {
+      "src": "operator: += [272,274]",
+      "dest": "operator: = [264,265]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [51,56]",
+      "parent": "parameters [50,67]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "if_stmt [157,344]",
+      "parent": "suite [68,433]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: alignment_string [51,67]",
+      "label": "alignment"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: char [160,164]",
+      "label": "alignment"
+    },
+    {
+      "action": "update-node",
+      "tree": "string: '-' [168,171]",
+      "label": "'left'"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: char [227,231]",
+      "label": "alignment"
+    },
+    {
+      "action": "update-node",
+      "tree": "string: '|' [235,238]",
+      "label": "'center'"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: char [294,298]",
+      "label": "alignment"
+    },
+    {
+      "action": "update-node",
+      "tree": "string: '=' [302,305]",
+      "label": "'right'"
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: += [205,207]",
+      "label": "="
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [172,199]",
+      "parent": "expr_stmt [154,199]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: += [272,274]",
+      "label": "="
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [266,295]",
+      "parent": "expr_stmt [248,295]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: += [339,341]",
+      "label": "="
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [361,389]",
+      "parent": "expr_stmt [343,389]",
+      "at": 2
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 1 [208,209]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 2 [275,276]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 3 [342,343]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: char [119,123]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: alignment_string [127,143]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [144,344]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "for_stmt [115,344]"
+    }
+  ]
+}

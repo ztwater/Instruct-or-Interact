@@ -1,0 +1,373 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Update the number of all four samples(true_positives, false_positives, false_negatives, true_negatives)\n        :param predicted_labels: list, predicted results\n        :param true_labels: list, true labels\n        :return: None, change the number of corresponding samples\n        >>> mc = MetricsCalculator()\n        >>> mc.update([1, 1, 0, 0], [1, 0, 0, 1])\n        (self.true_positives, self.false_positives, self.false_negatives, self.true_negatives) = (1, 1, 1, 1)\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".true_negatives",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".true_positives",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "*",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "true_labels.count(1)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".false_positives",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "*",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "true_labels.count(0)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".false_negatives",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "predicted_labels.count(0)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "*",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".count",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "(0)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".count",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "(0)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "predicted_labels",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".count",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "(1)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "predicted_labels",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".count",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "(1)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "true_labels",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".count",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "(1)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "param",
+        "inserted": "",
+        "deleted": "false_negatives,",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "DEL",
+        "label": "number",
+        "inserted": "",
+        "deleted": "1",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "operator",
+        "inserted": "",
+        "deleted": ",",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "operator",
+        "inserted": "",
+        "deleted": ",",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": "+=",
+        "deleted": "+=",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": ",",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "true_negatives",
+        "deleted": "true_negatives",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "true_positives",
+        "deleted": "true_positives",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "false_negatives",
+        "deleted": "false_negatives",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "true_positives",
+        "deleted": "true_positives",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "false_positives",
+        "deleted": "false_positives",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "false_negatives",
+        "deleted": "false_negatives",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "false_positives",
+        "deleted": "false_positives",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "true_negatives",
+        "deleted": "true_negatives",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "number",
+        "inserted": "1",
+        "deleted": "1",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "number",
+        "inserted": "1",
+        "deleted": "1",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "number",
+        "inserted": "1",
+        "deleted": "1",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "true_positives",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "predicted_labels",
+        "deleted": "false_positives",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "true_labels",
+        "deleted": "true_negatives",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "operator",
+        "inserted": "*",
+        "deleted": ",",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "predicted_labels",
+        "deleted": "true_positives",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "true_labels",
+        "deleted": "false_negatives",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "count",
+        "deleted": "false_positives",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "count",
+        "deleted": "true_negatives",
+        "type": "Refactoring"
+    }
+]

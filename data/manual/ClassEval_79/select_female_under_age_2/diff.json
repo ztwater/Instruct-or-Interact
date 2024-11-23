@@ -1,0 +1,129 @@
+{
+  "matches": [
+    {
+      "src": "param [52,55]",
+      "dest": "param [58,61]"
+    },
+    {
+      "src": "name: age [52,55]",
+      "dest": "name: age [58,61]"
+    },
+    {
+      "src": "suite [19,186]",
+      "dest": "suite [19,202]"
+    },
+    {
+      "src": "classdef [0,186]",
+      "dest": "classdef [0,202]"
+    },
+    {
+      "src": "suite [57,186]",
+      "dest": "suite [63,202]"
+    },
+    {
+      "src": "return_stmt [166,186]",
+      "dest": "return_stmt [182,202]"
+    },
+    {
+      "src": "string: \"SELECT * FROM table_name WHERE gender = 'female' AND age < {}\" [82,145]",
+      "dest": "string: \"SELECT * FROM {} WHERE age < {} AND gender = 'female';\" [88,144]"
+    },
+    {
+      "src": "name: format [146,152]",
+      "dest": "name: format [145,151]"
+    },
+    {
+      "src": "name: sql_statement [173,186]",
+      "dest": "name: sql_statement [189,202]"
+    },
+    {
+      "src": "name: select_female_under_age [28,51]",
+      "dest": "name: select_female_under_age [28,51]"
+    },
+    {
+      "src": "atom_expr [82,157]",
+      "dest": "atom_expr [88,173]"
+    },
+    {
+      "src": "trailer [152,157]",
+      "dest": "trailer [151,173]"
+    },
+    {
+      "src": "name: age [153,156]",
+      "dest": "name: age [169,172]"
+    },
+    {
+      "src": "parameters [51,56]",
+      "dest": "parameters [51,62]"
+    },
+    {
+      "src": "name: sql_statement [66,79]",
+      "dest": "name: sql_statement [72,85]"
+    },
+    {
+      "src": "file_input [0,186]",
+      "dest": "file_input [0,202]"
+    },
+    {
+      "src": "simple_stmt [66,158]",
+      "dest": "simple_stmt [72,174]"
+    },
+    {
+      "src": "operator: = [80,81]",
+      "dest": "operator: = [86,87]"
+    },
+    {
+      "src": "funcdef [24,186]",
+      "dest": "funcdef [24,202]"
+    },
+    {
+      "src": "expr_stmt [66,157]",
+      "dest": "expr_stmt [72,173]"
+    },
+    {
+      "src": "trailer [145,152]",
+      "dest": "trailer [144,151]"
+    },
+    {
+      "src": "name: SQLGenerator [6,18]",
+      "dest": "name: SQLGenerator [6,18]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [52,57]",
+      "parent": "parameters [51,62]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "string: \"SELECT * FROM table_name WHERE gender = 'female' AND age < {}\" [82,145]",
+      "label": "\"SELECT * FROM {} WHERE age < {} AND gender = 'female';\""
+    },
+    {
+      "action": "insert-node",
+      "tree": "arglist [152,172]",
+      "parent": "trailer [151,173]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [152,167]",
+      "parent": "arglist [152,172]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [167,168]",
+      "parent": "arglist [152,172]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: age [153,156]",
+      "parent": "arglist [152,172]",
+      "at": 2
+    }
+  ]
+}

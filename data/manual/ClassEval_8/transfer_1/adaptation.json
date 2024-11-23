@@ -1,0 +1,44 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Transfers a certain amount from the current account to another account.\n        :param other_account: BankAccount\n        :param amount: int\n        >>> account1 = BankAccount()\n        >>> account2 = BankAccount()\n        >>> account1.deposit(1000)\n        >>> account1.transfer(account2, 300)\n        account1.balance = 700\n        account2.balance = 300\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "amount",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "other_account",
+        "deleted": "current_account",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "amount",
+        "deleted": "other_account",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "current_account",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "current_account",
+        "type": "Refactoring"
+    }
+]

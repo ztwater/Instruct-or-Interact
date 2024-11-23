@@ -1,0 +1,16 @@
+[
+    {
+        "action": "INS",
+        "label": "with_stmt",
+        "inserted": "with open(self.file_path, 'w') as file:\n            file.write(filtered_content)\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return filtered_content",
+        "deleted": "return filtered_content",
+        "type": "Move"
+    }
+]

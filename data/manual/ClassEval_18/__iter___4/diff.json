@@ -1,0 +1,111 @@
+{
+  "matches": [
+    {
+      "src": "file_input [0,75]",
+      "dest": "file_input [0,448]"
+    },
+    {
+      "src": "funcdef [24,75]",
+      "dest": "funcdef [24,448]"
+    },
+    {
+      "src": "param [37,41]",
+      "dest": "param [37,41]"
+    },
+    {
+      "src": "suite [19,75]",
+      "dest": "suite [19,448]"
+    },
+    {
+      "src": "trailer [68,73]",
+      "dest": "trailer [434,440]"
+    },
+    {
+      "src": "name: self [37,41]",
+      "dest": "name: self [37,41]"
+    },
+    {
+      "src": "name: CamelCaseMap [6,18]",
+      "dest": "name: CamelCaseMap [6,18]"
+    },
+    {
+      "src": "trailer [63,74]",
+      "dest": "trailer [429,448]"
+    },
+    {
+      "src": "parameters [36,42]",
+      "dest": "parameters [36,42]"
+    },
+    {
+      "src": "name: self [64,68]",
+      "dest": "name: self [430,434]"
+    },
+    {
+      "src": "name: __iter__ [28,36]",
+      "dest": "name: __iter__ [28,36]"
+    },
+    {
+      "src": "classdef [0,75]",
+      "dest": "classdef [0,448]"
+    },
+    {
+      "src": "return_stmt [52,74]",
+      "dest": "return_stmt [418,448]"
+    },
+    {
+      "src": "suite [43,75]",
+      "dest": "suite [43,448]"
+    },
+    {
+      "src": "atom_expr [64,73]",
+      "dest": "atom_expr [430,447]"
+    },
+    {
+      "src": "atom_expr [59,74]",
+      "dest": "atom_expr [425,448]"
+    },
+    {
+      "src": "name: iter [59,63]",
+      "dest": "name: iter [425,429]"
+    },
+    {
+      "src": "name: data [69,73]",
+      "dest": "name: _data [435,440]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [52,410]",
+      "parent": "suite [43,448]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [52,74]",
+      "parent": "suite [43,448]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [440,445]",
+      "parent": "atom_expr [430,447]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [445,447]",
+      "parent": "atom_expr [430,447]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: data [69,73]",
+      "label": "_data"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [52,75]"
+    }
+  ]
+}

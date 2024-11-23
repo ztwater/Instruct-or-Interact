@@ -1,0 +1,144 @@
+{
+  "matches": [
+    {
+      "src": "name: celsius [121,128]",
+      "dest": "name: celsius [257,264]"
+    },
+    {
+      "src": "arith_expr [83,98]",
+      "dest": "arith_expr [213,234]"
+    },
+    {
+      "src": "operator: * [100,101]",
+      "dest": "operator: * [236,237]"
+    },
+    {
+      "src": "suite [20,128]",
+      "dest": "suite [20,264]"
+    },
+    {
+      "src": "param [51,61]",
+      "dest": "param [51,55]"
+    },
+    {
+      "src": "classdef [0,128]",
+      "dest": "classdef [0,264]"
+    },
+    {
+      "src": "suite [63,128]",
+      "dest": "suite [57,264]"
+    },
+    {
+      "src": "number: 9 [104,105]",
+      "dest": "number: 9 [240,241]"
+    },
+    {
+      "src": "number: 5 [102,103]",
+      "dest": "number: 5 [238,239]"
+    },
+    {
+      "src": "return_stmt [114,128]",
+      "dest": "return_stmt [250,264]"
+    },
+    {
+      "src": "name: fahrenheit [83,93]",
+      "dest": "name: self [213,217]"
+    },
+    {
+      "src": "name: WeatherSystem [6,19]",
+      "dest": "name: WeatherSystem [6,19]"
+    },
+    {
+      "src": "file_input [0,128]",
+      "dest": "file_input [0,264]"
+    },
+    {
+      "src": "expr_stmt [72,105]",
+      "dest": "expr_stmt [202,241]"
+    },
+    {
+      "src": "operator: / [103,104]",
+      "dest": "operator: / [239,240]"
+    },
+    {
+      "src": "operator: = [80,81]",
+      "dest": "operator: = [210,211]"
+    },
+    {
+      "src": "operator: - [94,95]",
+      "dest": "operator: - [230,231]"
+    },
+    {
+      "src": "number: 32 [96,98]",
+      "dest": "number: 32 [232,234]"
+    },
+    {
+      "src": "term [82,105]",
+      "dest": "term [212,241]"
+    },
+    {
+      "src": "parameters [50,62]",
+      "dest": "parameters [50,56]"
+    },
+    {
+      "src": "name: fahrenheit [51,61]",
+      "dest": "name: self [51,55]"
+    },
+    {
+      "src": "simple_stmt [72,106]",
+      "dest": "simple_stmt [202,242]"
+    },
+    {
+      "src": "funcdef [25,128]",
+      "dest": "funcdef [25,264]"
+    },
+    {
+      "src": "atom [82,99]",
+      "dest": "atom [212,235]"
+    },
+    {
+      "src": "name: fahrenheit_to_celsius [29,50]",
+      "dest": "name: fahrenheit_to_celsius [29,50]"
+    },
+    {
+      "src": "name: celsius [72,79]",
+      "dest": "name: celsius [202,209]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [66,194]",
+      "parent": "suite [57,264]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: fahrenheit [51,61]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [213,229]",
+      "parent": "arith_expr [213,234]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: fahrenheit [83,93]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: fahrenheit [83,93]",
+      "parent": "atom_expr [213,229]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [217,229]",
+      "parent": "atom_expr [213,229]",
+      "at": 1
+    }
+  ]
+}

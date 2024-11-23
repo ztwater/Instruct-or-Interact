@@ -1,0 +1,37 @@
+[
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".root",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "simple_stmt",
+        "inserted": "",
+        "deleted": "root = ET.fromstring(xml_string)\n",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "root",
+        "deleted": "root",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "xml_string",
+        "type": "Refactoring"
+    }
+]

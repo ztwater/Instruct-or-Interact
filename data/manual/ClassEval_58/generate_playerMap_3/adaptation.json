@@ -1,0 +1,86 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Generates a player map with the given size of the board, the given parameter n is the size of the board, the size of the board is n*n, the parameter k is the number of mines,'-' represents the unknown position.\n        :return: The player map, list.\n        >>> minesweeper_game = MinesweeperGame(3, 1)\n        >>> minesweeper_game.generate_playerMap()\n        [['-', '-', '-'], ['-', '-', '-'], ['-', '-', '-']]\n    \n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "range",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "(self.n)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "range",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "(self.n)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "operator",
+        "inserted": "",
+        "deleted": ",",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "param",
+        "inserted": "",
+        "deleted": "k",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "range(n)",
+        "deleted": "range(n)",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "range(n)",
+        "deleted": "range(n)",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "n",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "range",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "range",
+        "type": "Refactoring"
+    }
+]

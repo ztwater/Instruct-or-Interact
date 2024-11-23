@@ -1,0 +1,289 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Calculate correlation\n        :return:float\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "expr_stmt",
+        "inserted": "list1 = self.data",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "list2",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "self.data",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "mean2",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".mean",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "np",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".mean",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "np",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".sum",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "np",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".sum",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "np",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".sum",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "operator",
+        "inserted": "",
+        "deleted": ",",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "param",
+        "inserted": "",
+        "deleted": "list2",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "DEL",
+        "label": "term",
+        "inserted": "",
+        "deleted": "sum(list1) / len(list1)",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "trailer",
+        "inserted": "",
+        "deleted": "(list2)",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "mean1",
+        "deleted": "mean1",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "=",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "sum(list1)",
+        "deleted": "sum(list1)",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": "/",
+        "deleted": "/",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "mean2",
+        "deleted": "mean2",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "=",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": "/",
+        "deleted": "/",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "sum",
+        "deleted": "sum",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "len",
+        "deleted": "len",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "len",
+        "deleted": "len",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "sum",
+        "deleted": "sum",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "sum",
+        "deleted": "sum",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "sum",
+        "deleted": "sum",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "list1",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "list1",
+        "deleted": "mean1",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "/",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "mean1",
+        "deleted": "mean2",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "/",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "sum",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "np",
+        "deleted": "sum",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "data",
+        "deleted": "list1",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "mean",
+        "deleted": "len",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "mean",
+        "deleted": "len",
+        "type": "Refactoring"
+    }
+]

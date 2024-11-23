@@ -1,0 +1,52 @@
+{
+  "matches": [
+    {
+      "src": "classdef [0,121]",
+      "dest": "classdef [0,32]"
+    },
+    {
+      "src": "name: NumberConverter [6,21]",
+      "dest": "name: NumberConverter [6,21]"
+    },
+    {
+      "src": "suite [55,121]",
+      "dest": "suite [22,32]"
+    },
+    {
+      "src": "file_input [0,121]",
+      "dest": "file_input [0,32]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "move-tree",
+      "tree": "suite [55,121]",
+      "parent": "classdef [0,32]",
+      "at": 1
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [64,95]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "return_stmt [103,121]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: hex_to_decimal [31,45]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "parameters [45,54]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "funcdef [27,121]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [22,121]"
+    }
+  ]
+}

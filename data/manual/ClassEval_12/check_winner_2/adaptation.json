@@ -1,0 +1,114 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "and_test",
+        "inserted": "player_value <= 21 and dealer_value <= 21",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "and_test",
+        "inserted": "player_value <= 21 and dealer_value > 21",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "and_test",
+        "inserted": "player_value > 21 and dealer_value <= 21",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "if_stmt",
+        "inserted": "if player_value < dealer_value:\n                return \"Player wins\"\n            elif player_value > dealer_value:\n                return \"Dealer wins\"\n            else:\n                return \"It's a tie\"",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".calculate_hand_value",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".calculate_hand_value",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "comparison",
+        "inserted": "abs(21 - player_value) < abs(21 - dealer_value)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "comparison",
+        "inserted": "abs(21 - dealer_value) < abs(21 - player_value)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "comparison",
+        "inserted": "player_value < dealer_value",
+        "deleted": "player_value < dealer_value",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "comparison",
+        "inserted": "player_value > dealer_value",
+        "deleted": "player_value > dealer_value",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "sum",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "sum",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "string:",
+        "inserted": "\"It's a tie\"",
+        "deleted": "\"It's a tie!\"",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "string:",
+        "inserted": "\"Player wins\"",
+        "deleted": "\"Player wins!\"",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "string:",
+        "inserted": "\"Dealer wins\"",
+        "deleted": "\"Dealer wins!\"",
+        "type": "Logic"
+    }
+]

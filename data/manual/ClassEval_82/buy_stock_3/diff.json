@@ -1,0 +1,412 @@
+{
+  "matches": [
+    {
+      "src": "param [47,53]",
+      "dest": "param [47,52]"
+    },
+    {
+      "src": "operator: = [140,141]",
+      "dest": "operator: * [431,432]"
+    },
+    {
+      "src": "suite [28,205]",
+      "dest": "suite [28,652]"
+    },
+    {
+      "src": "classdef [0,205]",
+      "dest": "classdef [0,652]"
+    },
+    {
+      "src": "suite [75,205]",
+      "dest": "suite [60,652]"
+    },
+    {
+      "src": "param [54,63]",
+      "dest": "param [53,58]"
+    },
+    {
+      "src": "name: quantity [142,150]",
+      "dest": "name: stock_quantity [433,447]"
+    },
+    {
+      "src": "name: quantity [54,62]",
+      "dest": "name: stock [53,58]"
+    },
+    {
+      "src": "operator: , [52,53]",
+      "dest": "operator: , [51,52]"
+    },
+    {
+      "src": "simple_stmt [123,151]",
+      "dest": "simple_stmt [400,448]"
+    },
+    {
+      "src": "name: portfolio [123,132]",
+      "dest": "name: stock_total_cost [400,416]"
+    },
+    {
+      "src": "atom_expr [177,193]",
+      "dest": "atom_expr [511,539]"
+    },
+    {
+      "src": "file_input [0,205]",
+      "dest": "file_input [0,652]"
+    },
+    {
+      "src": "name: StockPortfolioTracker [6,27]",
+      "dest": "name: StockPortfolioTracker [6,27]"
+    },
+    {
+      "src": "name: stock [47,52]",
+      "dest": "name: self [47,51]"
+    },
+    {
+      "src": "name: stock [133,138]",
+      "dest": "name: stock [533,538]"
+    },
+    {
+      "src": "name: quantity [197,205]",
+      "dest": "name: stock_total_cost [573,589]"
+    },
+    {
+      "src": "name: portfolio [177,186]",
+      "dest": "name: portfolio [516,525]"
+    },
+    {
+      "src": "trailer [132,139]",
+      "dest": "trailer [532,539]"
+    },
+    {
+      "src": "suite [164,205]",
+      "dest": "suite [498,614]"
+    },
+    {
+      "src": "parameters [46,74]",
+      "dest": "parameters [46,59]"
+    },
+    {
+      "src": "name: portfolio [100,109]",
+      "dest": "name: stock_quantity [357,371]"
+    },
+    {
+      "src": "operator: += [194,196]",
+      "dest": "operator: -= [570,572]"
+    },
+    {
+      "src": "funcdef [33,205]",
+      "dest": "funcdef [33,652]"
+    },
+    {
+      "src": "name: stock [87,92]",
+      "dest": "name: stock [334,339]"
+    },
+    {
+      "src": "name: buy_stock [37,46]",
+      "dest": "name: buy_stock [37,46]"
+    },
+    {
+      "src": "expr_stmt [123,150]",
+      "dest": "expr_stmt [400,447]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [69,312]",
+      "parent": "suite [60,652]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [320,349]",
+      "parent": "suite [60,652]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [357,392]",
+      "parent": "suite [60,652]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [123,151]",
+      "parent": "suite [60,652]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [457,652]",
+      "parent": "suite [60,652]",
+      "at": 4
+    },
+    {
+      "action": "update-node",
+      "tree": "name: stock [47,52]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: quantity [54,62]",
+      "label": "stock"
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [320,348]",
+      "parent": "simple_stmt [320,349]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [357,391]",
+      "parent": "simple_stmt [357,392]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [460,497]",
+      "parent": "if_stmt [457,652]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [164,205]",
+      "parent": "if_stmt [457,652]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [627,652]",
+      "parent": "if_stmt [457,652]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: stock_price [320,331]",
+      "parent": "expr_stmt [320,348]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [332,333]",
+      "parent": "expr_stmt [320,348]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [334,348]",
+      "parent": "expr_stmt [320,348]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: portfolio [100,109]",
+      "label": "stock_quantity"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: portfolio [100,109]",
+      "parent": "expr_stmt [357,391]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [372,373]",
+      "parent": "expr_stmt [357,391]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [374,391]",
+      "parent": "expr_stmt [357,391]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: portfolio [123,132]",
+      "label": "stock_total_cost"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: portfolio [123,132]",
+      "parent": "expr_stmt [400,447]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [417,418]",
+      "parent": "expr_stmt [400,447]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "term [419,447]",
+      "parent": "expr_stmt [400,447]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [511,540]",
+      "parent": "suite [498,614]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [552,590]",
+      "parent": "suite [498,614]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [602,614]",
+      "parent": "suite [498,614]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: stock [87,92]",
+      "parent": "atom_expr [334,348]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [339,348]",
+      "parent": "atom_expr [334,348]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: stock_price [419,430]",
+      "parent": "term [419,447]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: = [140,141]",
+      "label": "*"
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: = [140,141]",
+      "parent": "term [419,447]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: quantity [142,150]",
+      "label": "stock_quantity"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: quantity [142,150]",
+      "parent": "term [419,447]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [177,193]",
+      "parent": "simple_stmt [511,540]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [552,589]",
+      "parent": "simple_stmt [552,590]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [511,515]",
+      "parent": "atom_expr [511,539]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [515,525]",
+      "parent": "atom_expr [511,539]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [525,532]",
+      "parent": "atom_expr [511,539]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [132,139]",
+      "parent": "atom_expr [511,539]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [552,569]",
+      "parent": "expr_stmt [552,589]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: += [194,196]",
+      "label": "-="
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: += [194,196]",
+      "parent": "expr_stmt [552,589]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: quantity [197,205]",
+      "label": "stock_total_cost"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: quantity [197,205]",
+      "parent": "expr_stmt [552,589]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: portfolio [177,186]",
+      "parent": "trailer [515,525]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [62,63]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "param [64,73]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [123,139]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [186,193]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [177,205]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "comp_op [93,99]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "comparison [87,109]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [110,151]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "if_stmt [84,205]"
+    }
+  ]
+}

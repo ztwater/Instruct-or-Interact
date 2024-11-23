@@ -1,0 +1,51 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Subtracts two complex numbers.\n        :param c1: The first complex number, complex.\n        :param c2: The second complex number, complex.\n        :return: The difference of the two complex numbers, complex.\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return c1 - c2\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return a - b",
+        "deleted": "return a - b",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "c1",
+        "deleted": "a",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "c2",
+        "deleted": "b",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "c1",
+        "deleted": "a",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "c2",
+        "deleted": "b",
+        "type": "Refactoring"
+    }
+]

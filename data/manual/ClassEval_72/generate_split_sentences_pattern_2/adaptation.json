@@ -1,0 +1,93 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Generate regular expression patterns that match the middle characters of two sentences\n        :return: string, regular expression patterns that match the middle characters of two sentences\n        >>> ru = RegexUtils()\n        >>> ru.generate_split_sentences_pattern()\n        '[.!?][\\s]{1,2}(?=[A-Z])'\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "string",
+        "inserted": "\".\"",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "string",
+        "inserted": "\".\"",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "fstring_string",
+        "inserted": "[",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "fstring_string",
+        "inserted": "(?=[A-Z])",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "testlist_comp",
+        "inserted": "1,2",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "operator",
+        "inserted": "",
+        "deleted": ",",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "param",
+        "inserted": "",
+        "deleted": "sentence2",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "DEL",
+        "label": "atom_expr",
+        "inserted": "",
+        "deleted": "sentence1[len(sentence1) // 2]",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "atom_expr",
+        "inserted": "",
+        "deleted": "sentence2[len(sentence2) // 2]",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "name",
+        "inserted": "",
+        "deleted": "middle2",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "sentence1",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "fstring_string",
+        "inserted": "][\\s]",
+        "deleted": ".",
+        "type": "Logic"
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return octal_num\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return octal_num",
+        "deleted": "return octal_num",
+        "type": "Move"
+    }
+]

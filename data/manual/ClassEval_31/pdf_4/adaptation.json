@@ -1,0 +1,51 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Calculate the probability density function (PDF) of a set of data under a normal distribution.\n        :param data: The input data list, list.\n        :param mu: The mean of the normal distribution, float.\n        :param sigma: The standard deviation of the normal distribution, float.\n        :return: The probability density function (PDF), list.\n        >>> DataStatistics4.pdf([1, 2, 3], 1, 1)\n        [0.3989422804014327, 0.24197072451914337, 0.05399096651318806]\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return pdf_values\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return pdf_values",
+        "deleted": "return pdf_values",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "mu",
+        "deleted": "mean",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "sigma",
+        "deleted": "std_dev",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "mu",
+        "deleted": "mean",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "sigma",
+        "deleted": "std_dev",
+        "type": "Refactoring"
+    }
+]

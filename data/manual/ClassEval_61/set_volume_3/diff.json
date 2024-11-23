@@ -1,0 +1,144 @@
+{
+  "matches": [
+    {
+      "src": "comparison [58,76]",
+      "dest": "comparison [323,341]"
+    },
+    {
+      "src": "suite [18,263]",
+      "dest": "suite [18,515]"
+    },
+    {
+      "src": "classdef [0,263]",
+      "dest": "classdef [0,515]"
+    },
+    {
+      "src": "number: 100 [73,76]",
+      "dest": "number: 100 [338,341]"
+    },
+    {
+      "src": "suite [46,263]",
+      "dest": "suite [52,515]"
+    },
+    {
+      "src": "suite [77,173]",
+      "dest": "suite [342,400]"
+    },
+    {
+      "src": "name: volume [63,69]",
+      "dest": "name: volume [328,334]"
+    },
+    {
+      "src": "operator: <= [60,62]",
+      "dest": "operator: <= [325,327]"
+    },
+    {
+      "src": "name: MusicPlayer [6,17]",
+      "dest": "name: MusicPlayer [6,17]"
+    },
+    {
+      "src": "param [38,44]",
+      "dest": "param [44,50]"
+    },
+    {
+      "src": "trailer [204,263]",
+      "dest": "trailer [431,490]"
+    },
+    {
+      "src": "operator: <= [70,72]",
+      "dest": "operator: <= [335,337]"
+    },
+    {
+      "src": "parameters [37,45]",
+      "dest": "parameters [37,51]"
+    },
+    {
+      "src": "if_stmt [55,263]",
+      "dest": "if_stmt [320,515]"
+    },
+    {
+      "src": "name: set_volume [27,37]",
+      "dest": "name: set_volume [27,37]"
+    },
+    {
+      "src": "file_input [0,263]",
+      "dest": "file_input [0,515]"
+    },
+    {
+      "src": "name: volume [38,44]",
+      "dest": "name: volume [44,50]"
+    },
+    {
+      "src": "atom_expr [199,263]",
+      "dest": "atom_expr [426,490]"
+    },
+    {
+      "src": "name: print [199,204]",
+      "dest": "name: print [426,431]"
+    },
+    {
+      "src": "suite [186,263]",
+      "dest": "suite [413,515]"
+    },
+    {
+      "src": "funcdef [23,263]",
+      "dest": "funcdef [23,515]"
+    },
+    {
+      "src": "string: \"Invalid volume. Please enter a value between 0 and 100.\" [205,262]",
+      "dest": "string: \"Invalid volume. Please enter a value between 0 and 100.\" [432,489]"
+    },
+    {
+      "src": "number: 0 [58,59]",
+      "dest": "number: 0 [323,324]"
+    },
+    {
+      "src": "simple_stmt [168,173]",
+      "dest": "simple_stmt [355,376]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [38,43]",
+      "parent": "parameters [37,51]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [61,312]",
+      "parent": "suite [52,515]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [388,400]",
+      "parent": "suite [342,400]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [426,491]",
+      "parent": "suite [413,515]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "return_stmt [503,515]",
+      "parent": "suite [413,515]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "expr_stmt [355,375]",
+      "parent": "simple_stmt [355,376]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [199,263]",
+      "parent": "simple_stmt [426,491]",
+      "at": 0
+    }
+  ]
+}

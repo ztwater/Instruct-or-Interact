@@ -1,0 +1,390 @@
+{
+  "matches": [
+    {
+      "src": "fstring_string: = [259,260]",
+      "dest": "fstring_string: = [399,400]"
+    },
+    {
+      "src": "suite [58,332]",
+      "dest": "suite [55,461]"
+    },
+    {
+      "src": "name: open [149,153]",
+      "dest": "name: open [280,284]"
+    },
+    {
+      "src": "fstring_expr [260,274]",
+      "dest": "fstring_expr [400,407]"
+    },
+    {
+      "src": "string: \"Cookies saved to cookies_file.\" [298,330]",
+      "dest": "string: \"Cookies saved to cookies_file.\" [427,459]"
+    },
+    {
+      "src": "funcdef [23,332]",
+      "dest": "funcdef [23,461]"
+    },
+    {
+      "src": "suite [181,279]",
+      "dest": "suite [317,412]"
+    },
+    {
+      "src": "arglist [154,171]",
+      "dest": "arglist [285,307]"
+    },
+    {
+      "src": "name: cookie [198,204]",
+      "dest": "name: value [339,344]"
+    },
+    {
+      "src": "name: cookies [104,111]",
+      "dest": "name: cookies [236,243]"
+    },
+    {
+      "src": "operator: = [112,113]",
+      "dest": "operator: = [244,245]"
+    },
+    {
+      "src": "fstring_end: \" [276,277]",
+      "dest": "fstring_end: \" [409,410]"
+    },
+    {
+      "src": "name: CookiesUtil [6,17]",
+      "dest": "name: CookiesUtil [6,17]"
+    },
+    {
+      "src": "name: write [238,243]",
+      "dest": "name: write [386,391]"
+    },
+    {
+      "src": "name: value [268,273]",
+      "dest": "name: value [401,406]"
+    },
+    {
+      "src": "name: get_cookies [27,38]",
+      "dest": "name: get_cookies [27,38]"
+    },
+    {
+      "src": "parameters [38,57]",
+      "dest": "parameters [38,54]"
+    },
+    {
+      "src": "atom_expr [114,130]",
+      "dest": "atom_expr [246,265]"
+    },
+    {
+      "src": "trailer [153,172]",
+      "dest": "trailer [284,308]"
+    },
+    {
+      "src": "fstring_expr [246,259]",
+      "dest": "fstring_expr [394,399]"
+    },
+    {
+      "src": "operator: } [258,259]",
+      "dest": "operator: } [398,399]"
+    },
+    {
+      "src": "simple_stmt [233,279]",
+      "dest": "simple_stmt [381,412]"
+    },
+    {
+      "src": "atom_expr [233,278]",
+      "dest": "atom_expr [381,411]"
+    },
+    {
+      "src": "with_stmt [144,279]",
+      "dest": "with_stmt [275,412]"
+    },
+    {
+      "src": "with_item [149,180]",
+      "dest": "with_item [280,316]"
+    },
+    {
+      "src": "trailer [297,331]",
+      "dest": "trailer [426,460]"
+    },
+    {
+      "src": "param [44,56]",
+      "dest": "param [45,53]"
+    },
+    {
+      "src": "simple_stmt [67,96]",
+      "dest": "simple_stmt [64,228]"
+    },
+    {
+      "src": "param [39,43]",
+      "dest": "param [39,44]"
+    },
+    {
+      "src": "name: cookies_file [44,56]",
+      "dest": "name: response [45,53]"
+    },
+    {
+      "src": "simple_stmt [104,131]",
+      "dest": "simple_stmt [236,266]"
+    },
+    {
+      "src": "expr_stmt [104,130]",
+      "dest": "expr_stmt [236,265]"
+    },
+    {
+      "src": "name: print [292,297]",
+      "dest": "name: print [421,426]"
+    },
+    {
+      "src": "name: file [176,180]",
+      "dest": "name: file [312,316]"
+    },
+    {
+      "src": "fstring [244,277]",
+      "dest": "fstring [392,410]"
+    },
+    {
+      "src": "simple_stmt [292,332]",
+      "dest": "simple_stmt [421,461]"
+    },
+    {
+      "src": "operator: { [246,247]",
+      "dest": "operator: { [394,395]"
+    },
+    {
+      "src": "suite [18,332]",
+      "dest": "suite [18,461]"
+    },
+    {
+      "src": "operator: , [42,43]",
+      "dest": "operator: , [43,44]"
+    },
+    {
+      "src": "classdef [0,332]",
+      "dest": "classdef [0,461]"
+    },
+    {
+      "src": "trailer [122,130]",
+      "dest": "trailer [254,265]"
+    },
+    {
+      "src": "suite [216,279]",
+      "dest": "suite [364,412]"
+    },
+    {
+      "src": "name: cookies_file [154,166]",
+      "dest": "name: cookies_file [290,302]"
+    },
+    {
+      "src": "name: url [39,42]",
+      "dest": "name: self [39,43]"
+    },
+    {
+      "src": "fstring_string: \\n [274,276]",
+      "dest": "fstring_string: \\n [407,409]"
+    },
+    {
+      "src": "file_input [0,336]",
+      "dest": "file_input [0,461]"
+    },
+    {
+      "src": "name: file [233,237]",
+      "dest": "name: file [381,385]"
+    },
+    {
+      "src": "operator: { [260,261]",
+      "dest": "operator: { [400,401]"
+    },
+    {
+      "src": "operator: } [273,274]",
+      "dest": "operator: } [406,407]"
+    },
+    {
+      "src": "fstring_start: f\" [244,246]",
+      "dest": "fstring_start: f\" [392,394]"
+    },
+    {
+      "src": "trailer [237,243]",
+      "dest": "trailer [385,391]"
+    },
+    {
+      "src": "atom_expr [292,331]",
+      "dest": "atom_expr [421,460]"
+    },
+    {
+      "src": "atom_expr [149,172]",
+      "dest": "atom_expr [280,308]"
+    },
+    {
+      "src": "name: response [114,122]",
+      "dest": "name: response [246,254]"
+    },
+    {
+      "src": "operator: , [166,167]",
+      "dest": "operator: , [302,303]"
+    },
+    {
+      "src": "for_stmt [194,279]",
+      "dest": "for_stmt [330,412]"
+    },
+    {
+      "src": "name: cookie [247,253]",
+      "dest": "name: key [395,398]"
+    },
+    {
+      "src": "name: cookies [208,215]",
+      "dest": "name: cookies [348,355]"
+    },
+    {
+      "src": "string: 'w' [168,171]",
+      "dest": "string: 'w' [304,307]"
+    },
+    {
+      "src": "trailer [243,278]",
+      "dest": "trailer [391,411]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "update-node",
+      "tree": "name: url [39,42]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: cookies_file [44,56]",
+      "label": "response"
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: \"\"\"         Gets the cookies from the specified response, and save it to cookies_file.         :param response: The response to get cookies from, dict.         \"\"\" [64,227]",
+      "parent": "simple_stmt [64,228]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "exprlist [334,344]",
+      "parent": "for_stmt [330,412]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [348,363]",
+      "parent": "for_stmt [330,412]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: 'cookies' [255,264]",
+      "parent": "trailer [254,265]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: key [334,337]",
+      "parent": "exprlist [334,344]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [337,338]",
+      "parent": "exprlist [334,344]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: cookie [198,204]",
+      "label": "value"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: cookie [198,204]",
+      "parent": "exprlist [334,344]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: cookies [208,215]",
+      "parent": "atom_expr [348,363]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [355,361]",
+      "parent": "atom_expr [348,363]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [361,363]",
+      "parent": "atom_expr [348,363]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [285,302]",
+      "parent": "arglist [285,307]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [285,289]",
+      "parent": "atom_expr [285,302]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [289,302]",
+      "parent": "atom_expr [285,302]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: cookies_file [154,166]",
+      "parent": "trailer [289,302]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: cookie [247,253]",
+      "label": "key"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: cookie [247,253]",
+      "parent": "fstring_expr [394,399]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: value [268,273]",
+      "parent": "fstring_expr [400,407]",
+      "at": 1
+    },
+    {
+      "action": "delete-tree",
+      "tree": "expr_stmt [67,95]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: cookies [123,130]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [253,258]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [247,258]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: cookie [261,267]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [267,273]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [261,273]"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "matches": [
+    {
+      "src": "suite [23,125]",
+      "dest": "suite [23,338]"
+    },
+    {
+      "src": "testlist_comp [82,98]",
+      "dest": "testlist_comp [294,310]"
+    },
+    {
+      "src": "operator: , [85,86]",
+      "dest": "operator: , [297,298]"
+    },
+    {
+      "src": "classdef [0,125]",
+      "dest": "classdef [0,338]"
+    },
+    {
+      "src": "suite [59,125]",
+      "dest": "suite [63,338]"
+    },
+    {
+      "src": "expr_stmt [68,99]",
+      "dest": "expr_stmt [280,311]"
+    },
+    {
+      "src": "operator: , [91,92]",
+      "dest": "operator: , [303,304]"
+    },
+    {
+      "src": "parameters [56,58]",
+      "dest": "parameters [56,62]"
+    },
+    {
+      "src": "string: 'a' [82,85]",
+      "dest": "string: 'a' [294,297]"
+    },
+    {
+      "src": "return_stmt [108,125]",
+      "dest": "return_stmt [320,337]"
+    },
+    {
+      "src": "string: 'an' [87,91]",
+      "dest": "string: 'an' [299,303]"
+    },
+    {
+      "src": "string: 'the' [93,98]",
+      "dest": "string: 'the' [305,310]"
+    },
+    {
+      "src": "name: NLPDataProcessor [6,22]",
+      "dest": "name: NLPDataProcessor [6,22]"
+    },
+    {
+      "src": "name: stop_words [68,78]",
+      "dest": "name: stop_words [280,290]"
+    },
+    {
+      "src": "atom [81,99]",
+      "dest": "atom [293,311]"
+    },
+    {
+      "src": "simple_stmt [68,100]",
+      "dest": "simple_stmt [280,312]"
+    },
+    {
+      "src": "operator: = [79,80]",
+      "dest": "operator: = [291,292]"
+    },
+    {
+      "src": "file_input [0,125]",
+      "dest": "file_input [0,338]"
+    },
+    {
+      "src": "funcdef [28,125]",
+      "dest": "funcdef [28,338]"
+    },
+    {
+      "src": "name: construct_stop_word_list [32,56]",
+      "dest": "name: construct_stop_word_list [32,56]"
+    },
+    {
+      "src": "name: stop_words [115,125]",
+      "dest": "name: stop_words [327,337]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [57,61]",
+      "parent": "parameters [56,62]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [72,272]",
+      "parent": "suite [63,338]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [320,338]",
+      "parent": "suite [63,338]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [108,125]",
+      "parent": "simple_stmt [320,338]",
+      "at": 0
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "matches": [
+    {
+      "src": "suite [127,203]",
+      "dest": "suite [644,973]"
+    },
+    {
+      "src": "name: course_time [162,173]",
+      "dest": "name: course_end_time [927,942]"
+    },
+    {
+      "src": "return_stmt [211,223]",
+      "dest": "return_stmt [981,992]"
+    },
+    {
+      "src": "suite [16,223]",
+      "dest": "suite [16,993]"
+    },
+    {
+      "src": "classdef [0,223]",
+      "dest": "classdef [0,993]"
+    },
+    {
+      "src": "if_stmt [140,203]",
+      "dest": "if_stmt [815,973]"
+    },
+    {
+      "src": "return_stmt [191,202]",
+      "dest": "return_stmt [960,972]"
+    },
+    {
+      "src": "suite [82,223]",
+      "dest": "suite [65,993]"
+    },
+    {
+      "src": "name: new_course_time [143,158]",
+      "dest": "name: new_course_end_time [904,923]"
+    },
+    {
+      "src": "suite [174,203]",
+      "dest": "suite [943,973]"
+    },
+    {
+      "src": "name: existing_courses [64,80]",
+      "dest": "name: new_course [53,63]"
+    },
+    {
+      "src": "operator: , [62,63]",
+      "dest": "operator: , [51,52]"
+    },
+    {
+      "src": "name: new_course_time [47,62]",
+      "dest": "name: self [47,51]"
+    },
+    {
+      "src": "simple_stmt [191,203]",
+      "dest": "simple_stmt [960,973]"
+    },
+    {
+      "src": "name: course_time [95,106]",
+      "dest": "name: course [621,627]"
+    },
+    {
+      "src": "file_input [0,223]",
+      "dest": "file_input [0,993]"
+    },
+    {
+      "src": "comparison [143,173]",
+      "dest": "comparison [883,942]"
+    },
+    {
+      "src": "name: check_course_conflict [25,46]",
+      "dest": "name: check_course_conflict [25,46]"
+    },
+    {
+      "src": "param [64,80]",
+      "dest": "param [53,63]"
+    },
+    {
+      "src": "param [47,63]",
+      "dest": "param [47,52]"
+    },
+    {
+      "src": "for_stmt [91,203]",
+      "dest": "for_stmt [617,973]"
+    },
+    {
+      "src": "operator: == [159,161]",
+      "dest": "operator: <= [924,926]"
+    },
+    {
+      "src": "funcdef [21,223]",
+      "dest": "funcdef [21,993]"
+    },
+    {
+      "src": "parameters [46,81]",
+      "dest": "parameters [46,64]"
+    },
+    {
+      "src": "name: existing_courses [110,126]",
+      "dest": "name: courses [636,643]"
+    },
+    {
+      "src": "name: Classroom [6,15]",
+      "dest": "name: Classroom [6,15]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [74,443]",
+      "parent": "suite [65,993]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [451,528]",
+      "parent": "suite [65,993]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [536,609]",
+      "parent": "suite [65,993]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [981,993]",
+      "parent": "suite [65,993]",
+      "at": 4
+    },
+    {
+      "action": "update-node",
+      "tree": "name: new_course_time [47,62]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: existing_courses [64,80]",
+      "label": "new_course"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: course_time [95,106]",
+      "label": "course"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [631,643]",
+      "parent": "for_stmt [617,973]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [211,223]",
+      "parent": "simple_stmt [981,993]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [631,635]",
+      "parent": "atom_expr [631,643]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [635,643]",
+      "parent": "atom_expr [631,643]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [657,726]",
+      "parent": "suite [644,973]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [738,803]",
+      "parent": "suite [644,973]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: existing_courses [110,126]",
+      "label": "courses"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: existing_courses [110,126]",
+      "parent": "trailer [635,643]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "or_test [818,942]",
+      "parent": "if_stmt [815,973]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [818,879]",
+      "parent": "or_test [818,942]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "comparison [143,173]",
+      "parent": "or_test [818,942]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: course_start_time [883,900]",
+      "parent": "comparison [883,942]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: <= [901,903]",
+      "parent": "comparison [883,942]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: new_course_time [143,158]",
+      "label": "new_course_end_time"
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: == [159,161]",
+      "label": "<="
+    },
+    {
+      "action": "update-node",
+      "tree": "name: course_time [162,173]",
+      "label": "course_end_time"
+    }
+  ]
+}

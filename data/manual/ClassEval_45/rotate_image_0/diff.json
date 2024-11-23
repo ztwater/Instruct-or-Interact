@@ -1,0 +1,291 @@
+{
+  "matches": [
+    {
+      "src": "name: rotate_image [30,42]",
+      "dest": "name: rotate_image [30,42]"
+    },
+    {
+      "src": "name: image [95,100]",
+      "dest": "name: image [302,307]"
+    },
+    {
+      "src": "trailer [115,119]",
+      "dest": "trailer [327,336]"
+    },
+    {
+      "src": "suite [21,220]",
+      "dest": "suite [21,481]"
+    },
+    {
+      "src": "parameters [42,49]",
+      "dest": "parameters [42,57]"
+    },
+    {
+      "src": "classdef [0,220]",
+      "dest": "classdef [0,481]"
+    },
+    {
+      "src": "atom_expr [103,119]",
+      "dest": "atom_expr [310,336]"
+    },
+    {
+      "src": "suite [50,220]",
+      "dest": "suite [58,481]"
+    },
+    {
+      "src": "suite [158,220]",
+      "dest": "suite [354,421]"
+    },
+    {
+      "src": "param [43,48]",
+      "dest": "param [43,48]"
+    },
+    {
+      "src": "trailer [108,115]",
+      "dest": "trailer [320,327]"
+    },
+    {
+      "src": "atom_expr [62,72]",
+      "dest": "atom_expr [255,270]"
+    },
+    {
+      "src": "file_input [0,220]",
+      "dest": "file_input [0,481]"
+    },
+    {
+      "src": "string: 'RGB' [76,81]",
+      "dest": "string: 'RGB' [274,279]"
+    },
+    {
+      "src": "name: mode [68,72]",
+      "dest": "name: mode [266,270]"
+    },
+    {
+      "src": "name: ImageProcessor [6,20]",
+      "dest": "name: ImageProcessor [6,20]"
+    },
+    {
+      "src": "return_stmt [171,220]",
+      "dest": "return_stmt [371,420]"
+    },
+    {
+      "src": "name: rotate [109,115]",
+      "dest": "name: rotate [321,327]"
+    },
+    {
+      "src": "name: image [103,108]",
+      "dest": "name: image [315,320]"
+    },
+    {
+      "src": "trailer [67,72]",
+      "dest": "trailer [265,270]"
+    },
+    {
+      "src": "string: \"Image is not in RGB mode, cannot rotate.\" [178,220]",
+      "dest": "string: \"Image is not in RGB mode, cannot rotate.\" [378,420]"
+    },
+    {
+      "src": "name: image [43,48]",
+      "dest": "name: self [43,47]"
+    },
+    {
+      "src": "simple_stmt [95,120]",
+      "dest": "simple_stmt [297,337]"
+    },
+    {
+      "src": "comparison [62,81]",
+      "dest": "comparison [255,279]"
+    },
+    {
+      "src": "name: image [62,67]",
+      "dest": "name: image [260,265]"
+    },
+    {
+      "src": "if_stmt [59,220]",
+      "dest": "if_stmt [213,481]"
+    },
+    {
+      "src": "operator: = [101,102]",
+      "dest": "operator: = [308,309]"
+    },
+    {
+      "src": "operator: == [73,75]",
+      "dest": "operator: == [271,273]"
+    },
+    {
+      "src": "funcdef [26,220]",
+      "dest": "funcdef [26,481]"
+    },
+    {
+      "src": "expr_stmt [95,119]",
+      "dest": "expr_stmt [297,336]"
+    },
+    {
+      "src": "simple_stmt [132,145]",
+      "dest": "simple_stmt [371,421]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [49,56]",
+      "parent": "parameters [42,57]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [67,205]",
+      "parent": "suite [58,481]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: image [43,48]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [47,48]",
+      "parent": "param [43,48]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [216,238]",
+      "parent": "if_stmt [213,481]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [239,421]",
+      "parent": "if_stmt [213,481]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [434,481]",
+      "parent": "if_stmt [213,481]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [252,421]",
+      "parent": "suite [239,421]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "comparison [62,81]",
+      "parent": "if_stmt [252,421]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [280,337]",
+      "parent": "if_stmt [252,421]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [158,220]",
+      "parent": "if_stmt [252,421]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [95,120]",
+      "parent": "suite [280,337]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [132,145]",
+      "parent": "suite [354,421]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [255,259]",
+      "parent": "atom_expr [255,270]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [259,265]",
+      "parent": "atom_expr [255,270]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [171,220]",
+      "parent": "simple_stmt [371,421]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: image [62,67]",
+      "parent": "trailer [259,265]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [297,307]",
+      "parent": "expr_stmt [297,336]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [297,301]",
+      "parent": "atom_expr [297,307]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [301,307]",
+      "parent": "atom_expr [297,307]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [310,314]",
+      "parent": "atom_expr [310,336]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [314,320]",
+      "parent": "atom_expr [310,336]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: image [95,100]",
+      "parent": "trailer [301,307]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: image [103,108]",
+      "parent": "trailer [314,320]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: degrees [328,335]",
+      "parent": "trailer [327,336]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 90 [116,118]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "return_stmt [132,144]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [82,145]"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Calculate recall\n        :param predicted_labels: list, predicted results\n        :param true_labels: list, true labels\n        :return: float\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "true_positives = 0\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "false_negatives = 0\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "for_stmt",
+        "inserted": "for i in range(len(predicted_labels)):\n            if predicted_labels[i] == 1 and true_labels[i] == 1:\n                true_positives += 1\n            elif predicted_labels[i] == 0 and true_labels[i] == 1:\n                false_negatives += 1\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "predicted_labels",
+        "deleted": "true_positives",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "true_labels",
+        "deleted": "false_negatives",
+        "type": "Refactoring"
+    }
+]

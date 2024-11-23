@@ -1,0 +1,30 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Split a string into a list of sentences. Sentences end with . or ? and with a space after that. Please note that Mr. also end with . but are not sentences.\n        :param sentences_string: string, string to split\n        :return:list, split sentence list\n        >>> ss = SplitSentence()\n        >>> ss.split_sentences(\"aaa aaaa. bb bbbb bbb? cccc cccc. dd ddd?\")\n        ['aaa aaaa.', 'bb bbbb bbb?', 'cccc cccc.', 'dd ddd?']\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "sentences_string",
+        "deleted": "string",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "sentences_string",
+        "deleted": "string",
+        "type": "Refactoring"
+    }
+]

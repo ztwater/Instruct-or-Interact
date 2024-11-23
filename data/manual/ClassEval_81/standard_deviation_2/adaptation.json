@@ -1,0 +1,44 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return std_deviation\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return std_deviation",
+        "deleted": "return std_deviation",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "data",
+        "deleted": "lst",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "data",
+        "deleted": "lst",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "data",
+        "deleted": "lst",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "data",
+        "deleted": "lst",
+        "type": "Refactoring"
+    }
+]

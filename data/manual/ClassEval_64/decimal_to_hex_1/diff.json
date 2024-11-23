@@ -1,0 +1,113 @@
+{
+  "matches": [
+    {
+      "src": "return_stmt [97,113]",
+      "dest": "return_stmt [402,416]"
+    },
+    {
+      "src": "suite [22,113]",
+      "dest": "suite [22,416]"
+    },
+    {
+      "src": "name: hex [76,79]",
+      "dest": "name: hex [345,348]"
+    },
+    {
+      "src": "trailer [79,88]",
+      "dest": "trailer [348,361]"
+    },
+    {
+      "src": "name: NumberConverter [6,21]",
+      "dest": "name: NumberConverter [6,21]"
+    },
+    {
+      "src": "name: hex_value [104,113]",
+      "dest": "name: hex_num [409,416]"
+    },
+    {
+      "src": "classdef [0,113]",
+      "dest": "classdef [0,416]"
+    },
+    {
+      "src": "name: decimal_to_hex [31,45]",
+      "dest": "name: decimal_to_hex [31,45]"
+    },
+    {
+      "src": "suite [55,113]",
+      "dest": "suite [59,416]"
+    },
+    {
+      "src": "param [46,53]",
+      "dest": "param [46,57]"
+    },
+    {
+      "src": "operator: = [74,75]",
+      "dest": "operator: = [343,344]"
+    },
+    {
+      "src": "name: decimal [80,87]",
+      "dest": "name: decimal_num [349,360]"
+    },
+    {
+      "src": "name: decimal [46,53]",
+      "dest": "name: decimal_num [46,57]"
+    },
+    {
+      "src": "parameters [45,54]",
+      "dest": "parameters [45,58]"
+    },
+    {
+      "src": "file_input [0,113]",
+      "dest": "file_input [0,416]"
+    },
+    {
+      "src": "simple_stmt [64,89]",
+      "dest": "simple_stmt [333,362]"
+    },
+    {
+      "src": "funcdef [27,113]",
+      "dest": "funcdef [27,416]"
+    },
+    {
+      "src": "expr_stmt [64,88]",
+      "dest": "expr_stmt [333,361]"
+    },
+    {
+      "src": "atom_expr [76,88]",
+      "dest": "atom_expr [345,361]"
+    },
+    {
+      "src": "name: hex_value [64,73]",
+      "dest": "name: hex_value [333,342]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [68,325]",
+      "parent": "suite [59,416]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [370,394]",
+      "parent": "suite [59,416]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: decimal [46,53]",
+      "label": "decimal_num"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: hex_value [104,113]",
+      "label": "hex_num"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: decimal [80,87]",
+      "label": "decimal_num"
+    }
+  ]
+}

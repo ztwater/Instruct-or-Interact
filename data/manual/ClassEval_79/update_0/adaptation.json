@@ -1,0 +1,58 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Generates an UPDATE SQL statement based on the given data and condition.\n        :param data: dict. The data to be updated, in dictionary form where keys are field names and values are new field values.\n        :param condition: str. The condition expression for the update.\n        :return: str. The generated SQL statement.\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".table_name",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "simple_stmt",
+        "inserted": "",
+        "deleted": "where_clause = ' AND '.join([f\"{key} = '{value}'\" for key, value in condition.items()])\n",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "table",
+        "deleted": "table",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "table",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "condition",
+        "deleted": "where_clause",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "table_name",
+        "deleted": "table",
+        "type": "Refactoring"
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Calculate the total value of the portfolio.\n        :return: the total value of the portfolio, float.\n        >>> tracker = StockPortfolioTracker(10000.0)\n        >>> tracker.portfolio = [{'name': 'AAPL', 'price': 150.0, 'quantity': 10}]\n        >>> tracker.calculate_portfolio_value()\n        11500.0\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".portfolio",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "portfolio",
+        "deleted": "portfolio",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "portfolio",
+        "type": "Refactoring"
+    }
+]

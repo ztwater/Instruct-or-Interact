@@ -1,0 +1,133 @@
+{
+  "matches": [
+    {
+      "src": "return_stmt [163,178]",
+      "dest": "return_stmt [121,136]"
+    },
+    {
+      "src": "param [41,52]",
+      "dest": "param [41,46]"
+    },
+    {
+      "src": "name: xml_string [41,51]",
+      "dest": "name: self [41,45]"
+    },
+    {
+      "src": "suite [19,178]",
+      "dest": "suite [19,136]"
+    },
+    {
+      "src": "classdef [0,178]",
+      "dest": "classdef [0,136]"
+    },
+    {
+      "src": "simple_stmt [117,155]",
+      "dest": "simple_stmt [70,113]"
+    },
+    {
+      "src": "suite [67,178]",
+      "dest": "suite [61,136]"
+    },
+    {
+      "src": "param [53,65]",
+      "dest": "param [47,59]"
+    },
+    {
+      "src": "atom_expr [128,154]",
+      "dest": "atom_expr [81,112]"
+    },
+    {
+      "src": "name: element_name [53,65]",
+      "dest": "name: element_name [47,59]"
+    },
+    {
+      "src": "trailer [140,154]",
+      "dest": "trailer [98,112]"
+    },
+    {
+      "src": "operator: , [51,52]",
+      "dest": "operator: , [45,46]"
+    },
+    {
+      "src": "file_input [0,178]",
+      "dest": "file_input [0,136]"
+    },
+    {
+      "src": "name: root [128,132]",
+      "dest": "name: root [86,90]"
+    },
+    {
+      "src": "name: elements [170,178]",
+      "dest": "name: elements [128,136]"
+    },
+    {
+      "src": "name: element_name [141,153]",
+      "dest": "name: element_name [99,111]"
+    },
+    {
+      "src": "name: find_element [28,40]",
+      "dest": "name: find_element [28,40]"
+    },
+    {
+      "src": "name: findall [133,140]",
+      "dest": "name: findall [91,98]"
+    },
+    {
+      "src": "name: XMLProcessor [6,18]",
+      "dest": "name: XMLProcessor [6,18]"
+    },
+    {
+      "src": "operator: = [126,127]",
+      "dest": "operator: = [79,80]"
+    },
+    {
+      "src": "parameters [40,66]",
+      "dest": "parameters [40,60]"
+    },
+    {
+      "src": "expr_stmt [117,154]",
+      "dest": "expr_stmt [70,112]"
+    },
+    {
+      "src": "funcdef [24,178]",
+      "dest": "funcdef [24,136]"
+    },
+    {
+      "src": "name: elements [117,125]",
+      "dest": "name: elements [70,78]"
+    },
+    {
+      "src": "trailer [132,140]",
+      "dest": "trailer [90,98]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "update-node",
+      "tree": "name: xml_string [41,51]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [81,85]",
+      "parent": "atom_expr [81,112]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [85,90]",
+      "parent": "atom_expr [81,112]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: root [128,132]",
+      "parent": "trailer [85,90]",
+      "at": 0
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [76,109]"
+    }
+  ]
+}

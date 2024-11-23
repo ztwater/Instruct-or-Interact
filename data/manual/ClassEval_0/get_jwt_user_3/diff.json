@@ -1,0 +1,284 @@
+{
+  "matches": [
+    {
+      "src": "atom_expr [485,510]",
+      "dest": "atom_expr [942,967]"
+    },
+    {
+      "src": "suite [26,540]",
+      "dest": "suite [26,993]"
+    },
+    {
+      "src": "string: 'HS256' [315,322]",
+      "dest": "string: 'HS256' [776,783]"
+    },
+    {
+      "src": "operator: = [265,266]",
+      "dest": "operator: = [726,727]"
+    },
+    {
+      "src": "classdef [0,540]",
+      "dest": "classdef [0,993]"
+    },
+    {
+      "src": "suite [57,540]",
+      "dest": "suite [63,993]"
+    },
+    {
+      "src": "name: request [48,55]",
+      "dest": "name: request [54,61]"
+    },
+    {
+      "src": "name: user_info [473,482]",
+      "dest": "name: user_info [930,939]"
+    },
+    {
+      "src": "trailer [354,372]",
+      "dest": "trailer [815,833]"
+    },
+    {
+      "src": "trailer [270,277]",
+      "dest": "trailer [731,738]"
+    },
+    {
+      "src": "name: jwt_token [278,287]",
+      "dest": "name: jwt_token [739,748]"
+    },
+    {
+      "src": "name: get [499,502]",
+      "dest": "name: get [956,959]"
+    },
+    {
+      "src": "trailer [161,178]",
+      "dest": "trailer [626,643]"
+    },
+    {
+      "src": "trailer [502,510]",
+      "dest": "trailer [959,967]"
+    },
+    {
+      "src": "simple_stmt [130,179]",
+      "dest": "simple_stmt [592,644]"
+    },
+    {
+      "src": "argument [303,323]",
+      "dest": "argument [764,784]"
+    },
+    {
+      "src": "operator: = [313,314]",
+      "dest": "operator: = [774,775]"
+    },
+    {
+      "src": "atom_expr [340,372]",
+      "dest": "atom_expr [801,833]"
+    },
+    {
+      "src": "name: get_jwt_user [35,47]",
+      "dest": "name: get_jwt_user [35,47]"
+    },
+    {
+      "src": "string: 'Authorization' [162,177]",
+      "dest": "string: 'Authorization' [627,642]"
+    },
+    {
+      "src": "arglist [278,323]",
+      "dest": "arglist [739,784]"
+    },
+    {
+      "src": "except_clause [333,372]",
+      "dest": "except_clause [794,833]"
+    },
+    {
+      "src": "operator: = [483,484]",
+      "dest": "operator: = [940,941]"
+    },
+    {
+      "src": "expr_stmt [251,324]",
+      "dest": "expr_stmt [712,785]"
+    },
+    {
+      "src": "name: user_info [531,540]",
+      "dest": "name: user_info [984,993]"
+    },
+    {
+      "src": "funcdef [31,540]",
+      "dest": "funcdef [31,993]"
+    },
+    {
+      "src": "trailer [149,157]",
+      "dest": "trailer [611,622]"
+    },
+    {
+      "src": "name: request [142,149]",
+      "dest": "name: request [604,611]"
+    },
+    {
+      "src": "operator: = [140,141]",
+      "dest": "operator: = [602,603]"
+    },
+    {
+      "src": "name: InvalidTokenError [355,372]",
+      "dest": "name: InvalidTokenError [816,833]"
+    },
+    {
+      "src": "atom_expr [142,178]",
+      "dest": "atom_expr [604,643]"
+    },
+    {
+      "src": "name: decoded_token [485,498]",
+      "dest": "name: decoded_token [942,955]"
+    },
+    {
+      "src": "name: algorithms [303,313]",
+      "dest": "name: algorithms [764,774]"
+    },
+    {
+      "src": "suite [238,325]",
+      "dest": "suite [699,786]"
+    },
+    {
+      "src": "name: decode [271,277]",
+      "dest": "name: decode [732,738]"
+    },
+    {
+      "src": "name: exceptions [344,354]",
+      "dest": "name: exceptions [805,815]"
+    },
+    {
+      "src": "atom_expr [267,324]",
+      "dest": "atom_expr [728,785]"
+    },
+    {
+      "src": "return_stmt [524,540]",
+      "dest": "return_stmt [977,993]"
+    },
+    {
+      "src": "expr_stmt [473,510]",
+      "dest": "expr_stmt [930,967]"
+    },
+    {
+      "src": "name: AccessGatewayFilter [6,25]",
+      "dest": "name: AccessGatewayFilter [6,25]"
+    },
+    {
+      "src": "simple_stmt [251,325]",
+      "dest": "simple_stmt [712,786]"
+    },
+    {
+      "src": "name: decoded_token [251,264]",
+      "dest": "name: decoded_token [712,725]"
+    },
+    {
+      "src": "name: jwt_token [130,139]",
+      "dest": "name: jwt_token [592,601]"
+    },
+    {
+      "src": "param [48,55]",
+      "dest": "param [54,61]"
+    },
+    {
+      "src": "file_input [0,540]",
+      "dest": "file_input [0,993]"
+    },
+    {
+      "src": "atom [314,323]",
+      "dest": "atom [775,784]"
+    },
+    {
+      "src": "trailer [157,161]",
+      "dest": "trailer [622,626]"
+    },
+    {
+      "src": "parameters [47,56]",
+      "dest": "parameters [47,62]"
+    },
+    {
+      "src": "operator: , [287,288]",
+      "dest": "operator: , [748,749]"
+    },
+    {
+      "src": "name: jwt [340,343]",
+      "dest": "name: jwt [801,804]"
+    },
+    {
+      "src": "name: jwt [267,270]",
+      "dest": "name: jwt [728,731]"
+    },
+    {
+      "src": "simple_stmt [473,511]",
+      "dest": "simple_stmt [930,968]"
+    },
+    {
+      "src": "operator: , [301,302]",
+      "dest": "operator: , [762,763]"
+    },
+    {
+      "src": "string: 'user' [503,509]",
+      "dest": "string: 'user' [960,966]"
+    },
+    {
+      "src": "string: 'secret_key' [289,301]",
+      "dest": "string: 'secret_key' [750,762]"
+    },
+    {
+      "src": "trailer [277,324]",
+      "dest": "trailer [738,785]"
+    },
+    {
+      "src": "trailer [498,502]",
+      "dest": "trailer [955,959]"
+    },
+    {
+      "src": "trailer [343,354]",
+      "dest": "trailer [804,815]"
+    },
+    {
+      "src": "suite [373,398]",
+      "dest": "suite [834,859]"
+    },
+    {
+      "src": "try_stmt [234,398]",
+      "dest": "try_stmt [695,859]"
+    },
+    {
+      "src": "simple_stmt [386,398]",
+      "dest": "simple_stmt [847,859]"
+    },
+    {
+      "src": "return_stmt [386,397]",
+      "dest": "return_stmt [847,858]"
+    },
+    {
+      "src": "expr_stmt [130,178]",
+      "dest": "expr_stmt [592,643]"
+    },
+    {
+      "src": "name: get [158,161]",
+      "dest": "name: get [623,626]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [48,53]",
+      "parent": "parameters [47,62]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [72,520]",
+      "parent": "suite [63,993]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: 'headers' [612,621]",
+      "parent": "trailer [611,622]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: headers [150,157]"
+    }
+  ]
+}

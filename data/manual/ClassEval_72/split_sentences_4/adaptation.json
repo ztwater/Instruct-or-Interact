@@ -1,0 +1,16 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Split the text into a list of sentences without Punctuation except the last sentence\n        :param text: Text to be split\n        :return: Split Text List\n        >>> ru = RegexUtils()\n        >>> ru.split_sentences(\"Aaa. Bbbb? Ccc!\")\n        ['Aaa', 'Bbbb', 'Ccc!']\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    }
+]

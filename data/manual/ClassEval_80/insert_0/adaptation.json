@@ -1,0 +1,107 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "data",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Generate the INSERT SQL statement from the given parameters.\n        :param table: str, the table to be inserted in database.\n        :param data: dict, the key and value in SQL insert statement\n        :return query: str, the SQL insert statement.\n        >>> SQLQueryBuilder.insert('table1', {'name': 'Test', 'age': 14})\n        \"INSERT INTO table1 (name, age) VALUES ('Test', '14')\"\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "values = [str(value) for value in values]\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "list(data.keys())",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "list(data.values())",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "param",
+        "inserted": "",
+        "deleted": "column_names,",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "DEL",
+        "label": "param",
+        "inserted": "",
+        "deleted": "values",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "MOV",
+        "label": "param",
+        "inserted": "table_name,",
+        "deleted": "table_name,",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "column_names",
+        "deleted": "column_names",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": ",",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "values",
+        "deleted": "values",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "table",
+        "deleted": "table_name",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": ",",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "table",
+        "deleted": "table_name",
+        "type": "Refactoring"
+    }
+]

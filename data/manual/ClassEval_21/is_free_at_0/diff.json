@@ -1,0 +1,267 @@
+{
+  "matches": [
+    {
+      "src": "name: formatted_time [71,85]",
+      "dest": "name: formatted_time [583,597]"
+    },
+    {
+      "src": "suite [16,222]",
+      "dest": "suite [16,924]"
+    },
+    {
+      "src": "comparison [122,158]",
+      "dest": "comparison [834,874]"
+    },
+    {
+      "src": "suite [159,185]",
+      "dest": "suite [875,905]"
+    },
+    {
+      "src": "classdef [0,222]",
+      "dest": "classdef [0,924]"
+    },
+    {
+      "src": "simple_stmt [172,185]",
+      "dest": "simple_stmt [892,905]"
+    },
+    {
+      "src": "name: strftime [93,101]",
+      "dest": "name: strptime [609,617]"
+    },
+    {
+      "src": "param [36,41]",
+      "dest": "param [36,41]"
+    },
+    {
+      "src": "return_stmt [211,222]",
+      "dest": "return_stmt [913,924]"
+    },
+    {
+      "src": "funcdef [21,222]",
+      "dest": "funcdef [21,924]"
+    },
+    {
+      "src": "atom_expr [88,110]",
+      "dest": "atom_expr [600,638]"
+    },
+    {
+      "src": "param [42,60]",
+      "dest": "param [42,52]"
+    },
+    {
+      "src": "file_input [0,222]",
+      "dest": "file_input [0,924]"
+    },
+    {
+      "src": "string: '%H:%M' [102,109]",
+      "dest": "string: '%H:%M' [630,637]"
+    },
+    {
+      "src": "return_stmt [172,184]",
+      "dest": "return_stmt [892,904]"
+    },
+    {
+      "src": "name: classroom_schedule [42,60]",
+      "dest": "name: check_time [42,52]"
+    },
+    {
+      "src": "name: classroom_schedule [140,158]",
+      "dest": "name: end_time [866,874]"
+    },
+    {
+      "src": "trailer [101,110]",
+      "dest": "trailer [617,638]"
+    },
+    {
+      "src": "name: Classroom [6,15]",
+      "dest": "name: Classroom [6,15]"
+    },
+    {
+      "src": "trailer [92,101]",
+      "dest": "trailer [608,617]"
+    },
+    {
+      "src": "operator: = [86,87]",
+      "dest": "operator: = [598,599]"
+    },
+    {
+      "src": "simple_stmt [71,111]",
+      "dest": "simple_stmt [583,639]"
+    },
+    {
+      "src": "operator: , [40,41]",
+      "dest": "operator: , [40,41]"
+    },
+    {
+      "src": "name: is_free_at [25,35]",
+      "dest": "name: is_free_at [25,35]"
+    },
+    {
+      "src": "suite [62,222]",
+      "dest": "suite [54,924]"
+    },
+    {
+      "src": "name: time [88,92]",
+      "dest": "name: datetime [600,608]"
+    },
+    {
+      "src": "name: time [36,40]",
+      "dest": "name: self [36,40]"
+    },
+    {
+      "src": "name: formatted_time [122,136]",
+      "dest": "name: formatted_time [848,862]"
+    },
+    {
+      "src": "parameters [35,61]",
+      "dest": "parameters [35,53]"
+    },
+    {
+      "src": "expr_stmt [71,110]",
+      "dest": "expr_stmt [583,638]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [63,575]",
+      "parent": "suite [54,924]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "for_stmt [647,905]",
+      "parent": "suite [54,924]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [211,222]",
+      "parent": "suite [54,924]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: time [36,40]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: classroom_schedule [42,60]",
+      "label": "check_time"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: course [651,657]",
+      "parent": "for_stmt [647,905]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [661,673]",
+      "parent": "for_stmt [647,905]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [674,905]",
+      "parent": "for_stmt [647,905]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [687,749]",
+      "parent": "suite [674,905]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [761,819]",
+      "parent": "suite [674,905]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [831,905]",
+      "parent": "suite [674,905]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: time [88,92]",
+      "label": "datetime"
+    },
+    {
+      "action": "move-tree",
+      "tree": "comparison [122,158]",
+      "parent": "if_stmt [831,905]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [159,185]",
+      "parent": "if_stmt [831,905]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: strftime [93,101]",
+      "label": "strptime"
+    },
+    {
+      "action": "insert-node",
+      "tree": "arglist [618,637]",
+      "parent": "trailer [617,638]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: start_time [834,844]",
+      "parent": "comparison [834,874]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: <= [845,847]",
+      "parent": "comparison [834,874]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: <= [863,865]",
+      "parent": "comparison [834,874]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: classroom_schedule [140,158]",
+      "label": "end_time"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: check_time [618,628]",
+      "parent": "arglist [618,637]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [628,629]",
+      "parent": "arglist [618,637]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "string: '%H:%M' [102,109]",
+      "parent": "arglist [618,637]",
+      "at": 2
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [198,222]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "if_stmt [119,222]"
+    }
+  ]
+}

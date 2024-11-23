@@ -1,0 +1,44 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "amount",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Inserts coins into the vending machine.\n        :param amount: The amount of coins to be inserted, float.\n        :return: The balance of the vending machine after the coins are inserted, float.\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "self.balance += amount\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return self.balance\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "coin",
+        "type": "Refactoring"
+    }
+]

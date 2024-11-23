@@ -1,0 +1,23 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Generate regular expression patterns that match email addresses\n        :return: string, regular expression patterns that match email addresses\n        >>> ru = RegexUtils()\n        >>> ru.generate_email_pattern()\n        '\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z|a-z]{2,}\\b'\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "UPD",
+        "label": "string",
+        "inserted": "r'\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z|a-z]{2,}\\b'",
+        "deleted": "r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$'",
+        "type": "Logic"
+    }
+]

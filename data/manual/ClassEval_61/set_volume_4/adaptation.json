@@ -1,0 +1,51 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Sets the volume of the music player, if the volume is between 0 and 100 is valid.\n        :param volume: The volume to set the music player to, int.\n        :return: True if the volume was set, False if the volume was invalid.\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return True\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "print(\"Invalid volume. Please enter a value between 0 and 100.\")\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "return_stmt",
+        "inserted": "return False",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "expr_stmt",
+        "inserted": "self.volume = volume",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "print(\"Invalid volume. Please enter a value between 0 and 100.\")",
+        "deleted": "print(\"Invalid volume. Please enter a value between 0 and 100.\")",
+        "type": "Move"
+    }
+]

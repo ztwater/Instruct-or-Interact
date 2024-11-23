@@ -1,0 +1,65 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Remove an event from the calendar.\n        :param event: The event to be removed from the calendar, dict.\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".events",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".events",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "simple_stmt",
+        "inserted": "",
+        "deleted": "print(\"Event not found in the calendar.\")\n",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "print(\"Event not found in the calendar.\")",
+        "deleted": "print(\"Event not found in the calendar.\")",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "calendar",
+        "deleted": "calendar",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "calendar",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "calendar",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "calendar",
+        "type": "Refactoring"
+    }
+]

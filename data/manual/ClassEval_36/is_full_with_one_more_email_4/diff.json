@@ -1,0 +1,185 @@
+{
+  "matches": [
+    {
+      "src": "return_stmt [180,192]",
+      "dest": "return_stmt [593,605]"
+    },
+    {
+      "src": "suite [18,230]",
+      "dest": "suite [18,643]"
+    },
+    {
+      "src": "name: is_full_with_one_more_email [27,54]",
+      "dest": "name: is_full_with_one_more_email [27,54]"
+    },
+    {
+      "src": "operator: , [69,70]",
+      "dest": "operator: , [59,60]"
+    },
+    {
+      "src": "name: email_box_size [109,123]",
+      "dest": "name: get_occupied_size [514,531]"
+    },
+    {
+      "src": "classdef [0,230]",
+      "dest": "classdef [0,643]"
+    },
+    {
+      "src": "suite [83,230]",
+      "dest": "suite [67,643]"
+    },
+    {
+      "src": "name: email_size [71,81]",
+      "dest": "name: size [61,65]"
+    },
+    {
+      "src": "comparison [136,166]",
+      "dest": "comparison [545,579]"
+    },
+    {
+      "src": "param [71,81]",
+      "dest": "param [61,65]"
+    },
+    {
+      "src": "return_stmt [219,230]",
+      "dest": "return_stmt [632,643]"
+    },
+    {
+      "src": "name: sum [105,108]",
+      "dest": "name: self [509,513]"
+    },
+    {
+      "src": "atom_expr [105,124]",
+      "dest": "atom_expr [509,533]"
+    },
+    {
+      "src": "name: total_size [136,146]",
+      "dest": "name: total_size [545,555]"
+    },
+    {
+      "src": "name: email_box_size [55,69]",
+      "dest": "name: self [55,59]"
+    },
+    {
+      "src": "file_input [0,230]",
+      "dest": "file_input [0,643]"
+    },
+    {
+      "src": "simple_stmt [180,193]",
+      "dest": "simple_stmt [593,606]"
+    },
+    {
+      "src": "operator: + [147,148]",
+      "dest": "operator: + [556,557]"
+    },
+    {
+      "src": "param [55,70]",
+      "dest": "param [55,60]"
+    },
+    {
+      "src": "name: EmailClient [6,17]",
+      "dest": "name: EmailClient [6,17]"
+    },
+    {
+      "src": "name: email_size [149,159]",
+      "dest": "name: size [558,562]"
+    },
+    {
+      "src": "trailer [108,124]",
+      "dest": "trailer [513,531]"
+    },
+    {
+      "src": "name: total_size [92,102]",
+      "dest": "name: total_size [496,506]"
+    },
+    {
+      "src": "arith_expr [136,159]",
+      "dest": "arith_expr [545,562]"
+    },
+    {
+      "src": "suite [206,230]",
+      "dest": "suite [619,643]"
+    },
+    {
+      "src": "expr_stmt [92,124]",
+      "dest": "expr_stmt [496,533]"
+    },
+    {
+      "src": "operator: <= [160,162]",
+      "dest": "operator: <= [563,565]"
+    },
+    {
+      "src": "simple_stmt [92,125]",
+      "dest": "simple_stmt [496,534]"
+    },
+    {
+      "src": "operator: = [103,104]",
+      "dest": "operator: = [507,508]"
+    },
+    {
+      "src": "funcdef [23,230]",
+      "dest": "funcdef [23,643]"
+    },
+    {
+      "src": "parameters [54,82]",
+      "dest": "parameters [54,66]"
+    },
+    {
+      "src": "if_stmt [133,230]",
+      "dest": "if_stmt [542,643]"
+    },
+    {
+      "src": "suite [167,193]",
+      "dest": "suite [580,606]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [76,488]",
+      "parent": "suite [67,643]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: email_box_size [55,69]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: email_size [71,81]",
+      "label": "size"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [566,579]",
+      "parent": "comparison [545,579]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: sum [105,108]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [531,533]",
+      "parent": "atom_expr [509,533]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: email_size [149,159]",
+      "label": "size"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: email_box_size [109,123]",
+      "label": "get_occupied_size"
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 100 [163,166]"
+    }
+  ]
+}

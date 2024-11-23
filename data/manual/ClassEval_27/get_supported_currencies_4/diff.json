@@ -1,0 +1,84 @@
+{
+  "matches": [
+    {
+      "src": "suite [24,163]",
+      "dest": "suite [24,412]"
+    },
+    {
+      "src": "name: supported_currencies [143,163]",
+      "dest": "name: supported_currencies [392,412]"
+    },
+    {
+      "src": "classdef [0,163]",
+      "dest": "classdef [0,412]"
+    },
+    {
+      "src": "suite [60,163]",
+      "dest": "suite [64,412]"
+    },
+    {
+      "src": "parameters [57,59]",
+      "dest": "parameters [57,63]"
+    },
+    {
+      "src": "name: get_supported_currencies [33,57]",
+      "dest": "name: get_supported_currencies [33,57]"
+    },
+    {
+      "src": "name: supported_currencies [69,89]",
+      "dest": "name: supported_currencies [330,350]"
+    },
+    {
+      "src": "file_input [0,163]",
+      "dest": "file_input [0,412]"
+    },
+    {
+      "src": "simple_stmt [69,128]",
+      "dest": "simple_stmt [330,377]"
+    },
+    {
+      "src": "return_stmt [136,163]",
+      "dest": "return_stmt [385,412]"
+    },
+    {
+      "src": "funcdef [29,163]",
+      "dest": "funcdef [29,412]"
+    },
+    {
+      "src": "expr_stmt [69,127]",
+      "dest": "expr_stmt [330,376]"
+    },
+    {
+      "src": "operator: = [90,91]",
+      "dest": "operator: = [351,352]"
+    },
+    {
+      "src": "name: CurrencyConverter [6,23]",
+      "dest": "name: CurrencyConverter [6,23]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [58,62]",
+      "parent": "parameters [57,63]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [73,322]",
+      "parent": "suite [64,412]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [353,376]",
+      "parent": "expr_stmt [330,376]",
+      "at": 2
+    },
+    {
+      "action": "delete-tree",
+      "tree": "atom [92,127]"
+    }
+  ]
+}

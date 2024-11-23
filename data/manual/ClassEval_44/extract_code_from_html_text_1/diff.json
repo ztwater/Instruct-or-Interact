@@ -1,0 +1,152 @@
+{
+  "matches": [
+    {
+      "src": "simple_stmt [147,182]",
+      "dest": "simple_stmt [153,188]"
+    },
+    {
+      "src": "suite [15,333]",
+      "dest": "suite [15,339]"
+    },
+    {
+      "src": "name: re [240,242]",
+      "dest": "name: re [246,248]"
+    },
+    {
+      "src": "simple_stmt [190,251]",
+      "dest": "simple_stmt [196,257]"
+    },
+    {
+      "src": "classdef [0,333]",
+      "dest": "classdef [0,339]"
+    },
+    {
+      "src": "suite [63,333]",
+      "dest": "suite [69,339]"
+    },
+    {
+      "src": "name: html_text [229,238]",
+      "dest": "name: html_text [235,244]"
+    },
+    {
+      "src": "expr_stmt [147,181]",
+      "dest": "expr_stmt [153,187]"
+    },
+    {
+      "src": "atom_expr [206,250]",
+      "dest": "atom_expr [212,256]"
+    },
+    {
+      "src": "parameters [51,62]",
+      "dest": "parameters [51,68]"
+    },
+    {
+      "src": "expr_stmt [190,250]",
+      "dest": "expr_stmt [196,256]"
+    },
+    {
+      "src": "param [52,61]",
+      "dest": "param [58,67]"
+    },
+    {
+      "src": "name: extract_code_from_html_text [24,51]",
+      "dest": "name: extract_code_from_html_text [24,51]"
+    },
+    {
+      "src": "operator: = [204,205]",
+      "dest": "operator: = [210,211]"
+    },
+    {
+      "src": "name: findall [209,216]",
+      "dest": "name: findall [215,222]"
+    },
+    {
+      "src": "name: HtmlUtil [6,14]",
+      "dest": "name: HtmlUtil [6,14]"
+    },
+    {
+      "src": "name: code_regex [147,157]",
+      "dest": "name: code_regex [153,163]"
+    },
+    {
+      "src": "operator: , [227,228]",
+      "dest": "operator: , [233,234]"
+    },
+    {
+      "src": "string: r\"<code>(.*?)</code>\" [160,181]",
+      "dest": "string: r\"<code>(.*?)</code>\" [166,187]"
+    },
+    {
+      "src": "file_input [0,333]",
+      "dest": "file_input [0,339]"
+    },
+    {
+      "src": "operator: , [238,239]",
+      "dest": "operator: , [244,245]"
+    },
+    {
+      "src": "name: DOTALL [243,249]",
+      "dest": "name: DOTALL [249,255]"
+    },
+    {
+      "src": "atom_expr [240,249]",
+      "dest": "atom_expr [246,255]"
+    },
+    {
+      "src": "trailer [216,250]",
+      "dest": "trailer [222,256]"
+    },
+    {
+      "src": "return_stmt [313,333]",
+      "dest": "return_stmt [319,339]"
+    },
+    {
+      "src": "name: code_snippets [190,203]",
+      "dest": "name: code_snippets [196,209]"
+    },
+    {
+      "src": "trailer [208,216]",
+      "dest": "trailer [214,222]"
+    },
+    {
+      "src": "name: code_regex [217,227]",
+      "dest": "name: code_regex [223,233]"
+    },
+    {
+      "src": "arglist [217,249]",
+      "dest": "arglist [223,255]"
+    },
+    {
+      "src": "name: re [206,208]",
+      "dest": "name: re [212,214]"
+    },
+    {
+      "src": "trailer [242,249]",
+      "dest": "trailer [248,255]"
+    },
+    {
+      "src": "name: code_snippets [320,333]",
+      "dest": "name: code_snippets [326,339]"
+    },
+    {
+      "src": "name: html_text [52,61]",
+      "dest": "name: html_text [58,67]"
+    },
+    {
+      "src": "operator: = [158,159]",
+      "dest": "operator: = [164,165]"
+    },
+    {
+      "src": "funcdef [20,333]",
+      "dest": "funcdef [20,339]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [52,57]",
+      "parent": "parameters [51,68]",
+      "at": 0
+    }
+  ]
+}

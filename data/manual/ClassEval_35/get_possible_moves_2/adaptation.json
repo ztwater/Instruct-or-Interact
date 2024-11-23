@@ -1,0 +1,254 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "blank_row, blank_col = self.find_blank(state)\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "comparison",
+        "inserted": "blank_row > 0",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom",
+        "inserted": "[]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "blank_row",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "number",
+        "inserted": "2",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "blank_col",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "number",
+        "inserted": "0",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "blank_col",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "number",
+        "inserted": "2",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "possible_moves",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".append",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "('up')",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "possible_moves",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".append",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "('down')",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "possible_moves",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".append",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "('left')",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "possible_moves",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".append",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "('right')",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "testlist_comp",
+        "inserted": "",
+        "deleted": "'up', 'down', 'left', 'right'",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "possible_moves",
+        "deleted": "possible_moves",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "=",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": ",",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": ",",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": ",",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "string",
+        "inserted": "'up'",
+        "deleted": "'up'",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "string",
+        "inserted": "'down'",
+        "deleted": "'down'",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "string",
+        "inserted": "'left'",
+        "deleted": "'left'",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "string",
+        "inserted": "'right'",
+        "deleted": "'right'",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "state",
+        "deleted": "current_state",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "operator",
+        "inserted": "<",
+        "deleted": ",",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "operator",
+        "inserted": ">",
+        "deleted": ",",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "operator",
+        "inserted": "<",
+        "deleted": ",",
+        "type": "Logic"
+    }
+]

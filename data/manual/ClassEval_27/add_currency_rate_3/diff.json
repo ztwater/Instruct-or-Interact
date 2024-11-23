@@ -1,0 +1,217 @@
+{
+  "matches": [
+    {
+      "src": "suite [24,256]",
+      "dest": "suite [24,669]"
+    },
+    {
+      "src": "name: add_currency_rate [33,50]",
+      "dest": "name: add_currency_rate [33,50]"
+    },
+    {
+      "src": "name: supported_currencies [66,86]",
+      "dest": "name: rate [67,71]"
+    },
+    {
+      "src": "name: supported_currencies [117,137]",
+      "dest": "name: rates [560,565]"
+    },
+    {
+      "src": "classdef [0,256]",
+      "dest": "classdef [0,669]"
+    },
+    {
+      "src": "suite [88,256]",
+      "dest": "suite [73,669]"
+    },
+    {
+      "src": "suite [138,164]",
+      "dest": "suite [566,592]"
+    },
+    {
+      "src": "comparison [100,137]",
+      "dest": "comparison [543,565]"
+    },
+    {
+      "src": "name: supported_currencies [190,210]",
+      "dest": "name: self [618,622]"
+    },
+    {
+      "src": "name: CurrencyConverter [6,23]",
+      "dest": "name: CurrencyConverter [6,23]"
+    },
+    {
+      "src": "return_stmt [151,163]",
+      "dest": "return_stmt [579,591]"
+    },
+    {
+      "src": "return_stmt [245,256]",
+      "dest": "return_stmt [658,669]"
+    },
+    {
+      "src": "name: currency_type [100,113]",
+      "dest": "name: currency [543,551]"
+    },
+    {
+      "src": "file_input [0,256]",
+      "dest": "file_input [0,669]"
+    },
+    {
+      "src": "suite [177,256]",
+      "dest": "suite [605,669]"
+    },
+    {
+      "src": "simple_stmt [151,164]",
+      "dest": "simple_stmt [579,592]"
+    },
+    {
+      "src": "param [66,86]",
+      "dest": "param [67,71]"
+    },
+    {
+      "src": "operator: , [64,65]",
+      "dest": "operator: , [65,66]"
+    },
+    {
+      "src": "param [51,65]",
+      "dest": "param [57,66]"
+    },
+    {
+      "src": "name: append [211,217]",
+      "dest": "name: rates [623,628]"
+    },
+    {
+      "src": "trailer [217,232]",
+      "dest": "trailer [628,638]"
+    },
+    {
+      "src": "trailer [210,217]",
+      "dest": "trailer [622,628]"
+    },
+    {
+      "src": "name: currency_type [51,64]",
+      "dest": "name: currency [57,65]"
+    },
+    {
+      "src": "simple_stmt [190,233]",
+      "dest": "simple_stmt [618,646]"
+    },
+    {
+      "src": "if_stmt [97,256]",
+      "dest": "if_stmt [540,669]"
+    },
+    {
+      "src": "name: currency_type [218,231]",
+      "dest": "name: currency [629,637]"
+    },
+    {
+      "src": "funcdef [29,256]",
+      "dest": "funcdef [29,669]"
+    },
+    {
+      "src": "parameters [50,87]",
+      "dest": "parameters [50,72]"
+    },
+    {
+      "src": "atom_expr [190,232]",
+      "dest": "atom_expr [618,638]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [51,56]",
+      "parent": "parameters [50,72]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [82,532]",
+      "parent": "suite [73,669]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: currency_type [51,64]",
+      "label": "currency"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: supported_currencies [66,86]",
+      "label": "rate"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: currency_type [100,113]",
+      "label": "currency"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [555,565]",
+      "parent": "comparison [543,565]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [555,559]",
+      "parent": "atom_expr [555,565]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [559,565]",
+      "parent": "atom_expr [555,565]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [618,645]",
+      "parent": "simple_stmt [618,646]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: supported_currencies [117,137]",
+      "label": "rates"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: supported_currencies [117,137]",
+      "parent": "trailer [559,565]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [190,232]",
+      "parent": "expr_stmt [618,645]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [639,640]",
+      "parent": "expr_stmt [618,645]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: rate [641,645]",
+      "parent": "expr_stmt [618,645]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: supported_currencies [190,210]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: append [211,217]",
+      "label": "rates"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: currency_type [218,231]",
+      "label": "currency"
+    }
+  ]
+}

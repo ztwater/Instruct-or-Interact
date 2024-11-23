@@ -1,0 +1,415 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "has_previous = current_page > 1\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "page_start = (current_page - 1) * per_page\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "page_end = page_start + per_page\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "string:",
+        "inserted": "\"\"\"\n        Retrieve information about a specific page.\n        :param page_number: int, the page number to fetch information about\n        :return: dict, containing page information such as current page number, total pages, etc.\n        \"\"\"",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "<",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "[page_start:page_end]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "current_page",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "string",
+        "inserted": "\"per_page\"",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "string",
+        "inserted": "\"total_items\"",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "total_items",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "string",
+        "inserted": "\"has_previous\"",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "has_previous",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "string",
+        "inserted": "\"has_next\"",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "has_next",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "string",
+        "inserted": "\"data\"",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "data",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "import_name",
+        "inserted": "",
+        "deleted": "import requests",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "import_from",
+        "inserted": "",
+        "deleted": "from bs4 import BeautifulSoup",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "trailer",
+        "inserted": "",
+        "deleted": ".get",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "name",
+        "inserted": "",
+        "deleted": "BeautifulSoup",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "operator",
+        "inserted": "",
+        "deleted": ",",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "string",
+        "inserted": "",
+        "deleted": "'html.parser'",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "trailer",
+        "inserted": "",
+        "deleted": ".title",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "trailer",
+        "inserted": "",
+        "deleted": ".find_all",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "trailer",
+        "inserted": "",
+        "deleted": "('a')",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "bs4",
+        "deleted": "bs4",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "BeautifulSoup",
+        "deleted": "BeautifulSoup",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "response.content",
+        "deleted": "response.content",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "soup",
+        "deleted": "soup",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "find_all",
+        "deleted": "find_all",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "page_number",
+        "deleted": "page_url",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "current_page",
+        "deleted": "bs4",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "page_number",
+        "deleted": "BeautifulSoup",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "per_page",
+        "deleted": "response",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "total_pages",
+        "deleted": "soup",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "total_items",
+        "deleted": "page_title",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "has_next",
+        "deleted": "links",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "data",
+        "deleted": "num_links",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "requests",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "response",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "soup",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "current_page",
+        "deleted": "soup",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "total_pages",
+        "deleted": "find_all",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "len",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "string",
+        "inserted": "\"current_page\"",
+        "deleted": "'title'",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "per_page",
+        "deleted": "page_title",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "string",
+        "inserted": "\"total_pages\"",
+        "deleted": "'num_links'",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "total_pages",
+        "deleted": "num_links",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "page_size",
+        "deleted": "page_url",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "total_pages",
+        "deleted": "content",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "total_items",
+        "deleted": "text",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "data",
+        "deleted": "links",
+        "type": "Refactoring"
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Calculate the value of the poker cards stored in hand list according to the rules of the Blackjack Game.\n        If the card is a digit, its value is added to the total hand value.\n        Value of J, Q, or K is 10, while Aces are worth 11.\n        If the total hand value exceeds 21 and there are Aces present, one Ace is treated as having a value of 1 instead of 11,\n        until the hand value is less than or equal to 21, or all Aces have been counted as value of 1.\n        :param hand: list\n        :return: the value of the poker cards stored in hand list, a number.\n        >>> black_jack_game.calculate_hand_value(['QD', '9D', 'JC', 'QH', 'AS'])\n        40\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "[0]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "[0]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "[0]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "card",
+        "deleted": "card",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "card",
+        "deleted": "card",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "card",
+        "deleted": "card",
+        "type": "Move"
+    }
+]

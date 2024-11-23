@@ -1,0 +1,108 @@
+{
+  "matches": [
+    {
+      "src": "atom_expr [123,138]",
+      "dest": "atom_expr [528,548]"
+    },
+    {
+      "src": "file_input [0,246]",
+      "dest": "file_input [0,1286]"
+    },
+    {
+      "src": "name: Thermostat [6,16]",
+      "dest": "name: Thermostat [6,16]"
+    },
+    {
+      "src": "funcdef [22,139]",
+      "dest": "funcdef [22,1286]"
+    },
+    {
+      "src": "suite [17,139]",
+      "dest": "suite [17,1286]"
+    },
+    {
+      "src": "name: simulate_operation [26,44]",
+      "dest": "name: simulate_operation [26,44]"
+    },
+    {
+      "src": "trailer [136,138]",
+      "dest": "trailer [546,548]"
+    },
+    {
+      "src": "parameters [44,46]",
+      "dest": "parameters [44,50]"
+    },
+    {
+      "src": "suite [47,139]",
+      "dest": "suite [51,1286]"
+    },
+    {
+      "src": "name: auto_set_mode [123,136]",
+      "dest": "name: auto_set_mode [533,546]"
+    },
+    {
+      "src": "classdef [0,139]",
+      "dest": "classdef [0,1286]"
+    },
+    {
+      "src": "simple_stmt [123,139]",
+      "dest": "simple_stmt [528,609]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [45,49]",
+      "parent": "parameters [44,50]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [60,520]",
+      "parent": "suite [51,1286]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [626,651]",
+      "parent": "suite [51,1286]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "while_stmt [668,1213]",
+      "parent": "suite [51,1286]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [1222,1245]",
+      "parent": "suite [51,1286]",
+      "at": 4
+    },
+    {
+      "action": "insert-tree",
+      "tree": "return_stmt [1253,1286]",
+      "parent": "suite [51,1286]",
+      "at": 5
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [528,532]",
+      "parent": "atom_expr [528,548]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [532,546]",
+      "parent": "atom_expr [528,548]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: auto_set_mode [123,136]",
+      "parent": "trailer [532,546]",
+      "at": 0
+    }
+  ]
+}

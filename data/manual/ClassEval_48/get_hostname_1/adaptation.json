@@ -1,0 +1,9 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Get the hostname associated with the given IP address.\n        :param ip_address:string, the IP address to get the hostname for\n        :return: string, the hostname associated with the IP address\n        >>> IpUtil.get_hostname('110.242.68.3')\n        'www.baidu.com'\n        >>> IpUtil.get_hostname('10.0.0.1')\n\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Calculate log(total_num+1/count+1) for each count in number_dict\n        :param total_num: int\n        :param number_dict: dict\n        :return: dict\n        >>> num_dict = {'key1':0.1, 'key2':0.5}\n        >>> VectorUtil.compute_idf_weight_dict(2, num_dict)\n        {'key1': 1.0033021088637848, 'key2': 0.6931471805599453}\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return idf_weight_dict\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "key",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return idf_weight_dict",
+        "deleted": "return idf_weight_dict",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "count",
+        "deleted": "count",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "total_num",
+        "deleted": "number_dict",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "number_dict",
+        "deleted": "total_num",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "items",
+        "deleted": "values",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "key",
+        "deleted": "count",
+        "type": "Refactoring"
+    }
+]

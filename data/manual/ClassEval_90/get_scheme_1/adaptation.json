@@ -1,0 +1,58 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        get the scheme of the URL\n        :return: string, If successful, return the scheme of the URL\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return parsed_url.scheme\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "urlparse",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "(self.url)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return parsed_url.scheme",
+        "deleted": "return parsed_url.scheme",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "urlparse(url)",
+        "deleted": "urlparse(url)",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "url",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "urlparse",
+        "type": "Refactoring"
+    }
+]

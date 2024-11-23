@@ -1,0 +1,222 @@
+{
+  "matches": [
+    {
+      "src": "return_stmt [88,96]",
+      "dest": "return_stmt [467,475]"
+    },
+    {
+      "src": "string: '*' [141,144]",
+      "dest": "string: '*' [520,523]"
+    },
+    {
+      "src": "comparison [110,125]",
+      "dest": "comparison [489,504]"
+    },
+    {
+      "src": "return_stmt [263,271]",
+      "dest": "return_stmt [642,650]"
+    },
+    {
+      "src": "suite [17,271]",
+      "dest": "suite [17,651]"
+    },
+    {
+      "src": "name: operator [110,118]",
+      "dest": "name: operator [489,497]"
+    },
+    {
+      "src": "string: '^' [71,74]",
+      "dest": "string: '^' [450,453]"
+    },
+    {
+      "src": "parameters [36,46]",
+      "dest": "parameters [36,52]"
+    },
+    {
+      "src": "comparison [180,195]",
+      "dest": "comparison [559,574]"
+    },
+    {
+      "src": "classdef [0,271]",
+      "dest": "classdef [0,651]"
+    },
+    {
+      "src": "operator: == [208,210]",
+      "dest": "operator: == [587,589]"
+    },
+    {
+      "src": "suite [47,271]",
+      "dest": "suite [53,651]"
+    },
+    {
+      "src": "name: operator [59,67]",
+      "dest": "name: operator [438,446]"
+    },
+    {
+      "src": "param [37,45]",
+      "dest": "param [43,51]"
+    },
+    {
+      "src": "return_stmt [158,166]",
+      "dest": "return_stmt [537,545]"
+    },
+    {
+      "src": "string: '+' [192,195]",
+      "dest": "string: '+' [571,574]"
+    },
+    {
+      "src": "string: '/' [122,125]",
+      "dest": "string: '/' [501,504]"
+    },
+    {
+      "src": "file_input [0,271]",
+      "dest": "file_input [0,651]"
+    },
+    {
+      "src": "number: 2 [165,166]",
+      "dest": "number: 2 [544,545]"
+    },
+    {
+      "src": "suite [75,97]",
+      "dest": "suite [454,476]"
+    },
+    {
+      "src": "string: '-' [211,214]",
+      "dest": "string: '-' [590,593]"
+    },
+    {
+      "src": "name: operator [199,207]",
+      "dest": "name: operator [578,586]"
+    },
+    {
+      "src": "comparison [199,214]",
+      "dest": "comparison [578,593]"
+    },
+    {
+      "src": "comparison [59,74]",
+      "dest": "comparison [438,453]"
+    },
+    {
+      "src": "simple_stmt [88,97]",
+      "dest": "simple_stmt [467,476]"
+    },
+    {
+      "src": "number: 0 [270,271]",
+      "dest": "number: 0 [649,650]"
+    },
+    {
+      "src": "name: operator [129,137]",
+      "dest": "name: operator [508,516]"
+    },
+    {
+      "src": "operator: == [138,140]",
+      "dest": "operator: == [517,519]"
+    },
+    {
+      "src": "suite [250,271]",
+      "dest": "suite [629,651]"
+    },
+    {
+      "src": "simple_stmt [158,167]",
+      "dest": "simple_stmt [537,546]"
+    },
+    {
+      "src": "or_test [110,144]",
+      "dest": "or_test [489,523]"
+    },
+    {
+      "src": "name: operator [180,188]",
+      "dest": "name: operator [559,567]"
+    },
+    {
+      "src": "number: 3 [95,96]",
+      "dest": "number: 3 [474,475]"
+    },
+    {
+      "src": "simple_stmt [228,237]",
+      "dest": "simple_stmt [607,616]"
+    },
+    {
+      "src": "number: 1 [235,236]",
+      "dest": "number: 1 [614,615]"
+    },
+    {
+      "src": "or_test [180,214]",
+      "dest": "or_test [559,593]"
+    },
+    {
+      "src": "operator: == [189,191]",
+      "dest": "operator: == [568,570]"
+    },
+    {
+      "src": "suite [215,237]",
+      "dest": "suite [594,616]"
+    },
+    {
+      "src": "name: Calculator [6,16]",
+      "dest": "name: Calculator [6,16]"
+    },
+    {
+      "src": "operator: == [119,121]",
+      "dest": "operator: == [498,500]"
+    },
+    {
+      "src": "comparison [129,144]",
+      "dest": "comparison [508,523]"
+    },
+    {
+      "src": "name: operator [37,45]",
+      "dest": "name: operator [43,51]"
+    },
+    {
+      "src": "operator: == [68,70]",
+      "dest": "operator: == [447,449]"
+    },
+    {
+      "src": "if_stmt [56,271]",
+      "dest": "if_stmt [435,651]"
+    },
+    {
+      "src": "return_stmt [228,236]",
+      "dest": "return_stmt [607,615]"
+    },
+    {
+      "src": "suite [145,167]",
+      "dest": "suite [524,546]"
+    },
+    {
+      "src": "funcdef [22,271]",
+      "dest": "funcdef [22,651]"
+    },
+    {
+      "src": "name: precedence [26,36]",
+      "dest": "name: precedence [26,36]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [37,42]",
+      "parent": "parameters [36,52]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [62,427]",
+      "parent": "suite [53,651]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [642,651]",
+      "parent": "suite [629,651]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [263,271]",
+      "parent": "simple_stmt [642,651]",
+      "at": 0
+    }
+  ]
+}

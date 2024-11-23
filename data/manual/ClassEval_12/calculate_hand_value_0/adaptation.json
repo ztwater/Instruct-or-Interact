@@ -1,0 +1,16 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Calculate the value of the poker cards stored in hand list according to the rules of the Blackjack Game.\n        If the card is a digit, its value is added to the total hand value.\n        Value of J, Q, or K is 10, while Aces are worth 11.\n        If the total hand value exceeds 21 and there are Aces present, one Ace is treated as having a value of 1 instead of 11,\n        until the hand value is less than or equal to 21, or all Aces have been counted as value of 1.\n        :param hand: list\n        :return: the value of the poker cards stored in hand list, a number.\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    }
+]

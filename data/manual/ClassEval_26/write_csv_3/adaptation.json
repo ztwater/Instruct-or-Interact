@@ -1,0 +1,30 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Write data into a csv file.\n        :param file_name: str, name of the csv file\n        :return:int, if success return 1, or 0 otherwise\n        >>> csvProcessor = CSVProcessor()\n        >>> csvProcessor.write_csv([['a', 'b', 'c', 'd'], ['1', '2', '3', '4']], 'write_test.csv')\n        1\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "file_name",
+        "deleted": "filename",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "file_name",
+        "deleted": "filename",
+        "type": "Refactoring"
+    }
+]

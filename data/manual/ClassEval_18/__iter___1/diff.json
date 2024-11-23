@@ -1,0 +1,99 @@
+{
+  "matches": [
+    {
+      "src": "file_input [0,75]",
+      "dest": "file_input [0,177]"
+    },
+    {
+      "src": "funcdef [24,75]",
+      "dest": "funcdef [24,177]"
+    },
+    {
+      "src": "param [37,41]",
+      "dest": "param [37,41]"
+    },
+    {
+      "src": "suite [19,75]",
+      "dest": "suite [19,177]"
+    },
+    {
+      "src": "trailer [68,73]",
+      "dest": "trailer [170,176]"
+    },
+    {
+      "src": "name: self [37,41]",
+      "dest": "name: self [37,41]"
+    },
+    {
+      "src": "name: __iter__ [28,36]",
+      "dest": "name: __iter__ [28,36]"
+    },
+    {
+      "src": "trailer [63,74]",
+      "dest": "trailer [165,177]"
+    },
+    {
+      "src": "parameters [36,42]",
+      "dest": "parameters [36,42]"
+    },
+    {
+      "src": "name: CamelCaseMap [6,18]",
+      "dest": "name: CamelCaseMap [6,18]"
+    },
+    {
+      "src": "name: data [69,73]",
+      "dest": "name: _data [171,176]"
+    },
+    {
+      "src": "name: iter [59,63]",
+      "dest": "name: iter [161,165]"
+    },
+    {
+      "src": "classdef [0,75]",
+      "dest": "classdef [0,177]"
+    },
+    {
+      "src": "return_stmt [52,74]",
+      "dest": "return_stmt [154,177]"
+    },
+    {
+      "src": "suite [43,75]",
+      "dest": "suite [43,177]"
+    },
+    {
+      "src": "atom_expr [64,73]",
+      "dest": "atom_expr [166,176]"
+    },
+    {
+      "src": "atom_expr [59,74]",
+      "dest": "atom_expr [161,177]"
+    },
+    {
+      "src": "name: self [64,68]",
+      "dest": "name: self [166,170]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [52,146]",
+      "parent": "suite [43,177]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [52,74]",
+      "parent": "suite [43,177]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: data [69,73]",
+      "label": "_data"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [52,75]"
+    }
+  ]
+}

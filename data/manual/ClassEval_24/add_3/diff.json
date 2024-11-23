@@ -1,0 +1,130 @@
+{
+  "matches": [
+    {
+      "src": "suite [24,100]",
+      "dest": "suite [24,93]"
+    },
+    {
+      "src": "classdef [0,100]",
+      "dest": "classdef [0,93]"
+    },
+    {
+      "src": "suite [49,100]",
+      "dest": "suite [45,93]"
+    },
+    {
+      "src": "operator: + [72,73]",
+      "dest": "operator: + [66,67]"
+    },
+    {
+      "src": "arith_expr [67,78]",
+      "dest": "arith_expr [63,70]"
+    },
+    {
+      "src": "name: num2 [74,78]",
+      "dest": "name: c2 [68,70]"
+    },
+    {
+      "src": "param [43,47]",
+      "dest": "param [41,43]"
+    },
+    {
+      "src": "name: num1 [67,71]",
+      "dest": "name: c1 [63,65]"
+    },
+    {
+      "src": "name: add [33,36]",
+      "dest": "name: add [33,36]"
+    },
+    {
+      "src": "name: ComplexCalculator [6,23]",
+      "dest": "name: ComplexCalculator [6,23]"
+    },
+    {
+      "src": "name: num2 [43,47]",
+      "dest": "name: c2 [41,43]"
+    },
+    {
+      "src": "name: num1 [37,41]",
+      "dest": "name: c1 [37,39]"
+    },
+    {
+      "src": "file_input [0,100]",
+      "dest": "file_input [0,93]"
+    },
+    {
+      "src": "simple_stmt [58,79]",
+      "dest": "simple_stmt [54,71]"
+    },
+    {
+      "src": "return_stmt [87,100]",
+      "dest": "return_stmt [79,92]"
+    },
+    {
+      "src": "funcdef [29,100]",
+      "dest": "funcdef [29,93]"
+    },
+    {
+      "src": "expr_stmt [58,78]",
+      "dest": "expr_stmt [54,70]"
+    },
+    {
+      "src": "parameters [36,48]",
+      "dest": "parameters [36,44]"
+    },
+    {
+      "src": "operator: , [41,42]",
+      "dest": "operator: , [39,40]"
+    },
+    {
+      "src": "name: result [58,64]",
+      "dest": "name: result [54,60]"
+    },
+    {
+      "src": "param [37,42]",
+      "dest": "param [37,40]"
+    },
+    {
+      "src": "name: result [94,100]",
+      "dest": "name: result [86,92]"
+    },
+    {
+      "src": "operator: = [65,66]",
+      "dest": "operator: = [61,62]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [79,93]",
+      "parent": "suite [45,93]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: num1 [37,41]",
+      "label": "c1"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: num2 [43,47]",
+      "label": "c2"
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [87,100]",
+      "parent": "simple_stmt [79,93]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: num1 [67,71]",
+      "label": "c1"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: num2 [74,78]",
+      "label": "c2"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "matches": [
+    {
+      "src": "file_input [0,553]",
+      "dest": "file_input [0,25]"
+    },
+    {
+      "src": "classdef [0,553]",
+      "dest": "classdef [0,25]"
+    },
+    {
+      "src": "suite [456,516]",
+      "dest": "suite [15,25]"
+    },
+    {
+      "src": "name: PageUtil [6,14]",
+      "dest": "name: PageUtil [6,14]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "move-tree",
+      "tree": "suite [456,516]",
+      "parent": "classdef [0,25]",
+      "at": 1
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [469,492]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [504,516]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: get_page [24,32]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "parameters [32,45]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [256,304]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [312,341]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "comparison [428,455]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "suite [529,553]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "if_stmt [425,553]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [46,553]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "funcdef [20,553]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [15,553]"
+    }
+  ]
+}

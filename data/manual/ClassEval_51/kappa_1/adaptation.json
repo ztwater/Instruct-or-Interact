@@ -1,0 +1,65 @@
+[
+    {
+        "action": "DEL",
+        "label": "simple_stmt",
+        "inserted": "",
+        "deleted": "matrix = np.array(matrix)\n",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "simple_stmt",
+        "inserted": "",
+        "deleted": "observed_agreement = np.trace(matrix) / np.sum(matrix)\n",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "simple_stmt",
+        "inserted": "",
+        "deleted": "row_totals = np.sum(matrix, axis=0)\n",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "simple_stmt",
+        "inserted": "",
+        "deleted": "column_totals = np.sum(matrix, axis=1)\n",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "simple_stmt",
+        "inserted": "",
+        "deleted": "expected_agreement = np.sum(row_totals * column_totals) / np.sum(matrix)**2\n",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "simple_stmt",
+        "inserted": "",
+        "deleted": "kappa_value = (observed_agreement - expected_agreement) / (1 - expected_agreement)\n",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "return_stmt",
+        "inserted": "",
+        "deleted": "return kappa_value",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "name",
+        "inserted": "",
+        "deleted": "kappa",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "parameters",
+        "inserted": "",
+        "deleted": "(matrix)",
+        "type": "Logic"
+    }
+]

@@ -1,0 +1,129 @@
+{
+  "matches": [
+    {
+      "src": "name: position [37,45]",
+      "dest": "name: self [37,41]"
+    },
+    {
+      "src": "name: sweep [31,36]",
+      "dest": "name: sweep [31,36]"
+    },
+    {
+      "src": "param [37,45]",
+      "dest": "param [37,42]"
+    },
+    {
+      "src": "suite [47,113]",
+      "dest": "suite [397,463]"
+    },
+    {
+      "src": "file_input [0,113]",
+      "dest": "file_input [0,669]"
+    },
+    {
+      "src": "funcdef [27,113]",
+      "dest": "funcdef [27,669]"
+    },
+    {
+      "src": "suite [22,113]",
+      "dest": "suite [22,669]"
+    },
+    {
+      "src": "name: MinesweeperGame [6,21]",
+      "dest": "name: MinesweeperGame [6,21]"
+    },
+    {
+      "src": "parameters [36,46]",
+      "dest": "parameters [36,48]"
+    },
+    {
+      "src": "classdef [0,113]",
+      "dest": "classdef [0,669]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "suite [49,669]",
+      "parent": "funcdef [27,669]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [43,45]",
+      "parent": "parameters [36,48]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [46,47]",
+      "parent": "parameters [36,48]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [58,352]",
+      "parent": "suite [49,669]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [360,463]",
+      "parent": "suite [49,669]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [472,523]",
+      "parent": "suite [49,669]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "if_stmt [532,636]",
+      "parent": "suite [49,669]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [645,669]",
+      "parent": "suite [49,669]",
+      "at": 4
+    },
+    {
+      "action": "update-node",
+      "tree": "name: position [37,45]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [41,42]",
+      "parent": "param [37,42]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [363,396]",
+      "parent": "if_stmt [360,463]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [47,113]",
+      "parent": "if_stmt [360,463]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [410,438]",
+      "parent": "suite [397,463]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [450,463]",
+      "parent": "suite [397,463]",
+      "at": 1
+    }
+  ]
+}

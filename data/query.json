@@ -1,0 +1,2052 @@
+[
+    [
+        "ClassEval_0",
+        "filter",
+        "Filter the incoming request based on certain rules and conditions."
+    ],
+    [
+        "ClassEval_0",
+        "is_start_with",
+        "Check if the request URI starts with certain prefixes."
+    ],
+    [
+        "ClassEval_0",
+        "get_jwt_user",
+        "Get the user information from the JWT token in the request."
+    ],
+    [
+        "ClassEval_0",
+        "set_current_user_info_and_log",
+        "Set the current user information and log the access."
+    ],
+    [
+        "ClassEval_1",
+        "calculate_circle_area",
+        "calculate the area of circle based on self.radius"
+    ],
+    [
+        "ClassEval_1",
+        "calculate_sphere_area",
+        "calculate the area of sphere based on self.radius"
+    ],
+    [
+        "ClassEval_1",
+        "calculate_cylinder_area",
+        "calculate the area of cylinder based on self.radius and height"
+    ],
+    [
+        "ClassEval_1",
+        "calculate_sector_area",
+        "calculate the area of sector based on self.radius and angle"
+    ],
+    [
+        "ClassEval_1",
+        "calculate_annulus_area",
+        "calculate the area of annulus based on inner_radius and out_radius"
+    ],
+    [
+        "ClassEval_2",
+        "parse_arguments",
+        "Parses the given command line argument string and invoke _convert_type to stores the parsed result in specific type in the arguments dictionary.\nChecks for missing required arguments, if any, and returns False with the missing argument names, otherwise returns True."
+    ],
+    [
+        "ClassEval_2",
+        "get_argument",
+        "Retrieves the value of the specified argument from the arguments dictionary and returns it."
+    ],
+    [
+        "ClassEval_2",
+        "add_argument",
+        "Adds an argument to self.types and self.required.\nCheck if it is a required argument and store the argument type.\nIf the argument is set as required, it wull be added to the required set.\nThe argument type and name are stored in the types dictionary as key-value pairs."
+    ],
+    [
+        "ClassEval_2",
+        "_convert_type",
+        "Try to convert the type of input value by searching in self.types."
+    ],
+    [
+        "ClassEval_3",
+        "count",
+        "Counts the number of arrangements by choosing m items from n items (permutations).\nIf m is not provided or n equals m, returns factorial(n)."
+    ],
+    [
+        "ClassEval_3",
+        "count_all",
+        "Counts the total number of all possible arrangements by choosing at least 1 item and at most n items from n items."
+    ],
+    [
+        "ClassEval_3",
+        "select",
+        "Generates a list of arrangements by selecting m items from the internal datas.\nIf m is not provided, selects all items."
+    ],
+    [
+        "ClassEval_3",
+        "select_all",
+        "Generates a list of all arrangements by selecting at least 1 item and at most the number of internal datas."
+    ],
+    [
+        "ClassEval_3",
+        "factorial",
+        "Calculates the factorial of a given number."
+    ],
+    [
+        "ClassEval_4",
+        "add_student",
+        "Add a new student into self.students dict"
+    ],
+    [
+        "ClassEval_4",
+        "add_course_score",
+        "Add score of specific course for student in self.students"
+    ],
+    [
+        "ClassEval_4",
+        "get_gpa",
+        "Get average grade of one student."
+    ],
+    [
+        "ClassEval_4",
+        "get_all_students_with_fail_course",
+        "Get all students who have any score blow 60"
+    ],
+    [
+        "ClassEval_4",
+        "get_course_average",
+        "Get the average score of a specific course."
+    ],
+    [
+        "ClassEval_4",
+        "get_top_student",
+        "Calculate every student's gpa with get_gpa method, and find the student with highest gpa"
+    ],
+    [
+        "ClassEval_5",
+        "interpret",
+        "Interpret the music score to be played"
+    ],
+    [
+        "ClassEval_5",
+        "display",
+        "Print out chord and play tune with following format: Normal Guitar Playing -- Chord: %s, Play Tune: %s"
+    ],
+    [
+        "ClassEval_6",
+        "setNum",
+        "Calculate the size of each block and the remainder of the division."
+    ],
+    [
+        "ClassEval_6",
+        "get",
+        "calculate the size of each block and the remainder of the division, and calculate the corresponding start and end positions based on the index of the partition."
+    ],
+    [
+        "ClassEval_7",
+        "clear_expr",
+        "Clears the expression of all characters that are not brackets."
+    ],
+    [
+        "ClassEval_7",
+        "check_balanced_brackets",
+        "Checks if the expression has balanced brackets."
+    ],
+    [
+        "ClassEval_8",
+        "deposit",
+        "Deposits a certain amount into the account, increasing the account balance, return the current account balance.\nIf amount is negative, raise a ValueError(\"Invalid amount\")."
+    ],
+    [
+        "ClassEval_8",
+        "withdraw",
+        "Withdraws a certain amount from the account, decreasing the account balance, return the current account balance.\nIf amount is negative, raise a ValueError(\"Invalid amount\").\nIf the withdrawal amount is greater than the account balance, raise a ValueError(\"Insufficient balance.\")."
+    ],
+    [
+        "ClassEval_8",
+        "view_balance",
+        ""
+    ],
+    [
+        "ClassEval_8",
+        "transfer",
+        "Transfers a certain amount from the current account to another account."
+    ],
+    [
+        "ClassEval_9",
+        "add",
+        "Adds two big numbers."
+    ],
+    [
+        "ClassEval_9",
+        "subtract",
+        "Subtracts two big numbers."
+    ],
+    [
+        "ClassEval_9",
+        "multiply",
+        "Multiplies two big numbers."
+    ],
+    [
+        "ClassEval_10",
+        "clean_non_binary_chars",
+        "Clean the binary string by removing all non 0 or 1 characters."
+    ],
+    [
+        "ClassEval_10",
+        "calculate_binary_info",
+        "Calculate the binary string information, including the percentage of 0 and 1, and the total length of the binary string."
+    ],
+    [
+        "ClassEval_10",
+        "convert_to_ascii",
+        "Convert the binary string to ascii string."
+    ],
+    [
+        "ClassEval_10",
+        "convert_to_utf8",
+        "Convert the binary string to utf-8 string."
+    ],
+    [
+        "ClassEval_11",
+        "add",
+        "Add a status to the current status,and check the parameters wheather they are legal."
+    ],
+    [
+        "ClassEval_11",
+        "has",
+        "Check if the current status contains the specified status,and check the parameters wheather they are legal."
+    ],
+    [
+        "ClassEval_11",
+        "remove",
+        "Remove the specified status from the current status,and check the parameters wheather they are legal."
+    ],
+    [
+        "ClassEval_11",
+        "check",
+        "Check if the parameters are legal, args must be greater than or equal to 0 and must be even,if not,raise ValueError."
+    ],
+    [
+        "ClassEval_12",
+        "create_deck",
+        "Create a deck of 52 cards, which stores 52 rondom order poker with the Jokers removed."
+    ],
+    [
+        "ClassEval_12",
+        "calculate_hand_value",
+        "Calculate the value of the poker cards stored in hand list according to the rules of the Blackjack Game.\nIf the card is a digit, its value is added to the total hand value.\nValue of J, Q, or K is 10, while Aces are worth 11.\nIf the total hand value exceeds 21 and there are Aces present, one Ace is treated as having a value of 1 instead of 11,\nuntil the hand value is less than or equal to 21, or all Aces have been counted as value of 1."
+    ],
+    [
+        "ClassEval_12",
+        "check_winner",
+        "Determines the winner of a game by comparing the hand values of the player and dealer.\nrule:\nIf both players have hand values that are equal to or less than 21, the winner is the one whose hand value is closer to 21.\nOtherwise, the winner is the one with the lower hand value."
+    ],
+    [
+        "ClassEval_13",
+        "add_book",
+        "Add one or several books to inventory which is sorted by book title."
+    ],
+    [
+        "ClassEval_13",
+        "remove_book",
+        "Remove one or several books from inventory which is sorted by book title.\nRaise false while get invalid input."
+    ],
+    [
+        "ClassEval_13",
+        "view_inventory",
+        "Get the inventory of the Book Management."
+    ],
+    [
+        "ClassEval_13",
+        "view_book_quantity",
+        "Get the quantity of a book."
+    ],
+    [
+        "ClassEval_14",
+        "create_table",
+        "Creates the book table in the database if it does not already exist."
+    ],
+    [
+        "ClassEval_14",
+        "add_book",
+        "Adds a book to the database with the specified title and author,\nsetting its availability to 1 as free to borrow."
+    ],
+    [
+        "ClassEval_14",
+        "remove_book",
+        "Removes a book from the database based on the given book ID."
+    ],
+    [
+        "ClassEval_14",
+        "borrow_book",
+        "Marks a book as borrowed in the database based on the given book ID."
+    ],
+    [
+        "ClassEval_14",
+        "return_book",
+        "Marks a book as returned in the database based on the given book ID."
+    ],
+    [
+        "ClassEval_14",
+        "search_books",
+        "Retrieves all books from the database and returns their information."
+    ],
+    [
+        "ClassEval_15",
+        "match_in_pattern",
+        "Finds the rightmost occurrence of a character in the pattern."
+    ],
+    [
+        "ClassEval_15",
+        "mismatch_in_text",
+        "Determines the position of the first dismatch between the pattern and the text."
+    ],
+    [
+        "ClassEval_15",
+        "bad_character_heuristic",
+        "Finds all occurrences of the pattern in the text."
+    ],
+    [
+        "ClassEval_16",
+        "calculate",
+        "Calculate the value of a given expression"
+    ],
+    [
+        "ClassEval_16",
+        "precedence",
+        "Returns the priority of the specified operator, where the higher the priority, the greater the assignment. The priority of '^' is greater than '/' and '*', and the priority of '/' and '*' is greater than '+' and '-'"
+    ],
+    [
+        "ClassEval_16",
+        "apply_operator",
+        "Use the operator at the top of the operator stack to perform the operation on the two numbers at the top of the operator stack, and store the results at the top of the operator stack"
+    ],
+    [
+        "ClassEval_17",
+        "add_event",
+        "Add an event to the calendar."
+    ],
+    [
+        "ClassEval_17",
+        "remove_event",
+        "Remove an event from the calendar."
+    ],
+    [
+        "ClassEval_17",
+        "get_events",
+        "Get all events on a given date."
+    ],
+    [
+        "ClassEval_17",
+        "is_available",
+        "Check if the calendar is available for a given time slot."
+    ],
+    [
+        "ClassEval_17",
+        "get_available_slots",
+        "Get all available time slots on a given date."
+    ],
+    [
+        "ClassEval_17",
+        "get_upcoming_events",
+        "Get the next n upcoming events from a given date."
+    ],
+    [
+        "ClassEval_18",
+        "__getitem__",
+        "Return the value corresponding to the key"
+    ],
+    [
+        "ClassEval_18",
+        "__setitem__",
+        "Set the value corresponding to the key to the specified value"
+    ],
+    [
+        "ClassEval_18",
+        "__delitem__",
+        "Delete the value corresponding to the key"
+    ],
+    [
+        "ClassEval_18",
+        "__iter__",
+        "Returning Iterateable Objects with Own Data"
+    ],
+    [
+        "ClassEval_18",
+        "__len__",
+        "Returns the length of the own data"
+    ],
+    [
+        "ClassEval_18",
+        "_convert_key",
+        "convert key string into camel case"
+    ],
+    [
+        "ClassEval_18",
+        "_to_camel_case",
+        "convert key string into camel case"
+    ],
+    [
+        "ClassEval_19",
+        "generate_primes",
+        "Generate prime numbers up to the specified limit using the Chandrasekhar sieve algorithm."
+    ],
+    [
+        "ClassEval_19",
+        "get_primes",
+        "Get the list of generated prime numbers."
+    ],
+    [
+        "ClassEval_20",
+        "add_user",
+        "Add a new user to the Chat."
+    ],
+    [
+        "ClassEval_20",
+        "remove_user",
+        "Remove a user from the Chat."
+    ],
+    [
+        "ClassEval_20",
+        "send_message",
+        "Send a message from a user to another user."
+    ],
+    [
+        "ClassEval_20",
+        "get_messages",
+        "Get all the messages of a user from the Chat."
+    ],
+    [
+        "ClassEval_21",
+        "add_course",
+        "Add course to self.courses list if the course wasn't in it."
+    ],
+    [
+        "ClassEval_21",
+        "remove_course",
+        "Remove course from self.courses list if the course was in it."
+    ],
+    [
+        "ClassEval_21",
+        "is_free_at",
+        "change the time format as '%H:%M' and check the time is free or not in the classroom."
+    ],
+    [
+        "ClassEval_21",
+        "check_course_conflict",
+        "Before adding a new course, check if the new course time conflicts with any other course."
+    ],
+    [
+        "ClassEval_22",
+        "register_student",
+        ""
+    ],
+    [
+        "ClassEval_22",
+        "register_class",
+        "register a class to the student."
+    ],
+    [
+        "ClassEval_22",
+        "get_students_by_major",
+        "get all students in the major"
+    ],
+    [
+        "ClassEval_22",
+        "get_all_major",
+        "get all majors in the system"
+    ],
+    [
+        "ClassEval_22",
+        "get_most_popular_class_in_major",
+        "get the class with the highest enrollment in the major."
+    ],
+    [
+        "ClassEval_23",
+        "count",
+        "Calculate the number of combinations for a specific count."
+    ],
+    [
+        "ClassEval_23",
+        "count_all",
+        "Calculate the number of all possible combinations."
+    ],
+    [
+        "ClassEval_23",
+        "select",
+        "Generate combinations with a specified number of elements."
+    ],
+    [
+        "ClassEval_23",
+        "select_all",
+        "Generate all possible combinations of  selecting elements from the given data list,and it uses the select method."
+    ],
+    [
+        "ClassEval_23",
+        "_select",
+        "Generate combinations with a specified number of elements by recursion."
+    ],
+    [
+        "ClassEval_24",
+        "add",
+        "Adds two complex numbers."
+    ],
+    [
+        "ClassEval_24",
+        "subtract",
+        "Subtracts two complex numbers."
+    ],
+    [
+        "ClassEval_24",
+        "multiply",
+        "Multiplies two complex numbers."
+    ],
+    [
+        "ClassEval_24",
+        "divide",
+        "Divides two complex numbers."
+    ],
+    [
+        "ClassEval_25",
+        "get_cookies",
+        "Gets the cookies from the specified response,and save it to cookies_file."
+    ],
+    [
+        "ClassEval_25",
+        "load_cookies",
+        "Loads the cookies from the cookies_file to the cookies data."
+    ],
+    [
+        "ClassEval_25",
+        "_save_cookies",
+        "Saves the cookies to the cookies_file, and returns True if successful, False otherwise."
+    ],
+    [
+        "ClassEval_26",
+        "read_csv",
+        "Read the csv file by file_name, get the title and data from it"
+    ],
+    [
+        "ClassEval_26",
+        "write_csv",
+        "Write data into a csv file."
+    ],
+    [
+        "ClassEval_26",
+        "process_csv_data",
+        "Read a csv file into variable title and data.\nOnly remain the N th (from 0) column data and Capitalize them, store the title and new data into a new csv file.\nAdd '_process' suffix after old file name, as a new file name."
+    ],
+    [
+        "ClassEval_27",
+        "convert",
+        "Convert the value of a given currency to another currency type"
+    ],
+    [
+        "ClassEval_27",
+        "get_supported_currencies",
+        "Returns a list of supported currency types"
+    ],
+    [
+        "ClassEval_27",
+        "add_currency_rate",
+        "Add a new supported currency type, return False if the currency type is already in the support list"
+    ],
+    [
+        "ClassEval_27",
+        "update_currency_rate",
+        "Update the exchange rate for a certain currency"
+    ],
+    [
+        "ClassEval_28",
+        "create_table",
+        "Create a new table in the database if it doesn't exist.\nAnd make id (INTEGER) as PRIMARY KEY, make key1 as TEXT, key2 as INTEGER"
+    ],
+    [
+        "ClassEval_28",
+        "insert_into_database",
+        "Insert data into the specified table in the database."
+    ],
+    [
+        "ClassEval_28",
+        "search_database",
+        "Search the specified table in the database for rows with a matching name."
+    ],
+    [
+        "ClassEval_28",
+        "delete_from_database",
+        "Delete rows from the specified table in the database with a matching name."
+    ],
+    [
+        "ClassEval_29",
+        "mean",
+        "Calculate the average value of a group of data, accurate to two digits after the Decimal separator"
+    ],
+    [
+        "ClassEval_29",
+        "median",
+        "Calculate the median of a group of data, accurate to two digits after the Decimal separator"
+    ],
+    [
+        "ClassEval_29",
+        "mode",
+        "Calculate the mode of a set of data"
+    ],
+    [
+        "ClassEval_30",
+        "get_sum",
+        "Calculate the sum of data"
+    ],
+    [
+        "ClassEval_30",
+        "get_min",
+        "Calculate the minimum value in the data"
+    ],
+    [
+        "ClassEval_30",
+        "get_max",
+        "Calculate the maximum value in the data"
+    ],
+    [
+        "ClassEval_30",
+        "get_variance",
+        "Calculate variance, accurate to two digits after the Decimal separator"
+    ],
+    [
+        "ClassEval_30",
+        "get_std_deviation",
+        "Calculate standard deviation, accurate to two digits after the Decimal separator"
+    ],
+    [
+        "ClassEval_30",
+        "get_correlation",
+        "Calculate correlation"
+    ],
+    [
+        "ClassEval_31",
+        "correlation_coefficient",
+        "Calculate the correlation coefficient of two sets of data."
+    ],
+    [
+        "ClassEval_31",
+        "skewness",
+        "Calculate the skewness of a set of data."
+    ],
+    [
+        "ClassEval_31",
+        "kurtosis",
+        "Calculate the kurtosis of a set of data."
+    ],
+    [
+        "ClassEval_31",
+        "pdf",
+        "Calculate the probability density function (PDF) of a set of data under a normal distribution."
+    ],
+    [
+        "ClassEval_32",
+        "caesar_decipher",
+        "Deciphers the given ciphertext using the Caesar cipher"
+    ],
+    [
+        "ClassEval_32",
+        "vigenere_decipher",
+        "Deciphers the given ciphertext using the Vigenere cipher"
+    ],
+    [
+        "ClassEval_32",
+        "rail_fence_decipher",
+        "Deciphers the given ciphertext using the Rail Fence cipher"
+    ],
+    [
+        "ClassEval_33",
+        "total",
+        "Calculate the total cost of items in the cart."
+    ],
+    [
+        "ClassEval_33",
+        "due",
+        "Calculate the final amount to be paid after applying the discount."
+    ],
+    [
+        "ClassEval_33",
+        "FidelityPromo",
+        "Calculate the discount based on the fidelity points of the customer.Customers with over 1000 points can enjoy a 5% discount on the entire order."
+    ],
+    [
+        "ClassEval_33",
+        "BulkItemPromo",
+        "Calculate the discount based on bulk item quantity in the order.In the same order, if the quantity of a single item reaches 20 or more, each item will enjoy a 10% discount."
+    ],
+    [
+        "ClassEval_33",
+        "LargeOrderPromo",
+        "Calculate the discount based on the number of different products in the order.If the quantity of different products in the order reaches 10 or more, the entire order will enjoy a 7% discount."
+    ],
+    [
+        "ClassEval_34",
+        "read_text",
+        "Reads the content of a Word document and returns it as a string."
+    ],
+    [
+        "ClassEval_34",
+        "write_text",
+        "Writes the specified content to a Word document."
+    ],
+    [
+        "ClassEval_34",
+        "add_heading",
+        "Adds a heading to the Word document."
+    ],
+    [
+        "ClassEval_34",
+        "add_table",
+        "Adds a table to the Word document with the specified data."
+    ],
+    [
+        "ClassEval_34",
+        "_get_alignment_value",
+        "Returns the alignment value corresponding to the given alignment string."
+    ],
+    [
+        "ClassEval_35",
+        "find_blank",
+        "Find the blank position of current state, which is the 0 element."
+    ],
+    [
+        "ClassEval_35",
+        "move",
+        "Find the blank block, then makes the board moves forward the given direction."
+    ],
+    [
+        "ClassEval_35",
+        "get_possible_moves",
+        "According the current state, find all the possible moving directions. Only has 4 direction 'up', 'down', 'left', 'right'."
+    ],
+    [
+        "ClassEval_35",
+        "solve",
+        "Use BFS algorithm to find the path solution which makes the initial state to the goal method.\nMaintain a list as a queue, named as open_list, append the initial state.\nAlways visit and pop the 0 index element, invoke get_possible_moves method find all the possible directions.\nTraversal the possible_moves list and invoke move method to get several new states.Then append them.\nredo the above steps until the open_list is empty or the state has changed to the goal state."
+    ],
+    [
+        "ClassEval_36",
+        "send_to",
+        "Sends an email to the given email address."
+    ],
+    [
+        "ClassEval_36",
+        "fetch",
+        "Retrieves the first unread email in the email box and marks it as read."
+    ],
+    [
+        "ClassEval_36",
+        "is_full_with_one_more_email",
+        "Determines whether the email box is full after adding an email of the given size."
+    ],
+    [
+        "ClassEval_36",
+        "get_occupied_size",
+        "Gets the total size of the emails in the email box."
+    ],
+    [
+        "ClassEval_36",
+        "clear_inbox",
+        "Clears the email box by deleting the oldest emails until the email box has enough space to accommodate the given size."
+    ],
+    [
+        "ClassEval_37",
+        "caesar_cipher",
+        "Encrypts the plaintext using the Caesar cipher."
+    ],
+    [
+        "ClassEval_37",
+        "vigenere_cipher",
+        "Encrypts the plaintext using the Vigenere cipher."
+    ],
+    [
+        "ClassEval_37",
+        "rail_fence_cipher",
+        "Encrypts the plaintext using the Rail Fence cipher."
+    ],
+    [
+        "ClassEval_38",
+        "read_excel",
+        "Reading data from Excel files"
+    ],
+    [
+        "ClassEval_38",
+        "write_excel",
+        "Write data to the specified Excel file"
+    ],
+    [
+        "ClassEval_38",
+        "process_excel_data",
+        "Change the specified column in the Excel file to uppercase"
+    ],
+    [
+        "ClassEval_39",
+        "calculate",
+        "Calculate the result of the given postfix expression"
+    ],
+    [
+        "ClassEval_39",
+        "prepare",
+        "Prepare the infix expression for conversion to postfix notation"
+    ],
+    [
+        "ClassEval_39",
+        "is_operator",
+        "Check if a character is an operator in {'+', '-', '*', '/', '(', ')', '%'}"
+    ],
+    [
+        "ClassEval_39",
+        "compare",
+        "Compare the precedence of two operators"
+    ],
+    [
+        "ClassEval_39",
+        "_calculate",
+        "Perform the mathematical calculation based on the given operands and operator"
+    ],
+    [
+        "ClassEval_39",
+        "transform",
+        "Transform the infix expression to a format suitable for conversion"
+    ],
+    [
+        "ClassEval_40",
+        "get_BMI",
+        "Calculate the BMI based on the height and weight."
+    ],
+    [
+        "ClassEval_40",
+        "condition_judge",
+        "Judge the condition of the user based on the BMI standard."
+    ],
+    [
+        "ClassEval_40",
+        "calculate_calorie_intake",
+        "Calculate the calorie intake based on the user's condition and BMR (Basal Metabolic Rate),BMR is calculated based on the user's height, weight, age, and sex,male is10 * self.weight + 6.25 * self.height - 5 * self.age + 5,female is 10 * self.weight + 6.25 * self.height - 5 * self.age - 161, and the calorie intake is calculated based on the BMR and the user's condition,if the user is too fat, the calorie intake is BMR * 1.2, if the user is too thin, the calorie intake is BMR * 1.6, if the user is normal, the calorie intake is BMR * 1.4."
+    ],
+    [
+        "ClassEval_41",
+        "make_move",
+        "Makes a move at the given row and column.\nIf the move is valid, it places the current player's symbol on the board\nand changes the current player to the other player (if the current player is 'X', then it becomes 'O' and vice versa)."
+    ],
+    [
+        "ClassEval_41",
+        "check_winner",
+        "Checks if there is a winner by looking for five in a row in all directions (horizontal, vertical, diagonal).\nreturn: the symbol of the winning player (either 'X' or 'O') if there is a winner, or None otherwise."
+    ],
+    [
+        "ClassEval_41",
+        "_check_five_in_a_row",
+        "checks if there are five consecutive symbols of the same player in a row starting from a given cell in a given direction (horizontal, vertical, diagonal).\nCounts the number of consecutive symbols in that direction starting from the given cell,"
+    ],
+    [
+        "ClassEval_42",
+        "book_room",
+        "Check if there are any rooms of the specified type available.\nif rooms are adequate, modify available_rooms and booked_rooms and finish booking, or fail to book otherwise."
+    ],
+    [
+        "ClassEval_42",
+        "check_in",
+        "Check if the room of the specified type and number is booked by the person named name.\nRemove this name when check in successfuly(room_number is equal to specific person's booked_rooms. When the actual check in quantity (room_number) is less than the booked quantity, number in booked_rooms will be booked quantity minus actual quantity"
+    ],
+    [
+        "ClassEval_42",
+        "check_out",
+        "Check out rooms, add number for specific type in available_rooms.\nIf room_type is new, add new type in available_rooms."
+    ],
+    [
+        "ClassEval_42",
+        "get_available_rooms",
+        "Get the number of specific type of available rooms."
+    ],
+    [
+        "ClassEval_43",
+        "add_employee",
+        "Add a new employee to the HRManagementSystem."
+    ],
+    [
+        "ClassEval_43",
+        "remove_employee",
+        "Remove an employee from the HRManagementSystem."
+    ],
+    [
+        "ClassEval_43",
+        "update_employee",
+        "Update an employee's information in the HRManagementSystem."
+    ],
+    [
+        "ClassEval_43",
+        "get_employee",
+        "Get an employee's information from the HRManagementSystem."
+    ],
+    [
+        "ClassEval_43",
+        "list_employees",
+        "List all employees' information in the HRManagementSystem."
+    ],
+    [
+        "ClassEval_44",
+        "__format_line_feed",
+        "Replace consecutive line breaks with a single line break"
+    ],
+    [
+        "ClassEval_44",
+        "format_line_html_text",
+        "get the html text without the code, and add the code tag -CODE- where the code is"
+    ],
+    [
+        "ClassEval_44",
+        "extract_code_from_html_text",
+        "extract codes from the html body"
+    ],
+    [
+        "ClassEval_45",
+        "load_image",
+        "Use Image util in PIL to open a image"
+    ],
+    [
+        "ClassEval_45",
+        "save_image",
+        "Save image to a path if image has opened"
+    ],
+    [
+        "ClassEval_45",
+        "resize_image",
+        "Risize the image if image has opened."
+    ],
+    [
+        "ClassEval_45",
+        "rotate_image",
+        "rotate image if image has opened"
+    ],
+    [
+        "ClassEval_45",
+        "adjust_brightness",
+        "Adjust the brightness of image if image has opened."
+    ],
+    [
+        "ClassEval_46",
+        "interpolate_1d",
+        "Linear interpolation of one-dimensional data"
+    ],
+    [
+        "ClassEval_46",
+        "interpolate_2d",
+        "Linear interpolation of two-dimensional data"
+    ],
+    [
+        "ClassEval_47",
+        "is_valid",
+        "Judge whether the IP address is valid, that is, whether the IP address is composed of four Decimal digits separated by '.'. Each digit is greater than or equal to 0 and less than or equal to 255"
+    ],
+    [
+        "ClassEval_47",
+        "get_octets",
+        "If the IP address is valid, the list of four decimal numbers separated by \".\" constituting the IP address is returned; otherwise, an empty list is returned"
+    ],
+    [
+        "ClassEval_47",
+        "get_binary",
+        "If the IP address is valid, return the binary form of the IP address; otherwise, return ''"
+    ],
+    [
+        "ClassEval_48",
+        "is_valid_ipv4",
+        "Check if the given IP address is a valid IPv4 address."
+    ],
+    [
+        "ClassEval_48",
+        "is_valid_ipv6",
+        "Check if the given IP address is a valid IPv6 address."
+    ],
+    [
+        "ClassEval_48",
+        "get_hostname",
+        "Get the hostname associated with the given IP address."
+    ],
+    [
+        "ClassEval_49",
+        "post_job",
+        "This function is used to publish positions,and add the position information to the job_listings list."
+    ],
+    [
+        "ClassEval_49",
+        "remove_job",
+        "This function is used to remove positions,and remove the position information from the job_listings list."
+    ],
+    [
+        "ClassEval_49",
+        "submit_resume",
+        "This function is used to submit resumes,and add the resume information to the resumes list."
+    ],
+    [
+        "ClassEval_49",
+        "withdraw_resume",
+        "This function is used to withdraw resumes,and remove the resume information from the resumes list."
+    ],
+    [
+        "ClassEval_49",
+        "search_jobs",
+        "This function is used to search for positions,and return the position information that meets the requirements."
+    ],
+    [
+        "ClassEval_49",
+        "get_job_applicants",
+        "This function is used to obtain candidate information,and return the candidate information that meets the requirements by calling the matches_requirements function."
+    ],
+    [
+        "ClassEval_50",
+        "read_json",
+        "Read a JSON file and return the data."
+    ],
+    [
+        "ClassEval_50",
+        "write_json",
+        "Write data to a JSON file and save it to the given path.\n"
+    ],
+    [
+        "ClassEval_50",
+        "process_json",
+        "read a JSON file and process the data by removing a specified key and rewrite the modified data back to the file.\n"
+    ],
+    [
+        "ClassEval_51",
+        "kappa",
+        "Calculate the cohens kappa value of a k-dimensional matrix"
+    ],
+    [
+        "ClassEval_51",
+        "fleiss_kappa",
+        "Calculate the fliss kappa value of an N * k matrix"
+    ],
+    [
+        "ClassEval_52",
+        "lemmatize_sentence",
+        "Remove punctuations of the sentence and tokenizes the input sentence, mark the part of speech tag of each word,\nlemmatizes the words with different parameters based on their parts of speech, and stores in a list."
+    ],
+    [
+        "ClassEval_52",
+        "get_pos_tag",
+        "Remove punctuations of the sentence and tokenizes the input sentence, mark the part of speech tag of each word."
+    ],
+    [
+        "ClassEval_52",
+        "remove_punctuation",
+        "Removes punctuation from the input text."
+    ],
+    [
+        "ClassEval_53",
+        "add_word",
+        "append the input word into self.word_list"
+    ],
+    [
+        "ClassEval_53",
+        "find_longest_word",
+        "Remove punctuation marks and split a sentence into a list of word. Find the longest splited word that is in the self.word_list.\nWords are strictly case sensitive."
+    ],
+    [
+        "ClassEval_54",
+        "create_board",
+        "create the game board with the given board size and icons"
+    ],
+    [
+        "ClassEval_54",
+        "is_valid_move",
+        "check if the move of two icons is valid (i.e. positions are within the game board range, the two positions are not the same, the two positions have the same icon, and there is a valid path between the two positions)"
+    ],
+    [
+        "ClassEval_54",
+        "has_path",
+        "check if there is a path between two icons"
+    ],
+    [
+        "ClassEval_54",
+        "remove_icons",
+        "remove the connected icons on the game board"
+    ],
+    [
+        "ClassEval_54",
+        "is_game_over",
+        "Check if the game is over (i.e., if there are no more icons on the game board)"
+    ],
+    [
+        "ClassEval_55",
+        "palindromic_length",
+        "Recursively calculates the length of the palindromic substring based on a given center, difference value, and input string."
+    ],
+    [
+        "ClassEval_55",
+        "palindromic_string",
+        "Finds the longest palindromic substring in the given string."
+    ],
+    [
+        "ClassEval_56",
+        "update",
+        "Update the number of all four samples(true_positives, false_positives, false_negatives, true_negatives)"
+    ],
+    [
+        "ClassEval_56",
+        "precision",
+        "Calculate precision"
+    ],
+    [
+        "ClassEval_56",
+        "recall",
+        "Calculate recall"
+    ],
+    [
+        "ClassEval_56",
+        "f1_score",
+        "Calculate f1 score, which is the harmonic mean of precision and recall"
+    ],
+    [
+        "ClassEval_56",
+        "accuracy",
+        "Calculate accuracy"
+    ],
+    [
+        "ClassEval_57",
+        "mrr",
+        "compute the MRR of the input data. MRR is a widely used evaluation index. It is the mean of reciprocal rank."
+    ],
+    [
+        "ClassEval_57",
+        "map",
+        "compute the MAP of the input data. MAP is a widely used evaluation index. It is the mean of AP (average precision)."
+    ],
+    [
+        "ClassEval_58",
+        "generate_mine_sweeper_map",
+        "Generates a minesweeper map with the given size of the board and the number of mines,the given parameter n is the size of the board,the size of the board is n*n,the parameter k is the number of mines,'X' represents the mine,other numbers represent the number of mines around the position."
+    ],
+    [
+        "ClassEval_58",
+        "generate_playerMap",
+        "Generates a player map with the given size of the board, the given parameter n is the size of the board,the size of the board is n*n,the parameter k is the number of mines,'-' represents the unknown position."
+    ],
+    [
+        "ClassEval_58",
+        "check_won",
+        "Checks whether the player has won the game,if there are just mines in the player map,return True,otherwise return False."
+    ],
+    [
+        "ClassEval_58",
+        "sweep",
+        "Sweeps the given position."
+    ],
+    [
+        "ClassEval_59",
+        "add_movie",
+        "Add a new movie into self.movies"
+    ],
+    [
+        "ClassEval_59",
+        "book_ticket",
+        "Book tickets for a movie. Change the seats value in self.movies if book successfully."
+    ],
+    [
+        "ClassEval_59",
+        "available_movies",
+        "Get a list of available movies within the specified time range"
+    ],
+    [
+        "ClassEval_60",
+        "create_table",
+        "Creates a \"tickets\" table in the database if it does not exist already.Fields include ID of type int, movie name of type str, author name of type str, seat number of type str, and customer name of type str"
+    ],
+    [
+        "ClassEval_60",
+        "insert_ticket",
+        "Inserts a new ticket into the \"tickets\" table."
+    ],
+    [
+        "ClassEval_60",
+        "search_tickets_by_customer",
+        "Searches for tickets in the \"tickets\" table by customer name."
+    ],
+    [
+        "ClassEval_60",
+        "delete_ticket",
+        "Deletes a ticket from the \"tickets\" table by ticket ID."
+    ],
+    [
+        "ClassEval_61",
+        "add_song",
+        "Adds a song to the playlist."
+    ],
+    [
+        "ClassEval_61",
+        "remove_song",
+        "Removes a song from the playlist."
+    ],
+    [
+        "ClassEval_61",
+        "play",
+        "Plays the current song in the playlist."
+    ],
+    [
+        "ClassEval_61",
+        "stop",
+        "Stops the current song in the playlist."
+    ],
+    [
+        "ClassEval_61",
+        "switch_song",
+        "Switches to the next song in the playlist."
+    ],
+    [
+        "ClassEval_61",
+        "previous_song",
+        "Switches to the previous song in the playlist."
+    ],
+    [
+        "ClassEval_61",
+        "set_volume",
+        "Sets the volume of the music player,ifthe volume is between 0 and 100 is valid."
+    ],
+    [
+        "ClassEval_61",
+        "shuffle",
+        "Shuffles the playlist."
+    ],
+    [
+        "ClassEval_62",
+        "construct_stop_word_list",
+        "Construct a stop word list including 'a', 'an', 'the'."
+    ],
+    [
+        "ClassEval_62",
+        "remove_stop_words",
+        "Remove all the stop words from the list of strings."
+    ],
+    [
+        "ClassEval_62",
+        "process",
+        "Construct a stop word list including 'a', 'an', 'the', and remove all the stop words from the list of strings."
+    ],
+    [
+        "ClassEval_63",
+        "process_data",
+        "keep only English letters and spaces in the string, then convert the string to lower case, and then split the string into a list of words."
+    ],
+    [
+        "ClassEval_63",
+        "calculate_word_frequency",
+        "Calculate the word frequency of each word in the list of words list, and sort the word frequency dictionary by value in descending order."
+    ],
+    [
+        "ClassEval_63",
+        "process",
+        "keep only English letters and spaces in the string, then convert the string to lower case, and then split the string into a list of words. Calculate the word frequency of each word in the list of words list, and sort the word frequency dictionary by value in descending order."
+    ],
+    [
+        "ClassEval_64",
+        "decimal_to_binary",
+        "Convert a number from decimal format to binary format."
+    ],
+    [
+        "ClassEval_64",
+        "binary_to_decimal",
+        "Convert a number from binary format to decimal format."
+    ],
+    [
+        "ClassEval_64",
+        "decimal_to_octal",
+        "Convert a number from decimal format to octal format."
+    ],
+    [
+        "ClassEval_64",
+        "octal_to_decimal",
+        "Convert a number from octal format to decimal format."
+    ],
+    [
+        "ClassEval_64",
+        "decimal_to_hex",
+        "Convert a number from decimal format to hex format."
+    ],
+    [
+        "ClassEval_64",
+        "hex_to_decimal",
+        "Convert a number from hex format to decimal format."
+    ],
+    [
+        "ClassEval_65",
+        "format",
+        "Converts a number into words format"
+    ],
+    [
+        "ClassEval_65",
+        "format_string",
+        "Converts a string representation of a number into words format"
+    ],
+    [
+        "ClassEval_65",
+        "trans_two",
+        "Converts a two-digit number into words format"
+    ],
+    [
+        "ClassEval_65",
+        "trans_three",
+        "Converts a three-digit number into words format"
+    ],
+    [
+        "ClassEval_65",
+        "parse_more",
+        "Parses the thousand/million/billion suffix based on the index"
+    ],
+    [
+        "ClassEval_66",
+        "replace",
+        "Replaces numeric character references (HTML entities) in the input string with their corresponding Unicode characters."
+    ],
+    [
+        "ClassEval_66",
+        "is_hex_char",
+        "Determines whether a given character is a hexadecimal digit."
+    ],
+    [
+        "ClassEval_67",
+        "add_dish",
+        "Check the self.menu and add into self.selected_dish if the dish count is valid.\nAnd if the dish has successfully been added, change the count in self.menu."
+    ],
+    [
+        "ClassEval_67",
+        "calculate_total",
+        "Calculate the total price of dishes that have been ordered. Multiply the count, price and sales."
+    ],
+    [
+        "ClassEval_67",
+        "checkout",
+        "Check out the dished ordered. IF the self.selected_dishes is not empty, invoke the calculate_total\nmethod to check out."
+    ],
+    [
+        "ClassEval_68",
+        "get_page",
+        "Retrieve a specific page of data."
+    ],
+    [
+        "ClassEval_68",
+        "get_page_info",
+        "Retrieve information about a specific page."
+    ],
+    [
+        "ClassEval_68",
+        "search",
+        "Search for items in the data that contain the given keyword."
+    ],
+    [
+        "ClassEval_69",
+        "merge_pdfs",
+        "Read files in self.readers which stores handles to multiple PDF files.\nMerge them to one pdf and update the page number, then save in disk."
+    ],
+    [
+        "ClassEval_69",
+        "extract_text_from_pdfs",
+        "Extract text from pdf files in self.readers"
+    ],
+    [
+        "ClassEval_70",
+        "_validate_name",
+        "Validate the name and return it. If name is empty or exceeds 33 characters in length, set to None."
+    ],
+    [
+        "ClassEval_70",
+        "_validate_sex",
+        "Validate the sex and return it. If sex is not Man, Woman, or UGM, set to None."
+    ],
+    [
+        "ClassEval_70",
+        "_validate_phoneNumber",
+        "Validate the phone number and return it. If phoneNumber is empty or not an 11 digit number, set to None."
+    ],
+    [
+        "ClassEval_71",
+        "init_game",
+        "Initialize the game by setting the positions of the player, targets, and boxes based on the map."
+    ],
+    [
+        "ClassEval_71",
+        "check_win",
+        "Check if the game is won. The game is won when all the boxes are placed on target positions.\nAnd update the value of self.is_game_over."
+    ],
+    [
+        "ClassEval_71",
+        "move",
+        "Move the player based on the specified direction and check if the game is won."
+    ],
+    [
+        "ClassEval_72",
+        "match",
+        "Check if the text matches the regular expression"
+    ],
+    [
+        "ClassEval_72",
+        "findall",
+        "Find all matching substrings and return a list of all matching substrings"
+    ],
+    [
+        "ClassEval_72",
+        "split",
+        "Split text based on regular expression patterns and return a list of substrings"
+    ],
+    [
+        "ClassEval_72",
+        "sub",
+        "Replace the substring matched by a regular expression with the specified string"
+    ],
+    [
+        "ClassEval_72",
+        "generate_email_pattern",
+        "Generate regular expression patterns that match email addresses"
+    ],
+    [
+        "ClassEval_72",
+        "generate_phone_number_pattern",
+        "Generate regular expression patterns that match phone numbers"
+    ],
+    [
+        "ClassEval_72",
+        "generate_split_sentences_pattern",
+        "Generate regular expression patterns that match the middle characters of two sentences"
+    ],
+    [
+        "ClassEval_72",
+        "split_sentences",
+        "Split the text into a list of sentences without Punctuation except the last sentence"
+    ],
+    [
+        "ClassEval_72",
+        "validate_phone_number",
+        "Verify if the phone number is valid"
+    ],
+    [
+        "ClassEval_72",
+        "extract_email",
+        "Extract all email addresses from the text"
+    ],
+    [
+        "ClassEval_73",
+        "attack",
+        "Attack another character. The damage caused needs to offset the defense value."
+    ],
+    [
+        "ClassEval_73",
+        "heal",
+        "Heal the character with 10 hp and the max hp is 100."
+    ],
+    [
+        "ClassEval_73",
+        "gain_exp",
+        "Gain experience points for the character and level_up when the exp has reached the values that is 100 times the current level\nThe experience that overflows should be used to calculate the next leve up untill exhausts"
+    ],
+    [
+        "ClassEval_73",
+        "level_up",
+        "Level up the character and return to zero experience points, increase hp by 20 points, attack power and defense points by 5 points.\nmax level is 100"
+    ],
+    [
+        "ClassEval_73",
+        "is_alive",
+        "Check if player is alive."
+    ],
+    [
+        "ClassEval_74",
+        "add_white_list",
+        "Add an address to the whitelist and do nothing if it already exists"
+    ],
+    [
+        "ClassEval_74",
+        "del_white_list",
+        "Remove an address from the whitelist and do nothing if it does not exist"
+    ],
+    [
+        "ClassEval_74",
+        "recv",
+        "Receive information containing address and content. If the address is on the whitelist, receive the content; otherwise, do not receive it"
+    ],
+    [
+        "ClassEval_74",
+        "send",
+        "Send information containing address and content"
+    ],
+    [
+        "ClassEval_74",
+        "show",
+        "Returns struct of the specified type"
+    ],
+    [
+        "ClassEval_75",
+        "add_item",
+        "Add item information to the shopping list items, including price and quantity. The default quantity is 1"
+    ],
+    [
+        "ClassEval_75",
+        "remove_item",
+        "Subtract the specified quantity of item from the shopping list items"
+    ],
+    [
+        "ClassEval_75",
+        "view_items",
+        "Return the current shopping list items"
+    ],
+    [
+        "ClassEval_75",
+        "total_price",
+        "Calculate the total price of all items in the shopping list, which is the quantity of each item multiplied by the price"
+    ],
+    [
+        "ClassEval_76",
+        "add_user",
+        "Add a user to the sign-in system if the user wasn't in the self.users.\nAnd the initial state is False."
+    ],
+    [
+        "ClassEval_76",
+        "sign_in",
+        "Sign in a user if the user was in the self.users and change the state to True."
+    ],
+    [
+        "ClassEval_76",
+        "check_sign_in",
+        "Check if a user is signed in."
+    ],
+    [
+        "ClassEval_76",
+        "all_signed_in",
+        "Check if all users are signed in."
+    ],
+    [
+        "ClassEval_76",
+        "all_not_signed_in",
+        "Get a list of usernames that are not signed in."
+    ],
+    [
+        "ClassEval_77",
+        "move",
+        "Move the snake in the specified direction. If the new position of the snake's head is equal to the position of the food, then eat the food; If the position of the snake's head is equal to the position of its body, then start over, otherwise its own length plus one."
+    ],
+    [
+        "ClassEval_77",
+        "random_food_position",
+        "Randomly generate a new food position, but don't place it on the snake."
+    ],
+    [
+        "ClassEval_77",
+        "reset",
+        "Reset the snake to its initial state. Set the length to 1, the snake head position to ((SCREEN_WIDTH/2), (SCREEN_HEIGHT/2)), the score to 0, and randomly generate new food position."
+    ],
+    [
+        "ClassEval_77",
+        "eat_food",
+        "Increase the length of the snake by 1 and increase the score by 100. Randomly generate a new food position, but\ndon't place it on the snake."
+    ],
+    [
+        "ClassEval_78",
+        "split_sentences",
+        "Split a string into a list of sentences. Sentences end with . or ? and with a space after that. Please note that Mr. also end with . but are not sentences."
+    ],
+    [
+        "ClassEval_78",
+        "count_words",
+        "Count the number of words in a sentence. Note that words are separated by spaces and that punctuation marks and numbers are not counted as words."
+    ],
+    [
+        "ClassEval_78",
+        "process_text_file",
+        "Given a text, return the number of words in the longest sentence"
+    ],
+    [
+        "ClassEval_79",
+        "select",
+        "Generates a SELECT SQL statement based on the specified fields and conditions."
+    ],
+    [
+        "ClassEval_79",
+        "insert",
+        "Generates an INSERT SQL statement based on the given data."
+    ],
+    [
+        "ClassEval_79",
+        "update",
+        "Generates an UPDATE SQL statement based on the given data and condition."
+    ],
+    [
+        "ClassEval_79",
+        "delete",
+        "Generates a DELETE SQL statement based on the given condition."
+    ],
+    [
+        "ClassEval_79",
+        "select_female_under_age",
+        "Generates a SQL statement to select females under a specified age."
+    ],
+    [
+        "ClassEval_79",
+        "select_by_age_range",
+        "Generates a SQL statement to select records within a specified age range."
+    ],
+    [
+        "ClassEval_80",
+        "select",
+        "Generate the SELECT SQL statement from the given parameters."
+    ],
+    [
+        "ClassEval_80",
+        "insert",
+        "Generate the INSERT SQL statement from the given parameters."
+    ],
+    [
+        "ClassEval_80",
+        "delete",
+        "Generate the DELETE SQL statement from the given parameters."
+    ],
+    [
+        "ClassEval_80",
+        "update",
+        "Generate the UPDATE SQL statement from the given parameters."
+    ],
+    [
+        "ClassEval_81",
+        "median",
+        "calculates the median of the given list."
+    ],
+    [
+        "ClassEval_81",
+        "mode",
+        "calculates the mode of the given list."
+    ],
+    [
+        "ClassEval_81",
+        "correlation",
+        "calculates the correlation of the given list."
+    ],
+    [
+        "ClassEval_81",
+        "mean",
+        "calculates the mean of the given list."
+    ],
+    [
+        "ClassEval_81",
+        "correlation_matrix",
+        "calculates the correlation matrix of the given list."
+    ],
+    [
+        "ClassEval_81",
+        "standard_deviation",
+        "calculates the standard deviation of the given list."
+    ],
+    [
+        "ClassEval_81",
+        "z_score",
+        "calculates the z-score of the given list."
+    ],
+    [
+        "ClassEval_82",
+        "add_stock",
+        "Add a stock to the portfolio."
+    ],
+    [
+        "ClassEval_82",
+        "remove_stock",
+        "Remove a stock from the portfolio."
+    ],
+    [
+        "ClassEval_82",
+        "buy_stock",
+        "Buy a stock and add it to the portfolio."
+    ],
+    [
+        "ClassEval_82",
+        "sell_stock",
+        "Sell a stock and remove it from the portfolio and add the cash to the cash balance."
+    ],
+    [
+        "ClassEval_82",
+        "calculate_portfolio_value",
+        "Calculate the total value of the portfolio."
+    ],
+    [
+        "ClassEval_82",
+        "get_portfolio_summary",
+        "Get a summary of the portfolio."
+    ],
+    [
+        "ClassEval_82",
+        "get_stock_value",
+        "Get the value of a stock."
+    ],
+    [
+        "ClassEval_83",
+        "create_student_table",
+        "Creates a \"students\" table in the database if it does not exist already.Fields include ID of type int, name of type str, age of type int, gender of type str, and grade of type int"
+    ],
+    [
+        "ClassEval_83",
+        "insert_student",
+        "Inserts a new student into the \"students\" table."
+    ],
+    [
+        "ClassEval_83",
+        "search_student_by_name",
+        "Searches for a student in the \"students\" table by their name."
+    ],
+    [
+        "ClassEval_83",
+        "delete_student_by_name",
+        "Deletes a student from the \"students\" table by their name."
+    ],
+    [
+        "ClassEval_84",
+        "read_file_as_json",
+        "Read the self.file_path file as json format.\nif the file content doesn't obey json format, the code will raise error."
+    ],
+    [
+        "ClassEval_84",
+        "read_file",
+        "Read the return the content of self.file_path file."
+    ],
+    [
+        "ClassEval_84",
+        "write_file",
+        "Write content into the self.file_path file, and overwrite if the file has already existed."
+    ],
+    [
+        "ClassEval_84",
+        "process_file",
+        "Read the self.file_path file and filter out non-alphabetic characters from the content string.\nOverwrite the after-processed data into the same self.file_path file."
+    ],
+    [
+        "ClassEval_85",
+        "get_target_temperature",
+        "Get the target temperature of an instance of the Thermostat class."
+    ],
+    [
+        "ClassEval_85",
+        "set_target_temperature",
+        "Set the target temperature"
+    ],
+    [
+        "ClassEval_85",
+        "get_mode",
+        "Get the current work mode"
+    ],
+    [
+        "ClassEval_85",
+        "set_mode",
+        "Get the current work mode"
+    ],
+    [
+        "ClassEval_85",
+        "auto_set_mode",
+        "Automatically set the operating mode by comparing with the current temperature and target temperature. If the current temperature is lower than the target temperature, the operating mode is set to 'heat', otherwise it is set to 'cool'."
+    ],
+    [
+        "ClassEval_85",
+        "auto_check_conflict",
+        "Check if there is a conflict between the operating mode and the relationship between the current temperature and the target temperature.\nIf there is a conflict, the operating mode will be adjusted automatically."
+    ],
+    [
+        "ClassEval_85",
+        "simulate_operation",
+        "simulate the operation of Thermostat. It will automatically start the auto_set_mode method to set the operating mode,\nand then automatically adjust the current temperature according to the operating mode until the target temperature is reached."
+    ],
+    [
+        "ClassEval_86",
+        "make_move",
+        "Place the current player's mark at the specified position on the board and switch the mark."
+    ],
+    [
+        "ClassEval_86",
+        "check_winner",
+        "Check if there is a winner on the board in rows, columns and diagonals three directions"
+    ],
+    [
+        "ClassEval_86",
+        "is_board_full",
+        "Check if the game board is completely filled."
+    ],
+    [
+        "ClassEval_87",
+        "get_current_time",
+        "Return the current time in the format of '%H:%M:%S'"
+    ],
+    [
+        "ClassEval_87",
+        "get_current_date",
+        "Return the current date in the format of \"%Y-%m-%d\""
+    ],
+    [
+        "ClassEval_87",
+        "add_seconds",
+        "Add the specified number of seconds to the current time"
+    ],
+    [
+        "ClassEval_87",
+        "string_to_datetime",
+        "Convert the time string to a datetime instance"
+    ],
+    [
+        "ClassEval_87",
+        "datetime_to_string",
+        "Convert a datetime instance to a string"
+    ],
+    [
+        "ClassEval_87",
+        "get_minutes",
+        "Calculate how many minutes have passed between two times, and round the results to the nearest"
+    ],
+    [
+        "ClassEval_87",
+        "get_format_time",
+        "get format time"
+    ],
+    [
+        "ClassEval_88",
+        "cos",
+        "Calculate the cos value of the x-degree angle"
+    ],
+    [
+        "ClassEval_88",
+        "factorial",
+        "Calculate the factorial of a"
+    ],
+    [
+        "ClassEval_88",
+        "taylor",
+        "Finding the n-order Taylor expansion value of cos (x/180 * pi)"
+    ],
+    [
+        "ClassEval_88",
+        "sin",
+        "Calculate the sin value of the x-degree angle"
+    ],
+    [
+        "ClassEval_88",
+        "tan",
+        "Calculate the tan value of the x-degree angle"
+    ],
+    [
+        "ClassEval_89",
+        "_generate_cards",
+        ""
+    ],
+    [
+        "ClassEval_89",
+        "get_my_cards",
+        "Get a list of four random numbers between 1 and 9 representing the player's cards."
+    ],
+    [
+        "ClassEval_89",
+        "answer",
+        "Check if a given mathematical expression using the cards can evaluate to 24."
+    ],
+    [
+        "ClassEval_89",
+        "evaluate_expression",
+        "Evaluate a mathematical expression and check if the result is 24."
+    ],
+    [
+        "ClassEval_90",
+        "get_scheme",
+        "get the scheme of the URL"
+    ],
+    [
+        "ClassEval_90",
+        "get_host",
+        "Get the second part of the URL, which is the host domain name"
+    ],
+    [
+        "ClassEval_90",
+        "get_path",
+        "Get the third part of the URL, which is the address of the resource"
+    ],
+    [
+        "ClassEval_90",
+        "get_query_params",
+        "Get the request parameters for the URL"
+    ],
+    [
+        "ClassEval_90",
+        "get_fragment",
+        "Get the fragment after '#' in the URL"
+    ],
+    [
+        "ClassEval_91",
+        "add",
+        "Adds a segment to the list of segments in the UrlPath."
+    ],
+    [
+        "ClassEval_91",
+        "parse",
+        "Parses a given path string and populates the list of segments in the UrlPath."
+    ],
+    [
+        "ClassEval_91",
+        "fix_path",
+        "Fixes the given path string by removing leading and trailing slashes."
+    ],
+    [
+        "ClassEval_92",
+        "insert_user",
+        "Inserts a new user into the \"users\" table."
+    ],
+    [
+        "ClassEval_92",
+        "search_user_by_username",
+        "Searches for users in the \"users\" table by username."
+    ],
+    [
+        "ClassEval_92",
+        "delete_user_by_username",
+        "Deletes a user from the \"users\" table by username."
+    ],
+    [
+        "ClassEval_92",
+        "validate_user_login",
+        "Determine whether the user can log in, that is, the user is in the database and the password is correct"
+    ],
+    [
+        "ClassEval_93",
+        "similarity",
+        "Compute the cosine similarity between one vector and another vector."
+    ],
+    [
+        "ClassEval_93",
+        "cosine_similarities",
+        "Compute cosine similarities between one vector and a set of other vectors."
+    ],
+    [
+        "ClassEval_93",
+        "n_similarity",
+        "Compute cosine similarity between two sets of vectors."
+    ],
+    [
+        "ClassEval_93",
+        "compute_idf_weight_dict",
+        "Calculate log(total_num+1/count+1) for each count in number_dict"
+    ],
+    [
+        "ClassEval_94",
+        "add_item",
+        "Adds a product to the vending machine's inventory."
+    ],
+    [
+        "ClassEval_94",
+        "insert_coin",
+        "Inserts coins into the vending machine."
+    ],
+    [
+        "ClassEval_94",
+        "purchase_item",
+        "Purchases a product from the vending machine and returns the balance after the purchase and display purchase unsuccessful if the product is out of stock."
+    ],
+    [
+        "ClassEval_94",
+        "restock_item",
+        "Replenishes the inventory of a product already in the vending machine."
+    ],
+    [
+        "ClassEval_94",
+        "display_items",
+        "Displays the products in the vending machine."
+    ],
+    [
+        "ClassEval_95",
+        "add_product",
+        "Add product to inventory and plus the quantity if it has existed in inventory.\nOr just add new product to dict otherwise."
+    ],
+    [
+        "ClassEval_95",
+        "update_product_quantity",
+        "According to product_id, add the quantity to the corresponding product in inventory."
+    ],
+    [
+        "ClassEval_95",
+        "get_product_quantity",
+        "Get the quantity of specific product by product_id."
+    ],
+    [
+        "ClassEval_95",
+        "create_order",
+        "Create a order which includes the infomation of product, like id and quantity.\nAnd put the new order into self.orders.\nThe default value of status is 'Shipped'."
+    ],
+    [
+        "ClassEval_95",
+        "change_order_status",
+        "Change the status of order if the input order_id is in self.orders."
+    ],
+    [
+        "ClassEval_95",
+        "track_order",
+        "Get the status of specific order."
+    ],
+    [
+        "ClassEval_96",
+        "query",
+        "Query the weather system for the weather and temperature of the city,and convert the temperature units based on the input parameter."
+    ],
+    [
+        "ClassEval_96",
+        "set_city",
+        "Set the city of the weather system."
+    ],
+    [
+        "ClassEval_96",
+        "celsius_to_fahrenheit",
+        "Convert the temperature from Celsius to Fahrenheit."
+    ],
+    [
+        "ClassEval_96",
+        "fahrenheit_to_celsius",
+        "Convert the temperature from Fahrenheit to Celsius."
+    ],
+    [
+        "ClassEval_97",
+        "text2int",
+        "Convert the word string to the corresponding integer string"
+    ],
+    [
+        "ClassEval_97",
+        "is_valid_input",
+        "Check if the input text contains only valid words that can be converted into numbers."
+    ],
+    [
+        "ClassEval_98",
+        "read_xml",
+        "Reads the XML file and returns the root element."
+    ],
+    [
+        "ClassEval_98",
+        "write_xml",
+        "Writes the XML data to the specified file."
+    ],
+    [
+        "ClassEval_98",
+        "process_xml_data",
+        "Modifies the data in XML elements and writes the updated XML data to a new file."
+    ],
+    [
+        "ClassEval_98",
+        "find_element",
+        "Finds the XML elements with the specified name."
+    ],
+    [
+        "ClassEval_99",
+        "read_zip_file",
+        "Get open file object"
+    ],
+    [
+        "ClassEval_99",
+        "extract_all",
+        "Extract all zip files and place them in the specified path"
+    ],
+    [
+        "ClassEval_99",
+        "extract_file",
+        "Extract the file with the specified name from the zip file and place it in the specified path"
+    ],
+    [
+        "ClassEval_99",
+        "create_zip_file",
+        "Compress the specified file list into a zip file and place it in the specified path"
+    ]
+]

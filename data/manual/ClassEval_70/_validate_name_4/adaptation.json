@@ -1,0 +1,44 @@
+[
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "->",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "str",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Validate the name and return it. If name is empty or exceeds 33 characters in length, set to None.\n        :param name: str, the name to validate\n        :return: str, the validated name or None if invalid\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "str",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "name",
+        "deleted": "name",
+        "type": "Move"
+    }
+]

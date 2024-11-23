@@ -1,0 +1,65 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "y",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        calculates the correlation of the given list.\n        :param x: the given list, list.\n        :param y: the given list, list.\n        :return: the correlation of the given list, float.\n        >>> statistics3 = Statistics3()\n        >>> statistics3.correlation([1, 2, 3], [4, 5, 6])\n        1.0\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "x",
+        "deleted": "lst",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "x",
+        "deleted": "lst",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "x",
+        "deleted": "lst",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "y",
+        "deleted": "lst",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "x",
+        "deleted": "lst",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "y",
+        "deleted": "lst",
+        "type": "Refactoring"
+    }
+]

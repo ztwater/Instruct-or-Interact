@@ -1,0 +1,183 @@
+{
+  "matches": [
+    {
+      "src": "suite [19,141]",
+      "dest": "suite [19,454]"
+    },
+    {
+      "src": "dictorsetmaker [104,140]",
+      "dest": "dictorsetmaker [416,452]"
+    },
+    {
+      "src": "param [55,65]",
+      "dest": "param [56,66]"
+    },
+    {
+      "src": "name: quantity [55,63]",
+      "dest": "name: quantity [56,64]"
+    },
+    {
+      "src": "classdef [0,141]",
+      "dest": "classdef [0,454]"
+    },
+    {
+      "src": "suite [67,141]",
+      "dest": "suite [68,454]"
+    },
+    {
+      "src": "string: 'quantity' [120,130]",
+      "dest": "string: 'quantity' [432,442]"
+    },
+    {
+      "src": "string: 'price' [104,111]",
+      "dest": "string: 'price' [416,423]"
+    },
+    {
+      "src": "operator: , [118,119]",
+      "dest": "operator: , [430,431]"
+    },
+    {
+      "src": "trailer [89,100]",
+      "dest": "trailer [406,412]"
+    },
+    {
+      "src": "name: price [48,53]",
+      "dest": "name: price [49,54]"
+    },
+    {
+      "src": "name: item_name [90,99]",
+      "dest": "name: item [407,411]"
+    },
+    {
+      "src": "operator: { [103,104]",
+      "dest": "operator: { [415,416]"
+    },
+    {
+      "src": "file_input [0,141]",
+      "dest": "file_input [0,454]"
+    },
+    {
+      "src": "param [37,47]",
+      "dest": "param [43,48]"
+    },
+    {
+      "src": "parameters [36,66]",
+      "dest": "parameters [36,67]"
+    },
+    {
+      "src": "operator: , [53,54]",
+      "dest": "operator: , [54,55]"
+    },
+    {
+      "src": "operator: , [46,47]",
+      "dest": "operator: , [47,48]"
+    },
+    {
+      "src": "param [48,54]",
+      "dest": "param [49,55]"
+    },
+    {
+      "src": "name: price [113,118]",
+      "dest": "name: price [425,430]"
+    },
+    {
+      "src": "operator: } [140,141]",
+      "dest": "operator: } [452,453]"
+    },
+    {
+      "src": "operator: = [63,64]",
+      "dest": "operator: = [64,65]"
+    },
+    {
+      "src": "name: quantity [132,140]",
+      "dest": "name: quantity [444,452]"
+    },
+    {
+      "src": "number: 1 [64,65]",
+      "dest": "number: 1 [65,66]"
+    },
+    {
+      "src": "atom [103,141]",
+      "dest": "atom [415,453]"
+    },
+    {
+      "src": "name: item_name [37,46]",
+      "dest": "name: item [43,47]"
+    },
+    {
+      "src": "name: ShoppingCart [6,18]",
+      "dest": "name: ShoppingCart [6,18]"
+    },
+    {
+      "src": "expr_stmt [76,141]",
+      "dest": "expr_stmt [396,453]"
+    },
+    {
+      "src": "operator: = [101,102]",
+      "dest": "operator: = [413,414]"
+    },
+    {
+      "src": "atom_expr [76,100]",
+      "dest": "atom_expr [396,412]"
+    },
+    {
+      "src": "name: shopping_list [76,89]",
+      "dest": "name: self [396,400]"
+    },
+    {
+      "src": "funcdef [24,141]",
+      "dest": "funcdef [24,454]"
+    },
+    {
+      "src": "name: add_item [28,36]",
+      "dest": "name: add_item [28,36]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [37,42]",
+      "parent": "parameters [36,67]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [77,388]",
+      "parent": "suite [68,454]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [396,454]",
+      "parent": "suite [68,454]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: item_name [37,46]",
+      "label": "item"
+    },
+    {
+      "action": "move-tree",
+      "tree": "expr_stmt [76,141]",
+      "parent": "simple_stmt [396,454]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: shopping_list [76,89]",
+      "label": "self"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [400,406]",
+      "parent": "atom_expr [396,412]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: item_name [90,99]",
+      "label": "item"
+    }
+  ]
+}

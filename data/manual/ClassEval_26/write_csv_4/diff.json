@@ -1,0 +1,226 @@
+{
+  "matches": [
+    {
+      "src": "operator: , [42,43]",
+      "dest": "operator: , [48,49]"
+    },
+    {
+      "src": "suite [19,181]",
+      "dest": "suite [19,376]"
+    },
+    {
+      "src": "trailer [165,175]",
+      "dest": "trailer [342,352]"
+    },
+    {
+      "src": "expr_stmt [121,146]",
+      "dest": "expr_stmt [298,323]"
+    },
+    {
+      "src": "name: open [68,72]",
+      "dest": "name: open [244,248]"
+    },
+    {
+      "src": "classdef [0,181]",
+      "dest": "classdef [0,376]"
+    },
+    {
+      "src": "suite [54,181]",
+      "dest": "suite [61,376]"
+    },
+    {
+      "src": "name: csv [130,133]",
+      "dest": "name: csv [307,310]"
+    },
+    {
+      "src": "param [44,52]",
+      "dest": "param [50,59]"
+    },
+    {
+      "src": "name: writer [121,127]",
+      "dest": "name: writer [298,304]"
+    },
+    {
+      "src": "atom_expr [130,146]",
+      "dest": "atom_expr [307,323]"
+    },
+    {
+      "src": "trailer [140,146]",
+      "dest": "trailer [317,323]"
+    },
+    {
+      "src": "parameters [37,53]",
+      "dest": "parameters [37,60]"
+    },
+    {
+      "src": "string: 'w' [83,86]",
+      "dest": "string: 'w' [260,263]"
+    },
+    {
+      "src": "atom_expr [159,181]",
+      "dest": "atom_expr [336,358]"
+    },
+    {
+      "src": "operator: , [86,87]",
+      "dest": "operator: , [263,264]"
+    },
+    {
+      "src": "name: newline [88,95]",
+      "dest": "name: newline [265,272]"
+    },
+    {
+      "src": "file_input [0,181]",
+      "dest": "file_input [0,376]"
+    },
+    {
+      "src": "name: filename [44,52]",
+      "dest": "name: file_name [50,59]"
+    },
+    {
+      "src": "trailer [175,181]",
+      "dest": "trailer [352,358]"
+    },
+    {
+      "src": "param [38,43]",
+      "dest": "param [44,49]"
+    },
+    {
+      "src": "with_item [68,107]",
+      "dest": "with_item [244,284]"
+    },
+    {
+      "src": "name: writer [159,165]",
+      "dest": "name: writer [336,342]"
+    },
+    {
+      "src": "name: file [141,145]",
+      "dest": "name: file [318,322]"
+    },
+    {
+      "src": "string: '' [96,98]",
+      "dest": "string: '' [273,275]"
+    },
+    {
+      "src": "name: data [176,180]",
+      "dest": "name: data [353,357]"
+    },
+    {
+      "src": "operator: = [128,129]",
+      "dest": "operator: = [305,306]"
+    },
+    {
+      "src": "name: data [38,42]",
+      "dest": "name: data [44,48]"
+    },
+    {
+      "src": "name: writer [134,140]",
+      "dest": "name: writer [311,317]"
+    },
+    {
+      "src": "name: CSVProcessor [6,18]",
+      "dest": "name: CSVProcessor [6,18]"
+    },
+    {
+      "src": "name: filename [73,81]",
+      "dest": "name: file_name [249,258]"
+    },
+    {
+      "src": "trailer [72,99]",
+      "dest": "trailer [248,276]"
+    },
+    {
+      "src": "trailer [133,140]",
+      "dest": "trailer [310,317]"
+    },
+    {
+      "src": "operator: , [81,82]",
+      "dest": "operator: , [258,259]"
+    },
+    {
+      "src": "name: writerows [166,175]",
+      "dest": "name: writerows [343,352]"
+    },
+    {
+      "src": "argument [88,98]",
+      "dest": "argument [265,275]"
+    },
+    {
+      "src": "simple_stmt [121,147]",
+      "dest": "simple_stmt [298,324]"
+    },
+    {
+      "src": "operator: = [95,96]",
+      "dest": "operator: = [272,273]"
+    },
+    {
+      "src": "with_stmt [63,181]",
+      "dest": "with_stmt [239,359]"
+    },
+    {
+      "src": "name: file [103,107]",
+      "dest": "name: file [280,284]"
+    },
+    {
+      "src": "atom_expr [68,99]",
+      "dest": "atom_expr [244,276]"
+    },
+    {
+      "src": "suite [108,181]",
+      "dest": "suite [285,359]"
+    },
+    {
+      "src": "funcdef [24,181]",
+      "dest": "funcdef [24,376]"
+    },
+    {
+      "src": "name: write_csv [28,37]",
+      "dest": "name: write_csv [28,37]"
+    },
+    {
+      "src": "arglist [73,98]",
+      "dest": "arglist [249,275]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [38,43]",
+      "parent": "parameters [37,60]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [70,231]",
+      "parent": "suite [61,376]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [367,376]",
+      "parent": "suite [61,376]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: filename [44,52]",
+      "label": "file_name"
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [336,359]",
+      "parent": "suite [285,359]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [159,181]",
+      "parent": "simple_stmt [336,359]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: filename [73,81]",
+      "label": "file_name"
+    }
+  ]
+}

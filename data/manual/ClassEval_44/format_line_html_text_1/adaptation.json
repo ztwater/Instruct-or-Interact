@@ -1,0 +1,30 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        get the html text without the code, and add the code tag -CODE- where the code is\n        :param html_text:string\n        :return:string\n        >>>htmlutil = HtmlUtil()\n        >>>htmlutil.format_line_html_text(<html>\n        >>> <body>\n        >>>    <h1>Title</h1>\n        >>>    <p>This is a paragraph.</p>\n        >>>    <pre>print('Hello, world!')</pre>\n        >>>    <p>Another paragraph.</p>\n        >>>    <pre><code>for i in range(5):\n        >>>    print(i)</code></pre>\n        >>>    </body>\n        >>>    </html>)\n        Title\n        This is a paragraph.\n        -CODE-\n        Another paragraph.\n        -CODE-\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "self.CODE_MARK",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "string",
+        "inserted": "",
+        "deleted": "\"-CODE-\"",
+        "type": "Logic"
+    }
+]

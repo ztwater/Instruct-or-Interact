@@ -1,0 +1,108 @@
+{
+  "matches": [
+    {
+      "src": "suite [18,84]",
+      "dest": "suite [18,196]"
+    },
+    {
+      "src": "param [42,46]",
+      "dest": "param [42,46]"
+    },
+    {
+      "src": "name: self [57,61]",
+      "dest": "name: self [168,172]"
+    },
+    {
+      "src": "classdef [0,84]",
+      "dest": "classdef [0,196]"
+    },
+    {
+      "src": "atom_expr [57,84]",
+      "dest": "atom_expr [168,195]"
+    },
+    {
+      "src": "suite [48,84]",
+      "dest": "suite [48,196]"
+    },
+    {
+      "src": "name: word_list [62,71]",
+      "dest": "name: word_list [173,182]"
+    },
+    {
+      "src": "name: word [42,46]",
+      "dest": "name: word [42,46]"
+    },
+    {
+      "src": "name: append [72,78]",
+      "dest": "name: append [183,189]"
+    },
+    {
+      "src": "trailer [61,71]",
+      "dest": "trailer [172,182]"
+    },
+    {
+      "src": "trailer [78,84]",
+      "dest": "trailer [189,195]"
+    },
+    {
+      "src": "trailer [71,78]",
+      "dest": "trailer [182,189]"
+    },
+    {
+      "src": "name: LongestWord [6,17]",
+      "dest": "name: LongestWord [6,17]"
+    },
+    {
+      "src": "param [36,41]",
+      "dest": "param [36,41]"
+    },
+    {
+      "src": "operator: , [40,41]",
+      "dest": "operator: , [40,41]"
+    },
+    {
+      "src": "parameters [35,47]",
+      "dest": "parameters [35,47]"
+    },
+    {
+      "src": "name: self [36,40]",
+      "dest": "name: self [36,40]"
+    },
+    {
+      "src": "file_input [0,84]",
+      "dest": "file_input [0,196]"
+    },
+    {
+      "src": "funcdef [23,84]",
+      "dest": "funcdef [23,196]"
+    },
+    {
+      "src": "name: add_word [27,35]",
+      "dest": "name: add_word [27,35]"
+    },
+    {
+      "src": "name: word [79,83]",
+      "dest": "name: word [190,194]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [57,160]",
+      "parent": "suite [48,196]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [168,196]",
+      "parent": "suite [48,196]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [57,84]",
+      "parent": "simple_stmt [168,196]",
+      "at": 0
+    }
+  ]
+}

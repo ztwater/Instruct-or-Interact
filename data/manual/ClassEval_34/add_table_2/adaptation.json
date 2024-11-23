@@ -1,0 +1,72 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Adds a table to the Word document with the specified data.\n        :param data: list of lists, the data to populate the table.\n        :return: bool, True if the table is successfully added, False otherwise.\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "return_stmt",
+        "inserted": "return True",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "file_path",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "file_path",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "string",
+        "inserted": "",
+        "deleted": "\"document.docx\"",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "trailer",
+        "inserted": "(\"document.docx\")",
+        "deleted": "(\"document.docx\")",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "trailer",
+        "inserted": "()",
+        "deleted": "()",
+        "type": "Move"
+    }
+]

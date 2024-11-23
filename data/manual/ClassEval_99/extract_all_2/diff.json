@@ -1,0 +1,366 @@
+{
+  "matches": [
+    {
+      "src": "name: extractall [619,629]",
+      "dest": "name: extractall [336,346]"
+    },
+    {
+      "src": "name: file [402,406]",
+      "dest": "name: file [233,237]"
+    },
+    {
+      "src": "name: path [44,48]",
+      "dest": "name: output_path [50,61]"
+    },
+    {
+      "src": "trailer [282,291]",
+      "dest": "trailer [158,167]"
+    },
+    {
+      "src": "name: zip_ref [611,618]",
+      "dest": "name: zip_ref [328,335]"
+    },
+    {
+      "src": "trailer [395,407]",
+      "dest": "trailer [216,238]"
+    },
+    {
+      "src": "suite [23,731]",
+      "dest": "suite [23,400]"
+    },
+    {
+      "src": "name: zip_ref [504,511]",
+      "dest": "name: zip_ref [299,306]"
+    },
+    {
+      "src": "classdef [0,731]",
+      "dest": "classdef [0,400]"
+    },
+    {
+      "src": "suite [50,731]",
+      "dest": "suite [63,400]"
+    },
+    {
+      "src": "name: zip_path [722,730]",
+      "dest": "name: zip_path [391,399]"
+    },
+    {
+      "src": "name: files [210,215]",
+      "dest": "name: files [132,137]"
+    },
+    {
+      "src": "atom_expr [123,139]",
+      "dest": "atom_expr [80,106]"
+    },
+    {
+      "src": "name: extract_all [32,43]",
+      "dest": "name: extract_all [32,43]"
+    },
+    {
+      "src": "name: zipfile [470,477]",
+      "dest": "name: zipfile [265,272]"
+    },
+    {
+      "src": "string: '.zip' [292,298]",
+      "dest": "string: '.zip' [168,174]"
+    },
+    {
+      "src": "trailer [714,721]",
+      "dest": "trailer [383,390]"
+    },
+    {
+      "src": "trailer [385,390]",
+      "dest": "trailer [206,211]"
+    },
+    {
+      "src": "with_stmt [465,636]",
+      "dest": "with_stmt [260,360]"
+    },
+    {
+      "src": "name: os [383,385]",
+      "dest": "name: os [204,206]"
+    },
+    {
+      "src": "arglist [486,499]",
+      "dest": "arglist [281,294]"
+    },
+    {
+      "src": "operator: , [494,495]",
+      "dest": "operator: , [289,290]"
+    },
+    {
+      "src": "name: path [134,138]",
+      "dest": "name: file_name [96,105]"
+    },
+    {
+      "src": "atom_expr [383,407]",
+      "dest": "atom_expr [204,238]"
+    },
+    {
+      "src": "expr_stmt [115,139]",
+      "dest": "expr_stmt [72,106]"
+    },
+    {
+      "src": "operator: , [400,401]",
+      "dest": "operator: , [231,232]"
+    },
+    {
+      "src": "name: path [630,634]",
+      "dest": "name: output_path [347,358]"
+    },
+    {
+      "src": "atom_expr [470,500]",
+      "dest": "atom_expr [265,295]"
+    },
+    {
+      "src": "operator: = [381,382]",
+      "dest": "operator: = [202,203]"
+    },
+    {
+      "src": "name: zip_path [372,380]",
+      "dest": "name: zip_path [193,201]"
+    },
+    {
+      "src": "simple_stmt [611,636]",
+      "dest": "simple_stmt [328,360]"
+    },
+    {
+      "src": "name: file [278,282]",
+      "dest": "name: file [154,158]"
+    },
+    {
+      "src": "if_stmt [275,731]",
+      "dest": "if_stmt [151,400]"
+    },
+    {
+      "src": "trailer [125,133]",
+      "dest": "trailer [82,90]"
+    },
+    {
+      "src": "suite [300,731]",
+      "dest": "suite [176,400]"
+    },
+    {
+      "src": "trailer [629,635]",
+      "dest": "trailer [346,359]"
+    },
+    {
+      "src": "suite [512,636]",
+      "dest": "suite [307,360]"
+    },
+    {
+      "src": "name: path [386,390]",
+      "dest": "name: path [207,211]"
+    },
+    {
+      "src": "funcdef [28,731]",
+      "dest": "funcdef [28,400]"
+    },
+    {
+      "src": "simple_stmt [115,140]",
+      "dest": "simple_stmt [72,107]"
+    },
+    {
+      "src": "name: files [115,120]",
+      "dest": "name: files [72,77]"
+    },
+    {
+      "src": "param [44,48]",
+      "dest": "param [50,61]"
+    },
+    {
+      "src": "name: endswith [283,291]",
+      "dest": "name: endswith [159,167]"
+    },
+    {
+      "src": "atom_expr [611,635]",
+      "dest": "atom_expr [328,359]"
+    },
+    {
+      "src": "with_item [470,511]",
+      "dest": "with_item [265,306]"
+    },
+    {
+      "src": "name: zip_path [486,494]",
+      "dest": "name: zip_path [281,289]"
+    },
+    {
+      "src": "atom_expr [712,731]",
+      "dest": "atom_expr [381,400]"
+    },
+    {
+      "src": "name: listdir [126,133]",
+      "dest": "name: listdir [83,90]"
+    },
+    {
+      "src": "trailer [721,731]",
+      "dest": "trailer [390,400]"
+    },
+    {
+      "src": "expr_stmt [372,407]",
+      "dest": "expr_stmt [193,238]"
+    },
+    {
+      "src": "name: join [391,395]",
+      "dest": "name: join [212,216]"
+    },
+    {
+      "src": "operator: = [121,122]",
+      "dest": "operator: = [78,79]"
+    },
+    {
+      "src": "file_input [0,731]",
+      "dest": "file_input [0,400]"
+    },
+    {
+      "src": "name: path [396,400]",
+      "dest": "name: self [217,221]"
+    },
+    {
+      "src": "atom_expr [278,299]",
+      "dest": "atom_expr [154,175]"
+    },
+    {
+      "src": "suite [216,731]",
+      "dest": "suite [138,400]"
+    },
+    {
+      "src": "string: 'r' [496,499]",
+      "dest": "string: 'r' [291,294]"
+    },
+    {
+      "src": "trailer [133,139]",
+      "dest": "trailer [95,105]"
+    },
+    {
+      "src": "trailer [477,485]",
+      "dest": "trailer [272,280]"
+    },
+    {
+      "src": "trailer [390,395]",
+      "dest": "trailer [211,216]"
+    },
+    {
+      "src": "name: os [123,125]",
+      "dest": "name: os [80,82]"
+    },
+    {
+      "src": "name: file [202,206]",
+      "dest": "name: file [124,128]"
+    },
+    {
+      "src": "trailer [485,500]",
+      "dest": "trailer [280,295]"
+    },
+    {
+      "src": "trailer [618,629]",
+      "dest": "trailer [335,346]"
+    },
+    {
+      "src": "name: ZipFile [478,485]",
+      "dest": "name: ZipFile [273,280]"
+    },
+    {
+      "src": "name: remove [715,721]",
+      "dest": "name: remove [384,390]"
+    },
+    {
+      "src": "trailer [291,299]",
+      "dest": "trailer [167,175]"
+    },
+    {
+      "src": "parameters [43,49]",
+      "dest": "parameters [43,62]"
+    },
+    {
+      "src": "name: ZipFileProcessor [6,22]",
+      "dest": "name: ZipFileProcessor [6,22]"
+    },
+    {
+      "src": "for_stmt [198,731]",
+      "dest": "for_stmt [120,400]"
+    },
+    {
+      "src": "name: os [712,714]",
+      "dest": "name: os [381,383]"
+    },
+    {
+      "src": "arglist [396,406]",
+      "dest": "arglist [217,237]"
+    },
+    {
+      "src": "simple_stmt [372,408]",
+      "dest": "simple_stmt [193,239]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [44,49]",
+      "parent": "parameters [43,62]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: path [44,48]",
+      "label": "output_path"
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [90,106]",
+      "parent": "atom_expr [80,106]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [91,105]",
+      "parent": "trailer [90,106]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [91,95]",
+      "parent": "atom_expr [91,105]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [133,139]",
+      "parent": "atom_expr [91,105]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: path [134,138]",
+      "label": "file_name"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [217,231]",
+      "parent": "arglist [217,237]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: path [630,634]",
+      "label": "output_path"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: path [396,400]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: path [396,400]",
+      "parent": "atom_expr [217,231]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [221,231]",
+      "parent": "atom_expr [217,231]",
+      "at": 1
+    }
+  ]
+}

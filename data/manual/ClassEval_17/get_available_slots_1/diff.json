@@ -1,0 +1,126 @@
+{
+  "matches": [
+    {
+      "src": "suite [19,544]",
+      "dest": "suite [19,772]"
+    },
+    {
+      "src": "name: date [48,52]",
+      "dest": "name: date [54,58]"
+    },
+    {
+      "src": "testlist_comp [457,512]",
+      "dest": "testlist_comp [685,740]"
+    },
+    {
+      "src": "classdef [0,544]",
+      "dest": "classdef [0,772]"
+    },
+    {
+      "src": "suite [54,544]",
+      "dest": "suite [60,772]"
+    },
+    {
+      "src": "expr_stmt [438,513]",
+      "dest": "expr_stmt [666,741]"
+    },
+    {
+      "src": "operator: , [478,479]",
+      "dest": "operator: , [706,707]"
+    },
+    {
+      "src": "string: '9:00 AM' [457,466]",
+      "dest": "string: '9:00 AM' [685,694]"
+    },
+    {
+      "src": "string: '10:00 AM' [468,478]",
+      "dest": "string: '10:00 AM' [696,706]"
+    },
+    {
+      "src": "string: '2:00 PM' [492,501]",
+      "dest": "string: '2:00 PM' [720,729]"
+    },
+    {
+      "src": "name: CalendarUtil [6,18]",
+      "dest": "name: CalendarUtil [6,18]"
+    },
+    {
+      "src": "name: available_slots [438,453]",
+      "dest": "name: available_slots [666,681]"
+    },
+    {
+      "src": "return_stmt [522,544]",
+      "dest": "return_stmt [750,772]"
+    },
+    {
+      "src": "atom [456,513]",
+      "dest": "atom [684,741]"
+    },
+    {
+      "src": "file_input [0,544]",
+      "dest": "file_input [0,772]"
+    },
+    {
+      "src": "name: available_slots [529,544]",
+      "dest": "name: available_slots [757,772]"
+    },
+    {
+      "src": "operator: , [501,502]",
+      "dest": "operator: , [729,730]"
+    },
+    {
+      "src": "name: get_available_slots [28,47]",
+      "dest": "name: get_available_slots [28,47]"
+    },
+    {
+      "src": "operator: , [466,467]",
+      "dest": "operator: , [694,695]"
+    },
+    {
+      "src": "operator: , [490,491]",
+      "dest": "operator: , [718,719]"
+    },
+    {
+      "src": "parameters [47,53]",
+      "dest": "parameters [47,59]"
+    },
+    {
+      "src": "string: '3:00 PM' [503,512]",
+      "dest": "string: '3:00 PM' [731,740]"
+    },
+    {
+      "src": "string: '11:00 AM' [480,490]",
+      "dest": "string: '11:00 AM' [708,718]"
+    },
+    {
+      "src": "simple_stmt [438,514]",
+      "dest": "simple_stmt [666,742]"
+    },
+    {
+      "src": "operator: = [454,455]",
+      "dest": "operator: = [682,683]"
+    },
+    {
+      "src": "funcdef [24,544]",
+      "dest": "funcdef [24,772]"
+    },
+    {
+      "src": "param [48,52]",
+      "dest": "param [54,58]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [48,53]",
+      "parent": "parameters [47,59]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [69,283]",
+      "parent": "suite [60,772]",
+      "at": 0
+    }
+  ]
+}

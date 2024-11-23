@@ -1,0 +1,51 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "k",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": " \"\"\"\r\n        Calculate the cohens kappa value of a k-dimensional matrix\r\n        :param testData: The k-dimensional matrix that needs to calculate the cohens kappa value\r\n        :param k: int, Matrix dimension\r\n        :return:float, the cohens kappa value of the matrix\r\n        >>> KappaCalculator.kappa([[2, 1, 1], [1, 2, 1], [1, 1, 2]], 3)\r\n        0.25\r\n    ",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "nt)\r\n        \r\n    ",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return kappa_value",
+        "deleted": "return kappa_value",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "testData",
+        "deleted": "matrix",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": " np.arra",
+        "deleted": "matrix",
+        "type": "Refactoring"
+    }
+]

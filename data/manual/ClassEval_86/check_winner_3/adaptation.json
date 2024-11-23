@@ -1,0 +1,310 @@
+[
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".board",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "string:",
+        "inserted": "' '",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "string:",
+        "inserted": "' '",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "string:",
+        "inserted": "' '",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "string:",
+        "inserted": "' '",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".board",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".board",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "[len(self.board)-1-i]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".board",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "range",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "(len(self.board))",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "range",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "(len(self.board))",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".board",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "range",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "(len(self.board))",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "number",
+        "inserted": "",
+        "deleted": "0",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "number",
+        "inserted": "",
+        "deleted": "0",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "number",
+        "inserted": "",
+        "deleted": "0",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "number",
+        "inserted": "",
+        "deleted": "0",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "board",
+        "deleted": "board",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "trailer",
+        "inserted": "[i]",
+        "deleted": "[i]",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "trailer",
+        "inserted": "[i]",
+        "deleted": "[i]",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "board",
+        "deleted": "board",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "board",
+        "deleted": "board",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "range(len(board))",
+        "deleted": "range(len(board))",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "range(len(board))",
+        "deleted": "range(len(board))",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "board",
+        "deleted": "board",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "range(len(board))",
+        "deleted": "range(len(board))",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "len(board)",
+        "deleted": "len(board)",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "board",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "len",
+        "deleted": "range",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "len",
+        "deleted": "board",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "len",
+        "deleted": "range",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "len",
+        "deleted": "range",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "len",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "len",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "len",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "len",
+        "type": "Refactoring"
+    }
+]

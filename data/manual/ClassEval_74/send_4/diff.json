@@ -1,0 +1,179 @@
+{
+  "matches": [
+    {
+      "src": "param [36,43]",
+      "dest": "param [33,37]"
+    },
+    {
+      "src": "funcdef [18,175]",
+      "dest": "funcdef [18,342]"
+    },
+    {
+      "src": "operator: , [34,35]",
+      "dest": "operator: , [31,32]"
+    },
+    {
+      "src": "suite [13,175]",
+      "dest": "suite [13,342]"
+    },
+    {
+      "src": "name: content [36,43]",
+      "dest": "name: info [33,37]"
+    },
+    {
+      "src": "simple_stmt [99,141]",
+      "dest": "simple_stmt [48,311]"
+    },
+    {
+      "src": "name: print [149,154]",
+      "dest": "name: self [319,323]"
+    },
+    {
+      "src": "param [27,35]",
+      "dest": "param [27,32]"
+    },
+    {
+      "src": "trailer [154,175]",
+      "dest": "trailer [323,335]"
+    },
+    {
+      "src": "file_input [0,175]",
+      "dest": "file_input [0,342]"
+    },
+    {
+      "src": "name: content [167,174]",
+      "dest": "name: send_struct [324,335]"
+    },
+    {
+      "src": "classdef [0,175]",
+      "dest": "classdef [0,342]"
+    },
+    {
+      "src": "atom_expr [149,175]",
+      "dest": "atom_expr [319,335]"
+    },
+    {
+      "src": "name: send [22,26]",
+      "dest": "name: send [22,26]"
+    },
+    {
+      "src": "parameters [26,44]",
+      "dest": "parameters [26,38]"
+    },
+    {
+      "src": "suite [45,175]",
+      "dest": "suite [39,342]"
+    },
+    {
+      "src": "string: \"Sending information to:\" [105,130]",
+      "dest": "string: \"\"\"         Send information containing address and content         :param info: dict, information dictionary containing address and content         :return: if successfully sent, return nothing; otherwise, return a string indicating an error message         \"\"\" [48,310]"
+    },
+    {
+      "src": "name: address [27,34]",
+      "dest": "name: self [27,31]"
+    },
+    {
+      "src": "name: Server [6,12]",
+      "dest": "name: Server [6,12]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [319,342]",
+      "parent": "suite [39,342]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: address [27,34]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: content [36,43]",
+      "label": "info"
+    },
+    {
+      "action": "update-node",
+      "tree": "string: \"Sending information to:\" [105,130]",
+      "label": "\"\"\"         Send information containing address and content         :param info: dict, information dictionary containing address and content         :return: if successfully sent, return nothing; otherwise, return a string indicating an error message         \"\"\""
+    },
+    {
+      "action": "move-tree",
+      "tree": "string: \"Sending information to:\" [105,130]",
+      "parent": "simple_stmt [48,311]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [149,175]",
+      "parent": "expr_stmt [319,342]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [336,337]",
+      "parent": "expr_stmt [319,342]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: info [338,342]",
+      "parent": "expr_stmt [319,342]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: print [149,154]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: content [167,174]",
+      "label": "send_struct"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: content [167,174]",
+      "parent": "trailer [323,335]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: print [99,104]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [130,131]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: address [132,139]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "arglist [105,139]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [104,140]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [99,140]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"Content:\" [155,165]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [165,166]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "arglist [155,174]"
+    }
+  ]
+}

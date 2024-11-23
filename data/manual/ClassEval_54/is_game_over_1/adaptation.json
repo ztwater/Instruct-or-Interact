@@ -1,0 +1,51 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Check if the game is over (i.e., if there are no more icons on the game board)\n        :return: True or False ,representing whether the game is over\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".board",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "game_board",
+        "deleted": "game_board",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "game_board",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "board",
+        "deleted": "game_board",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "string:",
+        "inserted": "\" \"",
+        "deleted": "\"\"",
+        "type": "Logic"
+    }
+]

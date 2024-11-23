@@ -1,0 +1,191 @@
+[
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "()",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "()",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "name",
+        "inserted": "",
+        "deleted": "octets",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "operator",
+        "inserted": "",
+        "deleted": "=",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "name",
+        "inserted": "",
+        "deleted": "ip_address",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "trailer",
+        "inserted": "",
+        "deleted": ".split",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "trailer",
+        "inserted": "",
+        "deleted": "('.')",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "operator",
+        "inserted": "",
+        "deleted": "!=",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "number",
+        "inserted": "",
+        "deleted": "4",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "name",
+        "inserted": "",
+        "deleted": "octet",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "not_test",
+        "inserted": "",
+        "deleted": "not octet.isdigit()",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "atom_expr",
+        "inserted": "",
+        "deleted": "int(octet)",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "number",
+        "inserted": "",
+        "deleted": "0",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "operator",
+        "inserted": "",
+        "deleted": ">",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "number",
+        "inserted": "",
+        "deleted": "255",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "string",
+        "inserted": "'.'",
+        "deleted": "'.'",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "len(octets)",
+        "deleted": "len(octets)",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "octets",
+        "deleted": "octets",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": "<",
+        "deleted": "<",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "int(octet)",
+        "deleted": "int(octet)",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "ip_address",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "string:",
+        "inserted": "\"\"\"\n        If the IP address is valid, return the binary form of the IP address; otherwise, return ''\n        :return: string\n        \"\"\"",
+        "deleted": "'.'",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "<",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "len",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "int",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "is_valid",
+        "deleted": "octets",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "get_octets",
+        "deleted": "octet",
+        "type": "Refactoring"
+    }
+]

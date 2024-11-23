@@ -1,0 +1,224 @@
+{
+  "matches": [
+    {
+      "src": "number: 0 [66,67]",
+      "dest": "number: 0 [361,362]"
+    },
+    {
+      "src": "suite [21,213]",
+      "dest": "suite [21,519]"
+    },
+    {
+      "src": "name: data [171,175]",
+      "dest": "name: data [477,481]"
+    },
+    {
+      "src": "operator: = [125,126]",
+      "dest": "operator: = [431,432]"
+    },
+    {
+      "src": "return_stmt [81,92]",
+      "dest": "return_stmt [376,398]"
+    },
+    {
+      "src": "classdef [0,213]",
+      "dest": "classdef [0,519]"
+    },
+    {
+      "src": "suite [41,213]",
+      "dest": "suite [47,519]"
+    },
+    {
+      "src": "simple_stmt [81,93]",
+      "dest": "simple_stmt [376,399]"
+    },
+    {
+      "src": "name: data [57,61]",
+      "dest": "name: data [352,356]"
+    },
+    {
+      "src": "name: average [202,209]",
+      "dest": "name: average [508,515]"
+    },
+    {
+      "src": "trailer [130,136]",
+      "dest": "trailer [436,442]"
+    },
+    {
+      "src": "name: average [149,156]",
+      "dest": "name: average [455,462]"
+    },
+    {
+      "src": "param [35,39]",
+      "dest": "param [41,45]"
+    },
+    {
+      "src": "atom_expr [53,62]",
+      "dest": "atom_expr [348,357]"
+    },
+    {
+      "src": "operator: / [165,166]",
+      "dest": "operator: / [471,472]"
+    },
+    {
+      "src": "name: len [167,170]",
+      "dest": "name: len [473,476]"
+    },
+    {
+      "src": "atom_expr [196,213]",
+      "dest": "atom_expr [502,519]"
+    },
+    {
+      "src": "expr_stmt [149,176]",
+      "dest": "expr_stmt [455,482]"
+    },
+    {
+      "src": "return_stmt [189,213]",
+      "dest": "return_stmt [495,519]"
+    },
+    {
+      "src": "operator: == [63,65]",
+      "dest": "operator: == [358,360]"
+    },
+    {
+      "src": "expr_stmt [119,136]",
+      "dest": "expr_stmt [425,442]"
+    },
+    {
+      "src": "funcdef [26,213]",
+      "dest": "funcdef [26,519]"
+    },
+    {
+      "src": "operator: , [209,210]",
+      "dest": "operator: , [515,516]"
+    },
+    {
+      "src": "parameters [34,40]",
+      "dest": "parameters [34,46]"
+    },
+    {
+      "src": "atom_expr [167,176]",
+      "dest": "atom_expr [473,482]"
+    },
+    {
+      "src": "name: data [131,135]",
+      "dest": "name: data [437,441]"
+    },
+    {
+      "src": "arglist [202,212]",
+      "dest": "arglist [508,518]"
+    },
+    {
+      "src": "atom_expr [127,136]",
+      "dest": "atom_expr [433,442]"
+    },
+    {
+      "src": "trailer [56,62]",
+      "dest": "trailer [351,357]"
+    },
+    {
+      "src": "name: mean [30,34]",
+      "dest": "name: mean [30,34]"
+    },
+    {
+      "src": "simple_stmt [119,137]",
+      "dest": "simple_stmt [425,443]"
+    },
+    {
+      "src": "name: total [119,124]",
+      "dest": "name: total [425,430]"
+    },
+    {
+      "src": "file_input [0,213]",
+      "dest": "file_input [0,519]"
+    },
+    {
+      "src": "suite [106,213]",
+      "dest": "suite [412,519]"
+    },
+    {
+      "src": "trailer [170,176]",
+      "dest": "trailer [476,482]"
+    },
+    {
+      "src": "operator: = [157,158]",
+      "dest": "operator: = [463,464]"
+    },
+    {
+      "src": "name: round [196,201]",
+      "dest": "name: round [502,507]"
+    },
+    {
+      "src": "name: sum [127,130]",
+      "dest": "name: sum [433,436]"
+    },
+    {
+      "src": "name: total [159,164]",
+      "dest": "name: total [465,470]"
+    },
+    {
+      "src": "term [159,176]",
+      "dest": "term [465,482]"
+    },
+    {
+      "src": "simple_stmt [149,177]",
+      "dest": "simple_stmt [455,483]"
+    },
+    {
+      "src": "name: len [53,56]",
+      "dest": "name: len [348,351]"
+    },
+    {
+      "src": "trailer [201,213]",
+      "dest": "trailer [507,519]"
+    },
+    {
+      "src": "number: 2 [211,212]",
+      "dest": "number: 2 [517,518]"
+    },
+    {
+      "src": "suite [68,93]",
+      "dest": "suite [363,399]"
+    },
+    {
+      "src": "if_stmt [50,213]",
+      "dest": "if_stmt [345,519]"
+    },
+    {
+      "src": "comparison [53,67]",
+      "dest": "comparison [348,362]"
+    },
+    {
+      "src": "name: data [35,39]",
+      "dest": "name: data [41,45]"
+    },
+    {
+      "src": "name: DataStatistics [6,20]",
+      "dest": "name: DataStatistics [6,20]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [35,40]",
+      "parent": "parameters [34,46]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [56,337]",
+      "parent": "suite [47,519]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [383,398]",
+      "parent": "return_stmt [376,398]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 0.00 [88,92]"
+    }
+  ]
+}

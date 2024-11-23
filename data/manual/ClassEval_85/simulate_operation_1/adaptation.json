@@ -1,0 +1,51 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        simulate the operation of Thermostat. It will automatically start the auto_set_mode method to set the operating mode,\n        and then automatically adjust the current temperature according to the operating mode until the target temperature is reached.\n        :return time: int, the time it took to complete the simulation.\n        >>> thermostat = Thermostat(20.4, 37.5, 'cool')\n        >>> thermostat.simulate_operation()\n        18\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "while_stmt",
+        "inserted": "while self.current_temperature != self.target_temperature:\n            if self.mode == 'heat':\n                if self.current_temperature < self.target_temperature:\n                    self.current_temperature += 1\n                elif self.current_temperature > self.target_temperature:\n                    self.current_temperature -= 1\n            elif self.mode == 'cool':\n                if self.current_temperature > self.target_temperature:\n                    self.current_temperature -= 1\n                elif self.current_temperature < self.target_temperature:\n                    self.current_temperature += 1\n            time.sleep(1)\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "return_stmt",
+        "inserted": "return int(time.process_time())",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".auto_set_mode",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "auto_set_mode",
+        "deleted": "auto_set_mode",
+        "type": "Move"
+    }
+]

@@ -1,0 +1,122 @@
+{
+  "matches": [
+    {
+      "src": "name: unescape [106,114]",
+      "dest": "name: unescape [562,570]"
+    },
+    {
+      "src": "suite [29,128]",
+      "dest": "suite [29,578]"
+    },
+    {
+      "src": "classdef [0,128]",
+      "dest": "classdef [0,578]"
+    },
+    {
+      "src": "suite [60,128]",
+      "dest": "suite [60,578]"
+    },
+    {
+      "src": "trailer [105,114]",
+      "dest": "trailer [561,570]"
+    },
+    {
+      "src": "name: input_string [115,127]",
+      "dest": "name: string [571,577]"
+    },
+    {
+      "src": "atom_expr [101,128]",
+      "dest": "atom_expr [552,578]"
+    },
+    {
+      "src": "name: input_string [46,58]",
+      "dest": "name: string [52,58]"
+    },
+    {
+      "src": "name: NumericEntityUnescaper [6,28]",
+      "dest": "name: NumericEntityUnescaper [6,28]"
+    },
+    {
+      "src": "file_input [0,128]",
+      "dest": "file_input [0,578]"
+    },
+    {
+      "src": "return_stmt [94,128]",
+      "dest": "return_stmt [545,578]"
+    },
+    {
+      "src": "funcdef [34,128]",
+      "dest": "funcdef [34,578]"
+    },
+    {
+      "src": "param [46,58]",
+      "dest": "param [52,58]"
+    },
+    {
+      "src": "simple_stmt [69,81]",
+      "dest": "simple_stmt [69,537]"
+    },
+    {
+      "src": "name: replace [38,45]",
+      "dest": "name: replace [38,45]"
+    },
+    {
+      "src": "parameters [45,59]",
+      "dest": "parameters [45,59]"
+    },
+    {
+      "src": "trailer [114,128]",
+      "dest": "trailer [570,578]"
+    },
+    {
+      "src": "name: html [101,105]",
+      "dest": "name: html [557,561]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [46,51]",
+      "parent": "parameters [45,59]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: input_string [46,58]",
+      "label": "string"
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: \"\"\"         Replaces numeric character references (HTML entities) in the input string with their corresponding Unicode characters.         :param string: str, the input string containing numeric character references.         :return: str, the input string with numeric character references replaced with their corresponding Unicode characters.         >>> unescaper = NumericEntityUnescaper()         >>> unescaper.replace(\"&#65;&#66;&#67;\")         'ABC'         \"\"\" [69,536]",
+      "parent": "simple_stmt [69,537]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [552,556]",
+      "parent": "atom_expr [552,578]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [556,561]",
+      "parent": "atom_expr [552,578]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: html [101,105]",
+      "parent": "trailer [556,561]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: input_string [115,127]",
+      "label": "string"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "import_name [69,80]"
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "matches": [
+    {
+      "src": "parameters [45,65]",
+      "dest": "parameters [45,59]"
+    },
+    {
+      "src": "suite [21,200]",
+      "dest": "suite [21,401]"
+    },
+    {
+      "src": "name: resumes [46,53]",
+      "dest": "name: self [46,50]"
+    },
+    {
+      "src": "param [55,64]",
+      "dest": "param [52,58]"
+    },
+    {
+      "src": "name: resume_id [55,64]",
+      "dest": "name: resume [52,58]"
+    },
+    {
+      "src": "operator: == [126,128]",
+      "dest": "operator: == [330,332]"
+    },
+    {
+      "src": "classdef [0,200]",
+      "dest": "classdef [0,401]"
+    },
+    {
+      "src": "suite [66,200]",
+      "dest": "suite [60,401]"
+    },
+    {
+      "src": "name: resume [79,85]",
+      "dest": "name: r [294,295]"
+    },
+    {
+      "src": "comparison [113,138]",
+      "dest": "comparison [328,339]"
+    },
+    {
+      "src": "atom_expr [156,178]",
+      "dest": "atom_expr [357,379]"
+    },
+    {
+      "src": "name: resume_id [129,138]",
+      "dest": "name: resume [333,339]"
+    },
+    {
+      "src": "operator: , [53,54]",
+      "dest": "operator: , [50,51]"
+    },
+    {
+      "src": "file_input [0,200]",
+      "dest": "file_input [0,401]"
+    },
+    {
+      "src": "suite [97,200]",
+      "dest": "suite [312,401]"
+    },
+    {
+      "src": "name: resumes [156,163]",
+      "dest": "name: resumes [362,369]"
+    },
+    {
+      "src": "name: remove [164,170]",
+      "dest": "name: remove [370,376]"
+    },
+    {
+      "src": "name: withdraw_resume [30,45]",
+      "dest": "name: withdraw_resume [30,45]"
+    },
+    {
+      "src": "name: resume [171,177]",
+      "dest": "name: r [377,378]"
+    },
+    {
+      "src": "name: resumes [89,96]",
+      "dest": "name: resumes [304,311]"
+    },
+    {
+      "src": "name: JobMarketplace [6,20]",
+      "dest": "name: JobMarketplace [6,20]"
+    },
+    {
+      "src": "param [46,54]",
+      "dest": "param [46,51]"
+    },
+    {
+      "src": "if_stmt [110,200]",
+      "dest": "if_stmt [325,401]"
+    },
+    {
+      "src": "suite [139,200]",
+      "dest": "suite [340,401]"
+    },
+    {
+      "src": "trailer [163,170]",
+      "dest": "trailer [369,376]"
+    },
+    {
+      "src": "for_stmt [75,200]",
+      "dest": "for_stmt [290,401]"
+    },
+    {
+      "src": "name: resume [113,119]",
+      "dest": "name: r [328,329]"
+    },
+    {
+      "src": "funcdef [26,200]",
+      "dest": "funcdef [26,401]"
+    },
+    {
+      "src": "trailer [170,178]",
+      "dest": "trailer [376,379]"
+    },
+    {
+      "src": "simple_stmt [156,179]",
+      "dest": "simple_stmt [357,380]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [69,282]",
+      "parent": "suite [60,401]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: resumes [46,53]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: resume_id [55,64]",
+      "label": "resume"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: resume [79,85]",
+      "label": "r"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [299,311]",
+      "parent": "for_stmt [290,401]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [299,303]",
+      "parent": "atom_expr [299,311]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [303,311]",
+      "parent": "atom_expr [299,311]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: resumes [89,96]",
+      "parent": "trailer [303,311]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: resume [113,119]",
+      "label": "r"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: resume [113,119]",
+      "parent": "comparison [328,339]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: resume_id [129,138]",
+      "label": "resume"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [357,361]",
+      "parent": "atom_expr [357,379]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [361,369]",
+      "parent": "atom_expr [357,379]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: resumes [156,163]",
+      "parent": "trailer [361,369]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: resume [171,177]",
+      "label": "r"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [119,125]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [113,125]"
+    }
+  ]
+}

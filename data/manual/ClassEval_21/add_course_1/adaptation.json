@@ -1,0 +1,23 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Add course to self.courses list if the course wasn't in it.\n        :param course: dict, information of the course, including 'start_time', 'end_time' and 'name'\n        >>> classroom = Classroom(1)\n        >>> classroom.add_course({'name': 'math', 'start_time': '8:00', 'end_time': '9:40'})\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "self.courses.append(course)\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "self.courses.append(course)",
+        "deleted": "self.courses.append(course)",
+        "type": "Move"
+    }
+]

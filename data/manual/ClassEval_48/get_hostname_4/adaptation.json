@@ -1,0 +1,16 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return \"Unable to resolve hostname for the given IP address\"\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return \"Unable to resolve hostname for the given IP address\"",
+        "deleted": "return \"Unable to resolve hostname for the given IP address\"",
+        "type": "Move"
+    }
+]

@@ -1,0 +1,276 @@
+{
+  "matches": [
+    {
+      "src": "name: students_list [103,116]",
+      "dest": "name: students [285,293]"
+    },
+    {
+      "src": "suite [30,215]",
+      "dest": "suite [30,418]"
+    },
+    {
+      "src": "param [65,78]",
+      "dest": "param [62,69]"
+    },
+    {
+      "src": "classdef [0,215]",
+      "dest": "classdef [0,418]"
+    },
+    {
+      "src": "suite [80,215]",
+      "dest": "suite [71,418]"
+    },
+    {
+      "src": "if_stmt [89,215]",
+      "dest": "if_stmt [246,418]"
+    },
+    {
+      "src": "parameters [55,79]",
+      "dest": "parameters [55,70]"
+    },
+    {
+      "src": "simple_stmt [165,195]",
+      "dest": "simple_stmt [343,398]"
+    },
+    {
+      "src": "simple_stmt [130,139]",
+      "dest": "simple_stmt [308,317]"
+    },
+    {
+      "src": "number: 0 [137,138]",
+      "dest": "number: 0 [315,316]"
+    },
+    {
+      "src": "comparison [92,116]",
+      "dest": "comparison [249,294]"
+    },
+    {
+      "src": "name: append [179,185]",
+      "dest": "name: append [357,363]"
+    },
+    {
+      "src": "file_input [0,215]",
+      "dest": "file_input [0,418]"
+    },
+    {
+      "src": "return_stmt [207,215]",
+      "dest": "return_stmt [410,418]"
+    },
+    {
+      "src": "name: student [92,99]",
+      "dest": "name: student [249,256]"
+    },
+    {
+      "src": "name: ClassRegistrationSystem [6,29]",
+      "dest": "name: ClassRegistrationSystem [6,29]"
+    },
+    {
+      "src": "param [56,64]",
+      "dest": "param [56,61]"
+    },
+    {
+      "src": "return_stmt [130,138]",
+      "dest": "return_stmt [308,316]"
+    },
+    {
+      "src": "name: register_student [39,55]",
+      "dest": "name: register_student [39,55]"
+    },
+    {
+      "src": "trailer [178,185]",
+      "dest": "trailer [356,363]"
+    },
+    {
+      "src": "atom_expr [165,194]",
+      "dest": "atom_expr [343,397]"
+    },
+    {
+      "src": "number: 1 [214,215]",
+      "dest": "number: 1 [417,418]"
+    },
+    {
+      "src": "trailer [185,194]",
+      "dest": "trailer [363,397]"
+    },
+    {
+      "src": "name: students_list [165,178]",
+      "dest": "name: students [348,356]"
+    },
+    {
+      "src": "suite [152,215]",
+      "dest": "suite [330,418]"
+    },
+    {
+      "src": "name: students_list [65,78]",
+      "dest": "name: student [62,69]"
+    },
+    {
+      "src": "name: student [56,63]",
+      "dest": "name: self [56,60]"
+    },
+    {
+      "src": "name: student [186,193]",
+      "dest": "name: student [373,380]"
+    },
+    {
+      "src": "suite [117,139]",
+      "dest": "suite [295,317]"
+    },
+    {
+      "src": "funcdef [35,215]",
+      "dest": "funcdef [35,418]"
+    },
+    {
+      "src": "operator: , [63,64]",
+      "dest": "operator: , [60,61]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [80,238]",
+      "parent": "suite [71,418]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: student [56,63]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: students_list [65,78]",
+      "label": "student"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom [260,294]",
+      "parent": "comparison [249,294]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "testlist_comp [261,293]",
+      "parent": "atom [260,294]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [261,270]",
+      "parent": "testlist_comp [261,293]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "sync_comp_for [271,293]",
+      "parent": "testlist_comp [261,293]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [343,347]",
+      "parent": "atom_expr [343,397]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [347,356]",
+      "parent": "atom_expr [343,397]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: s [275,276]",
+      "parent": "sync_comp_for [271,293]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [280,293]",
+      "parent": "sync_comp_for [271,293]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: students_list [165,178]",
+      "label": "students"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: students_list [165,178]",
+      "parent": "trailer [347,356]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom [364,396]",
+      "parent": "trailer [363,397]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [280,284]",
+      "parent": "atom_expr [280,293]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [284,293]",
+      "parent": "atom_expr [280,293]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: { [364,365]",
+      "parent": "atom [364,396]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "dictorsetmaker [365,395]",
+      "parent": "atom [364,396]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: } [395,396]",
+      "parent": "atom [364,396]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: students_list [103,116]",
+      "label": "students"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: students_list [103,116]",
+      "parent": "trailer [284,293]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: 'name' [365,371]",
+      "parent": "dictorsetmaker [365,395]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: student [186,193]",
+      "parent": "dictorsetmaker [365,395]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [380,381]",
+      "parent": "dictorsetmaker [365,395]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: 'major' [382,389]",
+      "parent": "dictorsetmaker [365,395]",
+      "at": 3
+    }
+  ]
+}

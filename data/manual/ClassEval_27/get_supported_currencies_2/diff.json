@@ -1,0 +1,114 @@
+{
+  "matches": [
+    {
+      "src": "funcdef [29,163]",
+      "dest": "funcdef [29,131]"
+    },
+    {
+      "src": "name: get_supported_currencies [33,57]",
+      "dest": "name: get_supported_currencies [33,57]"
+    },
+    {
+      "src": "string: 'USD' [93,98]",
+      "dest": "string: 'USD' [97,102]"
+    },
+    {
+      "src": "string: 'EUR' [100,105]",
+      "dest": "string: 'EUR' [104,109]"
+    },
+    {
+      "src": "suite [24,163]",
+      "dest": "suite [24,131]"
+    },
+    {
+      "src": "name: supported_currencies [69,89]",
+      "dest": "name: supported_currencies [73,93]"
+    },
+    {
+      "src": "string: 'GBP' [107,112]",
+      "dest": "string: 'GBP' [111,116]"
+    },
+    {
+      "src": "name: CurrencyConverter [6,23]",
+      "dest": "name: CurrencyConverter [6,23]"
+    },
+    {
+      "src": "file_input [0,163]",
+      "dest": "file_input [0,131]"
+    },
+    {
+      "src": "operator: , [98,99]",
+      "dest": "operator: , [102,103]"
+    },
+    {
+      "src": "string: 'JPY' [114,119]",
+      "dest": "string: 'JPY' [118,123]"
+    },
+    {
+      "src": "operator: , [105,106]",
+      "dest": "operator: , [109,110]"
+    },
+    {
+      "src": "operator: , [119,120]",
+      "dest": "operator: , [123,124]"
+    },
+    {
+      "src": "operator: , [112,113]",
+      "dest": "operator: , [116,117]"
+    },
+    {
+      "src": "parameters [57,59]",
+      "dest": "parameters [57,63]"
+    },
+    {
+      "src": "operator: = [90,91]",
+      "dest": "operator: = [94,95]"
+    },
+    {
+      "src": "testlist_comp [93,126]",
+      "dest": "testlist_comp [97,130]"
+    },
+    {
+      "src": "expr_stmt [69,127]",
+      "dest": "expr_stmt [73,131]"
+    },
+    {
+      "src": "atom [92,127]",
+      "dest": "atom [96,131]"
+    },
+    {
+      "src": "classdef [0,163]",
+      "dest": "classdef [0,131]"
+    },
+    {
+      "src": "suite [60,163]",
+      "dest": "suite [64,131]"
+    },
+    {
+      "src": "string: 'CAD' [121,126]",
+      "dest": "string: 'CAD' [125,130]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [58,62]",
+      "parent": "parameters [57,63]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "expr_stmt [69,127]",
+      "parent": "suite [64,131]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [69,128]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "return_stmt [136,163]"
+    }
+  ]
+}

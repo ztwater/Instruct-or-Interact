@@ -1,0 +1,65 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Register a class to the student.\n        :param student_name: str\n        :param class_name: str\n        :return: a list of class names that the student has registered\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "if_stmt",
+        "inserted": "if student_name not in self.students_registration_classes:\n            self.students_registration_classes[student_name] = []\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "return_stmt",
+        "inserted": "return self.students_registration_classes[student_name]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "[student_name]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "student.classes.append(class_name)",
+        "deleted": "student.classes.append(class_name)",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "student_name",
+        "deleted": "student",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "student",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "students_registration_classes",
+        "deleted": "classes",
+        "type": "Refactoring"
+    }
+]

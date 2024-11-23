@@ -1,0 +1,30 @@
+[
+    {
+        "action": "DEL",
+        "label": "simple_stmt",
+        "inserted": "",
+        "deleted": "decimal_num = int(hex_num, 16)\n",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "return_stmt",
+        "inserted": "",
+        "deleted": "return decimal_num",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "name",
+        "inserted": "",
+        "deleted": "hex_to_decimal",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "parameters",
+        "inserted": "",
+        "deleted": "(hex_num)",
+        "type": "Logic"
+    }
+]

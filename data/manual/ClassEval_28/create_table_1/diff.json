@@ -1,0 +1,284 @@
+{
+  "matches": [
+    {
+      "src": "name: cursor [156,162]",
+      "dest": "name: cursor [608,614]"
+    },
+    {
+      "src": "simple_stmt [233,411]",
+      "dest": "simple_stmt [685,871]"
+    },
+    {
+      "src": "suite [24,600]",
+      "dest": "suite [24,1061]"
+    },
+    {
+      "src": "parameters [45,47]",
+      "dest": "parameters [45,75]"
+    },
+    {
+      "src": "name: connect [106,113]",
+      "dest": "name: connect [558,565]"
+    },
+    {
+      "src": "atom_expr [98,133]",
+      "dest": "atom_expr [550,585]"
+    },
+    {
+      "src": "name: commit [571,577]",
+      "dest": "name: commit [1031,1037]"
+    },
+    {
+      "src": "expr_stmt [142,164]",
+      "dest": "expr_stmt [594,616]"
+    },
+    {
+      "src": "classdef [0,600]",
+      "dest": "classdef [0,1061]"
+    },
+    {
+      "src": "simple_stmt [142,165]",
+      "dest": "simple_stmt [594,617]"
+    },
+    {
+      "src": "trailer [474,494]",
+      "dest": "trailer [934,954]"
+    },
+    {
+      "src": "suite [48,600]",
+      "dest": "suite [76,1061]"
+    },
+    {
+      "src": "expr_stmt [233,410]",
+      "dest": "expr_stmt [685,870]"
+    },
+    {
+      "src": "expr_stmt [91,133]",
+      "dest": "expr_stmt [543,585]"
+    },
+    {
+      "src": "atom_expr [588,600]",
+      "dest": "atom_expr [1048,1060]"
+    },
+    {
+      "src": "name: create_table_query [233,251]",
+      "dest": "name: create_table_query [685,703]"
+    },
+    {
+      "src": "name: conn [566,570]",
+      "dest": "name: conn [1026,1030]"
+    },
+    {
+      "src": "name: cursor [460,466]",
+      "dest": "name: cursor [920,926]"
+    },
+    {
+      "src": "trailer [105,113]",
+      "dest": "trailer [557,565]"
+    },
+    {
+      "src": "name: close [593,598]",
+      "dest": "name: close [1053,1058]"
+    },
+    {
+      "src": "name: create_table [33,45]",
+      "dest": "name: create_table [33,45]"
+    },
+    {
+      "src": "file_input [0,600]",
+      "dest": "file_input [0,1062]"
+    },
+    {
+      "src": "name: create_table_query [475,493]",
+      "dest": "name: create_table_query [935,953]"
+    },
+    {
+      "src": "name: execute [467,474]",
+      "dest": "name: execute [927,934]"
+    },
+    {
+      "src": "trailer [466,474]",
+      "dest": "trailer [926,934]"
+    },
+    {
+      "src": "name: conn [91,95]",
+      "dest": "name: conn [543,547]"
+    },
+    {
+      "src": "trailer [113,133]",
+      "dest": "trailer [570,584]"
+    },
+    {
+      "src": "trailer [155,162]",
+      "dest": "trailer [607,614]"
+    },
+    {
+      "src": "operator: = [252,253]",
+      "dest": "operator: = [704,705]"
+    },
+    {
+      "src": "simple_stmt [566,580]",
+      "dest": "simple_stmt [1026,1040]"
+    },
+    {
+      "src": "simple_stmt [460,495]",
+      "dest": "simple_stmt [920,955]"
+    },
+    {
+      "src": "trailer [577,579]",
+      "dest": "trailer [1037,1039]"
+    },
+    {
+      "src": "trailer [598,600]",
+      "dest": "trailer [1058,1060]"
+    },
+    {
+      "src": "trailer [162,164]",
+      "dest": "trailer [614,616]"
+    },
+    {
+      "src": "operator: = [149,150]",
+      "dest": "operator: = [601,602]"
+    },
+    {
+      "src": "name: conn [151,155]",
+      "dest": "name: conn [603,607]"
+    },
+    {
+      "src": "atom_expr [566,579]",
+      "dest": "atom_expr [1026,1039]"
+    },
+    {
+      "src": "atom_expr [460,494]",
+      "dest": "atom_expr [920,954]"
+    },
+    {
+      "src": "name: DatabaseProcessor [6,23]",
+      "dest": "name: DatabaseProcessor [6,23]"
+    },
+    {
+      "src": "operator: = [96,97]",
+      "dest": "operator: = [548,549]"
+    },
+    {
+      "src": "simple_stmt [91,134]",
+      "dest": "simple_stmt [543,586]"
+    },
+    {
+      "src": "atom_expr [151,164]",
+      "dest": "atom_expr [603,616]"
+    },
+    {
+      "src": "funcdef [29,600]",
+      "dest": "funcdef [29,1061]"
+    },
+    {
+      "src": "name: conn [588,592]",
+      "dest": "name: conn [1048,1052]"
+    },
+    {
+      "src": "trailer [592,598]",
+      "dest": "trailer [1052,1058]"
+    },
+    {
+      "src": "name: cursor [142,148]",
+      "dest": "name: cursor [594,600]"
+    },
+    {
+      "src": "name: sqlite3 [98,105]",
+      "dest": "name: sqlite3 [550,557]"
+    },
+    {
+      "src": "trailer [570,577]",
+      "dest": "trailer [1030,1037]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [46,51]",
+      "parent": "parameters [45,75]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [52,63]",
+      "parent": "parameters [45,75]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [64,69]",
+      "parent": "parameters [45,75]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [70,74]",
+      "parent": "parameters [45,75]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [85,501]",
+      "parent": "suite [76,1061]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [1048,1061]",
+      "parent": "suite [76,1061]",
+      "at": 6
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [588,600]",
+      "parent": "simple_stmt [1048,1061]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "fstring [706,870]",
+      "parent": "expr_stmt [685,870]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [565,585]",
+      "parent": "atom_expr [550,585]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [566,584]",
+      "parent": "trailer [565,585]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [566,570]",
+      "parent": "atom_expr [566,584]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [113,133]",
+      "parent": "atom_expr [566,584]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: database_name [571,584]",
+      "parent": "trailer [570,584]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: 'your_database.db' [114,132]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: '''         CREATE TABLE IF NOT EXISTS your_table_name (             column1 datatype1,             column2 datatype2,             ...         )         ''' [254,410]"
+    }
+  ]
+}

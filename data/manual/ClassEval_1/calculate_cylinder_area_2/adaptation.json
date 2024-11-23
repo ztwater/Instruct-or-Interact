@@ -1,0 +1,72 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "height",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        calculate the area of cylinder based on self.radius and height\n        :param height: height of cylinder, float\n        :return: area of cylinder, float\n        >>> areaCalculator = AreaCalculator(2)\n        >>> areaCalculator.calculate_cylinder_area(3)\n        62.83185307179586\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "math.pi",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "math.pi",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "number",
+        "inserted": "",
+        "deleted": "3.14159",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "number",
+        "inserted": "",
+        "deleted": "3.14159",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "name",
+        "inserted": "",
+        "deleted": "self",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "trailer",
+        "inserted": "",
+        "deleted": ".height",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "height",
+        "deleted": "height",
+        "type": "Move"
+    }
+]

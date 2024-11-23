@@ -1,0 +1,44 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Extract all zip files and place them in the specified path\n        :param output_path: string, The location of the extracted file\n        :return: True or False, representing whether the extraction operation was successful\n        >>> zfp = ZipFileProcessor(\"aaa.zip\")\n        >>> zfp.extract_all(\"result/aaa\")\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "output_path",
+        "deleted": "path",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "output_path",
+        "deleted": "path",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "output_path",
+        "deleted": "path",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "output_path",
+        "deleted": "path",
+        "type": "Refactoring"
+    }
+]

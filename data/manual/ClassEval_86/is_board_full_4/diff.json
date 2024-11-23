@@ -1,0 +1,149 @@
+{
+  "matches": [
+    {
+      "src": "suite [16,185]",
+      "dest": "suite [16,385]"
+    },
+    {
+      "src": "suite [101,166]",
+      "dest": "suite [301,366]"
+    },
+    {
+      "src": "name: is_board_full [25,38]",
+      "dest": "name: is_board_full [25,38]"
+    },
+    {
+      "src": "classdef [0,185]",
+      "dest": "classdef [0,385]"
+    },
+    {
+      "src": "suite [46,185]",
+      "dest": "suite [45,385]"
+    },
+    {
+      "src": "operator: == [126,128]",
+      "dest": "operator: == [326,328]"
+    },
+    {
+      "src": "name: board [39,44]",
+      "dest": "name: self [39,43]"
+    },
+    {
+      "src": "if_stmt [118,166]",
+      "dest": "if_stmt [318,366]"
+    },
+    {
+      "src": "name: cell [121,125]",
+      "dest": "name: cell [321,325]"
+    },
+    {
+      "src": "simple_stmt [153,166]",
+      "dest": "simple_stmt [353,366]"
+    },
+    {
+      "src": "param [39,44]",
+      "dest": "param [39,43]"
+    },
+    {
+      "src": "for_stmt [85,166]",
+      "dest": "for_stmt [285,366]"
+    },
+    {
+      "src": "name: TicTacToe [6,15]",
+      "dest": "name: TicTacToe [6,15]"
+    },
+    {
+      "src": "name: row [97,100]",
+      "dest": "name: row [297,300]"
+    },
+    {
+      "src": "file_input [0,185]",
+      "dest": "file_input [0,385]"
+    },
+    {
+      "src": "suite [72,166]",
+      "dest": "suite [272,366]"
+    },
+    {
+      "src": "return_stmt [153,165]",
+      "dest": "return_stmt [353,365]"
+    },
+    {
+      "src": "return_stmt [174,185]",
+      "dest": "return_stmt [374,385]"
+    },
+    {
+      "src": "comparison [121,131]",
+      "dest": "comparison [321,331]"
+    },
+    {
+      "src": "suite [132,166]",
+      "dest": "suite [332,366]"
+    },
+    {
+      "src": "parameters [38,45]",
+      "dest": "parameters [38,44]"
+    },
+    {
+      "src": "string: \"\" [129,131]",
+      "dest": "string: \"\" [329,331]"
+    },
+    {
+      "src": "name: row [59,62]",
+      "dest": "name: row [254,257]"
+    },
+    {
+      "src": "name: cell [89,93]",
+      "dest": "name: cell [289,293]"
+    },
+    {
+      "src": "for_stmt [55,166]",
+      "dest": "for_stmt [250,366]"
+    },
+    {
+      "src": "name: board [66,71]",
+      "dest": "name: board [266,271]"
+    },
+    {
+      "src": "funcdef [21,185]",
+      "dest": "funcdef [21,385]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [54,242]",
+      "parent": "suite [45,385]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: board [39,44]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [261,271]",
+      "parent": "for_stmt [250,366]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [261,265]",
+      "parent": "atom_expr [261,271]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [265,271]",
+      "parent": "atom_expr [261,271]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: board [66,71]",
+      "parent": "trailer [265,271]",
+      "at": 0
+    }
+  ]
+}

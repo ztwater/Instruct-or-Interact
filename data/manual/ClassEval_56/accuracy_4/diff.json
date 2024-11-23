@@ -1,0 +1,302 @@
+{
+  "matches": [
+    {
+      "src": "simple_stmt [72,338]",
+      "dest": "simple_stmt [88,257]"
+    },
+    {
+      "src": "name: len [374,377]",
+      "dest": "name: len [293,296]"
+    },
+    {
+      "src": "trailer [426,447]",
+      "dest": "trailer [346,377]"
+    },
+    {
+      "src": "suite [24,571]",
+      "dest": "suite [24,498]"
+    },
+    {
+      "src": "term [532,547]",
+      "dest": "term [458,473]"
+    },
+    {
+      "src": "operator: == [469,471]",
+      "dest": "operator: == [399,401]"
+    },
+    {
+      "src": "classdef [0,571]",
+      "dest": "classdef [0,498]"
+    },
+    {
+      "src": "suite [63,571]",
+      "dest": "suite [79,498]"
+    },
+    {
+      "src": "trailer [377,390]",
+      "dest": "trailer [296,314]"
+    },
+    {
+      "src": "simple_stmt [495,508]",
+      "dest": "simple_stmt [425,438]"
+    },
+    {
+      "src": "number: 1 [506,507]",
+      "dest": "number: 1 [436,437]"
+    },
+    {
+      "src": "name: MetricsCalculator [6,23]",
+      "dest": "name: MetricsCalculator [6,23]"
+    },
+    {
+      "src": "name: pred [408,412]",
+      "dest": "name: pred [328,332]"
+    },
+    {
+      "src": "expr_stmt [346,357]",
+      "dest": "expr_stmt [265,276]"
+    },
+    {
+      "src": "name: accuracy [521,529]",
+      "dest": "name: accuracy [447,455]"
+    },
+    {
+      "src": "operator: / [540,541]",
+      "dest": "operator: / [466,467]"
+    },
+    {
+      "src": "exprlist [408,419]",
+      "dest": "exprlist [328,339]"
+    },
+    {
+      "src": "name: predictions [427,438]",
+      "dest": "name: predicted_labels [347,363]"
+    },
+    {
+      "src": "operator: += [503,505]",
+      "dest": "operator: += [433,435]"
+    },
+    {
+      "src": "name: correct [532,539]",
+      "dest": "name: correct [458,465]"
+    },
+    {
+      "src": "operator: = [372,373]",
+      "dest": "operator: = [291,292]"
+    },
+    {
+      "src": "param [55,61]",
+      "dest": "param [66,77]"
+    },
+    {
+      "src": "comparison [464,477]",
+      "dest": "comparison [394,407]"
+    },
+    {
+      "src": "funcdef [29,571]",
+      "dest": "funcdef [29,498]"
+    },
+    {
+      "src": "param [42,54]",
+      "dest": "param [48,65]"
+    },
+    {
+      "src": "expr_stmt [521,547]",
+      "dest": "expr_stmt [447,473]"
+    },
+    {
+      "src": "expr_stmt [495,507]",
+      "dest": "expr_stmt [425,437]"
+    },
+    {
+      "src": "atom_expr [374,390]",
+      "dest": "atom_expr [293,314]"
+    },
+    {
+      "src": "name: label [472,477]",
+      "dest": "name: label [402,407]"
+    },
+    {
+      "src": "name: zip [423,426]",
+      "dest": "name: zip [343,346]"
+    },
+    {
+      "src": "return_stmt [556,571]",
+      "dest": "return_stmt [482,497]"
+    },
+    {
+      "src": "if_stmt [461,508]",
+      "dest": "if_stmt [391,438]"
+    },
+    {
+      "src": "name: pred [464,468]",
+      "dest": "name: pred [394,398]"
+    },
+    {
+      "src": "name: labels [55,61]",
+      "dest": "name: true_labels [66,77]"
+    },
+    {
+      "src": "file_input [0,571]",
+      "dest": "file_input [0,498]"
+    },
+    {
+      "src": "suite [448,508]",
+      "dest": "suite [378,438]"
+    },
+    {
+      "src": "simple_stmt [346,358]",
+      "dest": "simple_stmt [265,277]"
+    },
+    {
+      "src": "operator: = [530,531]",
+      "dest": "operator: = [456,457]"
+    },
+    {
+      "src": "name: accuracy [563,571]",
+      "dest": "name: accuracy [489,497]"
+    },
+    {
+      "src": "simple_stmt [366,391]",
+      "dest": "simple_stmt [285,315]"
+    },
+    {
+      "src": "operator: = [354,355]",
+      "dest": "operator: = [273,274]"
+    },
+    {
+      "src": "name: labels [440,446]",
+      "dest": "name: true_labels [365,376]"
+    },
+    {
+      "src": "name: total [542,547]",
+      "dest": "name: total [468,473]"
+    },
+    {
+      "src": "suite [478,508]",
+      "dest": "suite [408,438]"
+    },
+    {
+      "src": "name: predictions [42,53]",
+      "dest": "name: predicted_labels [48,64]"
+    },
+    {
+      "src": "number: 0 [356,357]",
+      "dest": "number: 0 [275,276]"
+    },
+    {
+      "src": "name: predictions [378,389]",
+      "dest": "name: predicted_labels [297,313]"
+    },
+    {
+      "src": "operator: , [438,439]",
+      "dest": "operator: , [363,364]"
+    },
+    {
+      "src": "name: total [366,371]",
+      "dest": "name: total [285,290]"
+    },
+    {
+      "src": "expr_stmt [366,390]",
+      "dest": "expr_stmt [285,314]"
+    },
+    {
+      "src": "operator: , [412,413]",
+      "dest": "operator: , [332,333]"
+    },
+    {
+      "src": "arglist [427,446]",
+      "dest": "arglist [347,376]"
+    },
+    {
+      "src": "operator: , [53,54]",
+      "dest": "operator: , [64,65]"
+    },
+    {
+      "src": "simple_stmt [521,548]",
+      "dest": "simple_stmt [447,474]"
+    },
+    {
+      "src": "name: correct [495,502]",
+      "dest": "name: correct [425,432]"
+    },
+    {
+      "src": "parameters [41,62]",
+      "dest": "parameters [41,78]"
+    },
+    {
+      "src": "atom_expr [423,447]",
+      "dest": "atom_expr [343,377]"
+    },
+    {
+      "src": "name: correct [346,353]",
+      "dest": "name: correct [265,272]"
+    },
+    {
+      "src": "for_stmt [404,508]",
+      "dest": "for_stmt [324,438]"
+    },
+    {
+      "src": "string: \"\"\"         Calculate accuracy of model predictions.              Args:             predictions (list): List of predicted labels.             labels (list): List of true labels.              Returns:             float: Accuracy of the model predictions.         \"\"\" [72,337]",
+      "dest": "string: \"\"\"         Calculate accuracy         :param predicted_labels: list, predicted results         :param true_labels: list, true labels         :return: float         \"\"\" [88,256]"
+    },
+    {
+      "src": "name: label [414,419]",
+      "dest": "name: label [334,339]"
+    },
+    {
+      "src": "name: accuracy [33,41]",
+      "dest": "name: accuracy [33,41]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [42,47]",
+      "parent": "parameters [41,78]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [482,498]",
+      "parent": "suite [79,498]",
+      "at": 5
+    },
+    {
+      "action": "update-node",
+      "tree": "name: predictions [42,53]",
+      "label": "predicted_labels"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: labels [55,61]",
+      "label": "true_labels"
+    },
+    {
+      "action": "update-node",
+      "tree": "string: \"\"\"         Calculate accuracy of model predictions.              Args:             predictions (list): List of predicted labels.             labels (list): List of true labels.              Returns:             float: Accuracy of the model predictions.         \"\"\" [72,337]",
+      "label": "\"\"\"         Calculate accuracy         :param predicted_labels: list, predicted results         :param true_labels: list, true labels         :return: float         \"\"\""
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [556,571]",
+      "parent": "simple_stmt [482,498]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: predictions [378,389]",
+      "label": "predicted_labels"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: predictions [427,438]",
+      "label": "predicted_labels"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: labels [440,446]",
+      "label": "true_labels"
+    }
+  ]
+}

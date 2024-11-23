@@ -1,0 +1,209 @@
+{
+  "matches": [
+    {
+      "src": "funcdef [22,328]",
+      "dest": "funcdef [22,395]"
+    },
+    {
+      "src": "parameters [33,52]",
+      "dest": "parameters [33,54]"
+    },
+    {
+      "src": "simple_stmt [62,75]",
+      "dest": "simple_stmt [64,329]"
+    },
+    {
+      "src": "name: RegexUtils [6,16]",
+      "dest": "name: RegexUtils [6,16]"
+    },
+    {
+      "src": "name: index [125,130]",
+      "dest": "name: matches [337,344]"
+    },
+    {
+      "src": "trailer [139,144]",
+      "dest": "trailer [349,357]"
+    },
+    {
+      "src": "classdef [0,328]",
+      "dest": "classdef [0,395]"
+    },
+    {
+      "src": "name: start [156,161]",
+      "dest": "name: text [367,371]"
+    },
+    {
+      "src": "operator: , [154,155]",
+      "dest": "operator: , [365,366]"
+    },
+    {
+      "src": "name: substring [145,154]",
+      "dest": "name: pattern [358,365]"
+    },
+    {
+      "src": "name: findall [26,33]",
+      "dest": "name: findall [26,33]"
+    },
+    {
+      "src": "operator: = [131,132]",
+      "dest": "operator: = [345,346]"
+    },
+    {
+      "src": "name: find [140,144]",
+      "dest": "name: findall [350,357]"
+    },
+    {
+      "src": "name: string [34,40]",
+      "dest": "name: self [34,38]"
+    },
+    {
+      "src": "param [42,51]",
+      "dest": "param [40,48]"
+    },
+    {
+      "src": "suite [17,328]",
+      "dest": "suite [17,395]"
+    },
+    {
+      "src": "file_input [0,328]",
+      "dest": "file_input [0,395]"
+    },
+    {
+      "src": "operator: , [40,41]",
+      "dest": "operator: , [38,39]"
+    },
+    {
+      "src": "suite [53,328]",
+      "dest": "suite [55,395]"
+    },
+    {
+      "src": "arglist [145,161]",
+      "dest": "arglist [358,371]"
+    },
+    {
+      "src": "return_stmt [314,328]",
+      "dest": "return_stmt [381,395]"
+    },
+    {
+      "src": "name: matches [321,328]",
+      "dest": "name: matches [388,395]"
+    },
+    {
+      "src": "param [34,41]",
+      "dest": "param [34,39]"
+    },
+    {
+      "src": "name: substring [42,51]",
+      "dest": "name: pattern [40,47]"
+    },
+    {
+      "src": "simple_stmt [125,163]",
+      "dest": "simple_stmt [337,373]"
+    },
+    {
+      "src": "trailer [144,162]",
+      "dest": "trailer [357,372]"
+    },
+    {
+      "src": "expr_stmt [125,162]",
+      "dest": "expr_stmt [337,372]"
+    },
+    {
+      "src": "name: string [133,139]",
+      "dest": "name: re [347,349]"
+    },
+    {
+      "src": "atom_expr [133,162]",
+      "dest": "atom_expr [347,372]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [49,53]",
+      "parent": "parameters [33,54]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [125,163]",
+      "parent": "suite [55,395]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: string [34,40]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: substring [42,51]",
+      "label": "pattern"
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [47,48]",
+      "parent": "param [40,48]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: \"\"\"         Find all matching substrings and return a list of all matching substrings         :param pattern: string, Regular expression pattern         :param text: string, Text to match         :return: list of string, List of all matching substrings         \"\"\" [64,328]",
+      "parent": "simple_stmt [64,329]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: index [125,130]",
+      "label": "matches"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: string [133,139]",
+      "label": "re"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: find [140,144]",
+      "label": "findall"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: substring [145,154]",
+      "label": "pattern"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: start [156,161]",
+      "label": "text"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "expr_stmt [62,74]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [83,93]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "if_stmt [175,213]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [225,276]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [288,306]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [112,306]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "while_stmt [101,306]"
+    }
+  ]
+}

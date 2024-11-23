@@ -1,0 +1,215 @@
+{
+  "matches": [
+    {
+      "src": "term [88,105]",
+      "dest": "term [526,543]"
+    },
+    {
+      "src": "suite [23,134]",
+      "dest": "suite [23,622]"
+    },
+    {
+      "src": "name: final_amount [63,75]",
+      "dest": "name: final_amount [501,513]"
+    },
+    {
+      "src": "classdef [0,134]",
+      "dest": "classdef [0,622]"
+    },
+    {
+      "src": "name: discount [97,105]",
+      "dest": "name: discount [535,543]"
+    },
+    {
+      "src": "name: DiscountStrategy [6,22]",
+      "dest": "name: DiscountStrategy [6,22]"
+    },
+    {
+      "src": "operator: * [95,96]",
+      "dest": "operator: * [533,534]"
+    },
+    {
+      "src": "return_stmt [115,134]",
+      "dest": "return_stmt [603,622]"
+    },
+    {
+      "src": "name: amount [88,94]",
+      "dest": "name: amount [526,532]"
+    },
+    {
+      "src": "name: final_amount [122,134]",
+      "dest": "name: final_amount [610,622]"
+    },
+    {
+      "src": "arith_expr [78,106]",
+      "dest": "arith_expr [516,544]"
+    },
+    {
+      "src": "operator: - [85,86]",
+      "dest": "operator: - [523,524]"
+    },
+    {
+      "src": "operator: , [42,43]",
+      "dest": "operator: = [205,206]"
+    },
+    {
+      "src": "name: due [32,35]",
+      "dest": "name: due [32,35]"
+    },
+    {
+      "src": "simple_stmt [63,107]",
+      "dest": "simple_stmt [501,586]"
+    },
+    {
+      "src": "file_input [0,134]",
+      "dest": "file_input [0,622]"
+    },
+    {
+      "src": "name: amount [78,84]",
+      "dest": "name: amount [516,522]"
+    },
+    {
+      "src": "funcdef [28,134]",
+      "dest": "funcdef [28,622]"
+    },
+    {
+      "src": "name: amount [36,42]",
+      "dest": "name: amount [198,204]"
+    },
+    {
+      "src": "operator: = [76,77]",
+      "dest": "operator: = [514,515]"
+    },
+    {
+      "src": "name: discount [44,52]",
+      "dest": "name: discount [271,279]"
+    },
+    {
+      "src": "expr_stmt [63,106]",
+      "dest": "expr_stmt [501,544]"
+    },
+    {
+      "src": "atom [87,106]",
+      "dest": "atom [525,544]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "parameters [35,41]",
+      "parent": "funcdef [28,622]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [42,622]",
+      "parent": "funcdef [28,622]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [51,190]",
+      "parent": "suite [42,622]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [198,263]",
+      "parent": "suite [42,622]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [271,284]",
+      "parent": "suite [42,622]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "if_stmt [301,484]",
+      "parent": "suite [42,622]",
+      "at": 3
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [63,107]",
+      "parent": "suite [42,622]",
+      "at": 4
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [115,134]",
+      "parent": "suite [42,622]",
+      "at": 5
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [198,219]",
+      "parent": "simple_stmt [198,263]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [271,283]",
+      "parent": "simple_stmt [271,284]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: amount [36,42]",
+      "parent": "expr_stmt [198,219]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: , [42,43]",
+      "label": "="
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: , [42,43]",
+      "parent": "expr_stmt [198,219]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [207,219]",
+      "parent": "expr_stmt [198,219]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: discount [44,52]",
+      "parent": "expr_stmt [271,283]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [280,281]",
+      "parent": "expr_stmt [271,283]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "number: 0 [282,283]",
+      "parent": "expr_stmt [271,283]",
+      "at": 2
+    },
+    {
+      "action": "delete-node",
+      "tree": "param [36,43]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "param [44,52]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "parameters [35,53]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [54,134]"
+    }
+  ]
+}

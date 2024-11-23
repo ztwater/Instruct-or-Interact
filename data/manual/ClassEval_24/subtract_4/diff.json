@@ -1,0 +1,104 @@
+{
+  "matches": [
+    {
+      "src": "suite [24,69]",
+      "dest": "suite [24,433]"
+    },
+    {
+      "src": "name: a [42,43]",
+      "dest": "name: c1 [42,44]"
+    },
+    {
+      "src": "classdef [0,69]",
+      "dest": "classdef [0,433]"
+    },
+    {
+      "src": "suite [48,69]",
+      "dest": "suite [50,433]"
+    },
+    {
+      "src": "return_stmt [57,69]",
+      "dest": "return_stmt [419,433]"
+    },
+    {
+      "src": "operator: , [43,44]",
+      "dest": "operator: , [44,45]"
+    },
+    {
+      "src": "param [45,46]",
+      "dest": "param [46,48]"
+    },
+    {
+      "src": "name: b [45,46]",
+      "dest": "name: c2 [46,48]"
+    },
+    {
+      "src": "name: subtract [33,41]",
+      "dest": "name: subtract [33,41]"
+    },
+    {
+      "src": "param [42,44]",
+      "dest": "param [42,45]"
+    },
+    {
+      "src": "arith_expr [64,69]",
+      "dest": "arith_expr [426,433]"
+    },
+    {
+      "src": "file_input [0,69]",
+      "dest": "file_input [0,433]"
+    },
+    {
+      "src": "parameters [41,47]",
+      "dest": "parameters [41,49]"
+    },
+    {
+      "src": "funcdef [29,69]",
+      "dest": "funcdef [29,433]"
+    },
+    {
+      "src": "operator: - [66,67]",
+      "dest": "operator: - [429,430]"
+    },
+    {
+      "src": "name: b [68,69]",
+      "dest": "name: c2 [431,433]"
+    },
+    {
+      "src": "name: ComplexCalculator [6,23]",
+      "dest": "name: ComplexCalculator [6,23]"
+    },
+    {
+      "src": "name: a [64,65]",
+      "dest": "name: c1 [426,428]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [59,411]",
+      "parent": "suite [50,433]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: a [42,43]",
+      "label": "c1"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: b [45,46]",
+      "label": "c2"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: a [64,65]",
+      "label": "c1"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: b [68,69]",
+      "label": "c2"
+    }
+  ]
+}

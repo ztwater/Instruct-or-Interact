@@ -1,0 +1,191 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Move the player based on the specified direction and check if the game is won.\n        :param direction: str, the direction of the player's movement. \n            It can be 'w', 's', 'a', or 'd' representing up, down, left, or right respectively.\n    \n        :return: True if the game is won, False otherwise.\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "funcdef",
+        "inserted": "def game_won():\n            \"\"\"\n            Check if the game is won. \n            :return: True if the game is won, False otherwise.\n            \"\"\"\n            for target in self.targets:\n                if target not in self.boxes:\n                    return False\n            return True\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "funcdef",
+        "inserted": "def move_box(row, col, direction):\n            \"\"\"\n            Move the box to the specified direction if it's a valid move.\n            :param row: int, the current row position of the box.\n            :param col: int, the current column position of the box.\n            :param direction: str, the direction of the box's movement. \n                It can be 'w', 's', 'a', or 'd' representing up, down, left, or right respectively.\n            :return: tuple, the new row and column position of the box after the movement.\n            \"\"\"\n            if direction == 'w':\n                if self.map[row - 1][col] != '#' and (row - 1, col) not in self.boxes:\n                    row -= 1\n            elif direction == 's':\n                if self.map[row + 1][col] != '#' and (row + 1, col) not in self.boxes:\n                    row += 1\n            elif direction == 'a':\n                if self.map[row][col - 1] != '#' and (row, col - 1) not in self.boxes:\n                    col -= 1\n            elif direction == 'd':\n                if self.map[row][col + 1] != '#' and (row, col + 1) not in self.boxes:\n                    col += 1\n            return row, col\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "funcdef",
+        "inserted": "def update_map():\n            \"\"\"\n            Update the map after the player and box movements.\n            \"\"\"\n            # Clear the player and box positions on the map\n            for i in range(len(self.map)):\n                self.map[i] = list(self.map[i])\n                for j in range(len(self.map[i])):\n                    if self.map[i][j] == 'O' or self.map[i][j] == 'X':\n                        self.map[i][j] = ' '\n            # Update the player position on the map\n            self.map[self.player_row][self.player_col] = 'O'\n            # Update the box positions on the map\n            for box in self.boxes:\n                self.map[box[0]][box[1]] = 'X'\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "new_player_row, new_player_col = move_player(self.player_row, self.player_col, direction)\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "if_stmt",
+        "inserted": "if (new_player_row, new_player_col) in self.boxes:\n            new_box_row, new_box_col = move_box(new_player_row, new_player_col, direction)\n            # Update the box position if the move is valid\n            if (new_box_row, new_box_col) != (new_player_row, new_player_col):\n                self.boxes.remove((new_player_row, new_player_col))\n                self.boxes.append((new_box_row, new_box_col))\n                self.player_row, self.player_col = new_player_row, new_player_col\n        else:\n            self.player_row, self.player_col = new_player_row, new_player_col\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "move_player",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "parameters",
+        "inserted": "(row, col, direction)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n            Move the player to the specified direction if it's a valid move.\n            :param row: int, the current row position of the player.\n            :param col: int, the current column position of the player.\n            :param direction: str, the direction of the player's movement. \n                It can be 'w', 's', 'a', or 'd' representing up, down, left, or right respectively.\n            :return: tuple, the new row and column position of the player after the movement.\n            \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return row, col\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "print(\"Congratulations! You won the game!\")\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return True\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "comparison",
+        "inserted": "self.map[row - 1][col] != '#'",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "comparison",
+        "inserted": "self.map[row + 1][col] != '#'",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "comparison",
+        "inserted": "self.map[row][col - 1] != '#'",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "comparison",
+        "inserted": "self.map[row][col + 1] != '#'",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "expr_stmt",
+        "inserted": "row -= 1",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "expr_stmt",
+        "inserted": "row += 1",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "expr_stmt",
+        "inserted": "col -= 1",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "expr_stmt",
+        "inserted": "col += 1",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "if_stmt",
+        "inserted": "if direction == \"up\":\n            # code to move the player up\n            pass\n        elif direction == \"down\":\n            # code to move the player down\n            pass\n        elif direction == \"left\":\n            # code to move the player left\n            pass\n        elif direction == \"right\":\n            # code to move the player right\n    \n        # Check if the game is won\n            pass\n",
+        "deleted": "if direction == \"up\":\n            # code to move the player up\n            pass\n        elif direction == \"down\":\n            # code to move the player down\n            pass\n        elif direction == \"left\":\n            # code to move the player left\n            pass\n        elif direction == \"right\":\n            # code to move the player right\n    \n        # Check if the game is won\n            pass\n",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "print(\"Congratulations! You won the game!\")",
+        "deleted": "print(\"Congratulations! You won the game!\")",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "string",
+        "inserted": "'w'",
+        "deleted": "\"up\"",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "string",
+        "inserted": "'s'",
+        "deleted": "\"down\"",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "string",
+        "inserted": "'a'",
+        "deleted": "\"left\"",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "string",
+        "inserted": "'d'",
+        "deleted": "\"right\"",
+        "type": "Logic"
+    }
+]

@@ -1,0 +1,79 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Adds a heading to the Word document.\n        :param heading: str, the text of the heading.\n        :param level: int, optional, the level of the heading (1, 2, 3, etc.; default is 1).\n        :return: bool, True if the heading is successfully added, False otherwise.\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "number",
+        "inserted": "1",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".document",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "simple_stmt",
+        "inserted": "",
+        "deleted": "paragraph.style = f\"Heading {level}\"\n",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "expr_stmt",
+        "inserted": "paragraph.style = f\"Heading {level}\"",
+        "deleted": "paragraph.style = f\"Heading {level}\"",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "document",
+        "deleted": "document",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "document",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "heading",
+        "deleted": "text",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "heading",
+        "deleted": "text",
+        "type": "Refactoring"
+    }
+]

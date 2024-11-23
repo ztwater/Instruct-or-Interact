@@ -1,0 +1,170 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Check the self.menu and add into self.selected_dishes if the dish count is valid.\n        And if the dish has successfully been added, change the count in self.menu.\n        :param dish: dict, the information of dish. dish = {\"dish\": dish name, \"count\": count, price: price}\n        :return: True if successfully added, or False otherwise.\n        >>> order = Order()\n        >>> order.menu.append({\"dish\": \"dish1\", \"price\": 10, \"count\": 5})\n        >>> order.add_dish({\"dish\": \"dish1\", \"price\": 10, \"count\": 3})\n        True\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "comparison",
+        "inserted": "item[\"dish\"] == dish[\"dish\"]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "dish[\"count\"]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "[\"count\"]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "(item)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "item[\"count\"]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "dish[\"count\"]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".append",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "(item)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "trailer",
+        "inserted": "",
+        "deleted": "[dish]",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "number",
+        "inserted": "",
+        "deleted": "0",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "number",
+        "inserted": "",
+        "deleted": "1",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "comparison",
+        "inserted": "",
+        "deleted": "dish in self.menu",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "dish",
+        "deleted": "dish",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "self.menu",
+        "deleted": "self.menu",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "self.menu[dish]",
+        "deleted": "self.menu[dish]",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": "-=",
+        "deleted": "-=",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "trailer",
+        "inserted": ".menu",
+        "deleted": ".menu",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "item",
+        "deleted": "dish",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "operator",
+        "inserted": ">=",
+        "deleted": ">",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "item",
+        "deleted": "self",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "selected_dishes",
+        "deleted": "selected_dish",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "remove",
+        "deleted": "dish",
+        "type": "Refactoring"
+    }
+]

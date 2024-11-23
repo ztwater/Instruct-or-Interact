@@ -1,0 +1,261 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Makes a move at the given row and column.\n        If the move is valid, it places the current player's symbol on the board\n        and changes the current player to the other player (if the current player is 'X', then it becomes 'O' and vice versa).\n        :param row: int, the row index of this move\n        :param col: int, the column index\n        return: True if the move is valid, or False otherwise.\n        >>> gomokuGame = GomokuGame(10)\n        >>> gomokuGame.make_move(5, 5)\n        True\n        >>> gomokuGame.make_move(5, 5)\n        False\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "string:",
+        "inserted": "' '",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return True\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".board",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "[row]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "[col]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "self.current_player",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "self.current_player",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "string",
+        "inserted": "'X'",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".board",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "[row]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "[col]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "string",
+        "inserted": "'O'",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".current_player",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "fstring_start",
+        "inserted": "",
+        "deleted": "f\"",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "fstring_string:",
+        "inserted": "",
+        "deleted": "Made a move at row ",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "fstring_expr",
+        "inserted": "",
+        "deleted": "{row}",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "fstring_string:",
+        "inserted": "",
+        "deleted": " and column ",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "fstring_expr",
+        "inserted": "",
+        "deleted": "{column}",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "fstring_end",
+        "inserted": "",
+        "deleted": "\"",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": "{",
+        "deleted": "{",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "print",
+        "deleted": "print",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": "}",
+        "deleted": "}",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": "{",
+        "deleted": "{",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "row",
+        "deleted": "row",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": "}",
+        "deleted": "}",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "column",
+        "deleted": "column",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "col",
+        "deleted": "column",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "operator",
+        "inserted": "==",
+        "deleted": "{",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "print",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "}",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "operator",
+        "inserted": "==",
+        "deleted": "{",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "}",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "current_player",
+        "deleted": "column",
+        "type": "Refactoring"
+    }
+]

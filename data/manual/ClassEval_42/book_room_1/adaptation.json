@@ -1,0 +1,401 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "room_number,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "name",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Check if there are any rooms of the specified type available.\n        if rooms are adequate, modify available_rooms and booked_rooms and finish booking, or fail to book otherwise.\n        :param room_type: str\n        :param room_number: int, the expected number of specified type rooms to be booked\n        :param name: str, guest name\n        :return: if number of rooms about to be booked doesn't exceed the remaining rooms, return str 'Success!'\n                 if exceeds but quantity of available rooms is not equal to zero, return int(the remaining quantity of this room type).\n                 if exceeds and quantity is zero or the room_type isn't in available_room, return False.\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "comparison",
+        "inserted": "self.available_rooms[room_type] > 0",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "<=",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return 'Success!'\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "room_type",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "comp_op",
+        "inserted": "not in",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".available_rooms",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "[room_type]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "comparison",
+        "inserted": "room_type not in self.booked_rooms",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".available_rooms",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "isinstance",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "isinstance",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "self.booked_rooms[room_type][name]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "room_number",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "room_number",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".available_rooms",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "[room_type]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "room_number",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "int",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "name",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "str",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "self.booked_rooms[room_type]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom",
+        "inserted": "{}",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "operator",
+        "inserted": "",
+        "deleted": "=",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "string",
+        "inserted": "",
+        "deleted": "'Single'",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "string",
+        "inserted": "",
+        "deleted": "'Double'",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "string",
+        "inserted": "",
+        "deleted": "'Suite'",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "fstring_start",
+        "inserted": "",
+        "deleted": "f\"",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "fstring_string",
+        "inserted": "",
+        "deleted": "A ",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "name",
+        "inserted": "",
+        "deleted": "room_type",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "fstring_string:",
+        "inserted": "",
+        "deleted": " room is available.",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "fstring_end",
+        "inserted": "",
+        "deleted": "\"",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "fstring_start",
+        "inserted": "",
+        "deleted": "f\"",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "fstring_string",
+        "inserted": "",
+        "deleted": "No ",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "fstring_expr",
+        "inserted": "",
+        "deleted": "{room_type}",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "fstring_string:",
+        "inserted": "",
+        "deleted": " rooms are available.",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "fstring_end",
+        "inserted": "",
+        "deleted": "\"",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "available_rooms",
+        "deleted": "available_rooms",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": "{",
+        "deleted": "{",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": "}",
+        "deleted": "}",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "available_rooms",
+        "deleted": "available_rooms",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": ",",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": ",",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "room_type",
+        "deleted": "room_type",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": "{",
+        "deleted": "{",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": "}",
+        "deleted": "}",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "room_number",
+        "deleted": "room_type",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "{",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "operator",
+        "inserted": "-=",
+        "deleted": "}",
+        "type": "Logic"
+    }
+]

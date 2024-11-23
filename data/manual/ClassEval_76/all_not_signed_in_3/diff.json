@@ -1,0 +1,218 @@
+{
+  "matches": [
+    {
+      "src": "name: usernames [46,55]",
+      "dest": "name: self [46,50]"
+    },
+    {
+      "src": "suite [19,238]",
+      "dest": "suite [19,246]"
+    },
+    {
+      "src": "atom_expr [179,209]",
+      "dest": "atom_expr [187,217]"
+    },
+    {
+      "src": "classdef [0,238]",
+      "dest": "classdef [0,246]"
+    },
+    {
+      "src": "atom [82,84]",
+      "dest": "atom [77,79]"
+    },
+    {
+      "src": "suite [57,238]",
+      "dest": "suite [52,246]"
+    },
+    {
+      "src": "trailer [199,209]",
+      "dest": "trailer [207,217]"
+    },
+    {
+      "src": "name: not_signed_in [179,192]",
+      "dest": "name: not_signed_in [187,200]"
+    },
+    {
+      "src": "simple_stmt [66,85]",
+      "dest": "simple_stmt [61,80]"
+    },
+    {
+      "src": "name: is_signed_in [139,151]",
+      "dest": "name: is_signed_in [157,169]"
+    },
+    {
+      "src": "name: append [193,199]",
+      "dest": "name: append [201,207]"
+    },
+    {
+      "src": "operator: = [80,81]",
+      "dest": "operator: = [75,76]"
+    },
+    {
+      "src": "simple_stmt [179,210]",
+      "dest": "simple_stmt [187,218]"
+    },
+    {
+      "src": "file_input [0,238]",
+      "dest": "file_input [0,246]"
+    },
+    {
+      "src": "return_stmt [218,238]",
+      "dest": "return_stmt [226,246]"
+    },
+    {
+      "src": "suite [119,210]",
+      "dest": "suite [137,218]"
+    },
+    {
+      "src": "name: not_signed_in [225,238]",
+      "dest": "name: not_signed_in [233,246]"
+    },
+    {
+      "src": "name: all_not_signed_in [28,45]",
+      "dest": "name: all_not_signed_in [28,45]"
+    },
+    {
+      "src": "trailer [192,199]",
+      "dest": "trailer [200,207]"
+    },
+    {
+      "src": "name: not_signed_in [66,79]",
+      "dest": "name: not_signed_in [61,74]"
+    },
+    {
+      "src": "parameters [45,56]",
+      "dest": "parameters [45,51]"
+    },
+    {
+      "src": "expr_stmt [66,84]",
+      "dest": "expr_stmt [61,79]"
+    },
+    {
+      "src": "param [46,55]",
+      "dest": "param [46,50]"
+    },
+    {
+      "src": "name: username [200,208]",
+      "dest": "name: username [208,216]"
+    },
+    {
+      "src": "name: username [97,105]",
+      "dest": "name: username [92,100]"
+    },
+    {
+      "src": "if_stmt [132,210]",
+      "dest": "if_stmt [150,218]"
+    },
+    {
+      "src": "suite [162,210]",
+      "dest": "suite [170,218]"
+    },
+    {
+      "src": "name: SignInSystem [6,18]",
+      "dest": "name: SignInSystem [6,18]"
+    },
+    {
+      "src": "for_stmt [93,210]",
+      "dest": "for_stmt [88,218]"
+    },
+    {
+      "src": "name: usernames [109,118]",
+      "dest": "name: users [123,128]"
+    },
+    {
+      "src": "funcdef [24,238]",
+      "dest": "funcdef [24,246]"
+    },
+    {
+      "src": "not_test [135,161]",
+      "dest": "not_test [153,169]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "update-node",
+      "tree": "name: usernames [46,55]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "exprlist [92,114]",
+      "parent": "for_stmt [88,218]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [118,136]",
+      "parent": "for_stmt [88,218]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: username [97,105]",
+      "parent": "exprlist [92,114]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [100,101]",
+      "parent": "exprlist [92,114]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: is_signed_in [102,114]",
+      "parent": "exprlist [92,114]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [118,122]",
+      "parent": "atom_expr [118,136]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [122,128]",
+      "parent": "atom_expr [118,136]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [128,134]",
+      "parent": "atom_expr [118,136]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [134,136]",
+      "parent": "atom_expr [118,136]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: usernames [109,118]",
+      "label": "users"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: usernames [109,118]",
+      "parent": "trailer [122,128]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: is_signed_in [139,151]",
+      "parent": "not_test [153,169]",
+      "at": 0
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [151,161]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [139,161]"
+    }
+  ]
+}

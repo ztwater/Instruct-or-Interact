@@ -1,0 +1,142 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "string:",
+        "inserted": "\"\"\"\n        Get the number of specific type of available rooms.\n        :param room_type: str, the room type that want to know\n        :return: int, the remaining number of this type rooms.\n        >>> hotel = Hotel('peace hotel', {'single': 5, 'double': 3})\n        >>> hotel.get_available_rooms('single')\n        5\n        \"\"\"",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".available_rooms",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "arglist",
+        "inserted": "room_type, 0",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "expr_stmt",
+        "inserted": "",
+        "deleted": "count = 0",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "name",
+        "inserted": "",
+        "deleted": "room",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "operator",
+        "inserted": "",
+        "deleted": "==",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "name",
+        "inserted": "",
+        "deleted": "count",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "return_stmt",
+        "inserted": "",
+        "deleted": "return count",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "room",
+        "deleted": "room",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "trailer",
+        "inserted": ".type",
+        "deleted": ".type",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "rooms",
+        "deleted": "rooms",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "room_type",
+        "deleted": "room_type",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": "+=",
+        "deleted": "+=",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "number",
+        "inserted": "1",
+        "deleted": "1",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "room",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "available_rooms",
+        "deleted": "rooms",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "get",
+        "deleted": "type",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "+=",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "number",
+        "inserted": "0",
+        "deleted": "1",
+        "type": "Logic"
+    }
+]

@@ -1,0 +1,197 @@
+{
+  "matches": [
+    {
+      "src": "atom_expr [91,118]",
+      "dest": "atom_expr [337,370]"
+    },
+    {
+      "src": "suite [19,176]",
+      "dest": "suite [19,485]"
+    },
+    {
+      "src": "name: check_sign_in [28,41]",
+      "dest": "name: check_sign_in [28,41]"
+    },
+    {
+      "src": "name: user [60,64]",
+      "dest": "name: self [310,314]"
+    },
+    {
+      "src": "classdef [0,176]",
+      "dest": "classdef [0,485]"
+    },
+    {
+      "src": "suite [48,176]",
+      "dest": "suite [58,485]"
+    },
+    {
+      "src": "parameters [41,47]",
+      "dest": "parameters [41,57]"
+    },
+    {
+      "src": "name: SignInSystem [6,18]",
+      "dest": "name: SignInSystem [6,18]"
+    },
+    {
+      "src": "name: is_signed_in [65,77]",
+      "dest": "name: is_signed_in [358,370]"
+    },
+    {
+      "src": "trailer [64,77]",
+      "dest": "trailer [357,370]"
+    },
+    {
+      "src": "name: user [42,46]",
+      "dest": "name: username [48,56]"
+    },
+    {
+      "src": "suite [132,176]",
+      "dest": "suite [460,485]"
+    },
+    {
+      "src": "trailer [96,118]",
+      "dest": "trailer [341,347]"
+    },
+    {
+      "src": "file_input [0,176]",
+      "dest": "file_input [0,485]"
+    },
+    {
+      "src": "param [42,46]",
+      "dest": "param [48,56]"
+    },
+    {
+      "src": "if_stmt [57,176]",
+      "dest": "if_stmt [295,485]"
+    },
+    {
+      "src": "funcdef [24,176]",
+      "dest": "funcdef [24,485]"
+    },
+    {
+      "src": "suite [78,119]",
+      "dest": "suite [321,447]"
+    },
+    {
+      "src": "atom_expr [60,77]",
+      "dest": "atom_expr [310,320]"
+    },
+    {
+      "src": "name: print [91,96]",
+      "dest": "name: self [337,341]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [42,47]",
+      "parent": "parameters [41,57]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [67,287]",
+      "parent": "suite [58,485]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: user [42,46]",
+      "label": "username"
+    },
+    {
+      "action": "insert-node",
+      "tree": "comparison [298,320]",
+      "parent": "if_stmt [295,485]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: username [298,306]",
+      "parent": "comparison [298,320]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [60,77]",
+      "parent": "comparison [298,320]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [334,447]",
+      "parent": "suite [321,447]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "return_stmt [473,485]",
+      "parent": "suite [460,485]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: user [60,64]",
+      "label": "self"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [314,320]",
+      "parent": "atom_expr [310,320]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [91,118]",
+      "parent": "if_stmt [334,447]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [371,400]",
+      "parent": "if_stmt [334,447]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [417,447]",
+      "parent": "if_stmt [334,447]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: print [91,96]",
+      "label": "self"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [347,357]",
+      "parent": "atom_expr [337,370]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [64,77]",
+      "parent": "atom_expr [337,370]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: users [342,347]",
+      "parent": "trailer [341,347]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"User is signed in.\" [97,117]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [91,119]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "atom_expr [145,176]"
+    }
+  ]
+}

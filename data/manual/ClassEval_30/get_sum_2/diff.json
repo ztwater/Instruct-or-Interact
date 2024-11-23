@@ -1,0 +1,124 @@
+{
+  "matches": [
+    {
+      "src": "suite [22,70]",
+      "dest": "suite [22,244]"
+    },
+    {
+      "src": "name: get_sum [31,38]",
+      "dest": "name: get_sum [31,38]"
+    },
+    {
+      "src": "classdef [0,70]",
+      "dest": "classdef [0,244]"
+    },
+    {
+      "src": "suite [45,70]",
+      "dest": "suite [45,244]"
+    },
+    {
+      "src": "name: data [65,69]",
+      "dest": "name: data [238,242]"
+    },
+    {
+      "src": "name: DataStatistics2 [6,21]",
+      "dest": "name: DataStatistics2 [6,21]"
+    },
+    {
+      "src": "param [39,43]",
+      "dest": "param [39,43]"
+    },
+    {
+      "src": "name: sum [61,64]",
+      "dest": "name: self [233,237]"
+    },
+    {
+      "src": "return_stmt [54,70]",
+      "dest": "return_stmt [219,243]"
+    },
+    {
+      "src": "file_input [0,70]",
+      "dest": "file_input [0,244]"
+    },
+    {
+      "src": "trailer [64,70]",
+      "dest": "trailer [237,242]"
+    },
+    {
+      "src": "atom_expr [61,70]",
+      "dest": "atom_expr [233,242]"
+    },
+    {
+      "src": "funcdef [27,70]",
+      "dest": "funcdef [27,244]"
+    },
+    {
+      "src": "parameters [38,44]",
+      "dest": "parameters [38,44]"
+    },
+    {
+      "src": "name: data [39,43]",
+      "dest": "name: self [39,43]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [54,211]",
+      "parent": "suite [45,244]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [219,244]",
+      "parent": "suite [45,244]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: data [39,43]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [54,70]",
+      "parent": "simple_stmt [219,244]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [226,243]",
+      "parent": "return_stmt [219,243]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: np [226,228]",
+      "parent": "atom_expr [226,243]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [228,232]",
+      "parent": "atom_expr [226,243]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [232,243]",
+      "parent": "atom_expr [226,243]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [61,70]",
+      "parent": "trailer [232,243]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: sum [61,64]",
+      "label": "self"
+    }
+  ]
+}

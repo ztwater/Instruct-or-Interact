@@ -1,0 +1,94 @@
+{
+  "matches": [
+    {
+      "src": "suite [23,126]",
+      "dest": "suite [23,547]"
+    },
+    {
+      "src": "classdef [0,126]",
+      "dest": "classdef [0,547]"
+    },
+    {
+      "src": "name: BookManagementDB [6,22]",
+      "dest": "name: BookManagementDB [6,22]"
+    },
+    {
+      "src": "suite [56,126]",
+      "dest": "suite [62,547]"
+    },
+    {
+      "src": "operator: , [46,47]",
+      "dest": "operator: , [52,53]"
+    },
+    {
+      "src": "name: title [41,46]",
+      "dest": "name: title [47,52]"
+    },
+    {
+      "src": "name: add_book [32,40]",
+      "dest": "name: add_book [32,40]"
+    },
+    {
+      "src": "name: author [48,54]",
+      "dest": "name: author [54,60]"
+    },
+    {
+      "src": "funcdef [28,126]",
+      "dest": "funcdef [28,547]"
+    },
+    {
+      "src": "param [41,47]",
+      "dest": "param [47,53]"
+    },
+    {
+      "src": "parameters [40,55]",
+      "dest": "parameters [40,61]"
+    },
+    {
+      "src": "file_input [0,126]",
+      "dest": "file_input [0,547]"
+    },
+    {
+      "src": "param [48,54]",
+      "dest": "param [54,60]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [41,46]",
+      "parent": "parameters [40,61]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [71,296]",
+      "parent": "suite [62,547]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [361,436]",
+      "parent": "suite [62,547]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [444,472]",
+      "parent": "suite [62,547]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [480,515]",
+      "parent": "suite [62,547]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [523,547]",
+      "parent": "suite [62,547]",
+      "at": 4
+    }
+  ]
+}

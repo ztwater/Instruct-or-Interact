@@ -1,0 +1,193 @@
+{
+  "matches": [
+    {
+      "src": "name: add_user [28,36]",
+      "dest": "name: add_user [28,36]"
+    },
+    {
+      "src": "funcdef [24,252]",
+      "dest": "funcdef [24,492]"
+    },
+    {
+      "src": "suite [19,252]",
+      "dest": "suite [19,492]"
+    },
+    {
+      "src": "if_stmt [58,252]",
+      "dest": "if_stmt [358,492]"
+    },
+    {
+      "src": "comparison [61,83]",
+      "dest": "comparison [361,387]"
+    },
+    {
+      "src": "trailer [77,83]",
+      "dest": "trailer [381,387]"
+    },
+    {
+      "src": "trailer [101,107]",
+      "dest": "trailer [405,411]"
+    },
+    {
+      "src": "comp_op [66,72]",
+      "dest": "comp_op [370,376]"
+    },
+    {
+      "src": "classdef [0,252]",
+      "dest": "classdef [0,492]"
+    },
+    {
+      "src": "operator: , [41,42]",
+      "dest": "operator: , [41,42]"
+    },
+    {
+      "src": "suite [188,252]",
+      "dest": "suite [467,492]"
+    },
+    {
+      "src": "name: SignInSystem [6,18]",
+      "dest": "name: SignInSystem [6,18]"
+    },
+    {
+      "src": "name: user [61,65]",
+      "dest": "name: username [361,369]"
+    },
+    {
+      "src": "name: users [78,83]",
+      "dest": "name: users [382,387]"
+    },
+    {
+      "src": "name: user [115,119]",
+      "dest": "name: username [412,420]"
+    },
+    {
+      "src": "name: users [102,107]",
+      "dest": "name: users [406,411]"
+    },
+    {
+      "src": "name: self [73,77]",
+      "dest": "name: self [377,381]"
+    },
+    {
+      "src": "param [43,47]",
+      "dest": "param [43,51]"
+    },
+    {
+      "src": "name: self [37,41]",
+      "dest": "name: self [37,41]"
+    },
+    {
+      "src": "param [37,42]",
+      "dest": "param [37,42]"
+    },
+    {
+      "src": "name: user [43,47]",
+      "dest": "name: username [43,51]"
+    },
+    {
+      "src": "atom_expr [73,83]",
+      "dest": "atom_expr [377,387]"
+    },
+    {
+      "src": "suite [84,175]",
+      "dest": "suite [388,454]"
+    },
+    {
+      "src": "name: self [97,101]",
+      "dest": "name: self [401,405]"
+    },
+    {
+      "src": "file_input [0,252]",
+      "dest": "file_input [0,492]"
+    },
+    {
+      "src": "suite [49,252]",
+      "dest": "suite [53,492]"
+    },
+    {
+      "src": "simple_stmt [133,175]",
+      "dest": "simple_stmt [442,454]"
+    },
+    {
+      "src": "atom_expr [97,120]",
+      "dest": "atom_expr [401,421]"
+    },
+    {
+      "src": "parameters [36,48]",
+      "dest": "parameters [36,52]"
+    },
+    {
+      "src": "simple_stmt [97,121]",
+      "dest": "simple_stmt [401,430]"
+    },
+    {
+      "src": "trailer [114,120]",
+      "dest": "trailer [411,421]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [62,350]",
+      "parent": "suite [53,492]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: user [43,47]",
+      "label": "username"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: user [61,65]",
+      "label": "username"
+    },
+    {
+      "action": "insert-node",
+      "tree": "return_stmt [480,492]",
+      "parent": "suite [467,492]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [401,429]",
+      "parent": "simple_stmt [401,430]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "return_stmt [442,453]",
+      "parent": "simple_stmt [442,454]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [97,120]",
+      "parent": "expr_stmt [401,429]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [422,423]",
+      "parent": "expr_stmt [401,429]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: user [115,119]",
+      "label": "username"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [107,114]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "atom_expr [133,174]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "atom_expr [201,252]"
+    }
+  ]
+}

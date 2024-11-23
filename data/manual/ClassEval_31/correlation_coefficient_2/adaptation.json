@@ -1,0 +1,9 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Calculate the correlation coefficient of two sets of data.\n        :param data1: The first set of data,list.\n        :param data2: The second set of data,list.\n        :return: The correlation coefficient, float.\n        >>> DataStatistics4.correlation_coefficient([1, 2, 3], [4, 5, 6])\n        0.9999999999999998\n\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    }
+]

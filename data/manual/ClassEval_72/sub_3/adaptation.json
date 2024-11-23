@@ -1,0 +1,44 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "pattern,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Replace the substring matched by a regular expression with the specified string\n        :param pattern: string, Regular expression pattern\n        :param replacement: Text to replace with\n        :param text: string, Text to be replaced\n        :return: string, Text after replacement\n        >>> ru = RegexUtils()\n        >>> ru.sub(r'\\b\\d{3}-\\d{3}-\\d{4}\\b', 'phone num',  \"123-456-7890 abiguygusu 876-286-9876 kjgufwycs 987-762-9767\")\n        'phone num abiguygusu phone num kjgufwycs phone num'\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "regex",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "text",
+        "deleted": "string",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "pattern",
+        "deleted": "regex",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "text",
+        "deleted": "string",
+        "type": "Refactoring"
+    }
+]

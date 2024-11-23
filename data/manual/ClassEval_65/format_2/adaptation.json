@@ -1,0 +1,37 @@
+[
+    {
+        "action": "DEL",
+        "label": "simple_stmt",
+        "inserted": "",
+        "deleted": "return words[number]\n",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "name",
+        "inserted": "",
+        "deleted": "format",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "parameters",
+        "inserted": "",
+        "deleted": "(number)",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "simple_stmt",
+        "inserted": "",
+        "deleted": "words = {\n            0: 'zero',\n            1: 'one',\n            2: 'two',\n            3: 'three',\n            4: 'four',\n            5: 'five',\n            6: 'six',\n            7: 'seven',\n            8: 'eight',\n            9: 'nine',\n            10: 'ten',\n            # Add more mappings as needed\n        }\n",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "comparison",
+        "inserted": "",
+        "deleted": "number in words",
+        "type": "Logic"
+    }
+]

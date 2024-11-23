@@ -1,0 +1,224 @@
+{
+  "matches": [
+    {
+      "src": "trailer [72,77]",
+      "dest": "trailer [78,83]"
+    },
+    {
+      "src": "suite [19,179]",
+      "dest": "suite [19,186]"
+    },
+    {
+      "src": "trailer [128,130]",
+      "dest": "trailer [134,136]"
+    },
+    {
+      "src": "atom_expr [99,107]",
+      "dest": "atom_expr [105,113]"
+    },
+    {
+      "src": "return_stmt [162,179]",
+      "dest": "return_stmt [168,185]"
+    },
+    {
+      "src": "classdef [0,179]",
+      "dest": "classdef [0,186]"
+    },
+    {
+      "src": "suite [46,179]",
+      "dest": "suite [52,186]"
+    },
+    {
+      "src": "trailer [66,72]",
+      "dest": "trailer [72,78]"
+    },
+    {
+      "src": "subscript [149,151]",
+      "dest": "subscript [155,157]"
+    },
+    {
+      "src": "number: 0 [105,106]",
+      "dest": "number: 0 [111,112]"
+    },
+    {
+      "src": "trailer [112,117]",
+      "dest": "trailer [118,123]"
+    },
+    {
+      "src": "name: CamelCaseMap [6,18]",
+      "dest": "name: CamelCaseMap [6,18]"
+    },
+    {
+      "src": "operator: = [61,62]",
+      "dest": "operator: = [67,68]"
+    },
+    {
+      "src": "param [41,44]",
+      "dest": "param [47,50]"
+    },
+    {
+      "src": "atom_expr [118,130]",
+      "dest": "atom_expr [124,136]"
+    },
+    {
+      "src": "trailer [122,128]",
+      "dest": "trailer [128,134]"
+    },
+    {
+      "src": "name: word [135,139]",
+      "dest": "name: word [141,145]"
+    },
+    {
+      "src": "string: '' [110,112]",
+      "dest": "string: '' [116,118]"
+    },
+    {
+      "src": "sync_comp_for [131,152]",
+      "dest": "sync_comp_for [137,158]"
+    },
+    {
+      "src": "name: split [67,72]",
+      "dest": "name: split [73,78]"
+    },
+    {
+      "src": "operator: = [97,98]",
+      "dest": "operator: = [103,104]"
+    },
+    {
+      "src": "funcdef [24,179]",
+      "dest": "funcdef [24,186]"
+    },
+    {
+      "src": "number: 1 [149,150]",
+      "dest": "number: 1 [155,156]"
+    },
+    {
+      "src": "string: '_' [73,76]",
+      "dest": "string: '_' [79,82]"
+    },
+    {
+      "src": "name: word [118,122]",
+      "dest": "name: word [124,128]"
+    },
+    {
+      "src": "expr_stmt [86,153]",
+      "dest": "expr_stmt [92,159]"
+    },
+    {
+      "src": "operator: + [108,109]",
+      "dest": "operator: + [114,115]"
+    },
+    {
+      "src": "trailer [148,152]",
+      "dest": "trailer [154,158]"
+    },
+    {
+      "src": "name: words [99,104]",
+      "dest": "name: words [105,110]"
+    },
+    {
+      "src": "name: key [63,66]",
+      "dest": "name: key [69,72]"
+    },
+    {
+      "src": "name: camel_case [86,96]",
+      "dest": "name: camel_case [92,102]"
+    },
+    {
+      "src": "arith_expr [99,153]",
+      "dest": "arith_expr [105,159]"
+    },
+    {
+      "src": "file_input [0,179]",
+      "dest": "file_input [0,186]"
+    },
+    {
+      "src": "name: title [123,128]",
+      "dest": "name: title [129,134]"
+    },
+    {
+      "src": "name: camel_case [169,179]",
+      "dest": "name: camel_case [175,185]"
+    },
+    {
+      "src": "name: join [113,117]",
+      "dest": "name: join [119,123]"
+    },
+    {
+      "src": "atom_expr [143,152]",
+      "dest": "atom_expr [149,158]"
+    },
+    {
+      "src": "trailer [104,107]",
+      "dest": "trailer [110,113]"
+    },
+    {
+      "src": "argument [118,152]",
+      "dest": "argument [124,158]"
+    },
+    {
+      "src": "trailer [117,153]",
+      "dest": "trailer [123,159]"
+    },
+    {
+      "src": "atom_expr [110,153]",
+      "dest": "atom_expr [116,159]"
+    },
+    {
+      "src": "atom_expr [63,77]",
+      "dest": "atom_expr [69,83]"
+    },
+    {
+      "src": "parameters [40,45]",
+      "dest": "parameters [40,51]"
+    },
+    {
+      "src": "name: words [143,148]",
+      "dest": "name: words [149,154]"
+    },
+    {
+      "src": "simple_stmt [55,78]",
+      "dest": "simple_stmt [61,84]"
+    },
+    {
+      "src": "simple_stmt [86,154]",
+      "dest": "simple_stmt [92,160]"
+    },
+    {
+      "src": "expr_stmt [55,77]",
+      "dest": "expr_stmt [61,83]"
+    },
+    {
+      "src": "name: words [55,60]",
+      "dest": "name: words [61,66]"
+    },
+    {
+      "src": "name: key [41,44]",
+      "dest": "name: key [47,50]"
+    },
+    {
+      "src": "name: _convert_key [28,40]",
+      "dest": "name: _convert_key [28,40]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [41,46]",
+      "parent": "parameters [40,51]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [168,186]",
+      "parent": "suite [52,186]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [162,179]",
+      "parent": "simple_stmt [168,186]",
+      "at": 0
+    }
+  ]
+}

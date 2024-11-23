@@ -1,0 +1,606 @@
+{
+  "matches": [
+    {
+      "src": "trailer [315,320]",
+      "dest": "trailer [1069,1074]"
+    },
+    {
+      "src": "name: argument_string [112,127]",
+      "dest": "name: command_string [734,748]"
+    },
+    {
+      "src": "suite [21,374]",
+      "dest": "suite [21,1506]"
+    },
+    {
+      "src": "param [46,61]",
+      "dest": "param [52,66]"
+    },
+    {
+      "src": "atom_expr [306,320]",
+      "dest": "atom_expr [1055,1074]"
+    },
+    {
+      "src": "classdef [0,374]",
+      "dest": "classdef [0,1506]"
+    },
+    {
+      "src": "suite [63,374]",
+      "dest": "suite [68,1506]"
+    },
+    {
+      "src": "name: _convert_type [323,336]",
+      "dest": "name: _convert_type [1305,1318]"
+    },
+    {
+      "src": "return_stmt [357,373]",
+      "dest": "return_stmt [1435,1461]"
+    },
+    {
+      "src": "number: 1 [286,287]",
+      "dest": "number: 1 [1259,1260]"
+    },
+    {
+      "src": "name: argument_string [46,61]",
+      "dest": "name: command_string [52,66]"
+    },
+    {
+      "src": "operator: = [241,242]",
+      "dest": "operator: = [1075,1076]"
+    },
+    {
+      "src": "expr_stmt [237,255]",
+      "dest": "expr_stmt [1055,1107]"
+    },
+    {
+      "src": "atom_expr [323,343]",
+      "dest": "atom_expr [1300,1330]"
+    },
+    {
+      "src": "string: '=' [220,223]",
+      "dest": "string: \"=\" [949,952]"
+    },
+    {
+      "src": "name: argument [205,213]",
+      "dest": "name: arg [939,942]"
+    },
+    {
+      "src": "name: arguments_list [165,179]",
+      "dest": "name: arguments_list [782,796]"
+    },
+    {
+      "src": "parameters [45,62]",
+      "dest": "parameters [45,67]"
+    },
+    {
+      "src": "atom_expr [243,255]",
+      "dest": "atom_expr [1077,1107]"
+    },
+    {
+      "src": "atom_expr [276,288]",
+      "dest": "atom_expr [1211,1261]"
+    },
+    {
+      "src": "trailer [127,133]",
+      "dest": "trailer [748,754]"
+    },
+    {
+      "src": "expr_stmt [193,224]",
+      "dest": "expr_stmt [926,953]"
+    },
+    {
+      "src": "simple_stmt [357,374]",
+      "dest": "simple_stmt [1435,1462]"
+    },
+    {
+      "src": "atom_expr [112,135]",
+      "dest": "atom_expr [734,756]"
+    },
+    {
+      "src": "atom_expr [205,224]",
+      "dest": "atom_expr [939,953]"
+    },
+    {
+      "src": "trailer [219,224]",
+      "dest": "trailer [948,953]"
+    },
+    {
+      "src": "name: arguments [306,315]",
+      "dest": "name: arguments [1060,1069]"
+    },
+    {
+      "src": "suite [180,344]",
+      "dest": "suite [797,1331]"
+    },
+    {
+      "src": "simple_stmt [237,256]",
+      "dest": "simple_stmt [1055,1108]"
+    },
+    {
+      "src": "operator: = [321,322]",
+      "dest": "operator: = [1298,1299]"
+    },
+    {
+      "src": "name: split [214,219]",
+      "dest": "name: split [943,948]"
+    },
+    {
+      "src": "funcdef [26,374]",
+      "dest": "funcdef [26,1506]"
+    },
+    {
+      "src": "operator: = [203,204]",
+      "dest": "operator: = [937,938]"
+    },
+    {
+      "src": "name: split [128,133]",
+      "dest": "name: split [749,754]"
+    },
+    {
+      "src": "trailer [213,219]",
+      "dest": "trailer [942,948]"
+    },
+    {
+      "src": "name: value [268,273]",
+      "dest": "name: value [1203,1208]"
+    },
+    {
+      "src": "simple_stmt [193,225]",
+      "dest": "simple_stmt [926,954]"
+    },
+    {
+      "src": "name: key_value [243,252]",
+      "dest": "name: _convert_type [1082,1095]"
+    },
+    {
+      "src": "expr_stmt [306,343]",
+      "dest": "expr_stmt [1278,1330]"
+    },
+    {
+      "src": "name: key_value [193,202]",
+      "dest": "name: value [931,936]"
+    },
+    {
+      "src": "trailer [252,255]",
+      "dest": "trailer [1095,1107]"
+    },
+    {
+      "src": "simple_stmt [95,136]",
+      "dest": "simple_stmt [717,757]"
+    },
+    {
+      "src": "simple_stmt [306,344]",
+      "dest": "simple_stmt [1278,1331]"
+    },
+    {
+      "src": "trailer [133,135]",
+      "dest": "trailer [754,756]"
+    },
+    {
+      "src": "file_input [0,378]",
+      "dest": "file_input [0,1506]"
+    },
+    {
+      "src": "operator: = [274,275]",
+      "dest": "operator: = [1209,1210]"
+    },
+    {
+      "src": "for_stmt [149,344]",
+      "dest": "for_stmt [766,1331]"
+    },
+    {
+      "src": "name: parse_arguments [30,45]",
+      "dest": "name: parse_arguments [30,45]"
+    },
+    {
+      "src": "name: value [337,342]",
+      "dest": "name: value [1324,1329]"
+    },
+    {
+      "src": "name: argument [153,161]",
+      "dest": "name: argument [770,778]"
+    },
+    {
+      "src": "trailer [285,288]",
+      "dest": "trailer [1225,1261]"
+    },
+    {
+      "src": "name: key [316,319]",
+      "dest": "name: key [1070,1073]"
+    },
+    {
+      "src": "expr_stmt [95,135]",
+      "dest": "expr_stmt [717,756]"
+    },
+    {
+      "src": "expr_stmt [268,288]",
+      "dest": "expr_stmt [1203,1261]"
+    },
+    {
+      "src": "trailer [336,343]",
+      "dest": "trailer [1318,1330]"
+    },
+    {
+      "src": "name: arguments [364,373]",
+      "dest": "name: missing_args [1449,1461]"
+    },
+    {
+      "src": "simple_stmt [72,87]",
+      "dest": "simple_stmt [77,709]"
+    },
+    {
+      "src": "name: ArgumentParser [6,20]",
+      "dest": "name: ArgumentParser [6,20]"
+    },
+    {
+      "src": "name: arguments_list [95,109]",
+      "dest": "name: arguments_list [717,731]"
+    },
+    {
+      "src": "simple_stmt [268,289]",
+      "dest": "simple_stmt [1203,1262]"
+    },
+    {
+      "src": "operator: = [110,111]",
+      "dest": "operator: = [732,733]"
+    },
+    {
+      "src": "name: key_value [276,285]",
+      "dest": "name: arguments_list [1211,1225]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [46,51]",
+      "parent": "parameters [45,67]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [1340,1398]",
+      "parent": "suite [68,1506]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [1406,1506]",
+      "parent": "suite [68,1506]",
+      "at": 4
+    },
+    {
+      "action": "update-node",
+      "tree": "name: argument_string [46,61]",
+      "label": "command_string"
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: \"\"\"         Parses the given command line argument string and invoke _convert_type to stores the parsed result in specific type in the arguments dictionary.         Checks for missing required arguments, if any, and returns False with the missing argument names, otherwise returns True.         :param command_string: str, command line argument string, formatted like \"python script.py --arg1=value1 -arg2 value2 --option1 -option2\"         :return tuple: (True, None) if parsing is successful, (False, missing_args) if parsing fails,             where missing_args is a set of the missing argument names which are str.         \"\"\" [77,708]",
+      "parent": "simple_stmt [77,709]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: missing_args [1409,1421]",
+      "parent": "if_stmt [1406,1506]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [1422,1462]",
+      "parent": "if_stmt [1406,1506]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [1475,1506]",
+      "parent": "if_stmt [1406,1506]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [810,1331]",
+      "parent": "suite [797,1331]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [357,374]",
+      "parent": "suite [1422,1462]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: argument_string [112,127]",
+      "label": "command_string"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [813,838]",
+      "parent": "if_stmt [810,1331]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [839,1108]",
+      "parent": "if_stmt [810,1331]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [1126,1150]",
+      "parent": "if_stmt [810,1331]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [1151,1331]",
+      "parent": "if_stmt [810,1331]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [856,875]",
+      "parent": "suite [839,1108]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [891,1039]",
+      "parent": "suite [839,1108]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [237,256]",
+      "parent": "suite [839,1108]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [1168,1187]",
+      "parent": "suite [1151,1331]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [268,289]",
+      "parent": "suite [1151,1331]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [306,344]",
+      "parent": "suite [1151,1331]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "testlist_star_expr [1442,1461]",
+      "parent": "return_stmt [1435,1461]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [894,904]",
+      "parent": "if_stmt [891,1039]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [905,954]",
+      "parent": "if_stmt [891,1039]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [975,1039]",
+      "parent": "if_stmt [891,1039]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [1447,1448]",
+      "parent": "testlist_star_expr [1442,1461]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: arguments [364,373]",
+      "label": "missing_args"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: arguments [364,373]",
+      "parent": "testlist_star_expr [1442,1461]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [193,225]",
+      "parent": "suite [905,954]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [306,320]",
+      "parent": "expr_stmt [1055,1107]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [1278,1297]",
+      "parent": "expr_stmt [1278,1330]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [1055,1059]",
+      "parent": "atom_expr [1055,1074]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [1059,1069]",
+      "parent": "atom_expr [1055,1074]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [1077,1081]",
+      "parent": "atom_expr [1077,1107]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [1081,1095]",
+      "parent": "atom_expr [1077,1107]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: key_value [276,285]",
+      "label": "arguments_list"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [1300,1304]",
+      "parent": "atom_expr [1300,1330]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [1304,1318]",
+      "parent": "atom_expr [1300,1330]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "testlist_star_expr [926,936]",
+      "parent": "expr_stmt [926,953]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: arguments [306,315]",
+      "parent": "trailer [1059,1069]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: key_value [243,252]",
+      "label": "_convert_type"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: key_value [243,252]",
+      "parent": "trailer [1081,1095]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "arglist [1096,1106]",
+      "parent": "trailer [1095,1107]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "arith_expr [1226,1260]",
+      "parent": "trailer [1225,1261]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: _convert_type [323,336]",
+      "parent": "trailer [1304,1318]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "arglist [1319,1329]",
+      "parent": "trailer [1318,1330]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: key [926,929]",
+      "parent": "testlist_star_expr [926,936]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [929,930]",
+      "parent": "testlist_star_expr [926,936]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: key_value [193,202]",
+      "label": "value"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: key_value [193,202]",
+      "parent": "testlist_star_expr [926,936]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: argument [205,213]",
+      "label": "arg"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [1226,1256]",
+      "parent": "arith_expr [1226,1260]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: + [1257,1258]",
+      "parent": "arith_expr [1226,1260]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "number: 1 [286,287]",
+      "parent": "arith_expr [1226,1260]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: arg [1319,1322]",
+      "parent": "arglist [1319,1329]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [1322,1323]",
+      "parent": "arglist [1319,1329]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: value [337,342]",
+      "parent": "arglist [1319,1329]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "string: '=' [220,223]",
+      "label": "\"=\""
+    },
+    {
+      "action": "delete-tree",
+      "tree": "expr_stmt [72,86]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: key [237,240]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 0 [253,254]"
+    }
+  ]
+}

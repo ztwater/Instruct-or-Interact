@@ -1,0 +1,152 @@
+{
+  "matches": [
+    {
+      "src": "return_stmt [58,134]",
+      "dest": "return_stmt [64,140]"
+    },
+    {
+      "src": "suite [15,134]",
+      "dest": "suite [15,140]"
+    },
+    {
+      "src": "atom_expr [121,133]",
+      "dest": "atom_expr [127,139]"
+    },
+    {
+      "src": "trailer [74,134]",
+      "dest": "trailer [80,140]"
+    },
+    {
+      "src": "classdef [0,134]",
+      "dest": "classdef [0,140]"
+    },
+    {
+      "src": "suite [49,134]",
+      "dest": "suite [55,140]"
+    },
+    {
+      "src": "name: splitlines [105,115]",
+      "dest": "name: splitlines [111,121]"
+    },
+    {
+      "src": "atom_expr [65,134]",
+      "dest": "atom_expr [71,140]"
+    },
+    {
+      "src": "trailer [79,85]",
+      "dest": "trailer [85,91]"
+    },
+    {
+      "src": "parameters [42,48]",
+      "dest": "parameters [42,54]"
+    },
+    {
+      "src": "argument [75,133]",
+      "dest": "argument [81,139]"
+    },
+    {
+      "src": "param [43,47]",
+      "dest": "param [49,53]"
+    },
+    {
+      "src": "name: __format_line_feed [24,42]",
+      "dest": "name: __format_line_feed [24,42]"
+    },
+    {
+      "src": "name: line [75,79]",
+      "dest": "name: line [81,85]"
+    },
+    {
+      "src": "sync_comp_for [88,133]",
+      "dest": "sync_comp_for [94,139]"
+    },
+    {
+      "src": "name: HtmlUtil [6,14]",
+      "dest": "name: HtmlUtil [6,14]"
+    },
+    {
+      "src": "string: '\\n' [65,69]",
+      "dest": "string: '\\n' [71,75]"
+    },
+    {
+      "src": "trailer [104,115]",
+      "dest": "trailer [110,121]"
+    },
+    {
+      "src": "name: join [70,74]",
+      "dest": "name: join [76,80]"
+    },
+    {
+      "src": "file_input [0,134]",
+      "dest": "file_input [0,140]"
+    },
+    {
+      "src": "trailer [115,117]",
+      "dest": "trailer [121,123]"
+    },
+    {
+      "src": "trailer [125,131]",
+      "dest": "trailer [131,137]"
+    },
+    {
+      "src": "comp_if [118,133]",
+      "dest": "comp_if [124,139]"
+    },
+    {
+      "src": "name: line [92,96]",
+      "dest": "name: line [98,102]"
+    },
+    {
+      "src": "name: strip [126,131]",
+      "dest": "name: strip [132,137]"
+    },
+    {
+      "src": "atom_expr [75,87]",
+      "dest": "atom_expr [81,93]"
+    },
+    {
+      "src": "trailer [85,87]",
+      "dest": "trailer [91,93]"
+    },
+    {
+      "src": "name: text [100,104]",
+      "dest": "name: text [106,110]"
+    },
+    {
+      "src": "atom_expr [100,117]",
+      "dest": "atom_expr [106,123]"
+    },
+    {
+      "src": "name: strip [80,85]",
+      "dest": "name: strip [86,91]"
+    },
+    {
+      "src": "name: line [121,125]",
+      "dest": "name: line [127,131]"
+    },
+    {
+      "src": "trailer [131,133]",
+      "dest": "trailer [137,139]"
+    },
+    {
+      "src": "name: text [43,47]",
+      "dest": "name: text [49,53]"
+    },
+    {
+      "src": "trailer [69,74]",
+      "dest": "trailer [75,80]"
+    },
+    {
+      "src": "funcdef [20,134]",
+      "dest": "funcdef [20,140]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [43,48]",
+      "parent": "parameters [42,54]",
+      "at": 0
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+[
+    {
+        "action": "INS",
+        "label": "parameters",
+        "inserted": "(self)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Calculate the size of each block and the remainder of the division.\n        :return: the size of each block and the remainder of the division, tuple.\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "len(self.lst)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "self.limit",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "param",
+        "inserted": "",
+        "deleted": "num,",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "DEL",
+        "label": "param",
+        "inserted": "",
+        "deleted": "divisor",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "num",
+        "deleted": "num",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": ",",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "divisor",
+        "deleted": "divisor",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": ",",
+        "type": "Logic"
+    }
+]

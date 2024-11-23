@@ -1,0 +1,259 @@
+{
+  "matches": [
+    {
+      "src": "suite [196,243]",
+      "dest": "suite [335,387]"
+    },
+    {
+      "src": "suite [23,271]",
+      "dest": "suite [23,415]"
+    },
+    {
+      "src": "trailer [233,242]",
+      "dest": "trailer [372,386]"
+    },
+    {
+      "src": "simple_stmt [85,104]",
+      "dest": "simple_stmt [201,220]"
+    },
+    {
+      "src": "name: append [227,233]",
+      "dest": "name: append [366,372]"
+    },
+    {
+      "src": "atom [101,103]",
+      "dest": "atom [217,219]"
+    },
+    {
+      "src": "sync_comp_for [167,194]",
+      "dest": "sync_comp_for [297,333]"
+    },
+    {
+      "src": "classdef [0,271]",
+      "dest": "classdef [0,415]"
+    },
+    {
+      "src": "suite [76,271]",
+      "dest": "suite [72,415]"
+    },
+    {
+      "src": "argument [156,194]",
+      "dest": "argument [286,333]"
+    },
+    {
+      "src": "atom_expr [180,194]",
+      "dest": "atom_expr [310,333]"
+    },
+    {
+      "src": "name: student [234,241]",
+      "dest": "name: student [373,380]"
+    },
+    {
+      "src": "name: fail_students [85,98]",
+      "dest": "name: fail_students [201,214]"
+    },
+    {
+      "src": "trailer [187,194]",
+      "dest": "trailer [317,324]"
+    },
+    {
+      "src": "name: score [156,161]",
+      "dest": "name: score [286,291]"
+    },
+    {
+      "src": "name: AssessmentSystem [6,22]",
+      "dest": "name: AssessmentSystem [6,22]"
+    },
+    {
+      "src": "name: student [180,187]",
+      "dest": "name: student [310,317]"
+    },
+    {
+      "src": "file_input [0,271]",
+      "dest": "file_input [0,415]"
+    },
+    {
+      "src": "name: students [127,135]",
+      "dest": "name: students [248,256]"
+    },
+    {
+      "src": "suite [136,243]",
+      "dest": "suite [266,387]"
+    },
+    {
+      "src": "comparison [156,166]",
+      "dest": "comparison [286,296]"
+    },
+    {
+      "src": "number: 60 [164,166]",
+      "dest": "number: 60 [294,296]"
+    },
+    {
+      "src": "name: score [171,176]",
+      "dest": "name: score [301,306]"
+    },
+    {
+      "src": "name: fail_students [213,226]",
+      "dest": "name: fail_students [352,365]"
+    },
+    {
+      "src": "name: any [152,155]",
+      "dest": "name: any [282,285]"
+    },
+    {
+      "src": "name: scores [188,194]",
+      "dest": "name: scores [318,324]"
+    },
+    {
+      "src": "name: students [66,74]",
+      "dest": "name: self [66,70]"
+    },
+    {
+      "src": "return_stmt [251,271]",
+      "dest": "return_stmt [395,415]"
+    },
+    {
+      "src": "param [66,74]",
+      "dest": "param [66,70]"
+    },
+    {
+      "src": "expr_stmt [85,103]",
+      "dest": "expr_stmt [201,219]"
+    },
+    {
+      "src": "trailer [226,233]",
+      "dest": "trailer [365,372]"
+    },
+    {
+      "src": "parameters [65,75]",
+      "dest": "parameters [65,71]"
+    },
+    {
+      "src": "if_stmt [149,243]",
+      "dest": "if_stmt [279,387]"
+    },
+    {
+      "src": "atom_expr [152,195]",
+      "dest": "atom_expr [282,334]"
+    },
+    {
+      "src": "name: fail_students [258,271]",
+      "dest": "name: fail_students [402,415]"
+    },
+    {
+      "src": "operator: < [162,163]",
+      "dest": "operator: < [292,293]"
+    },
+    {
+      "src": "simple_stmt [213,243]",
+      "dest": "simple_stmt [352,387]"
+    },
+    {
+      "src": "for_stmt [112,243]",
+      "dest": "for_stmt [228,387]"
+    },
+    {
+      "src": "name: get_all_students_with_fail_course [32,65]",
+      "dest": "name: get_all_students_with_fail_course [32,65]"
+    },
+    {
+      "src": "atom_expr [213,242]",
+      "dest": "atom_expr [352,386]"
+    },
+    {
+      "src": "funcdef [28,271]",
+      "dest": "funcdef [28,415]"
+    },
+    {
+      "src": "name: student [116,123]",
+      "dest": "name: student [232,239]"
+    },
+    {
+      "src": "trailer [155,195]",
+      "dest": "trailer [285,334]"
+    },
+    {
+      "src": "operator: = [99,100]",
+      "dest": "operator: = [215,216]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [81,193]",
+      "parent": "suite [72,415]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: students [66,74]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [243,265]",
+      "parent": "for_stmt [228,387]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [243,247]",
+      "parent": "atom_expr [243,265]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [247,256]",
+      "parent": "atom_expr [243,265]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [256,263]",
+      "parent": "atom_expr [243,265]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [263,265]",
+      "parent": "atom_expr [243,265]",
+      "at": 3
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: students [127,135]",
+      "parent": "trailer [247,256]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [373,385]",
+      "parent": "trailer [372,386]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [324,331]",
+      "parent": "atom_expr [310,333]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [331,333]",
+      "parent": "atom_expr [310,333]",
+      "at": 3
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: student [234,241]",
+      "parent": "atom_expr [373,385]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [380,385]",
+      "parent": "atom_expr [373,385]",
+      "at": 1
+    }
+  ]
+}

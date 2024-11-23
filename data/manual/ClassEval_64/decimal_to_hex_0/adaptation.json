@@ -1,0 +1,51 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return hex_num\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "[2:]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return hex_value",
+        "deleted": "return hex_value",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "decimal_num",
+        "deleted": "decimal",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "hex_num",
+        "deleted": "hex_value",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "hex_num",
+        "deleted": "hex_value",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "decimal_num",
+        "deleted": "decimal",
+        "type": "Refactoring"
+    }
+]

@@ -1,0 +1,219 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Determine whether the user can log in, that is, the user is in the database and the password is correct\n        :param username:str, the username of the user to validate.\n        :param password:str, the password of the user to validate.\n        :return:bool, representing whether the user can log in correctly\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "expr_stmt",
+        "inserted": "query = \"SELECT password FROM users WHERE username = ?\"",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".cursor",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".execute",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "result",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "self.cursor.fetchone()",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "query",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "number",
+        "inserted": "0",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "username",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "operator",
+        "inserted": "",
+        "deleted": "{",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "string",
+        "inserted": "",
+        "deleted": "\"user1\"",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "string",
+        "inserted": "",
+        "deleted": "\"user2\"",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "string",
+        "inserted": "",
+        "deleted": "\"password2\"",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "string",
+        "inserted": "",
+        "deleted": "\"user3\"",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "string",
+        "inserted": "",
+        "deleted": "\"password3\"",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "name",
+        "inserted": "",
+        "deleted": "database",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "name",
+        "inserted": "",
+        "deleted": "username",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "database",
+        "deleted": "database",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "=",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "string",
+        "inserted": "\"password1\"",
+        "deleted": "\"password1\"",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": "}",
+        "deleted": "}",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "username",
+        "deleted": "username",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": ",",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": ",",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "query",
+        "deleted": "database",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "string:",
+        "inserted": "\"SELECT password FROM users WHERE username = ?\"",
+        "deleted": "\"password1\"",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "}",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "result",
+        "deleted": "username",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "result",
+        "deleted": "database",
+        "type": "Refactoring"
+    }
+]

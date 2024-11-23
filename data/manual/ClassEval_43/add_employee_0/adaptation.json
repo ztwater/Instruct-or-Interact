@@ -1,0 +1,156 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "employee_id,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "department,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "salary",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Add a new employee to the HRManagementSystem.\n        :param employee_id: The employee's id, int.\n        :param name: The employee's name, str.\n        :param position: The employee's position, str.\n        :param department: The employee's department, str.\n        :param salary: The employee's salary, int.\n        :return: If the employee is already in the HRManagementSystem, returns False, otherwise, returns True.\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "comparison",
+        "inserted": "employee_id in self.employees",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "employee",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "string",
+        "inserted": "'department'",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "department",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "param",
+        "inserted": "",
+        "deleted": "age,",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "DEL",
+        "label": "string:",
+        "inserted": "",
+        "deleted": "\"Employee added successfully!\"",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "employees.append(employee)",
+        "deleted": "employees.append(employee)",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "employees",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "string",
+        "inserted": "'position'",
+        "deleted": "'age'",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "position",
+        "deleted": "age",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "string",
+        "inserted": "'salary'",
+        "deleted": "'position'",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "salary",
+        "deleted": "position",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "employees",
+        "deleted": "append",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "employee_id",
+        "deleted": "employee",
+        "type": "Refactoring"
+    }
+]

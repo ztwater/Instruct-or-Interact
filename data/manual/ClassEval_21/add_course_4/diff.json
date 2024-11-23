@@ -1,0 +1,132 @@
+{
+  "matches": [
+    {
+      "src": "suite [16,129]",
+      "dest": "suite [16,323]"
+    },
+    {
+      "src": "operator: , [40,41]",
+      "dest": "operator: , [40,41]"
+    },
+    {
+      "src": "name: self [76,80]",
+      "dest": "name: self [270,274]"
+    },
+    {
+      "src": "classdef [0,129]",
+      "dest": "classdef [0,323]"
+    },
+    {
+      "src": "parameters [35,49]",
+      "dest": "parameters [35,49]"
+    },
+    {
+      "src": "suite [50,129]",
+      "dest": "suite [50,323]"
+    },
+    {
+      "src": "comparison [62,88]",
+      "dest": "comparison [256,282]"
+    },
+    {
+      "src": "atom_expr [102,129]",
+      "dest": "atom_expr [296,323]"
+    },
+    {
+      "src": "trailer [80,88]",
+      "dest": "trailer [274,282]"
+    },
+    {
+      "src": "suite [89,129]",
+      "dest": "suite [283,323]"
+    },
+    {
+      "src": "name: courses [107,114]",
+      "dest": "name: courses [301,308]"
+    },
+    {
+      "src": "name: course [62,68]",
+      "dest": "name: course [256,262]"
+    },
+    {
+      "src": "name: course [122,128]",
+      "dest": "name: course [316,322]"
+    },
+    {
+      "src": "atom_expr [76,88]",
+      "dest": "atom_expr [270,282]"
+    },
+    {
+      "src": "file_input [0,129]",
+      "dest": "file_input [0,323]"
+    },
+    {
+      "src": "param [36,41]",
+      "dest": "param [36,41]"
+    },
+    {
+      "src": "name: course [42,48]",
+      "dest": "name: course [42,48]"
+    },
+    {
+      "src": "name: self [36,40]",
+      "dest": "name: self [36,40]"
+    },
+    {
+      "src": "trailer [114,121]",
+      "dest": "trailer [308,315]"
+    },
+    {
+      "src": "name: courses [81,88]",
+      "dest": "name: courses [275,282]"
+    },
+    {
+      "src": "trailer [106,114]",
+      "dest": "trailer [300,308]"
+    },
+    {
+      "src": "trailer [121,129]",
+      "dest": "trailer [315,323]"
+    },
+    {
+      "src": "name: append [115,121]",
+      "dest": "name: append [309,315]"
+    },
+    {
+      "src": "name: self [102,106]",
+      "dest": "name: self [296,300]"
+    },
+    {
+      "src": "param [42,48]",
+      "dest": "param [42,48]"
+    },
+    {
+      "src": "name: add_course [25,35]",
+      "dest": "name: add_course [25,35]"
+    },
+    {
+      "src": "if_stmt [59,129]",
+      "dest": "if_stmt [253,323]"
+    },
+    {
+      "src": "comp_op [69,75]",
+      "dest": "comp_op [263,269]"
+    },
+    {
+      "src": "funcdef [21,129]",
+      "dest": "funcdef [21,323]"
+    },
+    {
+      "src": "name: Classroom [6,15]",
+      "dest": "name: Classroom [6,15]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [59,245]",
+      "parent": "suite [50,323]",
+      "at": 0
+    }
+  ]
+}

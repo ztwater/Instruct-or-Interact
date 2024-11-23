@@ -1,0 +1,392 @@
+{
+  "matches": [
+    {
+      "src": "simple_stmt [280,304]",
+      "dest": "simple_stmt [873,894]"
+    },
+    {
+      "src": "suite [20,440]",
+      "dest": "suite [20,1045]"
+    },
+    {
+      "src": "comparison [245,266]",
+      "dest": "comparison [837,855]"
+    },
+    {
+      "src": "classdef [0,440]",
+      "dest": "classdef [0,1045]"
+    },
+    {
+      "src": "expr_stmt [153,175]",
+      "dest": "expr_stmt [789,821]"
+    },
+    {
+      "src": "suite [68,440]",
+      "dest": "suite [71,1045]"
+    },
+    {
+      "src": "trailer [169,175]",
+      "dest": "trailer [810,821]"
+    },
+    {
+      "src": "atom_expr [284,303]",
+      "dest": "atom_expr [877,893]"
+    },
+    {
+      "src": "name: json [419,423]",
+      "dest": "name: self [910,914]"
+    },
+    {
+      "src": "trailer [428,440]",
+      "dest": "trailer [925,942]"
+    },
+    {
+      "src": "arglist [429,439]",
+      "dest": "arglist [926,941]"
+    },
+    {
+      "src": "name: file [170,174]",
+      "dest": "name: file_path [811,820]"
+    },
+    {
+      "src": "operator: , [51,52]",
+      "dest": "operator: , [57,58]"
+    },
+    {
+      "src": "name: load [165,169]",
+      "dest": "name: read_json [801,810]"
+    },
+    {
+      "src": "simple_stmt [153,176]",
+      "dest": "simple_stmt [789,822]"
+    },
+    {
+      "src": "name: open [111,115]",
+      "dest": "name: os [750,752]"
+    },
+    {
+      "src": "atom_expr [419,440]",
+      "dest": "atom_expr [910,942]"
+    },
+    {
+      "src": "name: file_path [116,125]",
+      "dest": "name: file_path [765,774]"
+    },
+    {
+      "src": "name: key_to_remove [289,302]",
+      "dest": "name: remove_key [882,892]"
+    },
+    {
+      "src": "file_input [0,440]",
+      "dest": "file_input [0,1045]"
+    },
+    {
+      "src": "trailer [288,303]",
+      "dest": "trailer [881,893]"
+    },
+    {
+      "src": "name: file [435,439]",
+      "dest": "name: file_path [932,941]"
+    },
+    {
+      "src": "name: process_json [29,41]",
+      "dest": "name: process_json [29,41]"
+    },
+    {
+      "src": "name: data [153,157]",
+      "dest": "name: data [789,793]"
+    },
+    {
+      "src": "trailer [115,131]",
+      "dest": "trailer [764,775]"
+    },
+    {
+      "src": "operator: , [433,434]",
+      "dest": "operator: , [930,931]"
+    },
+    {
+      "src": "name: dump [424,428]",
+      "dest": "name: write_json [915,925]"
+    },
+    {
+      "src": "name: key_to_remove [53,66]",
+      "dest": "name: remove_key [59,69]"
+    },
+    {
+      "src": "atom_expr [160,175]",
+      "dest": "atom_expr [796,821]"
+    },
+    {
+      "src": "name: data [262,266]",
+      "dest": "name: data [851,855]"
+    },
+    {
+      "src": "name: data [429,433]",
+      "dest": "name: data [926,930]"
+    },
+    {
+      "src": "param [53,66]",
+      "dest": "param [59,69]"
+    },
+    {
+      "src": "name: data [284,288]",
+      "dest": "name: data [877,881]"
+    },
+    {
+      "src": "trailer [423,428]",
+      "dest": "trailer [914,925]"
+    },
+    {
+      "src": "name: file_path [42,51]",
+      "dest": "name: file_path [48,57]"
+    },
+    {
+      "src": "param [42,52]",
+      "dest": "param [48,58]"
+    },
+    {
+      "src": "parameters [41,67]",
+      "dest": "parameters [41,70]"
+    },
+    {
+      "src": "operator: = [158,159]",
+      "dest": "operator: = [794,795]"
+    },
+    {
+      "src": "atom_expr [111,131]",
+      "dest": "atom_expr [750,775]"
+    },
+    {
+      "src": "funcdef [25,440]",
+      "dest": "funcdef [25,1045]"
+    },
+    {
+      "src": "name: JSONProcessor [6,19]",
+      "dest": "name: JSONProcessor [6,19]"
+    },
+    {
+      "src": "name: key_to_remove [245,258]",
+      "dest": "name: remove_key [837,847]"
+    },
+    {
+      "src": "del_stmt [280,303]",
+      "dest": "del_stmt [873,893]"
+    },
+    {
+      "src": "name: json [160,164]",
+      "dest": "name: self [796,800]"
+    },
+    {
+      "src": "trailer [164,169]",
+      "dest": "trailer [800,810]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [42,47]",
+      "parent": "parameters [41,70]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [80,739]",
+      "parent": "suite [71,1045]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [747,1045]",
+      "parent": "suite [71,1045]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: key_to_remove [53,66]",
+      "label": "remove_key"
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [111,131]",
+      "parent": "if_stmt [747,1045]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [776,1011]",
+      "parent": "if_stmt [747,1045]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [1024,1045]",
+      "parent": "if_stmt [747,1045]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: open [111,115]",
+      "label": "os"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [752,757]",
+      "parent": "atom_expr [750,775]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [757,764]",
+      "parent": "atom_expr [750,775]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [153,176]",
+      "parent": "suite [776,1011]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [834,1011]",
+      "parent": "suite [776,1011]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: file_path [116,125]",
+      "parent": "trailer [764,775]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "comparison [245,266]",
+      "parent": "if_stmt [834,1011]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [856,968]",
+      "parent": "if_stmt [834,1011]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [985,1011]",
+      "parent": "if_stmt [834,1011]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: key_to_remove [245,258]",
+      "label": "remove_key"
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [280,304]",
+      "parent": "suite [856,968]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [910,943]",
+      "parent": "suite [856,968]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [959,968]",
+      "parent": "suite [856,968]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: json [160,164]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [419,440]",
+      "parent": "simple_stmt [910,943]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: load [165,169]",
+      "label": "read_json"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: file [170,174]",
+      "label": "file_path"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: json [419,423]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: dump [424,428]",
+      "label": "write_json"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: key_to_remove [289,302]",
+      "label": "remove_key"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: file [435,439]",
+      "label": "file_path"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [125,126]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: 'r' [127,130]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "arglist [116,130]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: file [135,139]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "with_item [111,139]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [140,176]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "with_stmt [106,176]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [267,304]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "if_stmt [242,304]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "with_item [377,405]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [406,440]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "with_stmt [372,440]"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Filter the incoming request based on certain rules and conditions.\n        :param request: dict, the incoming request details\n        :return: bool, True if the request is allowed, False otherwise\n        >>> filter = AccessGatewayFilter()\n        >>> filter.filter({'path': '/login', 'method': 'POST'})\n        True\n\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    }
+]

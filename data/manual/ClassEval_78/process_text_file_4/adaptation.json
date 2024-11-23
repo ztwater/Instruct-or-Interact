@@ -1,0 +1,37 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "sentences_string",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Given a text, return the number of words in the longest sentence\n        :param sentences_string: string, undivided long sentence\n        :return:int, the number of words in the longest sentence\n        >>> ss.process_text_file(\"aaa aaaa. bb bbbb bbb? cccc ccccccc cc ccc. dd ddd?\")\n        4\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "text",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "sentences_string",
+        "deleted": "text",
+        "type": "Refactoring"
+    }
+]

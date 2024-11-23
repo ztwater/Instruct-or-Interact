@@ -1,0 +1,16 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Removes a book from the database based on the given book ID.\n        :param book_id: int\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    }
+]

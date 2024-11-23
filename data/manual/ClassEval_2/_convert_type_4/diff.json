@@ -1,0 +1,244 @@
+{
+  "matches": [
+    {
+      "src": "name: value [50,55]",
+      "dest": "name: value [55,60]"
+    },
+    {
+      "src": "parameters [43,56]",
+      "dest": "parameters [43,61]"
+    },
+    {
+      "src": "suite [21,258]",
+      "dest": "suite [21,606]"
+    },
+    {
+      "src": "param [44,49]",
+      "dest": "param [44,49]"
+    },
+    {
+      "src": "name: self [44,48]",
+      "dest": "name: self [44,48]"
+    },
+    {
+      "src": "classdef [0,258]",
+      "dest": "classdef [0,606]"
+    },
+    {
+      "src": "name: value [140,145]",
+      "dest": "name: value [476,481]"
+    },
+    {
+      "src": "operator: = [136,137]",
+      "dest": "operator: = [465,466]"
+    },
+    {
+      "src": "suite [57,258]",
+      "dest": "suite [62,606]"
+    },
+    {
+      "src": "simple_stmt [120,147]",
+      "dest": "simple_stmt [449,483]"
+    },
+    {
+      "src": "atom_expr [75,85]",
+      "dest": "atom_expr [361,379]"
+    },
+    {
+      "src": "name: t [70,71]",
+      "dest": "name: key [344,347]"
+    },
+    {
+      "src": "return_stmt [246,258]",
+      "dest": "return_stmt [594,606]"
+    },
+    {
+      "src": "expr_stmt [120,146]",
+      "dest": "expr_stmt [449,482]"
+    },
+    {
+      "src": "atom_expr [138,146]",
+      "dest": "atom_expr [467,482]"
+    },
+    {
+      "src": "name: ArgumentParser [6,20]",
+      "dest": "name: ArgumentParser [6,20]"
+    },
+    {
+      "src": "name: ValueError [205,215]",
+      "dest": "name: ValueError [549,559]"
+    },
+    {
+      "src": "name: converted_value [120,135]",
+      "dest": "name: converted_value [449,464]"
+    },
+    {
+      "src": "file_input [0,258]",
+      "dest": "file_input [0,606]"
+    },
+    {
+      "src": "except_clause [198,215]",
+      "dest": "except_clause [542,559]"
+    },
+    {
+      "src": "name: value [253,258]",
+      "dest": "name: value [601,606]"
+    },
+    {
+      "src": "suite [86,238]",
+      "dest": "suite [407,586]"
+    },
+    {
+      "src": "name: types [80,85]",
+      "dest": "name: types [366,371]"
+    },
+    {
+      "src": "simple_stmt [233,238]",
+      "dest": "simple_stmt [581,586]"
+    },
+    {
+      "src": "suite [216,238]",
+      "dest": "suite [560,586]"
+    },
+    {
+      "src": "name: converted_value [170,185]",
+      "dest": "name: converted_value [510,525]"
+    },
+    {
+      "src": "trailer [79,85]",
+      "dest": "trailer [365,371]"
+    },
+    {
+      "src": "param [50,55]",
+      "dest": "param [55,60]"
+    },
+    {
+      "src": "return_stmt [163,185]",
+      "dest": "return_stmt [503,525]"
+    },
+    {
+      "src": "trailer [139,146]",
+      "dest": "trailer [475,482]"
+    },
+    {
+      "src": "name: self [75,79]",
+      "dest": "name: self [361,365]"
+    },
+    {
+      "src": "try_stmt [99,238]",
+      "dest": "try_stmt [424,586]"
+    },
+    {
+      "src": "suite [103,186]",
+      "dest": "suite [428,526]"
+    },
+    {
+      "src": "operator: , [48,49]",
+      "dest": "operator: , [48,49]"
+    },
+    {
+      "src": "for_stmt [66,238]",
+      "dest": "for_stmt [340,586]"
+    },
+    {
+      "src": "funcdef [26,258]",
+      "dest": "funcdef [26,606]"
+    },
+    {
+      "src": "name: _convert_type [30,43]",
+      "dest": "name: _convert_type [30,43]"
+    },
+    {
+      "src": "name: t [138,139]",
+      "dest": "name: arg_type [467,475]"
+    },
+    {
+      "src": "simple_stmt [163,186]",
+      "dest": "simple_stmt [503,526]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [50,54]",
+      "parent": "parameters [43,61]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [71,332]",
+      "parent": "suite [62,606]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "exprlist [344,357]",
+      "parent": "for_stmt [340,586]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [380,586]",
+      "parent": "for_stmt [340,586]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: t [70,71]",
+      "label": "key"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: t [70,71]",
+      "parent": "exprlist [344,357]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [347,348]",
+      "parent": "exprlist [344,357]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: arg_type [349,357]",
+      "parent": "exprlist [344,357]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [371,377]",
+      "parent": "atom_expr [361,379]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [377,379]",
+      "parent": "atom_expr [361,379]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [393,586]",
+      "parent": "suite [380,586]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [396,406]",
+      "parent": "if_stmt [393,586]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [86,238]",
+      "parent": "if_stmt [393,586]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: t [138,139]",
+      "label": "arg_type"
+    }
+  ]
+}

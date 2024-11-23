@@ -1,0 +1,84 @@
+{
+  "matches": [
+    {
+      "src": "name: NLPDataProcessor [6,22]",
+      "dest": "name: NLPDataProcessor [6,22]"
+    },
+    {
+      "src": "suite [200,376]",
+      "dest": "suite [23,33]"
+    },
+    {
+      "src": "file_input [0,397]",
+      "dest": "file_input [0,33]"
+    },
+    {
+      "src": "classdef [0,397]",
+      "dest": "classdef [0,33]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "move-tree",
+      "tree": "suite [200,376]",
+      "parent": "classdef [0,33]",
+      "at": 1
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [213,236]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [248,324]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [336,376]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: remove_stop_words [32,49]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "parameters [49,58]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [68,150]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [158,170]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: string [182,188]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: strings [192,199]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "for_stmt [178,376]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "return_stmt [384,397]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [59,397]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "funcdef [28,397]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [23,397]"
+    }
+  ]
+}

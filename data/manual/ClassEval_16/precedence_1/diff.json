@@ -1,0 +1,210 @@
+{
+  "matches": [
+    {
+      "src": "return_stmt [263,271]",
+      "dest": "return_stmt [778,786]"
+    },
+    {
+      "src": "suite [17,271]",
+      "dest": "suite [17,786]"
+    },
+    {
+      "src": "return_stmt [158,166]",
+      "dest": "return_stmt [673,681]"
+    },
+    {
+      "src": "suite [75,97]",
+      "dest": "suite [590,612]"
+    },
+    {
+      "src": "number: 0 [270,271]",
+      "dest": "number: 0 [785,786]"
+    },
+    {
+      "src": "classdef [0,271]",
+      "dest": "classdef [0,786]"
+    },
+    {
+      "src": "string: '*' [141,144]",
+      "dest": "string: '*' [656,659]"
+    },
+    {
+      "src": "suite [47,271]",
+      "dest": "suite [53,786]"
+    },
+    {
+      "src": "comparison [59,74]",
+      "dest": "comparison [574,589]"
+    },
+    {
+      "src": "or_test [110,144]",
+      "dest": "or_test [625,659]"
+    },
+    {
+      "src": "operator: == [189,191]",
+      "dest": "operator: == [704,706]"
+    },
+    {
+      "src": "number: 1 [235,236]",
+      "dest": "number: 1 [750,751]"
+    },
+    {
+      "src": "simple_stmt [88,97]",
+      "dest": "simple_stmt [603,612]"
+    },
+    {
+      "src": "string: '+' [192,195]",
+      "dest": "string: '+' [707,710]"
+    },
+    {
+      "src": "number: 3 [95,96]",
+      "dest": "number: 3 [610,611]"
+    },
+    {
+      "src": "operator: == [119,121]",
+      "dest": "operator: == [634,636]"
+    },
+    {
+      "src": "param [37,45]",
+      "dest": "param [43,51]"
+    },
+    {
+      "src": "return_stmt [228,236]",
+      "dest": "return_stmt [743,751]"
+    },
+    {
+      "src": "suite [215,237]",
+      "dest": "suite [730,752]"
+    },
+    {
+      "src": "name: operator [59,67]",
+      "dest": "name: operator [574,582]"
+    },
+    {
+      "src": "operator: == [138,140]",
+      "dest": "operator: == [653,655]"
+    },
+    {
+      "src": "string: '^' [71,74]",
+      "dest": "string: '^' [586,589]"
+    },
+    {
+      "src": "file_input [0,271]",
+      "dest": "file_input [0,786]"
+    },
+    {
+      "src": "suite [145,167]",
+      "dest": "suite [660,682]"
+    },
+    {
+      "src": "or_test [180,214]",
+      "dest": "or_test [695,729]"
+    },
+    {
+      "src": "simple_stmt [158,167]",
+      "dest": "simple_stmt [673,682]"
+    },
+    {
+      "src": "name: Calculator [6,16]",
+      "dest": "name: Calculator [6,16]"
+    },
+    {
+      "src": "string: '/' [122,125]",
+      "dest": "string: '/' [637,640]"
+    },
+    {
+      "src": "comparison [180,195]",
+      "dest": "comparison [695,710]"
+    },
+    {
+      "src": "return_stmt [88,96]",
+      "dest": "return_stmt [603,611]"
+    },
+    {
+      "src": "name: operator [110,118]",
+      "dest": "name: operator [625,633]"
+    },
+    {
+      "src": "name: operator [129,137]",
+      "dest": "name: operator [644,652]"
+    },
+    {
+      "src": "name: operator [37,45]",
+      "dest": "name: operator [43,51]"
+    },
+    {
+      "src": "comparison [129,144]",
+      "dest": "comparison [644,659]"
+    },
+    {
+      "src": "comparison [110,125]",
+      "dest": "comparison [625,640]"
+    },
+    {
+      "src": "simple_stmt [228,237]",
+      "dest": "simple_stmt [743,752]"
+    },
+    {
+      "src": "parameters [36,46]",
+      "dest": "parameters [36,52]"
+    },
+    {
+      "src": "number: 2 [165,166]",
+      "dest": "number: 2 [680,681]"
+    },
+    {
+      "src": "name: operator [180,188]",
+      "dest": "name: operator [695,703]"
+    },
+    {
+      "src": "suite [250,271]",
+      "dest": "suite [765,786]"
+    },
+    {
+      "src": "name: operator [199,207]",
+      "dest": "name: operator [714,722]"
+    },
+    {
+      "src": "name: precedence [26,36]",
+      "dest": "name: precedence [26,36]"
+    },
+    {
+      "src": "if_stmt [56,271]",
+      "dest": "if_stmt [571,786]"
+    },
+    {
+      "src": "operator: == [68,70]",
+      "dest": "operator: == [583,585]"
+    },
+    {
+      "src": "funcdef [22,271]",
+      "dest": "funcdef [22,786]"
+    },
+    {
+      "src": "operator: == [208,210]",
+      "dest": "operator: == [723,725]"
+    },
+    {
+      "src": "string: '-' [211,214]",
+      "dest": "string: '-' [726,729]"
+    },
+    {
+      "src": "comparison [199,214]",
+      "dest": "comparison [714,729]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [37,42]",
+      "parent": "parameters [36,52]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [62,563]",
+      "parent": "suite [53,786]",
+      "at": 0
+    }
+  ]
+}

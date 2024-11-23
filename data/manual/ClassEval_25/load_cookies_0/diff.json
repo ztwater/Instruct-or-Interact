@@ -1,0 +1,185 @@
+{
+  "matches": [
+    {
+      "src": "name: CookiesUtil [6,17]",
+      "dest": "name: CookiesUtil [6,17]"
+    },
+    {
+      "src": "suite [18,167]",
+      "dest": "suite [18,442]"
+    },
+    {
+      "src": "name: open [68,72]",
+      "dest": "name: open [334,338]"
+    },
+    {
+      "src": "param [40,52]",
+      "dest": "param [40,44]"
+    },
+    {
+      "src": "operator: , [85,86]",
+      "dest": "operator: , [356,357]"
+    },
+    {
+      "src": "name: file [128,132]",
+      "dest": "name: json [399,403]"
+    },
+    {
+      "src": "classdef [0,167]",
+      "dest": "classdef [0,442]"
+    },
+    {
+      "src": "suite [54,167]",
+      "dest": "suite [46,442]"
+    },
+    {
+      "src": "parameters [39,53]",
+      "dest": "parameters [39,45]"
+    },
+    {
+      "src": "string: 'r' [87,90]",
+      "dest": "string: 'r' [358,361]"
+    },
+    {
+      "src": "operator: = [126,127]",
+      "dest": "operator: = [397,398]"
+    },
+    {
+      "src": "with_item [68,99]",
+      "dest": "with_item [334,370]"
+    },
+    {
+      "src": "atom_expr [68,91]",
+      "dest": "atom_expr [334,362]"
+    },
+    {
+      "src": "name: read [133,137]",
+      "dest": "name: load [404,408]"
+    },
+    {
+      "src": "trailer [72,91]",
+      "dest": "trailer [338,362]"
+    },
+    {
+      "src": "name: cookies_file [73,85]",
+      "dest": "name: cookies_file [344,356]"
+    },
+    {
+      "src": "return_stmt [148,167]",
+      "dest": "return_stmt [423,442]"
+    },
+    {
+      "src": "file_input [0,167]",
+      "dest": "file_input [0,442]"
+    },
+    {
+      "src": "suite [100,140]",
+      "dest": "suite [371,415]"
+    },
+    {
+      "src": "trailer [137,139]",
+      "dest": "trailer [408,414]"
+    },
+    {
+      "src": "name: cookies_file [40,52]",
+      "dest": "name: self [40,44]"
+    },
+    {
+      "src": "name: file [95,99]",
+      "dest": "name: file [366,370]"
+    },
+    {
+      "src": "name: cookies_data [155,167]",
+      "dest": "name: cookies_data [430,442]"
+    },
+    {
+      "src": "name: load_cookies [27,39]",
+      "dest": "name: load_cookies [27,39]"
+    },
+    {
+      "src": "arglist [73,90]",
+      "dest": "arglist [339,361]"
+    },
+    {
+      "src": "simple_stmt [113,140]",
+      "dest": "simple_stmt [384,415]"
+    },
+    {
+      "src": "with_stmt [63,140]",
+      "dest": "with_stmt [329,415]"
+    },
+    {
+      "src": "name: cookies_data [113,125]",
+      "dest": "name: cookies_data [384,396]"
+    },
+    {
+      "src": "funcdef [23,167]",
+      "dest": "funcdef [23,442]"
+    },
+    {
+      "src": "trailer [132,137]",
+      "dest": "trailer [403,408]"
+    },
+    {
+      "src": "expr_stmt [113,139]",
+      "dest": "expr_stmt [384,414]"
+    },
+    {
+      "src": "atom_expr [128,139]",
+      "dest": "atom_expr [399,414]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [55,321]",
+      "parent": "suite [46,442]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: cookies_file [40,52]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [339,356]",
+      "parent": "arglist [339,361]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: file [128,132]",
+      "label": "json"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [339,343]",
+      "parent": "atom_expr [339,356]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [343,356]",
+      "parent": "atom_expr [339,356]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: read [133,137]",
+      "label": "load"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: file [409,413]",
+      "parent": "trailer [408,414]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: cookies_file [73,85]",
+      "parent": "trailer [343,356]",
+      "at": 0
+    }
+  ]
+}

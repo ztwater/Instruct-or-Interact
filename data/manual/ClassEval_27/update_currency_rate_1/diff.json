@@ -1,0 +1,133 @@
+{
+  "matches": [
+    {
+      "src": "param [54,63]",
+      "dest": "param [60,69]"
+    },
+    {
+      "src": "name: new_rate [409,417]",
+      "dest": "name: new_rate [449,457]"
+    },
+    {
+      "src": "suite [24,892]",
+      "dest": "suite [24,477]"
+    },
+    {
+      "src": "name: new_rate [64,72]",
+      "dest": "name: new_rate [70,78]"
+    },
+    {
+      "src": "classdef [0,892]",
+      "dest": "classdef [0,477]"
+    },
+    {
+      "src": "suite [74,892]",
+      "dest": "suite [80,477]"
+    },
+    {
+      "src": "param [64,72]",
+      "dest": "param [70,78]"
+    },
+    {
+      "src": "name: update_currency_rate [33,53]",
+      "dest": "name: update_currency_rate [33,53]"
+    },
+    {
+      "src": "operator: , [62,63]",
+      "dest": "operator: , [68,69]"
+    },
+    {
+      "src": "operator: = [407,408]",
+      "dest": "operator: = [447,448]"
+    },
+    {
+      "src": "name: currency [54,62]",
+      "dest": "name: currency [60,68]"
+    },
+    {
+      "src": "parameters [53,73]",
+      "dest": "parameters [53,79]"
+    },
+    {
+      "src": "name: exchange_rates [382,396]",
+      "dest": "name: rates [431,436]"
+    },
+    {
+      "src": "simple_stmt [382,418]",
+      "dest": "simple_stmt [426,458]"
+    },
+    {
+      "src": "file_input [0,892]",
+      "dest": "file_input [0,477]"
+    },
+    {
+      "src": "name: currency [397,405]",
+      "dest": "name: currency [437,445]"
+    },
+    {
+      "src": "atom_expr [382,406]",
+      "dest": "atom_expr [426,446]"
+    },
+    {
+      "src": "expr_stmt [382,417]",
+      "dest": "expr_stmt [426,457]"
+    },
+    {
+      "src": "funcdef [29,892]",
+      "dest": "funcdef [29,477]"
+    },
+    {
+      "src": "return_stmt [819,892]",
+      "dest": "return_stmt [466,477]"
+    },
+    {
+      "src": "trailer [396,406]",
+      "dest": "trailer [436,446]"
+    },
+    {
+      "src": "name: CurrencyConverter [6,23]",
+      "dest": "name: CurrencyConverter [6,23]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [54,59]",
+      "parent": "parameters [53,79]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [89,417]",
+      "parent": "suite [80,477]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [426,430]",
+      "parent": "atom_expr [426,446]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [430,436]",
+      "parent": "atom_expr [426,446]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: exchange_rates [382,396]",
+      "label": "rates"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: exchange_rates [382,396]",
+      "parent": "trailer [430,436]",
+      "at": 0
+    },
+    {
+      "action": "delete-tree",
+      "tree": "fstring [826,892]"
+    }
+  ]
+}

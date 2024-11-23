@@ -1,0 +1,191 @@
+{
+  "matches": [
+    {
+      "src": "suite [23,134]",
+      "dest": "suite [23,594]"
+    },
+    {
+      "src": "name: amount [78,84]",
+      "dest": "name: amount [538,544]"
+    },
+    {
+      "src": "name: amount [36,42]",
+      "dest": "name: amount [453,459]"
+    },
+    {
+      "src": "atom [87,106]",
+      "dest": "atom [547,566]"
+    },
+    {
+      "src": "classdef [0,134]",
+      "dest": "classdef [0,594]"
+    },
+    {
+      "src": "suite [54,134]",
+      "dest": "suite [42,594]"
+    },
+    {
+      "src": "expr_stmt [63,106]",
+      "dest": "expr_stmt [523,566]"
+    },
+    {
+      "src": "name: amount [88,94]",
+      "dest": "name: amount [548,554]"
+    },
+    {
+      "src": "operator: - [85,86]",
+      "dest": "operator: - [545,546]"
+    },
+    {
+      "src": "name: discount [97,105]",
+      "dest": "name: discount [557,565]"
+    },
+    {
+      "src": "term [88,105]",
+      "dest": "term [548,565]"
+    },
+    {
+      "src": "return_stmt [115,134]",
+      "dest": "return_stmt [575,594]"
+    },
+    {
+      "src": "name: final_amount [122,134]",
+      "dest": "name: final_amount [582,594]"
+    },
+    {
+      "src": "name: due [32,35]",
+      "dest": "name: due [32,35]"
+    },
+    {
+      "src": "operator: * [95,96]",
+      "dest": "operator: * [555,556]"
+    },
+    {
+      "src": "operator: , [42,43]",
+      "dest": "operator: = [460,461]"
+    },
+    {
+      "src": "name: final_amount [63,75]",
+      "dest": "name: final_amount [523,535]"
+    },
+    {
+      "src": "arith_expr [78,106]",
+      "dest": "arith_expr [538,566]"
+    },
+    {
+      "src": "simple_stmt [63,107]",
+      "dest": "simple_stmt [523,567]"
+    },
+    {
+      "src": "operator: = [76,77]",
+      "dest": "operator: = [536,537]"
+    },
+    {
+      "src": "file_input [0,134]",
+      "dest": "file_input [0,594]"
+    },
+    {
+      "src": "name: DiscountStrategy [6,22]",
+      "dest": "name: DiscountStrategy [6,22]"
+    },
+    {
+      "src": "funcdef [28,134]",
+      "dest": "funcdef [28,594]"
+    },
+    {
+      "src": "name: discount [44,52]",
+      "dest": "name: discount [483,491]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "parameters [35,41]",
+      "parent": "funcdef [28,594]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [51,445]",
+      "parent": "suite [42,594]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [453,475]",
+      "parent": "suite [42,594]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [483,515]",
+      "parent": "suite [42,594]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [453,474]",
+      "parent": "simple_stmt [453,475]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [483,514]",
+      "parent": "simple_stmt [483,515]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: amount [36,42]",
+      "parent": "expr_stmt [453,474]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: , [42,43]",
+      "label": "="
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: , [42,43]",
+      "parent": "expr_stmt [453,474]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [462,474]",
+      "parent": "expr_stmt [453,474]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: discount [44,52]",
+      "parent": "expr_stmt [483,514]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [492,493]",
+      "parent": "expr_stmt [483,514]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [494,514]",
+      "parent": "expr_stmt [483,514]",
+      "at": 2
+    },
+    {
+      "action": "delete-node",
+      "tree": "param [36,43]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "param [44,52]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "parameters [35,53]"
+    }
+  ]
+}

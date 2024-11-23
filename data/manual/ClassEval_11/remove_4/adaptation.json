@@ -1,0 +1,205 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Remove the specified status from the current status,and check the parameters whether they are legal.\n        :param states: Current status,int.\n        :param stat: Specified status,int.\n        :return: The status after removing the specified status,int.\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "return_stmt",
+        "inserted": "return None",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "isinstance(states, int)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "states_bin = bin(states)[2:]  # Convert states to binary string\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "stat_bin = bin(stat)[2:]  # Convert stat to binary string\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return new_states\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "new_states_bin",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "new_states",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "arglist",
+        "inserted": "new_states_bin, 2",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "string",
+        "inserted": "''",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "string:",
+        "inserted": "",
+        "deleted": "\"Specified status removed successfully.\"",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "not_test",
+        "inserted": "",
+        "deleted": "not isinstance(current_status, list)",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "print(\"Specified status removed successfully.\")",
+        "deleted": "print(\"Specified status removed successfully.\")",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "specified_status",
+        "deleted": "specified_status",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "states",
+        "deleted": "current_status",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "stat",
+        "deleted": "specified_status",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "stat_bin",
+        "deleted": "specified_status",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "states_bin",
+        "deleted": "current_status",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "string:",
+        "inserted": "\"Error: states should be an integer.\"",
+        "deleted": "\"Error: current_status should be a list.\"",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "stat",
+        "deleted": "specified_status",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "int",
+        "deleted": "str",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "string:",
+        "inserted": "\"Error: stat should be an integer.\"",
+        "deleted": "\"Error: specified_status should be a string.\"",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "states_bin",
+        "deleted": "current_status",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "int",
+        "deleted": "print",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "replace",
+        "deleted": "remove",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "stat_bin",
+        "deleted": "specified_status",
+        "type": "Refactoring"
+    }
+]

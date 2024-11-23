@@ -1,0 +1,604 @@
+{
+  "matches": [
+    {
+      "src": "operator: + [283,284]",
+      "dest": "operator: + [615,616]"
+    },
+    {
+      "src": "name: range [150,155]",
+      "dest": "name: range [450,455]"
+    },
+    {
+      "src": "return_stmt [409,417]",
+      "dest": "return_stmt [746,754]"
+    },
+    {
+      "src": "suite [23,444]",
+      "dest": "suite [23,785]"
+    },
+    {
+      "src": "param [58,62]",
+      "dest": "param [55,65]"
+    },
+    {
+      "src": "simple_stmt [199,216]",
+      "dest": "simple_stmt [521,538]"
+    },
+    {
+      "src": "atom_expr [237,256]",
+      "dest": "atom_expr [565,582]"
+    },
+    {
+      "src": "return_stmt [114,123]",
+      "dest": "return_stmt [410,419]"
+    },
+    {
+      "src": "name: text [95,99]",
+      "dest": "name: text [391,395]"
+    },
+    {
+      "src": "classdef [0,444]",
+      "dest": "classdef [0,785]"
+    },
+    {
+      "src": "suite [392,418]",
+      "dest": "suite [729,755]"
+    },
+    {
+      "src": "suite [64,444]",
+      "dest": "suite [67,785]"
+    },
+    {
+      "src": "simple_stmt [358,364]",
+      "dest": "simple_stmt [695,701]"
+    },
+    {
+      "src": "name: BoyerMooreSearch [6,22]",
+      "dest": "name: BoyerMooreSearch [6,22]"
+    },
+    {
+      "src": "return_stmt [435,444]",
+      "dest": "return_stmt [776,785]"
+    },
+    {
+      "src": "name: text [277,281]",
+      "dest": "name: text [609,613]"
+    },
+    {
+      "src": "number: 1 [122,123]",
+      "dest": "number: 1 [418,419]"
+    },
+    {
+      "src": "name: pattern [290,297]",
+      "dest": "name: pattern [627,634]"
+    },
+    {
+      "src": "atom_expr [290,300]",
+      "dest": "atom_expr [622,637]"
+    },
+    {
+      "src": "trailer [297,300]",
+      "dest": "trailer [634,637]"
+    },
+    {
+      "src": "trailer [94,100]",
+      "dest": "trailer [390,395]"
+    },
+    {
+      "src": "name: j [284,285]",
+      "dest": "name: j [616,617]"
+    },
+    {
+      "src": "trailer [242,256]",
+      "dest": "trailer [568,582]"
+    },
+    {
+      "src": "name: len [76,79]",
+      "dest": "name: self [366,370]"
+    },
+    {
+      "src": "operator: - [442,443]",
+      "dest": "operator: - [783,784]"
+    },
+    {
+      "src": "name: mismatch [383,391]",
+      "dest": "name: mismatch [720,728]"
+    },
+    {
+      "src": "not_test [379,391]",
+      "dest": "not_test [716,728]"
+    },
+    {
+      "src": "simple_stmt [322,338]",
+      "dest": "simple_stmt [659,675]"
+    },
+    {
+      "src": "name: i [145,146]",
+      "dest": "name: i [445,446]"
+    },
+    {
+      "src": "name: len [243,246]",
+      "dest": "name: self [569,573]"
+    },
+    {
+      "src": "factor [121,123]",
+      "dest": "factor [417,419]"
+    },
+    {
+      "src": "operator: - [121,122]",
+      "dest": "operator: - [417,418]"
+    },
+    {
+      "src": "if_stmt [376,418]",
+      "dest": "if_stmt [713,755]"
+    },
+    {
+      "src": "name: text [160,164]",
+      "dest": "name: text [477,481]"
+    },
+    {
+      "src": "atom_expr [91,100]",
+      "dest": "atom_expr [386,395]"
+    },
+    {
+      "src": "comparison [76,100]",
+      "dest": "comparison [362,396]"
+    },
+    {
+      "src": "atom_expr [168,180]",
+      "dest": "atom_expr [489,501]"
+    },
+    {
+      "src": "operator: - [166,167]",
+      "dest": "operator: - [483,484]"
+    },
+    {
+      "src": "parameters [48,63]",
+      "dest": "parameters [48,66]"
+    },
+    {
+      "src": "number: 1 [183,184]",
+      "dest": "number: 1 [505,506]"
+    },
+    {
+      "src": "funcdef [28,444]",
+      "dest": "funcdef [28,785]"
+    },
+    {
+      "src": "operator: > [89,90]",
+      "dest": "operator: > [380,381]"
+    },
+    {
+      "src": "atom_expr [150,185]",
+      "dest": "atom_expr [450,507]"
+    },
+    {
+      "src": "operator: , [56,57]",
+      "dest": "operator: , [53,54]"
+    },
+    {
+      "src": "simple_stmt [114,124]",
+      "dest": "simple_stmt [410,420]"
+    },
+    {
+      "src": "expr_stmt [322,337]",
+      "dest": "expr_stmt [659,674]"
+    },
+    {
+      "src": "name: pattern [247,254]",
+      "dest": "name: pattern [574,581]"
+    },
+    {
+      "src": "name: i [416,417]",
+      "dest": "name: i [753,754]"
+    },
+    {
+      "src": "expr_stmt [199,215]",
+      "dest": "expr_stmt [521,537]"
+    },
+    {
+      "src": "name: i [282,283]",
+      "dest": "name: i [614,615]"
+    },
+    {
+      "src": "if_stmt [73,124]",
+      "dest": "if_stmt [359,420]"
+    },
+    {
+      "src": "suite [257,364]",
+      "dest": "suite [584,701]"
+    },
+    {
+      "src": "comparison [277,300]",
+      "dest": "comparison [604,637]"
+    },
+    {
+      "src": "name: j [298,299]",
+      "dest": "name: j [635,636]"
+    },
+    {
+      "src": "name: range [237,242]",
+      "dest": "name: len [565,568]"
+    },
+    {
+      "src": "name: pattern [80,87]",
+      "dest": "name: pattern [371,378]"
+    },
+    {
+      "src": "operator: != [287,289]",
+      "dest": "operator: != [619,621]"
+    },
+    {
+      "src": "name: mismatch [199,207]",
+      "dest": "name: mismatch [521,529]"
+    },
+    {
+      "src": "for_stmt [228,364]",
+      "dest": "for_stmt [550,701]"
+    },
+    {
+      "src": "operator: = [331,332]",
+      "dest": "operator: = [668,669]"
+    },
+    {
+      "src": "if_stmt [274,364]",
+      "dest": "if_stmt [601,701]"
+    },
+    {
+      "src": "arith_expr [282,285]",
+      "dest": "arith_expr [614,617]"
+    },
+    {
+      "src": "name: pattern [49,56]",
+      "dest": "name: self [49,53]"
+    },
+    {
+      "src": "param [49,57]",
+      "dest": "param [49,54]"
+    },
+    {
+      "src": "name: len [168,171]",
+      "dest": "name: self [489,493]"
+    },
+    {
+      "src": "file_input [0,444]",
+      "dest": "file_input [0,785]"
+    },
+    {
+      "src": "name: len [91,94]",
+      "dest": "name: self [386,390]"
+    },
+    {
+      "src": "simple_stmt [409,418]",
+      "dest": "simple_stmt [746,755]"
+    },
+    {
+      "src": "suite [186,418]",
+      "dest": "suite [508,755]"
+    },
+    {
+      "src": "atom_expr [243,255]",
+      "dest": "atom_expr [569,581]"
+    },
+    {
+      "src": "trailer [171,180]",
+      "dest": "trailer [493,501]"
+    },
+    {
+      "src": "trailer [281,286]",
+      "dest": "trailer [613,618]"
+    },
+    {
+      "src": "number: 1 [443,444]",
+      "dest": "number: 1 [784,785]"
+    },
+    {
+      "src": "operator: + [181,182]",
+      "dest": "operator: + [503,504]"
+    },
+    {
+      "src": "name: mismatch_in_text [32,48]",
+      "dest": "name: mismatch_in_text [32,48]"
+    },
+    {
+      "src": "name: mismatch [322,330]",
+      "dest": "name: mismatch [659,667]"
+    },
+    {
+      "src": "factor [442,444]",
+      "dest": "factor [783,785]"
+    },
+    {
+      "src": "atom_expr [156,165]",
+      "dest": "atom_expr [472,481]"
+    },
+    {
+      "src": "operator: = [208,209]",
+      "dest": "operator: = [530,531]"
+    },
+    {
+      "src": "name: j [232,233]",
+      "dest": "name: j [554,555]"
+    },
+    {
+      "src": "trailer [155,185]",
+      "dest": "trailer [455,507]"
+    },
+    {
+      "src": "trailer [159,165]",
+      "dest": "trailer [476,481]"
+    },
+    {
+      "src": "suite [301,364]",
+      "dest": "suite [638,701]"
+    },
+    {
+      "src": "trailer [79,88]",
+      "dest": "trailer [370,378]"
+    },
+    {
+      "src": "atom_expr [277,286]",
+      "dest": "atom_expr [604,618]"
+    },
+    {
+      "src": "for_stmt [141,418]",
+      "dest": "for_stmt [441,755]"
+    },
+    {
+      "src": "suite [101,124]",
+      "dest": "suite [397,420]"
+    },
+    {
+      "src": "atom_expr [76,88]",
+      "dest": "atom_expr [366,378]"
+    },
+    {
+      "src": "arith_expr [156,184]",
+      "dest": "arith_expr [468,506]"
+    },
+    {
+      "src": "trailer [246,255]",
+      "dest": "trailer [573,581]"
+    },
+    {
+      "src": "name: pattern [172,179]",
+      "dest": "name: pattern [494,501]"
+    },
+    {
+      "src": "name: len [156,159]",
+      "dest": "name: self [472,476]"
+    },
+    {
+      "src": "name: text [58,62]",
+      "dest": "name: currentPos [55,65]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [76,351]",
+      "parent": "suite [67,785]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: pattern [49,56]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: text [58,62]",
+      "label": "currentPos"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [362,379]",
+      "parent": "comparison [362,396]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [382,396]",
+      "parent": "comparison [362,396]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: len [362,365]",
+      "parent": "atom_expr [362,379]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [365,379]",
+      "parent": "atom_expr [362,379]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: len [382,385]",
+      "parent": "atom_expr [382,396]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [385,396]",
+      "parent": "atom_expr [382,396]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "arglist [456,506]",
+      "parent": "trailer [455,507]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [559,583]",
+      "parent": "for_stmt [550,701]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [76,88]",
+      "parent": "trailer [365,379]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [91,100]",
+      "parent": "trailer [385,396]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: currentPos [456,466]",
+      "parent": "arglist [456,506]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [466,467]",
+      "parent": "arglist [456,506]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "arith_expr [156,184]",
+      "parent": "arglist [456,506]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: range [559,564]",
+      "parent": "atom_expr [559,583]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [564,583]",
+      "parent": "atom_expr [559,583]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: len [76,79]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: len [91,94]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [468,482]",
+      "parent": "arith_expr [468,506]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [485,502]",
+      "parent": "arith_expr [468,506]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [237,256]",
+      "parent": "trailer [564,583]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: len [468,471]",
+      "parent": "atom_expr [468,482]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [471,482]",
+      "parent": "atom_expr [468,482]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: len [485,488]",
+      "parent": "atom_expr [485,502]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [488,502]",
+      "parent": "atom_expr [485,502]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: range [237,242]",
+      "label": "len"
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [156,165]",
+      "parent": "trailer [471,482]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [168,180]",
+      "parent": "trailer [488,502]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [604,608]",
+      "parent": "atom_expr [604,618]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [608,613]",
+      "parent": "atom_expr [604,618]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [622,626]",
+      "parent": "atom_expr [622,637]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [626,634]",
+      "parent": "atom_expr [622,637]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: len [156,159]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: len [168,171]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: len [243,246]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: text [277,281]",
+      "parent": "trailer [608,613]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: pattern [290,297]",
+      "parent": "trailer [626,634]",
+      "at": 0
+    }
+  ]
+}

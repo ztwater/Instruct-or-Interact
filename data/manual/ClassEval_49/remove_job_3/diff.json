@@ -1,0 +1,218 @@
+{
+  "matches": [
+    {
+      "src": "parameters [40,64]",
+      "dest": "parameters [40,51]"
+    },
+    {
+      "src": "suite [21,205]",
+      "dest": "suite [21,433]"
+    },
+    {
+      "src": "name: job_listings [41,53]",
+      "dest": "name: self [41,45]"
+    },
+    {
+      "src": "param [55,63]",
+      "dest": "param [47,50]"
+    },
+    {
+      "src": "name: position [55,63]",
+      "dest": "name: job [47,50]"
+    },
+    {
+      "src": "operator: == [130,132]",
+      "dest": "operator: == [351,353]"
+    },
+    {
+      "src": "classdef [0,205]",
+      "dest": "classdef [0,433]"
+    },
+    {
+      "src": "suite [65,205]",
+      "dest": "suite [52,433]"
+    },
+    {
+      "src": "name: job [78,81]",
+      "dest": "name: listed_job [292,302]"
+    },
+    {
+      "src": "comparison [114,141]",
+      "dest": "comparison [340,357]"
+    },
+    {
+      "src": "atom_expr [159,183]",
+      "dest": "atom_expr [375,411]"
+    },
+    {
+      "src": "name: position [133,141]",
+      "dest": "name: job [354,357]"
+    },
+    {
+      "src": "operator: , [53,54]",
+      "dest": "operator: , [45,46]"
+    },
+    {
+      "src": "trailer [178,183]",
+      "dest": "trailer [399,411]"
+    },
+    {
+      "src": "file_input [0,205]",
+      "dest": "file_input [0,433]"
+    },
+    {
+      "src": "suite [98,205]",
+      "dest": "suite [324,433]"
+    },
+    {
+      "src": "name: job_listings [159,171]",
+      "dest": "name: job_listings [380,392]"
+    },
+    {
+      "src": "name: remove [172,178]",
+      "dest": "name: remove [393,399]"
+    },
+    {
+      "src": "name: remove_job [30,40]",
+      "dest": "name: remove_job [30,40]"
+    },
+    {
+      "src": "name: job [179,182]",
+      "dest": "name: listed_job [400,410]"
+    },
+    {
+      "src": "name: job_listings [85,97]",
+      "dest": "name: job_listings [311,323]"
+    },
+    {
+      "src": "name: JobMarketplace [6,20]",
+      "dest": "name: JobMarketplace [6,20]"
+    },
+    {
+      "src": "param [41,54]",
+      "dest": "param [41,46]"
+    },
+    {
+      "src": "if_stmt [111,205]",
+      "dest": "if_stmt [337,433]"
+    },
+    {
+      "src": "suite [142,205]",
+      "dest": "suite [358,433]"
+    },
+    {
+      "src": "for_stmt [74,205]",
+      "dest": "for_stmt [288,433]"
+    },
+    {
+      "src": "name: job [114,117]",
+      "dest": "name: listed_job [340,350]"
+    },
+    {
+      "src": "funcdef [26,205]",
+      "dest": "funcdef [26,433]"
+    },
+    {
+      "src": "trailer [171,178]",
+      "dest": "trailer [392,399]"
+    },
+    {
+      "src": "simple_stmt [159,184]",
+      "dest": "simple_stmt [375,412]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [61,280]",
+      "parent": "suite [52,433]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: job_listings [41,53]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: position [55,63]",
+      "label": "job"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: job [78,81]",
+      "label": "listed_job"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [306,323]",
+      "parent": "for_stmt [288,433]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [306,310]",
+      "parent": "atom_expr [306,323]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [310,323]",
+      "parent": "atom_expr [306,323]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: job_listings [85,97]",
+      "parent": "trailer [310,323]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: job [114,117]",
+      "label": "listed_job"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: job [114,117]",
+      "parent": "comparison [340,357]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: position [133,141]",
+      "label": "job"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [375,379]",
+      "parent": "atom_expr [375,411]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [379,392]",
+      "parent": "atom_expr [375,411]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: job_listings [159,171]",
+      "parent": "trailer [379,392]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: job [179,182]",
+      "label": "listed_job"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [117,129]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [114,129]"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Remove course from self.courses list if the course was in it.\n        :param course: dict, information of the course, including 'start_time', 'end_time' and 'name'\n        >>> classroom = Classroom(1)\n        >>> classroom.add_course({'name': 'math', 'start_time': '8:00', 'end_time': '9:40'})\n        >>> classroom.add_course({'name': 'math', 'start_time': '8:00', 'end_time': '9:40'})\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    }
+]

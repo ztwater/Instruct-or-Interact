@@ -1,0 +1,23 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        calculates the mode of the given list.\n        :param data: the given list, list.\n        :return: the mode of the given list, list.\n        >>> statistics3 = Statistics3()\n        >>> statistics3.mode([1, 2, 3, 3])\n        [3]\n\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "data",
+        "deleted": "lst",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "data",
+        "deleted": "lst",
+        "type": "Refactoring"
+    }
+]

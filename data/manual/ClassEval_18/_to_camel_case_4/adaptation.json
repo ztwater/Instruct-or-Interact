@@ -1,0 +1,37 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        convert key string into camel case\n        :param self: reference to the instance of CamelCaseMap\n        :return: str, converted key string\n        >>> camelize_map = CamelCaseMap()\n        >>> camelize_map._to_camel_case('first_name')\n        'firstName'\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return camel_case\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return camel_case",
+        "deleted": "return camel_case",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "key",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "key",
+        "type": "Refactoring"
+    }
+]

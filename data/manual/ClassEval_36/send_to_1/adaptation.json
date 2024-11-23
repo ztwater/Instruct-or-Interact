@@ -1,0 +1,100 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "recv,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Sends an email to the given email address.\n        :param recv: The email address of the receiver, str.\n        :param content: The content of the email, str.\n        :param size: The size of the email, float.\n        :return: True if the email is sent successfully, False if the receiver's email box is full.\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "if_stmt",
+        "inserted": "if recv.is_full_with_one_more_email(size):\n            # Increment the size of the email\n            size += recv.get_occupied_size()\n            # Add the email to the receiver's inbox\n            recv.inbox.append({'sender': sender_email, 'receiver': receiver_email, 'content': email_message, 'size': size, 'time': datetime.now().strftime('%Y-%m-%d %H:%M:%S'), 'state': 'unread'})\n            return True\n        else:\n            return False",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "self.addr",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "string",
+        "inserted": "''",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "smtp.send_message(email)\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "string",
+        "inserted": "",
+        "deleted": "'your_email@example.com'",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "name",
+        "inserted": "",
+        "deleted": "subject",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "smtp.send_message(email)",
+        "deleted": "smtp.send_message(email)",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "email_address",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "content",
+        "deleted": "subject",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "size",
+        "deleted": "message",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "recv",
+        "deleted": "email_address",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "content",
+        "deleted": "message",
+        "type": "Refactoring"
+    }
+]

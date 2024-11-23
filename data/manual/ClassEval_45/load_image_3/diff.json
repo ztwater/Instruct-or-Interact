@@ -1,0 +1,126 @@
+{
+  "matches": [
+    {
+      "src": "funcdef [26,113]",
+      "dest": "funcdef [26,103]"
+    },
+    {
+      "src": "name: image [62,67]",
+      "dest": "name: image [73,78]"
+    },
+    {
+      "src": "suite [21,113]",
+      "dest": "suite [21,103]"
+    },
+    {
+      "src": "name: load_image [30,40]",
+      "dest": "name: load_image [30,40]"
+    },
+    {
+      "src": "param [41,51]",
+      "dest": "param [47,57]"
+    },
+    {
+      "src": "name: image_path [41,51]",
+      "dest": "name: image_path [47,57]"
+    },
+    {
+      "src": "operator: = [68,69]",
+      "dest": "operator: = [79,80]"
+    },
+    {
+      "src": "file_input [0,113]",
+      "dest": "file_input [0,103]"
+    },
+    {
+      "src": "name: ImageProcessor [6,20]",
+      "dest": "name: ImageProcessor [6,20]"
+    },
+    {
+      "src": "trailer [75,80]",
+      "dest": "trailer [86,91]"
+    },
+    {
+      "src": "trailer [80,92]",
+      "dest": "trailer [91,103]"
+    },
+    {
+      "src": "expr_stmt [62,92]",
+      "dest": "expr_stmt [68,103]"
+    },
+    {
+      "src": "classdef [0,113]",
+      "dest": "classdef [0,103]"
+    },
+    {
+      "src": "atom_expr [70,92]",
+      "dest": "atom_expr [81,103]"
+    },
+    {
+      "src": "name: open [76,80]",
+      "dest": "name: open [87,91]"
+    },
+    {
+      "src": "suite [53,113]",
+      "dest": "suite [59,103]"
+    },
+    {
+      "src": "parameters [40,52]",
+      "dest": "parameters [40,58]"
+    },
+    {
+      "src": "name: Image [70,75]",
+      "dest": "name: Image [81,86]"
+    },
+    {
+      "src": "name: image_path [81,91]",
+      "dest": "name: image_path [92,102]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [41,46]",
+      "parent": "parameters [40,58]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "expr_stmt [62,92]",
+      "parent": "suite [59,103]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [68,78]",
+      "parent": "expr_stmt [68,103]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [68,72]",
+      "parent": "atom_expr [68,78]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [72,78]",
+      "parent": "atom_expr [68,78]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: image [62,67]",
+      "parent": "trailer [72,78]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [62,93]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "return_stmt [101,113]"
+    }
+  ]
+}

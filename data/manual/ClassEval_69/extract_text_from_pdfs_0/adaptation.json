@@ -1,0 +1,9 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Extract text from pdf files in self.readers\n        :return pdf_texts: list of str, each element is the text of one pdf file\n        >>> handler = PDFHandler(['a.pdf', 'b.pdf'])\n        >>> handler.extract_text_from_pdfs()\n        ['Test a.pdf', 'Test b.pdf']\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    }
+]

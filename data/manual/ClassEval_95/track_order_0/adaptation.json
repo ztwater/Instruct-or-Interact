@@ -1,0 +1,23 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Get the status of specific order.\n        :param order_id: int\n        :return False: only if the order_id is not in self.orders.\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "comparison",
+        "inserted": "order_id not in self.orders",
+        "deleted": "",
+        "type": "Logic"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Convert a number from decimal format to binary format.\n        :param decimal_num: int, decimal number\n        :return: str, the binary representation of an integer.\n        >>> NumberConverter.decimal_to_binary(42423)\n        '1010010110110111'\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "decimal_num",
+        "deleted": "decimal",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "decimal_num",
+        "deleted": "decimal",
+        "type": "Refactoring"
+    }
+]

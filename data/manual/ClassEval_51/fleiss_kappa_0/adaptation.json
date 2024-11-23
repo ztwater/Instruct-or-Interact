@@ -1,0 +1,163 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "N,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "k,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "n",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "string:",
+        "inserted": "\"\"\"\n        Calculate the fleiss kappa value of an N * k matrix\n        :param testData: Input data matrix, N * k\n        :param N: int, Number of samples\n        :param k: int, Number of categories\n        :param n: int, Number of raters\n        :return: float, fleiss kappa value\n        \"\"\"",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "DEL",
+        "label": "parameters",
+        "inserted": "",
+        "deleted": "(matrix)",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "testlist_star_expr",
+        "inserted": "",
+        "deleted": "N, k",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "trailer",
+        "inserted": "",
+        "deleted": ".shape",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "operator",
+        "inserted": "",
+        "deleted": ",",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "argument",
+        "inserted": "",
+        "deleted": "axis=1",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "param",
+        "inserted": "matrix",
+        "deleted": "matrix",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "N",
+        "deleted": "N",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": ",",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "k",
+        "deleted": "k",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "=",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "matrix",
+        "deleted": "matrix",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "matrix",
+        "deleted": "matrix",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "testData",
+        "deleted": "matrix",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "=",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "n",
+        "deleted": "matrix",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "matrix",
+        "deleted": "n",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "array",
+        "deleted": "sum",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "testData",
+        "deleted": "matrix",
+        "type": "Refactoring"
+    }
+]

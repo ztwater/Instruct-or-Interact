@@ -1,0 +1,226 @@
+{
+  "matches": [
+    {
+      "src": "parameters [44,88]",
+      "dest": "parameters [44,74]"
+    },
+    {
+      "src": "suite [23,207]",
+      "dest": "suite [23,671]"
+    },
+    {
+      "src": "trailer [118,138]",
+      "dest": "trailer [566,587]"
+    },
+    {
+      "src": "param [60,70]",
+      "dest": "param [51,61]"
+    },
+    {
+      "src": "name: extract_file [32,44]",
+      "dest": "name: extract_file [32,44]"
+    },
+    {
+      "src": "classdef [0,207]",
+      "dest": "classdef [0,671]"
+    },
+    {
+      "src": "name: file_name [60,69]",
+      "dest": "name: file_name [51,60]"
+    },
+    {
+      "src": "suite [89,207]",
+      "dest": "suite [75,671]"
+    },
+    {
+      "src": "atom_expr [163,207]",
+      "dest": "atom_expr [612,651]"
+    },
+    {
+      "src": "name: zip_ref [163,170]",
+      "dest": "name: zip_ref [612,619]"
+    },
+    {
+      "src": "trailer [178,207]",
+      "dest": "trailer [627,651]"
+    },
+    {
+      "src": "arglist [179,206]",
+      "dest": "arglist [628,650]"
+    },
+    {
+      "src": "name: ZipFileProcessor [6,22]",
+      "dest": "name: ZipFileProcessor [6,22]"
+    },
+    {
+      "src": "string: 'r' [134,137]",
+      "dest": "string: 'r' [583,586]"
+    },
+    {
+      "src": "name: zip_file_path [45,58]",
+      "dest": "name: self [45,49]"
+    },
+    {
+      "src": "name: ZipFile [111,118]",
+      "dest": "name: ZipFile [559,566]"
+    },
+    {
+      "src": "arglist [119,137]",
+      "dest": "arglist [567,586]"
+    },
+    {
+      "src": "name: file_name [179,188]",
+      "dest": "name: file_name [628,637]"
+    },
+    {
+      "src": "file_input [0,207]",
+      "dest": "file_input [0,671]"
+    },
+    {
+      "src": "name: zipfile [103,110]",
+      "dest": "name: zipfile [551,558]"
+    },
+    {
+      "src": "operator: , [69,70]",
+      "dest": "operator: , [60,61]"
+    },
+    {
+      "src": "name: extract [171,178]",
+      "dest": "name: extract [620,627]"
+    },
+    {
+      "src": "operator: , [132,133]",
+      "dest": "operator: , [581,582]"
+    },
+    {
+      "src": "operator: , [58,59]",
+      "dest": "operator: , [49,50]"
+    },
+    {
+      "src": "name: destination_path [71,87]",
+      "dest": "name: output_path [62,73]"
+    },
+    {
+      "src": "name: destination_path [190,206]",
+      "dest": "name: output_path [639,650]"
+    },
+    {
+      "src": "param [45,59]",
+      "dest": "param [45,50]"
+    },
+    {
+      "src": "suite [150,207]",
+      "dest": "suite [599,652]"
+    },
+    {
+      "src": "trailer [110,118]",
+      "dest": "trailer [558,566]"
+    },
+    {
+      "src": "with_stmt [98,207]",
+      "dest": "with_stmt [546,652]"
+    },
+    {
+      "src": "operator: , [188,189]",
+      "dest": "operator: , [637,638]"
+    },
+    {
+      "src": "name: zip_ref [142,149]",
+      "dest": "name: zip_ref [591,598]"
+    },
+    {
+      "src": "funcdef [28,207]",
+      "dest": "funcdef [28,671]"
+    },
+    {
+      "src": "param [71,87]",
+      "dest": "param [62,73]"
+    },
+    {
+      "src": "with_item [103,149]",
+      "dest": "with_item [551,598]"
+    },
+    {
+      "src": "atom_expr [103,138]",
+      "dest": "atom_expr [551,587]"
+    },
+    {
+      "src": "trailer [170,178]",
+      "dest": "trailer [619,627]"
+    },
+    {
+      "src": "name: zip_file_path [119,132]",
+      "dest": "name: file_name [572,581]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [84,538]",
+      "parent": "suite [75,671]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "return_stmt [660,671]",
+      "parent": "suite [75,671]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: zip_file_path [45,58]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: destination_path [71,87]",
+      "label": "output_path"
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [612,652]",
+      "parent": "suite [599,652]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [163,207]",
+      "parent": "simple_stmt [612,652]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [567,581]",
+      "parent": "arglist [567,586]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [567,571]",
+      "parent": "atom_expr [567,581]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [571,581]",
+      "parent": "atom_expr [567,581]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: destination_path [190,206]",
+      "label": "output_path"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: zip_file_path [119,132]",
+      "label": "file_name"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: zip_file_path [119,132]",
+      "parent": "trailer [571,581]",
+      "at": 0
+    }
+  ]
+}

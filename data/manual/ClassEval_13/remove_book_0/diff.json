@@ -1,0 +1,247 @@
+{
+  "matches": [
+    {
+      "src": "name: inventory [100,109]",
+      "dest": "name: self [382,386]"
+    },
+    {
+      "src": "suite [21,147]",
+      "dest": "suite [21,480]"
+    },
+    {
+      "src": "classdef [0,147]",
+      "dest": "classdef [0,480]"
+    },
+    {
+      "src": "return_stmt [131,147]",
+      "dest": "return_stmt [459,480]"
+    },
+    {
+      "src": "suite [60,147]",
+      "dest": "suite [65,480]"
+    },
+    {
+      "src": "parameters [41,59]",
+      "dest": "parameters [41,64]"
+    },
+    {
+      "src": "name: inventory [138,147]",
+      "dest": "name: inventory [471,480]"
+    },
+    {
+      "src": "name: remove [110,116]",
+      "dest": "name: inventory [387,396]"
+    },
+    {
+      "src": "name: books [53,58]",
+      "dest": "name: title [48,53]"
+    },
+    {
+      "src": "trailer [109,116]",
+      "dest": "trailer [386,396]"
+    },
+    {
+      "src": "file_input [0,147]",
+      "dest": "file_input [0,480]"
+    },
+    {
+      "src": "suite [87,123]",
+      "dest": "suite [361,404]"
+    },
+    {
+      "src": "name: book [117,121]",
+      "dest": "name: title [397,402]"
+    },
+    {
+      "src": "operator: , [51,52]",
+      "dest": "operator: , [46,47]"
+    },
+    {
+      "src": "name: book [73,77]",
+      "dest": "name: _ [300,301]"
+    },
+    {
+      "src": "name: books [81,86]",
+      "dest": "name: range [305,310]"
+    },
+    {
+      "src": "trailer [116,122]",
+      "dest": "trailer [396,403]"
+    },
+    {
+      "src": "simple_stmt [100,123]",
+      "dest": "simple_stmt [378,404]"
+    },
+    {
+      "src": "name: remove_book [30,41]",
+      "dest": "name: remove_book [30,41]"
+    },
+    {
+      "src": "param [42,52]",
+      "dest": "param [42,47]"
+    },
+    {
+      "src": "for_stmt [69,123]",
+      "dest": "for_stmt [296,451]"
+    },
+    {
+      "src": "funcdef [26,147]",
+      "dest": "funcdef [26,480]"
+    },
+    {
+      "src": "name: BookManagement [6,20]",
+      "dest": "name: BookManagement [6,20]"
+    },
+    {
+      "src": "name: inventory [42,51]",
+      "dest": "name: self [42,46]"
+    },
+    {
+      "src": "param [53,58]",
+      "dest": "param [48,54]"
+    },
+    {
+      "src": "atom_expr [100,122]",
+      "dest": "atom_expr [382,403]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [55,63]",
+      "parent": "parameters [41,64]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [74,288]",
+      "parent": "suite [65,480]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: inventory [42,51]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: books [53,58]",
+      "label": "title"
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [53,54]",
+      "parent": "param [48,54]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: book [73,77]",
+      "label": "_"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [305,320]",
+      "parent": "for_stmt [296,451]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [321,451]",
+      "parent": "for_stmt [296,451]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [466,480]",
+      "parent": "return_stmt [459,480]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: books [81,86]",
+      "label": "range"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: books [81,86]",
+      "parent": "atom_expr [305,320]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [310,320]",
+      "parent": "atom_expr [305,320]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [334,451]",
+      "parent": "suite [321,451]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [466,470]",
+      "parent": "atom_expr [466,480]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [470,480]",
+      "parent": "atom_expr [466,480]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [337,360]",
+      "parent": "if_stmt [334,451]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [87,123]",
+      "parent": "if_stmt [334,451]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [421,451]",
+      "parent": "if_stmt [334,451]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: inventory [138,147]",
+      "parent": "trailer [470,480]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "del_stmt [378,403]",
+      "parent": "simple_stmt [378,404]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [100,122]",
+      "parent": "del_stmt [378,403]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: inventory [100,109]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: remove [110,116]",
+      "label": "inventory"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: book [117,121]",
+      "label": "title"
+    }
+  ]
+}

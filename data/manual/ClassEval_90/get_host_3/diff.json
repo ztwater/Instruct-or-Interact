@@ -1,0 +1,209 @@
+{
+  "matches": [
+    {
+      "src": "name: get_host [26,34]",
+      "dest": "name: get_host [26,34]"
+    },
+    {
+      "src": "name: URLHandler [6,16]",
+      "dest": "name: URLHandler [6,16]"
+    },
+    {
+      "src": "suite [17,330]",
+      "dest": "suite [17,344]"
+    },
+    {
+      "src": "operator: = [206,207]",
+      "dest": "operator: = [216,217]"
+    },
+    {
+      "src": "classdef [0,330]",
+      "dest": "classdef [0,344]"
+    },
+    {
+      "src": "number: 1 [328,329]",
+      "dest": "number: 1 [342,343]"
+    },
+    {
+      "src": "suite [40,330]",
+      "dest": "suite [41,344]"
+    },
+    {
+      "src": "name: split [212,217]",
+      "dest": "name: split [222,227]"
+    },
+    {
+      "src": "arglist [113,126]",
+      "dest": "arglist [119,132]"
+    },
+    {
+      "src": "atom_expr [208,222]",
+      "dest": "atom_expr [218,232]"
+    },
+    {
+      "src": "string: \"http://\" [113,122]",
+      "dest": "string: \"http://\" [119,128]"
+    },
+    {
+      "src": "trailer [211,217]",
+      "dest": "trailer [221,227]"
+    },
+    {
+      "src": "return_stmt [315,330]",
+      "dest": "return_stmt [329,344]"
+    },
+    {
+      "src": "trailer [327,330]",
+      "dest": "trailer [341,344]"
+    },
+    {
+      "src": "name: parts [200,205]",
+      "dest": "name: parts [210,215]"
+    },
+    {
+      "src": "file_input [0,330]",
+      "dest": "file_input [0,344]"
+    },
+    {
+      "src": "parameters [34,39]",
+      "dest": "parameters [34,40]"
+    },
+    {
+      "src": "string: \"https://\" [136,146]",
+      "dest": "string: \"https://\" [142,152]"
+    },
+    {
+      "src": "atom_expr [101,151]",
+      "dest": "atom_expr [102,157]"
+    },
+    {
+      "src": "simple_stmt [200,223]",
+      "dest": "simple_stmt [210,233]"
+    },
+    {
+      "src": "trailer [135,151]",
+      "dest": "trailer [141,157]"
+    },
+    {
+      "src": "operator: , [146,147]",
+      "dest": "operator: , [152,153]"
+    },
+    {
+      "src": "name: replace [105,112]",
+      "dest": "name: replace [111,118]"
+    },
+    {
+      "src": "name: url [95,98]",
+      "dest": "name: url [96,99]"
+    },
+    {
+      "src": "name: url [208,211]",
+      "dest": "name: url [218,221]"
+    },
+    {
+      "src": "string: \"/\" [218,221]",
+      "dest": "string: \"/\" [228,231]"
+    },
+    {
+      "src": "name: parts [322,327]",
+      "dest": "name: parts [336,341]"
+    },
+    {
+      "src": "atom_expr [322,330]",
+      "dest": "atom_expr [336,344]"
+    },
+    {
+      "src": "trailer [112,127]",
+      "dest": "trailer [118,133]"
+    },
+    {
+      "src": "trailer [217,222]",
+      "dest": "trailer [227,232]"
+    },
+    {
+      "src": "arglist [136,150]",
+      "dest": "arglist [142,156]"
+    },
+    {
+      "src": "string: \"\" [148,150]",
+      "dest": "string: \"\" [154,156]"
+    },
+    {
+      "src": "string: \"\" [124,126]",
+      "dest": "string: \"\" [130,132]"
+    },
+    {
+      "src": "operator: = [99,100]",
+      "dest": "operator: = [100,101]"
+    },
+    {
+      "src": "trailer [127,135]",
+      "dest": "trailer [133,141]"
+    },
+    {
+      "src": "expr_stmt [200,222]",
+      "dest": "expr_stmt [210,232]"
+    },
+    {
+      "src": "name: replace [128,135]",
+      "dest": "name: replace [134,141]"
+    },
+    {
+      "src": "simple_stmt [95,152]",
+      "dest": "simple_stmt [96,158]"
+    },
+    {
+      "src": "name: url [35,38]",
+      "dest": "name: self [35,39]"
+    },
+    {
+      "src": "expr_stmt [95,151]",
+      "dest": "expr_stmt [96,157]"
+    },
+    {
+      "src": "funcdef [22,330]",
+      "dest": "funcdef [22,344]"
+    },
+    {
+      "src": "trailer [104,112]",
+      "dest": "trailer [110,118]"
+    },
+    {
+      "src": "param [35,38]",
+      "dest": "param [35,39]"
+    },
+    {
+      "src": "operator: , [122,123]",
+      "dest": "operator: , [128,129]"
+    },
+    {
+      "src": "name: url [101,104]",
+      "dest": "name: url [107,110]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "update-node",
+      "tree": "name: url [35,38]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [102,106]",
+      "parent": "atom_expr [102,157]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [106,110]",
+      "parent": "atom_expr [102,157]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: url [101,104]",
+      "parent": "trailer [106,110]",
+      "at": 0
+    }
+  ]
+}

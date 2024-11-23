@@ -1,0 +1,167 @@
+{
+  "matches": [
+    {
+      "src": "suite [19,178]",
+      "dest": "suite [19,503]"
+    },
+    {
+      "src": "name: elements [170,178]",
+      "dest": "name: elements [495,503]"
+    },
+    {
+      "src": "atom_expr [128,154]",
+      "dest": "atom_expr [388,414]"
+    },
+    {
+      "src": "classdef [0,178]",
+      "dest": "classdef [0,503]"
+    },
+    {
+      "src": "simple_stmt [117,155]",
+      "dest": "simple_stmt [377,480]"
+    },
+    {
+      "src": "suite [67,178]",
+      "dest": "suite [61,503]"
+    },
+    {
+      "src": "trailer [140,154]",
+      "dest": "trailer [400,414]"
+    },
+    {
+      "src": "name: root [128,132]",
+      "dest": "name: root [388,392]"
+    },
+    {
+      "src": "operator: = [81,82]",
+      "dest": "operator: = [299,300]"
+    },
+    {
+      "src": "name: findall [133,140]",
+      "dest": "name: findall [393,400]"
+    },
+    {
+      "src": "trailer [85,96]",
+      "dest": "trailer [305,314]"
+    },
+    {
+      "src": "parameters [40,66]",
+      "dest": "parameters [40,60]"
+    },
+    {
+      "src": "name: XMLProcessor [6,18]",
+      "dest": "name: XMLProcessor [6,18]"
+    },
+    {
+      "src": "expr_stmt [117,154]",
+      "dest": "expr_stmt [377,414]"
+    },
+    {
+      "src": "trailer [96,108]",
+      "dest": "trailer [314,316]"
+    },
+    {
+      "src": "operator: = [126,127]",
+      "dest": "operator: = [386,387]"
+    },
+    {
+      "src": "name: ET [83,85]",
+      "dest": "name: self [301,305]"
+    },
+    {
+      "src": "file_input [0,178]",
+      "dest": "file_input [0,503]"
+    },
+    {
+      "src": "atom_expr [83,108]",
+      "dest": "atom_expr [301,316]"
+    },
+    {
+      "src": "name: element_name [53,65]",
+      "dest": "name: element_name [47,59]"
+    },
+    {
+      "src": "name: find_element [28,40]",
+      "dest": "name: find_element [28,40]"
+    },
+    {
+      "src": "trailer [132,140]",
+      "dest": "trailer [392,400]"
+    },
+    {
+      "src": "param [53,65]",
+      "dest": "param [47,59]"
+    },
+    {
+      "src": "expr_stmt [76,108]",
+      "dest": "expr_stmt [294,316]"
+    },
+    {
+      "src": "name: xml_string [41,51]",
+      "dest": "name: self [41,45]"
+    },
+    {
+      "src": "return_stmt [163,178]",
+      "dest": "return_stmt [488,503]"
+    },
+    {
+      "src": "name: element_name [141,153]",
+      "dest": "name: element_name [401,413]"
+    },
+    {
+      "src": "param [41,52]",
+      "dest": "param [41,46]"
+    },
+    {
+      "src": "operator: , [51,52]",
+      "dest": "operator: , [45,46]"
+    },
+    {
+      "src": "name: elements [117,125]",
+      "dest": "name: elements [377,385]"
+    },
+    {
+      "src": "simple_stmt [76,109]",
+      "dest": "simple_stmt [294,369]"
+    },
+    {
+      "src": "name: root [76,80]",
+      "dest": "name: root [294,298]"
+    },
+    {
+      "src": "funcdef [24,178]",
+      "dest": "funcdef [24,503]"
+    },
+    {
+      "src": "name: fromstring [86,96]",
+      "dest": "name: read_xml [306,314]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [70,286]",
+      "parent": "suite [61,503]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: xml_string [41,51]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: ET [83,85]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: fromstring [86,96]",
+      "label": "read_xml"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: xml_string [97,107]"
+    }
+  ]
+}

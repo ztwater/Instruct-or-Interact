@@ -1,0 +1,196 @@
+{
+  "matches": [
+    {
+      "src": "suite [16,180]",
+      "dest": "suite [16,809]"
+    },
+    {
+      "src": "name: product_id [105,115]",
+      "dest": "name: product_id [664,674]"
+    },
+    {
+      "src": "operator: , [48,49]",
+      "dest": "operator: , [64,65]"
+    },
+    {
+      "src": "classdef [0,180]",
+      "dest": "classdef [0,809]"
+    },
+    {
+      "src": "suite [60,180]",
+      "dest": "suite [76,809]"
+    },
+    {
+      "src": "name: create_order [25,37]",
+      "dest": "name: create_order [25,37]"
+    },
+    {
+      "src": "atom [77,159]",
+      "dest": "atom [636,751]"
+    },
+    {
+      "src": "operator: { [77,78]",
+      "dest": "operator: { [636,637]"
+    },
+    {
+      "src": "name: order [175,180]",
+      "dest": "name: order [784,789]"
+    },
+    {
+      "src": "param [50,58]",
+      "dest": "param [66,74]"
+    },
+    {
+      "src": "name: quantity [141,149]",
+      "dest": "name: quantity [700,708]"
+    },
+    {
+      "src": "file_input [0,180]",
+      "dest": "file_input [0,809]"
+    },
+    {
+      "src": "string: 'quantity' [129,139]",
+      "dest": "string: 'quantity' [688,698]"
+    },
+    {
+      "src": "string: 'product_id' [91,103]",
+      "dest": "string: 'product_id' [650,662]"
+    },
+    {
+      "src": "operator: , [115,116]",
+      "dest": "operator: , [674,675]"
+    },
+    {
+      "src": "name: order [69,74]",
+      "dest": "name: order [628,633]"
+    },
+    {
+      "src": "name: quantity [50,58]",
+      "dest": "name: quantity [66,74]"
+    },
+    {
+      "src": "dictorsetmaker [91,149]",
+      "dest": "dictorsetmaker [650,741]"
+    },
+    {
+      "src": "expr_stmt [69,159]",
+      "dest": "expr_stmt [628,751]"
+    },
+    {
+      "src": "name: Warehouse [6,15]",
+      "dest": "name: Warehouse [6,15]"
+    },
+    {
+      "src": "simple_stmt [69,160]",
+      "dest": "simple_stmt [628,752]"
+    },
+    {
+      "src": "operator: = [75,76]",
+      "dest": "operator: = [634,635]"
+    },
+    {
+      "src": "funcdef [21,180]",
+      "dest": "funcdef [21,809]"
+    },
+    {
+      "src": "operator: } [158,159]",
+      "dest": "operator: } [750,751]"
+    },
+    {
+      "src": "param [38,49]",
+      "dest": "param [54,65]"
+    },
+    {
+      "src": "parameters [37,59]",
+      "dest": "parameters [37,75]"
+    },
+    {
+      "src": "name: product_id [38,48]",
+      "dest": "name: product_id [54,64]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [38,43]",
+      "parent": "parameters [37,75]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [44,53]",
+      "parent": "parameters [37,75]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [85,508]",
+      "parent": "suite [76,809]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "if_stmt [516,619]",
+      "parent": "suite [76,809]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [760,790]",
+      "parent": "suite [76,809]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "return_stmt [798,809]",
+      "parent": "suite [76,809]",
+      "at": 4
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [760,789]",
+      "parent": "simple_stmt [760,790]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [760,781]",
+      "parent": "expr_stmt [760,789]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [782,783]",
+      "parent": "expr_stmt [760,789]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: order [175,180]",
+      "parent": "expr_stmt [760,789]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [708,709]",
+      "parent": "dictorsetmaker [650,741]",
+      "at": 5
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: 'status' [722,730]",
+      "parent": "dictorsetmaker [650,741]",
+      "at": 6
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: 'Shipped' [732,741]",
+      "parent": "dictorsetmaker [650,741]",
+      "at": 7
+    },
+    {
+      "action": "delete-node",
+      "tree": "return_stmt [168,180]"
+    }
+  ]
+}

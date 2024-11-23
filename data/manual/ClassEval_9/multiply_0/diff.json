@@ -1,0 +1,132 @@
+{
+  "matches": [
+    {
+      "src": "suite [23,95]",
+      "dest": "suite [23,320]"
+    },
+    {
+      "src": "atom_expr [73,82]",
+      "dest": "atom_expr [297,306]"
+    },
+    {
+      "src": "name: multiply [32,40]",
+      "dest": "name: multiply [32,40]"
+    },
+    {
+      "src": "classdef [0,95]",
+      "dest": "classdef [0,320]"
+    },
+    {
+      "src": "operator: , [45,46]",
+      "dest": "operator: , [45,46]"
+    },
+    {
+      "src": "suite [53,95]",
+      "dest": "suite [53,320]"
+    },
+    {
+      "src": "atom_expr [69,95]",
+      "dest": "atom_expr [293,319]"
+    },
+    {
+      "src": "operator: * [83,84]",
+      "dest": "operator: * [307,308]"
+    },
+    {
+      "src": "name: int [73,76]",
+      "dest": "name: int [297,300]"
+    },
+    {
+      "src": "name: num1 [77,81]",
+      "dest": "name: num1 [301,305]"
+    },
+    {
+      "src": "trailer [88,94]",
+      "dest": "trailer [312,318]"
+    },
+    {
+      "src": "name: BigNumCalculator [6,22]",
+      "dest": "name: BigNumCalculator [6,22]"
+    },
+    {
+      "src": "name: str [69,72]",
+      "dest": "name: str [293,296]"
+    },
+    {
+      "src": "name: num1 [41,45]",
+      "dest": "name: num1 [41,45]"
+    },
+    {
+      "src": "term [73,94]",
+      "dest": "term [297,318]"
+    },
+    {
+      "src": "file_input [0,95]",
+      "dest": "file_input [0,320]"
+    },
+    {
+      "src": "param [47,51]",
+      "dest": "param [47,51]"
+    },
+    {
+      "src": "name: num2 [47,51]",
+      "dest": "name: num2 [47,51]"
+    },
+    {
+      "src": "name: num2 [89,93]",
+      "dest": "name: num2 [313,317]"
+    },
+    {
+      "src": "trailer [76,82]",
+      "dest": "trailer [300,306]"
+    },
+    {
+      "src": "name: int [85,88]",
+      "dest": "name: int [309,312]"
+    },
+    {
+      "src": "param [41,46]",
+      "dest": "param [41,46]"
+    },
+    {
+      "src": "parameters [40,52]",
+      "dest": "parameters [40,52]"
+    },
+    {
+      "src": "atom_expr [85,94]",
+      "dest": "atom_expr [309,318]"
+    },
+    {
+      "src": "return_stmt [62,95]",
+      "dest": "return_stmt [286,319]"
+    },
+    {
+      "src": "trailer [72,95]",
+      "dest": "trailer [296,319]"
+    },
+    {
+      "src": "funcdef [28,95]",
+      "dest": "funcdef [28,320]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [62,278]",
+      "parent": "suite [53,320]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [286,320]",
+      "parent": "suite [53,320]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [62,95]",
+      "parent": "simple_stmt [286,320]",
+      "at": 0
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "y",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        calculates the correlation of the given list.\n        :param x: the given list, list.\n        :param y: the given list, list.\n        :return: the correlation of the given list, float.\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "x",
+        "deleted": "lst",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "x",
+        "deleted": "lst",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "x",
+        "deleted": "lst",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "y",
+        "deleted": "lst",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "x",
+        "deleted": "lst",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "y",
+        "deleted": "lst",
+        "type": "Refactoring"
+    }
+]

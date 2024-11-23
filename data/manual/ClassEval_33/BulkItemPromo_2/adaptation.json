@@ -1,0 +1,51 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Calculate the discount based on bulk item quantity in the order.In the same order, if the quantity of a single item reaches 20 or more, each item will enjoy a 10% discount.\n        :param order: object, the order to apply the discount to\n        :return: float, discount amount\n        >>> customer = {'name': 'John Doe', 'fidelity': 1200}\n        >>> cart = [{'product': 'product', 'quantity': 20, 'price': 23.5}]\n        >>> order = DiscountStrategy(customer, cart, DiscountStrategy.BulkItemPromo)\n        >>> DiscountStrategy.BulkItemPromo(order)\n        47.0\n\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "quantity = 0\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "for_stmt",
+        "inserted": "for item in order.cart:\n            quantity += item['quantity']\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "*",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "order.total()",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "discount",
+        "deleted": "discount",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "order",
+        "deleted": "quantity",
+        "type": "Refactoring"
+    }
+]

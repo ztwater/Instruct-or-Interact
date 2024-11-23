@@ -1,0 +1,198 @@
+{
+  "matches": [
+    {
+      "src": "operator: , [85,86]",
+      "dest": "operator: , [435,436]"
+    },
+    {
+      "src": "suite [20,134]",
+      "dest": "suite [20,558]"
+    },
+    {
+      "src": "name: file [129,133]",
+      "dest": "name: file [483,487]"
+    },
+    {
+      "src": "classdef [0,134]",
+      "dest": "classdef [0,558]"
+    },
+    {
+      "src": "arglist [123,133]",
+      "dest": "arglist [477,487]"
+    },
+    {
+      "src": "param [46,55]",
+      "dest": "param [52,61]"
+    },
+    {
+      "src": "suite [57,134]",
+      "dest": "suite [403,510]"
+    },
+    {
+      "src": "name: JSONProcessor [6,19]",
+      "dest": "name: JSONProcessor [6,19]"
+    },
+    {
+      "src": "atom_expr [113,134]",
+      "dest": "atom_expr [467,488]"
+    },
+    {
+      "src": "trailer [122,134]",
+      "dest": "trailer [476,488]"
+    },
+    {
+      "src": "name: data [40,44]",
+      "dest": "name: data [46,50]"
+    },
+    {
+      "src": "file_input [0,134]",
+      "dest": "file_input [0,562]"
+    },
+    {
+      "src": "name: data [123,127]",
+      "dest": "name: data [477,481]"
+    },
+    {
+      "src": "with_item [71,99]",
+      "dest": "with_item [421,449]"
+    },
+    {
+      "src": "operator: , [127,128]",
+      "dest": "operator: , [481,482]"
+    },
+    {
+      "src": "name: file_path [76,85]",
+      "dest": "name: file_path [426,435]"
+    },
+    {
+      "src": "name: json [113,117]",
+      "dest": "name: json [467,471]"
+    },
+    {
+      "src": "param [40,45]",
+      "dest": "param [46,51]"
+    },
+    {
+      "src": "name: dump [118,122]",
+      "dest": "name: dump [472,476]"
+    },
+    {
+      "src": "name: file [95,99]",
+      "dest": "name: file [445,449]"
+    },
+    {
+      "src": "trailer [117,122]",
+      "dest": "trailer [471,476]"
+    },
+    {
+      "src": "string: 'w' [87,90]",
+      "dest": "string: 'w' [437,440]"
+    },
+    {
+      "src": "parameters [39,56]",
+      "dest": "parameters [39,62]"
+    },
+    {
+      "src": "name: open [71,75]",
+      "dest": "name: open [421,425]"
+    },
+    {
+      "src": "arglist [76,90]",
+      "dest": "arglist [426,440]"
+    },
+    {
+      "src": "name: file_path [46,55]",
+      "dest": "name: file_path [52,61]"
+    },
+    {
+      "src": "operator: , [44,45]",
+      "dest": "operator: , [50,51]"
+    },
+    {
+      "src": "with_stmt [66,134]",
+      "dest": "with_stmt [416,489]"
+    },
+    {
+      "src": "name: write_json [29,39]",
+      "dest": "name: write_json [29,39]"
+    },
+    {
+      "src": "trailer [75,91]",
+      "dest": "trailer [425,441]"
+    },
+    {
+      "src": "suite [100,134]",
+      "dest": "suite [450,489]"
+    },
+    {
+      "src": "funcdef [25,134]",
+      "dest": "funcdef [25,558]"
+    },
+    {
+      "src": "atom_expr [71,91]",
+      "dest": "atom_expr [421,441]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "suite [63,558]",
+      "parent": "funcdef [25,558]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [40,45]",
+      "parent": "parameters [39,62]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [72,391]",
+      "parent": "suite [63,558]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "try_stmt [399,558]",
+      "parent": "suite [63,558]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [57,134]",
+      "parent": "try_stmt [399,558]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "except_clause [518,534]",
+      "parent": "try_stmt [399,558]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [535,558]",
+      "parent": "try_stmt [399,558]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [501,510]",
+      "parent": "suite [403,510]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [467,489]",
+      "parent": "suite [450,489]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [113,134]",
+      "parent": "simple_stmt [467,489]",
+      "at": 0
+    }
+  ]
+}

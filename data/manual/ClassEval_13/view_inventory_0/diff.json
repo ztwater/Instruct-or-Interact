@@ -1,0 +1,153 @@
+{
+  "matches": [
+    {
+      "src": "funcdef [26,267]",
+      "dest": "funcdef [26,232]"
+    },
+    {
+      "src": "name: BookManagement [6,20]",
+      "dest": "name: BookManagement [6,20]"
+    },
+    {
+      "src": "name: book [262,266]",
+      "dest": "name: inventory [223,232]"
+    },
+    {
+      "src": "suite [21,267]",
+      "dest": "suite [21,232]"
+    },
+    {
+      "src": "simple_stmt [118,161]",
+      "dest": "simple_stmt [60,203]"
+    },
+    {
+      "src": "name: print [256,261]",
+      "dest": "name: self [218,222]"
+    },
+    {
+      "src": "name: view_inventory [30,44]",
+      "dest": "name: view_inventory [30,44]"
+    },
+    {
+      "src": "parameters [44,46]",
+      "dest": "parameters [44,50]"
+    },
+    {
+      "src": "atom_expr [256,267]",
+      "dest": "atom_expr [218,232]"
+    },
+    {
+      "src": "classdef [0,267]",
+      "dest": "classdef [0,232]"
+    },
+    {
+      "src": "suite [47,267]",
+      "dest": "suite [51,232]"
+    },
+    {
+      "src": "string: 'Book 1' [131,139]",
+      "dest": "string: \"\"\"         Get the inventory of the Book Management.         :return self.inventory: dictionary, {title(str): quantity(int), ...}         \"\"\" [60,202]"
+    },
+    {
+      "src": "trailer [261,267]",
+      "dest": "trailer [222,232]"
+    },
+    {
+      "src": "file_input [0,267]",
+      "dest": "file_input [0,232]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [45,49]",
+      "parent": "parameters [44,50]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "return_stmt [211,232]",
+      "parent": "suite [51,232]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "string: 'Book 1' [131,139]",
+      "label": "\"\"\"         Get the inventory of the Book Management.         :return self.inventory: dictionary, {title(str): quantity(int), ...}         \"\"\""
+    },
+    {
+      "action": "move-tree",
+      "tree": "string: 'Book 1' [131,139]",
+      "parent": "simple_stmt [60,203]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [256,267]",
+      "parent": "return_stmt [211,232]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: print [256,261]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: book [262,266]",
+      "label": "inventory"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: inventory [118,127]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: = [128,129]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [139,140]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: 'Book 2' [141,149]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [149,150]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: 'Book 3' [151,159]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "testlist_comp [131,159]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom [130,160]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [118,160]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: book [225,229]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: inventory [233,242]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [243,267]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "for_stmt [221,267]"
+    }
+  ]
+}

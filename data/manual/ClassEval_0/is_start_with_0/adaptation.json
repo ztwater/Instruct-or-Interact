@@ -1,0 +1,23 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "prefixes = ['/api/data']  # Add the prefixes to check against\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "request_uri",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "request_uri",
+        "deleted": "prefixes",
+        "type": "Refactoring"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        get all majors in the system\n        :return a list of majors\n        >>> registration_system = ClassRegistrationSystem()\n        >>> registration_system.students = [{\"name\": \"John\", \"major\": \"Computer Science\"}],\n        >>> registration_system.get_all_major(student1)\n        [\"Computer Science\"]\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return majors\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return majors",
+        "deleted": "return majors",
+        "type": "Move"
+    }
+]

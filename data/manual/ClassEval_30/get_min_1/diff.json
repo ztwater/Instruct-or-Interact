@@ -1,0 +1,112 @@
+{
+  "matches": [
+    {
+      "src": "suite [22,70]",
+      "dest": "suite [22,172]"
+    },
+    {
+      "src": "name: get_min [31,38]",
+      "dest": "name: get_min [31,38]"
+    },
+    {
+      "src": "classdef [0,70]",
+      "dest": "classdef [0,172]"
+    },
+    {
+      "src": "suite [45,70]",
+      "dest": "suite [45,172]"
+    },
+    {
+      "src": "name: data [65,69]",
+      "dest": "name: data [167,171]"
+    },
+    {
+      "src": "name: DataStatistics2 [6,21]",
+      "dest": "name: DataStatistics2 [6,21]"
+    },
+    {
+      "src": "trailer [64,70]",
+      "dest": "trailer [166,171]"
+    },
+    {
+      "src": "name: min [61,64]",
+      "dest": "name: self [162,166]"
+    },
+    {
+      "src": "return_stmt [54,70]",
+      "dest": "return_stmt [148,172]"
+    },
+    {
+      "src": "file_input [0,70]",
+      "dest": "file_input [0,172]"
+    },
+    {
+      "src": "atom_expr [61,70]",
+      "dest": "atom_expr [162,171]"
+    },
+    {
+      "src": "funcdef [27,70]",
+      "dest": "funcdef [27,172]"
+    },
+    {
+      "src": "param [39,43]",
+      "dest": "param [39,43]"
+    },
+    {
+      "src": "parameters [38,44]",
+      "dest": "parameters [38,44]"
+    },
+    {
+      "src": "name: data [39,43]",
+      "dest": "name: self [39,43]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [54,140]",
+      "parent": "suite [45,172]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: data [39,43]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [155,172]",
+      "parent": "return_stmt [148,172]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: np [155,157]",
+      "parent": "atom_expr [155,172]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [157,161]",
+      "parent": "atom_expr [155,172]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [161,172]",
+      "parent": "atom_expr [155,172]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [61,70]",
+      "parent": "trailer [161,172]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: min [61,64]",
+      "label": "self"
+    }
+  ]
+}

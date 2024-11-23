@@ -1,0 +1,16 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Get all available time slots on a given date.\n        :param date: The date to get available time slots for,datetime.\n        :return: A list of available time slots on the given date,list.\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    }
+]

@@ -1,0 +1,102 @@
+{
+  "matches": [
+    {
+      "src": "suite [29,128]",
+      "dest": "suite [29,122]"
+    },
+    {
+      "src": "name: html [76,80]",
+      "dest": "name: html [76,80]"
+    },
+    {
+      "src": "trailer [114,128]",
+      "dest": "trailer [114,122]"
+    },
+    {
+      "src": "classdef [0,128]",
+      "dest": "classdef [0,122]"
+    },
+    {
+      "src": "suite [60,128]",
+      "dest": "suite [60,122]"
+    },
+    {
+      "src": "name: input_string [115,127]",
+      "dest": "name: string [115,121]"
+    },
+    {
+      "src": "param [46,58]",
+      "dest": "param [52,58]"
+    },
+    {
+      "src": "name: unescape [106,114]",
+      "dest": "name: unescape [106,114]"
+    },
+    {
+      "src": "name: html [101,105]",
+      "dest": "name: html [101,105]"
+    },
+    {
+      "src": "trailer [105,114]",
+      "dest": "trailer [105,114]"
+    },
+    {
+      "src": "atom_expr [101,128]",
+      "dest": "atom_expr [101,122]"
+    },
+    {
+      "src": "import_name [69,80]",
+      "dest": "import_name [69,80]"
+    },
+    {
+      "src": "name: NumericEntityUnescaper [6,28]",
+      "dest": "name: NumericEntityUnescaper [6,28]"
+    },
+    {
+      "src": "return_stmt [94,128]",
+      "dest": "return_stmt [94,122]"
+    },
+    {
+      "src": "file_input [0,128]",
+      "dest": "file_input [0,122]"
+    },
+    {
+      "src": "simple_stmt [69,81]",
+      "dest": "simple_stmt [69,81]"
+    },
+    {
+      "src": "funcdef [34,128]",
+      "dest": "funcdef [34,122]"
+    },
+    {
+      "src": "name: replace [38,45]",
+      "dest": "name: replace [38,45]"
+    },
+    {
+      "src": "parameters [45,59]",
+      "dest": "parameters [45,59]"
+    },
+    {
+      "src": "name: input_string [46,58]",
+      "dest": "name: string [52,58]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [46,51]",
+      "parent": "parameters [45,59]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: input_string [46,58]",
+      "label": "string"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: input_string [115,127]",
+      "label": "string"
+    }
+  ]
+}

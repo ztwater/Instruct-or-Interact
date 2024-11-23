@@ -1,0 +1,135 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "recv,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Sends an email to the given email address.\n        :param recv: The email address of the receiver, str.\n        :param content: The content of the email, str.\n        :param size: The size of the email, float.\n        :return: True if the email is sent successfully, False if the receiver's email box is full.\n        >>> sender = EmailClient('sender@example.com', 100)\n        >>> receiver = EmailClient('receiver@example.com', 50)\n        >>> sender.send_to(receiver, 'Hello', 10)\n        True\n        >>> receiver.inbox\n        {'sender': 'sender@example.com', 'receiver': 'receiver@example.com', 'content': 'Hello', 'size': 10, 'time': '2023-07-13 11:36:40', 'state': 'unread'}\n\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "if_stmt",
+        "inserted": "if recv.is_full_with_one_more_email(size):\n            return False\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "email_data = {\n            'sender': sender_email,\n            'receiver': receiver_email,\n            'content': email_subject,\n            'size': size,\n            'time': datetime.now().strftime(\"%Y-%m-%d %H:%M:%S\"),\n            'state': 'unread'\n        }\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "recv.inbox.append(email_data)\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "return_stmt",
+        "inserted": "return True",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "self.addr",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "smtp.send_message(email)\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "recv",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".addr",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "string",
+        "inserted": "",
+        "deleted": "'your_email@example.com'",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "smtp.send_message(email)",
+        "deleted": "smtp.send_message(email)",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "email_address",
+        "deleted": "email_address",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "email_address",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "content",
+        "deleted": "subject",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "size",
+        "deleted": "message",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "content",
+        "deleted": "subject",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "size",
+        "deleted": "message",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "addr",
+        "deleted": "email_address",
+        "type": "Refactoring"
+    }
+]

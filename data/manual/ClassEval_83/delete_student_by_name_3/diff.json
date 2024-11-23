@@ -1,0 +1,260 @@
+{
+  "matches": [
+    {
+      "src": "atom_expr [366,379]",
+      "dest": "atom_expr [551,564]"
+    },
+    {
+      "src": "suite [31,400]",
+      "dest": "suite [31,585]"
+    },
+    {
+      "src": "operator: = [165,166]",
+      "dest": "operator: = [350,351]"
+    },
+    {
+      "src": "classdef [0,400]",
+      "dest": "classdef [0,585]"
+    },
+    {
+      "src": "simple_stmt [366,380]",
+      "dest": "simple_stmt [551,565]"
+    },
+    {
+      "src": "suite [69,400]",
+      "dest": "suite [75,585]"
+    },
+    {
+      "src": "param [63,67]",
+      "dest": "param [69,73]"
+    },
+    {
+      "src": "name: delete_student_by_name [40,62]",
+      "dest": "name: delete_student_by_name [40,62]"
+    },
+    {
+      "src": "trailer [171,178]",
+      "dest": "trailer [356,363]"
+    },
+    {
+      "src": "atom_expr [388,400]",
+      "dest": "atom_expr [573,585]"
+    },
+    {
+      "src": "name: commit [371,377]",
+      "dest": "name: commit [556,562]"
+    },
+    {
+      "src": "operator: , [295,296]",
+      "dest": "operator: , [480,481]"
+    },
+    {
+      "src": "trailer [178,180]",
+      "dest": "trailer [363,365]"
+    },
+    {
+      "src": "name: cursor [172,178]",
+      "dest": "name: cursor [357,363]"
+    },
+    {
+      "src": "name: conn [388,392]",
+      "dest": "name: conn [573,577]"
+    },
+    {
+      "src": "string: \"DELETE FROM students WHERE name=?\" [253,288]",
+      "dest": "string: \"DELETE FROM students WHERE name=?\" [438,473]"
+    },
+    {
+      "src": "name: conn [112,116]",
+      "dest": "name: conn [292,296]"
+    },
+    {
+      "src": "atom_expr [167,180]",
+      "dest": "atom_expr [352,365]"
+    },
+    {
+      "src": "name: execute [245,252]",
+      "dest": "name: execute [430,437]"
+    },
+    {
+      "src": "name: conn [167,171]",
+      "dest": "name: conn [352,356]"
+    },
+    {
+      "src": "name: name [63,67]",
+      "dest": "name: name [69,73]"
+    },
+    {
+      "src": "trailer [370,377]",
+      "dest": "trailer [555,562]"
+    },
+    {
+      "src": "name: connect [127,134]",
+      "dest": "name: connect [307,314]"
+    },
+    {
+      "src": "trailer [134,149]",
+      "dest": "trailer [319,333]"
+    },
+    {
+      "src": "funcdef [36,400]",
+      "dest": "funcdef [36,585]"
+    },
+    {
+      "src": "atom_expr [238,298]",
+      "dest": "atom_expr [423,483]"
+    },
+    {
+      "src": "name: cursor [158,164]",
+      "dest": "name: cursor [343,349]"
+    },
+    {
+      "src": "operator: , [288,289]",
+      "dest": "operator: , [473,474]"
+    },
+    {
+      "src": "trailer [392,398]",
+      "dest": "trailer [577,583]"
+    },
+    {
+      "src": "name: conn [366,370]",
+      "dest": "name: conn [551,555]"
+    },
+    {
+      "src": "simple_stmt [112,150]",
+      "dest": "simple_stmt [292,335]"
+    },
+    {
+      "src": "name: cursor [238,244]",
+      "dest": "name: cursor [423,429]"
+    },
+    {
+      "src": "operator: = [117,118]",
+      "dest": "operator: = [297,298]"
+    },
+    {
+      "src": "name: name [291,295]",
+      "dest": "name: name [476,480]"
+    },
+    {
+      "src": "expr_stmt [158,180]",
+      "dest": "expr_stmt [343,365]"
+    },
+    {
+      "src": "name: StudentDatabaseProcessor [6,30]",
+      "dest": "name: StudentDatabaseProcessor [6,30]"
+    },
+    {
+      "src": "trailer [398,400]",
+      "dest": "trailer [583,585]"
+    },
+    {
+      "src": "file_input [0,400]",
+      "dest": "file_input [0,585]"
+    },
+    {
+      "src": "parameters [62,68]",
+      "dest": "parameters [62,74]"
+    },
+    {
+      "src": "atom_expr [119,149]",
+      "dest": "atom_expr [299,334]"
+    },
+    {
+      "src": "name: close [393,398]",
+      "dest": "name: close [578,583]"
+    },
+    {
+      "src": "testlist_comp [291,296]",
+      "dest": "testlist_comp [476,481]"
+    },
+    {
+      "src": "simple_stmt [158,181]",
+      "dest": "simple_stmt [343,366]"
+    },
+    {
+      "src": "name: sqlite3 [119,126]",
+      "dest": "name: sqlite3 [299,306]"
+    },
+    {
+      "src": "trailer [126,134]",
+      "dest": "trailer [306,314]"
+    },
+    {
+      "src": "atom [290,297]",
+      "dest": "atom [475,482]"
+    },
+    {
+      "src": "expr_stmt [112,149]",
+      "dest": "expr_stmt [292,334]"
+    },
+    {
+      "src": "arglist [253,297]",
+      "dest": "arglist [438,482]"
+    },
+    {
+      "src": "trailer [377,379]",
+      "dest": "trailer [562,564]"
+    },
+    {
+      "src": "simple_stmt [238,299]",
+      "dest": "simple_stmt [423,484]"
+    },
+    {
+      "src": "trailer [252,298]",
+      "dest": "trailer [437,483]"
+    },
+    {
+      "src": "trailer [244,252]",
+      "dest": "trailer [429,437]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [63,68]",
+      "parent": "parameters [62,74]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [84,250]",
+      "parent": "suite [75,585]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [314,334]",
+      "parent": "atom_expr [299,334]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [315,333]",
+      "parent": "trailer [314,334]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [315,319]",
+      "parent": "atom_expr [315,333]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [134,149]",
+      "parent": "atom_expr [315,333]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: database_name [320,333]",
+      "parent": "trailer [319,333]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: 'database.db' [135,148]"
+    }
+  ]
+}

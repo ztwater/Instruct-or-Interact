@@ -1,0 +1,249 @@
+{
+  "matches": [
+    {
+      "src": "string: 'heat' [164,170]",
+      "dest": "string: 'heat' [411,417]"
+    },
+    {
+      "src": "suite [17,250]",
+      "dest": "suite [17,462]"
+    },
+    {
+      "src": "expr_stmt [197,220]",
+      "dest": "expr_stmt [444,462]"
+    },
+    {
+      "src": "classdef [0,250]",
+      "dest": "classdef [0,462]"
+    },
+    {
+      "src": "suite [81,250]",
+      "dest": "suite [46,462]"
+    },
+    {
+      "src": "parameters [39,80]",
+      "dest": "parameters [39,45]"
+    },
+    {
+      "src": "string: 'cool' [214,220]",
+      "dest": "string: 'cool' [456,462]"
+    },
+    {
+      "src": "name: operating_mode [197,211]",
+      "dest": "name: mode [449,453]"
+    },
+    {
+      "src": "name: target_temperature [115,133]",
+      "dest": "name: target_temperature [367,385]"
+    },
+    {
+      "src": "name: current_temperature [40,59]",
+      "dest": "name: self [40,44]"
+    },
+    {
+      "src": "file_input [0,250]",
+      "dest": "file_input [0,462]"
+    },
+    {
+      "src": "operator: = [212,213]",
+      "dest": "operator: = [454,455]"
+    },
+    {
+      "src": "operator: < [113,114]",
+      "dest": "operator: < [360,361]"
+    },
+    {
+      "src": "name: operating_mode [147,161]",
+      "dest": "name: mode [404,408]"
+    },
+    {
+      "src": "operator: = [162,163]",
+      "dest": "operator: = [409,410]"
+    },
+    {
+      "src": "expr_stmt [147,170]",
+      "dest": "expr_stmt [399,417]"
+    },
+    {
+      "src": "name: auto_set_mode [26,39]",
+      "dest": "name: auto_set_mode [26,39]"
+    },
+    {
+      "src": "suite [184,221]",
+      "dest": "suite [431,462]"
+    },
+    {
+      "src": "name: Thermostat [6,16]",
+      "dest": "name: Thermostat [6,16]"
+    },
+    {
+      "src": "if_stmt [90,221]",
+      "dest": "if_stmt [332,462]"
+    },
+    {
+      "src": "comparison [93,133]",
+      "dest": "comparison [335,385]"
+    },
+    {
+      "src": "funcdef [22,250]",
+      "dest": "funcdef [22,462]"
+    },
+    {
+      "src": "suite [134,171]",
+      "dest": "suite [386,418]"
+    },
+    {
+      "src": "name: current_temperature [93,112]",
+      "dest": "name: current_temperature [340,359]"
+    },
+    {
+      "src": "param [40,60]",
+      "dest": "param [40,44]"
+    },
+    {
+      "src": "simple_stmt [147,171]",
+      "dest": "simple_stmt [399,418]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [55,324]",
+      "parent": "suite [46,462]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: current_temperature [40,59]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [335,359]",
+      "parent": "comparison [335,385]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [362,385]",
+      "parent": "comparison [335,385]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "expr_stmt [197,220]",
+      "parent": "suite [431,462]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [335,339]",
+      "parent": "atom_expr [335,359]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [339,359]",
+      "parent": "atom_expr [335,359]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [362,366]",
+      "parent": "atom_expr [362,385]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [366,385]",
+      "parent": "atom_expr [362,385]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [444,453]",
+      "parent": "expr_stmt [444,462]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: current_temperature [93,112]",
+      "parent": "trailer [339,359]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: target_temperature [115,133]",
+      "parent": "trailer [366,385]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [399,408]",
+      "parent": "expr_stmt [399,417]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [444,448]",
+      "parent": "atom_expr [444,453]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [448,453]",
+      "parent": "atom_expr [444,453]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [399,403]",
+      "parent": "atom_expr [399,408]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [403,408]",
+      "parent": "atom_expr [399,408]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: operating_mode [197,211]",
+      "label": "mode"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: operating_mode [197,211]",
+      "parent": "trailer [448,453]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: operating_mode [147,161]",
+      "label": "mode"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: operating_mode [147,161]",
+      "parent": "trailer [403,408]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [59,60]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "param [61,79]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [197,221]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "return_stmt [229,250]"
+    }
+  ]
+}

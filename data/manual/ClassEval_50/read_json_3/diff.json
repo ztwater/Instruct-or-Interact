@@ -1,0 +1,192 @@
+{
+  "matches": [
+    {
+      "src": "name: JSONProcessor [6,19]",
+      "dest": "name: JSONProcessor [6,19]"
+    },
+    {
+      "src": "suite [20,148]",
+      "dest": "suite [20,675]"
+    },
+    {
+      "src": "name: file [123,127]",
+      "dest": "name: file [607,611]"
+    },
+    {
+      "src": "arglist [69,83]",
+      "dest": "arglist [549,563]"
+    },
+    {
+      "src": "classdef [0,148]",
+      "dest": "classdef [0,675]"
+    },
+    {
+      "src": "trailer [117,122]",
+      "dest": "trailer [601,606]"
+    },
+    {
+      "src": "suite [50,148]",
+      "dest": "suite [526,637]"
+    },
+    {
+      "src": "with_item [64,92]",
+      "dest": "with_item [544,572]"
+    },
+    {
+      "src": "name: file [88,92]",
+      "dest": "name: file [568,572]"
+    },
+    {
+      "src": "name: read_json [29,38]",
+      "dest": "name: read_json [29,38]"
+    },
+    {
+      "src": "name: file_path [69,78]",
+      "dest": "name: file_path [549,558]"
+    },
+    {
+      "src": "string: 'r' [80,83]",
+      "dest": "string: 'r' [560,563]"
+    },
+    {
+      "src": "expr_stmt [106,128]",
+      "dest": "expr_stmt [590,612]"
+    },
+    {
+      "src": "atom_expr [64,84]",
+      "dest": "atom_expr [544,564]"
+    },
+    {
+      "src": "name: json [113,117]",
+      "dest": "name: json [597,601]"
+    },
+    {
+      "src": "trailer [68,84]",
+      "dest": "trailer [548,564]"
+    },
+    {
+      "src": "file_input [0,148]",
+      "dest": "file_input [0,675]"
+    },
+    {
+      "src": "name: load [118,122]",
+      "dest": "name: load [602,606]"
+    },
+    {
+      "src": "param [39,48]",
+      "dest": "param [45,54]"
+    },
+    {
+      "src": "trailer [122,128]",
+      "dest": "trailer [606,612]"
+    },
+    {
+      "src": "name: data [106,110]",
+      "dest": "name: data [590,594]"
+    },
+    {
+      "src": "name: data [144,148]",
+      "dest": "name: data [632,636]"
+    },
+    {
+      "src": "operator: , [78,79]",
+      "dest": "operator: , [558,559]"
+    },
+    {
+      "src": "simple_stmt [106,129]",
+      "dest": "simple_stmt [590,613]"
+    },
+    {
+      "src": "atom_expr [113,128]",
+      "dest": "atom_expr [597,612]"
+    },
+    {
+      "src": "operator: = [111,112]",
+      "dest": "operator: = [595,596]"
+    },
+    {
+      "src": "suite [93,129]",
+      "dest": "suite [573,613]"
+    },
+    {
+      "src": "return_stmt [137,148]",
+      "dest": "return_stmt [625,636]"
+    },
+    {
+      "src": "parameters [38,49]",
+      "dest": "parameters [38,55]"
+    },
+    {
+      "src": "name: file_path [39,48]",
+      "dest": "name: file_path [45,54]"
+    },
+    {
+      "src": "with_stmt [59,129]",
+      "dest": "with_stmt [539,613]"
+    },
+    {
+      "src": "name: open [64,68]",
+      "dest": "name: open [544,548]"
+    },
+    {
+      "src": "funcdef [25,148]",
+      "dest": "funcdef [25,675]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "suite [56,675]",
+      "parent": "funcdef [25,675]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [39,44]",
+      "parent": "parameters [38,55]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [65,451]",
+      "parent": "suite [56,675]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "if_stmt [459,514]",
+      "parent": "suite [56,675]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "try_stmt [522,675]",
+      "parent": "suite [56,675]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [50,148]",
+      "parent": "try_stmt [522,675]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [652,675]",
+      "parent": "try_stmt [522,675]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [625,637]",
+      "parent": "suite [526,637]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [137,148]",
+      "parent": "simple_stmt [625,637]",
+      "at": 0
+    }
+  ]
+}

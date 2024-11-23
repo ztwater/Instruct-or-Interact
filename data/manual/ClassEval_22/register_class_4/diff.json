@@ -1,0 +1,171 @@
+{
+  "matches": [
+    {
+      "src": "trailer [91,99]",
+      "dest": "trailer [366,396]"
+    },
+    {
+      "src": "trailer [99,106]",
+      "dest": "trailer [410,417]"
+    },
+    {
+      "src": "suite [30,118]",
+      "dest": "suite [30,592]"
+    },
+    {
+      "src": "name: ClassRegistrationSystem [6,29]",
+      "dest": "name: ClassRegistrationSystem [6,29]"
+    },
+    {
+      "src": "classdef [0,118]",
+      "dest": "classdef [0,592]"
+    },
+    {
+      "src": "name: class_name [107,117]",
+      "dest": "name: class_name [418,428]"
+    },
+    {
+      "src": "trailer [106,118]",
+      "dest": "trailer [417,429]"
+    },
+    {
+      "src": "name: register_class [39,53]",
+      "dest": "name: register_class [39,53]"
+    },
+    {
+      "src": "name: append [100,106]",
+      "dest": "name: append [411,417]"
+    },
+    {
+      "src": "name: classes [92,99]",
+      "dest": "name: students_registration_classes [367,396]"
+    },
+    {
+      "src": "name: student [54,61]",
+      "dest": "name: student_name [60,72]"
+    },
+    {
+      "src": "atom_expr [84,118]",
+      "dest": "atom_expr [362,429]"
+    },
+    {
+      "src": "param [63,73]",
+      "dest": "param [74,84]"
+    },
+    {
+      "src": "name: class_name [63,73]",
+      "dest": "name: class_name [74,84]"
+    },
+    {
+      "src": "parameters [53,74]",
+      "dest": "parameters [53,85]"
+    },
+    {
+      "src": "name: student [84,91]",
+      "dest": "name: self [362,366]"
+    },
+    {
+      "src": "file_input [0,118]",
+      "dest": "file_input [0,592]"
+    },
+    {
+      "src": "operator: , [61,62]",
+      "dest": "operator: , [72,73]"
+    },
+    {
+      "src": "funcdef [35,118]",
+      "dest": "funcdef [35,592]"
+    },
+    {
+      "src": "param [54,62]",
+      "dest": "param [60,73]"
+    },
+    {
+      "src": "suite [75,118]",
+      "dest": "suite [349,430]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "suite [86,592]",
+      "parent": "funcdef [35,592]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [54,59]",
+      "parent": "parameters [53,85]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [95,287]",
+      "parent": "suite [86,592]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [295,520]",
+      "parent": "suite [86,592]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "return_stmt [537,592]",
+      "parent": "suite [86,592]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: student [54,61]",
+      "label": "student_name"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [298,348]",
+      "parent": "if_stmt [295,520]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [75,118]",
+      "parent": "if_stmt [295,520]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [443,520]",
+      "parent": "if_stmt [295,520]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [362,430]",
+      "parent": "suite [349,430]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [84,118]",
+      "parent": "simple_stmt [362,430]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: student [84,91]",
+      "label": "self"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [396,410]",
+      "parent": "atom_expr [362,429]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: classes [92,99]",
+      "label": "students_registration_classes"
+    }
+  ]
+}

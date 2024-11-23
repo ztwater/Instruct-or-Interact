@@ -1,0 +1,150 @@
+### Method Description:
+    def check_winner(self, player_hand, dealer_hand):
+        """
+        Determines the winner of a game by comparing the hand values of the player and dealer.
+        rule:
+        If both players have hand values that are equal to or less than 21, the winner is the one whose hand value is closer to 21.
+        Otherwise, the winner is the one with the lower hand value.
+        :param player_hand: list
+        :param dealer_hand: list
+        :return: the result of the game, only two certain str: 'Dealer wins' or 'Player wins'
+        >>> black_jack_game.check_winner(['QD', '9D', 'JC', 'QH', 'AS'], ['QD', '9D', 'JC', 'QH', '2S'])
+        'Player wins'
+        """
+
+### Solution Code:
+    def check_winner(self, player_hand, dealer_hand):
+        player_value = self.calculate_hand_value(player_hand)
+        dealer_value = self.calculate_hand_value(dealer_hand)
+        if player_value > 21 and dealer_value > 21:
+            if player_value <= dealer_value:
+                return 'Player wins'
+            else:
+                return 'Dealer wins'
+        elif player_value > 21:
+            return 'Dealer wins'
+        elif dealer_value > 21:
+            return 'Player wins'
+        else:
+            if player_value <= dealer_value:
+                return 'Dealer wins'
+            else:
+                return 'Player wins'
+
+### Source Code:
+    def check_winner(player_hand, dealer_hand):
+        player_value = sum(player_hand)
+        dealer_value = sum(dealer_hand)
+    
+        if player_value > dealer_value:
+            return "Player wins!"
+        elif player_value < dealer_value:
+            return "Dealer wins!"
+        else:
+            return "It's a tie!"
+
+### Predicted Code:
+    def check_winner(self, player_hand, dealer_hand):
+        player_value = self.calculate_hand_value(player_hand)
+        dealer_value = self.calculate_hand_value(dealer_hand)
+
+        if player_value <= 21 and dealer_value <= 21:
+            if abs(21 - player_value) < abs(21 - dealer_value):
+                return "Player wins"
+            elif abs(21 - dealer_value) < abs(21 - player_value):
+                return "Dealer wins"
+            else:
+                return "It's a tie"
+        elif player_value <= 21 and dealer_value > 21:
+            return "Player wins"
+        elif player_value > 21 and dealer_value <= 21:
+            return "Dealer wins"
+        else:
+            if player_value < dealer_value:
+                return "Player wins"
+            elif player_value > dealer_value:
+                return "Dealer wins"
+            else:
+                return "It's a tie"
+
+### Adaptation:
+Total number: 16
+### Raw Output:
+```
+    def check_winner(self, player_hand, dealer_hand):
+        player_value = self.calculate_hand_value(player_hand)
+        dealer_value = self.calculate_hand_value(dealer_hand)
+
+        if player_value <= 21 and dealer_value <= 21:
+            if abs(21 - player_value) < abs(21 - dealer_value):
+                return "Player wins"
+            elif abs(21 - dealer_value) < abs(21 - player_value):
+                return "Dealer wins"
+            else:
+                return "It's a tie"
+        elif player_value <= 21 and dealer_value > 21:
+            return "Player wins"
+        elif player_value > 21 and dealer_value <= 21:
+            return "Dealer wins"
+        else:
+            if player_value < dealer_value:
+                return "Player wins"
+            elif player_value > dealer_value:
+                return "Dealer wins"
+            else:
+                return "It's a tie"
+```
+
+### Test Code:
+class BlackjackGameTestCheckWinner(unittest.TestCase):
+    def setUp(self):
+        self.blackjackGame = BlackjackGame()
+
+    # player > 21 but dealer not, dealer wins.
+    def test_check_winner_1(self):
+        player_hand = ['2S', 'JS', 'QS']
+        dealer_hand = ['7S', '9S']
+        self.assertEqual(self.blackjackGame.check_winner(player_hand, dealer_hand), 'Dealer wins')
+
+    # dealer > 21 but player not, player wins.
+    def test_check_winner_2(self):
+        player_hand = ['2S', '4S', '5S']
+        dealer_hand = ['2S', 'JS', 'QS']
+        self.assertEqual(self.blackjackGame.check_winner(player_hand, dealer_hand), 'Player wins')
+
+    # both > 21 but dealer smaller, dealer wins.
+    def test_check_winner_3(self):
+        player_hand = ['3S', 'JS', 'QS']
+        dealer_hand = ['2S', 'JS', 'QS']
+        self.assertEqual(self.blackjackGame.check_winner(player_hand, dealer_hand), 'Dealer wins')
+
+    # both > 21 but player smaller, player wins.
+    def test_check_winner_4(self):
+        player_hand = ['2S', 'JS', 'QS']
+        dealer_hand = ['3S', 'JS', 'QS']
+        self.assertEqual(self.blackjackGame.check_winner(player_hand, dealer_hand), 'Player wins')
+
+    # both < 21 but dealer is bigger, dealer wins.
+    def test_check_winner_5(self):
+        player_hand = ['2S', '3S', '5S']
+        dealer_hand = ['AS', 'JS']
+        self.assertEqual(self.blackjackGame.check_winner(player_hand, dealer_hand), 'Dealer wins')
+
+    # both < 21 but player is bigger, player wins.
+    def test_check_winner_6(self):
+        player_hand = ['AS', 'JS']
+        dealer_hand = ['2S', '3S', '5S']
+        self.assertEqual(self.blackjackGame.check_winner(player_hand, dealer_hand), 'Player wins')
+
+### Test Output:
+# 0 errors, 0 failures in 6 runs.
+# errors:
+# failures:
+
+
+### Dependencies:
+# lib_dependencies: 
+# field_dependencies: 
+# method_dependencies: calculate_hand_value
+
+

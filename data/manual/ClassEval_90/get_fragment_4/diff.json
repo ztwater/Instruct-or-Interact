@@ -1,0 +1,133 @@
+{
+  "matches": [
+    {
+      "src": "trailer [67,73]",
+      "dest": "trailer [73,79]"
+    },
+    {
+      "src": "name: fragment [53,61]",
+      "dest": "name: fragment [54,62]"
+    },
+    {
+      "src": "suite [17,106]",
+      "dest": "suite [17,112]"
+    },
+    {
+      "src": "name: URLHandler [6,16]",
+      "dest": "name: URLHandler [6,16]"
+    },
+    {
+      "src": "factor [79,81]",
+      "dest": "factor [85,87]"
+    },
+    {
+      "src": "name: fragment [98,106]",
+      "dest": "name: fragment [104,112]"
+    },
+    {
+      "src": "name: url [64,67]",
+      "dest": "name: url [70,73]"
+    },
+    {
+      "src": "classdef [0,106]",
+      "dest": "classdef [0,112]"
+    },
+    {
+      "src": "suite [44,106]",
+      "dest": "suite [45,112]"
+    },
+    {
+      "src": "trailer [73,78]",
+      "dest": "trailer [79,84]"
+    },
+    {
+      "src": "operator: - [79,80]",
+      "dest": "operator: - [85,86]"
+    },
+    {
+      "src": "return_stmt [91,106]",
+      "dest": "return_stmt [97,112]"
+    },
+    {
+      "src": "operator: = [62,63]",
+      "dest": "operator: = [63,64]"
+    },
+    {
+      "src": "file_input [0,106]",
+      "dest": "file_input [0,112]"
+    },
+    {
+      "src": "name: split [68,73]",
+      "dest": "name: split [74,79]"
+    },
+    {
+      "src": "expr_stmt [53,82]",
+      "dest": "expr_stmt [54,88]"
+    },
+    {
+      "src": "number: 1 [80,81]",
+      "dest": "number: 1 [86,87]"
+    },
+    {
+      "src": "name: url [39,42]",
+      "dest": "name: self [39,43]"
+    },
+    {
+      "src": "param [39,42]",
+      "dest": "param [39,43]"
+    },
+    {
+      "src": "string: '#' [74,77]",
+      "dest": "string: '#' [80,83]"
+    },
+    {
+      "src": "name: get_fragment [26,38]",
+      "dest": "name: get_fragment [26,38]"
+    },
+    {
+      "src": "atom_expr [64,82]",
+      "dest": "atom_expr [65,88]"
+    },
+    {
+      "src": "parameters [38,43]",
+      "dest": "parameters [38,44]"
+    },
+    {
+      "src": "simple_stmt [53,83]",
+      "dest": "simple_stmt [54,89]"
+    },
+    {
+      "src": "trailer [78,82]",
+      "dest": "trailer [84,88]"
+    },
+    {
+      "src": "funcdef [22,106]",
+      "dest": "funcdef [22,112]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "update-node",
+      "tree": "name: url [39,42]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [65,69]",
+      "parent": "atom_expr [65,88]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [69,73]",
+      "parent": "atom_expr [65,88]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: url [64,67]",
+      "parent": "trailer [69,73]",
+      "at": 0
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "matches": [
+    {
+      "src": "param [57,65]",
+      "dest": "param [61,69]"
+    },
+    {
+      "src": "name: inventory [170,179]",
+      "dest": "name: inventory [207,216]"
+    },
+    {
+      "src": "suite [16,224]",
+      "dest": "suite [16,267]"
+    },
+    {
+      "src": "name: quantity [57,65]",
+      "dest": "name: quantity [61,69]"
+    },
+    {
+      "src": "classdef [0,224]",
+      "dest": "classdef [0,267]"
+    },
+    {
+      "src": "atom_expr [170,188]",
+      "dest": "atom_expr [202,228]"
+    },
+    {
+      "src": "suite [67,224]",
+      "dest": "suite [71,267]"
+    },
+    {
+      "src": "operator: += [132,134]",
+      "dest": "operator: += [164,166]"
+    },
+    {
+      "src": "name: product [180,187]",
+      "dest": "name: product_id [217,227]"
+    },
+    {
+      "src": "comparison [79,99]",
+      "dest": "comparison [83,111]"
+    },
+    {
+      "src": "name: inventory [90,99]",
+      "dest": "name: inventory [102,111]"
+    },
+    {
+      "src": "param [48,56]",
+      "dest": "param [43,54]"
+    },
+    {
+      "src": "name: product [79,86]",
+      "dest": "name: product_id [83,93]"
+    },
+    {
+      "src": "name: Warehouse [6,15]",
+      "dest": "name: Warehouse [6,15]"
+    },
+    {
+      "src": "simple_stmt [113,144]",
+      "dest": "simple_stmt [125,176]"
+    },
+    {
+      "src": "expr_stmt [113,143]",
+      "dest": "expr_stmt [125,175]"
+    },
+    {
+      "src": "atom_expr [113,131]",
+      "dest": "atom_expr [125,163]"
+    },
+    {
+      "src": "name: inventory [113,122]",
+      "dest": "name: inventory [130,139]"
+    },
+    {
+      "src": "operator: = [189,190]",
+      "dest": "operator: = [229,230]"
+    },
+    {
+      "src": "file_input [0,224]",
+      "dest": "file_input [0,267]"
+    },
+    {
+      "src": "suite [100,144]",
+      "dest": "suite [112,176]"
+    },
+    {
+      "src": "name: add_product [25,36]",
+      "dest": "name: add_product [25,36]"
+    },
+    {
+      "src": "param [37,47]",
+      "dest": "param [37,42]"
+    },
+    {
+      "src": "trailer [179,188]",
+      "dest": "trailer [216,228]"
+    },
+    {
+      "src": "name: inventory [37,46]",
+      "dest": "name: self [37,41]"
+    },
+    {
+      "src": "trailer [122,131]",
+      "dest": "trailer [139,151]"
+    },
+    {
+      "src": "operator: , [55,56]",
+      "dest": "operator: , [53,54]"
+    },
+    {
+      "src": "operator: , [46,47]",
+      "dest": "operator: , [41,42]"
+    },
+    {
+      "src": "if_stmt [76,200]",
+      "dest": "if_stmt [80,267]"
+    },
+    {
+      "src": "name: quantity [191,199]",
+      "dest": "name: quantity [258,266]"
+    },
+    {
+      "src": "name: quantity [135,143]",
+      "dest": "name: quantity [167,175]"
+    },
+    {
+      "src": "funcdef [21,224]",
+      "dest": "funcdef [21,267]"
+    },
+    {
+      "src": "name: product [123,130]",
+      "dest": "name: product_id [140,150]"
+    },
+    {
+      "src": "suite [157,200]",
+      "dest": "suite [189,267]"
+    },
+    {
+      "src": "name: product [48,55]",
+      "dest": "name: product_id [43,53]"
+    },
+    {
+      "src": "parameters [36,66]",
+      "dest": "parameters [36,70]"
+    },
+    {
+      "src": "expr_stmt [170,199]",
+      "dest": "expr_stmt [202,267]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [55,60]",
+      "parent": "parameters [36,70]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: inventory [37,46]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: product [48,55]",
+      "label": "product_id"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: product [79,86]",
+      "label": "product_id"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [97,111]",
+      "parent": "comparison [83,111]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "expr_stmt [170,199]",
+      "parent": "suite [189,267]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [97,101]",
+      "parent": "atom_expr [97,111]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [101,111]",
+      "parent": "atom_expr [97,111]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom [231,267]",
+      "parent": "expr_stmt [202,267]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: inventory [90,99]",
+      "parent": "trailer [101,111]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [202,206]",
+      "parent": "atom_expr [202,228]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [206,216]",
+      "parent": "atom_expr [202,228]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: { [231,232]",
+      "parent": "atom [231,267]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "dictorsetmaker [232,266]",
+      "parent": "atom [231,267]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: } [266,267]",
+      "parent": "atom [231,267]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [125,129]",
+      "parent": "atom_expr [125,163]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [129,139]",
+      "parent": "atom_expr [125,163]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [151,163]",
+      "parent": "atom_expr [125,163]",
+      "at": 3
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: inventory [170,179]",
+      "parent": "trailer [206,216]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: product [180,187]",
+      "label": "product_id"
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: \"name\" [232,238]",
+      "parent": "dictorsetmaker [232,266]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: name [240,244]",
+      "parent": "dictorsetmaker [232,266]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [244,245]",
+      "parent": "dictorsetmaker [232,266]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: \"quantity\" [246,256]",
+      "parent": "dictorsetmaker [232,266]",
+      "at": 3
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: quantity [191,199]",
+      "parent": "dictorsetmaker [232,266]",
+      "at": 4
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: inventory [113,122]",
+      "parent": "trailer [129,139]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: product [123,130]",
+      "label": "product_id"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [170,200]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "return_stmt [208,224]"
+    }
+  ]
+}

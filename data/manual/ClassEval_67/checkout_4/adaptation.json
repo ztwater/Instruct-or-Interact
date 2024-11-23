@@ -1,0 +1,37 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Check out the dished ordered. If self.selected_dishes is not empty, invoke the calculate_total\n        method to check out.\n        :return False if the self.selected_dishes is empty, or total (return value of calculate_total) otherwise.\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "not_test",
+        "inserted": "not self.selected_dishes",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "return_stmt",
+        "inserted": "return self.calculate_total()",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "self.selected_dishes",
+        "deleted": "self.selected_dishes",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "self.calculate_total()",
+        "deleted": "self.calculate_total()",
+        "type": "Move"
+    }
+]

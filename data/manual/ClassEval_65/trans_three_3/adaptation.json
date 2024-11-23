@@ -1,0 +1,142 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "s",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Converts a three-digit number into words format\n        :param s: str, the three-digit number\n        :return: str, the number in words format\n        >>> formatter = NumberWordFormatter()\n        >>> formatter.trans_three(\"123\")\n        \"ONE HUNDRED AND TWENTY THREE\"\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return result\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "self.NUMBER",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "self.NUMBER_TEN",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "self.NUMBER_TEEN",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "result",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "atom",
+        "inserted": "",
+        "deleted": "[\"\", \"one\", \"two\", \"three\", \"four\", \"five\", \"six\", \"seven\", \"eight\", \"nine\"]",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "atom",
+        "inserted": "",
+        "deleted": "[\"\", \"\", \"twenty\", \"thirty\", \"forty\", \"fifty\", \"sixty\", \"seventy\", \"eighty\", \"ninety\"]",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "atom",
+        "inserted": "",
+        "deleted": "[\"ten\", \"eleven\", \"twelve\", \"thirteen\", \"fourteen\", \"fifteen\", \"sixteen\", \"seventeen\", \"eighteen\", \"nineteen\"]",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "trailer",
+        "inserted": "",
+        "deleted": "(number)",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "return_stmt",
+        "inserted": "",
+        "deleted": "return hundreds_word + \" \" + tens_word + \" \" + ones_word",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "str",
+        "deleted": "str",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "arith_expr",
+        "inserted": "hundreds_word + \" \" + tens_word + \" \" + ones_word",
+        "deleted": "hundreds_word + \" \" + tens_word + \" \" + ones_word",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "number",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "s",
+        "deleted": "str",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "string:",
+        "inserted": "\" AND \"",
+        "deleted": "\" \"",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "string:",
+        "inserted": "\" HUNDRED\"",
+        "deleted": "\" hundred\"",
+        "type": "Logic"
+    }
+]

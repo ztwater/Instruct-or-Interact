@@ -1,0 +1,37 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Convert a number from decimal format to hex format.\n        :param decimal_num: int, decimal number\n        :return hex_num: str, the hex representation of an integer.\n        >>> NumberConverter.decimal_to_hex(42423)\n        'a5b7'\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "hex_num = hex_value[2:]\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "decimal_num",
+        "deleted": "decimal",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "hex_num",
+        "deleted": "hex_value",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "decimal_num",
+        "deleted": "decimal",
+        "type": "Refactoring"
+    }
+]

@@ -1,0 +1,410 @@
+{
+  "matches": [
+    {
+      "src": "trailer [412,418]",
+      "dest": "trailer [499,504]"
+    },
+    {
+      "src": "suite [19,505]",
+      "dest": "suite [19,665]"
+    },
+    {
+      "src": "parameters [47,56]",
+      "dest": "parameters [47,65]"
+    },
+    {
+      "src": "expr_stmt [66,86]",
+      "dest": "expr_stmt [314,334]"
+    },
+    {
+      "src": "classdef [0,505]",
+      "dest": "classdef [0,665]"
+    },
+    {
+      "src": "suite [57,505]",
+      "dest": "suite [66,665]"
+    },
+    {
+      "src": "trailer [373,376]",
+      "dest": "trailer [452,459]"
+    },
+    {
+      "src": "trailer [457,465]",
+      "dest": "trailer [626,633]"
+    },
+    {
+      "src": "atom [84,86]",
+      "dest": "atom [332,334]"
+    },
+    {
+      "src": "operator: , [52,53]",
+      "dest": "operator: , [52,53]"
+    },
+    {
+      "src": "name: date [48,52]",
+      "dest": "name: self [48,52]"
+    },
+    {
+      "src": "return_stmt [483,505]",
+      "dest": "return_stmt [643,665]"
+    },
+    {
+      "src": "operator: = [108,109]",
+      "dest": "operator: = [356,357]"
+    },
+    {
+      "src": "atom_expr [390,418]",
+      "dest": "atom_expr [486,506]"
+    },
+    {
+      "src": "name: upcoming_events [66,81]",
+      "dest": "name: upcoming_events [314,329]"
+    },
+    {
+      "src": "operator: = [82,83]",
+      "dest": "operator: = [330,331]"
+    },
+    {
+      "src": "name: days [458,462]",
+      "dest": "name: event [627,632]"
+    },
+    {
+      "src": "simple_stmt [95,141]",
+      "dest": "simple_stmt [343,380]"
+    },
+    {
+      "src": "funcdef [24,505]",
+      "dest": "funcdef [24,665]"
+    },
+    {
+      "src": "name: datetime [439,447]",
+      "dest": "name: upcoming_events [604,619]"
+    },
+    {
+      "src": "expr_stmt [95,140]",
+      "dest": "expr_stmt [343,379]"
+    },
+    {
+      "src": "operator: += [436,438]",
+      "dest": "operator: >= [533,535]"
+    },
+    {
+      "src": "trailer [133,138]",
+      "dest": "trailer [372,377]"
+    },
+    {
+      "src": "name: now [128,131]",
+      "dest": "name: now [367,370]"
+    },
+    {
+      "src": "trailer [127,131]",
+      "dest": "trailer [366,370]"
+    },
+    {
+      "src": "name: upcoming_events [390,405]",
+      "dest": "name: event [486,491]"
+    },
+    {
+      "src": "trailer [405,412]",
+      "dest": "trailer [619,626]"
+    },
+    {
+      "src": "simple_stmt [390,419]",
+      "dest": "simple_stmt [473,507]"
+    },
+    {
+      "src": "atom_expr [368,376]",
+      "dest": "atom_expr [448,459]"
+    },
+    {
+      "src": "name: date [413,417]",
+      "dest": "name: date [500,504]"
+    },
+    {
+      "src": "name: n [374,375]",
+      "dest": "name: events [453,459]"
+    },
+    {
+      "src": "name: append [406,412]",
+      "dest": "name: append [620,626]"
+    },
+    {
+      "src": "atom_expr [439,465]",
+      "dest": "atom_expr [604,633]"
+    },
+    {
+      "src": "name: i [363,364]",
+      "dest": "name: event [439,444]"
+    },
+    {
+      "src": "name: date [134,138]",
+      "dest": "name: date [373,377]"
+    },
+    {
+      "src": "name: n [54,55]",
+      "dest": "name: num_events [54,64]"
+    },
+    {
+      "src": "name: date [431,435]",
+      "dest": "name: event_date [522,532]"
+    },
+    {
+      "src": "file_input [0,505]",
+      "dest": "file_input [0,665]"
+    },
+    {
+      "src": "param [54,55]",
+      "dest": "param [54,64]"
+    },
+    {
+      "src": "suite [377,466]",
+      "dest": "suite [460,634]"
+    },
+    {
+      "src": "name: get_upcoming_events [28,47]",
+      "dest": "name: get_upcoming_events [28,47]"
+    },
+    {
+      "src": "name: current_date [95,107]",
+      "dest": "name: current_date [343,355]"
+    },
+    {
+      "src": "atom_expr [110,140]",
+      "dest": "atom_expr [358,379]"
+    },
+    {
+      "src": "name: CalendarUtil [6,18]",
+      "dest": "name: CalendarUtil [6,18]"
+    },
+    {
+      "src": "name: upcoming_events [490,505]",
+      "dest": "name: upcoming_events [650,665]"
+    },
+    {
+      "src": "trailer [131,133]",
+      "dest": "trailer [370,372]"
+    },
+    {
+      "src": "param [48,53]",
+      "dest": "param [48,53]"
+    },
+    {
+      "src": "name: range [368,373]",
+      "dest": "name: self [448,452]"
+    },
+    {
+      "src": "for_stmt [359,466]",
+      "dest": "for_stmt [435,634]"
+    },
+    {
+      "src": "trailer [138,140]",
+      "dest": "trailer [377,379]"
+    },
+    {
+      "src": "simple_stmt [66,87]",
+      "dest": "simple_stmt [314,335]"
+    },
+    {
+      "src": "name: datetime [110,118]",
+      "dest": "name: datetime [358,366]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [75,306]",
+      "parent": "suite [66,665]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: date [48,52]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: n [54,55]",
+      "label": "num_events"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: i [363,364]",
+      "label": "event"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: range [368,373]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [519,634]",
+      "parent": "suite [460,634]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: n [374,375]",
+      "label": "events"
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [473,506]",
+      "parent": "simple_stmt [473,507]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "and_test [522,586]",
+      "parent": "if_stmt [519,634]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [587,634]",
+      "parent": "if_stmt [519,634]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: event_date [473,483]",
+      "parent": "expr_stmt [473,506]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [484,485]",
+      "parent": "expr_stmt [473,506]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [390,418]",
+      "parent": "expr_stmt [473,506]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "comparison [522,548]",
+      "parent": "and_test [522,586]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [553,586]",
+      "parent": "and_test [522,586]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [604,634]",
+      "parent": "suite [587,634]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: upcoming_events [390,405]",
+      "label": "event"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [491,499]",
+      "parent": "atom_expr [486,506]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [504,506]",
+      "parent": "atom_expr [486,506]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: date [431,435]",
+      "label": "event_date"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: date [431,435]",
+      "parent": "comparison [522,548]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: += [436,438]",
+      "label": ">="
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: += [436,438]",
+      "parent": "comparison [522,548]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: current_date [536,548]",
+      "parent": "comparison [522,548]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [439,465]",
+      "parent": "simple_stmt [604,634]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: datetime [439,447]",
+      "label": "upcoming_events"
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [405,412]",
+      "parent": "atom_expr [604,633]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: days [458,462]",
+      "label": "event"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: days [458,462]",
+      "parent": "trailer [626,633]",
+      "at": 0
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [118,127]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "if_stmt [207,296]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [447,457]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: = [462,463]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 1 [463,464]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "argument [458,464]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [431,465]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [431,466]"
+    }
+  ]
+}

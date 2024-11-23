@@ -1,0 +1,65 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Generate the DELETE SQL statement from the given parameters.\n        :param table: str, the table that will be executed with DELETE operation in database\n        :param where: dict, {key1: value1, key2: value2 ...}. The query condition.\n        :return query: str, the SQL delete statement.\n        >>> SQLQueryBuilder.delete('table1', {'name': 'Test', 'age': 14})\n        \"DELETE FROM table1 WHERE name='Test' AND age='14'\"\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "condition_string = \" AND \".join([\"{}='{}'\".format(key, value) for key, value in where.items()])\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "table",
+        "deleted": "table_name",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "where",
+        "deleted": "condition",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "query",
+        "deleted": "sql_statement",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "query",
+        "deleted": "sql_statement",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "table",
+        "deleted": "table_name",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "condition_string",
+        "deleted": "condition",
+        "type": "Refactoring"
+    }
+]

@@ -1,0 +1,381 @@
+{
+  "matches": [
+    {
+      "src": "name: quantity [72,80]",
+      "dest": "name: quantity [67,75]"
+    },
+    {
+      "src": "simple_stmt [185,217]",
+      "dest": "simple_stmt [202,242]"
+    },
+    {
+      "src": "suite [16,413]",
+      "dest": "suite [16,456]"
+    },
+    {
+      "src": "string: 'quantity' [193,203]",
+      "dest": "string: 'quantity' [218,228]"
+    },
+    {
+      "src": "atom [364,412]",
+      "dest": "atom [401,456]"
+    },
+    {
+      "src": "classdef [0,413]",
+      "dest": "classdef [0,456]"
+    },
+    {
+      "src": "operator: { [364,365]",
+      "dest": "operator: { [401,402]"
+    },
+    {
+      "src": "name: product_id [60,70]",
+      "dest": "name: product_id [55,65]"
+    },
+    {
+      "src": "suite [82,413]",
+      "dest": "suite [77,456]"
+    },
+    {
+      "src": "suite [168,239]",
+      "dest": "suite [185,264]"
+    },
+    {
+      "src": "trailer [356,363]",
+      "dest": "trailer [386,398]"
+    },
+    {
+      "src": "atom_expr [185,204]",
+      "dest": "atom_expr [202,229]"
+    },
+    {
+      "src": "operator: == [154,156]",
+      "dest": "operator: == [171,173]"
+    },
+    {
+      "src": "operator: , [58,59]",
+      "dest": "operator: , [53,54]"
+    },
+    {
+      "src": "name: product [185,192]",
+      "dest": "name: product_details [202,217]"
+    },
+    {
+      "src": "name: product_id [379,389]",
+      "dest": "name: product_details [410,425]"
+    },
+    {
+      "src": "trailer [192,204]",
+      "dest": "trailer [217,229]"
+    },
+    {
+      "src": "name: inventory [49,58]",
+      "dest": "name: self [49,53]"
+    },
+    {
+      "src": "name: update_product_quantity [25,48]",
+      "dest": "name: update_product_quantity [25,48]"
+    },
+    {
+      "src": "operator: } [411,412]",
+      "dest": "operator: } [455,456]"
+    },
+    {
+      "src": "comparison [132,167]",
+      "dest": "comparison [160,184]"
+    },
+    {
+      "src": "name: quantity [208,216]",
+      "dest": "name: quantity [233,241]"
+    },
+    {
+      "src": "file_input [0,413]",
+      "dest": "file_input [0,456]"
+    },
+    {
+      "src": "name: append [357,363]",
+      "dest": "name: product_id [387,397]"
+    },
+    {
+      "src": "operator: , [70,71]",
+      "dest": "operator: , [65,66]"
+    },
+    {
+      "src": "suite [116,239]",
+      "dest": "suite [144,264]"
+    },
+    {
+      "src": "name: Warehouse [6,15]",
+      "dest": "name: Warehouse [6,15]"
+    },
+    {
+      "src": "string: 'product_id' [365,377]",
+      "dest": "string: 'name' [402,408]"
+    },
+    {
+      "src": "name: inventory [106,115]",
+      "dest": "name: inventory [126,135]"
+    },
+    {
+      "src": "name: inventory [347,356]",
+      "dest": "name: inventory [377,386]"
+    },
+    {
+      "src": "string: 'quantity' [391,401]",
+      "dest": "string: 'quantity' [435,445]"
+    },
+    {
+      "src": "param [72,80]",
+      "dest": "param [67,75]"
+    },
+    {
+      "src": "param [60,71]",
+      "dest": "param [55,66]"
+    },
+    {
+      "src": "param [49,59]",
+      "dest": "param [49,54]"
+    },
+    {
+      "src": "dictorsetmaker [365,411]",
+      "dest": "dictorsetmaker [402,455]"
+    },
+    {
+      "src": "parameters [48,81]",
+      "dest": "parameters [48,76]"
+    },
+    {
+      "src": "name: product_id [157,167]",
+      "dest": "name: product_id [174,184]"
+    },
+    {
+      "src": "if_stmt [129,239]",
+      "dest": "if_stmt [157,264]"
+    },
+    {
+      "src": "name: product [132,139]",
+      "dest": "name: product_id [160,170]"
+    },
+    {
+      "src": "expr_stmt [185,216]",
+      "dest": "expr_stmt [202,241]"
+    },
+    {
+      "src": "simple_stmt [233,239]",
+      "dest": "simple_stmt [258,264]"
+    },
+    {
+      "src": "for_stmt [91,413]",
+      "dest": "for_stmt [86,456]"
+    },
+    {
+      "src": "name: product [95,102]",
+      "dest": "name: product_id [90,100]"
+    },
+    {
+      "src": "operator: , [389,390]",
+      "dest": "operator: , [433,434]"
+    },
+    {
+      "src": "funcdef [21,413]",
+      "dest": "funcdef [21,456]"
+    },
+    {
+      "src": "suite [252,413]",
+      "dest": "suite [277,456]"
+    },
+    {
+      "src": "name: quantity [403,411]",
+      "dest": "name: quantity [447,455]"
+    },
+    {
+      "src": "operator: += [205,207]",
+      "dest": "operator: += [230,232]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "update-node",
+      "tree": "name: inventory [49,58]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "exprlist [90,117]",
+      "parent": "for_stmt [86,456]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [121,143]",
+      "parent": "for_stmt [86,456]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: product [95,102]",
+      "label": "product_id"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: product [95,102]",
+      "parent": "exprlist [90,117]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [100,101]",
+      "parent": "exprlist [90,117]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: product_details [102,117]",
+      "parent": "exprlist [90,117]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [121,125]",
+      "parent": "atom_expr [121,143]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [125,135]",
+      "parent": "atom_expr [121,143]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [135,141]",
+      "parent": "atom_expr [121,143]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [141,143]",
+      "parent": "atom_expr [121,143]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [372,456]",
+      "parent": "suite [277,456]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: inventory [106,115]",
+      "parent": "trailer [125,135]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [372,398]",
+      "parent": "expr_stmt [372,456]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [399,400]",
+      "parent": "expr_stmt [372,456]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom [364,412]",
+      "parent": "expr_stmt [372,456]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: product [132,139]",
+      "label": "product_id"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: product [132,139]",
+      "parent": "comparison [160,184]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [372,376]",
+      "parent": "atom_expr [372,398]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [376,386]",
+      "parent": "atom_expr [372,398]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [356,363]",
+      "parent": "atom_expr [372,398]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: inventory [347,356]",
+      "parent": "trailer [376,386]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: append [357,363]",
+      "label": "product_id"
+    },
+    {
+      "action": "update-node",
+      "tree": "string: 'product_id' [365,377]",
+      "label": "'name'"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [410,433]",
+      "parent": "dictorsetmaker [402,455]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: product_id [379,389]",
+      "label": "product_details"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: product_id [379,389]",
+      "parent": "atom_expr [410,433]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [425,433]",
+      "parent": "atom_expr [410,433]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: product [185,192]",
+      "label": "product_details"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [139,153]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [132,153]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [363,413]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [347,413]"
+    }
+  ]
+}

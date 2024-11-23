@@ -1,0 +1,64 @@
+{
+  "matches": [
+    {
+      "src": "suite [20,198]",
+      "dest": "suite [20,357]"
+    },
+    {
+      "src": "name: WeatherSystem [6,19]",
+      "dest": "name: WeatherSystem [6,19]"
+    },
+    {
+      "src": "classdef [0,198]",
+      "dest": "classdef [0,357]"
+    },
+    {
+      "src": "suite [44,198]",
+      "dest": "suite [50,357]"
+    },
+    {
+      "src": "param [38,42]",
+      "dest": "param [44,48]"
+    },
+    {
+      "src": "name: city [38,42]",
+      "dest": "name: city [44,48]"
+    },
+    {
+      "src": "parameters [37,43]",
+      "dest": "parameters [37,49]"
+    },
+    {
+      "src": "file_input [0,198]",
+      "dest": "file_input [0,357]"
+    },
+    {
+      "src": "name: set_city [29,37]",
+      "dest": "name: set_city [29,37]"
+    },
+    {
+      "src": "funcdef [25,198]",
+      "dest": "funcdef [25,357]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [38,43]",
+      "parent": "parameters [37,49]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [59,333]",
+      "parent": "suite [50,357]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "expr_stmt [341,357]",
+      "parent": "suite [50,357]",
+      "at": 1
+    }
+  ]
+}

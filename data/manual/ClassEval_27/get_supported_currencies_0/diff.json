@@ -1,0 +1,182 @@
+{
+  "matches": [
+    {
+      "src": "suite [24,163]",
+      "dest": "suite [24,230]"
+    },
+    {
+      "src": "name: CurrencyConverter [6,23]",
+      "dest": "name: CurrencyConverter [6,23]"
+    },
+    {
+      "src": "classdef [0,163]",
+      "dest": "classdef [0,230]"
+    },
+    {
+      "src": "file_input [0,163]",
+      "dest": "file_input [0,230]"
+    },
+    {
+      "src": "suite [60,163]",
+      "dest": "suite [64,230]"
+    },
+    {
+      "src": "simple_stmt [69,128]",
+      "dest": "simple_stmt [73,192]"
+    },
+    {
+      "src": "funcdef [29,163]",
+      "dest": "funcdef [29,230]"
+    },
+    {
+      "src": "return_stmt [136,163]",
+      "dest": "return_stmt [200,230]"
+    },
+    {
+      "src": "string: 'USD' [93,98]",
+      "dest": "string: \"\"\"         Returns a list of supported currency types         :return: list, All supported currency types         \"\"\" [73,191]"
+    },
+    {
+      "src": "name: get_supported_currencies [33,57]",
+      "dest": "name: get_supported_currencies [33,57]"
+    },
+    {
+      "src": "parameters [57,59]",
+      "dest": "parameters [57,63]"
+    },
+    {
+      "src": "name: supported_currencies [143,163]",
+      "dest": "name: rates [217,222]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [58,62]",
+      "parent": "parameters [57,63]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "string: 'USD' [93,98]",
+      "label": "\"\"\"         Returns a list of supported currency types         :return: list, All supported currency types         \"\"\""
+    },
+    {
+      "action": "move-tree",
+      "tree": "string: 'USD' [93,98]",
+      "parent": "simple_stmt [73,192]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [207,230]",
+      "parent": "return_stmt [200,230]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: list [207,211]",
+      "parent": "atom_expr [207,230]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [211,230]",
+      "parent": "atom_expr [207,230]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [212,229]",
+      "parent": "trailer [211,230]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [212,216]",
+      "parent": "atom_expr [212,229]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [216,222]",
+      "parent": "atom_expr [212,229]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [222,227]",
+      "parent": "atom_expr [212,229]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [227,229]",
+      "parent": "atom_expr [212,229]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: supported_currencies [143,163]",
+      "label": "rates"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: supported_currencies [143,163]",
+      "parent": "trailer [216,222]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: supported_currencies [69,89]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: = [90,91]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [98,99]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: 'EUR' [100,105]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [105,106]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: 'GBP' [107,112]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [112,113]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: 'JPY' [114,119]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [119,120]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: 'CAD' [121,126]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "testlist_comp [93,126]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom [92,127]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [69,127]"
+    }
+  ]
+}

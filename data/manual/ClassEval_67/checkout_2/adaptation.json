@@ -1,0 +1,30 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return total\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "total",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "self.calculate_total()",
+        "deleted": "self.calculate_total()",
+        "type": "Move"
+    }
+]

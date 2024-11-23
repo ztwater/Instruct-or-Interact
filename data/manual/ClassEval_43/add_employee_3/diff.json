@@ -1,0 +1,277 @@
+{
+  "matches": [
+    {
+      "src": "name: age [328,331]",
+      "dest": "name: position [739,747]"
+    },
+    {
+      "src": "suite [25,553]",
+      "dest": "suite [25,861]"
+    },
+    {
+      "src": "name: position [58,66]",
+      "dest": "name: position [72,80]"
+    },
+    {
+      "src": "operator: , [51,52]",
+      "dest": "operator: , [70,71]"
+    },
+    {
+      "src": "classdef [0,553]",
+      "dest": "classdef [0,861]"
+    },
+    {
+      "src": "suite [68,553]",
+      "dest": "suite [636,861]"
+    },
+    {
+      "src": "name: HRManagementSystem [6,24]",
+      "dest": "name: HRManagementSystem [6,24]"
+    },
+    {
+      "src": "atom [281,375]",
+      "dest": "atom [679,837]"
+    },
+    {
+      "src": "operator: , [307,308]",
+      "dest": "operator: , [709,710]"
+    },
+    {
+      "src": "operator: , [331,332]",
+      "dest": "operator: , [747,748]"
+    },
+    {
+      "src": "operator: { [281,282]",
+      "dest": "operator: { [679,680]"
+    },
+    {
+      "src": "operator: = [279,280]",
+      "dest": "operator: = [677,678]"
+    },
+    {
+      "src": "name: employee [270,278]",
+      "dest": "name: employees [654,663]"
+    },
+    {
+      "src": "param [47,52]",
+      "dest": "param [66,71]"
+    },
+    {
+      "src": "string: 'name' [295,301]",
+      "dest": "string: 'name' [697,703]"
+    },
+    {
+      "src": "string: 'position' [345,355]",
+      "dest": "string: 'salary' [807,815]"
+    },
+    {
+      "src": "file_input [0,553]",
+      "dest": "file_input [0,861]"
+    },
+    {
+      "src": "operator: } [374,375]",
+      "dest": "operator: } [836,837]"
+    },
+    {
+      "src": "name: add_employee [34,46]",
+      "dest": "name: add_employee [34,46]"
+    },
+    {
+      "src": "parameters [46,67]",
+      "dest": "parameters [46,101]"
+    },
+    {
+      "src": "param [58,66]",
+      "dest": "param [72,81]"
+    },
+    {
+      "src": "simple_stmt [270,376]",
+      "dest": "simple_stmt [649,838]"
+    },
+    {
+      "src": "name: position [357,365]",
+      "dest": "name: salary [817,823]"
+    },
+    {
+      "src": "string: 'age' [321,326]",
+      "dest": "string: 'position' [727,737]"
+    },
+    {
+      "src": "funcdef [30,553]",
+      "dest": "funcdef [30,861]"
+    },
+    {
+      "src": "expr_stmt [270,375]",
+      "dest": "expr_stmt [649,837]"
+    },
+    {
+      "src": "name: name [303,307]",
+      "dest": "name: name [705,709]"
+    },
+    {
+      "src": "dictorsetmaker [295,365]",
+      "dest": "dictorsetmaker [697,823]"
+    },
+    {
+      "src": "return_stmt [516,553]",
+      "dest": "return_stmt [850,861]"
+    },
+    {
+      "src": "name: name [47,51]",
+      "dest": "name: name [66,70]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "suite [102,861]",
+      "parent": "funcdef [30,861]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [47,52]",
+      "parent": "parameters [46,101]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [53,65]",
+      "parent": "parameters [46,101]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [82,93]",
+      "parent": "parameters [46,101]",
+      "at": 4
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [94,100]",
+      "parent": "parameters [46,101]",
+      "at": 5
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [111,556]",
+      "parent": "suite [102,861]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [564,861]",
+      "parent": "suite [102,861]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [80,81]",
+      "parent": "param [72,81]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [567,596]",
+      "parent": "if_stmt [564,861]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [597,623]",
+      "parent": "if_stmt [564,861]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [68,553]",
+      "parent": "if_stmt [564,861]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [649,676]",
+      "parent": "expr_stmt [649,837]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [649,653]",
+      "parent": "atom_expr [649,676]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [653,663]",
+      "parent": "atom_expr [649,676]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [663,676]",
+      "parent": "atom_expr [649,676]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: employee [270,278]",
+      "label": "employees"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: employee [270,278]",
+      "parent": "trailer [653,663]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "string: 'age' [321,326]",
+      "label": "'position'"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: age [328,331]",
+      "label": "position"
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: 'department' [765,777]",
+      "parent": "dictorsetmaker [697,823]",
+      "at": 6
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: department [779,789]",
+      "parent": "dictorsetmaker [697,823]",
+      "at": 7
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [789,790]",
+      "parent": "dictorsetmaker [697,823]",
+      "at": 8
+    },
+    {
+      "action": "update-node",
+      "tree": "string: 'position' [345,355]",
+      "label": "'salary'"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: position [357,365]",
+      "label": "salary"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "param [53,57]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [384,411]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"Employee added successfully!\" [523,553]"
+    }
+  ]
+}

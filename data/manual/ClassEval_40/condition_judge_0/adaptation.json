@@ -1,0 +1,310 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Judge the condition of the user based on the BMI standard.\n        :return: 1 if the user is too fat, -1 if the user is too thin, 0 if the user is normal, int.\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "comparison",
+        "inserted": "self.sex == \"male\"",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "comparison",
+        "inserted": "self.sex == \"female\"",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "male_std = self.BMI_std[0][\"male\"]\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "female_std = self.BMI_std[1][\"female\"]\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "comparison",
+        "inserted": "bmi < female_std[0]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".weight",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "male_std",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "[0]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".height",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "factor",
+        "inserted": "-1",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "male_std",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "[0]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "male_std",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "[1]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "number",
+        "inserted": "0",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "female_std",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "[0]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "female_std",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "[1]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "number",
+        "inserted": "0",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "number",
+        "inserted": "1",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "operator",
+        "inserted": "",
+        "deleted": ",",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "param",
+        "inserted": "",
+        "deleted": "height",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "DEL",
+        "label": "string",
+        "inserted": "",
+        "deleted": "\"Underweight\"",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "string:",
+        "inserted": "",
+        "deleted": "\"Normal weight\"",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "string",
+        "inserted": "",
+        "deleted": "\"Overweight\"",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "string",
+        "inserted": "",
+        "deleted": "\"Obese\"",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "weight",
+        "deleted": "weight",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return \"Obese\"",
+        "deleted": "return \"Obese\"",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "number",
+        "inserted": "18.5",
+        "deleted": "18.5",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "height",
+        "deleted": "height",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "number",
+        "inserted": "18.5",
+        "deleted": "18.5",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "number",
+        "inserted": "24.9",
+        "deleted": "24.9",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "number",
+        "inserted": "24.9",
+        "deleted": "24.9",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "number",
+        "inserted": "29.9",
+        "deleted": "29.9",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "weight",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "number",
+        "inserted": "0",
+        "deleted": "18.5",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "number",
+        "inserted": "0",
+        "deleted": "18.5",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "number",
+        "inserted": "1",
+        "deleted": "24.9",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "number",
+        "inserted": "0",
+        "deleted": "24.9",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "number",
+        "inserted": "1",
+        "deleted": "29.9",
+        "type": "Logic"
+    }
+]

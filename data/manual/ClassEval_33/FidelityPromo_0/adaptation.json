@@ -1,0 +1,121 @@
+[
+    {
+        "action": "INS",
+        "label": "parameters",
+        "inserted": "(order)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Calculate the discount based on the fidelity points of the customer.Customers with over 1000 points can enjoy a 5% discount on the entire order.\n        :param order: object, the order to apply the discount to\n        :return: float, discount amount\n        >>> customer = {'name': 'John Doe', 'fidelity': 1200}\n        >>> cart = [{'product': 'product', 'quantity': 14, 'price': 23.5}]\n        >>> order = DiscountStrategy(customer, cart, DiscountStrategy.FidelityPromo)\n        >>> DiscountStrategy.FidelityPromo(order)\n        16.45\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "order.due()",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return 0\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "order",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".customer",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".get",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "string",
+        "inserted": "'fidelity'",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "number",
+        "inserted": "0",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "param",
+        "inserted": "",
+        "deleted": "fidelity_points,",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "DEL",
+        "label": "param",
+        "inserted": "",
+        "deleted": "order_total",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "fidelity_points",
+        "deleted": "fidelity_points",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "order_total",
+        "deleted": "order_total",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return 0",
+        "deleted": "return 0",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": ",",
+        "type": "Move"
+    }
+]

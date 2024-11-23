@@ -1,0 +1,287 @@
+{
+  "matches": [
+    {
+      "src": "param [33,40]",
+      "dest": "param [39,46]"
+    },
+    {
+      "src": "param [41,51]",
+      "dest": "param [47,56]"
+    },
+    {
+      "src": "operator: , [50,51]",
+      "dest": "operator: , [55,56]"
+    },
+    {
+      "src": "name: Chat [6,10]",
+      "dest": "name: Chat [6,10]"
+    },
+    {
+      "src": "suite [11,135]",
+      "dest": "suite [11,658]"
+    },
+    {
+      "src": "name: sender [33,39]",
+      "dest": "name: sender [39,45]"
+    },
+    {
+      "src": "classdef [0,135]",
+      "dest": "classdef [0,658]"
+    },
+    {
+      "src": "suite [61,135]",
+      "dest": "suite [66,658]"
+    },
+    {
+      "src": "param [52,59]",
+      "dest": "param [57,64]"
+    },
+    {
+      "src": "name: recipient [41,50]",
+      "dest": "name: receiver [47,55]"
+    },
+    {
+      "src": "parameters [32,60]",
+      "dest": "parameters [32,65]"
+    },
+    {
+      "src": "name: recipient [112,121]",
+      "dest": "name: receiver [429,437]"
+    },
+    {
+      "src": "operator: , [39,40]",
+      "dest": "operator: , [45,46]"
+    },
+    {
+      "src": "name: send_message [20,32]",
+      "dest": "name: send_message [20,32]"
+    },
+    {
+      "src": "file_input [0,135]",
+      "dest": "file_input [0,658]"
+    },
+    {
+      "src": "name: print [70,75]",
+      "dest": "name: sender [401,407]"
+    },
+    {
+      "src": "name: message [52,59]",
+      "dest": "name: message [57,64]"
+    },
+    {
+      "src": "funcdef [16,135]",
+      "dest": "funcdef [16,658]"
+    },
+    {
+      "src": "name: message [125,132]",
+      "dest": "name: self [445,449]"
+    },
+    {
+      "src": "name: sender [100,106]",
+      "dest": "name: self [415,419]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [33,38]",
+      "parent": "parameters [32,65]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [75,390]",
+      "parent": "suite [66,658]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [398,482]",
+      "parent": "suite [66,658]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "return_stmt [647,658]",
+      "parent": "suite [66,658]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: recipient [41,50]",
+      "label": "receiver"
+    },
+    {
+      "action": "insert-node",
+      "tree": "or_test [401,455]",
+      "parent": "if_stmt [398,482]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [456,482]",
+      "parent": "if_stmt [398,482]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "comparison [401,425]",
+      "parent": "or_test [401,455]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "comparison [429,455]",
+      "parent": "or_test [401,455]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: print [70,75]",
+      "label": "sender"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: print [70,75]",
+      "parent": "comparison [401,425]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "comp_op [408,414]",
+      "parent": "comparison [401,425]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [415,425]",
+      "parent": "comparison [401,425]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: recipient [112,121]",
+      "label": "receiver"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: recipient [112,121]",
+      "parent": "comparison [429,455]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "comp_op [438,444]",
+      "parent": "comparison [429,455]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [445,455]",
+      "parent": "comparison [429,455]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: sender [100,106]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: sender [100,106]",
+      "parent": "atom_expr [415,425]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [419,425]",
+      "parent": "atom_expr [415,425]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: message [125,132]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: message [125,132]",
+      "parent": "atom_expr [445,455]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [449,455]",
+      "parent": "atom_expr [445,455]",
+      "at": 1
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_start: f\" [76,78]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_string: Sending message from  [78,99]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: { [99,100]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: } [106,107]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_expr [99,107]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_string:  to  [107,111]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: { [111,112]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: } [121,122]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_expr [111,122]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_string: :  [122,124]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: { [124,125]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: } [132,133]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_expr [124,133]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_end: \" [133,134]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring [76,134]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [75,135]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [70,135]"
+    }
+  ]
+}

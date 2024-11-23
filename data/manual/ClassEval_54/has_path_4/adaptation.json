@@ -1,0 +1,79 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        check if there is a path between two icons\n        :param pos1: position tuple(x, y) of the first icon\n        :param pos2: position tuple(x, y) of the second icon\n        :return: True or False ,representing whether there is a path between two icons\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "if_stmt",
+        "inserted": "if self.board[pos1[0]][pos1[1]] != self.board[pos2[0]][pos2[1]]:\n            return False\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "if_stmt",
+        "inserted": "if not self.is_adjacent(pos1, pos2):\n            return False\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "if_stmt",
+        "inserted": "if not self.is_clear_path(pos1, pos2):\n            return False\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return True\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "or_test",
+        "inserted": "not self.is_valid_position(pos1) or not self.is_valid_position(pos2)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return False\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return False",
+        "deleted": "return False",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "pos1",
+        "deleted": "icon1",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "pos2",
+        "deleted": "icon2",
+        "type": "Refactoring"
+    }
+]

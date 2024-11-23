@@ -1,0 +1,233 @@
+{
+  "matches": [
+    {
+      "src": "name: type [283,287]",
+      "dest": "name: get [432,435]"
+    },
+    {
+      "src": "suite [52,349]",
+      "dest": "suite [58,449]"
+    },
+    {
+      "src": "trailer [282,287]",
+      "dest": "trailer [431,435]"
+    },
+    {
+      "src": "classdef [0,349]",
+      "dest": "classdef [0,449]"
+    },
+    {
+      "src": "file_input [0,349]",
+      "dest": "file_input [0,449]"
+    },
+    {
+      "src": "funcdef [17,349]",
+      "dest": "funcdef [17,449]"
+    },
+    {
+      "src": "name: get_available_rooms [21,40]",
+      "dest": "name: get_available_rooms [21,40]"
+    },
+    {
+      "src": "name: rooms [256,261]",
+      "dest": "name: available_rooms [416,431]"
+    },
+    {
+      "src": "operator: += [324,326]",
+      "dest": "operator: , [445,446]"
+    },
+    {
+      "src": "name: room_type [41,50]",
+      "dest": "name: room_type [47,56]"
+    },
+    {
+      "src": "name: room_type [291,300]",
+      "dest": "name: room_type [436,445]"
+    },
+    {
+      "src": "parameters [40,51]",
+      "dest": "parameters [40,57]"
+    },
+    {
+      "src": "name: Hotel [6,11]",
+      "dest": "name: Hotel [6,11]"
+    },
+    {
+      "src": "simple_stmt [226,236]",
+      "dest": "simple_stmt [67,396]"
+    },
+    {
+      "src": "suite [12,349]",
+      "dest": "suite [12,449]"
+    },
+    {
+      "src": "name: room [248,252]",
+      "dest": "name: self [411,415]"
+    },
+    {
+      "src": "param [41,50]",
+      "dest": "param [47,56]"
+    },
+    {
+      "src": "number: 1 [327,328]",
+      "dest": "number: 0 [447,448]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [41,46]",
+      "parent": "parameters [40,57]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "return_stmt [404,449]",
+      "parent": "suite [58,449]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: \"\"\"         Get the number of specific type of available rooms.         :param room_type: str, the room type that want to know         :return: int, the remaining number of this type rooms.         >>> hotel = Hotel('peace hotel', {'single': 5, 'double': 3})         >>> hotel.get_available_rooms('single')         5         \"\"\" [67,395]",
+      "parent": "simple_stmt [67,396]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [411,449]",
+      "parent": "return_stmt [404,449]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: room [248,252]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: room [248,252]",
+      "parent": "atom_expr [411,449]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [415,431]",
+      "parent": "atom_expr [411,449]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [282,287]",
+      "parent": "atom_expr [411,449]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [435,449]",
+      "parent": "atom_expr [411,449]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: rooms [256,261]",
+      "label": "available_rooms"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: rooms [256,261]",
+      "parent": "trailer [415,431]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: type [283,287]",
+      "label": "get"
+    },
+    {
+      "action": "insert-node",
+      "tree": "arglist [436,448]",
+      "parent": "trailer [435,449]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: room_type [291,300]",
+      "parent": "arglist [436,448]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: += [324,326]",
+      "label": ","
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: += [324,326]",
+      "parent": "arglist [436,448]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "number: 1 [327,328]",
+      "label": "0"
+    },
+    {
+      "action": "move-tree",
+      "tree": "number: 1 [327,328]",
+      "parent": "arglist [436,448]",
+      "at": 2
+    },
+    {
+      "action": "delete-tree",
+      "tree": "expr_stmt [226,235]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: room [278,282]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [278,287]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: == [288,290]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "comparison [278,300]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: count [318,323]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [318,328]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [318,329]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [301,329]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "if_stmt [275,329]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [262,329]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "for_stmt [244,329]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "return_stmt [337,349]"
+    }
+  ]
+}

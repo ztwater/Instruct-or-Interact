@@ -1,0 +1,16 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return sorted_word_frequency\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return sorted_word_frequency",
+        "deleted": "return sorted_word_frequency",
+        "type": "Move"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Adds a book to the database with the specified title and author,\n        setting its availability to 1 as free to borrow.\n        :param title: str, book title\n        :param author: str, author name\n        >>> book_db = BookManagementDB(\"test.db\")\n        >>> book_db.create_table()\n        >>> book_db.add_book('book1', 'author')\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "self.cursor.execute(\"INSERT INTO books (title, author, availability) VALUES (?, ?, ?)\", (title, author, 1))\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "self.connection.commit()",
+        "deleted": "",
+        "type": "Logic"
+    }
+]

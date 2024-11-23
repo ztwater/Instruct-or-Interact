@@ -1,0 +1,9 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Convert a number from hex format to decimal format.\n        :param hex_num: str, hex num\n        :return: int, the decimal representation of hex number str.\n        >>> NumberConverter.hex_to_decimal('a5b7')\n        42423\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    }
+]

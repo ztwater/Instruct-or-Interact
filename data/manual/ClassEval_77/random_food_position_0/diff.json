@@ -1,0 +1,352 @@
+{
+  "matches": [
+    {
+      "src": "name: Snake [6,11]",
+      "dest": "name: Snake [6,11]"
+    },
+    {
+      "src": "name: grid_size [138,147]",
+      "dest": "name: self [268,272]"
+    },
+    {
+      "src": "operator: - [147,148]",
+      "dest": "operator: - [285,286]"
+    },
+    {
+      "src": "suite [12,273]",
+      "dest": "suite [12,455]"
+    },
+    {
+      "src": "name: randint [159,166]",
+      "dest": "name: randint [297,304]"
+    },
+    {
+      "src": "if_stmt [196,273]",
+      "dest": "if_stmt [343,455]"
+    },
+    {
+      "src": "classdef [0,273]",
+      "dest": "classdef [0,455]"
+    },
+    {
+      "src": "suite [70,273]",
+      "dest": "suite [48,455]"
+    },
+    {
+      "src": "name: random [152,158]",
+      "dest": "name: random [290,296]"
+    },
+    {
+      "src": "name: random [120,126]",
+      "dest": "name: random [250,256]"
+    },
+    {
+      "src": "number: 0 [167,168]",
+      "dest": "number: 0 [305,306]"
+    },
+    {
+      "src": "param [42,58]",
+      "dest": "param [42,46]"
+    },
+    {
+      "src": "operator: , [136,137]",
+      "dest": "operator: , [266,267]"
+    },
+    {
+      "src": "operator: = [117,118]",
+      "dest": "operator: = [247,248]"
+    },
+    {
+      "src": "name: food_position [199,212]",
+      "dest": "name: food_position [346,359]"
+    },
+    {
+      "src": "simple_stmt [103,184]",
+      "dest": "simple_stmt [233,331]"
+    },
+    {
+      "src": "expr_stmt [103,183]",
+      "dest": "expr_stmt [233,330]"
+    },
+    {
+      "src": "operator: - [179,180]",
+      "dest": "operator: - [326,327]"
+    },
+    {
+      "src": "atom_expr [152,182]",
+      "dest": "atom_expr [290,329]"
+    },
+    {
+      "src": "name: randint [127,134]",
+      "dest": "name: randint [257,264]"
+    },
+    {
+      "src": "name: snake_positions [220,235]",
+      "dest": "name: positions [372,381]"
+    },
+    {
+      "src": "funcdef [17,273]",
+      "dest": "funcdef [17,455]"
+    },
+    {
+      "src": "name: random_food_position [21,41]",
+      "dest": "name: random_food_position [21,41]"
+    },
+    {
+      "src": "parameters [41,69]",
+      "dest": "parameters [41,47]"
+    },
+    {
+      "src": "testlist_comp [120,182]",
+      "dest": "testlist_comp [250,329]"
+    },
+    {
+      "src": "trailer [158,166]",
+      "dest": "trailer [296,304]"
+    },
+    {
+      "src": "atom_expr [120,150]",
+      "dest": "atom_expr [250,288]"
+    },
+    {
+      "src": "atom [119,183]",
+      "dest": "atom [249,330]"
+    },
+    {
+      "src": "arglist [135,149]",
+      "dest": "arglist [265,287]"
+    },
+    {
+      "src": "trailer [166,182]",
+      "dest": "trailer [304,329]"
+    },
+    {
+      "src": "name: snake_positions [42,57]",
+      "dest": "name: self [42,46]"
+    },
+    {
+      "src": "file_input [0,273]",
+      "dest": "file_input [0,455]"
+    },
+    {
+      "src": "number: 0 [135,136]",
+      "dest": "number: 0 [265,266]"
+    },
+    {
+      "src": "suite [90,273]",
+      "dest": "suite [220,455]"
+    },
+    {
+      "src": "trailer [126,134]",
+      "dest": "trailer [256,264]"
+    },
+    {
+      "src": "operator: , [168,169]",
+      "dest": "operator: , [306,307]"
+    },
+    {
+      "src": "arith_expr [170,181]",
+      "dest": "arith_expr [308,328]"
+    },
+    {
+      "src": "comp_op [213,219]",
+      "dest": "comp_op [360,366]"
+    },
+    {
+      "src": "name: grid_size [170,179]",
+      "dest": "name: self [308,312]"
+    },
+    {
+      "src": "comparison [199,235]",
+      "dest": "comparison [346,381]"
+    },
+    {
+      "src": "suite [236,273]",
+      "dest": "suite [382,455]"
+    },
+    {
+      "src": "arglist [167,181]",
+      "dest": "arglist [305,328]"
+    },
+    {
+      "src": "arith_expr [138,149]",
+      "dest": "arith_expr [268,287]"
+    },
+    {
+      "src": "operator: , [150,151]",
+      "dest": "operator: , [288,289]"
+    },
+    {
+      "src": "name: food_position [260,273]",
+      "dest": "name: food_position [404,417]"
+    },
+    {
+      "src": "while_stmt [79,273]",
+      "dest": "while_stmt [209,455]"
+    },
+    {
+      "src": "name: food_position [103,116]",
+      "dest": "name: food_position [233,246]"
+    },
+    {
+      "src": "number: 1 [148,149]",
+      "dest": "number: 1 [286,287]"
+    },
+    {
+      "src": "trailer [134,150]",
+      "dest": "trailer [264,288]"
+    },
+    {
+      "src": "number: 1 [180,181]",
+      "dest": "number: 1 [327,328]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [57,201]",
+      "parent": "suite [48,455]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: snake_positions [42,57]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [367,381]",
+      "parent": "comparison [346,381]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [399,434]",
+      "parent": "suite [382,455]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [367,371]",
+      "parent": "atom_expr [367,381]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [371,381]",
+      "parent": "atom_expr [367,381]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [399,433]",
+      "parent": "simple_stmt [399,434]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: snake_positions [220,235]",
+      "label": "positions"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: snake_positions [220,235]",
+      "parent": "trailer [371,381]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [399,417]",
+      "parent": "expr_stmt [399,433]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [418,419]",
+      "parent": "expr_stmt [399,433]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: food_position [420,433]",
+      "parent": "expr_stmt [399,433]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [399,403]",
+      "parent": "atom_expr [399,417]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [403,417]",
+      "parent": "atom_expr [399,417]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: food_position [260,273]",
+      "parent": "trailer [403,417]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [268,285]",
+      "parent": "arith_expr [268,287]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [308,326]",
+      "parent": "arith_expr [308,328]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: grid_size [138,147]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: grid_size [138,147]",
+      "parent": "atom_expr [268,285]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [272,285]",
+      "parent": "atom_expr [268,285]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: grid_size [170,179]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: grid_size [170,179]",
+      "parent": "atom_expr [308,326]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [312,326]",
+      "parent": "atom_expr [308,326]",
+      "at": 1
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [57,58]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "param [59,68]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "return_stmt [253,273]"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        If the IP address is valid, the list of four decimal numbers separated by \".\" constituting the IP address is returned; otherwise, an empty list is returned\n        :return: list\n        >>> ipaddress = IPAddress(\"10.10.10.10\")\n        >>> ipaddress.get_octets()\n        [\"10\", \"10\", \"10\", \"10\"]\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".ip_address",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "ip_address",
+        "deleted": "ip_address",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "ip_address",
+        "type": "Refactoring"
+    }
+]

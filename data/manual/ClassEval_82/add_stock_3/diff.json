@@ -1,0 +1,147 @@
+{
+  "matches": [
+    {
+      "src": "trailer [83,90]",
+      "dest": "trailer [222,229]"
+    },
+    {
+      "src": "name: add_stock [37,46]",
+      "dest": "name: add_stock [37,46]"
+    },
+    {
+      "src": "trailer [90,97]",
+      "dest": "trailer [229,236]"
+    },
+    {
+      "src": "suite [28,122]",
+      "dest": "suite [28,266]"
+    },
+    {
+      "src": "classdef [0,122]",
+      "dest": "classdef [0,266]"
+    },
+    {
+      "src": "suite [65,122]",
+      "dest": "suite [60,266]"
+    },
+    {
+      "src": "return_stmt [106,122]",
+      "dest": "return_stmt [245,266]"
+    },
+    {
+      "src": "name: portfolio [113,122]",
+      "dest": "name: portfolio [257,266]"
+    },
+    {
+      "src": "name: stock [58,63]",
+      "dest": "name: stock [53,58]"
+    },
+    {
+      "src": "name: stock [91,96]",
+      "dest": "name: stock [230,235]"
+    },
+    {
+      "src": "name: append [84,90]",
+      "dest": "name: append [223,229]"
+    },
+    {
+      "src": "name: portfolio [47,56]",
+      "dest": "name: self [47,51]"
+    },
+    {
+      "src": "name: StockPortfolioTracker [6,27]",
+      "dest": "name: StockPortfolioTracker [6,27]"
+    },
+    {
+      "src": "param [58,63]",
+      "dest": "param [53,58]"
+    },
+    {
+      "src": "name: portfolio [74,83]",
+      "dest": "name: portfolio [213,222]"
+    },
+    {
+      "src": "atom_expr [74,97]",
+      "dest": "atom_expr [208,236]"
+    },
+    {
+      "src": "simple_stmt [74,98]",
+      "dest": "simple_stmt [208,237]"
+    },
+    {
+      "src": "file_input [0,122]",
+      "dest": "file_input [0,266]"
+    },
+    {
+      "src": "funcdef [33,122]",
+      "dest": "funcdef [33,266]"
+    },
+    {
+      "src": "parameters [46,64]",
+      "dest": "parameters [46,59]"
+    },
+    {
+      "src": "param [47,57]",
+      "dest": "param [47,52]"
+    },
+    {
+      "src": "operator: , [56,57]",
+      "dest": "operator: , [51,52]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [69,200]",
+      "parent": "suite [60,266]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: portfolio [47,56]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [252,266]",
+      "parent": "return_stmt [245,266]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [208,212]",
+      "parent": "atom_expr [208,236]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [212,222]",
+      "parent": "atom_expr [208,236]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [252,256]",
+      "parent": "atom_expr [252,266]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [256,266]",
+      "parent": "atom_expr [252,266]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: portfolio [74,83]",
+      "parent": "trailer [212,222]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: portfolio [113,122]",
+      "parent": "trailer [256,266]",
+      "at": 0
+    }
+  ]
+}

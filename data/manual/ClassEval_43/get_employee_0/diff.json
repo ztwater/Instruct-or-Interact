@@ -1,0 +1,143 @@
+{
+  "matches": [
+    {
+      "src": "suite [25,281]",
+      "dest": "suite [25,470]"
+    },
+    {
+      "src": "return_stmt [261,281]",
+      "dest": "return_stmt [397,431]"
+    },
+    {
+      "src": "name: employee_info [268,281]",
+      "dest": "name: employee_id [419,430]"
+    },
+    {
+      "src": "name: HRManagementSystem [6,24]",
+      "dest": "name: HRManagementSystem [6,24]"
+    },
+    {
+      "src": "classdef [0,281]",
+      "dest": "classdef [0,470]"
+    },
+    {
+      "src": "file_input [0,281]",
+      "dest": "file_input [0,470]"
+    },
+    {
+      "src": "suite [60,281]",
+      "dest": "suite [384,432]"
+    },
+    {
+      "src": "funcdef [30,281]",
+      "dest": "funcdef [30,470]"
+    },
+    {
+      "src": "param [47,58]",
+      "dest": "param [53,64]"
+    },
+    {
+      "src": "name: employee_id [47,58]",
+      "dest": "name: employee_id [53,64]"
+    },
+    {
+      "src": "parameters [46,59]",
+      "dest": "parameters [46,65]"
+    },
+    {
+      "src": "name: get_employee [34,46]",
+      "dest": "name: get_employee [34,46]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "suite [66,470]",
+      "parent": "funcdef [30,470]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [47,52]",
+      "parent": "parameters [46,65]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [75,343]",
+      "parent": "suite [66,470]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [351,470]",
+      "parent": "suite [66,470]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [354,383]",
+      "parent": "if_stmt [351,470]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [60,281]",
+      "parent": "if_stmt [351,470]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [445,470]",
+      "parent": "if_stmt [351,470]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [397,432]",
+      "parent": "suite [384,432]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [261,281]",
+      "parent": "simple_stmt [397,432]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [404,431]",
+      "parent": "return_stmt [397,431]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [404,408]",
+      "parent": "atom_expr [404,431]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [408,418]",
+      "parent": "atom_expr [404,431]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [418,431]",
+      "parent": "atom_expr [404,431]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: employee_info [268,281]",
+      "label": "employee_id"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: employee_info [268,281]",
+      "parent": "trailer [418,431]",
+      "at": 0
+    }
+  ]
+}

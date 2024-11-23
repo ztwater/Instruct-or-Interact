@@ -1,0 +1,147 @@
+{
+  "matches": [
+    {
+      "src": "return_stmt [87,102]",
+      "dest": "return_stmt [311,322]"
+    },
+    {
+      "src": "suite [18,102]",
+      "dest": "suite [18,322]"
+    },
+    {
+      "src": "param [35,43]",
+      "dest": "param [35,39]"
+    },
+    {
+      "src": "name: playlist [35,43]",
+      "dest": "name: self [35,39]"
+    },
+    {
+      "src": "classdef [0,102]",
+      "dest": "classdef [0,322]"
+    },
+    {
+      "src": "trailer [60,68]",
+      "dest": "trailer [275,283]"
+    },
+    {
+      "src": "name: shuffle [61,68]",
+      "dest": "name: shuffle [276,283]"
+    },
+    {
+      "src": "name: shuffle [27,34]",
+      "dest": "name: shuffle [27,34]"
+    },
+    {
+      "src": "parameters [34,44]",
+      "dest": "parameters [34,40]"
+    },
+    {
+      "src": "atom_expr [54,78]",
+      "dest": "atom_expr [269,298]"
+    },
+    {
+      "src": "name: random [54,60]",
+      "dest": "name: random [269,275]"
+    },
+    {
+      "src": "file_input [0,102]",
+      "dest": "file_input [0,322]"
+    },
+    {
+      "src": "name: MusicPlayer [6,17]",
+      "dest": "name: MusicPlayer [6,17]"
+    },
+    {
+      "src": "funcdef [23,102]",
+      "dest": "funcdef [23,322]"
+    },
+    {
+      "src": "name: playlist [69,77]",
+      "dest": "name: playlist [289,297]"
+    },
+    {
+      "src": "simple_stmt [54,79]",
+      "dest": "simple_stmt [269,299]"
+    },
+    {
+      "src": "trailer [68,78]",
+      "dest": "trailer [288,297]"
+    },
+    {
+      "src": "suite [45,102]",
+      "dest": "suite [256,322]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "suite [41,322]",
+      "parent": "funcdef [23,322]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [50,182]",
+      "parent": "suite [41,322]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [190,322]",
+      "parent": "suite [41,322]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: playlist [35,43]",
+      "label": "self"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [193,216]",
+      "parent": "if_stmt [190,322]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [217,243]",
+      "parent": "if_stmt [190,322]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [45,102]",
+      "parent": "if_stmt [190,322]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [283,298]",
+      "parent": "atom_expr [269,298]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [284,297]",
+      "parent": "trailer [283,298]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [284,288]",
+      "parent": "atom_expr [284,297]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [68,78]",
+      "parent": "atom_expr [284,297]",
+      "at": 1
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: playlist [94,102]"
+    }
+  ]
+}

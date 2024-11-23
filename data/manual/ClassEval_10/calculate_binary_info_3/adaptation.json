@@ -1,0 +1,79 @@
+[
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "(self.binary_string)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".binary_string",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "name",
+        "inserted": "",
+        "deleted": "binary_string",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "trailer",
+        "inserted": "(binary_string)",
+        "deleted": "(binary_string)",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "binary_string",
+        "deleted": "binary_string",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "binary_string",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "string",
+        "inserted": "'Zeroes'",
+        "deleted": "'percentage_0'",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "string",
+        "inserted": "'Ones'",
+        "deleted": "'percentage_1'",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "string:",
+        "inserted": "'Bit length'",
+        "deleted": "'total_length'",
+        "type": "Logic"
+    }
+]

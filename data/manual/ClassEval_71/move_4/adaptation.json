@@ -1,0 +1,128 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Move the player based on the specified direction and check if the game is won.\n        :param direction: str, the direction of the player's movement. \n            It can be 'w', 's', 'a', or 'd' representing up, down, left, or right respectively.\n\n        :return: True if the game is won, False otherwise.\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "funcdef",
+        "inserted": "def game_won():\n            \"\"\"\n            Check if the game is won by comparing the positions of the boxes with the target positions.\n            :return: bool, True if the game is won, False otherwise.\n            \"\"\"\n            for box in self.boxes:\n                if box not in self.targets:\n                    return False\n            return True\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "funcdef",
+        "inserted": "def move_left():\n            \"\"\"\n            Move the player to the left.\n            \"\"\"\n            if self.map[self.player_row][self.player_col-1] != '#':\n                if self.map[self.player_row][self.player_col-1] == ' ':\n                    self.map[self.player_row][self.player_col] = ' '\n                    self.map[self.player_row][self.player_col-1] = 'O'\n                    self.player_col -= 1\n                elif self.map[self.player_row][self.player_col-1] == 'X':\n                    if self.map[self.player_row][self.player_col-2] == ' ':\n                        self.map[self.player_row][self.player_col] = ' '\n                        self.map[self.player_row][self.player_col-1] = 'O'\n                        self.map[self.player_row][self.player_col-2] = 'X'\n                        self.player_col -= 1\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "funcdef",
+        "inserted": "def move_right():\n            \"\"\"\n            Move the player to the right.\n            \"\"\"\n            if self.map[self.player_row][self.player_col+1] != '#':\n                if self.map[self.player_row][self.player_col+1] == ' ':\n                    self.map[self.player_row][self.player_col] = ' '\n                    self.map[self.player_row][self.player_col+1] = 'O'\n                    self.player_col += 1\n                elif self.map[self.player_row][self.player_col+1] == 'X':\n                    if self.map[self.player_row][self.player_col+2] == ' ':\n                        self.map[self.player_row][self.player_col] = ' '\n                        self.map[self.player_row][self.player_col+1] = 'O'\n                        self.map[self.player_row][self.player_col+2] = 'X'\n                        self.player_col += 1\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "funcdef",
+        "inserted": "def move_up():\n            \"\"\"\n            Move the player up.\n            \"\"\"\n            if self.map[self.player_row-1][self.player_col] != '#':\n                if self.map[self.player_row-1][self.player_col] == ' ':\n                    self.map[self.player_row][self.player_col] = ' '\n                    self.map[self.player_row-1][self.player_col] = 'O'\n                    self.player_row -= 1\n                elif self.map[self.player_row-1][self.player_col] == 'X':\n                    if self.map[self.player_row-2][self.player_col] == ' ':\n                        self.map[self.player_row][self.player_col] = ' '\n                        self.map[self.player_row-1][self.player_col] = 'O'\n                        self.map[self.player_row-2][self.player_col] = 'X'\n                        self.player_row -= 1\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "funcdef",
+        "inserted": "def move_down():\n            \"\"\"\n            Move the player down.\n            \"\"\"\n            if self.map[self.player_row+1][self.player_col] != '#':\n                if self.map[self.player_row+1][self.player_col] == ' ':\n                    self.map[self.player_row][self.player_col] = ' '\n                    self.map[self.player_row+1][self.player_col] = 'O'\n                    self.player_row += 1\n                elif self.map[self.player_row+1][self.player_col] == 'X':\n                    if self.map[self.player_row+2][self.player_col] == ' ':\n                        self.map[self.player_row][self.player_col] = ' '\n                        self.map[self.player_row+1][self.player_col] = 'O'\n                        self.map[self.player_row+2][self.player_col] = 'X'\n                        self.player_row += 1\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "print(\"Congratulations! You won the game!\")\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return True\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "move_up()",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "move_down()",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "move_left()",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "move_right()",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "print(\"Congratulations! You won the game!\")",
+        "deleted": "print(\"Congratulations! You won the game!\")",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "string",
+        "inserted": "'w'",
+        "deleted": "\"up\"",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "string",
+        "inserted": "'s'",
+        "deleted": "\"down\"",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "string",
+        "inserted": "'a'",
+        "deleted": "\"left\"",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "string",
+        "inserted": "'d'",
+        "deleted": "\"right\"",
+        "type": "Logic"
+    }
+]

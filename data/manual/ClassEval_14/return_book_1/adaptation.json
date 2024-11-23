@@ -1,0 +1,37 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Marks a book as returned in the database based on the given book ID.\n        :param book_id: int\n        >>> book_db = BookManagementDB(\"test.db\")\n        >>> book_db.return_book(1)\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "sql = \"UPDATE books SET borrowed = 0 WHERE book_id = ?\"\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "self.cursor.execute(sql, (book_id,))\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "self.connection.commit()\n",
+        "deleted": "",
+        "type": "Logic"
+    }
+]

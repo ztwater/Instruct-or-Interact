@@ -1,0 +1,177 @@
+{
+  "matches": [
+    {
+      "src": "param [37,43]",
+      "dest": "param [37,41]"
+    },
+    {
+      "src": "return_stmt [152,163]",
+      "dest": "return_stmt [545,556]"
+    },
+    {
+      "src": "suite [18,163]",
+      "dest": "suite [18,557]"
+    },
+    {
+      "src": "name: box [95,98]",
+      "dest": "name: box [483,486]"
+    },
+    {
+      "src": "return_stmt [131,143]",
+      "dest": "return_stmt [524,536]"
+    },
+    {
+      "src": "classdef [0,163]",
+      "dest": "classdef [0,557]"
+    },
+    {
+      "src": "name: check_win [27,36]",
+      "dest": "name: check_win [27,36]"
+    },
+    {
+      "src": "suite [53,163]",
+      "dest": "suite [43,557]"
+    },
+    {
+      "src": "name: boxes [73,78]",
+      "dest": "name: boxes [461,466]"
+    },
+    {
+      "src": "simple_stmt [131,144]",
+      "dest": "simple_stmt [524,537]"
+    },
+    {
+      "src": "name: targets [106,113]",
+      "dest": "name: targets [499,506]"
+    },
+    {
+      "src": "comparison [95,113]",
+      "dest": "comparison [483,506]"
+    },
+    {
+      "src": "name: boxes [37,42]",
+      "dest": "name: self [37,41]"
+    },
+    {
+      "src": "name: PushBoxGame [6,17]",
+      "dest": "name: PushBoxGame [6,17]"
+    },
+    {
+      "src": "comp_op [99,105]",
+      "dest": "comp_op [487,493]"
+    },
+    {
+      "src": "if_stmt [92,144]",
+      "dest": "if_stmt [480,537]"
+    },
+    {
+      "src": "parameters [36,52]",
+      "dest": "parameters [36,42]"
+    },
+    {
+      "src": "file_input [0,163]",
+      "dest": "file_input [0,557]"
+    },
+    {
+      "src": "for_stmt [62,144]",
+      "dest": "for_stmt [445,537]"
+    },
+    {
+      "src": "suite [114,144]",
+      "dest": "suite [507,537]"
+    },
+    {
+      "src": "funcdef [23,163]",
+      "dest": "funcdef [23,557]"
+    },
+    {
+      "src": "suite [79,144]",
+      "dest": "suite [467,537]"
+    },
+    {
+      "src": "name: box [66,69]",
+      "dest": "name: box [449,452]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [52,437]",
+      "parent": "suite [43,557]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [545,557]",
+      "parent": "suite [43,557]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: boxes [37,42]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [456,466]",
+      "parent": "for_stmt [445,537]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [152,163]",
+      "parent": "simple_stmt [545,557]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [456,460]",
+      "parent": "atom_expr [456,466]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [460,466]",
+      "parent": "atom_expr [456,466]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: boxes [73,78]",
+      "parent": "trailer [460,466]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [494,506]",
+      "parent": "comparison [483,506]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [494,498]",
+      "parent": "atom_expr [494,506]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [498,506]",
+      "parent": "atom_expr [494,506]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: targets [106,113]",
+      "parent": "trailer [498,506]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [42,43]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "param [44,51]"
+    }
+  ]
+}

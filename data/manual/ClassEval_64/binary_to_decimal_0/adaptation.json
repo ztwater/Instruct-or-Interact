@@ -1,0 +1,142 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Convert a number from binary format to decimal format.\n        :param binary_num: str, binary number\n        :return: int, the decimal representation of binary number str.\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "string",
+        "inserted": "''",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "binary_num",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "int",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "-",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "factor",
+        "inserted": "-1",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "number",
+        "inserted": "",
+        "deleted": "0",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "term",
+        "inserted": "",
+        "deleted": "binary % 10",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "binary",
+        "deleted": "binary",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "number",
+        "inserted": "10",
+        "deleted": "10",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": "%",
+        "deleted": "%",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "number",
+        "inserted": "10",
+        "deleted": "10",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "binary_num",
+        "deleted": "binary",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "binary_num",
+        "deleted": "binary",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "binary_num",
+        "deleted": "binary",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "//=",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "binary_num",
+        "deleted": "binary",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "number",
+        "inserted": "1",
+        "deleted": "10",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "operator",
+        "inserted": "-",
+        "deleted": "%",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "number",
+        "inserted": "1",
+        "deleted": "10",
+        "type": "Logic"
+    }
+]

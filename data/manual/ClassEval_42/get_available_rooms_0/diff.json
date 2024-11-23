@@ -1,0 +1,191 @@
+{
+  "matches": [
+    {
+      "src": "simple_stmt [226,236]",
+      "dest": "simple_stmt [404,414]"
+    },
+    {
+      "src": "suite [12,349]",
+      "dest": "suite [12,532]"
+    },
+    {
+      "src": "atom_expr [278,287]",
+      "dest": "atom_expr [438,458]"
+    },
+    {
+      "src": "name: Hotel [6,11]",
+      "dest": "name: Hotel [6,11]"
+    },
+    {
+      "src": "trailer [282,287]",
+      "dest": "trailer [442,458]"
+    },
+    {
+      "src": "classdef [0,349]",
+      "dest": "classdef [0,532]"
+    },
+    {
+      "src": "suite [52,349]",
+      "dest": "suite [58,532]"
+    },
+    {
+      "src": "expr_stmt [226,235]",
+      "dest": "expr_stmt [404,413]"
+    },
+    {
+      "src": "simple_stmt [318,329]",
+      "dest": "simple_stmt [472,512]"
+    },
+    {
+      "src": "number: 0 [234,235]",
+      "dest": "number: 0 [412,413]"
+    },
+    {
+      "src": "parameters [40,51]",
+      "dest": "parameters [40,57]"
+    },
+    {
+      "src": "name: get_available_rooms [21,40]",
+      "dest": "name: get_available_rooms [21,40]"
+    },
+    {
+      "src": "name: type [283,287]",
+      "dest": "name: available_rooms [443,458]"
+    },
+    {
+      "src": "file_input [0,349]",
+      "dest": "file_input [0,532]"
+    },
+    {
+      "src": "operator: += [324,326]",
+      "dest": "operator: = [478,479]"
+    },
+    {
+      "src": "return_stmt [337,349]",
+      "dest": "return_stmt [520,532]"
+    },
+    {
+      "src": "name: count [318,323]",
+      "dest": "name: count [472,477]"
+    },
+    {
+      "src": "operator: = [232,233]",
+      "dest": "operator: = [410,411]"
+    },
+    {
+      "src": "expr_stmt [318,328]",
+      "dest": "expr_stmt [472,511]"
+    },
+    {
+      "src": "name: room_type [41,50]",
+      "dest": "name: room_type [47,56]"
+    },
+    {
+      "src": "name: count [226,231]",
+      "dest": "name: count [404,409]"
+    },
+    {
+      "src": "param [41,50]",
+      "dest": "param [47,56]"
+    },
+    {
+      "src": "name: count [344,349]",
+      "dest": "name: count [527,532]"
+    },
+    {
+      "src": "if_stmt [275,329]",
+      "dest": "if_stmt [422,512]"
+    },
+    {
+      "src": "comparison [278,300]",
+      "dest": "comparison [425,458]"
+    },
+    {
+      "src": "name: room [278,282]",
+      "dest": "name: self [438,442]"
+    },
+    {
+      "src": "funcdef [17,349]",
+      "dest": "funcdef [17,532]"
+    },
+    {
+      "src": "suite [301,329]",
+      "dest": "suite [459,512]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [41,46]",
+      "parent": "parameters [40,57]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [67,396]",
+      "parent": "suite [58,532]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "if_stmt [275,329]",
+      "parent": "suite [58,532]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: room_type [425,434]",
+      "parent": "comparison [425,458]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: room [278,282]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: type [283,287]",
+      "label": "available_rooms"
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: += [324,326]",
+      "label": "="
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [480,511]",
+      "parent": "expr_stmt [472,511]",
+      "at": 2
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: == [288,290]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: room_type [291,300]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 1 [327,328]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: room [248,252]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: rooms [256,261]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [262,329]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "for_stmt [244,329]"
+    }
+  ]
+}

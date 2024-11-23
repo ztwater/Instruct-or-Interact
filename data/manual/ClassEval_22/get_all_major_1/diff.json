@@ -1,0 +1,122 @@
+{
+  "matches": [
+    {
+      "src": "parameters [52,54]",
+      "dest": "parameters [52,58]"
+    },
+    {
+      "src": "suite [30,231]",
+      "dest": "suite [30,567]"
+    },
+    {
+      "src": "testlist_comp [141,199]",
+      "dest": "testlist_comp [476,534]"
+    },
+    {
+      "src": "operator: , [159,160]",
+      "dest": "operator: , [494,495]"
+    },
+    {
+      "src": "classdef [0,231]",
+      "dest": "classdef [0,567]"
+    },
+    {
+      "src": "suite [55,231]",
+      "dest": "suite [59,567]"
+    },
+    {
+      "src": "expr_stmt [131,200]",
+      "dest": "expr_stmt [466,535]"
+    },
+    {
+      "src": "operator: , [174,175]",
+      "dest": "operator: , [509,510]"
+    },
+    {
+      "src": "string: 'Computer Science' [141,159]",
+      "dest": "string: 'Computer Science' [476,494]"
+    },
+    {
+      "src": "operator: , [185,186]",
+      "dest": "operator: , [520,521]"
+    },
+    {
+      "src": "name: majors [225,231]",
+      "dest": "name: majors [560,566]"
+    },
+    {
+      "src": "name: get_all_major [39,52]",
+      "dest": "name: get_all_major [39,52]"
+    },
+    {
+      "src": "string: 'Mathematics' [161,174]",
+      "dest": "string: 'Mathematics' [496,509]"
+    },
+    {
+      "src": "string: 'Psychology' [187,199]",
+      "dest": "string: 'Psychology' [522,534]"
+    },
+    {
+      "src": "string: 'Biology' [176,185]",
+      "dest": "string: 'Biology' [511,520]"
+    },
+    {
+      "src": "name: ClassRegistrationSystem [6,29]",
+      "dest": "name: ClassRegistrationSystem [6,29]"
+    },
+    {
+      "src": "name: majors [131,137]",
+      "dest": "name: majors [466,472]"
+    },
+    {
+      "src": "atom [140,200]",
+      "dest": "atom [475,535]"
+    },
+    {
+      "src": "simple_stmt [131,201]",
+      "dest": "simple_stmt [466,536]"
+    },
+    {
+      "src": "operator: = [138,139]",
+      "dest": "operator: = [473,474]"
+    },
+    {
+      "src": "file_input [0,231]",
+      "dest": "file_input [0,567]"
+    },
+    {
+      "src": "funcdef [35,231]",
+      "dest": "funcdef [35,567]"
+    },
+    {
+      "src": "return_stmt [218,231]",
+      "dest": "return_stmt [553,566]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [53,57]",
+      "parent": "parameters [52,58]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [68,391]",
+      "parent": "suite [59,567]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [553,567]",
+      "parent": "suite [59,567]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [218,231]",
+      "parent": "simple_stmt [553,567]",
+      "at": 0
+    }
+  ]
+}

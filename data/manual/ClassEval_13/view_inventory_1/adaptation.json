@@ -1,0 +1,163 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Get the inventory of the Book Management.\n        :return self.inventory: dictionary, {title(str): quantity(int), ...}\n        >>> bookManagement = BookManagement()\n        >>> bookManagement.add_book(\"book1\", 1)\n        >>> bookManagement.add_book(\"book2\", 1)\n        >>> bookManagement.view_inventory()\n        {'book1': 1, 'book2': 1}\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "title",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".inventory",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".items",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "()",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "quantity",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "name",
+        "inserted": "",
+        "deleted": "inventory",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "operator",
+        "inserted": "",
+        "deleted": "=",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "string:",
+        "inserted": "",
+        "deleted": "'Book 2'",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "operator",
+        "inserted": "",
+        "deleted": ",",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "string:",
+        "inserted": "",
+        "deleted": "'Book 3'",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "for_stmt",
+        "inserted": "",
+        "deleted": "for book in inventory:\n            print(book)",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "string:",
+        "inserted": "'Book 1'",
+        "deleted": "'Book 1'",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": ",",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "book",
+        "deleted": "book",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "inventory",
+        "deleted": "inventory",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "book",
+        "deleted": "book",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "string:",
+        "inserted": "\"\"\"\n        Get the inventory of the Book Management.\n        :return self.inventory: dictionary, {title(str): quantity(int), ...}\n        >>> bookManagement = BookManagement()\n        >>> bookManagement.add_book(\"book1\", 1)\n        >>> bookManagement.add_book(\"book2\", 1)\n        >>> bookManagement.view_inventory()\n        {'book1': 1, 'book2': 1}\n        \"\"\"",
+        "deleted": "'Book 1'",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "quantity",
+        "deleted": "book",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "title",
+        "deleted": "book",
+        "type": "Refactoring"
+    }
+]

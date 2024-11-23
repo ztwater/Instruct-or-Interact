@@ -1,0 +1,123 @@
+{
+  "matches": [
+    {
+      "src": "return_stmt [87,102]",
+      "dest": "return_stmt [430,441]"
+    },
+    {
+      "src": "suite [18,102]",
+      "dest": "suite [18,441]"
+    },
+    {
+      "src": "param [35,43]",
+      "dest": "param [35,39]"
+    },
+    {
+      "src": "name: playlist [35,43]",
+      "dest": "name: self [35,39]"
+    },
+    {
+      "src": "classdef [0,102]",
+      "dest": "classdef [0,441]"
+    },
+    {
+      "src": "trailer [60,68]",
+      "dest": "trailer [398,406]"
+    },
+    {
+      "src": "name: shuffle [61,68]",
+      "dest": "name: shuffle [399,406]"
+    },
+    {
+      "src": "name: shuffle [27,34]",
+      "dest": "name: shuffle [27,34]"
+    },
+    {
+      "src": "parameters [34,44]",
+      "dest": "parameters [34,40]"
+    },
+    {
+      "src": "atom_expr [54,78]",
+      "dest": "atom_expr [392,421]"
+    },
+    {
+      "src": "name: random [54,60]",
+      "dest": "name: random [392,398]"
+    },
+    {
+      "src": "file_input [0,102]",
+      "dest": "file_input [0,441]"
+    },
+    {
+      "src": "name: MusicPlayer [6,17]",
+      "dest": "name: MusicPlayer [6,17]"
+    },
+    {
+      "src": "funcdef [23,102]",
+      "dest": "funcdef [23,441]"
+    },
+    {
+      "src": "name: playlist [69,77]",
+      "dest": "name: playlist [412,420]"
+    },
+    {
+      "src": "simple_stmt [54,79]",
+      "dest": "simple_stmt [392,422]"
+    },
+    {
+      "src": "trailer [68,78]",
+      "dest": "trailer [411,420]"
+    },
+    {
+      "src": "suite [45,102]",
+      "dest": "suite [41,441]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [50,323]",
+      "parent": "suite [41,441]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "if_stmt [331,384]",
+      "parent": "suite [41,441]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: playlist [35,43]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [406,421]",
+      "parent": "atom_expr [392,421]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [407,420]",
+      "parent": "trailer [406,421]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [407,411]",
+      "parent": "atom_expr [407,420]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [68,78]",
+      "parent": "atom_expr [407,420]",
+      "at": 1
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: playlist [94,102]"
+    }
+  ]
+}

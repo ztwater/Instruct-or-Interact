@@ -1,0 +1,134 @@
+{
+  "matches": [
+    {
+      "src": "suite [26,142]",
+      "dest": "suite [26,140]"
+    },
+    {
+      "src": "testlist_comp [74,110]",
+      "dest": "testlist_comp [76,112]"
+    },
+    {
+      "src": "name: index [136,141]",
+      "dest": "name: i [138,139]"
+    },
+    {
+      "src": "classdef [0,142]",
+      "dest": "classdef [0,140]"
+    },
+    {
+      "src": "suite [53,142]",
+      "dest": "suite [55,140]"
+    },
+    {
+      "src": "expr_stmt [62,111]",
+      "dest": "expr_stmt [64,113]"
+    },
+    {
+      "src": "operator: , [88,89]",
+      "dest": "operator: , [90,91]"
+    },
+    {
+      "src": "name: NumberWordFormatter [6,25]",
+      "dest": "name: NumberWordFormatter [6,25]"
+    },
+    {
+      "src": "string: \"\" [74,76]",
+      "dest": "string: \"\" [76,78]"
+    },
+    {
+      "src": "string: \"thousand\" [78,88]",
+      "dest": "string: \"thousand\" [80,90]"
+    },
+    {
+      "src": "string: \"billion\" [101,110]",
+      "dest": "string: \"billion\" [103,112]"
+    },
+    {
+      "src": "name: suffixes [127,135]",
+      "dest": "name: suffixes [129,137]"
+    },
+    {
+      "src": "name: suffixes [62,70]",
+      "dest": "name: suffixes [64,72]"
+    },
+    {
+      "src": "trailer [135,142]",
+      "dest": "trailer [137,140]"
+    },
+    {
+      "src": "atom [73,111]",
+      "dest": "atom [75,113]"
+    },
+    {
+      "src": "file_input [0,142]",
+      "dest": "file_input [0,140]"
+    },
+    {
+      "src": "return_stmt [120,142]",
+      "dest": "return_stmt [122,140]"
+    },
+    {
+      "src": "operator: , [76,77]",
+      "dest": "operator: , [78,79]"
+    },
+    {
+      "src": "operator: , [99,100]",
+      "dest": "operator: , [101,102]"
+    },
+    {
+      "src": "parameters [45,52]",
+      "dest": "parameters [45,54]"
+    },
+    {
+      "src": "string: \"million\" [90,99]",
+      "dest": "string: \"million\" [92,101]"
+    },
+    {
+      "src": "name: parse_more [35,45]",
+      "dest": "name: parse_more [35,45]"
+    },
+    {
+      "src": "atom_expr [127,142]",
+      "dest": "atom_expr [129,140]"
+    },
+    {
+      "src": "simple_stmt [62,112]",
+      "dest": "simple_stmt [64,114]"
+    },
+    {
+      "src": "operator: = [71,72]",
+      "dest": "operator: = [73,74]"
+    },
+    {
+      "src": "name: index [46,51]",
+      "dest": "name: i [52,53]"
+    },
+    {
+      "src": "funcdef [31,142]",
+      "dest": "funcdef [31,140]"
+    },
+    {
+      "src": "param [46,51]",
+      "dest": "param [52,53]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [46,51]",
+      "parent": "parameters [45,54]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: index [46,51]",
+      "label": "i"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: index [136,141]",
+      "label": "i"
+    }
+  ]
+}

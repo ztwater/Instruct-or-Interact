@@ -1,0 +1,209 @@
+{
+  "matches": [
+    {
+      "src": "funcdef [22,328]",
+      "dest": "funcdef [22,594]"
+    },
+    {
+      "src": "parameters [33,52]",
+      "dest": "parameters [33,54]"
+    },
+    {
+      "src": "simple_stmt [62,75]",
+      "dest": "simple_stmt [64,528]"
+    },
+    {
+      "src": "name: RegexUtils [6,16]",
+      "dest": "name: RegexUtils [6,16]"
+    },
+    {
+      "src": "name: index [125,130]",
+      "dest": "name: matches [536,543]"
+    },
+    {
+      "src": "trailer [139,144]",
+      "dest": "trailer [548,556]"
+    },
+    {
+      "src": "classdef [0,328]",
+      "dest": "classdef [0,594]"
+    },
+    {
+      "src": "name: start [156,161]",
+      "dest": "name: text [566,570]"
+    },
+    {
+      "src": "operator: , [154,155]",
+      "dest": "operator: , [564,565]"
+    },
+    {
+      "src": "name: substring [145,154]",
+      "dest": "name: pattern [557,564]"
+    },
+    {
+      "src": "name: findall [26,33]",
+      "dest": "name: findall [26,33]"
+    },
+    {
+      "src": "operator: = [131,132]",
+      "dest": "operator: = [544,545]"
+    },
+    {
+      "src": "name: find [140,144]",
+      "dest": "name: findall [549,556]"
+    },
+    {
+      "src": "name: string [34,40]",
+      "dest": "name: self [34,38]"
+    },
+    {
+      "src": "param [42,51]",
+      "dest": "param [40,48]"
+    },
+    {
+      "src": "suite [17,328]",
+      "dest": "suite [17,594]"
+    },
+    {
+      "src": "file_input [0,328]",
+      "dest": "file_input [0,594]"
+    },
+    {
+      "src": "operator: , [40,41]",
+      "dest": "operator: , [38,39]"
+    },
+    {
+      "src": "suite [53,328]",
+      "dest": "suite [55,594]"
+    },
+    {
+      "src": "arglist [145,161]",
+      "dest": "arglist [557,570]"
+    },
+    {
+      "src": "return_stmt [314,328]",
+      "dest": "return_stmt [580,594]"
+    },
+    {
+      "src": "name: matches [321,328]",
+      "dest": "name: matches [587,594]"
+    },
+    {
+      "src": "param [34,41]",
+      "dest": "param [34,39]"
+    },
+    {
+      "src": "name: substring [42,51]",
+      "dest": "name: pattern [40,47]"
+    },
+    {
+      "src": "simple_stmt [125,163]",
+      "dest": "simple_stmt [536,572]"
+    },
+    {
+      "src": "trailer [144,162]",
+      "dest": "trailer [556,571]"
+    },
+    {
+      "src": "expr_stmt [125,162]",
+      "dest": "expr_stmt [536,571]"
+    },
+    {
+      "src": "name: string [133,139]",
+      "dest": "name: re [546,548]"
+    },
+    {
+      "src": "atom_expr [133,162]",
+      "dest": "atom_expr [546,571]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [49,53]",
+      "parent": "parameters [33,54]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [125,163]",
+      "parent": "suite [55,594]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: string [34,40]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: substring [42,51]",
+      "label": "pattern"
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [47,48]",
+      "parent": "param [40,48]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: \"\"\"         Find all matching substrings and return a list of all matching substrings         :param pattern: string, Regular expression pattern         :param text: string, Text to match         :return: list of string, List of all matching substrings         >>> ru = RegexUtils()         >>> ru.findall(r'\\b\\d{3}-\\d{3}-\\d{4}\\b', \"123-456-7890 abiguygusu 876-286-9876 kjgufwycs 987-762-9767\")         ['123-456-7890', '876-286-9876', '987-762-9767']         \"\"\" [64,527]",
+      "parent": "simple_stmt [64,528]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: index [125,130]",
+      "label": "matches"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: string [133,139]",
+      "label": "re"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: find [140,144]",
+      "label": "findall"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: substring [145,154]",
+      "label": "pattern"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: start [156,161]",
+      "label": "text"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "expr_stmt [62,74]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [83,93]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "if_stmt [175,213]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [225,276]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [288,306]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [112,306]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "while_stmt [101,306]"
+    }
+  ]
+}

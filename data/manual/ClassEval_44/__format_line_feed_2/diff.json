@@ -1,0 +1,158 @@
+{
+  "matches": [
+    {
+      "src": "suite [15,134]",
+      "dest": "suite [15,348]"
+    },
+    {
+      "src": "atom_expr [121,133]",
+      "dest": "atom_expr [335,347]"
+    },
+    {
+      "src": "trailer [74,134]",
+      "dest": "trailer [288,348]"
+    },
+    {
+      "src": "classdef [0,134]",
+      "dest": "classdef [0,348]"
+    },
+    {
+      "src": "name: splitlines [105,115]",
+      "dest": "name: splitlines [319,329]"
+    },
+    {
+      "src": "suite [49,134]",
+      "dest": "suite [55,348]"
+    },
+    {
+      "src": "atom_expr [65,134]",
+      "dest": "atom_expr [279,348]"
+    },
+    {
+      "src": "trailer [79,85]",
+      "dest": "trailer [293,299]"
+    },
+    {
+      "src": "parameters [42,48]",
+      "dest": "parameters [42,54]"
+    },
+    {
+      "src": "argument [75,133]",
+      "dest": "argument [289,347]"
+    },
+    {
+      "src": "param [43,47]",
+      "dest": "param [49,53]"
+    },
+    {
+      "src": "name: HtmlUtil [6,14]",
+      "dest": "name: HtmlUtil [6,14]"
+    },
+    {
+      "src": "name: line [75,79]",
+      "dest": "name: line [289,293]"
+    },
+    {
+      "src": "sync_comp_for [88,133]",
+      "dest": "sync_comp_for [302,347]"
+    },
+    {
+      "src": "string: '\\n' [65,69]",
+      "dest": "string: '\\n' [279,283]"
+    },
+    {
+      "src": "trailer [104,115]",
+      "dest": "trailer [318,329]"
+    },
+    {
+      "src": "name: __format_line_feed [24,42]",
+      "dest": "name: __format_line_feed [24,42]"
+    },
+    {
+      "src": "name: join [70,74]",
+      "dest": "name: join [284,288]"
+    },
+    {
+      "src": "file_input [0,134]",
+      "dest": "file_input [0,348]"
+    },
+    {
+      "src": "trailer [115,117]",
+      "dest": "trailer [329,331]"
+    },
+    {
+      "src": "trailer [125,131]",
+      "dest": "trailer [339,345]"
+    },
+    {
+      "src": "comp_if [118,133]",
+      "dest": "comp_if [332,347]"
+    },
+    {
+      "src": "name: line [92,96]",
+      "dest": "name: line [306,310]"
+    },
+    {
+      "src": "name: strip [126,131]",
+      "dest": "name: strip [340,345]"
+    },
+    {
+      "src": "atom_expr [75,87]",
+      "dest": "atom_expr [289,301]"
+    },
+    {
+      "src": "trailer [85,87]",
+      "dest": "trailer [299,301]"
+    },
+    {
+      "src": "name: text [100,104]",
+      "dest": "name: text [314,318]"
+    },
+    {
+      "src": "atom_expr [100,117]",
+      "dest": "atom_expr [314,331]"
+    },
+    {
+      "src": "name: strip [80,85]",
+      "dest": "name: strip [294,299]"
+    },
+    {
+      "src": "name: line [121,125]",
+      "dest": "name: line [335,339]"
+    },
+    {
+      "src": "trailer [131,133]",
+      "dest": "trailer [345,347]"
+    },
+    {
+      "src": "name: text [43,47]",
+      "dest": "name: text [49,53]"
+    },
+    {
+      "src": "return_stmt [58,134]",
+      "dest": "return_stmt [272,348]"
+    },
+    {
+      "src": "trailer [69,74]",
+      "dest": "trailer [283,288]"
+    },
+    {
+      "src": "funcdef [20,134]",
+      "dest": "funcdef [20,348]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [43,48]",
+      "parent": "parameters [42,54]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [64,264]",
+      "parent": "suite [55,348]",
+      "at": 0
+    }
+  ]
+}

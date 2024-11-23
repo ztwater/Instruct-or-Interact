@@ -1,0 +1,202 @@
+{
+  "matches": [
+    {
+      "src": "suite [20,562]",
+      "dest": "suite [20,939]"
+    },
+    {
+      "src": "expr_stmt [127,154]",
+      "dest": "expr_stmt [504,531]"
+    },
+    {
+      "src": "comparison [409,427]",
+      "dest": "comparison [786,804]"
+    },
+    {
+      "src": "classdef [0,562]",
+      "dest": "classdef [0,939]"
+    },
+    {
+      "src": "operator: += [491,493]",
+      "dest": "operator: += [868,870]"
+    },
+    {
+      "src": "suite [51,562]",
+      "dest": "suite [57,939]"
+    },
+    {
+      "src": "name: word [310,314]",
+      "dest": "name: word [687,691]"
+    },
+    {
+      "src": "name: strip [414,419]",
+      "dest": "name: strip [791,796]"
+    },
+    {
+      "src": "trailer [143,149]",
+      "dest": "trailer [520,526]"
+    },
+    {
+      "src": "number: 0 [235,236]",
+      "dest": "number: 0 [612,613]"
+    },
+    {
+      "src": "atom_expr [409,421]",
+      "dest": "atom_expr [786,798]"
+    },
+    {
+      "src": "name: split [144,149]",
+      "dest": "name: split [521,526]"
+    },
+    {
+      "src": "trailer [413,419]",
+      "dest": "trailer [790,796]"
+    },
+    {
+      "src": "string: \"\" [425,427]",
+      "dest": "string: \"\" [802,804]"
+    },
+    {
+      "src": "name: count [557,562]",
+      "dest": "name: count [934,939]"
+    },
+    {
+      "src": "operator: = [233,234]",
+      "dest": "operator: = [610,611]"
+    },
+    {
+      "src": "expr_stmt [227,236]",
+      "dest": "expr_stmt [604,613]"
+    },
+    {
+      "src": "name: words [318,323]",
+      "dest": "name: words [695,700]"
+    },
+    {
+      "src": "name: count [485,490]",
+      "dest": "name: count [862,867]"
+    },
+    {
+      "src": "if_stmt [406,496]",
+      "dest": "if_stmt [783,873]"
+    },
+    {
+      "src": "name: SplitSentence [6,19]",
+      "dest": "name: SplitSentence [6,19]"
+    },
+    {
+      "src": "file_input [0,562]",
+      "dest": "file_input [0,939]"
+    },
+    {
+      "src": "number: 1 [494,495]",
+      "dest": "number: 1 [871,872]"
+    },
+    {
+      "src": "operator: = [133,134]",
+      "dest": "operator: = [510,511]"
+    },
+    {
+      "src": "simple_stmt [127,155]",
+      "dest": "simple_stmt [504,532]"
+    },
+    {
+      "src": "suite [428,496]",
+      "dest": "suite [805,873]"
+    },
+    {
+      "src": "atom_expr [135,154]",
+      "dest": "atom_expr [512,531]"
+    },
+    {
+      "src": "name: word [409,413]",
+      "dest": "name: word [786,790]"
+    },
+    {
+      "src": "operator: != [422,424]",
+      "dest": "operator: != [799,801]"
+    },
+    {
+      "src": "expr_stmt [485,495]",
+      "dest": "expr_stmt [862,872]"
+    },
+    {
+      "src": "param [41,49]",
+      "dest": "param [47,55]"
+    },
+    {
+      "src": "simple_stmt [485,496]",
+      "dest": "simple_stmt [862,873]"
+    },
+    {
+      "src": "trailer [419,421]",
+      "dest": "trailer [796,798]"
+    },
+    {
+      "src": "name: count [227,232]",
+      "dest": "name: count [604,609]"
+    },
+    {
+      "src": "name: sentence [41,49]",
+      "dest": "name: sentence [47,55]"
+    },
+    {
+      "src": "name: words [127,132]",
+      "dest": "name: words [504,509]"
+    },
+    {
+      "src": "name: sentence [135,143]",
+      "dest": "name: sentence [512,520]"
+    },
+    {
+      "src": "return_stmt [550,562]",
+      "dest": "return_stmt [927,939]"
+    },
+    {
+      "src": "name: count_words [29,40]",
+      "dest": "name: count_words [29,40]"
+    },
+    {
+      "src": "string: \" \" [150,153]",
+      "dest": "string: \" \" [527,530]"
+    },
+    {
+      "src": "simple_stmt [227,237]",
+      "dest": "simple_stmt [604,614]"
+    },
+    {
+      "src": "for_stmt [306,496]",
+      "dest": "for_stmt [683,873]"
+    },
+    {
+      "src": "suite [324,496]",
+      "dest": "suite [701,873]"
+    },
+    {
+      "src": "funcdef [25,562]",
+      "dest": "funcdef [25,939]"
+    },
+    {
+      "src": "parameters [40,50]",
+      "dest": "parameters [40,56]"
+    },
+    {
+      "src": "trailer [149,154]",
+      "dest": "trailer [526,531]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [41,46]",
+      "parent": "parameters [40,56]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [66,429]",
+      "parent": "suite [57,939]",
+      "at": 0
+    }
+  ]
+}

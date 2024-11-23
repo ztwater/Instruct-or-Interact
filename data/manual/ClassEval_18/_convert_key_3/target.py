@@ -1,0 +1,3 @@
+class CamelCaseMap:
+
+    pass

@@ -1,0 +1,3 @@
+class NumberWordFormatter:
+
+    pass

@@ -1,0 +1,354 @@
+{
+  "matches": [
+    {
+      "src": "name: quantity [142,150]",
+      "dest": "name: stock [451,456]"
+    },
+    {
+      "src": "suite [28,205]",
+      "dest": "suite [28,550]"
+    },
+    {
+      "src": "name: portfolio [123,132]",
+      "dest": "name: self [430,434]"
+    },
+    {
+      "src": "classdef [0,205]",
+      "dest": "classdef [0,550]"
+    },
+    {
+      "src": "suite [75,205]",
+      "dest": "suite [60,550]"
+    },
+    {
+      "src": "parameters [46,74]",
+      "dest": "parameters [46,59]"
+    },
+    {
+      "src": "expr_stmt [123,150]",
+      "dest": "expr_stmt [430,485]"
+    },
+    {
+      "src": "name: buy_stock [37,46]",
+      "dest": "name: buy_stock [37,46]"
+    },
+    {
+      "src": "name: stock [87,92]",
+      "dest": "name: stock [343,348]"
+    },
+    {
+      "src": "param [54,63]",
+      "dest": "param [53,58]"
+    },
+    {
+      "src": "name: portfolio [177,186]",
+      "dest": "name: portfolio [503,512]"
+    },
+    {
+      "src": "simple_stmt [123,151]",
+      "dest": "simple_stmt [430,486]"
+    },
+    {
+      "src": "atom_expr [177,193]",
+      "dest": "atom_expr [498,526]"
+    },
+    {
+      "src": "file_input [0,205]",
+      "dest": "file_input [0,550]"
+    },
+    {
+      "src": "name: stock [47,52]",
+      "dest": "name: self [47,51]"
+    },
+    {
+      "src": "name: quantity [54,62]",
+      "dest": "name: stock [53,58]"
+    },
+    {
+      "src": "param [47,53]",
+      "dest": "param [47,52]"
+    },
+    {
+      "src": "comparison [87,109]",
+      "dest": "comparison [323,377]"
+    },
+    {
+      "src": "trailer [132,139]",
+      "dest": "trailer [519,526]"
+    },
+    {
+      "src": "name: stock [133,138]",
+      "dest": "name: stock [520,525]"
+    },
+    {
+      "src": "name: StockPortfolioTracker [6,27]",
+      "dest": "name: StockPortfolioTracker [6,27]"
+    },
+    {
+      "src": "if_stmt [84,205]",
+      "dest": "if_stmt [320,550]"
+    },
+    {
+      "src": "operator: = [140,141]",
+      "dest": "operator: -= [448,450]"
+    },
+    {
+      "src": "funcdef [33,205]",
+      "dest": "funcdef [33,550]"
+    },
+    {
+      "src": "name: portfolio [100,109]",
+      "dest": "name: stock [360,365]"
+    },
+    {
+      "src": "operator: , [52,53]",
+      "dest": "operator: , [51,52]"
+    },
+    {
+      "src": "atom_expr [123,139]",
+      "dest": "atom_expr [430,447]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [69,312]",
+      "parent": "suite [60,550]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: stock [47,52]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: quantity [54,62]",
+      "label": "stock"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [378,404]",
+      "parent": "if_stmt [320,550]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [417,550]",
+      "parent": "if_stmt [320,550]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [323,340]",
+      "parent": "comparison [323,377]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: < [341,342]",
+      "parent": "comparison [323,377]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "term [343,377]",
+      "parent": "comparison [323,377]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [123,151]",
+      "parent": "suite [417,550]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [498,527]",
+      "parent": "suite [417,550]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "return_stmt [539,550]",
+      "parent": "suite [417,550]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [343,357]",
+      "parent": "term [343,377]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: * [358,359]",
+      "parent": "term [343,377]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [360,377]",
+      "parent": "term [343,377]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [177,193]",
+      "parent": "simple_stmt [498,527]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: stock [87,92]",
+      "parent": "atom_expr [343,357]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [348,357]",
+      "parent": "atom_expr [343,357]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: portfolio [100,109]",
+      "label": "stock"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: portfolio [100,109]",
+      "parent": "atom_expr [360,377]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [365,377]",
+      "parent": "atom_expr [360,377]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: = [140,141]",
+      "label": "-="
+    },
+    {
+      "action": "insert-node",
+      "tree": "term [451,485]",
+      "parent": "expr_stmt [430,485]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [498,502]",
+      "parent": "atom_expr [498,526]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [502,512]",
+      "parent": "atom_expr [498,526]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [512,519]",
+      "parent": "atom_expr [498,526]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [132,139]",
+      "parent": "atom_expr [498,526]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: portfolio [123,132]",
+      "label": "self"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [434,447]",
+      "parent": "atom_expr [430,447]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [451,465]",
+      "parent": "term [451,485]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: * [466,467]",
+      "parent": "term [451,485]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [468,485]",
+      "parent": "term [451,485]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: portfolio [177,186]",
+      "parent": "trailer [502,512]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: quantity [142,150]",
+      "label": "stock"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: quantity [142,150]",
+      "parent": "atom_expr [451,465]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [456,465]",
+      "parent": "atom_expr [451,465]",
+      "at": 1
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [62,63]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "param [64,73]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "comp_op [93,99]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [186,193]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [110,151]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: += [194,196]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: quantity [197,205]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [177,205]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [164,205]"
+    }
+  ]
+}

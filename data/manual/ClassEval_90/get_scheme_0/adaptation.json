@@ -1,0 +1,44 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        get the scheme of the URL\n        :return: string, If successful, return the scheme of the URL\n        >>> urlhandler = URLHandler(\"https://www.baidu.com/s?wd=aaa&rsv_spt=1#page\")\n        >>> urlhandler.get_scheme()\n        \"https\"\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "urlparse",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "(self.url)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "urlparse(url)",
+        "deleted": "urlparse(url)",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "url",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "urlparse",
+        "type": "Refactoring"
+    }
+]

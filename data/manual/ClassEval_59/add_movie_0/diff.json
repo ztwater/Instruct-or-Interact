@@ -1,0 +1,137 @@
+{
+  "matches": [
+    {
+      "src": "name: append [78,84]",
+      "dest": "name: append [945,951]"
+    },
+    {
+      "src": "suite [25,91]",
+      "dest": "suite [25,958]"
+    },
+    {
+      "src": "operator: , [48,49]",
+      "dest": "operator: , [48,49]"
+    },
+    {
+      "src": "classdef [0,91]",
+      "dest": "classdef [0,958]"
+    },
+    {
+      "src": "suite [57,91]",
+      "dest": "suite [88,958]"
+    },
+    {
+      "src": "param [44,49]",
+      "dest": "param [44,49]"
+    },
+    {
+      "src": "name: movie [50,55]",
+      "dest": "name: name [50,54]"
+    },
+    {
+      "src": "name: movie [85,90]",
+      "dest": "name: movie [952,957]"
+    },
+    {
+      "src": "param [50,55]",
+      "dest": "param [50,55]"
+    },
+    {
+      "src": "trailer [84,91]",
+      "dest": "trailer [951,958]"
+    },
+    {
+      "src": "name: MovieBookingSystem [6,24]",
+      "dest": "name: MovieBookingSystem [6,24]"
+    },
+    {
+      "src": "name: self [66,70]",
+      "dest": "name: self [933,937]"
+    },
+    {
+      "src": "name: movies [71,77]",
+      "dest": "name: movies [938,944]"
+    },
+    {
+      "src": "file_input [0,91]",
+      "dest": "file_input [0,958]"
+    },
+    {
+      "src": "atom_expr [66,91]",
+      "dest": "atom_expr [933,958]"
+    },
+    {
+      "src": "trailer [70,77]",
+      "dest": "trailer [937,944]"
+    },
+    {
+      "src": "funcdef [30,91]",
+      "dest": "funcdef [30,958]"
+    },
+    {
+      "src": "parameters [43,56]",
+      "dest": "parameters [43,87]"
+    },
+    {
+      "src": "name: self [44,48]",
+      "dest": "name: self [44,48]"
+    },
+    {
+      "src": "trailer [77,84]",
+      "dest": "trailer [944,951]"
+    },
+    {
+      "src": "name: add_movie [34,43]",
+      "dest": "name: add_movie [34,43]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [56,62]",
+      "parent": "parameters [43,87]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [63,74]",
+      "parent": "parameters [43,87]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [75,84]",
+      "parent": "parameters [43,87]",
+      "at": 4
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [85,86]",
+      "parent": "parameters [43,87]",
+      "at": 5
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [97,678]",
+      "parent": "suite [88,958]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [686,925]",
+      "parent": "suite [88,958]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: movie [50,55]",
+      "label": "name"
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [54,55]",
+      "parent": "param [50,55]",
+      "at": 1
+    }
+  ]
+}

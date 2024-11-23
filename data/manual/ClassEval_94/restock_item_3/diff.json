@@ -1,0 +1,215 @@
+{
+  "matches": [
+    {
+      "src": "parameters [42,61]",
+      "dest": "parameters [42,69]"
+    },
+    {
+      "src": "operator: += [261,263]",
+      "dest": "operator: += [644,646]"
+    },
+    {
+      "src": "name: VendingMachine [6,20]",
+      "dest": "name: VendingMachine [6,20]"
+    },
+    {
+      "src": "suite [21,429]",
+      "dest": "suite [21,718]"
+    },
+    {
+      "src": "atom_expr [236,260]",
+      "dest": "atom_expr [606,643]"
+    },
+    {
+      "src": "param [52,60]",
+      "dest": "param [60,68]"
+    },
+    {
+      "src": "name: product [43,50]",
+      "dest": "name: self [43,47]"
+    },
+    {
+      "src": "classdef [0,429]",
+      "dest": "classdef [0,718]"
+    },
+    {
+      "src": "suite [62,429]",
+      "dest": "suite [70,718]"
+    },
+    {
+      "src": "operator: , [50,51]",
+      "dest": "operator: , [47,48]"
+    },
+    {
+      "src": "simple_stmt [236,273]",
+      "dest": "simple_stmt [606,656]"
+    },
+    {
+      "src": "name: restock_item [30,42]",
+      "dest": "name: restock_item [30,42]"
+    },
+    {
+      "src": "name: quantity [52,60]",
+      "dest": "name: quantity [60,68]"
+    },
+    {
+      "src": "file_input [0,429]",
+      "dest": "file_input [0,718]"
+    },
+    {
+      "src": "suite [166,273]",
+      "dest": "suite [536,680]"
+    },
+    {
+      "src": "name: product [252,259]",
+      "dest": "name: item_name [621,630]"
+    },
+    {
+      "src": "param [43,51]",
+      "dest": "param [43,48]"
+    },
+    {
+      "src": "name: quantity [264,272]",
+      "dest": "name: quantity [647,655]"
+    },
+    {
+      "src": "suite [286,429]",
+      "dest": "suite [693,718]"
+    },
+    {
+      "src": "name: vending_machine [236,251]",
+      "dest": "name: inventory [611,620]"
+    },
+    {
+      "src": "name: product [139,146]",
+      "dest": "name: item_name [508,517]"
+    },
+    {
+      "src": "if_stmt [136,429]",
+      "dest": "if_stmt [505,718]"
+    },
+    {
+      "src": "comparison [139,165]",
+      "dest": "comparison [508,535]"
+    },
+    {
+      "src": "funcdef [26,429]",
+      "dest": "funcdef [26,718]"
+    },
+    {
+      "src": "expr_stmt [236,272]",
+      "dest": "expr_stmt [606,655]"
+    },
+    {
+      "src": "name: vending_machine [150,165]",
+      "dest": "name: inventory [526,535]"
+    },
+    {
+      "src": "trailer [251,260]",
+      "dest": "trailer [620,631]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [49,59]",
+      "parent": "parameters [42,69]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [79,432]",
+      "parent": "suite [70,718]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: product [43,50]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: product [139,146]",
+      "label": "item_name"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [521,535]",
+      "parent": "comparison [508,535]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [668,680]",
+      "parent": "suite [536,680]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "return_stmt [706,718]",
+      "parent": "suite [693,718]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [521,525]",
+      "parent": "atom_expr [521,535]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [525,535]",
+      "parent": "atom_expr [521,535]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: vending_machine [150,165]",
+      "label": "inventory"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: vending_machine [150,165]",
+      "parent": "trailer [525,535]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [606,610]",
+      "parent": "atom_expr [606,643]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [610,620]",
+      "parent": "atom_expr [606,643]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [631,643]",
+      "parent": "atom_expr [606,643]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: vending_machine [236,251]",
+      "label": "inventory"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: vending_machine [236,251]",
+      "parent": "trailer [610,620]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: product [252,259]",
+      "label": "item_name"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "expr_stmt [394,429]"
+    }
+  ]
+}

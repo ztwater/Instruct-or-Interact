@@ -1,0 +1,44 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".students",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "simple_stmt",
+        "inserted": "",
+        "deleted": "all_students = [\n            {'name': 'John', 'major': 'Computer Science'},\n            {'name': 'Jane', 'major': 'Mathematics'},\n            {'name': 'Mike', 'major': 'Computer Science'},\n            {'name': 'Sarah', 'major': 'Physics'},\n            {'name': 'Emily', 'major': 'Mathematics'}\n        ]\n",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "all_students",
+        "deleted": "all_students",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "students",
+        "deleted": "all_students",
+        "type": "Refactoring"
+    }
+]

@@ -1,0 +1,321 @@
+{
+  "matches": [
+    {
+      "src": "name: image [43,48]",
+      "dest": "name: self [43,47]"
+    },
+    {
+      "src": "atom [205,230]",
+      "dest": "atom [346,361]"
+    },
+    {
+      "src": "suite [82,232]",
+      "dest": "suite [302,362]"
+    },
+    {
+      "src": "if_stmt [59,232]",
+      "dest": "if_stmt [274,362]"
+    },
+    {
+      "src": "testlist_comp [206,229]",
+      "dest": "testlist_comp [347,360]"
+    },
+    {
+      "src": "name: image [192,197]",
+      "dest": "name: image [333,338]"
+    },
+    {
+      "src": "trailer [116,121]",
+      "dest": "trailer [319,325]"
+    },
+    {
+      "src": "operator: == [73,75]",
+      "dest": "operator: == [293,295]"
+    },
+    {
+      "src": "operator: = [190,191]",
+      "dest": "operator: = [326,327]"
+    },
+    {
+      "src": "suite [50,252]",
+      "dest": "suite [64,362]"
+    },
+    {
+      "src": "file_input [0,252]",
+      "dest": "file_input [0,362]"
+    },
+    {
+      "src": "name: height [218,224]",
+      "dest": "name: height [354,360]"
+    },
+    {
+      "src": "name: resize [198,204]",
+      "dest": "name: resize [339,345]"
+    },
+    {
+      "src": "name: mode [68,72]",
+      "dest": "name: mode [288,292]"
+    },
+    {
+      "src": "name: resize_image [30,42]",
+      "dest": "name: resize_image [30,42]"
+    },
+    {
+      "src": "trailer [67,72]",
+      "dest": "trailer [287,292]"
+    },
+    {
+      "src": "funcdef [26,252]",
+      "dest": "funcdef [26,362]"
+    },
+    {
+      "src": "name: size [117,121]",
+      "dest": "name: image [320,325]"
+    },
+    {
+      "src": "suite [21,252]",
+      "dest": "suite [21,362]"
+    },
+    {
+      "src": "param [43,48]",
+      "dest": "param [43,48]"
+    },
+    {
+      "src": "trailer [197,204]",
+      "dest": "trailer [338,345]"
+    },
+    {
+      "src": "name: image [62,67]",
+      "dest": "name: image [282,287]"
+    },
+    {
+      "src": "atom_expr [192,231]",
+      "dest": "atom_expr [328,362]"
+    },
+    {
+      "src": "name: ImageProcessor [6,20]",
+      "dest": "name: ImageProcessor [6,20]"
+    },
+    {
+      "src": "operator: , [216,217]",
+      "dest": "operator: , [352,353]"
+    },
+    {
+      "src": "classdef [0,252]",
+      "dest": "classdef [0,362]"
+    },
+    {
+      "src": "atom_expr [111,121]",
+      "dest": "atom_expr [315,325]"
+    },
+    {
+      "src": "name: image [111,116]",
+      "dest": "name: self [315,319]"
+    },
+    {
+      "src": "string: 'RGB' [76,81]",
+      "dest": "string: 'RGB' [296,301]"
+    },
+    {
+      "src": "trailer [204,231]",
+      "dest": "trailer [345,362]"
+    },
+    {
+      "src": "atom_expr [62,72]",
+      "dest": "atom_expr [277,292]"
+    },
+    {
+      "src": "name: width [206,211]",
+      "dest": "name: width [347,352]"
+    },
+    {
+      "src": "comparison [62,81]",
+      "dest": "comparison [277,301]"
+    },
+    {
+      "src": "parameters [42,49]",
+      "dest": "parameters [42,63]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [49,55]",
+      "parent": "parameters [42,63]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [56,62]",
+      "parent": "parameters [42,63]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [73,265]",
+      "parent": "suite [64,362]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: image [43,48]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [47,48]",
+      "parent": "param [43,48]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [315,362]",
+      "parent": "suite [302,362]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [277,281]",
+      "parent": "atom_expr [277,292]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [281,287]",
+      "parent": "atom_expr [277,292]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [111,121]",
+      "parent": "expr_stmt [315,362]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: = [190,191]",
+      "parent": "expr_stmt [315,362]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [192,231]",
+      "parent": "expr_stmt [315,362]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: image [62,67]",
+      "parent": "trailer [281,287]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: image [111,116]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [328,332]",
+      "parent": "atom_expr [328,362]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [332,338]",
+      "parent": "atom_expr [328,362]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: size [117,121]",
+      "label": "image"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: image [192,197]",
+      "parent": "trailer [332,338]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: width [206,211]",
+      "parent": "testlist_comp [347,360]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: height [218,224]",
+      "parent": "testlist_comp [347,360]",
+      "at": 3
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: // [212,214]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 2 [215,216]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "term [206,216]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: // [225,227]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 2 [228,229]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "term [218,229]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "testlist_star_expr [95,108]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: = [109,110]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [95,121]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [95,122]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "or_test [137,166]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: image [184,189]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [184,231]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [184,232]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [167,232]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "if_stmt [134,232]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "return_stmt [240,252]"
+    }
+  ]
+}

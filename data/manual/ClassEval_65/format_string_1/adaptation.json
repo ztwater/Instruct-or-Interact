@@ -1,0 +1,37 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "x",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Converts a string representation of a number into words format\n        :param x: str, the string representation of a number\n        :return: str, the number in words format\n        >>> formatter = NumberWordFormatter()\n        >>> formatter.format_string(\"123456\")\n        \"ONE HUNDRED AND TWENTY THREE THOUSAND FOUR HUNDRED AND FIFTY SIX ONLY\"\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "number",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "x",
+        "deleted": "number",
+        "type": "Refactoring"
+    }
+]

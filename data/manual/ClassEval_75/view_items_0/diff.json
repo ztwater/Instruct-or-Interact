@@ -1,0 +1,142 @@
+{
+  "matches": [
+    {
+      "src": "funcdef [24,164]",
+      "dest": "funcdef [24,205]"
+    },
+    {
+      "src": "suite [19,164]",
+      "dest": "suite [19,205]"
+    },
+    {
+      "src": "classdef [0,164]",
+      "dest": "classdef [0,205]"
+    },
+    {
+      "src": "simple_stmt [50,136]",
+      "dest": "simple_stmt [62,180]"
+    },
+    {
+      "src": "name: shopping_list [151,164]",
+      "dest": "name: self [195,199]"
+    },
+    {
+      "src": "suite [41,164]",
+      "dest": "suite [53,205]"
+    },
+    {
+      "src": "name: ShoppingCart [6,18]",
+      "dest": "name: ShoppingCart [6,18]"
+    },
+    {
+      "src": "name: view_items [28,38]",
+      "dest": "name: view_items [28,38]"
+    },
+    {
+      "src": "file_input [0,164]",
+      "dest": "file_input [0,205]"
+    },
+    {
+      "src": "string: \"item1\" [67,74]",
+      "dest": "string: \"\"\"         Return the current shopping list items         :return: dict, the current shopping list items         \"\"\" [62,179]"
+    },
+    {
+      "src": "return_stmt [144,164]",
+      "dest": "return_stmt [188,205]"
+    },
+    {
+      "src": "parameters [38,40]",
+      "dest": "parameters [38,44]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "operator: -> [45,47]",
+      "parent": "funcdef [24,205]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: dict [48,52]",
+      "parent": "funcdef [24,205]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [39,43]",
+      "parent": "parameters [38,44]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "string: \"item1\" [67,74]",
+      "label": "\"\"\"         Return the current shopping list items         :return: dict, the current shopping list items         \"\"\""
+    },
+    {
+      "action": "move-tree",
+      "tree": "string: \"item1\" [67,74]",
+      "parent": "simple_stmt [62,180]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [195,205]",
+      "parent": "return_stmt [188,205]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: shopping_list [151,164]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: shopping_list [151,164]",
+      "parent": "atom_expr [195,205]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [199,205]",
+      "parent": "atom_expr [195,205]",
+      "at": 1
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: shopping_list [50,63]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: = [64,65]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [74,75]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"item2\" [76,83]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [83,84]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"item3\" [85,92]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "testlist_comp [67,92]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom [66,93]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [50,93]"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+[
+    {
+        "action": "INS",
+        "label": "string:",
+        "inserted": "\"\"\"\n        Generate regular expression patterns that match the middle characters of two sentences\n        :return: string, regular expression patterns that match the middle characters of two sentences\n        >>> ru = RegexUtils()\n        >>> ru.generate_split_sentences_pattern()\n        '[.!?][\\s]{1,2}(?=[A-Z])'\n        \"\"\"",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "string",
+        "inserted": "'[.!?][\\s]{1,2}(?=[A-Z])'",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "operator",
+        "inserted": "",
+        "deleted": ",",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "param",
+        "inserted": "",
+        "deleted": "sentence2",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "DEL",
+        "label": "expr_stmt",
+        "inserted": "",
+        "deleted": "middle1 = sentence1[len(sentence1) // 2]",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "simple_stmt",
+        "inserted": "",
+        "deleted": "middle2 = sentence2[len(sentence2) // 2]\n",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "simple_stmt",
+        "inserted": "",
+        "deleted": "pattern = f\"{middle1}.{middle2}\"\n",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "name",
+        "inserted": "",
+        "deleted": "pattern",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "sentence1",
+        "type": "Refactoring"
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        calculate the area of annulus based on inner_radius and out_radius\n        :param inner_radius: inner radius of sector, float\n        :param outer_radius: outer radius of sector, float\n        :return: area of annulus, float\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    }
+]

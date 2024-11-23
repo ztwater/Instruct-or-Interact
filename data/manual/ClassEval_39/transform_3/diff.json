@@ -1,0 +1,702 @@
+{
+  "matches": [
+    {
+      "src": "operator: <= [1284,1286]",
+      "dest": "operator: <= [1278,1280]"
+    },
+    {
+      "src": "name: get [1298,1301]",
+      "dest": "name: get [1292,1295]"
+    },
+    {
+      "src": "name: stack [821,826]",
+      "dest": "name: stack [815,820]"
+    },
+    {
+      "src": "simple_stmt [1391,1410]",
+      "dest": "simple_stmt [1385,1404]"
+    },
+    {
+      "src": "atom_expr [564,582]",
+      "dest": "atom_expr [558,576]"
+    },
+    {
+      "src": "atom_expr [1363,1374]",
+      "dest": "atom_expr [1357,1368]"
+    },
+    {
+      "src": "classdef [0,1627]",
+      "dest": "classdef [0,1621]"
+    },
+    {
+      "src": "name: stack [1528,1533]",
+      "dest": "name: stack [1522,1527]"
+    },
+    {
+      "src": "operator: , [198,199]",
+      "dest": "operator: , [198,199]"
+    },
+    {
+      "src": "operator: = [189,190]",
+      "dest": "operator: = [189,190]"
+    },
+    {
+      "src": "number: 1 [197,198]",
+      "dest": "number: 1 [197,198]"
+    },
+    {
+      "src": "comparison [776,787]",
+      "dest": "comparison [770,781]"
+    },
+    {
+      "src": "suite [391,439]",
+      "dest": "suite [385,433]"
+    },
+    {
+      "src": "operator: += [882,884]",
+      "dest": "operator: += [876,878]"
+    },
+    {
+      "src": "while_stmt [805,897]",
+      "dest": "while_stmt [799,891]"
+    },
+    {
+      "src": "operator: == [540,542]",
+      "dest": "operator: == [534,536]"
+    },
+    {
+      "src": "string: '/' [216,219]",
+      "dest": "string: '/' [216,219]"
+    },
+    {
+      "src": "name: stack [109,114]",
+      "dest": "name: stack [109,114]"
+    },
+    {
+      "src": "factor [1252,1254]",
+      "dest": "factor [1246,1248]"
+    },
+    {
+      "src": "trailer [569,576]",
+      "dest": "trailer [563,570]"
+    },
+    {
+      "src": "operator: += [1570,1572]",
+      "dest": "operator: += [1564,1566]"
+    },
+    {
+      "src": "atom_expr [1267,1283]",
+      "dest": "atom_expr [1261,1277]"
+    },
+    {
+      "src": "number: 1 [1253,1254]",
+      "dest": "number: 1 [1247,1248]"
+    },
+    {
+      "src": "name: char [1278,1282]",
+      "dest": "name: char [1272,1276]"
+    },
+    {
+      "src": "atom_expr [1302,1311]",
+      "dest": "atom_expr [1296,1305]"
+    },
+    {
+      "src": "operator: += [1360,1362]",
+      "dest": "operator: += [1354,1356]"
+    },
+    {
+      "src": "atom_expr [913,924]",
+      "dest": "atom_expr [907,918]"
+    },
+    {
+      "src": "simple_stmt [109,120]",
+      "dest": "simple_stmt [109,120]"
+    },
+    {
+      "src": "name: pop [1579,1582]",
+      "dest": "name: pop [1573,1576]"
+    },
+    {
+      "src": "name: transformed_expression [408,430]",
+      "dest": "name: transformed_expression [402,424]"
+    },
+    {
+      "src": "operator: != [1256,1258]",
+      "dest": "operator: != [1250,1252]"
+    },
+    {
+      "src": "trailer [922,924]",
+      "dest": "trailer [916,918]"
+    },
+    {
+      "src": "name: stack [564,569]",
+      "dest": "name: stack [558,563]"
+    },
+    {
+      "src": "atom_expr [821,830]",
+      "dest": "atom_expr [815,824]"
+    },
+    {
+      "src": "name: append [1397,1403]",
+      "dest": "name: append [1391,1397]"
+    },
+    {
+      "src": "operator: , [1311,1312]",
+      "dest": "operator: , [1305,1306]"
+    },
+    {
+      "src": "trailer [894,896]",
+      "dest": "trailer [888,890]"
+    },
+    {
+      "src": "string: '-' [200,203]",
+      "dest": "string: '-' [200,203]"
+    },
+    {
+      "src": "trailer [1277,1283]",
+      "dest": "trailer [1271,1277]"
+    },
+    {
+      "src": "trailer [890,894]",
+      "dest": "trailer [884,888]"
+    },
+    {
+      "src": "name: precedence [1267,1277]",
+      "dest": "name: precedence [1261,1271]"
+    },
+    {
+      "src": "name: precedence [178,188]",
+      "dest": "name: precedence [178,188]"
+    },
+    {
+      "src": "name: transformed_expression [859,881]",
+      "dest": "name: transformed_expression [853,875]"
+    },
+    {
+      "src": "name: stack [1573,1578]",
+      "dest": "name: stack [1567,1572]"
+    },
+    {
+      "src": "operator: , [206,207]",
+      "dest": "operator: , [206,207]"
+    },
+    {
+      "src": "name: precedence [1287,1297]",
+      "dest": "name: precedence [1281,1291]"
+    },
+    {
+      "src": "atom [191,231]",
+      "dest": "atom [191,231]"
+    },
+    {
+      "src": "number: 3 [229,230]",
+      "dest": "number: 3 [229,230]"
+    },
+    {
+      "src": "trailer [826,830]",
+      "dest": "trailer [820,824]"
+    },
+    {
+      "src": "simple_stmt [408,439]",
+      "dest": "simple_stmt [402,433]"
+    },
+    {
+      "src": "name: char [577,581]",
+      "dest": "name: char [571,575]"
+    },
+    {
+      "src": "expr_stmt [859,896]",
+      "dest": "expr_stmt [853,890]"
+    },
+    {
+      "src": "name: pop [1369,1372]",
+      "dest": "name: pop [1363,1366]"
+    },
+    {
+      "src": "trailer [918,922]",
+      "dest": "trailer [912,916]"
+    },
+    {
+      "src": "if_stmt [373,1410]",
+      "dest": "if_stmt [367,1404]"
+    },
+    {
+      "src": "operator: - [1252,1253]",
+      "dest": "operator: - [1246,1247]"
+    },
+    {
+      "src": "trailer [1301,1315]",
+      "dest": "trailer [1295,1309]"
+    },
+    {
+      "src": "name: stack [1391,1396]",
+      "dest": "name: stack [1385,1390]"
+    },
+    {
+      "src": "name: char [1404,1408]",
+      "dest": "name: char [1398,1402]"
+    },
+    {
+      "src": "name: stack [913,918]",
+      "dest": "name: stack [907,912]"
+    },
+    {
+      "src": "string: '+' [192,195]",
+      "dest": "string: '+' [192,195]"
+    },
+    {
+      "src": "file_input [0,1627]",
+      "dest": "file_input [0,1621]"
+    },
+    {
+      "src": "simple_stmt [564,583]",
+      "dest": "simple_stmt [558,577]"
+    },
+    {
+      "src": "suite [838,897]",
+      "dest": "suite [832,891]"
+    },
+    {
+      "src": "name: precedence [1202,1212]",
+      "dest": "name: precedence [1196,1206]"
+    },
+    {
+      "src": "operator: , [214,215]",
+      "dest": "operator: , [214,215]"
+    },
+    {
+      "src": "number: 2 [221,222]",
+      "dest": "number: 2 [221,222]"
+    },
+    {
+      "src": "atom_expr [1287,1315]",
+      "dest": "atom_expr [1281,1309]"
+    },
+    {
+      "src": "atom_expr [1391,1409]",
+      "dest": "atom_expr [1385,1403]"
+    },
+    {
+      "src": "trailer [388,390]",
+      "dest": "trailer [382,384]"
+    },
+    {
+      "src": "and_test [1236,1315]",
+      "dest": "and_test [1230,1309]"
+    },
+    {
+      "src": "comparison [1246,1262]",
+      "dest": "comparison [1240,1256]"
+    },
+    {
+      "src": "trailer [1368,1372]",
+      "dest": "trailer [1362,1366]"
+    },
+    {
+      "src": "name: char [535,539]",
+      "dest": "name: char [529,533]"
+    },
+    {
+      "src": "operator: - [1308,1309]",
+      "dest": "operator: - [1302,1303]"
+    },
+    {
+      "src": "comparison [535,546]",
+      "dest": "comparison [529,540]"
+    },
+    {
+      "src": "and_test [811,837]",
+      "dest": "and_test [805,831]"
+    },
+    {
+      "src": "string: '*' [208,211]",
+      "dest": "string: '*' [208,211]"
+    },
+    {
+      "src": "trailer [576,582]",
+      "dest": "trailer [570,576]"
+    },
+    {
+      "src": "trailer [1372,1374]",
+      "dest": "trailer [1366,1368]"
+    },
+    {
+      "src": "trailer [1403,1409]",
+      "dest": "trailer [1397,1403]"
+    },
+    {
+      "src": "simple_stmt [859,897]",
+      "dest": "simple_stmt [853,891]"
+    },
+    {
+      "src": "trailer [1297,1301]",
+      "dest": "trailer [1291,1295]"
+    },
+    {
+      "src": "operator: == [781,783]",
+      "dest": "operator: == [775,777]"
+    },
+    {
+      "src": "for_stmt [245,1410]",
+      "dest": "for_stmt [245,1404]"
+    },
+    {
+      "src": "expr_stmt [1337,1374]",
+      "dest": "expr_stmt [1331,1368]"
+    },
+    {
+      "src": "simple_stmt [73,101]",
+      "dest": "simple_stmt [73,101]"
+    },
+    {
+      "src": "name: stack [885,890]",
+      "dest": "name: stack [879,884]"
+    },
+    {
+      "src": "suite [1213,1410]",
+      "dest": "suite [1207,1404]"
+    },
+    {
+      "src": "arglist [1302,1314]",
+      "dest": "arglist [1296,1308]"
+    },
+    {
+      "src": "name: infix_expression [257,273]",
+      "dest": "name: expression [257,267]"
+    },
+    {
+      "src": "atom_expr [1246,1255]",
+      "dest": "atom_expr [1240,1249]"
+    },
+    {
+      "src": "comparison [1267,1315]",
+      "dest": "comparison [1261,1309]"
+    },
+    {
+      "src": "suite [27,1627]",
+      "dest": "suite [27,1621]"
+    },
+    {
+      "src": "trailer [380,388]",
+      "dest": "trailer [374,382]"
+    },
+    {
+      "src": "suite [64,1627]",
+      "dest": "suite [64,1621]"
+    },
+    {
+      "src": "name: pop [891,894]",
+      "dest": "name: pop [885,888]"
+    },
+    {
+      "src": "atom_expr [1573,1584]",
+      "dest": "atom_expr [1567,1578]"
+    },
+    {
+      "src": "name: transformed_expression [73,95]",
+      "dest": "name: transformed_expression [73,95]"
+    },
+    {
+      "src": "expr_stmt [109,119]",
+      "dest": "expr_stmt [109,119]"
+    },
+    {
+      "src": "comparison [821,837]",
+      "dest": "comparison [815,831]"
+    },
+    {
+      "src": "atom [117,119]",
+      "dest": "atom [117,119]"
+    },
+    {
+      "src": "atom_expr [885,896]",
+      "dest": "atom_expr [879,890]"
+    },
+    {
+      "src": "operator: { [191,192]",
+      "dest": "operator: { [191,192]"
+    },
+    {
+      "src": "operator: += [431,433]",
+      "dest": "operator: += [425,427]"
+    },
+    {
+      "src": "suite [1534,1585]",
+      "dest": "suite [1528,1579]"
+    },
+    {
+      "src": "parameters [45,63]",
+      "dest": "parameters [45,63]"
+    },
+    {
+      "src": "operator: - [827,828]",
+      "dest": "operator: - [821,822]"
+    },
+    {
+      "src": "while_stmt [1230,1375]",
+      "dest": "while_stmt [1224,1369]"
+    },
+    {
+      "src": "number: 1 [828,829]",
+      "dest": "number: 1 [822,823]"
+    },
+    {
+      "src": "comparison [1194,1212]",
+      "dest": "comparison [1188,1206]"
+    },
+    {
+      "src": "name: transform [36,45]",
+      "dest": "name: transform [36,45]"
+    },
+    {
+      "src": "name: infix_expression [46,62]",
+      "dest": "name: expression [52,62]"
+    },
+    {
+      "src": "expr_stmt [178,231]",
+      "dest": "expr_stmt [178,231]"
+    },
+    {
+      "src": "suite [547,583]",
+      "dest": "suite [541,577]"
+    },
+    {
+      "src": "expr_stmt [1547,1584]",
+      "dest": "expr_stmt [1541,1578]"
+    },
+    {
+      "src": "name: transformed_expression [1605,1627]",
+      "dest": "name: transformed_expression [1599,1621]"
+    },
+    {
+      "src": "while_stmt [1522,1585]",
+      "dest": "while_stmt [1516,1579]"
+    },
+    {
+      "src": "dictorsetmaker [192,230]",
+      "dest": "dictorsetmaker [192,230]"
+    },
+    {
+      "src": "operator: = [115,116]",
+      "dest": "operator: = [115,116]"
+    },
+    {
+      "src": "trailer [1582,1584]",
+      "dest": "trailer [1576,1578]"
+    },
+    {
+      "src": "factor [1308,1310]",
+      "dest": "factor [1302,1304]"
+    },
+    {
+      "src": "atom_expr [376,390]",
+      "dest": "atom_expr [370,384]"
+    },
+    {
+      "src": "funcdef [32,1627]",
+      "dest": "funcdef [32,1621]"
+    },
+    {
+      "src": "trailer [1396,1403]",
+      "dest": "trailer [1390,1397]"
+    },
+    {
+      "src": "operator: , [222,223]",
+      "dest": "operator: , [222,223]"
+    },
+    {
+      "src": "return_stmt [1598,1627]",
+      "dest": "return_stmt [1592,1621]"
+    },
+    {
+      "src": "name: char [776,780]",
+      "dest": "name: char [770,774]"
+    },
+    {
+      "src": "name: pop [919,922]",
+      "dest": "name: pop [913,916]"
+    },
+    {
+      "src": "simple_stmt [1337,1375]",
+      "dest": "simple_stmt [1331,1369]"
+    },
+    {
+      "src": "string: '(' [543,546]",
+      "dest": "string: '(' [537,540]"
+    },
+    {
+      "src": "name: isalnum [381,388]",
+      "dest": "name: isalnum [375,382]"
+    },
+    {
+      "src": "name: stack [1246,1251]",
+      "dest": "name: stack [1240,1245]"
+    },
+    {
+      "src": "name: stack [1363,1368]",
+      "dest": "name: stack [1357,1362]"
+    },
+    {
+      "src": "name: ExpressionCalculator [6,26]",
+      "dest": "name: ExpressionCalculator [6,26]"
+    },
+    {
+      "src": "name: stack [811,816]",
+      "dest": "name: stack [805,810]"
+    },
+    {
+      "src": "string: '(' [1259,1262]",
+      "dest": "string: '(' [1253,1256]"
+    },
+    {
+      "src": "simple_stmt [1547,1585]",
+      "dest": "simple_stmt [1541,1579]"
+    },
+    {
+      "src": "string: '^' [224,227]",
+      "dest": "string: '^' [224,227]"
+    },
+    {
+      "src": "expr_stmt [73,100]",
+      "dest": "expr_stmt [73,100]"
+    },
+    {
+      "src": "name: char [376,380]",
+      "dest": "name: char [370,374]"
+    },
+    {
+      "src": "name: stack [1236,1241]",
+      "dest": "name: stack [1230,1235]"
+    },
+    {
+      "src": "name: char [1194,1198]",
+      "dest": "name: char [1188,1192]"
+    },
+    {
+      "src": "name: stack [1302,1307]",
+      "dest": "name: stack [1296,1301]"
+    },
+    {
+      "src": "number: 2 [213,214]",
+      "dest": "number: 2 [213,214]"
+    },
+    {
+      "src": "suite [274,1410]",
+      "dest": "suite [268,1404]"
+    },
+    {
+      "src": "simple_stmt [178,232]",
+      "dest": "simple_stmt [178,232]"
+    },
+    {
+      "src": "string: \"\" [98,100]",
+      "dest": "string: \"\" [98,100]"
+    },
+    {
+      "src": "name: char [249,253]",
+      "dest": "name: char [249,253]"
+    },
+    {
+      "src": "name: char [434,438]",
+      "dest": "name: char [428,432]"
+    },
+    {
+      "src": "operator: = [96,97]",
+      "dest": "operator: = [96,97]"
+    },
+    {
+      "src": "trailer [1307,1311]",
+      "dest": "trailer [1301,1305]"
+    },
+    {
+      "src": "name: append [570,576]",
+      "dest": "name: append [564,570]"
+    },
+    {
+      "src": "number: 1 [205,206]",
+      "dest": "number: 1 [205,206]"
+    },
+    {
+      "src": "trailer [1578,1582]",
+      "dest": "trailer [1572,1576]"
+    },
+    {
+      "src": "number: 0 [1313,1314]",
+      "dest": "number: 0 [1307,1308]"
+    },
+    {
+      "src": "trailer [1251,1255]",
+      "dest": "trailer [1245,1249]"
+    },
+    {
+      "src": "name: transformed_expression [1337,1359]",
+      "dest": "name: transformed_expression [1331,1353]"
+    },
+    {
+      "src": "operator: != [831,833]",
+      "dest": "operator: != [825,827]"
+    },
+    {
+      "src": "expr_stmt [408,438]",
+      "dest": "expr_stmt [402,432]"
+    },
+    {
+      "src": "factor [827,829]",
+      "dest": "factor [821,823]"
+    },
+    {
+      "src": "name: transformed_expression [1547,1569]",
+      "dest": "name: transformed_expression [1541,1563]"
+    },
+    {
+      "src": "number: 1 [1309,1310]",
+      "dest": "number: 1 [1303,1304]"
+    },
+    {
+      "src": "operator: } [230,231]",
+      "dest": "operator: } [230,231]"
+    },
+    {
+      "src": "string: ')' [784,787]",
+      "dest": "string: ')' [778,781]"
+    },
+    {
+      "src": "suite [788,974]",
+      "dest": "suite [782,968]"
+    },
+    {
+      "src": "string: '(' [834,837]",
+      "dest": "string: '(' [828,831]"
+    },
+    {
+      "src": "param [46,62]",
+      "dest": "param [52,62]"
+    },
+    {
+      "src": "simple_stmt [913,974]",
+      "dest": "simple_stmt [907,968]"
+    },
+    {
+      "src": "suite [1316,1375]",
+      "dest": "suite [1310,1369]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [46,51]",
+      "parent": "parameters [45,63]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: infix_expression [46,62]",
+      "label": "expression"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: infix_expression [257,273]",
+      "label": "expression"
+    }
+  ]
+}

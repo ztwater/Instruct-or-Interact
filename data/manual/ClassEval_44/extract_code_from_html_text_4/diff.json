@@ -1,0 +1,158 @@
+{
+  "matches": [
+    {
+      "src": "suite [15,333]",
+      "dest": "suite [15,964]"
+    },
+    {
+      "src": "expr_stmt [147,181]",
+      "dest": "expr_stmt [778,812]"
+    },
+    {
+      "src": "name: re [206,208]",
+      "dest": "name: re [837,839]"
+    },
+    {
+      "src": "classdef [0,333]",
+      "dest": "classdef [0,964]"
+    },
+    {
+      "src": "name: DOTALL [243,249]",
+      "dest": "name: DOTALL [874,880]"
+    },
+    {
+      "src": "suite [63,333]",
+      "dest": "suite [69,964]"
+    },
+    {
+      "src": "expr_stmt [190,250]",
+      "dest": "expr_stmt [821,881]"
+    },
+    {
+      "src": "arglist [217,249]",
+      "dest": "arglist [848,880]"
+    },
+    {
+      "src": "trailer [208,216]",
+      "dest": "trailer [839,847]"
+    },
+    {
+      "src": "name: HtmlUtil [6,14]",
+      "dest": "name: HtmlUtil [6,14]"
+    },
+    {
+      "src": "trailer [216,250]",
+      "dest": "trailer [847,881]"
+    },
+    {
+      "src": "name: html_text [229,238]",
+      "dest": "name: html_text [860,869]"
+    },
+    {
+      "src": "name: code_snippets [190,203]",
+      "dest": "name: code_snippets [821,834]"
+    },
+    {
+      "src": "trailer [242,249]",
+      "dest": "trailer [873,880]"
+    },
+    {
+      "src": "name: extract_code_from_html_text [24,51]",
+      "dest": "name: extract_code_from_html_text [24,51]"
+    },
+    {
+      "src": "atom_expr [206,250]",
+      "dest": "atom_expr [837,881]"
+    },
+    {
+      "src": "file_input [0,333]",
+      "dest": "file_input [0,964]"
+    },
+    {
+      "src": "parameters [51,62]",
+      "dest": "parameters [51,68]"
+    },
+    {
+      "src": "operator: = [158,159]",
+      "dest": "operator: = [789,790]"
+    },
+    {
+      "src": "param [52,61]",
+      "dest": "param [58,67]"
+    },
+    {
+      "src": "operator: , [238,239]",
+      "dest": "operator: , [869,870]"
+    },
+    {
+      "src": "string: r\"<code>(.*?)</code>\" [160,181]",
+      "dest": "string: r\"<code>(.*?)</code>\" [791,812]"
+    },
+    {
+      "src": "name: findall [209,216]",
+      "dest": "name: findall [840,847]"
+    },
+    {
+      "src": "operator: , [227,228]",
+      "dest": "operator: , [858,859]"
+    },
+    {
+      "src": "name: re [240,242]",
+      "dest": "name: re [871,873]"
+    },
+    {
+      "src": "atom_expr [240,249]",
+      "dest": "atom_expr [871,880]"
+    },
+    {
+      "src": "simple_stmt [147,182]",
+      "dest": "simple_stmt [778,813]"
+    },
+    {
+      "src": "name: code_regex [217,227]",
+      "dest": "name: code_regex [848,858]"
+    },
+    {
+      "src": "name: code_regex [147,157]",
+      "dest": "name: code_regex [778,788]"
+    },
+    {
+      "src": "return_stmt [313,333]",
+      "dest": "return_stmt [944,964]"
+    },
+    {
+      "src": "name: html_text [52,61]",
+      "dest": "name: html_text [58,67]"
+    },
+    {
+      "src": "simple_stmt [190,251]",
+      "dest": "simple_stmt [821,882]"
+    },
+    {
+      "src": "operator: = [204,205]",
+      "dest": "operator: = [835,836]"
+    },
+    {
+      "src": "funcdef [20,333]",
+      "dest": "funcdef [20,964]"
+    },
+    {
+      "src": "name: code_snippets [320,333]",
+      "dest": "name: code_snippets [951,964]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [52,57]",
+      "parent": "parameters [51,68]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [78,695]",
+      "parent": "suite [69,964]",
+      "at": 0
+    }
+  ]
+}

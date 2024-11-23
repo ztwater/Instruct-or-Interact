@@ -1,0 +1,16 @@
+class Manacher:
+    def palindromic_length(self, center, diff):
+        """
+        Recursively calculates the length of the palindromic substring based on a given center, difference value, and input string.
+
+        :param center: The center of the palindromic substring, int.
+        :param diff: The difference between the center and the current position, int.
+        :return: The length of the palindromic substring, int.
+        """
+        # Base case: if the center is out of bounds or the characters at the center and diff positions are not equal, return 0
+        if center < 0 or center >= len(self.input_string) or self.input_string[center] != self.input_string[center + diff]:
+            return 0
+        
+        # Recursive case: increment the length by 2 (since the palindromic substring includes the center and diff positions)
+        # and recursively call the function with the updated center and diff values
+        return 2 + self.palindromic_length(center - 1, diff + 1)

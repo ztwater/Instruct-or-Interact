@@ -1,0 +1,613 @@
+{
+  "matches": [
+    {
+      "src": "atom_expr [384,392]",
+      "dest": "atom_expr [686,694]"
+    },
+    {
+      "src": "atom [344,376]",
+      "dest": "atom [646,678]"
+    },
+    {
+      "src": "name: plaintext [75,84]",
+      "dest": "name: plaintext [367,376]"
+    },
+    {
+      "src": "name: len [111,114]",
+      "dest": "name: self [407,411]"
+    },
+    {
+      "src": "classdef [0,579]",
+      "dest": "classdef [0,881]"
+    },
+    {
+      "src": "name: plaintext [537,546]",
+      "dest": "name: plaintext [839,848]"
+    },
+    {
+      "src": "param [49,60]",
+      "dest": "param [49,54]"
+    },
+    {
+      "src": "operator: - [355,356]",
+      "dest": "operator: - [657,658]"
+    },
+    {
+      "src": "operator: = [178,179]",
+      "dest": "operator: = [475,476]"
+    },
+    {
+      "src": "return_stmt [563,579]",
+      "dest": "return_stmt [865,881]"
+    },
+    {
+      "src": "expr_stmt [98,119]",
+      "dest": "expr_stmt [390,416]"
+    },
+    {
+      "src": "name: isupper [296,303]",
+      "dest": "name: isupper [598,605]"
+    },
+    {
+      "src": "string: \"\" [87,89]",
+      "dest": "string: \"\" [379,381]"
+    },
+    {
+      "src": "trailer [452,502]",
+      "dest": "trailer [754,804]"
+    },
+    {
+      "src": "operator: + [371,372]",
+      "dest": "operator: + [673,674]"
+    },
+    {
+      "src": "atom_expr [143,158]",
+      "dest": "atom_expr [440,455]"
+    },
+    {
+      "src": "name: chr [340,343]",
+      "dest": "name: chr [642,645]"
+    },
+    {
+      "src": "trailer [142,159]",
+      "dest": "trailer [439,456]"
+    },
+    {
+      "src": "simple_stmt [241,272]",
+      "dest": "simple_stmt [538,574]"
+    },
+    {
+      "src": "atom_expr [345,354]",
+      "dest": "atom_expr [647,656]"
+    },
+    {
+      "src": "name: plaintext [570,579]",
+      "dest": "name: plaintext [872,881]"
+    },
+    {
+      "src": "atom_expr [137,159]",
+      "dest": "atom_expr [434,456]"
+    },
+    {
+      "src": "atom_expr [209,223]",
+      "dest": "atom_expr [506,520]"
+    },
+    {
+      "src": "trailer [457,463]",
+      "dest": "trailer [759,765]"
+    },
+    {
+      "src": "name: vigenere_decipher [31,48]",
+      "dest": "name: vigenere_decipher [31,48]"
+    },
+    {
+      "src": "simple_stmt [327,394]",
+      "dest": "simple_stmt [629,696]"
+    },
+    {
+      "src": "expr_stmt [241,271]",
+      "dest": "expr_stmt [538,573]"
+    },
+    {
+      "src": "name: ord [466,469]",
+      "dest": "name: ord [768,771]"
+    },
+    {
+      "src": "arith_expr [345,375]",
+      "dest": "arith_expr [647,677]"
+    },
+    {
+      "src": "name: key [61,64]",
+      "dest": "name: ciphertext [55,65]"
+    },
+    {
+      "src": "operator: + [382,383]",
+      "dest": "operator: + [684,685]"
+    },
+    {
+      "src": "suite [224,503]",
+      "dest": "suite [521,805]"
+    },
+    {
+      "src": "atom_expr [454,463]",
+      "dest": "atom_expr [756,765]"
+    },
+    {
+      "src": "name: char [209,213]",
+      "dest": "name: char [506,510]"
+    },
+    {
+      "src": "atom [453,485]",
+      "dest": "atom [755,787]"
+    },
+    {
+      "src": "name: chr [449,452]",
+      "dest": "name: chr [751,754]"
+    },
+    {
+      "src": "atom_expr [180,193]",
+      "dest": "atom_expr [477,490]"
+    },
+    {
+      "src": "name: ord [384,387]",
+      "dest": "name: ord [686,689]"
+    },
+    {
+      "src": "if_stmt [288,503]",
+      "dest": "if_stmt [590,805]"
+    },
+    {
+      "src": "trailer [303,305]",
+      "dest": "trailer [605,607]"
+    },
+    {
+      "src": "name: char [349,353]",
+      "dest": "name: char [651,655]"
+    },
+    {
+      "src": "atom_expr [449,502]",
+      "dest": "atom_expr [751,804]"
+    },
+    {
+      "src": "name: char [173,177]",
+      "dest": "name: char [470,474]"
+    },
+    {
+      "src": "operator: % [258,259]",
+      "dest": "operator: % [560,561]"
+    },
+    {
+      "src": "operator: - [464,465]",
+      "dest": "operator: - [766,767]"
+    },
+    {
+      "src": "name: char [458,462]",
+      "dest": "name: char [760,764]"
+    },
+    {
+      "src": "file_input [0,579]",
+      "dest": "file_input [0,881]"
+    },
+    {
+      "src": "term [344,381]",
+      "dest": "term [646,683]"
+    },
+    {
+      "src": "name: plaintext [436,445]",
+      "dest": "name: plaintext [738,747]"
+    },
+    {
+      "src": "operator: + [480,481]",
+      "dest": "operator: + [782,783]"
+    },
+    {
+      "src": "operator: += [547,549]",
+      "dest": "operator: += [849,851]"
+    },
+    {
+      "src": "trailer [295,303]",
+      "dest": "trailer [597,605]"
+    },
+    {
+      "src": "number: 26 [488,490]",
+      "dest": "number: 26 [790,792]"
+    },
+    {
+      "src": "atom_expr [493,501]",
+      "dest": "atom_expr [795,803]"
+    },
+    {
+      "src": "atom_expr [340,393]",
+      "dest": "atom_expr [642,695]"
+    },
+    {
+      "src": "name: key_length [260,270]",
+      "dest": "name: key_length [562,572]"
+    },
+    {
+      "src": "operator: += [337,339]",
+      "dest": "operator: += [639,641]"
+    },
+    {
+      "src": "parameters [48,65]",
+      "dest": "parameters [48,66]"
+    },
+    {
+      "src": "number: 26 [373,375]",
+      "dest": "number: 26 [675,677]"
+    },
+    {
+      "src": "trailer [348,354]",
+      "dest": "trailer [650,656]"
+    },
+    {
+      "src": "operator: += [446,448]",
+      "dest": "operator: += [748,750]"
+    },
+    {
+      "src": "name: ord [357,360]",
+      "dest": "name: ord [659,662]"
+    },
+    {
+      "src": "expr_stmt [173,193]",
+      "dest": "expr_stmt [470,490]"
+    },
+    {
+      "src": "name: i [191,192]",
+      "dest": "name: i [488,489]"
+    },
+    {
+      "src": "name: ciphertext [147,157]",
+      "dest": "name: ciphertext [444,454]"
+    },
+    {
+      "src": "for_stmt [128,555]",
+      "dest": "for_stmt [425,857]"
+    },
+    {
+      "src": "simple_stmt [75,90]",
+      "dest": "simple_stmt [367,382]"
+    },
+    {
+      "src": "name: DecryptionUtils [6,21]",
+      "dest": "name: DecryptionUtils [6,21]"
+    },
+    {
+      "src": "term [453,490]",
+      "dest": "term [755,792]"
+    },
+    {
+      "src": "trailer [213,221]",
+      "dest": "trailer [510,518]"
+    },
+    {
+      "src": "number: 26 [482,484]",
+      "dest": "number: 26 [784,786]"
+    },
+    {
+      "src": "expr_stmt [537,554]",
+      "dest": "expr_stmt [839,856]"
+    },
+    {
+      "src": "name: key [252,255]",
+      "dest": "name: key [554,557]"
+    },
+    {
+      "src": "operator: = [109,110]",
+      "dest": "operator: = [401,402]"
+    },
+    {
+      "src": "name: ord [493,496]",
+      "dest": "name: ord [795,798]"
+    },
+    {
+      "src": "trailer [146,158]",
+      "dest": "trailer [443,455]"
+    },
+    {
+      "src": "suite [22,579]",
+      "dest": "suite [22,881]"
+    },
+    {
+      "src": "atom_expr [291,305]",
+      "dest": "atom_expr [593,607]"
+    },
+    {
+      "src": "name: ciphertext [180,190]",
+      "dest": "name: ciphertext [477,487]"
+    },
+    {
+      "src": "suite [66,579]",
+      "dest": "suite [67,881]"
+    },
+    {
+      "src": "arith_expr [454,484]",
+      "dest": "arith_expr [756,786]"
+    },
+    {
+      "src": "number: 26 [379,381]",
+      "dest": "number: 26 [681,683]"
+    },
+    {
+      "src": "arith_expr [453,501]",
+      "dest": "arith_expr [755,803]"
+    },
+    {
+      "src": "expr_stmt [327,393]",
+      "dest": "expr_stmt [629,695]"
+    },
+    {
+      "src": "trailer [114,119]",
+      "dest": "trailer [411,415]"
+    },
+    {
+      "src": "string: 'A' [388,391]",
+      "dest": "string: 'A' [690,693]"
+    },
+    {
+      "src": "operator: % [486,487]",
+      "dest": "operator: % [788,789]"
+    },
+    {
+      "src": "suite [415,503]",
+      "dest": "suite [717,805]"
+    },
+    {
+      "src": "operator: , [59,60]",
+      "dest": "operator: , [53,54]"
+    },
+    {
+      "src": "trailer [469,479]",
+      "dest": "trailer [771,781]"
+    },
+    {
+      "src": "name: i [132,133]",
+      "dest": "name: i [429,430]"
+    },
+    {
+      "src": "name: key_char [241,249]",
+      "dest": "name: key_char [538,546]"
+    },
+    {
+      "src": "arith_expr [344,392]",
+      "dest": "arith_expr [646,694]"
+    },
+    {
+      "src": "name: char [550,554]",
+      "dest": "name: char [852,856]"
+    },
+    {
+      "src": "name: range [137,142]",
+      "dest": "name: range [434,439]"
+    },
+    {
+      "src": "simple_stmt [173,194]",
+      "dest": "simple_stmt [470,491]"
+    },
+    {
+      "src": "if_stmt [206,555]",
+      "dest": "if_stmt [503,857]"
+    },
+    {
+      "src": "simple_stmt [537,555]",
+      "dest": "simple_stmt [839,857]"
+    },
+    {
+      "src": "funcdef [27,579]",
+      "dest": "funcdef [27,881]"
+    },
+    {
+      "src": "operator: = [85,86]",
+      "dest": "operator: = [377,378]"
+    },
+    {
+      "src": "atom_expr [357,370]",
+      "dest": "atom_expr [659,672]"
+    },
+    {
+      "src": "expr_stmt [75,89]",
+      "dest": "expr_stmt [367,381]"
+    },
+    {
+      "src": "atom_expr [466,479]",
+      "dest": "atom_expr [768,781]"
+    },
+    {
+      "src": "trailer [343,393]",
+      "dest": "trailer [645,695]"
+    },
+    {
+      "src": "name: char [291,295]",
+      "dest": "name: char [593,597]"
+    },
+    {
+      "src": "trailer [496,501]",
+      "dest": "trailer [798,803]"
+    },
+    {
+      "src": "operator: % [377,378]",
+      "dest": "operator: % [679,680]"
+    },
+    {
+      "src": "trailer [221,223]",
+      "dest": "trailer [518,520]"
+    },
+    {
+      "src": "param [61,64]",
+      "dest": "param [55,65]"
+    },
+    {
+      "src": "name: isalpha [214,221]",
+      "dest": "name: isalpha [511,518]"
+    },
+    {
+      "src": "name: key_length [98,108]",
+      "dest": "name: key_length [390,400]"
+    },
+    {
+      "src": "operator: + [491,492]",
+      "dest": "operator: + [793,794]"
+    },
+    {
+      "src": "name: key_char [470,478]",
+      "dest": "name: key_char [772,780]"
+    },
+    {
+      "src": "name: len [143,146]",
+      "dest": "name: len [440,443]"
+    },
+    {
+      "src": "name: key [115,118]",
+      "dest": "name: key [412,415]"
+    },
+    {
+      "src": "suite [160,555]",
+      "dest": "suite [457,857]"
+    },
+    {
+      "src": "operator: = [250,251]",
+      "dest": "operator: = [547,548]"
+    },
+    {
+      "src": "name: plaintext [327,336]",
+      "dest": "name: plaintext [629,638]"
+    },
+    {
+      "src": "atom_expr [252,271]",
+      "dest": "atom_expr [549,573]"
+    },
+    {
+      "src": "simple_stmt [98,120]",
+      "dest": "simple_stmt [390,417]"
+    },
+    {
+      "src": "name: ord [345,348]",
+      "dest": "name: ord [647,650]"
+    },
+    {
+      "src": "string: 'a' [497,500]",
+      "dest": "string: 'a' [799,802]"
+    },
+    {
+      "src": "atom_expr [111,119]",
+      "dest": "atom_expr [407,415]"
+    },
+    {
+      "src": "simple_stmt [436,503]",
+      "dest": "simple_stmt [738,805]"
+    },
+    {
+      "src": "suite [306,394]",
+      "dest": "suite [608,696]"
+    },
+    {
+      "src": "trailer [387,392]",
+      "dest": "trailer [689,694]"
+    },
+    {
+      "src": "name: i [256,257]",
+      "dest": "name: i [558,559]"
+    },
+    {
+      "src": "suite [520,555]",
+      "dest": "suite [822,857]"
+    },
+    {
+      "src": "trailer [255,271]",
+      "dest": "trailer [557,573]"
+    },
+    {
+      "src": "trailer [190,193]",
+      "dest": "trailer [487,490]"
+    },
+    {
+      "src": "term [256,270]",
+      "dest": "term [558,572]"
+    },
+    {
+      "src": "trailer [360,370]",
+      "dest": "trailer [662,672]"
+    },
+    {
+      "src": "name: key_char [361,369]",
+      "dest": "name: key_char [663,671]"
+    },
+    {
+      "src": "expr_stmt [436,502]",
+      "dest": "expr_stmt [738,804]"
+    },
+    {
+      "src": "name: ord [454,457]",
+      "dest": "name: ord [756,759]"
+    },
+    {
+      "src": "name: ciphertext [49,59]",
+      "dest": "name: self [49,53]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [76,359]",
+      "parent": "suite [67,881]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: ciphertext [49,59]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: key [61,64]",
+      "label": "ciphertext"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [403,416]",
+      "parent": "expr_stmt [390,416]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: len [403,406]",
+      "parent": "atom_expr [403,416]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [406,416]",
+      "parent": "atom_expr [403,416]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [111,119]",
+      "parent": "trailer [406,416]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: len [111,114]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [549,553]",
+      "parent": "atom_expr [549,573]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [553,557]",
+      "parent": "atom_expr [549,573]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: key [252,255]",
+      "parent": "trailer [553,557]",
+      "at": 0
+    }
+  ]
+}

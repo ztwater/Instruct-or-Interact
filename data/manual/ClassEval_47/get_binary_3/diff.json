@@ -1,0 +1,417 @@
+{
+  "matches": [
+    {
+      "src": "return_stmt [228,237]",
+      "dest": "return_stmt [234,243]"
+    },
+    {
+      "src": "operator: < [395,396]",
+      "dest": "operator: = [260,261]"
+    },
+    {
+      "src": "atom_expr [402,412]",
+      "dest": "atom_expr [262,279]"
+    },
+    {
+      "src": "suite [16,639]",
+      "dest": "suite [16,384]"
+    },
+    {
+      "src": "trailer [575,581]",
+      "dest": "trailer [328,334]"
+    },
+    {
+      "src": "string: '.' [547,550]",
+      "dest": "string: '.' [300,303]"
+    },
+    {
+      "src": "param [36,46]",
+      "dest": "param [36,40]"
+    },
+    {
+      "src": "classdef [0,639]",
+      "dest": "classdef [0,384]"
+    },
+    {
+      "src": "suite [48,639]",
+      "dest": "suite [42,384]"
+    },
+    {
+      "src": "name: ip_address [36,46]",
+      "dest": "name: self [36,40]"
+    },
+    {
+      "src": "name: octets [598,604]",
+      "dest": "name: octets [351,357]"
+    },
+    {
+      "src": "trailer [555,605]",
+      "dest": "trailer [308,358]"
+    },
+    {
+      "src": "trailer [559,571]",
+      "dest": "trailer [312,324]"
+    },
+    {
+      "src": "return_stmt [623,639]",
+      "dest": "return_stmt [368,384]"
+    },
+    {
+      "src": "name: octet [564,569]",
+      "dest": "name: octet [317,322]"
+    },
+    {
+      "src": "name: octet [406,411]",
+      "dest": "name: get_octets [267,277]"
+    },
+    {
+      "src": "subscript [572,574]",
+      "dest": "subscript [325,327]"
+    },
+    {
+      "src": "trailer [581,584]",
+      "dest": "trailer [334,337]"
+    },
+    {
+      "src": "name: int [402,405]",
+      "dest": "name: self [262,266]"
+    },
+    {
+      "src": "name: bin [556,559]",
+      "dest": "name: bin [309,312]"
+    },
+    {
+      "src": "name: zfill [576,581]",
+      "dest": "name: zfill [329,334]"
+    },
+    {
+      "src": "simple_stmt [228,238]",
+      "dest": "simple_stmt [234,244]"
+    },
+    {
+      "src": "trailer [201,209]",
+      "dest": "trailer [209,218]"
+    },
+    {
+      "src": "if_stmt [195,238]",
+      "dest": "if_stmt [198,244]"
+    },
+    {
+      "src": "operator: = [545,546]",
+      "dest": "operator: = [298,299]"
+    },
+    {
+      "src": "funcdef [21,639]",
+      "dest": "funcdef [21,384]"
+    },
+    {
+      "src": "simple_stmt [104,135]",
+      "dest": "simple_stmt [51,190]"
+    },
+    {
+      "src": "name: IPAddress [6,15]",
+      "dest": "name: IPAddress [6,15]"
+    },
+    {
+      "src": "parameters [35,47]",
+      "dest": "parameters [35,41]"
+    },
+    {
+      "src": "atom_expr [198,209]",
+      "dest": "atom_expr [205,220]"
+    },
+    {
+      "src": "trailer [571,575]",
+      "dest": "trailer [324,328]"
+    },
+    {
+      "src": "expr_stmt [535,605]",
+      "dest": "expr_stmt [288,358]"
+    },
+    {
+      "src": "argument [556,604]",
+      "dest": "argument [309,357]"
+    },
+    {
+      "src": "name: octet [589,594]",
+      "dest": "name: octet [342,347]"
+    },
+    {
+      "src": "trailer [550,555]",
+      "dest": "trailer [303,308]"
+    },
+    {
+      "src": "name: binary_ip [535,544]",
+      "dest": "name: binary_ip [288,297]"
+    },
+    {
+      "src": "atom_expr [547,605]",
+      "dest": "atom_expr [300,358]"
+    },
+    {
+      "src": "name: octets [202,208]",
+      "dest": "name: is_valid [210,218]"
+    },
+    {
+      "src": "name: get_binary [25,35]",
+      "dest": "name: get_binary [25,35]"
+    },
+    {
+      "src": "name: binary_ip [630,639]",
+      "dest": "name: binary_ip [375,384]"
+    },
+    {
+      "src": "file_input [0,639]",
+      "dest": "file_input [0,384]"
+    },
+    {
+      "src": "string: '.' [130,133]",
+      "dest": "string: \"\"\"         If the IP address is valid, return the binary form of the IP address; otherwise, return ''         :return: string         \"\"\" [51,189]"
+    },
+    {
+      "src": "number: 2 [572,573]",
+      "dest": "number: 2 [325,326]"
+    },
+    {
+      "src": "atom_expr [560,570]",
+      "dest": "atom_expr [313,323]"
+    },
+    {
+      "src": "suite [215,238]",
+      "dest": "suite [221,244]"
+    },
+    {
+      "src": "name: octets [268,274]",
+      "dest": "name: octets [253,259]"
+    },
+    {
+      "src": "number: 8 [582,583]",
+      "dest": "number: 8 [335,336]"
+    },
+    {
+      "src": "name: join [551,555]",
+      "dest": "name: join [304,308]"
+    },
+    {
+      "src": "string: '' [235,237]",
+      "dest": "string: '' [241,243]"
+    },
+    {
+      "src": "trailer [563,570]",
+      "dest": "trailer [316,323]"
+    },
+    {
+      "src": "name: len [198,201]",
+      "dest": "name: self [205,209]"
+    },
+    {
+      "src": "trailer [405,412]",
+      "dest": "trailer [266,277]"
+    },
+    {
+      "src": "name: int [560,563]",
+      "dest": "name: int [313,316]"
+    },
+    {
+      "src": "atom_expr [556,584]",
+      "dest": "atom_expr [309,337]"
+    },
+    {
+      "src": "sync_comp_for [585,604]",
+      "dest": "sync_comp_for [338,357]"
+    },
+    {
+      "src": "simple_stmt [535,606]",
+      "dest": "simple_stmt [288,359]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [253,280]",
+      "parent": "suite [42,384]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: ip_address [36,46]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "string: '.' [130,133]",
+      "label": "\"\"\"         If the IP address is valid, return the binary form of the IP address; otherwise, return ''         :return: string         \"\"\""
+    },
+    {
+      "action": "move-tree",
+      "tree": "string: '.' [130,133]",
+      "parent": "simple_stmt [51,190]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "not_test [201,220]",
+      "parent": "if_stmt [198,244]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [253,279]",
+      "parent": "simple_stmt [253,280]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [198,209]",
+      "parent": "not_test [201,220]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: octets [268,274]",
+      "parent": "expr_stmt [253,279]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: < [395,396]",
+      "label": "="
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: < [395,396]",
+      "parent": "expr_stmt [253,279]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [402,412]",
+      "parent": "expr_stmt [253,279]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: len [198,201]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [218,220]",
+      "parent": "atom_expr [205,220]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: int [402,405]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [277,279]",
+      "parent": "atom_expr [262,279]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: octets [202,208]",
+      "label": "is_valid"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: octet [406,411]",
+      "label": "get_octets"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: octets [104,110]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: = [111,112]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: ip_address [113,123]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [123,129]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [129,134]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [113,134]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [104,134]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: != [210,212]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 4 [213,214]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "comparison [198,214]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: octet [259,264]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "not_test [361,380]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "atom_expr [384,394]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 0 [397,398]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "comparison [384,398]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: > [413,414]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 255 [415,418]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "comparison [402,418]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "or_test [361,418]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "suite [419,446]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "if_stmt [358,446]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [275,446]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "for_stmt [255,446]"
+    }
+  ]
+}

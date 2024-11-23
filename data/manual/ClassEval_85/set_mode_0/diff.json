@@ -1,0 +1,129 @@
+{
+  "matches": [
+    {
+      "src": "funcdef [22,111]",
+      "dest": "funcdef [22,206]"
+    },
+    {
+      "src": "parameters [34,36]",
+      "dest": "parameters [34,46]"
+    },
+    {
+      "src": "file_input [0,111]",
+      "dest": "file_input [0,206]"
+    },
+    {
+      "src": "suite [17,111]",
+      "dest": "suite [17,206]"
+    },
+    {
+      "src": "classdef [0,111]",
+      "dest": "classdef [0,206]"
+    },
+    {
+      "src": "expr_stmt [46,91]",
+      "dest": "expr_stmt [190,206]"
+    },
+    {
+      "src": "suite [37,111]",
+      "dest": "suite [47,206]"
+    },
+    {
+      "src": "name: Thermostat [6,16]",
+      "dest": "name: Thermostat [6,16]"
+    },
+    {
+      "src": "name: input [53,58]",
+      "dest": "name: mode [202,206]"
+    },
+    {
+      "src": "name: mode [46,50]",
+      "dest": "name: mode [195,199]"
+    },
+    {
+      "src": "operator: = [51,52]",
+      "dest": "operator: = [200,201]"
+    },
+    {
+      "src": "name: set_mode [26,34]",
+      "dest": "name: set_mode [26,34]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [35,40]",
+      "parent": "parameters [34,46]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [41,45]",
+      "parent": "parameters [34,46]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [56,182]",
+      "parent": "suite [47,206]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "expr_stmt [46,91]",
+      "parent": "suite [47,206]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [190,199]",
+      "parent": "expr_stmt [190,206]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: input [53,58]",
+      "label": "mode"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: input [53,58]",
+      "parent": "expr_stmt [190,206]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [190,194]",
+      "parent": "atom_expr [190,199]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [194,199]",
+      "parent": "atom_expr [190,199]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: mode [46,50]",
+      "parent": "trailer [194,199]",
+      "at": 0
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [58,91]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [53,91]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [46,92]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "return_stmt [100,111]"
+    }
+  ]
+}

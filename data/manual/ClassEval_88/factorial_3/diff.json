@@ -1,0 +1,152 @@
+{
+  "matches": [
+    {
+      "src": "simple_stmt [51,62]",
+      "dest": "simple_stmt [57,68]"
+    },
+    {
+      "src": "suite [20,139]",
+      "dest": "suite [20,145]"
+    },
+    {
+      "src": "name: result [106,112]",
+      "dest": "name: result [112,118]"
+    },
+    {
+      "src": "for_stmt [70,118]",
+      "dest": "for_stmt [76,124]"
+    },
+    {
+      "src": "classdef [0,139]",
+      "dest": "classdef [0,145]"
+    },
+    {
+      "src": "suite [42,139]",
+      "dest": "suite [48,145]"
+    },
+    {
+      "src": "suite [93,118]",
+      "dest": "suite [99,124]"
+    },
+    {
+      "src": "expr_stmt [51,61]",
+      "dest": "expr_stmt [57,67]"
+    },
+    {
+      "src": "trailer [84,92]",
+      "dest": "trailer [90,98]"
+    },
+    {
+      "src": "parameters [38,41]",
+      "dest": "parameters [38,47]"
+    },
+    {
+      "src": "name: i [74,75]",
+      "dest": "name: i [80,81]"
+    },
+    {
+      "src": "param [39,40]",
+      "dest": "param [45,46]"
+    },
+    {
+      "src": "name: factorial [29,38]",
+      "dest": "name: factorial [29,38]"
+    },
+    {
+      "src": "name: range [79,84]",
+      "dest": "name: range [85,90]"
+    },
+    {
+      "src": "operator: , [86,87]",
+      "dest": "operator: , [92,93]"
+    },
+    {
+      "src": "name: TriCalculator [6,19]",
+      "dest": "name: TriCalculator [6,19]"
+    },
+    {
+      "src": "name: result [51,57]",
+      "dest": "name: result [57,63]"
+    },
+    {
+      "src": "number: 1 [90,91]",
+      "dest": "number: 1 [96,97]"
+    },
+    {
+      "src": "number: 1 [60,61]",
+      "dest": "number: 1 [66,67]"
+    },
+    {
+      "src": "file_input [0,139]",
+      "dest": "file_input [0,145]"
+    },
+    {
+      "src": "simple_stmt [106,118]",
+      "dest": "simple_stmt [112,124]"
+    },
+    {
+      "src": "name: i [116,117]",
+      "dest": "name: i [122,123]"
+    },
+    {
+      "src": "expr_stmt [106,117]",
+      "dest": "expr_stmt [112,123]"
+    },
+    {
+      "src": "arith_expr [88,91]",
+      "dest": "arith_expr [94,97]"
+    },
+    {
+      "src": "return_stmt [126,139]",
+      "dest": "return_stmt [132,145]"
+    },
+    {
+      "src": "atom_expr [79,92]",
+      "dest": "atom_expr [85,98]"
+    },
+    {
+      "src": "number: 1 [85,86]",
+      "dest": "number: 1 [91,92]"
+    },
+    {
+      "src": "operator: + [89,90]",
+      "dest": "operator: + [95,96]"
+    },
+    {
+      "src": "name: a [88,89]",
+      "dest": "name: a [94,95]"
+    },
+    {
+      "src": "arglist [85,91]",
+      "dest": "arglist [91,97]"
+    },
+    {
+      "src": "operator: *= [113,115]",
+      "dest": "operator: *= [119,121]"
+    },
+    {
+      "src": "name: result [133,139]",
+      "dest": "name: result [139,145]"
+    },
+    {
+      "src": "name: a [39,40]",
+      "dest": "name: a [45,46]"
+    },
+    {
+      "src": "operator: = [58,59]",
+      "dest": "operator: = [64,65]"
+    },
+    {
+      "src": "funcdef [25,139]",
+      "dest": "funcdef [25,145]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [39,44]",
+      "parent": "parameters [38,47]",
+      "at": 0
+    }
+  ]
+}

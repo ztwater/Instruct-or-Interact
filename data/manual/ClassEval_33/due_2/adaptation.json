@@ -1,0 +1,100 @@
+[
+    {
+        "action": "INS",
+        "label": "parameters",
+        "inserted": "(self)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Calculate the final amount to be paid after applying the discount.\n        :return: float, final amount to be paid\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "if_stmt",
+        "inserted": "if self.promotion is not None:  # Check if a promotion function is provided\n            discount = self.promotion(self.cart)  # Apply the promotion function to calculate the discount\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "self.total()",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "number",
+        "inserted": "0",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "param",
+        "inserted": "",
+        "deleted": "amount,",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "DEL",
+        "label": "param",
+        "inserted": "",
+        "deleted": "discount",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "MOV",
+        "label": "simple_stmt",
+        "inserted": "final_amount = amount - (amount * discount)\n",
+        "deleted": "final_amount = amount - (amount * discount)\n",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return final_amount",
+        "deleted": "return final_amount",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "amount",
+        "deleted": "amount",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": ",",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "discount",
+        "deleted": "discount",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": ",",
+        "type": "Logic"
+    }
+]

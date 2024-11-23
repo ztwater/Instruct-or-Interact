@@ -1,0 +1,129 @@
+{
+  "matches": [
+    {
+      "src": "name: target_temperature [589,607]",
+      "dest": "name: target_temperature [306,324]"
+    },
+    {
+      "src": "suite [17,608]",
+      "dest": "suite [17,338]"
+    },
+    {
+      "src": "classdef [0,608]",
+      "dest": "classdef [0,338]"
+    },
+    {
+      "src": "suite [62,608]",
+      "dest": "suite [68,338]"
+    },
+    {
+      "src": "name: temperature [215,226]",
+      "dest": "name: temperature [327,338]"
+    },
+    {
+      "src": "param [49,60]",
+      "dest": "param [55,66]"
+    },
+    {
+      "src": "atom_expr [543,608]",
+      "dest": "atom_expr [301,324]"
+    },
+    {
+      "src": "name: Thermostat [6,16]",
+      "dest": "name: Thermostat [6,16]"
+    },
+    {
+      "src": "file_input [0,608]",
+      "dest": "file_input [0,338]"
+    },
+    {
+      "src": "funcdef [22,608]",
+      "dest": "funcdef [22,338]"
+    },
+    {
+      "src": "expr_stmt [194,226]",
+      "dest": "expr_stmt [301,338]"
+    },
+    {
+      "src": "parameters [48,61]",
+      "dest": "parameters [48,67]"
+    },
+    {
+      "src": "name: set_target_temperature [26,48]",
+      "dest": "name: set_target_temperature [26,48]"
+    },
+    {
+      "src": "name: format [582,588]",
+      "dest": "name: self [301,305]"
+    },
+    {
+      "src": "operator: = [213,214]",
+      "dest": "operator: = [325,326]"
+    },
+    {
+      "src": "trailer [588,608]",
+      "dest": "trailer [305,324]"
+    },
+    {
+      "src": "name: temperature [49,60]",
+      "dest": "name: temperature [55,66]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [49,54]",
+      "parent": "parameters [48,67]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [77,293]",
+      "parent": "suite [68,338]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "expr_stmt [194,226]",
+      "parent": "suite [68,338]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [543,608]",
+      "parent": "expr_stmt [301,338]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: format [582,588]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: format [582,588]",
+      "parent": "atom_expr [301,324]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"Target temperature set to {} degrees\" [543,581]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [581,588]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: target_temperature [194,212]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [194,227]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "return_stmt [536,608]"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "WD_PARAGRAPH_ALIGNMENT.LEFT",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "WD_PARAGRAPH_ALIGNMENT.CENTER",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "WD_PARAGRAPH_ALIGNMENT.RIGHT",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "number",
+        "inserted": "",
+        "deleted": "1",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "number",
+        "inserted": "",
+        "deleted": "2",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "number",
+        "inserted": "",
+        "deleted": "3",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "alignment",
+        "deleted": "alignment_string",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "alignment",
+        "deleted": "alignment_string",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "string",
+        "inserted": "'left'",
+        "deleted": "'-'",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "string",
+        "inserted": "'center'",
+        "deleted": "'|'",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "string",
+        "inserted": "'right'",
+        "deleted": "'='",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "+=",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "+=",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "+=",
+        "type": "Logic"
+    }
+]

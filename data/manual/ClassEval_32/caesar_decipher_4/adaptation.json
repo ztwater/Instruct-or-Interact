@@ -1,0 +1,16 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Deciphers the given ciphertext using the Caesar cipher\n        :param ciphertext: The ciphertext to decipher,str.\n        :param shift: The shift to use for decryption,int.\n        :return: The deciphered plaintext,str.\n        >>> d = DecryptionUtils('key')\n        >>> d.caesar_decipher('ifmmp', 1)\n        'hello'\n\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    }
+]

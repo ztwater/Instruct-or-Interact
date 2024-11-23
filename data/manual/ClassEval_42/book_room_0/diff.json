@@ -1,0 +1,578 @@
+{
+  "matches": [
+    {
+      "src": "name: room_type [31,40]",
+      "dest": "name: self [31,35]"
+    },
+    {
+      "src": "suite [12,352]",
+      "dest": "suite [12,1338]"
+    },
+    {
+      "src": "name: room_type [320,329]",
+      "dest": "name: room_type [1164,1173]"
+    },
+    {
+      "src": "classdef [0,352]",
+      "dest": "classdef [0,1338]"
+    },
+    {
+      "src": "string: 'Suite' [167,174]",
+      "dest": "string: \"\"\"         Check if there are any rooms of the specified type available.         if rooms are adequate, modify available_rooms and booked_rooms and finish booking, or fail to book otherwise.         :param room_type: str         :param room_number: int, the expected number of specified type rooms to be booked         :param name: str, guest name         :return: if number of rooms about to be booked doesn't exceed the remaining rooms, return str 'Success!'                 if exceeds but quantity of available rooms is not equal to zero, return int(the remaining quantity of this room type).                 if exceeds and quantity is zero or the room_type isn't in available_room, return False.         \"\"\" [76,788]"
+    },
+    {
+      "src": "return_stmt [238,280]",
+      "dest": "return_stmt [995,1033]"
+    },
+    {
+      "src": "name: room_type [250,259]",
+      "dest": "name: room_type [1023,1032]"
+    },
+    {
+      "src": "name: Hotel [6,11]",
+      "dest": "name: Hotel [6,11]"
+    },
+    {
+      "src": "name: available_rooms [128,143]",
+      "dest": "name: room_type [37,46]"
+    },
+    {
+      "src": "param [31,40]",
+      "dest": "param [31,36]"
+    },
+    {
+      "src": "operator: , [155,156]",
+      "dest": "operator: , [46,47]"
+    },
+    {
+      "src": "comparison [196,224]",
+      "dest": "comparison [800,837]"
+    },
+    {
+      "src": "operator: { [319,320]",
+      "dest": "operator: { [1134,1135]"
+    },
+    {
+      "src": "file_input [0,352]",
+      "dest": "file_input [0,1338]"
+    },
+    {
+      "src": "name: available_rooms [209,224]",
+      "dest": "name: available_rooms [822,837]"
+    },
+    {
+      "src": "name: book_room [21,30]",
+      "dest": "name: book_room [21,30]"
+    },
+    {
+      "src": "operator: , [165,166]",
+      "dest": "operator: , [59,60]"
+    },
+    {
+      "src": "funcdef [17,352]",
+      "dest": "funcdef [17,1338]"
+    },
+    {
+      "src": "simple_stmt [238,281]",
+      "dest": "simple_stmt [995,1034]"
+    },
+    {
+      "src": "suite [225,281]",
+      "dest": "suite [978,1034]"
+    },
+    {
+      "src": "operator: } [329,330]",
+      "dest": "operator: , [1190,1191]"
+    },
+    {
+      "src": "name: room_type [196,205]",
+      "dest": "name: room_type [800,809]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "parameters [30,66]",
+      "parent": "funcdef [17,1338]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [67,1338]",
+      "parent": "funcdef [17,1338]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "param [31,40]",
+      "parent": "parameters [30,66]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "param [37,47]",
+      "parent": "parameters [30,66]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "param [48,60]",
+      "parent": "parameters [30,66]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [61,65]",
+      "parent": "parameters [30,66]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [76,789]",
+      "parent": "suite [67,1338]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [797,864]",
+      "parent": "suite [67,1338]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [877,1081]",
+      "parent": "suite [67,1338]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [1094,1138]",
+      "parent": "suite [67,1338]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [1146,1195]",
+      "parent": "suite [67,1338]",
+      "at": 4
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [1203,1253]",
+      "parent": "suite [67,1338]",
+      "at": 5
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [1261,1308]",
+      "parent": "suite [67,1338]",
+      "at": 6
+    },
+    {
+      "action": "insert-tree",
+      "tree": "return_stmt [1321,1338]",
+      "parent": "suite [67,1338]",
+      "at": 7
+    },
+    {
+      "action": "update-node",
+      "tree": "name: room_type [31,40]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [35,36]",
+      "parent": "param [31,36]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: available_rooms [128,143]",
+      "label": "room_type"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: available_rooms [128,143]",
+      "parent": "param [37,47]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: , [155,156]",
+      "parent": "param [37,47]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: room_number [48,59]",
+      "parent": "param [48,60]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: , [165,166]",
+      "parent": "param [48,60]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "string: 'Suite' [167,174]",
+      "label": "\"\"\"         Check if there are any rooms of the specified type available.         if rooms are adequate, modify available_rooms and booked_rooms and finish booking, or fail to book otherwise.         :param room_type: str         :param room_number: int, the expected number of specified type rooms to be booked         :param name: str, guest name         :return: if number of rooms about to be booked doesn't exceed the remaining rooms, return str 'Success!'                 if exceeds but quantity of available rooms is not equal to zero, return int(the remaining quantity of this room type).                 if exceeds and quantity is zero or the room_type isn't in available_room, return False.         \"\"\""
+    },
+    {
+      "action": "move-tree",
+      "tree": "string: 'Suite' [167,174]",
+      "parent": "simple_stmt [76,789]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "comparison [196,224]",
+      "parent": "if_stmt [797,864]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [838,864]",
+      "parent": "if_stmt [797,864]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [880,925]",
+      "parent": "if_stmt [877,1081]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [926,1081]",
+      "parent": "if_stmt [877,1081]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [1094,1137]",
+      "parent": "simple_stmt [1094,1138]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [1146,1194]",
+      "parent": "simple_stmt [1146,1195]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "comp_op [810,816]",
+      "parent": "comparison [800,837]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [817,837]",
+      "parent": "comparison [800,837]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [939,1081]",
+      "parent": "suite [926,1081]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [1094,1098]",
+      "parent": "atom_expr [1094,1137]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [1098,1111]",
+      "parent": "atom_expr [1094,1137]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [1111,1122]",
+      "parent": "atom_expr [1094,1137]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [1122,1137]",
+      "parent": "atom_expr [1094,1137]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [1146,1150]",
+      "parent": "atom_expr [1146,1194]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [1150,1163]",
+      "parent": "atom_expr [1146,1194]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [1163,1174]",
+      "parent": "atom_expr [1146,1194]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [1174,1185]",
+      "parent": "atom_expr [1146,1194]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [1185,1194]",
+      "parent": "atom_expr [1146,1194]",
+      "at": 4
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [817,821]",
+      "parent": "atom_expr [817,837]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [821,837]",
+      "parent": "atom_expr [817,837]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [942,977]",
+      "parent": "if_stmt [939,1081]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [225,281]",
+      "parent": "if_stmt [939,1081]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [1051,1081]",
+      "parent": "if_stmt [939,1081]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "arglist [1123,1136]",
+      "parent": "trailer [1122,1137]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: room_type [320,329]",
+      "parent": "trailer [1163,1174]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "arglist [1186,1193]",
+      "parent": "trailer [1185,1194]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: available_rooms [209,224]",
+      "parent": "trailer [821,837]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: room_type [1123,1132]",
+      "parent": "arglist [1123,1136]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [1132,1133]",
+      "parent": "arglist [1123,1136]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom [1134,1136]",
+      "parent": "arglist [1123,1136]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: name [1186,1190]",
+      "parent": "arglist [1186,1193]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: } [329,330]",
+      "label": ","
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: } [329,330]",
+      "parent": "arglist [1186,1193]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "number: 0 [1192,1193]",
+      "parent": "arglist [1186,1193]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: { [319,320]",
+      "parent": "atom [1134,1136]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: } [1135,1136]",
+      "parent": "atom [1134,1136]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [1002,1033]",
+      "parent": "return_stmt [995,1033]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [1002,1006]",
+      "parent": "atom_expr [1002,1033]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [1006,1022]",
+      "parent": "atom_expr [1002,1033]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [1022,1033]",
+      "parent": "atom_expr [1002,1033]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: room_type [250,259]",
+      "parent": "trailer [1022,1033]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_start: f\" [245,247]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_string: A  [247,249]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: { [249,250]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: } [259,260]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_expr [249,260]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_string:  room is available. [260,279]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_end: \" [279,280]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring [245,280]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "parameters [30,41]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: = [144,145]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: 'Single' [147,155]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: 'Double' [157,165]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "testlist_comp [147,174]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom [146,175]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [128,175]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [128,176]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_start: f\" [314,316]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_string: No  [316,319]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_expr [319,330]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_string:  rooms are available. [330,351]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_end: \" [351,352]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring [314,352]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "return_stmt [307,352]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [294,352]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "if_stmt [193,352]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [42,352]"
+    }
+  ]
+}

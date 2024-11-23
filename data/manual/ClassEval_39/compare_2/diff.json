@@ -1,0 +1,543 @@
+{
+  "matches": [
+    {
+      "src": "atom_expr [270,298]",
+      "dest": "atom_expr [685,707]"
+    },
+    {
+      "src": "string: '%' [182,185]",
+      "dest": "string: '%' [607,610]"
+    },
+    {
+      "src": "suite [27,607]",
+      "dest": "suite [27,821]"
+    },
+    {
+      "src": "parameters [43,65]",
+      "dest": "parameters [43,60]"
+    },
+    {
+      "src": "name: operator1 [254,263]",
+      "dest": "name: operat_priority [669,684]"
+    },
+    {
+      "src": "trailer [253,267]",
+      "dest": "trailer [668,684]"
+    },
+    {
+      "src": "number: 1 [127,128]",
+      "dest": "number: 1 [552,553]"
+    },
+    {
+      "src": "classdef [0,607]",
+      "dest": "classdef [0,821]"
+    },
+    {
+      "src": "number: 2 [167,168]",
+      "dest": "number: 2 [592,593]"
+    },
+    {
+      "src": "suite [66,607]",
+      "dest": "suite [61,821]"
+    },
+    {
+      "src": "name: ExpressionCalculator [6,26]",
+      "dest": "name: ExpressionCalculator [6,26]"
+    },
+    {
+      "src": "trailer [431,445]",
+      "dest": "trailer [747,756]"
+    },
+    {
+      "src": "number: 0 [296,297]",
+      "dest": "number: 0 [705,706]"
+    },
+    {
+      "src": "name: operator1 [401,410]",
+      "dest": "name: operat_priority [717,732]"
+    },
+    {
+      "src": "name: get [397,400]",
+      "dest": "name: get [696,699]"
+    },
+    {
+      "src": "arglist [432,444]",
+      "dest": "arglist [748,755]"
+    },
+    {
+      "src": "trailer [400,414]",
+      "dest": "trailer [716,732]"
+    },
+    {
+      "src": "name: precedence [417,427]",
+      "dest": "name: precedence [733,743]"
+    },
+    {
+      "src": "number: 2 [147,148]",
+      "dest": "number: 2 [572,573]"
+    },
+    {
+      "src": "arglist [285,297]",
+      "dest": "arglist [700,706]"
+    },
+    {
+      "src": "simple_stmt [459,519]",
+      "dest": "simple_stmt [771,783]"
+    },
+    {
+      "src": "string: '^' [202,205]",
+      "dest": "string: '^' [627,630]"
+    },
+    {
+      "src": "dictorsetmaker [102,208]",
+      "dest": "dictorsetmaker [527,633]"
+    },
+    {
+      "src": "string: '/' [162,165]",
+      "dest": "string: '/' [587,590]"
+    },
+    {
+      "src": "operator: , [148,149]",
+      "dest": "operator: , [573,574]"
+    },
+    {
+      "src": "return_stmt [459,518]",
+      "dest": "return_stmt [771,782]"
+    },
+    {
+      "src": "expr_stmt [75,218]",
+      "dest": "expr_stmt [500,643]"
+    },
+    {
+      "src": "name: operator2 [285,294]",
+      "dest": "name: cur [700,703]"
+    },
+    {
+      "src": "name: operator1 [322,331]",
+      "dest": "name: self [712,716]"
+    },
+    {
+      "src": "operator: , [128,129]",
+      "dest": "operator: , [553,554]"
+    },
+    {
+      "src": "string: '*' [142,145]",
+      "dest": "string: '*' [567,570]"
+    },
+    {
+      "src": "name: get [428,431]",
+      "dest": "name: get [744,747]"
+    },
+    {
+      "src": "simple_stmt [75,219]",
+      "dest": "simple_stmt [500,644]"
+    },
+    {
+      "src": "trailer [427,431]",
+      "dest": "trailer [743,747]"
+    },
+    {
+      "src": "operator: , [188,189]",
+      "dest": "operator: , [613,614]"
+    },
+    {
+      "src": "param [55,64]",
+      "dest": "param [50,54]"
+    },
+    {
+      "src": "funcdef [32,607]",
+      "dest": "funcdef [32,821]"
+    },
+    {
+      "src": "suite [446,519]",
+      "dest": "suite [758,783]"
+    },
+    {
+      "src": "name: operator1 [44,53]",
+      "dest": "name: self [44,48]"
+    },
+    {
+      "src": "string: '-' [122,125]",
+      "dest": "string: '-' [547,550]"
+    },
+    {
+      "src": "name: precedence [75,85]",
+      "dest": "name: precedence [500,510]"
+    },
+    {
+      "src": "atom_expr [417,445]",
+      "dest": "atom_expr [733,756]"
+    },
+    {
+      "src": "string: '+' [102,105]",
+      "dest": "string: '+' [527,530]"
+    },
+    {
+      "src": "number: 2 [187,188]",
+      "dest": "number: 2 [612,613]"
+    },
+    {
+      "src": "trailer [284,298]",
+      "dest": "trailer [699,707]"
+    },
+    {
+      "src": "operator: { [321,322]",
+      "dest": "operator: >= [709,711]"
+    },
+    {
+      "src": "operator: { [88,89]",
+      "dest": "operator: { [513,514]"
+    },
+    {
+      "src": "operator: , [108,109]",
+      "dest": "operator: , [533,534]"
+    },
+    {
+      "src": "name: precedence [239,249]",
+      "dest": "name: self [664,668]"
+    },
+    {
+      "src": "name: precedence [270,280]",
+      "dest": "name: precedence [685,695]"
+    },
+    {
+      "src": "file_input [0,607]",
+      "dest": "file_input [0,821]"
+    },
+    {
+      "src": "operator: , [53,54]",
+      "dest": "operator: , [48,49]"
+    },
+    {
+      "src": "operator: , [168,169]",
+      "dest": "operator: , [593,594]"
+    },
+    {
+      "src": "trailer [396,400]",
+      "dest": "trailer [695,699]"
+    },
+    {
+      "src": "operator: } [217,218]",
+      "dest": "operator: } [642,643]"
+    },
+    {
+      "src": "name: operator2 [55,64]",
+      "dest": "name: cur [50,53]"
+    },
+    {
+      "src": "return_stmt [545,607]",
+      "dest": "return_stmt [809,821]"
+    },
+    {
+      "src": "name: compare [36,43]",
+      "dest": "name: compare [36,43]"
+    },
+    {
+      "src": "operator: , [294,295]",
+      "dest": "operator: , [703,704]"
+    },
+    {
+      "src": "atom [88,218]",
+      "dest": "atom [513,643]"
+    },
+    {
+      "src": "operator: = [86,87]",
+      "dest": "operator: = [511,512]"
+    },
+    {
+      "src": "number: 0 [443,444]",
+      "dest": "number: 0 [754,755]"
+    },
+    {
+      "src": "number: 1 [107,108]",
+      "dest": "number: 1 [532,533]"
+    },
+    {
+      "src": "operator: , [441,442]",
+      "dest": "operator: , [752,753]"
+    },
+    {
+      "src": "param [44,54]",
+      "dest": "param [44,49]"
+    },
+    {
+      "src": "number: 3 [207,208]",
+      "dest": "number: 3 [632,633]"
+    },
+    {
+      "src": "if_stmt [236,607]",
+      "dest": "if_stmt [661,821]"
+    },
+    {
+      "src": "name: operator2 [432,441]",
+      "dest": "name: peek [748,752]"
+    },
+    {
+      "src": "suite [532,607]",
+      "dest": "suite [796,821]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [55,59]",
+      "parent": "parameters [43,60]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [70,483]",
+      "parent": "suite [61,821]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: operator1 [44,53]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: operator2 [55,64]",
+      "label": "cur"
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [53,54]",
+      "parent": "param [50,54]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "comparison [664,757]",
+      "parent": "if_stmt [661,821]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [664,708]",
+      "parent": "comparison [664,757]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: { [321,322]",
+      "label": ">="
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: { [321,322]",
+      "parent": "comparison [664,757]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [712,757]",
+      "parent": "comparison [664,757]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: precedence [239,249]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: precedence [239,249]",
+      "parent": "atom_expr [664,708]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [253,267]",
+      "parent": "atom_expr [664,708]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [684,708]",
+      "parent": "atom_expr [664,708]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: operator1 [322,331]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: operator1 [322,331]",
+      "parent": "atom_expr [712,757]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [400,414]",
+      "parent": "atom_expr [712,757]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [732,757]",
+      "parent": "atom_expr [712,757]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: operator1 [254,263]",
+      "label": "operat_priority"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: operator1 [254,263]",
+      "parent": "trailer [668,684]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [270,298]",
+      "parent": "trailer [684,708]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: operator1 [401,410]",
+      "label": "operat_priority"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: operator1 [401,410]",
+      "parent": "trailer [716,732]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [417,445]",
+      "parent": "trailer [732,757]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [396,400]",
+      "parent": "atom_expr [685,707]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: operator2 [285,294]",
+      "label": "cur"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: operator2 [432,441]",
+      "label": "peek"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [263,264]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 0 [265,266]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "arglist [254,266]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [280,284]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [410,411]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 0 [412,413]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "arglist [401,413]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [249,253]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [239,267]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: > [268,269]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "comparison [239,298]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_start: f\" [319,321]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: } [331,332]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_expr [321,332]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_string:  has higher precedence than  [332,360]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "fstring_expr [360,371]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_end: \" [371,372]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring [319,372]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "return_stmt [312,372]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [312,373]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [299,373]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: precedence [386,396]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [386,414]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: < [415,416]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "comparison [386,445]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "fstring [466,518]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "fstring [552,607]"
+    }
+  ]
+}

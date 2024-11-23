@@ -1,0 +1,93 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        check if there is a path between two icons\n        :param pos1: position tuple(x, y) of the first icon\n        :param pos2: position tuple(x, y) of the second icon\n        :return: True or False ,representing whether there is a path between two icons\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "return_stmt",
+        "inserted": "return dfs(pos1[0], pos1[1], set())",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "dfs",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "parameters",
+        "inserted": "(x, y, visited)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "if_stmt",
+        "inserted": "if (x, y) in visited:\n                return False\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "if_stmt",
+        "inserted": "if self.board[x][y] == self.board[pos2[0]][pos2[1]]:\n                # If the positions are adjacent, return True\n                if abs(x - pos2[0]) + abs(y - pos2[1]) == 1:\n                    return True\n                \n                # Mark position (x, y) as visited\n                visited.add((x, y))\n                \n                # Recursively check if there is a path from (x, y) to pos2\n                return dfs(x + 1, y, visited) or dfs(x - 1, y, visited) or dfs(x, y + 1, visited) or dfs(x, y - 1, visited)\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return False\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "or_test",
+        "inserted": "x < 0 or x >= self.BOARD_SIZE[0] or y < 0 or y >= self.BOARD_SIZE[1]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return False\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return False",
+        "deleted": "return False",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "pos1",
+        "deleted": "icon1",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "pos2",
+        "deleted": "icon2",
+        "type": "Refactoring"
+    }
+]

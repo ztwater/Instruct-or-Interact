@@ -1,0 +1,261 @@
+{
+  "matches": [
+    {
+      "src": "string: 'database.db' [127,140]",
+      "dest": "string: \"\"\"         Deletes a user from the \"users\" table by username.         :param username: str, the username of the user to delete.         :return: None         >>> user_db = UserLoginDB(\"user_database.db\")         >>> user_db.create_table()         >>> user_db.insert_user('user1', 'pass1')         >>> user_db.delete_user_by_username('user1')         \"\"\" [76,430]"
+    },
+    {
+      "src": "name: conn [370,374]",
+      "dest": "name: connection [608,618]"
+    },
+    {
+      "src": "suite [18,404]",
+      "dest": "suite [18,627]"
+    },
+    {
+      "src": "string: \"DELETE FROM users WHERE username = ?\" [250,288]",
+      "dest": "string: \"DELETE FROM users WHERE username = ?\" [508,546]"
+    },
+    {
+      "src": "trailer [374,381]",
+      "dest": "trailer [618,625]"
+    },
+    {
+      "src": "classdef [0,404]",
+      "dest": "classdef [0,627]"
+    },
+    {
+      "src": "name: cursor [164,170]",
+      "dest": "name: cursor [493,499]"
+    },
+    {
+      "src": "suite [61,404]",
+      "dest": "suite [67,627]"
+    },
+    {
+      "src": "name: username [291,299]",
+      "dest": "name: username [549,557]"
+    },
+    {
+      "src": "operator: , [288,289]",
+      "dest": "operator: , [546,547]"
+    },
+    {
+      "src": "name: delete_user_by_username [27,50]",
+      "dest": "name: delete_user_by_username [27,50]"
+    },
+    {
+      "src": "testlist_comp [291,300]",
+      "dest": "testlist_comp [549,558]"
+    },
+    {
+      "src": "trailer [163,170]",
+      "dest": "trailer [492,499]"
+    },
+    {
+      "src": "atom_expr [370,383]",
+      "dest": "atom_expr [603,627]"
+    },
+    {
+      "src": "arglist [250,301]",
+      "dest": "arglist [508,559]"
+    },
+    {
+      "src": "file_input [0,404]",
+      "dest": "file_input [0,627]"
+    },
+    {
+      "src": "name: username [51,59]",
+      "dest": "name: username [57,65]"
+    },
+    {
+      "src": "atom_expr [235,302]",
+      "dest": "atom_expr [488,560]"
+    },
+    {
+      "src": "name: commit [375,381]",
+      "dest": "name: commit [619,625]"
+    },
+    {
+      "src": "name: execute [242,249]",
+      "dest": "name: execute [500,507]"
+    },
+    {
+      "src": "atom [290,301]",
+      "dest": "atom [548,559]"
+    },
+    {
+      "src": "param [51,59]",
+      "dest": "param [57,65]"
+    },
+    {
+      "src": "parameters [50,60]",
+      "dest": "parameters [50,66]"
+    },
+    {
+      "src": "operator: , [299,300]",
+      "dest": "operator: , [557,558]"
+    },
+    {
+      "src": "trailer [241,249]",
+      "dest": "trailer [499,507]"
+    },
+    {
+      "src": "simple_stmt [104,142]",
+      "dest": "simple_stmt [76,431]"
+    },
+    {
+      "src": "trailer [249,302]",
+      "dest": "trailer [507,560]"
+    },
+    {
+      "src": "simple_stmt [235,303]",
+      "dest": "simple_stmt [488,561]"
+    },
+    {
+      "src": "name: UserLoginDB [6,17]",
+      "dest": "name: UserLoginDB [6,17]"
+    },
+    {
+      "src": "name: cursor [150,156]",
+      "dest": "name: self [488,492]"
+    },
+    {
+      "src": "funcdef [23,404]",
+      "dest": "funcdef [23,627]"
+    },
+    {
+      "src": "trailer [381,383]",
+      "dest": "trailer [625,627]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [51,56]",
+      "parent": "parameters [50,66]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [370,383]",
+      "parent": "suite [67,627]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "string: 'database.db' [127,140]",
+      "label": "\"\"\"         Deletes a user from the \"users\" table by username.         :param username: str, the username of the user to delete.         :return: None         >>> user_db = UserLoginDB(\"user_database.db\")         >>> user_db.create_table()         >>> user_db.insert_user('user1', 'pass1')         >>> user_db.delete_user_by_username('user1')         \"\"\""
+    },
+    {
+      "action": "move-tree",
+      "tree": "string: 'database.db' [127,140]",
+      "parent": "simple_stmt [76,431]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [603,607]",
+      "parent": "atom_expr [603,627]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [607,618]",
+      "parent": "atom_expr [603,627]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: cursor [150,156]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: cursor [150,156]",
+      "parent": "atom_expr [488,560]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [163,170]",
+      "parent": "atom_expr [488,560]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: conn [370,374]",
+      "label": "connection"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: conn [370,374]",
+      "parent": "trailer [607,618]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: conn [104,108]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: = [109,110]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: sqlite3 [111,118]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [118,126]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [126,141]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [111,141]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [104,141]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: = [157,158]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: conn [159,163]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [170,172]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [159,172]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [150,172]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [150,173]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: cursor [235,241]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [370,384]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "atom_expr [392,404]"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "matches": [
+    {
+      "src": "suite [28,142]",
+      "dest": "suite [28,359]"
+    },
+    {
+      "src": "operator: == [64,66]",
+      "dest": "operator: == [259,261]"
+    },
+    {
+      "src": "classdef [0,142]",
+      "dest": "classdef [0,359]"
+    },
+    {
+      "src": "comparison [62,68]",
+      "dest": "comparison [257,263]"
+    },
+    {
+      "src": "suite [50,142]",
+      "dest": "suite [50,359]"
+    },
+    {
+      "src": "suite [69,91]",
+      "dest": "suite [264,286]"
+    },
+    {
+      "src": "parameters [46,49]",
+      "dest": "parameters [46,49]"
+    },
+    {
+      "src": "simple_stmt [82,91]",
+      "dest": "simple_stmt [277,286]"
+    },
+    {
+      "src": "number: 1 [89,90]",
+      "dest": "number: 1 [284,285]"
+    },
+    {
+      "src": "name: n [138,139]",
+      "dest": "name: n [355,356]"
+    },
+    {
+      "src": "name: n [47,48]",
+      "dest": "name: n [47,48]"
+    },
+    {
+      "src": "file_input [0,142]",
+      "dest": "file_input [0,359]"
+    },
+    {
+      "src": "suite [104,142]",
+      "dest": "suite [299,359]"
+    },
+    {
+      "src": "name: n [62,63]",
+      "dest": "name: n [257,258]"
+    },
+    {
+      "src": "name: factorial [128,137]",
+      "dest": "name: factorial [345,354]"
+    },
+    {
+      "src": "operator: - [139,140]",
+      "dest": "operator: - [356,357]"
+    },
+    {
+      "src": "return_stmt [82,90]",
+      "dest": "return_stmt [277,285]"
+    },
+    {
+      "src": "arith_expr [138,141]",
+      "dest": "arith_expr [355,358]"
+    },
+    {
+      "src": "param [47,48]",
+      "dest": "param [47,48]"
+    },
+    {
+      "src": "name: ArrangementCalculator [6,27]",
+      "dest": "name: ArrangementCalculator [6,27]"
+    },
+    {
+      "src": "number: 1 [140,141]",
+      "dest": "number: 1 [357,358]"
+    },
+    {
+      "src": "trailer [137,142]",
+      "dest": "trailer [354,359]"
+    },
+    {
+      "src": "number: 0 [67,68]",
+      "dest": "number: 0 [262,263]"
+    },
+    {
+      "src": "return_stmt [117,142]",
+      "dest": "return_stmt [312,359]"
+    },
+    {
+      "src": "term [124,142]",
+      "dest": "term [319,359]"
+    },
+    {
+      "src": "operator: * [126,127]",
+      "dest": "operator: * [321,322]"
+    },
+    {
+      "src": "name: factorial [37,46]",
+      "dest": "name: factorial [37,46]"
+    },
+    {
+      "src": "if_stmt [59,142]",
+      "dest": "if_stmt [254,359]"
+    },
+    {
+      "src": "funcdef [33,142]",
+      "dest": "funcdef [33,359]"
+    },
+    {
+      "src": "name: n [124,125]",
+      "dest": "name: n [319,320]"
+    },
+    {
+      "src": "atom_expr [128,142]",
+      "dest": "atom_expr [323,359]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [59,246]",
+      "parent": "suite [50,359]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: ArrangementCalculator [323,344]",
+      "parent": "atom_expr [323,359]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [344,354]",
+      "parent": "atom_expr [323,359]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: factorial [128,137]",
+      "parent": "trailer [344,354]",
+      "at": 0
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "matches": [
+    {
+      "src": "operator: == [98,100]",
+      "dest": "operator: == [665,667]"
+    },
+    {
+      "src": "comparison [227,242]",
+      "dest": "comparison [796,813]"
+    },
+    {
+      "src": "suite [27,403]",
+      "dest": "suite [27,976]"
+    },
+    {
+      "src": "arith_expr [125,144]",
+      "dest": "arith_expr [692,711]"
+    },
+    {
+      "src": "classdef [0,403]",
+      "dest": "classdef [0,976]"
+    },
+    {
+      "src": "suite [77,403]",
+      "dest": "suite [92,976]"
+    },
+    {
+      "src": "param [57,66]",
+      "dest": "param [53,65]"
+    },
+    {
+      "src": "string: \"Invalid operator\" [385,403]",
+      "dest": "string: \"Invalid operator\" [958,976]"
+    },
+    {
+      "src": "term [332,351]",
+      "dest": "term [905,924]"
+    },
+    {
+      "src": "arith_expr [194,213]",
+      "dest": "arith_expr [763,782]"
+    },
+    {
+      "src": "simple_stmt [256,283]",
+      "dest": "simple_stmt [827,854]"
+    },
+    {
+      "src": "name: ExpressionCalculator [6,26]",
+      "dest": "name: ExpressionCalculator [6,26]"
+    },
+    {
+      "src": "operator: * [272,273]",
+      "dest": "operator: * [843,844]"
+    },
+    {
+      "src": "string: '*' [239,242]",
+      "dest": "string: '*' [810,813]"
+    },
+    {
+      "src": "simple_stmt [118,145]",
+      "dest": "simple_stmt [685,712]"
+    },
+    {
+      "src": "operator: == [236,238]",
+      "dest": "operator: == [807,809]"
+    },
+    {
+      "src": "operator: + [134,135]",
+      "dest": "operator: + [701,702]"
+    },
+    {
+      "src": "string: '/' [308,311]",
+      "dest": "string: '/' [881,884]"
+    },
+    {
+      "src": "operator: == [167,169]",
+      "dest": "operator: == [736,738]"
+    },
+    {
+      "src": "name: operand2 [205,213]",
+      "dest": "name: operand2 [774,782]"
+    },
+    {
+      "src": "name: operand1 [125,133]",
+      "dest": "name: operand1 [692,700]"
+    },
+    {
+      "src": "comparison [89,104]",
+      "dest": "comparison [654,671]"
+    },
+    {
+      "src": "name: operator [89,97]",
+      "dest": "name: current_op [654,664]"
+    },
+    {
+      "src": "suite [243,283]",
+      "dest": "suite [814,854]"
+    },
+    {
+      "src": "suite [174,214]",
+      "dest": "suite [743,783]"
+    },
+    {
+      "src": "funcdef [32,403]",
+      "dest": "funcdef [32,976]"
+    },
+    {
+      "src": "name: operand1 [332,340]",
+      "dest": "name: operand1 [905,913]"
+    },
+    {
+      "src": "param [47,56]",
+      "dest": "param [47,52]"
+    },
+    {
+      "src": "name: operand2 [274,282]",
+      "dest": "name: operand2 [845,853]"
+    },
+    {
+      "src": "name: operand1 [194,202]",
+      "dest": "name: operand1 [763,771]"
+    },
+    {
+      "src": "return_stmt [325,351]",
+      "dest": "return_stmt [898,924]"
+    },
+    {
+      "src": "simple_stmt [187,214]",
+      "dest": "simple_stmt [756,783]"
+    },
+    {
+      "src": "name: operator [158,166]",
+      "dest": "name: current_op [725,735]"
+    },
+    {
+      "src": "return_stmt [378,403]",
+      "dest": "return_stmt [951,976]"
+    },
+    {
+      "src": "suite [312,352]",
+      "dest": "suite [885,925]"
+    },
+    {
+      "src": "comparison [296,311]",
+      "dest": "comparison [867,884]"
+    },
+    {
+      "src": "name: operand2 [57,65]",
+      "dest": "name: first_value [53,64]"
+    },
+    {
+      "src": "name: operator [296,304]",
+      "dest": "name: current_op [867,877]"
+    },
+    {
+      "src": "file_input [0,403]",
+      "dest": "file_input [0,976]"
+    },
+    {
+      "src": "suite [105,145]",
+      "dest": "suite [672,712]"
+    },
+    {
+      "src": "return_stmt [118,144]",
+      "dest": "return_stmt [685,711]"
+    },
+    {
+      "src": "return_stmt [256,282]",
+      "dest": "return_stmt [827,853]"
+    },
+    {
+      "src": "suite [365,403]",
+      "dest": "suite [938,976]"
+    },
+    {
+      "src": "name: operator [227,235]",
+      "dest": "name: current_op [796,806]"
+    },
+    {
+      "src": "operator: == [305,307]",
+      "dest": "operator: == [878,880]"
+    },
+    {
+      "src": "name: operand2 [136,144]",
+      "dest": "name: operand2 [703,711]"
+    },
+    {
+      "src": "return_stmt [187,213]",
+      "dest": "return_stmt [756,782]"
+    },
+    {
+      "src": "name: operand1 [47,55]",
+      "dest": "name: self [47,51]"
+    },
+    {
+      "src": "string: '+' [101,104]",
+      "dest": "string: '+' [668,671]"
+    },
+    {
+      "src": "string: '-' [170,173]",
+      "dest": "string: '-' [739,742]"
+    },
+    {
+      "src": "name: operator [67,75]",
+      "dest": "name: second_value [66,78]"
+    },
+    {
+      "src": "name: operand1 [263,271]",
+      "dest": "name: operand1 [834,842]"
+    },
+    {
+      "src": "comparison [158,173]",
+      "dest": "comparison [725,742]"
+    },
+    {
+      "src": "operator: , [55,56]",
+      "dest": "operator: , [51,52]"
+    },
+    {
+      "src": "term [263,282]",
+      "dest": "term [834,853]"
+    },
+    {
+      "src": "operator: - [203,204]",
+      "dest": "operator: - [772,773]"
+    },
+    {
+      "src": "param [67,75]",
+      "dest": "param [66,79]"
+    },
+    {
+      "src": "simple_stmt [325,352]",
+      "dest": "simple_stmt [898,925]"
+    },
+    {
+      "src": "operator: / [341,342]",
+      "dest": "operator: / [914,915]"
+    },
+    {
+      "src": "if_stmt [86,403]",
+      "dest": "if_stmt [651,976]"
+    },
+    {
+      "src": "operator: , [65,66]",
+      "dest": "operator: , [64,65]"
+    },
+    {
+      "src": "name: operand2 [343,351]",
+      "dest": "name: operand2 [916,924]"
+    },
+    {
+      "src": "parameters [46,76]",
+      "dest": "parameters [46,91]"
+    },
+    {
+      "src": "name: _calculate [36,46]",
+      "dest": "name: _calculate [36,46]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [80,90]",
+      "parent": "parameters [46,91]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [101,553]",
+      "parent": "suite [92,976]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [561,593]",
+      "parent": "suite [92,976]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [601,634]",
+      "parent": "suite [92,976]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: operand1 [47,55]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: operand2 [57,65]",
+      "label": "first_value"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: operator [67,75]",
+      "label": "second_value"
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [78,79]",
+      "parent": "param [66,79]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: operator [89,97]",
+      "label": "current_op"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: operator [158,166]",
+      "label": "current_op"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: operator [227,235]",
+      "label": "current_op"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: operator [296,304]",
+      "label": "current_op"
+    }
+  ]
+}

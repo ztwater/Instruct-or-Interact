@@ -1,0 +1,114 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Generate the UPDATE SQL statement from the given parameters.\n        :param table: str, the table that will be excuted with UPDATE operation in database\n        :param data: dict, the key and value in SQL update statement\n        :param where: dict, {key1: value1, key2: value2 ...}. The query condition.\n        >>> SQLQueryBuilder.update('table1', {'name': 'Test2', 'age': 15}, where = {'name':'Test'})\n        \"UPDATE table1 SET name='Test2', age='15' WHERE name='Test'\"\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "where",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "string:",
+        "inserted": "\"WHERE \"",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "+",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "string:",
+        "inserted": "\" AND \"",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".join",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "sync_comp_for",
+        "inserted": "for column, value in where.items()",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "fstring_expr",
+        "inserted": "{column}",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "fstring_string",
+        "inserted": "'",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "fstring",
+        "inserted": "f\"WHERE {condition}\"",
+        "deleted": "f\"WHERE {condition}\"",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "data",
+        "deleted": "values",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "where",
+        "deleted": "condition",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "data",
+        "deleted": "values",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "fstring_string:",
+        "inserted": " = '",
+        "deleted": "WHERE ",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "value",
+        "deleted": "condition",
+        "type": "Refactoring"
+    }
+]

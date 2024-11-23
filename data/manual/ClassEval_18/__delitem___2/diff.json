@@ -1,0 +1,241 @@
+{
+  "matches": [
+    {
+      "src": "param [46,49]",
+      "dest": "param [46,49]"
+    },
+    {
+      "src": "suite [19,192]",
+      "dest": "suite [19,587]"
+    },
+    {
+      "src": "atom_expr [92,101]",
+      "dest": "atom_expr [400,422]"
+    },
+    {
+      "src": "trailer [142,192]",
+      "dest": "trailer [537,587]"
+    },
+    {
+      "src": "name: key [46,49]",
+      "dest": "name: key [46,49]"
+    },
+    {
+      "src": "del_stmt [88,101]",
+      "dest": "del_stmt [471,496]"
+    },
+    {
+      "src": "classdef [0,192]",
+      "dest": "classdef [0,587]"
+    },
+    {
+      "src": "name: self [40,44]",
+      "dest": "name: self [40,44]"
+    },
+    {
+      "src": "suite [51,192]",
+      "dest": "suite [51,587]"
+    },
+    {
+      "src": "fstring_expr [150,155]",
+      "dest": "fstring_expr [545,550]"
+    },
+    {
+      "src": "fstring [143,191]",
+      "dest": "fstring [538,586]"
+    },
+    {
+      "src": "fstring_string: Key ' [145,150]",
+      "dest": "fstring_string: Key ' [540,545]"
+    },
+    {
+      "src": "operator: } [154,155]",
+      "dest": "operator: } [549,550]"
+    },
+    {
+      "src": "raise_stmt [128,192]",
+      "dest": "raise_stmt [523,587]"
+    },
+    {
+      "src": "simple_stmt [88,102]",
+      "dest": "simple_stmt [388,423]"
+    },
+    {
+      "src": "name: KeyError [134,142]",
+      "dest": "name: KeyError [529,537]"
+    },
+    {
+      "src": "name: CamelCaseMap [6,18]",
+      "dest": "name: CamelCaseMap [6,18]"
+    },
+    {
+      "src": "file_input [0,192]",
+      "dest": "file_input [0,587]"
+    },
+    {
+      "src": "name: self [92,96]",
+      "dest": "name: self [400,404]"
+    },
+    {
+      "src": "suite [115,192]",
+      "dest": "suite [510,587]"
+    },
+    {
+      "src": "operator: , [44,45]",
+      "dest": "operator: , [44,45]"
+    },
+    {
+      "src": "param [40,45]",
+      "dest": "param [40,45]"
+    },
+    {
+      "src": "fstring_string: ' does not exist in the dictionary. [155,190]",
+      "dest": "fstring_string: ' does not exist in the dictionary. [550,585]"
+    },
+    {
+      "src": "fstring_start: f\" [143,145]",
+      "dest": "fstring_start: f\" [538,540]"
+    },
+    {
+      "src": "name: key [97,100]",
+      "dest": "name: key [418,421]"
+    },
+    {
+      "src": "name: key [151,154]",
+      "dest": "name: key [546,549]"
+    },
+    {
+      "src": "suite [75,102]",
+      "dest": "suite [458,497]"
+    },
+    {
+      "src": "name: key [63,66]",
+      "dest": "name: camel_key [434,443]"
+    },
+    {
+      "src": "fstring_end: \" [190,191]",
+      "dest": "fstring_end: \" [585,586]"
+    },
+    {
+      "src": "operator: { [150,151]",
+      "dest": "operator: { [545,546]"
+    },
+    {
+      "src": "parameters [39,50]",
+      "dest": "parameters [39,50]"
+    },
+    {
+      "src": "trailer [96,101]",
+      "dest": "trailer [417,422]"
+    },
+    {
+      "src": "comparison [63,74]",
+      "dest": "comparison [434,457]"
+    },
+    {
+      "src": "atom_expr [134,192]",
+      "dest": "atom_expr [529,587]"
+    },
+    {
+      "src": "if_stmt [60,192]",
+      "dest": "if_stmt [431,587]"
+    },
+    {
+      "src": "name: __delitem__ [28,39]",
+      "dest": "name: __delitem__ [28,39]"
+    },
+    {
+      "src": "funcdef [24,192]",
+      "dest": "funcdef [24,587]"
+    },
+    {
+      "src": "name: self [70,74]",
+      "dest": "name: self [447,451]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [60,380]",
+      "parent": "suite [51,587]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [88,102]",
+      "parent": "suite [51,587]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [388,422]",
+      "parent": "simple_stmt [388,423]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: camel_key [388,397]",
+      "parent": "expr_stmt [388,422]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [398,399]",
+      "parent": "expr_stmt [388,422]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [92,101]",
+      "parent": "expr_stmt [388,422]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: key [63,66]",
+      "label": "camel_key"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [447,457]",
+      "parent": "comparison [434,457]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [471,497]",
+      "parent": "suite [458,497]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [404,417]",
+      "parent": "atom_expr [400,422]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: self [70,74]",
+      "parent": "atom_expr [447,457]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [451,457]",
+      "parent": "atom_expr [447,457]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "del_stmt [88,101]",
+      "parent": "simple_stmt [471,497]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [475,496]",
+      "parent": "del_stmt [471,496]",
+      "at": 0
+    }
+  ]
+}

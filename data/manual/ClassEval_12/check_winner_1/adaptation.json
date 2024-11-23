@@ -1,0 +1,44 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Determines the winner of a game by comparing the hand values of the player and dealer.\n        rule:\n        If both players have hand values that are equal to or less than 21, the winner is the one whose hand value is closer to 21.\n        Otherwise, the winner is the one with the lower hand value.\n        :param player_hand: list\n        :param dealer_hand: list\n        :return: the result of the game, only two certain str: 'Dealer wins' or 'Player wins'\n        >>> black_jack_game.check_winner(['QD', '9D', 'JC', 'QH', 'AS'], ['QD', '9D', 'JC', 'QH', '2S'])\n        'Player wins'\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".calculate_hand_value",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".calculate_hand_value",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "sum",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "sum",
+        "type": "Refactoring"
+    }
+]

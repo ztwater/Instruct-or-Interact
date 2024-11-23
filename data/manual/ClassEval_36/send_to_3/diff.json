@@ -1,0 +1,526 @@
+{
+  "matches": [
+    {
+      "src": "simple_stmt [570,612]",
+      "dest": "simple_stmt [1239,1281]"
+    },
+    {
+      "src": "param [35,49]",
+      "dest": "param [35,40]"
+    },
+    {
+      "src": "name: receiver_email [427,441]",
+      "dest": "name: receiver_email [1048,1062]"
+    },
+    {
+      "src": "classdef [0,648]",
+      "dest": "classdef [0,1646]"
+    },
+    {
+      "src": "string: 'To' [419,423]",
+      "dest": "string: 'To' [1040,1044]"
+    },
+    {
+      "src": "name: sender_email [112,124]",
+      "dest": "name: sender_email [786,798]"
+    },
+    {
+      "src": "name: subject [50,57]",
+      "dest": "name: content [47,54]"
+    },
+    {
+      "src": "operator: , [57,58]",
+      "dest": "operator: , [54,55]"
+    },
+    {
+      "src": "atom_expr [303,326]",
+      "dest": "atom_expr [924,947]"
+    },
+    {
+      "src": "with_item [485,528]",
+      "dest": "with_item [1154,1197]"
+    },
+    {
+      "src": "trailer [641,648]",
+      "dest": "trailer [1310,1317]"
+    },
+    {
+      "src": "name: send_message [629,641]",
+      "dest": "name: send_message [1298,1310]"
+    },
+    {
+      "src": "name: email [376,381]",
+      "dest": "name: email [997,1002]"
+    },
+    {
+      "src": "operator: = [213,214]",
+      "dest": "operator: = [868,869]"
+    },
+    {
+      "src": "name: subject [215,222]",
+      "dest": "name: content [870,877]"
+    },
+    {
+      "src": "trailer [311,326]",
+      "dest": "trailer [932,947]"
+    },
+    {
+      "src": "name: smtp [624,628]",
+      "dest": "name: smtp [1293,1297]"
+    },
+    {
+      "src": "name: email [295,300]",
+      "dest": "name: email [916,921]"
+    },
+    {
+      "src": "operator: = [301,302]",
+      "dest": "operator: = [922,923]"
+    },
+    {
+      "src": "simple_stmt [295,327]",
+      "dest": "simple_stmt [916,948]"
+    },
+    {
+      "src": "name: email [335,340]",
+      "dest": "name: email [956,961]"
+    },
+    {
+      "src": "name: login [575,580]",
+      "dest": "name: login [1244,1249]"
+    },
+    {
+      "src": "atom_expr [335,351]",
+      "dest": "atom_expr [956,972]"
+    },
+    {
+      "src": "operator: = [425,426]",
+      "dest": "operator: = [1046,1047]"
+    },
+    {
+      "src": "name: message [247,254]",
+      "dest": "name: size [902,906]"
+    },
+    {
+      "src": "expr_stmt [199,222]",
+      "dest": "expr_stmt [854,877]"
+    },
+    {
+      "src": "atom_expr [413,424]",
+      "dest": "atom_expr [1034,1045]"
+    },
+    {
+      "src": "operator: = [175,176]",
+      "dest": "operator: = [834,835]"
+    },
+    {
+      "src": "simple_stmt [376,405]",
+      "dest": "simple_stmt [997,1026]"
+    },
+    {
+      "src": "trailer [492,497]",
+      "dest": "trailer [1161,1166]"
+    },
+    {
+      "src": "atom_expr [376,389]",
+      "dest": "atom_expr [997,1010]"
+    },
+    {
+      "src": "expr_stmt [231,254]",
+      "dest": "expr_stmt [886,906]"
+    },
+    {
+      "src": "name: smtp [542,546]",
+      "dest": "name: smtp [1211,1215]"
+    },
+    {
+      "src": "name: smtp [524,528]",
+      "dest": "name: smtp [1193,1197]"
+    },
+    {
+      "src": "name: send_to [27,34]",
+      "dest": "name: send_to [27,34]"
+    },
+    {
+      "src": "trailer [418,424]",
+      "dest": "trailer [1039,1045]"
+    },
+    {
+      "src": "name: smtplib [485,492]",
+      "dest": "name: smtplib [1154,1161]"
+    },
+    {
+      "src": "name: EmailClient [6,17]",
+      "dest": "name: EmailClient [6,17]"
+    },
+    {
+      "src": "operator: = [352,353]",
+      "dest": "operator: = [973,974]"
+    },
+    {
+      "src": "file_input [0,648]",
+      "dest": "file_input [0,1646]"
+    },
+    {
+      "src": "atom_expr [570,611]",
+      "dest": "atom_expr [1239,1280]"
+    },
+    {
+      "src": "operator: , [514,515]",
+      "dest": "operator: , [1183,1184]"
+    },
+    {
+      "src": "param [59,66]",
+      "dest": "param [56,60]"
+    },
+    {
+      "src": "operator: , [593,594]",
+      "dest": "operator: , [1262,1263]"
+    },
+    {
+      "src": "simple_stmt [160,191]",
+      "dest": "simple_stmt [819,846]"
+    },
+    {
+      "src": "arglist [498,519]",
+      "dest": "arglist [1167,1188]"
+    },
+    {
+      "src": "name: starttls [547,555]",
+      "dest": "name: starttls [1216,1224]"
+    },
+    {
+      "src": "operator: , [48,49]",
+      "dest": "operator: , [39,40]"
+    },
+    {
+      "src": "simple_stmt [542,558]",
+      "dest": "simple_stmt [1211,1227]"
+    },
+    {
+      "src": "string: 'From' [382,388]",
+      "dest": "string: 'From' [1003,1009]"
+    },
+    {
+      "src": "expr_stmt [112,151]",
+      "dest": "expr_stmt [786,810]"
+    },
+    {
+      "src": "arglist [581,610]",
+      "dest": "arglist [1250,1279]"
+    },
+    {
+      "src": "with_stmt [480,648]",
+      "dest": "with_stmt [1149,1318]"
+    },
+    {
+      "src": "param [50,58]",
+      "dest": "param [47,55]"
+    },
+    {
+      "src": "simple_stmt [413,442]",
+      "dest": "simple_stmt [1034,1063]"
+    },
+    {
+      "src": "string: 'your_password' [595,610]",
+      "dest": "string: 'your_password' [1264,1279]"
+    },
+    {
+      "src": "name: SMTP [493,497]",
+      "dest": "name: SMTP [1162,1166]"
+    },
+    {
+      "src": "simple_stmt [112,152]",
+      "dest": "simple_stmt [786,811]"
+    },
+    {
+      "src": "expr_stmt [160,190]",
+      "dest": "expr_stmt [819,845]"
+    },
+    {
+      "src": "name: smtp [570,574]",
+      "dest": "name: smtp [1239,1243]"
+    },
+    {
+      "src": "suite [18,648]",
+      "dest": "suite [18,1646]"
+    },
+    {
+      "src": "expr_stmt [295,326]",
+      "dest": "expr_stmt [916,947]"
+    },
+    {
+      "src": "name: email_message [312,325]",
+      "dest": "name: email_message [933,946]"
+    },
+    {
+      "src": "suite [68,648]",
+      "dest": "suite [62,1646]"
+    },
+    {
+      "src": "name: email_message [231,244]",
+      "dest": "name: email_message [886,899]"
+    },
+    {
+      "src": "atom_expr [485,520]",
+      "dest": "atom_expr [1154,1189]"
+    },
+    {
+      "src": "name: message [59,66]",
+      "dest": "name: size [56,60]"
+    },
+    {
+      "src": "trailer [580,611]",
+      "dest": "trailer [1249,1280]"
+    },
+    {
+      "src": "trailer [497,520]",
+      "dest": "trailer [1166,1189]"
+    },
+    {
+      "src": "string: 'smtp.gmail.com' [498,514]",
+      "dest": "string: 'smtp.gmail.com' [1167,1183]"
+    },
+    {
+      "src": "name: email_subject [199,212]",
+      "dest": "name: email_subject [854,867]"
+    },
+    {
+      "src": "name: MIMEText [303,311]",
+      "dest": "name: MIMEText [924,932]"
+    },
+    {
+      "src": "name: receiver_email [160,174]",
+      "dest": "name: receiver_email [819,833]"
+    },
+    {
+      "src": "expr_stmt [413,441]",
+      "dest": "expr_stmt [1034,1062]"
+    },
+    {
+      "src": "simple_stmt [231,255]",
+      "dest": "simple_stmt [886,907]"
+    },
+    {
+      "src": "name: email_address [35,48]",
+      "dest": "name: self [35,39]"
+    },
+    {
+      "src": "trailer [628,641]",
+      "dest": "trailer [1297,1310]"
+    },
+    {
+      "src": "parameters [34,67]",
+      "dest": "parameters [34,61]"
+    },
+    {
+      "src": "string: 'Subject' [341,350]",
+      "dest": "string: 'Subject' [962,971]"
+    },
+    {
+      "src": "simple_stmt [335,368]",
+      "dest": "simple_stmt [956,989]"
+    },
+    {
+      "src": "suite [529,648]",
+      "dest": "suite [1198,1318]"
+    },
+    {
+      "src": "funcdef [23,648]",
+      "dest": "funcdef [23,1646]"
+    },
+    {
+      "src": "name: sender_email [392,404]",
+      "dest": "name: sender_email [1013,1025]"
+    },
+    {
+      "src": "trailer [340,351]",
+      "dest": "trailer [961,972]"
+    },
+    {
+      "src": "trailer [381,389]",
+      "dest": "trailer [1002,1010]"
+    },
+    {
+      "src": "trailer [574,580]",
+      "dest": "trailer [1243,1249]"
+    },
+    {
+      "src": "number: 587 [516,519]",
+      "dest": "number: 587 [1185,1188]"
+    },
+    {
+      "src": "simple_stmt [199,223]",
+      "dest": "simple_stmt [854,878]"
+    },
+    {
+      "src": "operator: = [390,391]",
+      "dest": "operator: = [1011,1012]"
+    },
+    {
+      "src": "operator: = [125,126]",
+      "dest": "operator: = [799,800]"
+    },
+    {
+      "src": "name: email [642,647]",
+      "dest": "name: email [1311,1316]"
+    },
+    {
+      "src": "name: email_subject [354,367]",
+      "dest": "name: email_subject [975,988]"
+    },
+    {
+      "src": "expr_stmt [335,367]",
+      "dest": "expr_stmt [956,988]"
+    },
+    {
+      "src": "name: sender_email [581,593]",
+      "dest": "name: sender_email [1250,1262]"
+    },
+    {
+      "src": "atom_expr [624,648]",
+      "dest": "atom_expr [1293,1317]"
+    },
+    {
+      "src": "operator: = [245,246]",
+      "dest": "operator: = [900,901]"
+    },
+    {
+      "src": "name: email [413,418]",
+      "dest": "name: email [1034,1039]"
+    },
+    {
+      "src": "expr_stmt [376,404]",
+      "dest": "expr_stmt [997,1025]"
+    },
+    {
+      "src": "name: email_address [177,190]",
+      "dest": "name: addr [841,845]"
+    },
+    {
+      "src": "atom_expr [542,557]",
+      "dest": "atom_expr [1211,1226]"
+    },
+    {
+      "src": "trailer [555,557]",
+      "dest": "trailer [1224,1226]"
+    },
+    {
+      "src": "trailer [546,555]",
+      "dest": "trailer [1215,1224]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [41,46]",
+      "parent": "parameters [34,61]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [71,778]",
+      "parent": "suite [62,1646]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "if_stmt [1072,1140]",
+      "parent": "suite [62,1646]",
+      "at": 9
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [1327,1588]",
+      "parent": "suite [62,1646]",
+      "at": 11
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [1597,1627]",
+      "parent": "suite [62,1646]",
+      "at": 12
+    },
+    {
+      "action": "insert-node",
+      "tree": "return_stmt [1635,1646]",
+      "parent": "suite [62,1646]",
+      "at": 13
+    },
+    {
+      "action": "update-node",
+      "tree": "name: email_address [35,48]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: subject [50,57]",
+      "label": "content"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: message [59,66]",
+      "label": "size"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [801,810]",
+      "parent": "expr_stmt [786,810]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [836,845]",
+      "parent": "expr_stmt [819,845]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: subject [215,222]",
+      "label": "content"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: message [247,254]",
+      "label": "size"
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [1293,1318]",
+      "parent": "suite [1198,1318]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: recv [836,840]",
+      "parent": "atom_expr [836,845]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [840,845]",
+      "parent": "atom_expr [836,845]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [624,648]",
+      "parent": "simple_stmt [1293,1318]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: email_address [177,190]",
+      "label": "addr"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: email_address [177,190]",
+      "parent": "trailer [840,845]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: 'your_email@example.com' [127,151]"
+    }
+  ]
+}

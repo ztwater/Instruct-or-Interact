@@ -1,0 +1,135 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        compute the MAP of the input data. MAP is a widely used evaluation index. It is the mean of AP (average precision).\n        :param data: the data must be a tuple, list 0,1,eg.([1,0,...],5).  In each tuple (actual result,ground truth num),ground truth num is the total ground num.\n         ([1,0,...],5),\n        or list of tuple eg. [([1,0,1,...],5),([1,0,...],6),([0,0,...],5)].\n        1 stands for a correct answer, 0 stands for a wrong answer.\n        :return: if input data is list, return the recall of this list. if the input data is list of list, return the\n        average recall on all list. The second return value is a list of precision for each input.\n        >>> MetricsCalculator2.map(([1, 0, 1, 0], 4))\n        >>> MetricsCalculator2.map([([1, 0, 1, 0], 4), ([0, 1, 0, 1], 4)])\n        0.41666666666666663, [0.41666666666666663]\n        0.3333333333333333, [0.41666666666666663, 0.25]\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "funcdef",
+        "inserted": "def compute_precision(data_point):\n            \"\"\"\n            Compute the precision for a data point.\n            \"\"\"\n            true_positive = sum(data_point[0])\n            total_positive = len(data_point[0])\n            precision = true_positive / total_positive\n            return precision\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "funcdef",
+        "inserted": "def compute_recall(data_point):\n            \"\"\"\n            Compute the recall for a data point.\n            \"\"\"\n            true_positive = sum(data_point[0])\n            total_ground_truth = data_point[1]\n            recall = true_positive / total_ground_truth\n            return recall\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "isinstance(data, tuple)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "isinstance(data, list)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "precision_list = []\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "precision_list.append(precision)\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "precision_list",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "name",
+        "inserted": "",
+        "deleted": "ap_list",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "operator",
+        "inserted": "",
+        "deleted": "/",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "map_score",
+        "deleted": "map_score",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "sum",
+        "deleted": "sum",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "trailer",
+        "inserted": "(ap_list)",
+        "deleted": "(ap_list)",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "len",
+        "deleted": "len",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "data",
+        "deleted": "input_data",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "data",
+        "deleted": "input_data",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "np",
+        "deleted": "sum",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "mean",
+        "deleted": "len",
+        "type": "Refactoring"
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Retrieves the first unread email in the email box and marks it as read.\n        :return: The first unread email in the email box, dict.\n        >>> sender = EmailClient('sender@example.com', 100)\n        >>> receiver = EmailClient('receiver@example.com', 50)\n        >>> receiver.inbox = [{'sender': 'sender@example.com', 'receiver': 'receiver@example.com', 'content': 'Hello', 'size': 10, 'time': '2023-07-13 11:36:40', 'state': 'unread'}]\n        >>> receiver.fetch()\n        {'sender': 'sender@example.com', 'receiver': 'receiver@example.com', 'content': 'Hello', 'size': 10, 'time': '2023-07-13 11:36:40', 'state': 'read'}\n\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "import email\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "import smtplib\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "email_dict = {\n                'sender': email_message['From'],\n                'receiver': email_message['To'],\n                'content': email_message.get_payload(),\n                'size': len(str(email_message)),\n                'time': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),\n                'state': 'read'\n            }\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "self.inbox.append(email_dict)\n",
+        "deleted": "",
+        "type": "Logic"
+    }
+]

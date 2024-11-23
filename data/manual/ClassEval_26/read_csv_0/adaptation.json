@@ -1,0 +1,16 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Read the csv file by file_name, get the title and data from it\n        :param file_name: str, name of the csv file\n        :return title, data: (list, list), first row is title, the rest is data\n        >>> csvProcessor = CSVProcessor()\n        >>> csvProcessor.read_csv('read_test.csv')\n        (['a', 'b', 'c', 'd'], [['hElLo', 'YoU', 'ME', 'LoW']])\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    }
+]

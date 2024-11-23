@@ -1,0 +1,407 @@
+{
+  "matches": [
+    {
+      "src": "param [36,40]",
+      "dest": "param [36,40]"
+    },
+    {
+      "src": "suite [12,268]",
+      "dest": "suite [12,1001]"
+    },
+    {
+      "src": "name: add_dish [21,29]",
+      "dest": "name: add_dish [21,29]"
+    },
+    {
+      "src": "classdef [0,268]",
+      "dest": "classdef [0,1001]"
+    },
+    {
+      "src": "name: self [30,34]",
+      "dest": "name: self [30,34]"
+    },
+    {
+      "src": "suite [42,268]",
+      "dest": "suite [42,1001]"
+    },
+    {
+      "src": "atom_expr [151,182]",
+      "dest": "atom_expr [778,811]"
+    },
+    {
+      "src": "name: count [85,90]",
+      "dest": "name: count [693,698]"
+    },
+    {
+      "src": "trailer [66,71]",
+      "dest": "trailer [625,630]"
+    },
+    {
+      "src": "trailer [203,208]",
+      "dest": "trailer [836,841]"
+    },
+    {
+      "src": "name: selected_dish [156,169]",
+      "dest": "name: selected_dishes [783,798]"
+    },
+    {
+      "src": "trailer [155,169]",
+      "dest": "trailer [782,798]"
+    },
+    {
+      "src": "name: self [151,155]",
+      "dest": "name: self [778,782]"
+    },
+    {
+      "src": "param [30,35]",
+      "dest": "param [30,35]"
+    },
+    {
+      "src": "name: menu [67,71]",
+      "dest": "name: menu [626,630]"
+    },
+    {
+      "src": "atom_expr [199,214]",
+      "dest": "atom_expr [832,854]"
+    },
+    {
+      "src": "name: self [62,66]",
+      "dest": "name: self [621,625]"
+    },
+    {
+      "src": "operator: = [91,92]",
+      "dest": "operator: = [699,700]"
+    },
+    {
+      "src": "if_stmt [121,248]",
+      "dest": "if_stmt [731,981]"
+    },
+    {
+      "src": "suite [134,248]",
+      "dest": "suite [757,981]"
+    },
+    {
+      "src": "comparison [124,133]",
+      "dest": "comparison [734,756]"
+    },
+    {
+      "src": "name: self [93,97]",
+      "dest": "name: item [701,705]"
+    },
+    {
+      "src": "funcdef [17,268]",
+      "dest": "funcdef [17,1001]"
+    },
+    {
+      "src": "expr_stmt [85,108]",
+      "dest": "expr_stmt [693,714]"
+    },
+    {
+      "src": "name: dish [36,40]",
+      "dest": "name: dish [36,40]"
+    },
+    {
+      "src": "simple_stmt [151,183]",
+      "dest": "simple_stmt [778,812]"
+    },
+    {
+      "src": "simple_stmt [85,109]",
+      "dest": "simple_stmt [693,715]"
+    },
+    {
+      "src": "parameters [29,41]",
+      "dest": "parameters [29,41]"
+    },
+    {
+      "src": "name: menu [98,102]",
+      "dest": "name: menu [931,935]"
+    },
+    {
+      "src": "name: self [199,203]",
+      "dest": "name: self [832,836]"
+    },
+    {
+      "src": "name: append [170,176]",
+      "dest": "name: append [799,805]"
+    },
+    {
+      "src": "name: dish [54,58]",
+      "dest": "name: item [613,617]"
+    },
+    {
+      "src": "file_input [0,268]",
+      "dest": "file_input [0,1001]"
+    },
+    {
+      "src": "operator: , [34,35]",
+      "dest": "operator: , [34,35]"
+    },
+    {
+      "src": "suite [72,248]",
+      "dest": "suite [676,981]"
+    },
+    {
+      "src": "return_stmt [236,247]",
+      "dest": "return_stmt [969,980]"
+    },
+    {
+      "src": "operator: -= [215,217]",
+      "dest": "operator: -= [889,891]"
+    },
+    {
+      "src": "return_stmt [256,268]",
+      "dest": "return_stmt [989,1001]"
+    },
+    {
+      "src": "name: dish [177,181]",
+      "dest": "name: dish [806,810]"
+    },
+    {
+      "src": "name: Order [6,11]",
+      "dest": "name: Order [6,11]"
+    },
+    {
+      "src": "atom_expr [93,108]",
+      "dest": "atom_expr [701,714]"
+    },
+    {
+      "src": "trailer [208,214]",
+      "dest": "trailer [841,848]"
+    },
+    {
+      "src": "name: dish [209,213]",
+      "dest": "name: remove [842,848]"
+    },
+    {
+      "src": "atom_expr [62,71]",
+      "dest": "atom_expr [621,630]"
+    },
+    {
+      "src": "operator: > [130,131]",
+      "dest": "operator: >= [740,742]"
+    },
+    {
+      "src": "simple_stmt [236,248]",
+      "dest": "simple_stmt [969,981]"
+    },
+    {
+      "src": "trailer [176,182]",
+      "dest": "trailer [805,811]"
+    },
+    {
+      "src": "name: menu [204,208]",
+      "dest": "name: menu [837,841]"
+    },
+    {
+      "src": "name: count [124,129]",
+      "dest": "name: count [734,739]"
+    },
+    {
+      "src": "trailer [97,102]",
+      "dest": "trailer [930,935]"
+    },
+    {
+      "src": "trailer [169,176]",
+      "dest": "trailer [798,805]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [51,601]",
+      "parent": "suite [42,1001]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "for_stmt [609,981]",
+      "parent": "suite [42,1001]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: dish [54,58]",
+      "label": "item"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: dish [54,58]",
+      "parent": "for_stmt [609,981]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [62,71]",
+      "parent": "for_stmt [609,981]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [631,981]",
+      "parent": "for_stmt [609,981]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [644,981]",
+      "parent": "suite [631,981]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [647,675]",
+      "parent": "if_stmt [644,981]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [72,248]",
+      "parent": "if_stmt [644,981]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: > [130,131]",
+      "label": ">="
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [743,756]",
+      "parent": "comparison [734,756]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [832,855]",
+      "parent": "suite [757,981]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [875,906]",
+      "parent": "suite [757,981]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [926,949]",
+      "parent": "suite [757,981]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: self [93,97]",
+      "label": "item"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [705,714]",
+      "parent": "atom_expr [701,714]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [199,214]",
+      "parent": "simple_stmt [832,855]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [875,905]",
+      "parent": "simple_stmt [875,906]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [926,948]",
+      "parent": "simple_stmt [926,949]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [848,854]",
+      "parent": "atom_expr [832,854]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [875,888]",
+      "parent": "expr_stmt [875,905]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: -= [215,217]",
+      "parent": "expr_stmt [875,905]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [892,905]",
+      "parent": "expr_stmt [875,905]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [926,930]",
+      "parent": "atom_expr [926,948]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [97,102]",
+      "parent": "atom_expr [926,948]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [935,942]",
+      "parent": "atom_expr [926,948]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [942,948]",
+      "parent": "atom_expr [926,948]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: selected_dish [156,169]",
+      "label": "selected_dishes"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: dish [209,213]",
+      "label": "remove"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [102,108]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 0 [132,133]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 1 [218,219]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [199,219]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [199,220]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "comparison [54,71]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "if_stmt [51,248]"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "matches": [
+    {
+      "src": "parameters [49,62]",
+      "dest": "parameters [49,70]"
+    },
+    {
+      "src": "funcdef [36,211]",
+      "dest": "funcdef [36,1315]"
+    },
+    {
+      "src": "suite [63,211]",
+      "dest": "suite [71,1315]"
+    },
+    {
+      "src": "name: music_score [50,61]",
+      "dest": "name: self [50,54]"
+    },
+    {
+      "src": "file_input [0,211]",
+      "dest": "file_input [0,1315]"
+    },
+    {
+      "src": "return_stmt [190,211]",
+      "dest": "return_stmt [1294,1315]"
+    },
+    {
+      "src": "param [50,61]",
+      "dest": "param [50,55]"
+    },
+    {
+      "src": "name: interpret [40,49]",
+      "dest": "name: interpret [40,49]"
+    },
+    {
+      "src": "name: interpretation [197,211]",
+      "dest": "name: interpretation [1301,1315]"
+    },
+    {
+      "src": "classdef [0,211]",
+      "dest": "classdef [0,1315]"
+    },
+    {
+      "src": "name: AutomaticGuitarSimulator [6,30]",
+      "dest": "name: AutomaticGuitarSimulator [6,30]"
+    },
+    {
+      "src": "suite [31,211]",
+      "dest": "suite [31,1315]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [56,69]",
+      "parent": "parameters [49,70]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [80,671]",
+      "parent": "suite [71,1315]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [679,708]",
+      "parent": "suite [71,1315]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [775,795]",
+      "parent": "suite [71,1315]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [803,842]",
+      "parent": "suite [71,1315]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "for_stmt [850,1057]",
+      "parent": "suite [71,1315]",
+      "at": 4
+    },
+    {
+      "action": "insert-tree",
+      "tree": "if_stmt [1131,1241]",
+      "parent": "suite [71,1315]",
+      "at": 5
+    },
+    {
+      "action": "update-node",
+      "tree": "name: music_score [50,61]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [54,55]",
+      "parent": "param [50,55]",
+      "at": 1
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "matches": [
+    {
+      "src": "name: hex_to_decimal [31,45]",
+      "dest": "name: hex_to_decimal [31,45]"
+    },
+    {
+      "src": "suite [22,121]",
+      "dest": "suite [22,310]"
+    },
+    {
+      "src": "name: int [78,81]",
+      "dest": "name: int [267,270]"
+    },
+    {
+      "src": "arglist [82,93]",
+      "dest": "arglist [271,282]"
+    },
+    {
+      "src": "classdef [0,121]",
+      "dest": "classdef [0,310]"
+    },
+    {
+      "src": "suite [55,121]",
+      "dest": "suite [55,310]"
+    },
+    {
+      "src": "expr_stmt [64,94]",
+      "dest": "expr_stmt [253,283]"
+    },
+    {
+      "src": "operator: , [89,90]",
+      "dest": "operator: , [278,279]"
+    },
+    {
+      "src": "trailer [81,94]",
+      "dest": "trailer [270,283]"
+    },
+    {
+      "src": "parameters [45,54]",
+      "dest": "parameters [45,54]"
+    },
+    {
+      "src": "name: NumberConverter [6,21]",
+      "dest": "name: NumberConverter [6,21]"
+    },
+    {
+      "src": "name: hex_num [82,89]",
+      "dest": "name: hex_num [271,278]"
+    },
+    {
+      "src": "param [46,53]",
+      "dest": "param [46,53]"
+    },
+    {
+      "src": "return_stmt [103,121]",
+      "dest": "return_stmt [292,310]"
+    },
+    {
+      "src": "name: decimal_num [110,121]",
+      "dest": "name: decimal_num [299,310]"
+    },
+    {
+      "src": "number: 16 [91,93]",
+      "dest": "number: 16 [280,282]"
+    },
+    {
+      "src": "name: decimal_num [64,75]",
+      "dest": "name: decimal_num [253,264]"
+    },
+    {
+      "src": "atom_expr [78,94]",
+      "dest": "atom_expr [267,283]"
+    },
+    {
+      "src": "simple_stmt [64,95]",
+      "dest": "simple_stmt [253,284]"
+    },
+    {
+      "src": "operator: = [76,77]",
+      "dest": "operator: = [265,266]"
+    },
+    {
+      "src": "file_input [0,121]",
+      "dest": "file_input [0,310]"
+    },
+    {
+      "src": "funcdef [27,121]",
+      "dest": "funcdef [27,310]"
+    },
+    {
+      "src": "name: hex_num [46,53]",
+      "dest": "name: hex_num [46,53]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [64,245]",
+      "parent": "suite [55,310]",
+      "at": 0
+    }
+  ]
+}

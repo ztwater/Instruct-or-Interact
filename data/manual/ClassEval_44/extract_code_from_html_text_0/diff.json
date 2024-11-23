@@ -1,0 +1,157 @@
+{
+  "matches": [
+    {
+      "src": "suite [15,333]",
+      "dest": "suite [15,355]"
+    },
+    {
+      "src": "return_stmt [313,333]",
+      "dest": "return_stmt [335,355]"
+    },
+    {
+      "src": "name: re [206,208]",
+      "dest": "name: re [228,230]"
+    },
+    {
+      "src": "classdef [0,333]",
+      "dest": "classdef [0,355]"
+    },
+    {
+      "src": "name: DOTALL [243,249]",
+      "dest": "name: DOTALL [265,271]"
+    },
+    {
+      "src": "name: code_snippets [320,333]",
+      "dest": "name: code_snippets [342,355]"
+    },
+    {
+      "src": "suite [63,333]",
+      "dest": "suite [69,355]"
+    },
+    {
+      "src": "expr_stmt [190,250]",
+      "dest": "expr_stmt [212,272]"
+    },
+    {
+      "src": "arglist [217,249]",
+      "dest": "arglist [239,271]"
+    },
+    {
+      "src": "trailer [208,216]",
+      "dest": "trailer [230,238]"
+    },
+    {
+      "src": "name: extract_code_from_html_text [24,51]",
+      "dest": "name: extract_code_from_html_text [24,51]"
+    },
+    {
+      "src": "trailer [216,250]",
+      "dest": "trailer [238,272]"
+    },
+    {
+      "src": "name: html_text [229,238]",
+      "dest": "name: html_text [251,260]"
+    },
+    {
+      "src": "expr_stmt [147,181]",
+      "dest": "expr_stmt [158,203]"
+    },
+    {
+      "src": "name: code_regex [147,157]",
+      "dest": "name: code_regex [158,168]"
+    },
+    {
+      "src": "name: code_snippets [190,203]",
+      "dest": "name: code_snippets [212,225]"
+    },
+    {
+      "src": "trailer [242,249]",
+      "dest": "trailer [264,271]"
+    },
+    {
+      "src": "atom_expr [206,250]",
+      "dest": "atom_expr [228,272]"
+    },
+    {
+      "src": "file_input [0,333]",
+      "dest": "file_input [0,355]"
+    },
+    {
+      "src": "parameters [51,62]",
+      "dest": "parameters [51,68]"
+    },
+    {
+      "src": "string: r\"<code>(.*?)</code>\" [160,181]",
+      "dest": "string: r\"<pre><code>(.*?)</code></pre>\" [171,203]"
+    },
+    {
+      "src": "name: html_text [52,61]",
+      "dest": "name: html_text [58,67]"
+    },
+    {
+      "src": "operator: , [238,239]",
+      "dest": "operator: , [260,261]"
+    },
+    {
+      "src": "name: findall [209,216]",
+      "dest": "name: findall [231,238]"
+    },
+    {
+      "src": "operator: , [227,228]",
+      "dest": "operator: , [249,250]"
+    },
+    {
+      "src": "name: re [240,242]",
+      "dest": "name: re [262,264]"
+    },
+    {
+      "src": "atom_expr [240,249]",
+      "dest": "atom_expr [262,271]"
+    },
+    {
+      "src": "simple_stmt [147,182]",
+      "dest": "simple_stmt [158,204]"
+    },
+    {
+      "src": "name: code_regex [217,227]",
+      "dest": "name: code_regex [239,249]"
+    },
+    {
+      "src": "param [52,61]",
+      "dest": "param [58,67]"
+    },
+    {
+      "src": "simple_stmt [190,251]",
+      "dest": "simple_stmt [212,273]"
+    },
+    {
+      "src": "operator: = [204,205]",
+      "dest": "operator: = [226,227]"
+    },
+    {
+      "src": "name: HtmlUtil [6,14]",
+      "dest": "name: HtmlUtil [6,14]"
+    },
+    {
+      "src": "operator: = [158,159]",
+      "dest": "operator: = [169,170]"
+    },
+    {
+      "src": "funcdef [20,333]",
+      "dest": "funcdef [20,355]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [52,57]",
+      "parent": "parameters [51,68]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "string: r\"<code>(.*?)</code>\" [160,181]",
+      "label": "r\"<pre><code>(.*?)</code></pre>\""
+    }
+  ]
+}

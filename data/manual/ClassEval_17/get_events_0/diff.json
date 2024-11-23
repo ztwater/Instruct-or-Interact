@@ -1,0 +1,261 @@
+{
+  "matches": [
+    {
+      "src": "atom_expr [483,496]",
+      "dest": "atom_expr [295,308]"
+    },
+    {
+      "src": "suite [19,545]",
+      "dest": "suite [19,348]"
+    },
+    {
+      "src": "name: date [500,504]",
+      "dest": "name: date [312,316]"
+    },
+    {
+      "src": "classdef [0,545]",
+      "dest": "classdef [0,348]"
+    },
+    {
+      "src": "name: filtered_events [530,545]",
+      "dest": "name: filtered_events [333,348]"
+    },
+    {
+      "src": "name: events [473,479]",
+      "dest": "name: events [285,291]"
+    },
+    {
+      "src": "suite [45,545]",
+      "dest": "suite [51,348]"
+    },
+    {
+      "src": "comp_if [480,504]",
+      "dest": "comp_if [292,316]"
+    },
+    {
+      "src": "string: 'date' [489,495]",
+      "dest": "string: 'date' [301,307]"
+    },
+    {
+      "src": "name: get_events [28,38]",
+      "dest": "name: get_events [28,38]"
+    },
+    {
+      "src": "param [39,43]",
+      "dest": "param [45,49]"
+    },
+    {
+      "src": "file_input [0,545]",
+      "dest": "file_input [0,348]"
+    },
+    {
+      "src": "return_stmt [523,545]",
+      "dest": "return_stmt [326,348]"
+    },
+    {
+      "src": "operator: == [497,499]",
+      "dest": "operator: == [309,311]"
+    },
+    {
+      "src": "name: date [39,43]",
+      "dest": "name: date [45,49]"
+    },
+    {
+      "src": "expr_stmt [426,505]",
+      "dest": "expr_stmt [242,317]"
+    },
+    {
+      "src": "comparison [483,504]",
+      "dest": "comparison [295,316]"
+    },
+    {
+      "src": "name: filtered_events [426,441]",
+      "dest": "name: filtered_events [242,257]"
+    },
+    {
+      "src": "trailer [488,496]",
+      "dest": "trailer [300,308]"
+    },
+    {
+      "src": "name: event [483,488]",
+      "dest": "name: event [295,300]"
+    },
+    {
+      "src": "parameters [38,44]",
+      "dest": "parameters [38,50]"
+    },
+    {
+      "src": "atom [444,505]",
+      "dest": "atom [260,317]"
+    },
+    {
+      "src": "name: event [464,469]",
+      "dest": "name: event [271,276]"
+    },
+    {
+      "src": "simple_stmt [117,361]",
+      "dest": "simple_stmt [60,234]"
+    },
+    {
+      "src": "name: event [445,450]",
+      "dest": "name: event [261,266]"
+    },
+    {
+      "src": "simple_stmt [426,506]",
+      "dest": "simple_stmt [242,318]"
+    },
+    {
+      "src": "name: CalendarUtil [6,18]",
+      "dest": "name: CalendarUtil [6,18]"
+    },
+    {
+      "src": "string: 'event' [163,170]",
+      "dest": "string: \"\"\"         Get all events on a given date.         :param date: The date to get events for, datetime.         :return: A list of events on the given date, list.         \"\"\" [60,233]"
+    },
+    {
+      "src": "operator: = [442,443]",
+      "dest": "operator: = [258,259]"
+    },
+    {
+      "src": "testlist_comp [445,504]",
+      "dest": "testlist_comp [261,316]"
+    },
+    {
+      "src": "funcdef [24,545]",
+      "dest": "funcdef [24,348]"
+    },
+    {
+      "src": "sync_comp_for [460,504]",
+      "dest": "sync_comp_for [267,316]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [39,44]",
+      "parent": "parameters [38,50]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "string: 'event' [163,170]",
+      "label": "\"\"\"         Get all events on a given date.         :param date: The date to get events for, datetime.         :return: A list of events on the given date, list.         \"\"\""
+    },
+    {
+      "action": "move-tree",
+      "tree": "string: 'event' [163,170]",
+      "parent": "simple_stmt [60,234]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: event [445,450]",
+      "parent": "testlist_comp [261,316]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [280,291]",
+      "parent": "sync_comp_for [267,316]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [280,284]",
+      "parent": "atom_expr [280,291]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [284,291]",
+      "parent": "atom_expr [280,291]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: events [473,479]",
+      "parent": "trailer [284,291]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: events [117,123]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: = [124,125]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: { [140,141]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: 'date' [141,147]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: '2021-01-01' [149,161]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [161,162]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: 'New Year' [172,182]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "dictorsetmaker [141,182]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: } [182,183]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom [140,183]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [183,184]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "atom [197,248]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [248,249]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "atom [262,315]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [315,316]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "testlist_comp [140,316]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom [126,360]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [117,360]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [450,459]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [445,459]"
+    }
+  ]
+}

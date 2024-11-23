@@ -1,0 +1,79 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "table_name,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "key1,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "key2",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Create a new table in the database if it doesn't exist.\n        And make id (INTEGER) as PRIMARY KEY, make key1 as TEXT, key2 as INTEGER\n        :param table_name: str, the name of the table to create.\n        :param key1: str, the name of the first column in the table.\n        :param key2: str, the name of the second column in the table.\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "fstring",
+        "inserted": "f'''\n        CREATE TABLE IF NOT EXISTS {table_name} (\n            id INTEGER PRIMARY KEY,\n            {key1} TEXT,\n            {key2} INTEGER\n        )\n        '''",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "database_name",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "string",
+        "inserted": "",
+        "deleted": "'your_database.db'",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "string:",
+        "inserted": "",
+        "deleted": "'''\n        CREATE TABLE IF NOT EXISTS your_table_name (\n            column1 datatype1,\n            column2 datatype2,\n            ...\n        )\n        '''",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "trailer",
+        "inserted": "('your_database.db')",
+        "deleted": "('your_database.db')",
+        "type": "Move"
+    }
+]

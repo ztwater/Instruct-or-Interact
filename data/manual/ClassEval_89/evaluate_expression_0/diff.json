@@ -1,0 +1,130 @@
+{
+  "matches": [
+    {
+      "src": "suite [26,189]",
+      "dest": "suite [26,593]"
+    },
+    {
+      "src": "name: eval [85,89]",
+      "dest": "name: eval [489,493]"
+    },
+    {
+      "src": "classdef [0,189]",
+      "dest": "classdef [0,593]"
+    },
+    {
+      "src": "return_stmt [177,189]",
+      "dest": "return_stmt [581,593]"
+    },
+    {
+      "src": "suite [67,189]",
+      "dest": "suite [73,593]"
+    },
+    {
+      "src": "expr_stmt [76,101]",
+      "dest": "expr_stmt [480,505]"
+    },
+    {
+      "src": "comparison [113,125]",
+      "dest": "comparison [517,529]"
+    },
+    {
+      "src": "trailer [89,101]",
+      "dest": "trailer [493,505]"
+    },
+    {
+      "src": "if_stmt [110,189]",
+      "dest": "if_stmt [514,593]"
+    },
+    {
+      "src": "number: 24 [123,125]",
+      "dest": "number: 24 [527,529]"
+    },
+    {
+      "src": "name: result [76,82]",
+      "dest": "name: result [480,486]"
+    },
+    {
+      "src": "suite [164,189]",
+      "dest": "suite [568,593]"
+    },
+    {
+      "src": "atom_expr [85,101]",
+      "dest": "atom_expr [489,505]"
+    },
+    {
+      "src": "file_input [0,189]",
+      "dest": "file_input [0,593]"
+    },
+    {
+      "src": "parameters [54,66]",
+      "dest": "parameters [54,72]"
+    },
+    {
+      "src": "param [55,65]",
+      "dest": "param [61,71]"
+    },
+    {
+      "src": "suite [126,151]",
+      "dest": "suite [530,555]"
+    },
+    {
+      "src": "name: expression [90,100]",
+      "dest": "name: expression [494,504]"
+    },
+    {
+      "src": "operator: == [120,122]",
+      "dest": "operator: == [524,526]"
+    },
+    {
+      "src": "return_stmt [139,150]",
+      "dest": "return_stmt [543,554]"
+    },
+    {
+      "src": "name: TwentyFourPointGame [6,25]",
+      "dest": "name: TwentyFourPointGame [6,25]"
+    },
+    {
+      "src": "simple_stmt [139,151]",
+      "dest": "simple_stmt [543,555]"
+    },
+    {
+      "src": "name: result [113,119]",
+      "dest": "name: result [517,523]"
+    },
+    {
+      "src": "name: expression [55,65]",
+      "dest": "name: expression [61,71]"
+    },
+    {
+      "src": "name: evaluate_expression [35,54]",
+      "dest": "name: evaluate_expression [35,54]"
+    },
+    {
+      "src": "simple_stmt [76,102]",
+      "dest": "simple_stmt [480,506]"
+    },
+    {
+      "src": "operator: = [83,84]",
+      "dest": "operator: = [487,488]"
+    },
+    {
+      "src": "funcdef [31,189]",
+      "dest": "funcdef [31,593]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [55,60]",
+      "parent": "parameters [54,72]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [82,472]",
+      "parent": "suite [73,593]",
+      "at": 0
+    }
+  ]
+}

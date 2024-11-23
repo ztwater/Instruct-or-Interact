@@ -1,0 +1,195 @@
+{
+  "matches": [
+    {
+      "src": "name: calculate_portfolio_value [37,62]",
+      "dest": "name: calculate_portfolio_value [37,62]"
+    },
+    {
+      "src": "operator: = [95,96]",
+      "dest": "operator: = [90,91]"
+    },
+    {
+      "src": "suite [28,275]",
+      "dest": "suite [28,275]"
+    },
+    {
+      "src": "name: stock_value [228,239]",
+      "dest": "name: stock_value [228,239]"
+    },
+    {
+      "src": "operator: = [164,165]",
+      "dest": "operator: = [164,165]"
+    },
+    {
+      "src": "number: 0 [97,98]",
+      "dest": "number: 0 [92,93]"
+    },
+    {
+      "src": "classdef [0,275]",
+      "dest": "classdef [0,275]"
+    },
+    {
+      "src": "expr_stmt [213,239]",
+      "dest": "expr_stmt [213,239]"
+    },
+    {
+      "src": "expr_stmt [83,98]",
+      "dest": "expr_stmt [78,93]"
+    },
+    {
+      "src": "suite [74,275]",
+      "dest": "suite [69,275]"
+    },
+    {
+      "src": "trailer [171,180]",
+      "dest": "trailer [171,180]"
+    },
+    {
+      "src": "name: portfolio [63,72]",
+      "dest": "name: self [63,67]"
+    },
+    {
+      "src": "term [166,200]",
+      "dest": "term [166,200]"
+    },
+    {
+      "src": "name: stock [166,171]",
+      "dest": "name: stock [166,171]"
+    },
+    {
+      "src": "atom_expr [183,200]",
+      "dest": "atom_expr [183,200]"
+    },
+    {
+      "src": "simple_stmt [152,201]",
+      "dest": "simple_stmt [152,201]"
+    },
+    {
+      "src": "simple_stmt [213,240]",
+      "dest": "simple_stmt [213,240]"
+    },
+    {
+      "src": "name: stock_value [152,163]",
+      "dest": "name: stock_value [152,163]"
+    },
+    {
+      "src": "name: stock [120,125]",
+      "dest": "name: stock [115,120]"
+    },
+    {
+      "src": "file_input [0,275]",
+      "dest": "file_input [0,275]"
+    },
+    {
+      "src": "name: total_value [213,224]",
+      "dest": "name: total_value [213,224]"
+    },
+    {
+      "src": "suite [139,240]",
+      "dest": "suite [139,240]"
+    },
+    {
+      "src": "name: total_value [83,94]",
+      "dest": "name: total_value [78,89]"
+    },
+    {
+      "src": "operator: += [225,227]",
+      "dest": "operator: += [225,227]"
+    },
+    {
+      "src": "simple_stmt [83,99]",
+      "dest": "simple_stmt [78,94]"
+    },
+    {
+      "src": "name: stock [183,188]",
+      "dest": "name: stock [183,188]"
+    },
+    {
+      "src": "atom_expr [166,180]",
+      "dest": "atom_expr [166,180]"
+    },
+    {
+      "src": "operator: * [181,182]",
+      "dest": "operator: * [181,182]"
+    },
+    {
+      "src": "string: 'quantity' [189,199]",
+      "dest": "string: 'quantity' [189,199]"
+    },
+    {
+      "src": "trailer [188,200]",
+      "dest": "trailer [188,200]"
+    },
+    {
+      "src": "string: 'price' [172,179]",
+      "dest": "string: 'price' [172,179]"
+    },
+    {
+      "src": "parameters [62,73]",
+      "dest": "parameters [62,68]"
+    },
+    {
+      "src": "param [63,72]",
+      "dest": "param [63,67]"
+    },
+    {
+      "src": "return_stmt [257,275]",
+      "dest": "return_stmt [257,275]"
+    },
+    {
+      "src": "expr_stmt [152,200]",
+      "dest": "expr_stmt [152,200]"
+    },
+    {
+      "src": "for_stmt [116,240]",
+      "dest": "for_stmt [111,240]"
+    },
+    {
+      "src": "name: portfolio [129,138]",
+      "dest": "name: portfolio [129,138]"
+    },
+    {
+      "src": "name: StockPortfolioTracker [6,27]",
+      "dest": "name: StockPortfolioTracker [6,27]"
+    },
+    {
+      "src": "funcdef [33,275]",
+      "dest": "funcdef [33,275]"
+    },
+    {
+      "src": "name: total_value [264,275]",
+      "dest": "name: total_value [264,275]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "update-node",
+      "tree": "name: portfolio [63,72]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [124,138]",
+      "parent": "for_stmt [111,240]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [124,128]",
+      "parent": "atom_expr [124,138]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [128,138]",
+      "parent": "atom_expr [124,138]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: portfolio [129,138]",
+      "parent": "trailer [128,138]",
+      "at": 0
+    }
+  ]
+}

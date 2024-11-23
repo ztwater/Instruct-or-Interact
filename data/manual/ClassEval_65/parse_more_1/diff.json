@@ -1,0 +1,155 @@
+{
+  "matches": [
+    {
+      "src": "suite [26,142]",
+      "dest": "suite [26,388]"
+    },
+    {
+      "src": "operator: = [71,72]",
+      "dest": "operator: = [321,322]"
+    },
+    {
+      "src": "trailer [135,142]",
+      "dest": "trailer [385,388]"
+    },
+    {
+      "src": "operator: , [76,77]",
+      "dest": "operator: , [326,327]"
+    },
+    {
+      "src": "classdef [0,142]",
+      "dest": "classdef [0,388]"
+    },
+    {
+      "src": "name: NumberWordFormatter [6,25]",
+      "dest": "name: NumberWordFormatter [6,25]"
+    },
+    {
+      "src": "suite [53,142]",
+      "dest": "suite [55,388]"
+    },
+    {
+      "src": "param [46,51]",
+      "dest": "param [52,53]"
+    },
+    {
+      "src": "name: suffixes [62,70]",
+      "dest": "name: suffixes [312,320]"
+    },
+    {
+      "src": "atom [73,111]",
+      "dest": "atom [323,361]"
+    },
+    {
+      "src": "string: \"\" [74,76]",
+      "dest": "string: \"\" [324,326]"
+    },
+    {
+      "src": "operator: , [99,100]",
+      "dest": "operator: , [349,350]"
+    },
+    {
+      "src": "file_input [0,142]",
+      "dest": "file_input [0,388]"
+    },
+    {
+      "src": "name: index [46,51]",
+      "dest": "name: i [52,53]"
+    },
+    {
+      "src": "return_stmt [120,142]",
+      "dest": "return_stmt [370,388]"
+    },
+    {
+      "src": "name: parse_more [35,45]",
+      "dest": "name: parse_more [35,45]"
+    },
+    {
+      "src": "string: \"million\" [90,99]",
+      "dest": "string: \"MILLION\" [340,349]"
+    },
+    {
+      "src": "parameters [45,52]",
+      "dest": "parameters [45,54]"
+    },
+    {
+      "src": "operator: , [88,89]",
+      "dest": "operator: , [338,339]"
+    },
+    {
+      "src": "name: suffixes [127,135]",
+      "dest": "name: suffixes [377,385]"
+    },
+    {
+      "src": "simple_stmt [62,112]",
+      "dest": "simple_stmt [312,362]"
+    },
+    {
+      "src": "funcdef [31,142]",
+      "dest": "funcdef [31,388]"
+    },
+    {
+      "src": "expr_stmt [62,111]",
+      "dest": "expr_stmt [312,361]"
+    },
+    {
+      "src": "atom_expr [127,142]",
+      "dest": "atom_expr [377,388]"
+    },
+    {
+      "src": "string: \"billion\" [101,110]",
+      "dest": "string: \"BILLION\" [351,360]"
+    },
+    {
+      "src": "name: index [136,141]",
+      "dest": "name: i [386,387]"
+    },
+    {
+      "src": "testlist_comp [74,110]",
+      "dest": "testlist_comp [324,360]"
+    },
+    {
+      "src": "string: \"thousand\" [78,88]",
+      "dest": "string: \"THOUSAND\" [328,338]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [46,51]",
+      "parent": "parameters [45,54]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [64,304]",
+      "parent": "suite [55,388]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: index [46,51]",
+      "label": "i"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: index [136,141]",
+      "label": "i"
+    },
+    {
+      "action": "update-node",
+      "tree": "string: \"thousand\" [78,88]",
+      "label": "\"THOUSAND\""
+    },
+    {
+      "action": "update-node",
+      "tree": "string: \"million\" [90,99]",
+      "label": "\"MILLION\""
+    },
+    {
+      "action": "update-node",
+      "tree": "string: \"billion\" [101,110]",
+      "label": "\"BILLION\""
+    }
+  ]
+}

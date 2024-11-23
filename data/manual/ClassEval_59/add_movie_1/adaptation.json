@@ -1,0 +1,93 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "price,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "start_time,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "end_time,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "n",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Add a new movie into self.movies\n        :param name: str, movie name\n        :param price: float, price for one ticket\n        :param start_time: str\n        :param end_time: str\n        :param n: int, the size of seats(n*n)\n        >>> system.add_movie('Batman', 49.9, '17:05', '19:25', 3)\n        >>> system.movies\n        [{'name': 'Batman', 'price': 49.9, 'start_time': datetime.datetime(1900, 1, 1, 17, 5), 'end_time': datetime.datetime(1900, 1, 1, 19, 25),\n        'seats': array([[0., 0., 0.],\n            [0., 0., 0.],\n            [0., 0., 0.]])}]\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "seats = np.zeros((n, n))\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "start_time = datetime.strptime(start_time, '%H:%M')\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "end_time = datetime.strptime(end_time, '%H:%M')\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "movie = {\n            'name': name,\n            'price': price,\n            'start_time': datetime(1900, 1, 1, start_time.hour, start_time.minute),\n            'end_time': datetime(1900, 1, 1, end_time.hour, end_time.minute),\n            'seats': seats\n        }\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "self.movies.append(movie)\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "self.movies.append(movie)",
+        "deleted": "self.movies.append(movie)",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "name",
+        "deleted": "movie",
+        "type": "Refactoring"
+    }
+]

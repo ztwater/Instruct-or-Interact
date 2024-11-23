@@ -1,0 +1,211 @@
+{
+  "matches": [
+    {
+      "src": "name: balance [114,121]",
+      "dest": "name: balance [92,99]"
+    },
+    {
+      "src": "operator: , [59,60]",
+      "dest": "operator: , [55,56]"
+    },
+    {
+      "src": "name: other_account [61,74]",
+      "dest": "name: amount [57,63]"
+    },
+    {
+      "src": "suite [18,275]",
+      "dest": "suite [18,242]"
+    },
+    {
+      "src": "atom_expr [181,202]",
+      "dest": "atom_expr [148,169]"
+    },
+    {
+      "src": "atom_expr [98,121]",
+      "dest": "atom_expr [87,99]"
+    },
+    {
+      "src": "param [44,60]",
+      "dest": "param [42,56]"
+    },
+    {
+      "src": "classdef [0,275]",
+      "dest": "classdef [0,242]"
+    },
+    {
+      "src": "suite [76,275]",
+      "dest": "suite [65,242]"
+    },
+    {
+      "src": "param [36,43]",
+      "dest": "param [36,41]"
+    },
+    {
+      "src": "operator: += [203,205]",
+      "dest": "operator: += [170,172]"
+    },
+    {
+      "src": "name: balance [151,158]",
+      "dest": "name: balance [118,125]"
+    },
+    {
+      "src": "name: other_account [181,194]",
+      "dest": "name: other_account [148,161]"
+    },
+    {
+      "src": "expr_stmt [135,168]",
+      "dest": "expr_stmt [113,135]"
+    },
+    {
+      "src": "name: balance [195,202]",
+      "dest": "name: balance [162,169]"
+    },
+    {
+      "src": "simple_stmt [181,213]",
+      "dest": "simple_stmt [148,180]"
+    },
+    {
+      "src": "name: transfer [27,35]",
+      "dest": "name: transfer [27,35]"
+    },
+    {
+      "src": "suite [250,275]",
+      "dest": "suite [217,242]"
+    },
+    {
+      "src": "expr_stmt [181,212]",
+      "dest": "expr_stmt [148,179]"
+    },
+    {
+      "src": "name: amount [162,168]",
+      "dest": "name: amount [129,135]"
+    },
+    {
+      "src": "file_input [0,275]",
+      "dest": "file_input [0,242]"
+    },
+    {
+      "src": "operator: , [42,43]",
+      "dest": "operator: , [40,41]"
+    },
+    {
+      "src": "param [61,74]",
+      "dest": "param [57,63]"
+    },
+    {
+      "src": "suite [122,237]",
+      "dest": "suite [100,204]"
+    },
+    {
+      "src": "trailer [150,158]",
+      "dest": "trailer [117,125]"
+    },
+    {
+      "src": "name: current_account [98,113]",
+      "dest": "name: self [87,91]"
+    },
+    {
+      "src": "parameters [35,75]",
+      "dest": "parameters [35,64]"
+    },
+    {
+      "src": "name: current_account [44,59]",
+      "dest": "name: other_account [42,55]"
+    },
+    {
+      "src": "return_stmt [225,236]",
+      "dest": "return_stmt [192,203]"
+    },
+    {
+      "src": "operator: <= [95,97]",
+      "dest": "operator: <= [84,86]"
+    },
+    {
+      "src": "trailer [194,202]",
+      "dest": "trailer [161,169]"
+    },
+    {
+      "src": "comparison [88,121]",
+      "dest": "comparison [77,99]"
+    },
+    {
+      "src": "atom_expr [135,158]",
+      "dest": "atom_expr [113,125]"
+    },
+    {
+      "src": "trailer [113,121]",
+      "dest": "trailer [91,99]"
+    },
+    {
+      "src": "name: amount [206,212]",
+      "dest": "name: amount [173,179]"
+    },
+    {
+      "src": "return_stmt [263,275]",
+      "dest": "return_stmt [230,242]"
+    },
+    {
+      "src": "operator: -= [159,161]",
+      "dest": "operator: -= [126,128]"
+    },
+    {
+      "src": "simple_stmt [135,169]",
+      "dest": "simple_stmt [113,136]"
+    },
+    {
+      "src": "name: amount [88,94]",
+      "dest": "name: amount [77,83]"
+    },
+    {
+      "src": "if_stmt [85,275]",
+      "dest": "if_stmt [74,242]"
+    },
+    {
+      "src": "name: amount [36,42]",
+      "dest": "name: self [36,40]"
+    },
+    {
+      "src": "name: current_account [135,150]",
+      "dest": "name: self [113,117]"
+    },
+    {
+      "src": "funcdef [23,275]",
+      "dest": "funcdef [23,242]"
+    },
+    {
+      "src": "name: BankAccount [6,17]",
+      "dest": "name: BankAccount [6,17]"
+    },
+    {
+      "src": "simple_stmt [225,237]",
+      "dest": "simple_stmt [192,204]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "update-node",
+      "tree": "name: amount [36,42]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: current_account [44,59]",
+      "label": "other_account"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: other_account [61,74]",
+      "label": "amount"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: current_account [98,113]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: current_account [135,150]",
+      "label": "self"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Returns a list of supported currency types\n        :return:list, All supported currency types\n        >>> cc = CurrencyConverter()\n        >>> cc.get_supported_currencies()\n        ['USD','EUR','GBP','JPY','CAD','AUD','CNY']\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "list(self.rates.keys())",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "atom",
+        "inserted": "",
+        "deleted": "['USD', 'EUR', 'GBP', 'JPY', 'CAD']",
+        "type": "Logic"
+    }
+]

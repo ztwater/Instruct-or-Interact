@@ -1,0 +1,279 @@
+{
+  "matches": [
+    {
+      "src": "param [61,66]",
+      "dest": "param [56,61]"
+    },
+    {
+      "src": "suite [28,269]",
+      "dest": "suite [28,469]"
+    },
+    {
+      "src": "fstring_start: f\" [151,153]",
+      "dest": "fstring_start: f\" [303,305]"
+    },
+    {
+      "src": "atom_expr [226,268]",
+      "dest": "atom_expr [402,444]"
+    },
+    {
+      "src": "name: stock [61,66]",
+      "dest": "name: stock [56,61]"
+    },
+    {
+      "src": "classdef [0,269]",
+      "dest": "classdef [0,469]"
+    },
+    {
+      "src": "name: print [145,150]",
+      "dest": "name: print [297,302]"
+    },
+    {
+      "src": "suite [68,269]",
+      "dest": "suite [63,469]"
+    },
+    {
+      "src": "fstring_start: f\" [232,234]",
+      "dest": "fstring_start: f\" [408,410]"
+    },
+    {
+      "src": "fstring_string:  has been removed from the portfolio. [160,197]",
+      "dest": "fstring_string:  has been removed from the portfolio. [312,349]"
+    },
+    {
+      "src": "name: print [226,231]",
+      "dest": "name: print [402,407]"
+    },
+    {
+      "src": "fstring_end: \" [197,198]",
+      "dest": "fstring_end: \" [349,350]"
+    },
+    {
+      "src": "fstring [232,267]",
+      "dest": "fstring [408,443]"
+    },
+    {
+      "src": "name: stock [235,240]",
+      "dest": "name: stock [411,416]"
+    },
+    {
+      "src": "name: portfolio [89,98]",
+      "dest": "name: portfolio [233,242]"
+    },
+    {
+      "src": "name: stock [80,85]",
+      "dest": "name: stock [219,224]"
+    },
+    {
+      "src": "comparison [80,98]",
+      "dest": "comparison [219,242]"
+    },
+    {
+      "src": "name: remove_stock [37,49]",
+      "dest": "name: remove_stock [37,49]"
+    },
+    {
+      "src": "atom_expr [145,199]",
+      "dest": "atom_expr [297,351]"
+    },
+    {
+      "src": "name: portfolio [50,59]",
+      "dest": "name: self [50,54]"
+    },
+    {
+      "src": "parameters [49,67]",
+      "dest": "parameters [49,62]"
+    },
+    {
+      "src": "file_input [0,273]",
+      "dest": "file_input [0,469]"
+    },
+    {
+      "src": "trailer [150,199]",
+      "dest": "trailer [302,351]"
+    },
+    {
+      "src": "operator: { [153,154]",
+      "dest": "operator: { [305,306]"
+    },
+    {
+      "src": "suite [99,200]",
+      "dest": "suite [243,376]"
+    },
+    {
+      "src": "fstring [151,198]",
+      "dest": "fstring [303,350]"
+    },
+    {
+      "src": "operator: } [240,241]",
+      "dest": "operator: } [416,417]"
+    },
+    {
+      "src": "name: stock [154,159]",
+      "dest": "name: stock [306,311]"
+    },
+    {
+      "src": "trailer [231,268]",
+      "dest": "trailer [407,444]"
+    },
+    {
+      "src": "trailer [125,132]",
+      "dest": "trailer [277,284]"
+    },
+    {
+      "src": "operator: { [234,235]",
+      "dest": "operator: { [410,411]"
+    },
+    {
+      "src": "fstring_end: \" [266,267]",
+      "dest": "fstring_end: \" [442,443]"
+    },
+    {
+      "src": "fstring_string:  is not in the portfolio. [241,266]",
+      "dest": "fstring_string:  is not in the portfolio. [417,442]"
+    },
+    {
+      "src": "fstring_expr [234,241]",
+      "dest": "fstring_expr [410,417]"
+    },
+    {
+      "src": "name: stock [126,131]",
+      "dest": "name: stock [278,283]"
+    },
+    {
+      "src": "param [50,60]",
+      "dest": "param [50,55]"
+    },
+    {
+      "src": "name: StockPortfolioTracker [6,27]",
+      "dest": "name: StockPortfolioTracker [6,27]"
+    },
+    {
+      "src": "fstring_expr [153,160]",
+      "dest": "fstring_expr [305,312]"
+    },
+    {
+      "src": "operator: } [159,160]",
+      "dest": "operator: } [311,312]"
+    },
+    {
+      "src": "operator: , [59,60]",
+      "dest": "operator: , [54,55]"
+    },
+    {
+      "src": "simple_stmt [226,269]",
+      "dest": "simple_stmt [402,445]"
+    },
+    {
+      "src": "if_stmt [77,269]",
+      "dest": "if_stmt [216,469]"
+    },
+    {
+      "src": "simple_stmt [112,133]",
+      "dest": "simple_stmt [256,285]"
+    },
+    {
+      "src": "simple_stmt [145,200]",
+      "dest": "simple_stmt [297,352]"
+    },
+    {
+      "src": "suite [213,269]",
+      "dest": "suite [389,469]"
+    },
+    {
+      "src": "funcdef [33,269]",
+      "dest": "funcdef [33,469]"
+    },
+    {
+      "src": "atom_expr [116,132]",
+      "dest": "atom_expr [256,284]"
+    },
+    {
+      "src": "name: portfolio [116,125]",
+      "dest": "name: portfolio [261,270]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [72,208]",
+      "parent": "suite [63,469]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: portfolio [50,59]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [228,242]",
+      "parent": "comparison [219,242]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [364,376]",
+      "parent": "suite [243,376]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "return_stmt [457,469]",
+      "parent": "suite [389,469]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [228,232]",
+      "parent": "atom_expr [228,242]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [232,242]",
+      "parent": "atom_expr [228,242]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [116,132]",
+      "parent": "simple_stmt [256,285]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: portfolio [89,98]",
+      "parent": "trailer [232,242]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [256,260]",
+      "parent": "atom_expr [256,284]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [260,270]",
+      "parent": "atom_expr [256,284]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [270,277]",
+      "parent": "atom_expr [256,284]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: portfolio [116,125]",
+      "parent": "trailer [260,270]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "del_stmt [112,132]"
+    }
+  ]
+}

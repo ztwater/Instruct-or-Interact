@@ -1,0 +1,189 @@
+{
+  "matches": [
+    {
+      "src": "param [29,37]",
+      "dest": "param [35,43]"
+    },
+    {
+      "src": "suite [11,194]",
+      "dest": "suite [11,381]"
+    },
+    {
+      "src": "classdef [0,194]",
+      "dest": "classdef [0,381]"
+    },
+    {
+      "src": "name: print [137,142]",
+      "dest": "name: self [332,336]"
+    },
+    {
+      "src": "suite [39,194]",
+      "dest": "suite [319,381]"
+    },
+    {
+      "src": "name: username [151,159]",
+      "dest": "name: username [343,351]"
+    },
+    {
+      "src": "name: username [29,37]",
+      "dest": "name: username [35,43]"
+    },
+    {
+      "src": "parameters [28,38]",
+      "dest": "parameters [28,44]"
+    },
+    {
+      "src": "file_input [0,194]",
+      "dest": "file_input [0,381]"
+    },
+    {
+      "src": "atom_expr [137,194]",
+      "dest": "atom_expr [332,352]"
+    },
+    {
+      "src": "funcdef [16,194]",
+      "dest": "funcdef [16,381]"
+    },
+    {
+      "src": "name: Chat [6,10]",
+      "dest": "name: Chat [6,10]"
+    },
+    {
+      "src": "trailer [142,194]",
+      "dest": "trailer [342,352]"
+    },
+    {
+      "src": "name: add_user [20,28]",
+      "dest": "name: add_user [20,28]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "suite [45,381]",
+      "parent": "funcdef [16,381]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [29,34]",
+      "parent": "parameters [28,44]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [54,246]",
+      "parent": "suite [45,381]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [254,381]",
+      "parent": "suite [45,381]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [257,279]",
+      "parent": "if_stmt [254,381]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [280,306]",
+      "parent": "if_stmt [254,381]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [39,194]",
+      "parent": "if_stmt [254,381]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [332,358]",
+      "parent": "suite [319,381]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "return_stmt [370,381]",
+      "parent": "suite [319,381]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [332,357]",
+      "parent": "simple_stmt [332,358]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [137,194]",
+      "parent": "expr_stmt [332,357]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [353,354]",
+      "parent": "expr_stmt [332,357]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom [355,357]",
+      "parent": "expr_stmt [332,357]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: print [137,142]",
+      "label": "self"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [336,342]",
+      "parent": "atom_expr [332,352]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: username [151,159]",
+      "parent": "trailer [342,352]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_start: f\" [143,145]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_string: User  [145,150]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: { [150,151]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: } [159,160]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_expr [150,160]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_string:  added successfully to the Chat. [160,192]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_end: \" [192,193]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring [143,193]"
+    }
+  ]
+}

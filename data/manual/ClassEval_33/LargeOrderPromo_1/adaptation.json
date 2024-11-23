@@ -1,0 +1,30 @@
+[
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "item['product']",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "item",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".cart",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "order",
+        "deleted": "order",
+        "type": "Move"
+    }
+]

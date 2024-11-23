@@ -1,0 +1,273 @@
+{
+  "matches": [
+    {
+      "src": "param [61,66]",
+      "dest": "param [56,61]"
+    },
+    {
+      "src": "suite [28,269]",
+      "dest": "suite [28,325]"
+    },
+    {
+      "src": "fstring_start: f\" [151,153]",
+      "dest": "fstring_start: f\" [159,161]"
+    },
+    {
+      "src": "atom_expr [226,268]",
+      "dest": "atom_expr [258,300]"
+    },
+    {
+      "src": "classdef [0,269]",
+      "dest": "classdef [0,325]"
+    },
+    {
+      "src": "name: print [145,150]",
+      "dest": "name: print [153,158]"
+    },
+    {
+      "src": "suite [68,269]",
+      "dest": "suite [63,325]"
+    },
+    {
+      "src": "fstring_start: f\" [232,234]",
+      "dest": "fstring_start: f\" [264,266]"
+    },
+    {
+      "src": "fstring_string:  has been removed from the portfolio. [160,197]",
+      "dest": "fstring_string:  has been removed from the portfolio. [168,205]"
+    },
+    {
+      "src": "name: stock [126,131]",
+      "dest": "name: stock [134,139]"
+    },
+    {
+      "src": "name: print [226,231]",
+      "dest": "name: print [258,263]"
+    },
+    {
+      "src": "fstring_end: \" [197,198]",
+      "dest": "fstring_end: \" [205,206]"
+    },
+    {
+      "src": "fstring [232,267]",
+      "dest": "fstring [264,299]"
+    },
+    {
+      "src": "name: stock [235,240]",
+      "dest": "name: stock [267,272]"
+    },
+    {
+      "src": "name: portfolio [116,125]",
+      "dest": "name: portfolio [117,126]"
+    },
+    {
+      "src": "name: portfolio [89,98]",
+      "dest": "name: portfolio [89,98]"
+    },
+    {
+      "src": "comparison [80,98]",
+      "dest": "comparison [75,98]"
+    },
+    {
+      "src": "name: stock [61,66]",
+      "dest": "name: stock [56,61]"
+    },
+    {
+      "src": "name: portfolio [50,59]",
+      "dest": "name: self [50,54]"
+    },
+    {
+      "src": "atom_expr [145,199]",
+      "dest": "atom_expr [153,207]"
+    },
+    {
+      "src": "simple_stmt [112,133]",
+      "dest": "simple_stmt [112,141]"
+    },
+    {
+      "src": "operator: , [59,60]",
+      "dest": "operator: , [54,55]"
+    },
+    {
+      "src": "parameters [49,67]",
+      "dest": "parameters [49,62]"
+    },
+    {
+      "src": "file_input [0,273]",
+      "dest": "file_input [0,325]"
+    },
+    {
+      "src": "trailer [150,199]",
+      "dest": "trailer [158,207]"
+    },
+    {
+      "src": "operator: { [153,154]",
+      "dest": "operator: { [161,162]"
+    },
+    {
+      "src": "suite [99,200]",
+      "dest": "suite [99,232]"
+    },
+    {
+      "src": "fstring [151,198]",
+      "dest": "fstring [159,206]"
+    },
+    {
+      "src": "operator: } [240,241]",
+      "dest": "operator: } [272,273]"
+    },
+    {
+      "src": "name: stock [154,159]",
+      "dest": "name: stock [162,167]"
+    },
+    {
+      "src": "trailer [231,268]",
+      "dest": "trailer [263,300]"
+    },
+    {
+      "src": "trailer [125,132]",
+      "dest": "trailer [133,140]"
+    },
+    {
+      "src": "operator: { [234,235]",
+      "dest": "operator: { [266,267]"
+    },
+    {
+      "src": "fstring_end: \" [266,267]",
+      "dest": "fstring_end: \" [298,299]"
+    },
+    {
+      "src": "fstring_string:  is not in the portfolio. [241,266]",
+      "dest": "fstring_string:  is not in the portfolio. [273,298]"
+    },
+    {
+      "src": "name: StockPortfolioTracker [6,27]",
+      "dest": "name: StockPortfolioTracker [6,27]"
+    },
+    {
+      "src": "fstring_expr [234,241]",
+      "dest": "fstring_expr [266,273]"
+    },
+    {
+      "src": "name: remove_stock [37,49]",
+      "dest": "name: remove_stock [37,49]"
+    },
+    {
+      "src": "param [50,60]",
+      "dest": "param [50,55]"
+    },
+    {
+      "src": "fstring_expr [153,160]",
+      "dest": "fstring_expr [161,168]"
+    },
+    {
+      "src": "operator: } [159,160]",
+      "dest": "operator: } [167,168]"
+    },
+    {
+      "src": "simple_stmt [226,269]",
+      "dest": "simple_stmt [258,301]"
+    },
+    {
+      "src": "if_stmt [77,269]",
+      "dest": "if_stmt [72,325]"
+    },
+    {
+      "src": "simple_stmt [145,200]",
+      "dest": "simple_stmt [153,208]"
+    },
+    {
+      "src": "suite [213,269]",
+      "dest": "suite [245,325]"
+    },
+    {
+      "src": "funcdef [33,269]",
+      "dest": "funcdef [33,325]"
+    },
+    {
+      "src": "atom_expr [116,132]",
+      "dest": "atom_expr [112,140]"
+    },
+    {
+      "src": "name: stock [80,85]",
+      "dest": "name: stock [75,80]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "update-node",
+      "tree": "name: portfolio [50,59]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [84,98]",
+      "parent": "comparison [75,98]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [220,232]",
+      "parent": "suite [99,232]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "return_stmt [313,325]",
+      "parent": "suite [245,325]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [84,88]",
+      "parent": "atom_expr [84,98]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [88,98]",
+      "parent": "atom_expr [84,98]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [116,132]",
+      "parent": "simple_stmt [112,141]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: portfolio [89,98]",
+      "parent": "trailer [88,98]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [112,116]",
+      "parent": "atom_expr [112,140]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [116,126]",
+      "parent": "atom_expr [112,140]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [126,133]",
+      "parent": "atom_expr [112,140]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: portfolio [116,125]",
+      "parent": "trailer [116,126]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "del_stmt [112,132]"
+    }
+  ]
+}

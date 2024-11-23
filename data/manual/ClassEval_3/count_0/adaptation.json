@@ -1,0 +1,30 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Counts the number of arrangements by choosing m items from n items (permutations).\n        If m is not provided or n equals m, returns factorial(n).\n        :param n: int, the total number of items.\n        :param m: int, the number of items to be chosen (default=None).\n        :return: int, the count of arrangements.\n        >>> ArrangementCalculator.count(5, 3)\n        60\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "import math\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "if_stmt",
+        "inserted": "if m is None or n == m:\n            return ArrangementCalculator.factorial(n)\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "",
+        "type": "Logic"
+    }
+]

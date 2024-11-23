@@ -1,0 +1,125 @@
+{
+  "matches": [
+    {
+      "src": "trailer [91,100]",
+      "dest": "trailer [85,94]"
+    },
+    {
+      "src": "name: get_current_date [25,41]",
+      "dest": "name: get_current_date [25,41]"
+    },
+    {
+      "src": "trailer [100,112]",
+      "dest": "trailer [94,106]"
+    },
+    {
+      "src": "name: datetime [68,76]",
+      "dest": "name: self [72,76]"
+    },
+    {
+      "src": "suite [16,140]",
+      "dest": "suite [16,135]"
+    },
+    {
+      "src": "classdef [0,140]",
+      "dest": "classdef [0,135]"
+    },
+    {
+      "src": "suite [44,140]",
+      "dest": "suite [48,135]"
+    },
+    {
+      "src": "name: strftime [92,100]",
+      "dest": "name: strftime [86,94]"
+    },
+    {
+      "src": "return_stmt [121,140]",
+      "dest": "return_stmt [115,134]"
+    },
+    {
+      "src": "operator: = [66,67]",
+      "dest": "operator: = [70,71]"
+    },
+    {
+      "src": "name: datetime [77,85]",
+      "dest": "name: datetime [77,85]"
+    },
+    {
+      "src": "string: \"%Y-%m-%d\" [101,111]",
+      "dest": "string: \"%Y-%m-%d\" [95,105]"
+    },
+    {
+      "src": "name: current_date [128,140]",
+      "dest": "name: current_date [122,134]"
+    },
+    {
+      "src": "parameters [41,43]",
+      "dest": "parameters [41,47]"
+    },
+    {
+      "src": "name: TimeUtils [6,15]",
+      "dest": "name: TimeUtils [6,15]"
+    },
+    {
+      "src": "atom_expr [68,112]",
+      "dest": "atom_expr [72,106]"
+    },
+    {
+      "src": "simple_stmt [53,113]",
+      "dest": "simple_stmt [57,107]"
+    },
+    {
+      "src": "file_input [0,140]",
+      "dest": "file_input [0,135]"
+    },
+    {
+      "src": "funcdef [21,140]",
+      "dest": "funcdef [21,135]"
+    },
+    {
+      "src": "expr_stmt [53,112]",
+      "dest": "expr_stmt [57,106]"
+    },
+    {
+      "src": "trailer [76,85]",
+      "dest": "trailer [76,85]"
+    },
+    {
+      "src": "name: current_date [53,65]",
+      "dest": "name: current_date [57,69]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [42,46]",
+      "parent": "parameters [41,47]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [115,135]",
+      "parent": "suite [48,135]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [121,140]",
+      "parent": "simple_stmt [115,135]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: datetime [68,76]",
+      "label": "self"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [85,89]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [89,91]"
+    }
+  ]
+}

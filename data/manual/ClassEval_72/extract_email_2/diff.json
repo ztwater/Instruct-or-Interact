@@ -1,0 +1,150 @@
+{
+  "matches": [
+    {
+      "src": "name: RegexUtils [6,16]",
+      "dest": "name: RegexUtils [6,16]"
+    },
+    {
+      "src": "suite [17,196]",
+      "dest": "suite [17,560]"
+    },
+    {
+      "src": "param [40,44]",
+      "dest": "param [46,50]"
+    },
+    {
+      "src": "name: re [143,145]",
+      "dest": "name: re [506,508]"
+    },
+    {
+      "src": "simple_stmt [55,126]",
+      "dest": "simple_stmt [418,489]"
+    },
+    {
+      "src": "operator: = [69,70]",
+      "dest": "operator: = [432,433]"
+    },
+    {
+      "src": "classdef [0,196]",
+      "dest": "classdef [0,560]"
+    },
+    {
+      "src": "name: emails [190,196]",
+      "dest": "name: emails [553,559]"
+    },
+    {
+      "src": "suite [46,196]",
+      "dest": "suite [52,560]"
+    },
+    {
+      "src": "expr_stmt [134,174]",
+      "dest": "expr_stmt [497,537]"
+    },
+    {
+      "src": "arglist [154,173]",
+      "dest": "arglist [517,536]"
+    },
+    {
+      "src": "trailer [145,153]",
+      "dest": "trailer [508,516]"
+    },
+    {
+      "src": "trailer [153,174]",
+      "dest": "trailer [516,537]"
+    },
+    {
+      "src": "name: text [169,173]",
+      "dest": "name: text [532,536]"
+    },
+    {
+      "src": "expr_stmt [55,125]",
+      "dest": "expr_stmt [418,488]"
+    },
+    {
+      "src": "name: emails [134,140]",
+      "dest": "name: emails [497,503]"
+    },
+    {
+      "src": "atom_expr [143,174]",
+      "dest": "atom_expr [506,537]"
+    },
+    {
+      "src": "file_input [0,196]",
+      "dest": "file_input [0,560]"
+    },
+    {
+      "src": "name: text [40,44]",
+      "dest": "name: text [46,50]"
+    },
+    {
+      "src": "parameters [39,45]",
+      "dest": "parameters [39,51]"
+    },
+    {
+      "src": "name: findall [146,153]",
+      "dest": "name: findall [509,516]"
+    },
+    {
+      "src": "operator: , [167,168]",
+      "dest": "operator: , [530,531]"
+    },
+    {
+      "src": "string: r'\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z|a-z]{2,}\\b' [71,125]",
+      "dest": "string: r'\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z|a-z]{2,}\\b' [434,488]"
+    },
+    {
+      "src": "name: email_pattern [154,167]",
+      "dest": "name: email_pattern [517,530]"
+    },
+    {
+      "src": "return_stmt [183,196]",
+      "dest": "return_stmt [546,559]"
+    },
+    {
+      "src": "name: extract_email [26,39]",
+      "dest": "name: extract_email [26,39]"
+    },
+    {
+      "src": "simple_stmt [134,175]",
+      "dest": "simple_stmt [497,538]"
+    },
+    {
+      "src": "operator: = [141,142]",
+      "dest": "operator: = [504,505]"
+    },
+    {
+      "src": "funcdef [22,196]",
+      "dest": "funcdef [22,560]"
+    },
+    {
+      "src": "name: email_pattern [55,68]",
+      "dest": "name: email_pattern [418,431]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [40,45]",
+      "parent": "parameters [39,51]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [61,410]",
+      "parent": "suite [52,560]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [546,560]",
+      "parent": "suite [52,560]",
+      "at": 3
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [183,196]",
+      "parent": "simple_stmt [546,560]",
+      "at": 0
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "matches": [
+    {
+      "src": "suite [15,333]",
+      "dest": "suite [15,482]"
+    },
+    {
+      "src": "expr_stmt [147,181]",
+      "dest": "expr_stmt [296,330]"
+    },
+    {
+      "src": "name: re [206,208]",
+      "dest": "name: re [355,357]"
+    },
+    {
+      "src": "classdef [0,333]",
+      "dest": "classdef [0,482]"
+    },
+    {
+      "src": "name: DOTALL [243,249]",
+      "dest": "name: DOTALL [392,398]"
+    },
+    {
+      "src": "suite [63,333]",
+      "dest": "suite [69,482]"
+    },
+    {
+      "src": "expr_stmt [190,250]",
+      "dest": "expr_stmt [339,399]"
+    },
+    {
+      "src": "arglist [217,249]",
+      "dest": "arglist [366,398]"
+    },
+    {
+      "src": "trailer [208,216]",
+      "dest": "trailer [357,365]"
+    },
+    {
+      "src": "name: HtmlUtil [6,14]",
+      "dest": "name: HtmlUtil [6,14]"
+    },
+    {
+      "src": "trailer [216,250]",
+      "dest": "trailer [365,399]"
+    },
+    {
+      "src": "name: html_text [229,238]",
+      "dest": "name: html_text [378,387]"
+    },
+    {
+      "src": "name: code_snippets [190,203]",
+      "dest": "name: code_snippets [339,352]"
+    },
+    {
+      "src": "trailer [242,249]",
+      "dest": "trailer [391,398]"
+    },
+    {
+      "src": "name: extract_code_from_html_text [24,51]",
+      "dest": "name: extract_code_from_html_text [24,51]"
+    },
+    {
+      "src": "atom_expr [206,250]",
+      "dest": "atom_expr [355,399]"
+    },
+    {
+      "src": "file_input [0,333]",
+      "dest": "file_input [0,482]"
+    },
+    {
+      "src": "parameters [51,62]",
+      "dest": "parameters [51,68]"
+    },
+    {
+      "src": "operator: = [158,159]",
+      "dest": "operator: = [307,308]"
+    },
+    {
+      "src": "param [52,61]",
+      "dest": "param [58,67]"
+    },
+    {
+      "src": "operator: , [238,239]",
+      "dest": "operator: , [387,388]"
+    },
+    {
+      "src": "string: r\"<code>(.*?)</code>\" [160,181]",
+      "dest": "string: r\"<code>(.*?)</code>\" [309,330]"
+    },
+    {
+      "src": "name: findall [209,216]",
+      "dest": "name: findall [358,365]"
+    },
+    {
+      "src": "operator: , [227,228]",
+      "dest": "operator: , [376,377]"
+    },
+    {
+      "src": "name: re [240,242]",
+      "dest": "name: re [389,391]"
+    },
+    {
+      "src": "atom_expr [240,249]",
+      "dest": "atom_expr [389,398]"
+    },
+    {
+      "src": "simple_stmt [147,182]",
+      "dest": "simple_stmt [296,331]"
+    },
+    {
+      "src": "name: code_regex [217,227]",
+      "dest": "name: code_regex [366,376]"
+    },
+    {
+      "src": "name: code_regex [147,157]",
+      "dest": "name: code_regex [296,306]"
+    },
+    {
+      "src": "return_stmt [313,333]",
+      "dest": "return_stmt [462,482]"
+    },
+    {
+      "src": "name: html_text [52,61]",
+      "dest": "name: html_text [58,67]"
+    },
+    {
+      "src": "simple_stmt [190,251]",
+      "dest": "simple_stmt [339,400]"
+    },
+    {
+      "src": "operator: = [204,205]",
+      "dest": "operator: = [353,354]"
+    },
+    {
+      "src": "funcdef [20,333]",
+      "dest": "funcdef [20,482]"
+    },
+    {
+      "src": "name: code_snippets [320,333]",
+      "dest": "name: code_snippets [469,482]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [52,57]",
+      "parent": "parameters [51,68]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [78,213]",
+      "parent": "suite [69,482]",
+      "at": 0
+    }
+  ]
+}

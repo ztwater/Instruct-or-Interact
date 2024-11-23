@@ -1,0 +1,278 @@
+{
+  "matches": [
+    {
+      "src": "suite [239,277]",
+      "dest": "suite [260,325]"
+    },
+    {
+      "src": "name: alignment_value [368,383]",
+      "dest": "name: alignment_value [442,457]"
+    },
+    {
+      "src": "suite [21,383]",
+      "dest": "suite [21,457]"
+    },
+    {
+      "src": "expr_stmt [189,209]",
+      "dest": "expr_stmt [180,225]"
+    },
+    {
+      "src": "comparison [160,171]",
+      "dest": "comparison [148,162]"
+    },
+    {
+      "src": "classdef [0,383]",
+      "dest": "classdef [0,457]"
+    },
+    {
+      "src": "suite [69,383]",
+      "dest": "suite [68,457]"
+    },
+    {
+      "src": "name: char [227,231]",
+      "dest": "name: char [243,247]"
+    },
+    {
+      "src": "name: char [160,164]",
+      "dest": "name: char [148,152]"
+    },
+    {
+      "src": "name: alignment_string [127,143]",
+      "dest": "name: alignment [122,131]"
+    },
+    {
+      "src": "param [51,67]",
+      "dest": "param [57,66]"
+    },
+    {
+      "src": "name: char [119,123]",
+      "dest": "name: char [114,118]"
+    },
+    {
+      "src": "suite [172,210]",
+      "dest": "suite [163,226]"
+    },
+    {
+      "src": "number: 0 [96,97]",
+      "dest": "number: 0 [95,96]"
+    },
+    {
+      "src": "operator: == [232,234]",
+      "dest": "operator: == [248,250]"
+    },
+    {
+      "src": "comparison [227,238]",
+      "dest": "comparison [243,259]"
+    },
+    {
+      "src": "name: char [294,298]",
+      "dest": "name: char [342,346]"
+    },
+    {
+      "src": "comparison [294,305]",
+      "dest": "comparison [342,357]"
+    },
+    {
+      "src": "expr_stmt [256,276]",
+      "dest": "expr_stmt [277,324]"
+    },
+    {
+      "src": "simple_stmt [323,344]",
+      "dest": "simple_stmt [375,422]"
+    },
+    {
+      "src": "if_stmt [157,344]",
+      "dest": "if_stmt [145,422]"
+    },
+    {
+      "src": "simple_stmt [78,98]",
+      "dest": "simple_stmt [77,97]"
+    },
+    {
+      "src": "string: '|' [235,238]",
+      "dest": "string: 'center' [251,259]"
+    },
+    {
+      "src": "operator: += [205,207]",
+      "dest": "operator: = [196,197]"
+    },
+    {
+      "src": "funcdef [26,383]",
+      "dest": "funcdef [26,457]"
+    },
+    {
+      "src": "name: _get_alignment_value [30,50]",
+      "dest": "name: _get_alignment_value [30,50]"
+    },
+    {
+      "src": "suite [306,344]",
+      "dest": "suite [358,422]"
+    },
+    {
+      "src": "parameters [50,68]",
+      "dest": "parameters [50,67]"
+    },
+    {
+      "src": "name: alignment_value [323,338]",
+      "dest": "name: alignment_value [375,390]"
+    },
+    {
+      "src": "return_stmt [361,383]",
+      "dest": "return_stmt [435,457]"
+    },
+    {
+      "src": "name: alignment_value [189,204]",
+      "dest": "name: alignment_value [180,195]"
+    },
+    {
+      "src": "operator: += [339,341]",
+      "dest": "operator: = [391,392]"
+    },
+    {
+      "src": "operator: == [165,167]",
+      "dest": "operator: == [153,155]"
+    },
+    {
+      "src": "simple_stmt [256,277]",
+      "dest": "simple_stmt [277,325]"
+    },
+    {
+      "src": "file_input [0,383]",
+      "dest": "file_input [0,457]"
+    },
+    {
+      "src": "name: DocFileHandler [6,20]",
+      "dest": "name: DocFileHandler [6,20]"
+    },
+    {
+      "src": "string: '=' [302,305]",
+      "dest": "string: 'right' [350,357]"
+    },
+    {
+      "src": "suite [144,344]",
+      "dest": "suite [132,422]"
+    },
+    {
+      "src": "name: alignment_string [51,67]",
+      "dest": "name: alignment [57,66]"
+    },
+    {
+      "src": "expr_stmt [323,343]",
+      "dest": "expr_stmt [375,421]"
+    },
+    {
+      "src": "expr_stmt [78,97]",
+      "dest": "expr_stmt [77,96]"
+    },
+    {
+      "src": "operator: == [299,301]",
+      "dest": "operator: == [347,349]"
+    },
+    {
+      "src": "operator: = [94,95]",
+      "dest": "operator: = [93,94]"
+    },
+    {
+      "src": "name: alignment_value [256,271]",
+      "dest": "name: alignment_value [277,292]"
+    },
+    {
+      "src": "name: alignment_value [78,93]",
+      "dest": "name: alignment_value [77,92]"
+    },
+    {
+      "src": "for_stmt [115,344]",
+      "dest": "for_stmt [110,422]"
+    },
+    {
+      "src": "string: '-' [168,171]",
+      "dest": "string: 'left' [156,162]"
+    },
+    {
+      "src": "simple_stmt [189,210]",
+      "dest": "simple_stmt [180,226]"
+    },
+    {
+      "src": "operator: += [272,274]",
+      "dest": "operator: = [293,294]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [51,56]",
+      "parent": "parameters [50,67]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: alignment_string [51,67]",
+      "label": "alignment"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: alignment_string [127,143]",
+      "label": "alignment"
+    },
+    {
+      "action": "update-node",
+      "tree": "string: '-' [168,171]",
+      "label": "'left'"
+    },
+    {
+      "action": "update-node",
+      "tree": "string: '|' [235,238]",
+      "label": "'center'"
+    },
+    {
+      "action": "update-node",
+      "tree": "string: '=' [302,305]",
+      "label": "'right'"
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: += [205,207]",
+      "label": "="
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [198,225]",
+      "parent": "expr_stmt [180,225]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: += [272,274]",
+      "label": "="
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [295,324]",
+      "parent": "expr_stmt [277,324]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: += [339,341]",
+      "label": "="
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [393,421]",
+      "parent": "expr_stmt [375,421]",
+      "at": 2
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 1 [208,209]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 2 [275,276]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 3 [342,343]"
+    }
+  ]
+}

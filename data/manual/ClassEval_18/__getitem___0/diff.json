@@ -1,0 +1,151 @@
+{
+  "matches": [
+    {
+      "src": "name: CamelCaseMap [6,18]",
+      "dest": "name: CamelCaseMap [6,18]"
+    },
+    {
+      "src": "suite [19,81]",
+      "dest": "suite [19,283]"
+    },
+    {
+      "src": "name: self [40,44]",
+      "dest": "name: self [40,44]"
+    },
+    {
+      "src": "param [46,49]",
+      "dest": "param [46,49]"
+    },
+    {
+      "src": "classdef [0,81]",
+      "dest": "classdef [0,283]"
+    },
+    {
+      "src": "suite [51,81]",
+      "dest": "suite [51,283]"
+    },
+    {
+      "src": "trailer [71,76]",
+      "dest": "trailer [266,272]"
+    },
+    {
+      "src": "name: data [72,76]",
+      "dest": "name: _data [267,272]"
+    },
+    {
+      "src": "operator: , [44,45]",
+      "dest": "operator: , [44,45]"
+    },
+    {
+      "src": "name: key [46,49]",
+      "dest": "name: key [46,49]"
+    },
+    {
+      "src": "name: __getitem__ [28,39]",
+      "dest": "name: __getitem__ [28,39]"
+    },
+    {
+      "src": "trailer [76,81]",
+      "dest": "trailer [241,246]"
+    },
+    {
+      "src": "atom_expr [67,81]",
+      "dest": "atom_expr [262,283]"
+    },
+    {
+      "src": "param [40,45]",
+      "dest": "param [40,45]"
+    },
+    {
+      "src": "file_input [0,81]",
+      "dest": "file_input [0,283]"
+    },
+    {
+      "src": "return_stmt [60,81]",
+      "dest": "return_stmt [255,283]"
+    },
+    {
+      "src": "parameters [39,50]",
+      "dest": "parameters [39,50]"
+    },
+    {
+      "src": "name: key [77,80]",
+      "dest": "name: key [242,245]"
+    },
+    {
+      "src": "funcdef [24,81]",
+      "dest": "funcdef [24,283]"
+    },
+    {
+      "src": "name: self [67,71]",
+      "dest": "name: self [262,266]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [60,204]",
+      "parent": "suite [51,283]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [212,247]",
+      "parent": "suite [51,283]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [212,246]",
+      "parent": "simple_stmt [212,247]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: camel_key [212,221]",
+      "parent": "expr_stmt [212,246]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [222,223]",
+      "parent": "expr_stmt [212,246]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [224,246]",
+      "parent": "expr_stmt [212,246]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [272,283]",
+      "parent": "atom_expr [262,283]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [224,228]",
+      "parent": "atom_expr [224,246]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [228,241]",
+      "parent": "atom_expr [224,246]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [76,81]",
+      "parent": "atom_expr [224,246]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: data [72,76]",
+      "label": "_data"
+    }
+  ]
+}

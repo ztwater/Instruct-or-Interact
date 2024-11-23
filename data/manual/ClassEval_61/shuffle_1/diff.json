@@ -1,0 +1,159 @@
+{
+  "matches": [
+    {
+      "src": "param [35,43]",
+      "dest": "param [35,39]"
+    },
+    {
+      "src": "trailer [60,68]",
+      "dest": "trailer [235,243]"
+    },
+    {
+      "src": "suite [18,102]",
+      "dest": "suite [18,321]"
+    },
+    {
+      "src": "name: playlist [35,43]",
+      "dest": "name: self [35,39]"
+    },
+    {
+      "src": "classdef [0,102]",
+      "dest": "classdef [0,321]"
+    },
+    {
+      "src": "trailer [68,78]",
+      "dest": "trailer [248,257]"
+    },
+    {
+      "src": "name: shuffle [61,68]",
+      "dest": "name: shuffle [236,243]"
+    },
+    {
+      "src": "name: shuffle [27,34]",
+      "dest": "name: shuffle [27,34]"
+    },
+    {
+      "src": "return_stmt [87,102]",
+      "dest": "return_stmt [271,282]"
+    },
+    {
+      "src": "parameters [34,44]",
+      "dest": "parameters [34,40]"
+    },
+    {
+      "src": "atom_expr [54,78]",
+      "dest": "atom_expr [229,258]"
+    },
+    {
+      "src": "name: random [54,60]",
+      "dest": "name: random [229,235]"
+    },
+    {
+      "src": "file_input [0,102]",
+      "dest": "file_input [0,321]"
+    },
+    {
+      "src": "name: MusicPlayer [6,17]",
+      "dest": "name: MusicPlayer [6,17]"
+    },
+    {
+      "src": "funcdef [23,102]",
+      "dest": "funcdef [23,321]"
+    },
+    {
+      "src": "name: playlist [69,77]",
+      "dest": "name: playlist [249,257]"
+    },
+    {
+      "src": "simple_stmt [54,79]",
+      "dest": "simple_stmt [229,259]"
+    },
+    {
+      "src": "suite [45,102]",
+      "dest": "suite [216,283]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "suite [41,321]",
+      "parent": "funcdef [23,321]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [50,182]",
+      "parent": "suite [41,321]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [190,321]",
+      "parent": "suite [41,321]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: playlist [35,43]",
+      "label": "self"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [193,215]",
+      "parent": "if_stmt [190,321]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [45,102]",
+      "parent": "if_stmt [190,321]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [296,321]",
+      "parent": "if_stmt [190,321]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [271,283]",
+      "parent": "suite [216,283]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [87,102]",
+      "parent": "simple_stmt [271,283]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [243,258]",
+      "parent": "atom_expr [229,258]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [244,257]",
+      "parent": "trailer [243,258]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [244,248]",
+      "parent": "atom_expr [244,257]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [68,78]",
+      "parent": "atom_expr [244,257]",
+      "at": 1
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: playlist [94,102]"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+### Method Description:
+    def update(self, predicted_labels, true_labels):
+        """
+        Update the number of all four samples(true_positives, false_positives, false_negatives, true_negatives)
+        :param predicted_labels: list, predicted results
+        :param true_labels: list, true labels
+        :return: None, change the number of corresponding samples
+        >>> mc = MetricsCalculator()
+        >>> mc.update([1, 1, 0, 0], [1, 0, 0, 1])
+        (self.true_positives, self.false_positives, self.false_negatives, self.true_negatives) = (1, 1, 1, 1)
+        """
+
+### Solution Code:
+    def update(self, predicted_labels, true_labels):
+        for predicted, true in zip(predicted_labels, true_labels):
+            if predicted == 1 and true == 1:
+                self.true_positives += 1
+            elif predicted == 1 and true == 0:
+                self.false_positives += 1
+            elif predicted == 0 and true == 1:
+                self.false_negatives += 1
+            elif predicted == 0 and true == 0:
+                self.true_negatives += 1
+
+### Source Code:
+    def update(true_positives, false_positives, false_negatives, true_negatives):
+        # Update the number of true positives
+        true_positives += 1
+    
+        # Update the number of false positives
+        false_positives += 1
+    
+        # Update the number of false negatives
+        false_negatives += 1
+    
+        # Update the number of true negatives
+        true_negatives += 1
+    
+        return true_positives, false_positives, false_negatives, true_negatives
+
+### Predicted Code:
+    def update(self, predicted_labels, true_labels):
+        """
+        Update the number of all four samples(true_positives, false_positives, false_negatives, true_negatives)
+        :param predicted_labels: list, predicted results
+        :param true_labels: list, true labels
+        :return: None, change the number of corresponding samples
+        >>> mc = MetricsCalculator()
+        >>> mc.update([1, 1, 0, 0], [1, 0, 0, 1])
+        (self.true_positives, self.false_positives, self.false_negatives, self.true_negatives) = (1, 1, 1, 1)
+        """
+        # Update the number of true positives
+        self.true_positives += predicted_labels.count(1) * true_labels.count(1)
+    
+        # Update the number of false positives
+        self.false_positives += predicted_labels.count(1) * true_labels.count(0)
+    
+        # Update the number of false negatives
+        self.false_negatives += predicted_labels.count(0) * true_labels.count(1)
+    
+        # Update the number of true negatives
+        self.true_negatives += predicted_labels.count(0) * true_labels.count(0)
+
+### Adaptation:
+Total number: 53
+### Raw Output:
+```
+    def update(self, predicted_labels, true_labels):
+        """
+        Update the number of all four samples(true_positives, false_positives, false_negatives, true_negatives)
+        :param predicted_labels: list, predicted results
+        :param true_labels: list, true labels
+        :return: None, change the number of corresponding samples
+        >>> mc = MetricsCalculator()
+        >>> mc.update([1, 1, 0, 0], [1, 0, 0, 1])
+        (self.true_positives, self.false_positives, self.false_negatives, self.true_negatives) = (1, 1, 1, 1)
+        """
+        # Update the number of true positives
+        self.true_positives += predicted_labels.count(1) * true_labels.count(1)
+    
+        # Update the number of false positives
+        self.false_positives += predicted_labels.count(1) * true_labels.count(0)
+    
+        # Update the number of false negatives
+        self.false_negatives += predicted_labels.count(0) * true_labels.count(1)
+    
+        # Update the number of true negatives
+        self.true_negatives += predicted_labels.count(0) * true_labels.count(0)
+```
+
+### Test Code:
+class MetricsCalculatorTestUpdate(unittest.TestCase):
+    def test_update_1(self):
+        mc = MetricsCalculator()
+        self.assertEqual((mc.true_positives, mc.false_positives, mc.false_negatives, mc.true_negatives), (0, 0, 0, 0))
+        mc.update([1, 1, 0, 0], [1, 0, 0, 1])
+        self.assertEqual((mc.true_positives, mc.false_positives, mc.false_negatives, mc.true_negatives), (1, 1, 1, 1))
+
+    def test_update_2(self):
+        mc = MetricsCalculator()
+        self.assertEqual((mc.true_positives, mc.false_positives, mc.false_negatives, mc.true_negatives), (0, 0, 0, 0))
+        mc.update([1, 1, 1, 0], [1, 0, 0, 1])
+        self.assertEqual((mc.true_positives, mc.false_positives, mc.false_negatives, mc.true_negatives), (1, 2, 1, 0))
+
+    def test_update_3(self):
+        mc = MetricsCalculator()
+        self.assertEqual((mc.true_positives, mc.false_positives, mc.false_negatives, mc.true_negatives), (0, 0, 0, 0))
+        mc.update([1, 1, 0, 1], [1, 0, 0, 1])
+        self.assertEqual((mc.true_positives, mc.false_positives, mc.false_negatives, mc.true_negatives), (2, 1, 0, 1))
+
+    def test_update_4(self):
+        mc = MetricsCalculator()
+        self.assertEqual((mc.true_positives, mc.false_positives, mc.false_negatives, mc.true_negatives), (0, 0, 0, 0))
+        mc.update([1, 1, 0, 0], [1, 1, 0, 1])
+        self.assertEqual((mc.true_positives, mc.false_positives, mc.false_negatives, mc.true_negatives), (2, 0, 1, 1))
+
+    def test_update_5(self):
+        mc = MetricsCalculator()
+        self.assertEqual((mc.true_positives, mc.false_positives, mc.false_negatives, mc.true_negatives), (0, 0, 0, 0))
+        mc.update([1, 1, 0, 0], [1, 0, 1, 1])
+        self.assertEqual((mc.true_positives, mc.false_positives, mc.false_negatives, mc.true_negatives), (1, 1, 2, 0))
+
+### Test Output:
+# 0 errors, 5 failures in 5 runs.
+# errors:
+# failures:
+#     AssertionError:
+#         test_update_1: Tuples differ: (4, 4, 4, 4) != (1, 1, 1, 1)
+#         test_update_2: Tuples differ: (6, 6, 2, 2) != (1, 2, 1, 0)
+#         test_update_3: Tuples differ: (6, 6, 2, 2) != (2, 1, 0, 1)
+#         test_update_4: Tuples differ: (6, 2, 6, 2) != (2, 0, 1, 1)
+#         test_update_5: Tuples differ: (6, 2, 6, 2) != (1, 1, 2, 0)
+
+
+### Dependencies:
+# lib_dependencies: 
+# field_dependencies: self.false_negatives, self.false_positives, self.true_negatives, self.true_positives
+# method_dependencies: 
+
+

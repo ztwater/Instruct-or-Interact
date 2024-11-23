@@ -1,0 +1,16 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Count the number of words in a sentence. Note that words are separated by spaces and that punctuation marks and numbers are not counted as words.\n        :param sentence:string, sentence to be counted, where words are separated by spaces\n        :return:int, number of words in the sentence\n        >>> ss.count_words(\"abc def\")\n        2\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    }
+]

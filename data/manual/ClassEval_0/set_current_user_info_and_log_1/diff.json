@@ -1,0 +1,146 @@
+{
+  "matches": [
+    {
+      "src": "suite [26,283]",
+      "dest": "suite [26,275]"
+    },
+    {
+      "src": "fstring_start: f\" [210,212]",
+      "dest": "fstring_start: f\" [202,204]"
+    },
+    {
+      "src": "name: AccessGatewayFilter [6,25]",
+      "dest": "name: AccessGatewayFilter [6,25]"
+    },
+    {
+      "src": "classdef [0,283]",
+      "dest": "classdef [0,275]"
+    },
+    {
+      "src": "name: log_message [271,282]",
+      "dest": "name: log_message [263,274]"
+    },
+    {
+      "src": "suite [76,283]",
+      "dest": "suite [77,275]"
+    },
+    {
+      "src": "expr_stmt [196,256]",
+      "dest": "expr_stmt [188,248]"
+    },
+    {
+      "src": "name: current_user_info [237,254]",
+      "dest": "name: current_user_info [229,246]"
+    },
+    {
+      "src": "fstring_string: Access logged for user:  [212,236]",
+      "dest": "fstring_string: Access logged for user:  [204,228]"
+    },
+    {
+      "src": "operator: { [236,237]",
+      "dest": "operator: { [228,229]"
+    },
+    {
+      "src": "parameters [64,75]",
+      "dest": "parameters [64,76]"
+    },
+    {
+      "src": "name: set_current_user_info_and_log [35,64]",
+      "dest": "name: set_current_user_info_and_log [35,64]"
+    },
+    {
+      "src": "name: log_message [196,207]",
+      "dest": "name: log_message [188,199]"
+    },
+    {
+      "src": "trailer [270,283]",
+      "dest": "trailer [262,275]"
+    },
+    {
+      "src": "fstring [210,256]",
+      "dest": "fstring [202,248]"
+    },
+    {
+      "src": "file_input [0,283]",
+      "dest": "file_input [0,275]"
+    },
+    {
+      "src": "expr_stmt [128,157]",
+      "dest": "expr_stmt [129,153]"
+    },
+    {
+      "src": "simple_stmt [128,158]",
+      "dest": "simple_stmt [129,154]"
+    },
+    {
+      "src": "atom_expr [265,283]",
+      "dest": "atom_expr [257,275]"
+    },
+    {
+      "src": "name: user_info [65,74]",
+      "dest": "name: user [71,75]"
+    },
+    {
+      "src": "fstring_expr [236,255]",
+      "dest": "fstring_expr [228,247]"
+    },
+    {
+      "src": "fstring_end: \" [255,256]",
+      "dest": "fstring_end: \" [247,248]"
+    },
+    {
+      "src": "name: print [265,270]",
+      "dest": "name: print [257,262]"
+    },
+    {
+      "src": "name: current_user_info [128,145]",
+      "dest": "name: current_user_info [129,146]"
+    },
+    {
+      "src": "param [65,74]",
+      "dest": "param [71,75]"
+    },
+    {
+      "src": "operator: } [254,255]",
+      "dest": "operator: } [246,247]"
+    },
+    {
+      "src": "operator: = [146,147]",
+      "dest": "operator: = [147,148]"
+    },
+    {
+      "src": "simple_stmt [196,257]",
+      "dest": "simple_stmt [188,249]"
+    },
+    {
+      "src": "operator: = [208,209]",
+      "dest": "operator: = [200,201]"
+    },
+    {
+      "src": "funcdef [31,283]",
+      "dest": "funcdef [31,275]"
+    },
+    {
+      "src": "name: user_info [148,157]",
+      "dest": "name: user [149,153]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [65,70]",
+      "parent": "parameters [64,76]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: user_info [65,74]",
+      "label": "user"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: user_info [148,157]",
+      "label": "user"
+    }
+  ]
+}

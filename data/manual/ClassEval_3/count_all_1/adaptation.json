@@ -1,0 +1,30 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Counts the total number of all possible arrangements by choosing at least 1 item and at most n items from n items.\n        :param n: int, the total number of items.\n        :return: int, the count of all arrangements.\n        >>> ArrangementCalculator.count_all(4)\n        64\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "ArrangementCalculator",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".nCr",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "nCr",
+        "deleted": "nCr",
+        "type": "Move"
+    }
+]

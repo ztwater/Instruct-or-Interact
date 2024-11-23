@@ -1,0 +1,304 @@
+{
+  "matches": [
+    {
+      "src": "operator: = [256,257]",
+      "dest": "operator: = [613,614]"
+    },
+    {
+      "src": "atom_expr [134,154]",
+      "dest": "atom_expr [494,513]"
+    },
+    {
+      "src": "trailer [145,152]",
+      "dest": "trailer [505,511]"
+    },
+    {
+      "src": "suite [17,308]",
+      "dest": "suite [17,666]"
+    },
+    {
+      "src": "name: count [209,214]",
+      "dest": "name: count [568,573]"
+    },
+    {
+      "src": "operator: = [179,180]",
+      "dest": "operator: = [538,539]"
+    },
+    {
+      "src": "classdef [0,308]",
+      "dest": "classdef [0,666]"
+    },
+    {
+      "src": "suite [74,308]",
+      "dest": "suite [74,666]"
+    },
+    {
+      "src": "param [63,72]",
+      "dest": "param [61,72]"
+    },
+    {
+      "src": "expr_stmt [83,103]",
+      "dest": "expr_stmt [438,458]"
+    },
+    {
+      "src": "trailer [185,189]",
+      "dest": "trailer [544,548]"
+    },
+    {
+      "src": "atom [190,205]",
+      "dest": "atom [549,564]"
+    },
+    {
+      "src": "operator: , [61,62]",
+      "dest": "operator: , [59,60]"
+    },
+    {
+      "src": "operator: } [102,103]",
+      "dest": "operator: } [457,458]"
+    },
+    {
+      "src": "number: 1 [203,204]",
+      "dest": "number: 1 [562,563]"
+    },
+    {
+      "src": "atom [208,219]",
+      "dest": "atom [567,578]"
+    },
+    {
+      "src": "number: 1 [217,218]",
+      "dest": "number: 1 [576,577]"
+    },
+    {
+      "src": "term [190,219]",
+      "dest": "term [549,578]"
+    },
+    {
+      "src": "operator: + [215,216]",
+      "dest": "operator: + [574,575]"
+    },
+    {
+      "src": "name: count [249,254]",
+      "dest": "name: key [608,611]"
+    },
+    {
+      "src": "simple_stmt [168,221]",
+      "dest": "simple_stmt [527,580]"
+    },
+    {
+      "src": "name: idf_weight_dict [293,308]",
+      "dest": "name: idf_weight_dict [650,665]"
+    },
+    {
+      "src": "expr_stmt [168,220]",
+      "dest": "expr_stmt [527,579]"
+    },
+    {
+      "src": "funcdef [22,308]",
+      "dest": "funcdef [22,666]"
+    },
+    {
+      "src": "name: idf_weight_dict [83,98]",
+      "dest": "name: idf_weight_dict [438,453]"
+    },
+    {
+      "src": "param [50,62]",
+      "dest": "param [50,60]"
+    },
+    {
+      "src": "operator: / [206,207]",
+      "dest": "operator: / [565,566]"
+    },
+    {
+      "src": "name: log [186,189]",
+      "dest": "name: log [545,548]"
+    },
+    {
+      "src": "atom_expr [181,220]",
+      "dest": "atom_expr [540,579]"
+    },
+    {
+      "src": "atom_expr [233,255]",
+      "dest": "atom_expr [592,612]"
+    },
+    {
+      "src": "name: number_dict [50,61]",
+      "dest": "name: total_num [50,59]"
+    },
+    {
+      "src": "trailer [248,255]",
+      "dest": "trailer [607,612]"
+    },
+    {
+      "src": "name: idf_weight [168,178]",
+      "dest": "name: idf_weight [527,537]"
+    },
+    {
+      "src": "name: values [146,152]",
+      "dest": "name: items [506,511]"
+    },
+    {
+      "src": "file_input [0,308]",
+      "dest": "file_input [0,666]"
+    },
+    {
+      "src": "suite [155,269]",
+      "dest": "suite [514,626]"
+    },
+    {
+      "src": "expr_stmt [233,268]",
+      "dest": "expr_stmt [592,625]"
+    },
+    {
+      "src": "arith_expr [209,218]",
+      "dest": "arith_expr [568,577]"
+    },
+    {
+      "src": "arith_expr [191,204]",
+      "dest": "arith_expr [550,563]"
+    },
+    {
+      "src": "simple_stmt [233,269]",
+      "dest": "simple_stmt [592,626]"
+    },
+    {
+      "src": "name: math [181,185]",
+      "dest": "name: math [540,544]"
+    },
+    {
+      "src": "name: count [125,130]",
+      "dest": "name: count [485,490]"
+    },
+    {
+      "src": "name: idf_weight [258,268]",
+      "dest": "name: idf_weight [615,625]"
+    },
+    {
+      "src": "name: idf_weight_dict [233,248]",
+      "dest": "name: idf_weight_dict [592,607]"
+    },
+    {
+      "src": "operator: + [201,202]",
+      "dest": "operator: + [560,561]"
+    },
+    {
+      "src": "return_stmt [286,308]",
+      "dest": "return_stmt [643,665]"
+    },
+    {
+      "src": "name: number_dict [134,145]",
+      "dest": "name: number_dict [494,505]"
+    },
+    {
+      "src": "name: total_num [191,200]",
+      "dest": "name: total_num [550,559]"
+    },
+    {
+      "src": "trailer [189,220]",
+      "dest": "trailer [548,579]"
+    },
+    {
+      "src": "parameters [49,73]",
+      "dest": "parameters [49,73]"
+    },
+    {
+      "src": "simple_stmt [83,104]",
+      "dest": "simple_stmt [438,459]"
+    },
+    {
+      "src": "operator: = [99,100]",
+      "dest": "operator: = [454,455]"
+    },
+    {
+      "src": "name: VectorUtil [6,16]",
+      "dest": "name: VectorUtil [6,16]"
+    },
+    {
+      "src": "for_stmt [121,269]",
+      "dest": "for_stmt [476,626]"
+    },
+    {
+      "src": "trailer [152,154]",
+      "dest": "trailer [511,513]"
+    },
+    {
+      "src": "atom [101,103]",
+      "dest": "atom [456,458]"
+    },
+    {
+      "src": "operator: { [101,102]",
+      "dest": "operator: { [456,457]"
+    },
+    {
+      "src": "name: total_num [63,72]",
+      "dest": "name: number_dict [61,72]"
+    },
+    {
+      "src": "name: compute_idf_weight_dict [26,49]",
+      "dest": "name: compute_idf_weight_dict [26,49]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [83,430]",
+      "parent": "suite [74,666]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [643,666]",
+      "parent": "suite [74,666]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: number_dict [50,61]",
+      "label": "total_num"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: total_num [63,72]",
+      "label": "number_dict"
+    },
+    {
+      "action": "insert-node",
+      "tree": "exprlist [480,490]",
+      "parent": "for_stmt [476,626]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [286,308]",
+      "parent": "simple_stmt [643,666]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: key [480,483]",
+      "parent": "exprlist [480,490]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [483,484]",
+      "parent": "exprlist [480,490]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: count [125,130]",
+      "parent": "exprlist [480,490]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: values [146,152]",
+      "label": "items"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: count [249,254]",
+      "label": "key"
+    }
+  ]
+}

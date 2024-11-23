@@ -1,0 +1,226 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "N,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Read a csv file into variable title and data.\n        Only remain the N th (from 0) column data and Capitalize them, store the title and new data into a new csv file.\n        Add '_process' suffix after old file name, as a new file name.\n        :param N: int, the N th column(from 0)\n        :param save_file_name, the name of file that needs to be processed.\n        :return:int, if success return 1, or 0 otherwise\n        >>> csvProcessor = CSVProcessor()\n        >>> csvProcessor.read_csv('read_test.csv')\n        (['a', 'b', 'c', 'd'], [['hElLo', 'YoU', 'ME', 'LoW']])\n        >>> csvProcessor.process_csv_data(0, 'read_test.csv')\n        1\n        >>> csvProcessor.read_csv('read_test_process.csv')\n        (['a', 'b', 'c', 'd'], [['HELLO']])\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "return_stmt",
+        "inserted": "return 1",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "new_data = [[row[N].upper()] for row in data]\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "writer.writerow(title)\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "writer.writerows(new_data)\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "string",
+        "inserted": "'w'",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "(save_file_name)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "[N]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "[N]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "()",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "newline",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "name",
+        "inserted": "",
+        "deleted": "title",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "return_stmt",
+        "inserted": "",
+        "deleted": "return title, data",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "simple_stmt",
+        "inserted": "reader = csv.reader(file)\n",
+        "deleted": "reader = csv.reader(file)\n",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "simple_stmt",
+        "inserted": "title = next(reader)  # Read the first row as the title\n",
+        "deleted": "title = next(reader)  # Read the first row as the title\n",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "testlist_star_expr",
+        "inserted": "title, data",
+        "deleted": "title, data",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "data",
+        "deleted": "data",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "string",
+        "inserted": "'r'",
+        "deleted": "'r'",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "save_file_name",
+        "deleted": "file_path",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "writer",
+        "deleted": "reader",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "save_file_name",
+        "deleted": "file_path",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "next",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "title",
+        "deleted": "data",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "title",
+        "deleted": "list",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "string",
+        "inserted": "''",
+        "deleted": "'r'",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "writer",
+        "deleted": "reader",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "read_csv",
+        "deleted": "reader",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "upper",
+        "deleted": "reader",
+        "type": "Refactoring"
+    }
+]

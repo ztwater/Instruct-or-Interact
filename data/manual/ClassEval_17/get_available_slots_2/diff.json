@@ -1,0 +1,737 @@
+{
+  "matches": [
+    {
+      "src": "name: CalendarUtil [6,18]",
+      "dest": "name: CalendarUtil [6,18]"
+    },
+    {
+      "src": "operator: , [501,502]",
+      "dest": "operator: , [1364,1365]"
+    },
+    {
+      "src": "string: '3:00 PM' [503,512]",
+      "dest": "string: 'end_time' [1502,1512]"
+    },
+    {
+      "src": "suite [19,544]",
+      "dest": "suite [19,1660]"
+    },
+    {
+      "src": "name: available_slots [438,453]",
+      "dest": "name: available_slots [293,308]"
+    },
+    {
+      "src": "classdef [0,544]",
+      "dest": "classdef [0,1660]"
+    },
+    {
+      "src": "operator: = [454,455]",
+      "dest": "operator: = [309,310]"
+    },
+    {
+      "src": "name: get_available_slots [28,47]",
+      "dest": "name: get_available_slots [28,47]"
+    },
+    {
+      "src": "param [48,52]",
+      "dest": "param [54,58]"
+    },
+    {
+      "src": "suite [54,544]",
+      "dest": "suite [60,1660]"
+    },
+    {
+      "src": "operator: , [478,479]",
+      "dest": "operator: = [982,983]"
+    },
+    {
+      "src": "name: date [48,52]",
+      "dest": "name: date [54,58]"
+    },
+    {
+      "src": "operator: , [466,467]",
+      "dest": "operator: - [890,891]"
+    },
+    {
+      "src": "name: available_slots [529,544]",
+      "dest": "name: available_slots [1645,1660]"
+    },
+    {
+      "src": "file_input [0,544]",
+      "dest": "file_input [0,1660]"
+    },
+    {
+      "src": "string: '11:00 AM' [480,490]",
+      "dest": "string: 'start_time' [1006,1018]"
+    },
+    {
+      "src": "operator: , [490,491]",
+      "dest": "operator: , [1123,1124]"
+    },
+    {
+      "src": "string: '10:00 AM' [468,478]",
+      "dest": "string: 'end_time' [944,954]"
+    },
+    {
+      "src": "return_stmt [522,544]",
+      "dest": "return_stmt [1638,1660]"
+    },
+    {
+      "src": "funcdef [24,544]",
+      "dest": "funcdef [24,1660]"
+    },
+    {
+      "src": "parameters [47,53]",
+      "dest": "parameters [47,59]"
+    },
+    {
+      "src": "string: '9:00 AM' [457,466]",
+      "dest": "string: 'start_time' [776,788]"
+    },
+    {
+      "src": "string: '2:00 PM' [492,501]",
+      "dest": "string: 'start_time' [1256,1268]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [48,53]",
+      "parent": "parameters [47,59]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [69,285]",
+      "parent": "suite [60,1660]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [293,314]",
+      "parent": "suite [60,1660]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [322,383]",
+      "parent": "suite [60,1660]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [391,452]",
+      "parent": "suite [60,1660]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [523,562]",
+      "parent": "suite [60,1660]",
+      "at": 4
+    },
+    {
+      "action": "insert-tree",
+      "tree": "if_stmt [570,687]",
+      "parent": "suite [60,1660]",
+      "at": 5
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [740,791]",
+      "parent": "suite [60,1660]",
+      "at": 6
+    },
+    {
+      "action": "insert-node",
+      "tree": "for_stmt [855,1141]",
+      "parent": "suite [60,1660]",
+      "at": 7
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [1213,1270]",
+      "parent": "suite [60,1660]",
+      "at": 8
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [1278,1391]",
+      "parent": "suite [60,1660]",
+      "at": 9
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [1461,1514]",
+      "parent": "suite [60,1660]",
+      "at": 10
+    },
+    {
+      "action": "insert-tree",
+      "tree": "if_stmt [1522,1625]",
+      "parent": "suite [60,1660]",
+      "at": 11
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [293,313]",
+      "parent": "simple_stmt [293,314]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [740,790]",
+      "parent": "simple_stmt [740,791]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: i [859,860]",
+      "parent": "for_stmt [855,1141]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [864,894]",
+      "parent": "for_stmt [855,1141]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [895,1141]",
+      "parent": "for_stmt [855,1141]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [1213,1269]",
+      "parent": "simple_stmt [1213,1270]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [1281,1316]",
+      "parent": "if_stmt [1278,1391]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [1317,1391]",
+      "parent": "if_stmt [1278,1391]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [1461,1513]",
+      "parent": "simple_stmt [1461,1514]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: available_slots [438,453]",
+      "parent": "expr_stmt [293,313]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: = [454,455]",
+      "parent": "expr_stmt [293,313]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom [311,313]",
+      "parent": "expr_stmt [293,313]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: events_on_date [740,754]",
+      "parent": "atom_expr [740,790]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [754,759]",
+      "parent": "atom_expr [740,790]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [759,790]",
+      "parent": "atom_expr [740,790]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: range [864,869]",
+      "parent": "atom_expr [864,894]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [869,894]",
+      "parent": "atom_expr [864,894]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [908,956]",
+      "parent": "suite [895,1141]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [968,1020]",
+      "parent": "suite [895,1141]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [1032,1141]",
+      "parent": "suite [895,1141]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: first_event_start_time [1213,1235]",
+      "parent": "expr_stmt [1213,1269]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [1236,1237]",
+      "parent": "expr_stmt [1213,1269]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [1238,1269]",
+      "parent": "expr_stmt [1213,1269]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [1330,1391]",
+      "parent": "suite [1317,1391]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: last_event_end_time [1461,1480]",
+      "parent": "expr_stmt [1461,1513]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [1481,1482]",
+      "parent": "expr_stmt [1461,1513]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [1483,1513]",
+      "parent": "expr_stmt [1461,1513]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "argument [760,789]",
+      "parent": "trailer [759,790]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "arith_expr [870,893]",
+      "parent": "trailer [869,894]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [908,955]",
+      "parent": "simple_stmt [908,956]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [968,1019]",
+      "parent": "simple_stmt [968,1020]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [1035,1066]",
+      "parent": "if_stmt [1032,1141]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [1067,1141]",
+      "parent": "if_stmt [1032,1141]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: events_on_date [1238,1252]",
+      "parent": "atom_expr [1238,1269]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [1252,1255]",
+      "parent": "atom_expr [1238,1269]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [1255,1269]",
+      "parent": "atom_expr [1238,1269]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [1330,1390]",
+      "parent": "simple_stmt [1330,1391]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: events_on_date [1483,1497]",
+      "parent": "atom_expr [1483,1513]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [1497,1501]",
+      "parent": "atom_expr [1483,1513]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [1501,1513]",
+      "parent": "atom_expr [1483,1513]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: key [760,763]",
+      "parent": "argument [760,789]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [763,764]",
+      "parent": "argument [760,789]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "lambdef [764,789]",
+      "parent": "argument [760,789]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [870,889]",
+      "parent": "arith_expr [870,893]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: , [466,467]",
+      "label": "-"
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: , [466,467]",
+      "parent": "arith_expr [870,893]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "number: 1 [892,893]",
+      "parent": "arith_expr [870,893]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: slot_start_time [908,923]",
+      "parent": "expr_stmt [908,955]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [924,925]",
+      "parent": "expr_stmt [908,955]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [926,955]",
+      "parent": "expr_stmt [908,955]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: slot_end_time [968,981]",
+      "parent": "expr_stmt [968,1019]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: , [478,479]",
+      "label": "="
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: , [478,479]",
+      "parent": "expr_stmt [968,1019]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [984,1019]",
+      "parent": "expr_stmt [968,1019]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [1084,1141]",
+      "parent": "suite [1067,1141]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "string: '2:00 PM' [492,501]",
+      "label": "'start_time'"
+    },
+    {
+      "action": "move-tree",
+      "tree": "string: '2:00 PM' [492,501]",
+      "parent": "trailer [1255,1269]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: available_slots [1330,1345]",
+      "parent": "atom_expr [1330,1390]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [1345,1352]",
+      "parent": "atom_expr [1330,1390]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [1352,1390]",
+      "parent": "atom_expr [1330,1390]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "string: '3:00 PM' [503,512]",
+      "label": "'end_time'"
+    },
+    {
+      "action": "move-tree",
+      "tree": "string: '3:00 PM' [503,512]",
+      "parent": "trailer [1501,1513]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [771,772]",
+      "parent": "lambdef [764,789]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [774,789]",
+      "parent": "lambdef [764,789]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: events_on_date [926,940]",
+      "parent": "atom_expr [926,955]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [940,943]",
+      "parent": "atom_expr [926,955]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [943,955]",
+      "parent": "atom_expr [926,955]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: events_on_date [984,998]",
+      "parent": "atom_expr [984,1019]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [998,1005]",
+      "parent": "atom_expr [984,1019]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [1005,1019]",
+      "parent": "atom_expr [984,1019]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [1084,1140]",
+      "parent": "simple_stmt [1084,1141]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom [1353,1389]",
+      "parent": "trailer [1352,1390]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: x [774,775]",
+      "parent": "atom_expr [774,789]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [775,789]",
+      "parent": "atom_expr [774,789]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "string: '10:00 AM' [468,478]",
+      "label": "'end_time'"
+    },
+    {
+      "action": "move-tree",
+      "tree": "string: '10:00 AM' [468,478]",
+      "parent": "trailer [943,955]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "string: '11:00 AM' [480,490]",
+      "label": "'start_time'"
+    },
+    {
+      "action": "move-tree",
+      "tree": "string: '11:00 AM' [480,490]",
+      "parent": "trailer [1005,1019]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: available_slots [1084,1099]",
+      "parent": "atom_expr [1084,1140]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [1099,1106]",
+      "parent": "atom_expr [1084,1140]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [1106,1140]",
+      "parent": "atom_expr [1084,1140]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "testlist_comp [1354,1388]",
+      "parent": "atom [1353,1389]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "string: '9:00 AM' [457,466]",
+      "label": "'start_time'"
+    },
+    {
+      "action": "move-tree",
+      "tree": "string: '9:00 AM' [457,466]",
+      "parent": "trailer [775,789]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom [1107,1139]",
+      "parent": "trailer [1106,1140]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: start_time [1354,1364]",
+      "parent": "testlist_comp [1354,1388]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: , [501,502]",
+      "parent": "testlist_comp [1354,1388]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: first_event_start_time [1366,1388]",
+      "parent": "testlist_comp [1354,1388]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "testlist_comp [1108,1138]",
+      "parent": "atom [1107,1139]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: slot_start_time [1108,1123]",
+      "parent": "testlist_comp [1108,1138]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: , [490,491]",
+      "parent": "testlist_comp [1108,1138]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: slot_end_time [1125,1138]",
+      "parent": "testlist_comp [1108,1138]",
+      "at": 2
+    },
+    {
+      "action": "delete-node",
+      "tree": "testlist_comp [457,512]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom [456,513]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [438,513]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [438,514]"
+    }
+  ]
+}

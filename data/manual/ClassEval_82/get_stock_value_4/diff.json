@@ -1,0 +1,97 @@
+{
+  "matches": [
+    {
+      "src": "suite [28,444]",
+      "dest": "suite [28,333]"
+    },
+    {
+      "src": "name: stock_value [433,444]",
+      "dest": "name: stock_value [322,333]"
+    },
+    {
+      "src": "classdef [0,444]",
+      "dest": "classdef [0,333]"
+    },
+    {
+      "src": "suite [65,444]",
+      "dest": "suite [66,333]"
+    },
+    {
+      "src": "simple_stmt [391,409]",
+      "dest": "simple_stmt [258,307]"
+    },
+    {
+      "src": "return_stmt [426,444]",
+      "dest": "return_stmt [315,333]"
+    },
+    {
+      "src": "name: stock_name [53,63]",
+      "dest": "name: stock [59,64]"
+    },
+    {
+      "src": "expr_stmt [391,408]",
+      "dest": "expr_stmt [258,306]"
+    },
+    {
+      "src": "name: get_stock_value [37,52]",
+      "dest": "name: get_stock_value [37,52]"
+    },
+    {
+      "src": "name: stock_value [391,402]",
+      "dest": "name: stock_value [258,269]"
+    },
+    {
+      "src": "file_input [0,444]",
+      "dest": "file_input [0,333]"
+    },
+    {
+      "src": "parameters [52,64]",
+      "dest": "parameters [52,65]"
+    },
+    {
+      "src": "funcdef [33,444]",
+      "dest": "funcdef [33,333]"
+    },
+    {
+      "src": "param [53,63]",
+      "dest": "param [59,64]"
+    },
+    {
+      "src": "operator: = [403,404]",
+      "dest": "operator: = [270,271]"
+    },
+    {
+      "src": "name: StockPortfolioTracker [6,27]",
+      "dest": "name: StockPortfolioTracker [6,27]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [53,58]",
+      "parent": "parameters [52,65]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [75,250]",
+      "parent": "suite [66,333]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: stock_name [53,63]",
+      "label": "stock"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "term [272,306]",
+      "parent": "expr_stmt [258,306]",
+      "at": 2
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 100 [405,408]"
+    }
+  ]
+}

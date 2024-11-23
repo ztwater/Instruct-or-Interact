@@ -1,0 +1,37 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Subtracts two complex numbers.\n        :param c1: The first complex number,complex.\n        :param c2: The second complex number,complex.\n        :return: The difference of the two complex numbers,complex.\n        >>> complexCalculator = ComplexCalculator()\n        >>> complexCalculator.subtract(1+2j, 3+4j)\n        (-2-2j)\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "c1",
+        "deleted": "a",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "c2",
+        "deleted": "b",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "c1",
+        "deleted": "a",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "c2",
+        "deleted": "b",
+        "type": "Refactoring"
+    }
+]

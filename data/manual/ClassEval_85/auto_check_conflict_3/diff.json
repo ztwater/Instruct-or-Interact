@@ -1,0 +1,528 @@
+{
+  "matches": [
+    {
+      "src": "suite [17,510]",
+      "dest": "suite [17,883]"
+    },
+    {
+      "src": "comparison [252,292]",
+      "dest": "comparison [600,650]"
+    },
+    {
+      "src": "classdef [0,510]",
+      "dest": "classdef [0,883]"
+    },
+    {
+      "src": "suite [103,510]",
+      "dest": "suite [52,883]"
+    },
+    {
+      "src": "name: current_temperature [361,380]",
+      "dest": "name: current_temperature [719,738]"
+    },
+    {
+      "src": "name: operating_mode [46,60]",
+      "dest": "name: self [46,50]"
+    },
+    {
+      "src": "operator: == [238,240]",
+      "dest": "operator: == [586,588]"
+    },
+    {
+      "src": "return_stmt [460,471]",
+      "dest": "return_stmt [833,844]"
+    },
+    {
+      "src": "comparison [115,139]",
+      "dest": "comparison [463,482]"
+    },
+    {
+      "src": "simple_stmt [460,472]",
+      "dest": "simple_stmt [833,845]"
+    },
+    {
+      "src": "suite [485,510]",
+      "dest": "suite [858,883]"
+    },
+    {
+      "src": "operator: > [425,426]",
+      "dest": "operator: > [793,794]"
+    },
+    {
+      "src": "simple_stmt [306,318]",
+      "dest": "simple_stmt [664,676]"
+    },
+    {
+      "src": "string: \"cool\" [133,139]",
+      "dest": "string: \"cool\" [476,482]"
+    },
+    {
+      "src": "return_stmt [306,317]",
+      "dest": "return_stmt [664,675]"
+    },
+    {
+      "src": "name: current_temperature [252,271]",
+      "dest": "name: current_temperature [605,624]"
+    },
+    {
+      "src": "string: \"heat\" [241,247]",
+      "dest": "string: \"heat\" [589,595]"
+    },
+    {
+      "src": "simple_stmt [198,210]",
+      "dest": "simple_stmt [551,563]"
+    },
+    {
+      "src": "or_test [361,445]",
+      "dest": "or_test [714,818]"
+    },
+    {
+      "src": "string: \"auto\" [349,355]",
+      "dest": "string: \"auto\" [702,708]"
+    },
+    {
+      "src": "atom [360,446]",
+      "dest": "atom [713,819]"
+    },
+    {
+      "src": "return_stmt [198,209]",
+      "dest": "return_stmt [551,562]"
+    },
+    {
+      "src": "and_test [223,292]",
+      "dest": "and_test [576,650]"
+    },
+    {
+      "src": "name: target_temperature [274,292]",
+      "dest": "name: target_temperature [632,650]"
+    },
+    {
+      "src": "funcdef [22,510]",
+      "dest": "funcdef [22,883]"
+    },
+    {
+      "src": "parameters [45,102]",
+      "dest": "parameters [45,51]"
+    },
+    {
+      "src": "comparison [144,184]",
+      "dest": "comparison [487,537]"
+    },
+    {
+      "src": "comparison [361,401]",
+      "dest": "comparison [714,764]"
+    },
+    {
+      "src": "suite [185,210]",
+      "dest": "suite [538,563]"
+    },
+    {
+      "src": "name: target_temperature [427,445]",
+      "dest": "name: target_temperature [800,818]"
+    },
+    {
+      "src": "comparison [223,247]",
+      "dest": "comparison [576,595]"
+    },
+    {
+      "src": "name: Thermostat [6,16]",
+      "dest": "name: Thermostat [6,16]"
+    },
+    {
+      "src": "and_test [115,184]",
+      "dest": "and_test [463,537]"
+    },
+    {
+      "src": "suite [447,472]",
+      "dest": "suite [820,845]"
+    },
+    {
+      "src": "file_input [0,510]",
+      "dest": "file_input [0,883]"
+    },
+    {
+      "src": "operator: < [164,165]",
+      "dest": "operator: < [512,513]"
+    },
+    {
+      "src": "and_test [331,446]",
+      "dest": "and_test [689,819]"
+    },
+    {
+      "src": "comparison [331,355]",
+      "dest": "comparison [689,708]"
+    },
+    {
+      "src": "name: target_temperature [383,401]",
+      "dest": "name: target_temperature [746,764]"
+    },
+    {
+      "src": "return_stmt [498,510]",
+      "dest": "return_stmt [871,883]"
+    },
+    {
+      "src": "name: operating_mode [223,237]",
+      "dest": "name: mode [581,585]"
+    },
+    {
+      "src": "operator: < [381,382]",
+      "dest": "operator: < [739,740]"
+    },
+    {
+      "src": "operator: > [272,273]",
+      "dest": "operator: > [625,626]"
+    },
+    {
+      "src": "comparison [405,445]",
+      "dest": "comparison [768,818]"
+    },
+    {
+      "src": "param [46,61]",
+      "dest": "param [46,50]"
+    },
+    {
+      "src": "name: auto_check_conflict [26,45]",
+      "dest": "name: auto_check_conflict [26,45]"
+    },
+    {
+      "src": "name: target_temperature [166,184]",
+      "dest": "name: target_temperature [519,537]"
+    },
+    {
+      "src": "name: current_temperature [144,163]",
+      "dest": "name: current_temperature [492,511]"
+    },
+    {
+      "src": "name: operating_mode [331,345]",
+      "dest": "name: mode [694,698]"
+    },
+    {
+      "src": "if_stmt [112,510]",
+      "dest": "if_stmt [460,883]"
+    },
+    {
+      "src": "operator: == [130,132]",
+      "dest": "operator: == [473,475]"
+    },
+    {
+      "src": "suite [293,318]",
+      "dest": "suite [651,676]"
+    },
+    {
+      "src": "name: operating_mode [115,129]",
+      "dest": "name: mode [468,472]"
+    },
+    {
+      "src": "operator: == [346,348]",
+      "dest": "operator: == [699,701]"
+    },
+    {
+      "src": "name: current_temperature [405,424]",
+      "dest": "name: current_temperature [773,792]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [61,452]",
+      "parent": "suite [52,883]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: operating_mode [46,60]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [463,472]",
+      "parent": "comparison [463,482]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [487,511]",
+      "parent": "comparison [487,537]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [514,537]",
+      "parent": "comparison [487,537]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [576,585]",
+      "parent": "comparison [576,595]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [600,624]",
+      "parent": "comparison [600,650]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [627,650]",
+      "parent": "comparison [600,650]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [689,698]",
+      "parent": "comparison [689,708]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [463,467]",
+      "parent": "atom_expr [463,472]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [467,472]",
+      "parent": "atom_expr [463,472]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [487,491]",
+      "parent": "atom_expr [487,511]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [491,511]",
+      "parent": "atom_expr [487,511]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [514,518]",
+      "parent": "atom_expr [514,537]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [518,537]",
+      "parent": "atom_expr [514,537]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [576,580]",
+      "parent": "atom_expr [576,585]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [580,585]",
+      "parent": "atom_expr [576,585]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [600,604]",
+      "parent": "atom_expr [600,624]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [604,624]",
+      "parent": "atom_expr [600,624]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [627,631]",
+      "parent": "atom_expr [627,650]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [631,650]",
+      "parent": "atom_expr [627,650]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [689,693]",
+      "parent": "atom_expr [689,698]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [693,698]",
+      "parent": "atom_expr [689,698]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: operating_mode [115,129]",
+      "label": "mode"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: operating_mode [115,129]",
+      "parent": "trailer [467,472]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: current_temperature [144,163]",
+      "parent": "trailer [491,511]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: target_temperature [166,184]",
+      "parent": "trailer [518,537]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: operating_mode [223,237]",
+      "label": "mode"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: operating_mode [223,237]",
+      "parent": "trailer [580,585]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: current_temperature [252,271]",
+      "parent": "trailer [604,624]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: target_temperature [274,292]",
+      "parent": "trailer [631,650]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: operating_mode [331,345]",
+      "label": "mode"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: operating_mode [331,345]",
+      "parent": "trailer [693,698]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [714,738]",
+      "parent": "comparison [714,764]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [741,764]",
+      "parent": "comparison [714,764]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [768,792]",
+      "parent": "comparison [768,818]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [795,818]",
+      "parent": "comparison [768,818]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [714,718]",
+      "parent": "atom_expr [714,738]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [718,738]",
+      "parent": "atom_expr [714,738]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [741,745]",
+      "parent": "atom_expr [741,764]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [745,764]",
+      "parent": "atom_expr [741,764]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [768,772]",
+      "parent": "atom_expr [768,792]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [772,792]",
+      "parent": "atom_expr [768,792]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [795,799]",
+      "parent": "atom_expr [795,818]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [799,818]",
+      "parent": "atom_expr [795,818]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: current_temperature [361,380]",
+      "parent": "trailer [718,738]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: target_temperature [383,401]",
+      "parent": "trailer [745,764]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: current_temperature [405,424]",
+      "parent": "trailer [772,792]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: target_temperature [427,445]",
+      "parent": "trailer [799,818]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [60,61]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "param [62,82]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "param [83,101]"
+    }
+  ]
+}

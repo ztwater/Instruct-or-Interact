@@ -1,0 +1,210 @@
+{
+  "matches": [
+    {
+      "src": "name: CombinationCalculator [6,27]",
+      "dest": "name: CombinationCalculator [6,27]"
+    },
+    {
+      "src": "suite [28,154]",
+      "dest": "suite [28,388]"
+    },
+    {
+      "src": "param [44,53]",
+      "dest": "param [44,49]"
+    },
+    {
+      "src": "name: elements [44,52]",
+      "dest": "name: self [44,48]"
+    },
+    {
+      "src": "name: list [83,87]",
+      "dest": "name: list [317,321]"
+    },
+    {
+      "src": "classdef [0,154]",
+      "dest": "classdef [0,388]"
+    },
+    {
+      "src": "suite [59,154]",
+      "dest": "suite [77,388]"
+    },
+    {
+      "src": "parameters [43,58]",
+      "dest": "parameters [43,57]"
+    },
+    {
+      "src": "operator: , [52,53]",
+      "dest": "operator: , [48,49]"
+    },
+    {
+      "src": "operator: = [81,82]",
+      "dest": "operator: = [315,316]"
+    },
+    {
+      "src": "name: itertools [88,97]",
+      "dest": "name: itertools [322,331]"
+    },
+    {
+      "src": "name: select [37,43]",
+      "dest": "name: select [37,43]"
+    },
+    {
+      "src": "name: combinations [98,110]",
+      "dest": "name: combinations [332,344]"
+    },
+    {
+      "src": "trailer [97,110]",
+      "dest": "trailer [331,344]"
+    },
+    {
+      "src": "file_input [0,154]",
+      "dest": "file_input [0,388]"
+    },
+    {
+      "src": "expr_stmt [68,126]",
+      "dest": "expr_stmt [302,360]"
+    },
+    {
+      "src": "name: elements [111,119]",
+      "dest": "name: datas [350,355]"
+    },
+    {
+      "src": "name: combinations [142,154]",
+      "dest": "name: combinations [376,388]"
+    },
+    {
+      "src": "operator: , [119,120]",
+      "dest": "operator: , [355,356]"
+    },
+    {
+      "src": "name: num [54,57]",
+      "dest": "name: m [50,51]"
+    },
+    {
+      "src": "arglist [111,124]",
+      "dest": "arglist [345,358]"
+    },
+    {
+      "src": "atom_expr [83,126]",
+      "dest": "atom_expr [317,360]"
+    },
+    {
+      "src": "trailer [87,126]",
+      "dest": "trailer [321,360]"
+    },
+    {
+      "src": "name: num [121,124]",
+      "dest": "name: m [357,358]"
+    },
+    {
+      "src": "simple_stmt [68,127]",
+      "dest": "simple_stmt [302,361]"
+    },
+    {
+      "src": "name: combinations [68,80]",
+      "dest": "name: combinations [302,314]"
+    },
+    {
+      "src": "funcdef [33,154]",
+      "dest": "funcdef [33,388]"
+    },
+    {
+      "src": "param [54,57]",
+      "dest": "param [50,56]"
+    },
+    {
+      "src": "return_stmt [135,154]",
+      "dest": "return_stmt [369,388]"
+    },
+    {
+      "src": "atom_expr [88,125]",
+      "dest": "atom_expr [322,359]"
+    },
+    {
+      "src": "trailer [110,125]",
+      "dest": "trailer [344,359]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "operator: -> [58,60]",
+      "parent": "funcdef [33,388]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [61,76]",
+      "parent": "funcdef [33,388]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [86,294]",
+      "parent": "suite [77,388]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: elements [44,52]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "tfpdef [50,56]",
+      "parent": "param [50,56]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: num [54,57]",
+      "label": "m"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: num [54,57]",
+      "parent": "tfpdef [50,56]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: int [53,56]",
+      "parent": "tfpdef [50,56]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [345,355]",
+      "parent": "arglist [345,358]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: num [121,124]",
+      "label": "m"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [345,349]",
+      "parent": "atom_expr [345,355]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [349,355]",
+      "parent": "atom_expr [345,355]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: elements [111,119]",
+      "label": "datas"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: elements [111,119]",
+      "parent": "trailer [349,355]",
+      "at": 0
+    }
+  ]
+}

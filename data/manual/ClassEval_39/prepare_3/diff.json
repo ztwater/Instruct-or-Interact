@@ -1,0 +1,80 @@
+{
+  "matches": [
+    {
+      "src": "suite [324,408]",
+      "dest": "suite [27,37]"
+    },
+    {
+      "src": "classdef [0,594]",
+      "dest": "classdef [0,37]"
+    },
+    {
+      "src": "file_input [0,594]",
+      "dest": "file_input [0,37]"
+    },
+    {
+      "src": "name: ExpressionCalculator [6,26]",
+      "dest": "name: ExpressionCalculator [6,26]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "move-tree",
+      "tree": "suite [324,408]",
+      "parent": "classdef [0,37]",
+      "at": 1
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [337,408]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: prepare [36,43]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "parameters [43,61]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [123,176]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [242,290]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: operator [302,310]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: operators [314,323]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "for_stmt [298,408]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [456,511]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "return_stmt [571,594]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [62,594]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "funcdef [32,594]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [27,594]"
+    }
+  ]
+}

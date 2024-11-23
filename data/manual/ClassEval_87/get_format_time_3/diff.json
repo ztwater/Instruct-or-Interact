@@ -1,0 +1,278 @@
+{
+  "matches": [
+    {
+      "src": "suite [16,179]",
+      "dest": "suite [16,561]"
+    },
+    {
+      "src": "name: get_format_time [25,40]",
+      "dest": "name: get_format_time [25,40]"
+    },
+    {
+      "src": "name: current_time [52,64]",
+      "dest": "name: formatted_time [427,441]"
+    },
+    {
+      "src": "classdef [0,179]",
+      "dest": "classdef [0,561]"
+    },
+    {
+      "src": "trailer [84,88]",
+      "dest": "trailer [461,501]"
+    },
+    {
+      "src": "suite [43,179]",
+      "dest": "suite [87,561]"
+    },
+    {
+      "src": "trailer [128,137]",
+      "dest": "trailer [531,540]"
+    },
+    {
+      "src": "operator: = [65,66]",
+      "dest": "operator: = [442,443]"
+    },
+    {
+      "src": "atom_expr [116,149]",
+      "dest": "atom_expr [517,561]"
+    },
+    {
+      "src": "name: current_time [116,128]",
+      "dest": "name: formatted_time [517,531]"
+    },
+    {
+      "src": "name: TimeUtils [6,15]",
+      "dest": "name: TimeUtils [6,15]"
+    },
+    {
+      "src": "name: datetime [76,84]",
+      "dest": "name: datetime [453,461]"
+    },
+    {
+      "src": "name: datetime [67,75]",
+      "dest": "name: datetime [444,452]"
+    },
+    {
+      "src": "name: strftime [129,137]",
+      "dest": "name: strftime [532,540]"
+    },
+    {
+      "src": "trailer [75,84]",
+      "dest": "trailer [452,461]"
+    },
+    {
+      "src": "parameters [40,42]",
+      "dest": "parameters [40,86]"
+    },
+    {
+      "src": "expr_stmt [52,90]",
+      "dest": "expr_stmt [427,501]"
+    },
+    {
+      "src": "file_input [0,179]",
+      "dest": "file_input [0,561]"
+    },
+    {
+      "src": "simple_stmt [52,91]",
+      "dest": "simple_stmt [427,502]"
+    },
+    {
+      "src": "name: now [85,88]",
+      "dest": "name: year [462,466]"
+    },
+    {
+      "src": "string: \"%H:%M:%S\" [138,148]",
+      "dest": "string: \"%Y-%m-%d %H:%M:%S\" [541,560]"
+    },
+    {
+      "src": "funcdef [21,179]",
+      "dest": "funcdef [21,561]"
+    },
+    {
+      "src": "atom_expr [67,90]",
+      "dest": "atom_expr [444,501]"
+    },
+    {
+      "src": "trailer [137,149]",
+      "dest": "trailer [540,561]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [41,46]",
+      "parent": "parameters [40,86]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [47,52]",
+      "parent": "parameters [40,86]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [53,59]",
+      "parent": "parameters [40,86]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [60,64]",
+      "parent": "parameters [40,86]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [65,70]",
+      "parent": "parameters [40,86]",
+      "at": 4
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [71,78]",
+      "parent": "parameters [40,86]",
+      "at": 5
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [79,85]",
+      "parent": "parameters [40,86]",
+      "at": 6
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [96,419]",
+      "parent": "suite [87,561]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "return_stmt [510,561]",
+      "parent": "suite [87,561]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [116,149]",
+      "parent": "return_stmt [510,561]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: current_time [52,64]",
+      "label": "formatted_time"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: current_time [116,128]",
+      "label": "formatted_time"
+    },
+    {
+      "action": "update-node",
+      "tree": "string: \"%H:%M:%S\" [138,148]",
+      "label": "\"%Y-%m-%d %H:%M:%S\""
+    },
+    {
+      "action": "insert-node",
+      "tree": "arglist [462,500]",
+      "parent": "trailer [461,501]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: now [85,88]",
+      "label": "year"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: now [85,88]",
+      "parent": "arglist [462,500]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [466,467]",
+      "parent": "arglist [462,500]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: month [468,473]",
+      "parent": "arglist [462,500]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [473,474]",
+      "parent": "arglist [462,500]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: day [475,478]",
+      "parent": "arglist [462,500]",
+      "at": 4
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [478,479]",
+      "parent": "arglist [462,500]",
+      "at": 5
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: hour [480,484]",
+      "parent": "arglist [462,500]",
+      "at": 6
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [484,485]",
+      "parent": "arglist [462,500]",
+      "at": 7
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: minute [486,492]",
+      "parent": "arglist [462,500]",
+      "at": 8
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [492,493]",
+      "parent": "arglist [462,500]",
+      "at": 9
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: second [494,500]",
+      "parent": "arglist [462,500]",
+      "at": 10
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [88,90]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: formatted_time [99,113]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: = [114,115]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [99,149]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [99,150]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "return_stmt [158,179]"
+    }
+  ]
+}

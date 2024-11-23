@@ -1,0 +1,272 @@
+{
+  "matches": [
+    {
+      "src": "name: cursor [156,162]",
+      "dest": "name: cursor [557,563]"
+    },
+    {
+      "src": "trailer [105,113]",
+      "dest": "trailer [506,514]"
+    },
+    {
+      "src": "atom_expr [588,600]",
+      "dest": "atom_expr [997,1009]"
+    },
+    {
+      "src": "suite [24,600]",
+      "dest": "suite [24,1009]"
+    },
+    {
+      "src": "name: cursor [460,466]",
+      "dest": "name: cursor [869,875]"
+    },
+    {
+      "src": "name: conn [91,95]",
+      "dest": "name: conn [492,496]"
+    },
+    {
+      "src": "expr_stmt [142,164]",
+      "dest": "expr_stmt [543,565]"
+    },
+    {
+      "src": "classdef [0,600]",
+      "dest": "classdef [0,1009]"
+    },
+    {
+      "src": "simple_stmt [142,165]",
+      "dest": "simple_stmt [543,566]"
+    },
+    {
+      "src": "name: commit [571,577]",
+      "dest": "name: commit [980,986]"
+    },
+    {
+      "src": "suite [48,600]",
+      "dest": "suite [76,1009]"
+    },
+    {
+      "src": "simple_stmt [233,411]",
+      "dest": "simple_stmt [634,820]"
+    },
+    {
+      "src": "expr_stmt [91,133]",
+      "dest": "expr_stmt [492,534]"
+    },
+    {
+      "src": "atom_expr [98,133]",
+      "dest": "atom_expr [499,534]"
+    },
+    {
+      "src": "operator: = [252,253]",
+      "dest": "operator: = [653,654]"
+    },
+    {
+      "src": "name: connect [106,113]",
+      "dest": "name: connect [507,514]"
+    },
+    {
+      "src": "trailer [113,133]",
+      "dest": "trailer [519,533]"
+    },
+    {
+      "src": "trailer [570,577]",
+      "dest": "trailer [979,986]"
+    },
+    {
+      "src": "name: DatabaseProcessor [6,23]",
+      "dest": "name: DatabaseProcessor [6,23]"
+    },
+    {
+      "src": "parameters [45,47]",
+      "dest": "parameters [45,75]"
+    },
+    {
+      "src": "name: conn [588,592]",
+      "dest": "name: conn [997,1001]"
+    },
+    {
+      "src": "file_input [0,600]",
+      "dest": "file_input [0,1009]"
+    },
+    {
+      "src": "trailer [577,579]",
+      "dest": "trailer [986,988]"
+    },
+    {
+      "src": "name: execute [467,474]",
+      "dest": "name: execute [876,883]"
+    },
+    {
+      "src": "atom_expr [460,494]",
+      "dest": "atom_expr [869,903]"
+    },
+    {
+      "src": "operator: = [96,97]",
+      "dest": "operator: = [497,498]"
+    },
+    {
+      "src": "expr_stmt [233,410]",
+      "dest": "expr_stmt [634,819]"
+    },
+    {
+      "src": "trailer [155,162]",
+      "dest": "trailer [556,563]"
+    },
+    {
+      "src": "name: close [593,598]",
+      "dest": "name: close [1002,1007]"
+    },
+    {
+      "src": "trailer [474,494]",
+      "dest": "trailer [883,903]"
+    },
+    {
+      "src": "trailer [598,600]",
+      "dest": "trailer [1007,1009]"
+    },
+    {
+      "src": "name: create_table_query [233,251]",
+      "dest": "name: create_table_query [634,652]"
+    },
+    {
+      "src": "simple_stmt [566,580]",
+      "dest": "simple_stmt [975,989]"
+    },
+    {
+      "src": "name: conn [566,570]",
+      "dest": "name: conn [975,979]"
+    },
+    {
+      "src": "atom_expr [566,579]",
+      "dest": "atom_expr [975,988]"
+    },
+    {
+      "src": "simple_stmt [460,495]",
+      "dest": "simple_stmt [869,904]"
+    },
+    {
+      "src": "trailer [162,164]",
+      "dest": "trailer [563,565]"
+    },
+    {
+      "src": "trailer [466,474]",
+      "dest": "trailer [875,883]"
+    },
+    {
+      "src": "name: create_table_query [475,493]",
+      "dest": "name: create_table_query [884,902]"
+    },
+    {
+      "src": "operator: = [149,150]",
+      "dest": "operator: = [550,551]"
+    },
+    {
+      "src": "name: conn [151,155]",
+      "dest": "name: conn [552,556]"
+    },
+    {
+      "src": "name: create_table [33,45]",
+      "dest": "name: create_table [33,45]"
+    },
+    {
+      "src": "name: sqlite3 [98,105]",
+      "dest": "name: sqlite3 [499,506]"
+    },
+    {
+      "src": "trailer [592,598]",
+      "dest": "trailer [1001,1007]"
+    },
+    {
+      "src": "simple_stmt [91,134]",
+      "dest": "simple_stmt [492,535]"
+    },
+    {
+      "src": "atom_expr [151,164]",
+      "dest": "atom_expr [552,565]"
+    },
+    {
+      "src": "funcdef [29,600]",
+      "dest": "funcdef [29,1009]"
+    },
+    {
+      "src": "name: cursor [142,148]",
+      "dest": "name: cursor [543,549]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [46,51]",
+      "parent": "parameters [45,75]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [52,63]",
+      "parent": "parameters [45,75]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [64,69]",
+      "parent": "parameters [45,75]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [70,74]",
+      "parent": "parameters [45,75]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [85,450]",
+      "parent": "suite [76,1009]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "fstring [655,819]",
+      "parent": "expr_stmt [634,819]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [514,534]",
+      "parent": "atom_expr [499,534]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [515,533]",
+      "parent": "trailer [514,534]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [515,519]",
+      "parent": "atom_expr [515,533]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [113,133]",
+      "parent": "atom_expr [515,533]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: database_name [520,533]",
+      "parent": "trailer [519,533]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: 'your_database.db' [114,132]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: '''         CREATE TABLE IF NOT EXISTS your_table_name (             column1 datatype1,             column2 datatype2,             ...         )         ''' [254,410]"
+    }
+  ]
+}

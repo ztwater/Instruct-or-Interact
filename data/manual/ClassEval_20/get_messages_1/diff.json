@@ -1,0 +1,277 @@
+{
+  "matches": [
+    {
+      "src": "name: get_messages [20,32]",
+      "dest": "name: get_messages [20,32]"
+    },
+    {
+      "src": "suite [42,622]",
+      "dest": "suite [49,839]"
+    },
+    {
+      "src": "operator: = [222,223]",
+      "dest": "operator: = [734,735]"
+    },
+    {
+      "src": "trailer [530,539]",
+      "dest": "trailer [750,764]"
+    },
+    {
+      "src": "return_stmt [602,622]",
+      "dest": "return_stmt [819,839]"
+    },
+    {
+      "src": "funcdef [16,622]",
+      "dest": "funcdef [16,839]"
+    },
+    {
+      "src": "parameters [32,41]",
+      "dest": "parameters [32,48]"
+    },
+    {
+      "src": "name: message [531,538]",
+      "dest": "name: username [751,759]"
+    },
+    {
+      "src": "name: Chat [6,10]",
+      "dest": "name: Chat [6,10]"
+    },
+    {
+      "src": "name: user_messages [609,622]",
+      "dest": "name: user_messages [826,839]"
+    },
+    {
+      "src": "name: user_messages [208,221]",
+      "dest": "name: user_messages [720,733]"
+    },
+    {
+      "src": "trailer [523,530]",
+      "dest": "trailer [746,750]"
+    },
+    {
+      "src": "name: user_id [33,40]",
+      "dest": "name: username [39,47]"
+    },
+    {
+      "src": "simple_stmt [117,131]",
+      "dest": "simple_stmt [58,648]"
+    },
+    {
+      "src": "name: user_id [414,421]",
+      "dest": "name: users [741,746]"
+    },
+    {
+      "src": "suite [11,622]",
+      "dest": "suite [11,839]"
+    },
+    {
+      "src": "trailer [413,421]",
+      "dest": "trailer [740,746]"
+    },
+    {
+      "src": "name: append [524,530]",
+      "dest": "name: get [747,750]"
+    },
+    {
+      "src": "classdef [0,622]",
+      "dest": "classdef [0,839]"
+    },
+    {
+      "src": "param [33,40]",
+      "dest": "param [39,47]"
+    },
+    {
+      "src": "name: message [303,310]",
+      "dest": "name: self [736,740]"
+    },
+    {
+      "src": "file_input [0,622]",
+      "dest": "file_input [0,839]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [33,38]",
+      "parent": "parameters [32,48]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [720,765]",
+      "parent": "suite [49,839]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: user_id [33,40]",
+      "label": "username"
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: \"\"\"         Get all the messages of a user from the Chat.         :param username: The user's name, str.         :return: A list of messages, each message is a dictionary with keys 'sender', 'receiver', 'message', 'timestamp'.         >>> chat = Chat()         >>> chat.users = {'John': [{'sender': 'John', 'receiver': 'Mary', 'message': 'Hello', 'timestamp': '2023-01-01 00:00:00'}]}         >>> chat.get_messages('John')         [{'sender': 'John', 'receiver': 'Mary', 'message': 'Hello', 'timestamp': '2023-01-01 00:00:00'}]         >>> chat.get_messages('Mary')         []          \"\"\" [58,647]",
+      "parent": "simple_stmt [58,648]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [720,764]",
+      "parent": "simple_stmt [720,765]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: user_messages [208,221]",
+      "parent": "expr_stmt [720,764]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: = [222,223]",
+      "parent": "expr_stmt [720,764]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [736,764]",
+      "parent": "expr_stmt [720,764]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: message [303,310]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: message [303,310]",
+      "parent": "atom_expr [736,764]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [413,421]",
+      "parent": "atom_expr [736,764]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [523,530]",
+      "parent": "atom_expr [736,764]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [530,539]",
+      "parent": "atom_expr [736,764]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: user_id [414,421]",
+      "label": "users"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: append [524,530]",
+      "label": "get"
+    },
+    {
+      "action": "insert-node",
+      "tree": "arglist [751,763]",
+      "parent": "trailer [750,764]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: message [531,538]",
+      "label": "username"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: message [531,538]",
+      "parent": "arglist [751,763]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [759,760]",
+      "parent": "arglist [751,763]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom [761,763]",
+      "parent": "arglist [751,763]",
+      "at": 2
+    },
+    {
+      "action": "delete-tree",
+      "tree": "expr_stmt [117,130]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom [224,226]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [208,226]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [208,227]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "atom_expr [314,327]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: message [406,413]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [406,421]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: == [422,424]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: user_id [425,432]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "comparison [406,432]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: user_messages [510,523]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [510,539]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [510,540]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [433,540]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "if_stmt [403,540]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [328,540]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "for_stmt [299,540]"
+    }
+  ]
+}

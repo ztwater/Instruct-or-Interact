@@ -1,0 +1,162 @@
+{
+  "matches": [
+    {
+      "src": "suite [17,152]",
+      "dest": "suite [17,285]"
+    },
+    {
+      "src": "name: parsed_url [135,145]",
+      "dest": "name: parsed_url [268,278]"
+    },
+    {
+      "src": "atom_expr [106,119]",
+      "dest": "atom_expr [243,251]"
+    },
+    {
+      "src": "operator: = [104,105]",
+      "dest": "operator: = [232,233]"
+    },
+    {
+      "src": "name: url [115,118]",
+      "dest": "name: url [248,251]"
+    },
+    {
+      "src": "classdef [0,152]",
+      "dest": "classdef [0,285]"
+    },
+    {
+      "src": "suite [42,152]",
+      "dest": "suite [43,285]"
+    },
+    {
+      "src": "dotted_name [56,68]",
+      "dest": "dotted_name [184,196]"
+    },
+    {
+      "src": "name: URLHandler [6,16]",
+      "dest": "name: URLHandler [6,16]"
+    },
+    {
+      "src": "trailer [145,152]",
+      "dest": "trailer [278,285]"
+    },
+    {
+      "src": "import_from [51,84]",
+      "dest": "import_from [179,212]"
+    },
+    {
+      "src": "name: urlparse [76,84]",
+      "dest": "name: urlparse [204,212]"
+    },
+    {
+      "src": "trailer [114,119]",
+      "dest": "trailer [247,251]"
+    },
+    {
+      "src": "name: parsed_url [93,103]",
+      "dest": "name: parsed_url [221,231]"
+    },
+    {
+      "src": "name: urlparse [106,114]",
+      "dest": "name: self [243,247]"
+    },
+    {
+      "src": "atom_expr [135,152]",
+      "dest": "atom_expr [268,285]"
+    },
+    {
+      "src": "file_input [0,152]",
+      "dest": "file_input [0,285]"
+    },
+    {
+      "src": "simple_stmt [51,85]",
+      "dest": "simple_stmt [179,213]"
+    },
+    {
+      "src": "parameters [36,41]",
+      "dest": "parameters [36,42]"
+    },
+    {
+      "src": "name: scheme [146,152]",
+      "dest": "name: scheme [279,285]"
+    },
+    {
+      "src": "name: parse [63,68]",
+      "dest": "name: parse [191,196]"
+    },
+    {
+      "src": "param [37,40]",
+      "dest": "param [37,41]"
+    },
+    {
+      "src": "name: urllib [56,62]",
+      "dest": "name: urllib [184,190]"
+    },
+    {
+      "src": "name: get_scheme [26,36]",
+      "dest": "name: get_scheme [26,36]"
+    },
+    {
+      "src": "expr_stmt [93,119]",
+      "dest": "expr_stmt [221,252]"
+    },
+    {
+      "src": "simple_stmt [93,120]",
+      "dest": "simple_stmt [221,253]"
+    },
+    {
+      "src": "name: url [37,40]",
+      "dest": "name: self [37,41]"
+    },
+    {
+      "src": "return_stmt [128,152]",
+      "dest": "return_stmt [261,285]"
+    },
+    {
+      "src": "funcdef [22,152]",
+      "dest": "funcdef [22,285]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [52,171]",
+      "parent": "suite [43,285]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: url [37,40]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [234,252]",
+      "parent": "expr_stmt [221,252]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: urlparse [234,242]",
+      "parent": "atom_expr [234,252]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [242,252]",
+      "parent": "atom_expr [234,252]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [106,119]",
+      "parent": "trailer [242,252]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: urlparse [106,114]",
+      "label": "self"
+    }
+  ]
+}

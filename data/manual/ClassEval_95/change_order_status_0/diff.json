@@ -1,0 +1,228 @@
+{
+  "matches": [
+    {
+      "src": "atom_expr [95,106]",
+      "dest": "atom_expr [353,364]"
+    },
+    {
+      "src": "name: self [95,99]",
+      "dest": "name: self [353,357]"
+    },
+    {
+      "src": "operator: = [186,187]",
+      "dest": "operator: = [410,411]"
+    },
+    {
+      "src": "name: new_status [188,198]",
+      "dest": "name: status [412,418]"
+    },
+    {
+      "src": "suite [73,220]",
+      "dest": "suite [69,457]"
+    },
+    {
+      "src": "name: order [86,91]",
+      "dest": "name: order_id [341,349]"
+    },
+    {
+      "src": "atom_expr [170,185]",
+      "dest": "atom_expr [378,409]"
+    },
+    {
+      "src": "operator: , [59,60]",
+      "dest": "operator: , [59,60]"
+    },
+    {
+      "src": "trailer [175,185]",
+      "dest": "trailer [399,409]"
+    },
+    {
+      "src": "funcdef [21,220]",
+      "dest": "funcdef [21,457]"
+    },
+    {
+      "src": "classdef [0,220]",
+      "dest": "classdef [0,457]"
+    },
+    {
+      "src": "param [45,50]",
+      "dest": "param [45,50]"
+    },
+    {
+      "src": "parameters [44,72]",
+      "dest": "parameters [44,68]"
+    },
+    {
+      "src": "name: order [170,175]",
+      "dest": "name: orders [383,389]"
+    },
+    {
+      "src": "suite [16,220]",
+      "dest": "suite [16,457]"
+    },
+    {
+      "src": "string: 'status' [176,184]",
+      "dest": "string: 'status' [400,408]"
+    },
+    {
+      "src": "param [51,60]",
+      "dest": "param [51,60]"
+    },
+    {
+      "src": "operator: , [49,50]",
+      "dest": "operator: , [49,50]"
+    },
+    {
+      "src": "suite [153,220]",
+      "dest": "suite [365,419]"
+    },
+    {
+      "src": "name: order_id [51,59]",
+      "dest": "name: order_id [51,59]"
+    },
+    {
+      "src": "name: new_status [61,71]",
+      "dest": "name: status [61,67]"
+    },
+    {
+      "src": "param [61,71]",
+      "dest": "param [61,67]"
+    },
+    {
+      "src": "name: orders [100,106]",
+      "dest": "name: orders [358,364]"
+    },
+    {
+      "src": "trailer [99,106]",
+      "dest": "trailer [357,364]"
+    },
+    {
+      "src": "name: self [45,49]",
+      "dest": "name: self [45,49]"
+    },
+    {
+      "src": "simple_stmt [170,199]",
+      "dest": "simple_stmt [378,419]"
+    },
+    {
+      "src": "name: change_order_status [25,44]",
+      "dest": "name: change_order_status [25,44]"
+    },
+    {
+      "src": "expr_stmt [170,198]",
+      "dest": "expr_stmt [378,418]"
+    },
+    {
+      "src": "name: Warehouse [6,15]",
+      "dest": "name: Warehouse [6,15]"
+    },
+    {
+      "src": "file_input [0,220]",
+      "dest": "file_input [0,457]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [78,330]",
+      "parent": "suite [69,457]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [338,457]",
+      "parent": "suite [69,457]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: new_status [61,71]",
+      "label": "status"
+    },
+    {
+      "action": "insert-node",
+      "tree": "comparison [341,364]",
+      "parent": "if_stmt [338,457]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [153,220]",
+      "parent": "if_stmt [338,457]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [432,457]",
+      "parent": "if_stmt [338,457]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: order [86,91]",
+      "label": "order_id"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: order [86,91]",
+      "parent": "comparison [341,364]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [95,106]",
+      "parent": "comparison [341,364]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: new_status [188,198]",
+      "label": "status"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [378,382]",
+      "parent": "atom_expr [378,409]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [382,389]",
+      "parent": "atom_expr [378,409]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [389,399]",
+      "parent": "atom_expr [378,409]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: order [170,175]",
+      "label": "orders"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: order [170,175]",
+      "parent": "trailer [382,389]",
+      "at": 0
+    },
+    {
+      "action": "delete-tree",
+      "tree": "comparison [123,152]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "if_stmt [120,220]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [107,220]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "for_stmt [82,220]"
+    }
+  ]
+}

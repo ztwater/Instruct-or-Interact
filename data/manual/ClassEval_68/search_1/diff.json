@@ -1,0 +1,323 @@
+{
+  "matches": [
+    {
+      "src": "name: data [31,35]",
+      "dest": "name: self [31,35]"
+    },
+    {
+      "src": "suite [15,185]",
+      "dest": "suite [15,667]"
+    },
+    {
+      "src": "name: keyword [109,116]",
+      "dest": "name: keyword [356,363]"
+    },
+    {
+      "src": "name: data [88,92]",
+      "dest": "name: data [335,339]"
+    },
+    {
+      "src": "classdef [0,185]",
+      "dest": "classdef [0,667]"
+    },
+    {
+      "src": "suite [46,185]",
+      "dest": "suite [46,667]"
+    },
+    {
+      "src": "atom_expr [142,162]",
+      "dest": "atom_expr [389,409]"
+    },
+    {
+      "src": "name: PageUtil [6,14]",
+      "dest": "name: PageUtil [6,14]"
+    },
+    {
+      "src": "operator: , [35,36]",
+      "dest": "operator: , [35,36]"
+    },
+    {
+      "src": "name: item [120,124]",
+      "dest": "name: item [367,371]"
+    },
+    {
+      "src": "simple_stmt [142,163]",
+      "dest": "simple_stmt [389,410]"
+    },
+    {
+      "src": "name: append [150,156]",
+      "dest": "name: append [397,403]"
+    },
+    {
+      "src": "simple_stmt [55,68]",
+      "dest": "simple_stmt [297,310]"
+    },
+    {
+      "src": "name: results [55,62]",
+      "dest": "name: results [297,304]"
+    },
+    {
+      "src": "comparison [109,124]",
+      "dest": "comparison [356,371]"
+    },
+    {
+      "src": "name: item [80,84]",
+      "dest": "name: item [322,326]"
+    },
+    {
+      "src": "file_input [0,185]",
+      "dest": "file_input [0,667]"
+    },
+    {
+      "src": "param [37,44]",
+      "dest": "param [37,44]"
+    },
+    {
+      "src": "atom [65,67]",
+      "dest": "atom [307,309]"
+    },
+    {
+      "src": "operator: = [63,64]",
+      "dest": "operator: = [305,306]"
+    },
+    {
+      "src": "trailer [156,162]",
+      "dest": "trailer [403,409]"
+    },
+    {
+      "src": "name: results [178,185]",
+      "dest": "name: results [508,515]"
+    },
+    {
+      "src": "suite [125,163]",
+      "dest": "suite [372,410]"
+    },
+    {
+      "src": "trailer [149,156]",
+      "dest": "trailer [396,403]"
+    },
+    {
+      "src": "parameters [30,45]",
+      "dest": "parameters [30,45]"
+    },
+    {
+      "src": "name: item [157,161]",
+      "dest": "name: item [404,408]"
+    },
+    {
+      "src": "name: results [142,149]",
+      "dest": "name: results [389,396]"
+    },
+    {
+      "src": "param [31,36]",
+      "dest": "param [31,36]"
+    },
+    {
+      "src": "expr_stmt [55,67]",
+      "dest": "expr_stmt [297,309]"
+    },
+    {
+      "src": "name: keyword [37,44]",
+      "dest": "name: keyword [37,44]"
+    },
+    {
+      "src": "if_stmt [106,163]",
+      "dest": "if_stmt [353,410]"
+    },
+    {
+      "src": "for_stmt [76,163]",
+      "dest": "for_stmt [318,410]"
+    },
+    {
+      "src": "name: search [24,30]",
+      "dest": "name: search [24,30]"
+    },
+    {
+      "src": "suite [93,163]",
+      "dest": "suite [340,410]"
+    },
+    {
+      "src": "funcdef [20,185]",
+      "dest": "funcdef [20,667]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [55,289]",
+      "parent": "suite [46,667]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [427,641]",
+      "parent": "suite [46,667]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "return_stmt [649,667]",
+      "parent": "suite [46,667]",
+      "at": 4
+    },
+    {
+      "action": "update-node",
+      "tree": "name: data [31,35]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [330,339]",
+      "parent": "for_stmt [318,410]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [427,640]",
+      "parent": "simple_stmt [427,641]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [330,334]",
+      "parent": "atom_expr [330,339]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [334,339]",
+      "parent": "atom_expr [330,339]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: search_info [427,438]",
+      "parent": "expr_stmt [427,640]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [439,440]",
+      "parent": "expr_stmt [427,640]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom [441,640]",
+      "parent": "expr_stmt [427,640]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: data [88,92]",
+      "parent": "trailer [334,339]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: { [441,442]",
+      "parent": "atom [441,640]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "dictorsetmaker [455,630]",
+      "parent": "atom [441,640]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: } [639,640]",
+      "parent": "atom [441,640]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: \"keyword\" [455,464]",
+      "parent": "dictorsetmaker [455,630]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: keyword [466,473]",
+      "parent": "dictorsetmaker [455,630]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [473,474]",
+      "parent": "dictorsetmaker [455,630]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: \"total_results\" [487,502]",
+      "parent": "dictorsetmaker [455,630]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [504,516]",
+      "parent": "dictorsetmaker [455,630]",
+      "at": 4
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [516,517]",
+      "parent": "dictorsetmaker [455,630]",
+      "at": 5
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: \"total_pages\" [530,543]",
+      "parent": "dictorsetmaker [455,630]",
+      "at": 6
+    },
+    {
+      "action": "insert-tree",
+      "tree": "term [545,598]",
+      "parent": "dictorsetmaker [455,630]",
+      "at": 7
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [598,599]",
+      "parent": "dictorsetmaker [455,630]",
+      "at": 8
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: \"results\" [612,621]",
+      "parent": "dictorsetmaker [455,630]",
+      "at": 9
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: results [623,630]",
+      "parent": "dictorsetmaker [455,630]",
+      "at": 10
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: len [504,507]",
+      "parent": "atom_expr [504,516]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [507,516]",
+      "parent": "atom_expr [504,516]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: results [178,185]",
+      "parent": "trailer [507,516]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "return_stmt [171,185]"
+    }
+  ]
+}

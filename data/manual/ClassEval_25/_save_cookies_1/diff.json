@@ -1,0 +1,304 @@
+{
+  "matches": [
+    {
+      "src": "return_stmt [176,187]",
+      "dest": "return_stmt [537,548]"
+    },
+    {
+      "src": "simple_stmt [176,188]",
+      "dest": "simple_stmt [537,549]"
+    },
+    {
+      "src": "suite [18,291]",
+      "dest": "suite [18,652]"
+    },
+    {
+      "src": "simple_stmt [144,164]",
+      "dest": "simple_stmt [488,525]"
+    },
+    {
+      "src": "string: 'w' [114,117]",
+      "dest": "string: 'w' [458,461]"
+    },
+    {
+      "src": "classdef [0,291]",
+      "dest": "classdef [0,652]"
+    },
+    {
+      "src": "suite [64,291]",
+      "dest": "suite [47,652]"
+    },
+    {
+      "src": "arglist [100,117]",
+      "dest": "arglist [439,461]"
+    },
+    {
+      "src": "atom_expr [95,118]",
+      "dest": "atom_expr [434,462]"
+    },
+    {
+      "src": "name: open [95,99]",
+      "dest": "name: open [434,438]"
+    },
+    {
+      "src": "with_item [95,126]",
+      "dest": "with_item [434,470]"
+    },
+    {
+      "src": "name: e [262,263]",
+      "dest": "name: e [623,624]"
+    },
+    {
+      "src": "parameters [40,63]",
+      "dest": "parameters [40,46]"
+    },
+    {
+      "src": "atom_expr [144,163]",
+      "dest": "atom_expr [510,522]"
+    },
+    {
+      "src": "name: Exception [203,212]",
+      "dest": "name: Exception [564,573]"
+    },
+    {
+      "src": "fstring [237,265]",
+      "dest": "fstring [598,626]"
+    },
+    {
+      "src": "suite [127,164]",
+      "dest": "suite [471,525]"
+    },
+    {
+      "src": "atom_expr [231,266]",
+      "dest": "atom_expr [592,627]"
+    },
+    {
+      "src": "param [41,49]",
+      "dest": "param [41,45]"
+    },
+    {
+      "src": "suite [218,291]",
+      "dest": "suite [579,652]"
+    },
+    {
+      "src": "funcdef [23,291]",
+      "dest": "funcdef [23,652]"
+    },
+    {
+      "src": "trailer [154,163]",
+      "dest": "trailer [514,522]"
+    },
+    {
+      "src": "with_stmt [90,164]",
+      "dest": "with_stmt [429,525]"
+    },
+    {
+      "src": "fstring_start: f\" [237,239]",
+      "dest": "fstring_start: f\" [598,600]"
+    },
+    {
+      "src": "name: e [216,217]",
+      "dest": "name: e [577,578]"
+    },
+    {
+      "src": "operator: } [263,264]",
+      "dest": "operator: } [624,625]"
+    },
+    {
+      "src": "trailer [148,154]",
+      "dest": "trailer [492,498]"
+    },
+    {
+      "src": "name: _save_cookies [27,40]",
+      "dest": "name: _save_cookies [27,40]"
+    },
+    {
+      "src": "except_clause [196,217]",
+      "dest": "except_clause [557,578]"
+    },
+    {
+      "src": "operator: { [261,262]",
+      "dest": "operator: { [622,623]"
+    },
+    {
+      "src": "return_stmt [279,291]",
+      "dest": "return_stmt [640,652]"
+    },
+    {
+      "src": "name: CookiesUtil [6,17]",
+      "dest": "name: CookiesUtil [6,17]"
+    },
+    {
+      "src": "name: cookies [155,162]",
+      "dest": "name: cookies [515,522]"
+    },
+    {
+      "src": "operator: , [112,113]",
+      "dest": "operator: , [456,457]"
+    },
+    {
+      "src": "file_input [0,291]",
+      "dest": "file_input [0,652]"
+    },
+    {
+      "src": "suite [77,188]",
+      "dest": "suite [416,549]"
+    },
+    {
+      "src": "name: file [122,126]",
+      "dest": "name: file [466,470]"
+    },
+    {
+      "src": "trailer [99,118]",
+      "dest": "trailer [438,462]"
+    },
+    {
+      "src": "name: write [149,154]",
+      "dest": "name: write [493,498]"
+    },
+    {
+      "src": "fstring_expr [261,264]",
+      "dest": "fstring_expr [622,625]"
+    },
+    {
+      "src": "name: cookies [41,48]",
+      "dest": "name: self [41,45]"
+    },
+    {
+      "src": "fstring_string: Error saving cookies:  [239,261]",
+      "dest": "fstring_string: Error saving cookies:  [600,622]"
+    },
+    {
+      "src": "trailer [236,266]",
+      "dest": "trailer [597,627]"
+    },
+    {
+      "src": "fstring_end: \" [264,265]",
+      "dest": "fstring_end: \" [625,626]"
+    },
+    {
+      "src": "name: cookies_file [100,112]",
+      "dest": "name: cookies_file [444,456]"
+    },
+    {
+      "src": "name: file [144,148]",
+      "dest": "name: self [510,514]"
+    },
+    {
+      "src": "try_stmt [73,291]",
+      "dest": "try_stmt [412,652]"
+    },
+    {
+      "src": "name: print [231,236]",
+      "dest": "name: print [592,597]"
+    },
+    {
+      "src": "simple_stmt [231,267]",
+      "dest": "simple_stmt [592,628]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [56,404]",
+      "parent": "suite [47,652]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: cookies [41,48]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [488,524]",
+      "parent": "simple_stmt [488,525]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: file [488,492]",
+      "parent": "atom_expr [488,524]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [148,154]",
+      "parent": "atom_expr [488,524]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [498,524]",
+      "parent": "atom_expr [488,524]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [439,456]",
+      "parent": "arglist [439,461]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [499,523]",
+      "parent": "trailer [498,524]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [439,443]",
+      "parent": "atom_expr [439,456]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [443,456]",
+      "parent": "atom_expr [439,456]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: json [499,503]",
+      "parent": "atom_expr [499,523]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [503,509]",
+      "parent": "atom_expr [499,523]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [509,523]",
+      "parent": "atom_expr [499,523]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: cookies_file [100,112]",
+      "parent": "trailer [443,456]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [144,163]",
+      "parent": "trailer [509,523]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: file [144,148]",
+      "label": "self"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [48,49]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "param [50,62]"
+    }
+  ]
+}

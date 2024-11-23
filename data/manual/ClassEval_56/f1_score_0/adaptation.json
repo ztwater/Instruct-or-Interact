@@ -1,0 +1,58 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Calculate f1 score, which is the harmonic mean of precision and recall\n        :param predicted_labels: list, predicted results\n        :param true_labels: list, true labels\n        :return: float\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "precision = self.precision(predicted_labels, true_labels)\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "recall = self.recall(predicted_labels, true_labels)\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return 2 * (precision * recall) / (precision + recall)\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return 2 * (precision * recall) / (precision + recall)",
+        "deleted": "return 2 * (precision * recall) / (precision + recall)",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "predicted_labels",
+        "deleted": "precision",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "true_labels",
+        "deleted": "recall",
+        "type": "Refactoring"
+    }
+]

@@ -1,0 +1,399 @@
+{
+  "matches": [
+    {
+      "src": "simple_stmt [228,238]",
+      "dest": "simple_stmt [283,293]"
+    },
+    {
+      "src": "name: binary_ip [630,639]",
+      "dest": "name: binary_ip [543,552]"
+    },
+    {
+      "src": "trailer [370,378]",
+      "dest": "trailer [355,363]"
+    },
+    {
+      "src": "suite [16,639]",
+      "dest": "suite [16,552]"
+    },
+    {
+      "src": "trailer [575,581]",
+      "dest": "trailer [488,494]"
+    },
+    {
+      "src": "string: '.' [547,550]",
+      "dest": "string: '.' [460,463]"
+    },
+    {
+      "src": "classdef [0,639]",
+      "dest": "classdef [0,552]"
+    },
+    {
+      "src": "name: IPAddress [6,15]",
+      "dest": "name: IPAddress [6,15]"
+    },
+    {
+      "src": "suite [48,639]",
+      "dest": "suite [42,552]"
+    },
+    {
+      "src": "operator: > [413,414]",
+      "dest": "operator: > [398,399]"
+    },
+    {
+      "src": "atom_expr [365,380]",
+      "dest": "atom_expr [350,365]"
+    },
+    {
+      "src": "name: octets [598,604]",
+      "dest": "name: octets [511,517]"
+    },
+    {
+      "src": "name: int [402,405]",
+      "dest": "name: int [387,390]"
+    },
+    {
+      "src": "trailer [555,605]",
+      "dest": "trailer [468,518]"
+    },
+    {
+      "src": "trailer [559,571]",
+      "dest": "trailer [472,484]"
+    },
+    {
+      "src": "comparison [384,398]",
+      "dest": "comparison [369,383]"
+    },
+    {
+      "src": "name: octets [202,208]",
+      "dest": "name: octets [257,263]"
+    },
+    {
+      "src": "atom_expr [402,412]",
+      "dest": "atom_expr [387,397]"
+    },
+    {
+      "src": "if_stmt [358,446]",
+      "dest": "if_stmt [343,431]"
+    },
+    {
+      "src": "atom_expr [384,394]",
+      "dest": "atom_expr [369,379]"
+    },
+    {
+      "src": "name: octet [564,569]",
+      "dest": "name: octet [477,482]"
+    },
+    {
+      "src": "comparison [198,214]",
+      "dest": "comparison [253,269]"
+    },
+    {
+      "src": "subscript [572,574]",
+      "dest": "subscript [485,487]"
+    },
+    {
+      "src": "expr_stmt [104,134]",
+      "dest": "expr_stmt [197,232]"
+    },
+    {
+      "src": "trailer [581,584]",
+      "dest": "trailer [494,497]"
+    },
+    {
+      "src": "name: split [124,129]",
+      "dest": "name: split [222,227]"
+    },
+    {
+      "src": "trailer [129,134]",
+      "dest": "trailer [227,232]"
+    },
+    {
+      "src": "simple_stmt [436,446]",
+      "dest": "simple_stmt [421,431]"
+    },
+    {
+      "src": "name: bin [556,559]",
+      "dest": "name: bin [469,472]"
+    },
+    {
+      "src": "return_stmt [623,639]",
+      "dest": "return_stmt [536,552]"
+    },
+    {
+      "src": "name: zfill [576,581]",
+      "dest": "name: zfill [489,494]"
+    },
+    {
+      "src": "name: octet [365,370]",
+      "dest": "name: octet [350,355]"
+    },
+    {
+      "src": "operator: = [545,546]",
+      "dest": "operator: = [458,459]"
+    },
+    {
+      "src": "number: 255 [415,418]",
+      "dest": "number: 255 [400,403]"
+    },
+    {
+      "src": "name: octets [104,110]",
+      "dest": "name: octets [197,203]"
+    },
+    {
+      "src": "param [36,46]",
+      "dest": "param [36,40]"
+    },
+    {
+      "src": "string: '.' [130,133]",
+      "dest": "string: '.' [228,231]"
+    },
+    {
+      "src": "name: octet [406,411]",
+      "dest": "name: octet [391,396]"
+    },
+    {
+      "src": "funcdef [21,639]",
+      "dest": "funcdef [21,552]"
+    },
+    {
+      "src": "comparison [402,418]",
+      "dest": "comparison [387,403]"
+    },
+    {
+      "src": "for_stmt [255,446]",
+      "dest": "for_stmt [310,431]"
+    },
+    {
+      "src": "name: isdigit [371,378]",
+      "dest": "name: isdigit [356,363]"
+    },
+    {
+      "src": "simple_stmt [104,135]",
+      "dest": "simple_stmt [197,233]"
+    },
+    {
+      "src": "trailer [571,575]",
+      "dest": "trailer [484,488]"
+    },
+    {
+      "src": "expr_stmt [535,605]",
+      "dest": "expr_stmt [448,518]"
+    },
+    {
+      "src": "argument [556,604]",
+      "dest": "argument [469,517]"
+    },
+    {
+      "src": "name: octet [589,594]",
+      "dest": "name: octet [502,507]"
+    },
+    {
+      "src": "trailer [550,555]",
+      "dest": "trailer [463,468]"
+    },
+    {
+      "src": "number: 0 [397,398]",
+      "dest": "number: 0 [382,383]"
+    },
+    {
+      "src": "return_stmt [228,237]",
+      "dest": "return_stmt [283,292]"
+    },
+    {
+      "src": "name: ip_address [36,46]",
+      "dest": "name: self [36,40]"
+    },
+    {
+      "src": "not_test [361,380]",
+      "dest": "not_test [346,365]"
+    },
+    {
+      "src": "trailer [123,129]",
+      "dest": "trailer [221,227]"
+    },
+    {
+      "src": "string: '' [443,445]",
+      "dest": "string: '' [428,430]"
+    },
+    {
+      "src": "name: binary_ip [535,544]",
+      "dest": "name: binary_ip [448,457]"
+    },
+    {
+      "src": "atom_expr [547,605]",
+      "dest": "atom_expr [460,518]"
+    },
+    {
+      "src": "number: 4 [213,214]",
+      "dest": "number: 4 [268,269]"
+    },
+    {
+      "src": "atom_expr [198,209]",
+      "dest": "atom_expr [253,264]"
+    },
+    {
+      "src": "parameters [35,47]",
+      "dest": "parameters [35,41]"
+    },
+    {
+      "src": "return_stmt [436,445]",
+      "dest": "return_stmt [421,430]"
+    },
+    {
+      "src": "file_input [0,639]",
+      "dest": "file_input [0,552]"
+    },
+    {
+      "src": "number: 2 [572,573]",
+      "dest": "number: 2 [485,486]"
+    },
+    {
+      "src": "name: octet [388,393]",
+      "dest": "name: octet [373,378]"
+    },
+    {
+      "src": "name: len [198,201]",
+      "dest": "name: len [253,256]"
+    },
+    {
+      "src": "atom_expr [560,570]",
+      "dest": "atom_expr [473,483]"
+    },
+    {
+      "src": "atom_expr [113,134]",
+      "dest": "atom_expr [206,232]"
+    },
+    {
+      "src": "number: 8 [582,583]",
+      "dest": "number: 8 [495,496]"
+    },
+    {
+      "src": "name: get_binary [25,35]",
+      "dest": "name: get_binary [25,35]"
+    },
+    {
+      "src": "name: join [551,555]",
+      "dest": "name: join [464,468]"
+    },
+    {
+      "src": "operator: != [210,212]",
+      "dest": "operator: != [265,267]"
+    },
+    {
+      "src": "suite [215,238]",
+      "dest": "suite [270,293]"
+    },
+    {
+      "src": "string: '' [235,237]",
+      "dest": "string: '' [290,292]"
+    },
+    {
+      "src": "operator: = [111,112]",
+      "dest": "operator: = [204,205]"
+    },
+    {
+      "src": "trailer [563,570]",
+      "dest": "trailer [476,483]"
+    },
+    {
+      "src": "name: int [384,387]",
+      "dest": "name: int [369,372]"
+    },
+    {
+      "src": "name: int [560,563]",
+      "dest": "name: int [473,476]"
+    },
+    {
+      "src": "if_stmt [195,238]",
+      "dest": "if_stmt [250,293]"
+    },
+    {
+      "src": "atom_expr [556,584]",
+      "dest": "atom_expr [469,497]"
+    },
+    {
+      "src": "or_test [361,418]",
+      "dest": "or_test [346,403]"
+    },
+    {
+      "src": "trailer [378,380]",
+      "dest": "trailer [363,365]"
+    },
+    {
+      "src": "sync_comp_for [585,604]",
+      "dest": "sync_comp_for [498,517]"
+    },
+    {
+      "src": "operator: < [395,396]",
+      "dest": "operator: < [380,381]"
+    },
+    {
+      "src": "name: octet [259,264]",
+      "dest": "name: octet [314,319]"
+    },
+    {
+      "src": "simple_stmt [535,606]",
+      "dest": "simple_stmt [448,519]"
+    },
+    {
+      "src": "trailer [405,412]",
+      "dest": "trailer [390,397]"
+    },
+    {
+      "src": "name: octets [268,274]",
+      "dest": "name: octets [323,329]"
+    },
+    {
+      "src": "suite [275,446]",
+      "dest": "suite [330,431]"
+    },
+    {
+      "src": "trailer [387,394]",
+      "dest": "trailer [372,379]"
+    },
+    {
+      "src": "suite [419,446]",
+      "dest": "suite [404,431]"
+    },
+    {
+      "src": "name: ip_address [113,123]",
+      "dest": "name: ip_address [211,221]"
+    },
+    {
+      "src": "trailer [201,209]",
+      "dest": "trailer [256,264]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [51,189]",
+      "parent": "suite [42,552]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: ip_address [36,46]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [206,210]",
+      "parent": "atom_expr [206,232]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [210,221]",
+      "parent": "atom_expr [206,232]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: ip_address [113,123]",
+      "parent": "trailer [210,221]",
+      "at": 0
+    }
+  ]
+}

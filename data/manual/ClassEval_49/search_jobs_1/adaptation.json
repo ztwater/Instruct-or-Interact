@@ -1,0 +1,86 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "criteria",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".job_listings",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "string",
+        "inserted": "\"requirements\"",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "simple_stmt",
+        "inserted": "",
+        "deleted": "positions = [\n            {\"title\": \"Software Engineer\", \"location\": \"New York\", \"salary\": 100000},\n            {\"title\": \"Data Analyst\", \"location\": \"San Francisco\", \"salary\": 90000},\n            {\"title\": \"Product Manager\", \"location\": \"Seattle\", \"salary\": 110000},\n            {\"title\": \"UX Designer\", \"location\": \"Los Angeles\", \"salary\": 95000}\n        ]\n",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "name",
+        "inserted": "",
+        "deleted": "values",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "trailer",
+        "inserted": "",
+        "deleted": "()",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "positions",
+        "deleted": "positions",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "requirements",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "job_listings",
+        "deleted": "positions",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "criteria",
+        "deleted": "requirements",
+        "type": "Refactoring"
+    }
+]

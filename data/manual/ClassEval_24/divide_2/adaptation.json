@@ -1,0 +1,37 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Divides two complex numbers.\n        :param c1: The first complex number, complex.\n        :param c2: The second complex number, complex.\n        :return: The quotient of the two complex numbers, complex.\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "c1",
+        "deleted": "num1",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "c2",
+        "deleted": "num2",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "c1",
+        "deleted": "num1",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "c2",
+        "deleted": "num2",
+        "type": "Refactoring"
+    }
+]

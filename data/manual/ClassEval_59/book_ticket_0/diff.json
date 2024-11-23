@@ -1,0 +1,613 @@
+{
+  "matches": [
+    {
+      "src": "name: movies [255,261]",
+      "dest": "name: movie [612,617]"
+    },
+    {
+      "src": "simple_stmt [461,516]",
+      "dest": "simple_stmt [924,961]"
+    },
+    {
+      "src": "suite [25,629]",
+      "dest": "suite [25,1133]"
+    },
+    {
+      "src": "trailer [410,429]",
+      "dest": "trailer [770,779]"
+    },
+    {
+      "src": "trailer [158,165]",
+      "dest": "trailer [588,595]"
+    },
+    {
+      "src": "classdef [0,629]",
+      "dest": "classdef [0,1133]"
+    },
+    {
+      "src": "suite [77,629]",
+      "dest": "suite [73,1133]"
+    },
+    {
+      "src": "operator: , [50,51]",
+      "dest": "operator: , [50,51]"
+    },
+    {
+      "src": "param [46,51]",
+      "dest": "param [46,51]"
+    },
+    {
+      "src": "name: movie_name [52,62]",
+      "dest": "name: name [52,56]"
+    },
+    {
+      "src": "operator: , [62,63]",
+      "dest": "operator: , [56,57]"
+    },
+    {
+      "src": "name: movie_name [399,409]",
+      "dest": "name: count_nonzero [751,764]"
+    },
+    {
+      "src": "trailer [472,484]",
+      "dest": "trailer [947,956]"
+    },
+    {
+      "src": "return_stmt [617,629]",
+      "dest": "return_stmt [1108,1133]"
+    },
+    {
+      "src": "name: movies [392,398]",
+      "dest": "name: seats_to_book [730,743]"
+    },
+    {
+      "src": "simple_stmt [532,544]",
+      "dest": "simple_stmt [981,1007]"
+    },
+    {
+      "src": "return_stmt [578,590]",
+      "dest": "return_stmt [1049,1073]"
+    },
+    {
+      "src": "name: num_tickets [433,444]",
+      "dest": "name: seat [877,881]"
+    },
+    {
+      "src": "atom_expr [461,500]",
+      "dest": "atom_expr [924,956]"
+    },
+    {
+      "src": "operator: >= [293,295]",
+      "dest": "operator: == [626,628]"
+    },
+    {
+      "src": "operator: += [501,503]",
+      "dest": "operator: = [957,958]"
+    },
+    {
+      "src": "return_stmt [532,543]",
+      "dest": "return_stmt [981,1006]"
+    },
+    {
+      "src": "name: movies [466,472]",
+      "dest": "name: seat [939,943]"
+    },
+    {
+      "src": "name: book_ticket [34,45]",
+      "dest": "name: book_ticket [34,45]"
+    },
+    {
+      "src": "name: movies [159,165]",
+      "dest": "name: movies [589,595]"
+    },
+    {
+      "src": "name: self [461,465]",
+      "dest": "name: movie [924,929]"
+    },
+    {
+      "src": "if_stmt [247,591]",
+      "dest": "if_stmt [609,1074]"
+    },
+    {
+      "src": "simple_stmt [578,591]",
+      "dest": "simple_stmt [1049,1074]"
+    },
+    {
+      "src": "name: movie_name [473,483]",
+      "dest": "name: seat [948,952]"
+    },
+    {
+      "src": "funcdef [30,629]",
+      "dest": "funcdef [30,1133]"
+    },
+    {
+      "src": "param [64,75]",
+      "dest": "param [58,71]"
+    },
+    {
+      "src": "atom_expr [250,292]",
+      "dest": "atom_expr [612,625]"
+    },
+    {
+      "src": "param [52,63]",
+      "dest": "param [52,57]"
+    },
+    {
+      "src": "expr_stmt [461,515]",
+      "dest": "expr_stmt [924,960]"
+    },
+    {
+      "src": "trailer [398,410]",
+      "dest": "trailer [750,764]"
+    },
+    {
+      "src": "parameters [45,76]",
+      "dest": "parameters [45,72]"
+    },
+    {
+      "src": "string: 'available_seats' [274,291]",
+      "dest": "string: 'name' [618,624]"
+    },
+    {
+      "src": "name: self [46,50]",
+      "dest": "name: self [46,50]"
+    },
+    {
+      "src": "comparison [250,307]",
+      "dest": "comparison [612,633]"
+    },
+    {
+      "src": "name: movie_name [140,150]",
+      "dest": "name: movie [575,580]"
+    },
+    {
+      "src": "string: 'available_seats' [411,428]",
+      "dest": "string: 'seats' [771,778]"
+    },
+    {
+      "src": "file_input [0,629]",
+      "dest": "file_input [0,1133]"
+    },
+    {
+      "src": "suite [166,591]",
+      "dest": "suite [596,1074]"
+    },
+    {
+      "src": "trailer [391,398]",
+      "dest": "trailer [729,744]"
+    },
+    {
+      "src": "name: self [154,158]",
+      "dest": "name: self [584,588]"
+    },
+    {
+      "src": "name: self [387,391]",
+      "dest": "name: len [726,729]"
+    },
+    {
+      "src": "operator: -= [430,432]",
+      "dest": "operator: == [780,782]"
+    },
+    {
+      "src": "atom_expr [154,165]",
+      "dest": "atom_expr [584,595]"
+    },
+    {
+      "src": "name: num_tickets [296,307]",
+      "dest": "name: name [629,633]"
+    },
+    {
+      "src": "name: MovieBookingSystem [6,24]",
+      "dest": "name: MovieBookingSystem [6,24]"
+    },
+    {
+      "src": "trailer [273,292]",
+      "dest": "trailer [617,625]"
+    },
+    {
+      "src": "suite [561,591]",
+      "dest": "suite [1028,1074]"
+    },
+    {
+      "src": "name: num_tickets [64,75]",
+      "dest": "name: seats_to_book [58,71]"
+    },
+    {
+      "src": "trailer [465,472]",
+      "dest": "trailer [938,947]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [82,512]",
+      "parent": "suite [73,1133]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "for_stmt [571,1074]",
+      "parent": "suite [73,1133]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [617,629]",
+      "parent": "suite [73,1133]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: movie_name [52,62]",
+      "label": "name"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: num_tickets [64,75]",
+      "label": "seats_to_book"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: movie_name [140,150]",
+      "label": "movie"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: movie_name [140,150]",
+      "parent": "for_stmt [571,1074]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [154,165]",
+      "parent": "for_stmt [571,1074]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [166,591]",
+      "parent": "for_stmt [571,1074]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: \"Movie not found.\" [1115,1133]",
+      "parent": "return_stmt [1108,1133]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [634,1074]",
+      "parent": "if_stmt [609,1074]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: >= [293,295]",
+      "label": "=="
+    },
+    {
+      "action": "update-node",
+      "tree": "name: num_tickets [296,307]",
+      "label": "name"
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [723,1074]",
+      "parent": "suite [634,1074]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: movies [255,261]",
+      "label": "movie"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: movies [255,261]",
+      "parent": "atom_expr [612,625]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "comparison [726,785]",
+      "parent": "if_stmt [723,1074]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [786,1007]",
+      "parent": "if_stmt [723,1074]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [561,591]",
+      "parent": "if_stmt [723,1074]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "string: 'available_seats' [274,291]",
+      "label": "'name'"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [726,744]",
+      "parent": "comparison [726,785]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: <= [745,747]",
+      "parent": "comparison [726,785]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [748,785]",
+      "parent": "comparison [726,785]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "for_stmt [873,961]",
+      "parent": "suite [786,1007]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [532,544]",
+      "parent": "suite [786,1007]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: self [387,391]",
+      "label": "len"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: self [387,391]",
+      "parent": "atom_expr [726,744]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [391,398]",
+      "parent": "atom_expr [726,744]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: np [748,750]",
+      "parent": "atom_expr [748,785]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [398,410]",
+      "parent": "atom_expr [748,785]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [764,785]",
+      "parent": "atom_expr [748,785]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: num_tickets [433,444]",
+      "label": "seat"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: num_tickets [433,444]",
+      "parent": "for_stmt [873,961]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: seats_to_book [885,898]",
+      "parent": "for_stmt [873,961]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [899,961]",
+      "parent": "for_stmt [873,961]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: movies [392,398]",
+      "label": "seats_to_book"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: movie_name [399,409]",
+      "label": "count_nonzero"
+    },
+    {
+      "action": "insert-node",
+      "tree": "comparison [765,784]",
+      "parent": "trailer [764,785]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [461,516]",
+      "parent": "suite [899,961]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: \"Booking success.\" [988,1006]",
+      "parent": "return_stmt [981,1006]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: \"Booking failed.\" [1056,1073]",
+      "parent": "return_stmt [1049,1073]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [765,779]",
+      "parent": "comparison [765,784]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: -= [430,432]",
+      "label": "=="
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: -= [430,432]",
+      "parent": "comparison [765,784]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "number: 0 [783,784]",
+      "parent": "comparison [765,784]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: movie [765,770]",
+      "parent": "atom_expr [765,779]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [410,429]",
+      "parent": "atom_expr [765,779]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: += [501,503]",
+      "label": "="
+    },
+    {
+      "action": "insert-node",
+      "tree": "number: 1 [959,960]",
+      "parent": "expr_stmt [924,960]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "string: 'available_seats' [411,428]",
+      "label": "'seats'"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: self [461,465]",
+      "label": "movie"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [929,938]",
+      "parent": "atom_expr [924,956]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [939,946]",
+      "parent": "trailer [938,947]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [948,955]",
+      "parent": "trailer [947,956]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: movies [466,472]",
+      "label": "seat"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: movies [466,472]",
+      "parent": "atom_expr [939,946]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [943,946]",
+      "parent": "atom_expr [939,946]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: movie_name [473,483]",
+      "label": "seat"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: movie_name [473,483]",
+      "parent": "atom_expr [948,955]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [952,955]",
+      "parent": "atom_expr [948,955]",
+      "at": 1
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: self [250,254]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [254,261]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [261,273]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [484,500]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: num_tickets [504,515]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [387,429]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [387,444]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [387,445]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [308,544]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "comparison [140,165]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [604,629]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "if_stmt [137,629]"
+    }
+  ]
+}

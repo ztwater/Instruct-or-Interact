@@ -1,0 +1,58 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Determines the position of the first dismatch between the pattern and the text.\n        :param currentPos: The current position in the text, int.\n        :return: The position of the first dismatch between the pattern and the text, int,otherwise -1.\n        >>> boyerMooreSearch = BoyerMooreSearch(\"ABAABA\", \"ABC\")\n        >>> boyerMooreSearch.mismatch_in_text(0)\n        2\n\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "text = self.text\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "pattern = self.pattern\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "currentPos",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "arith_expr",
+        "inserted": "len(text) - len(pattern) + 1",
+        "deleted": "len(text) - len(pattern) + 1",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "pattern",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "currentPos",
+        "deleted": "text",
+        "type": "Refactoring"
+    }
+]

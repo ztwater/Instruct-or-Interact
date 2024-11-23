@@ -1,0 +1,126 @@
+{
+  "matches": [
+    {
+      "src": "name: binary [67,73]",
+      "dest": "name: binary [349,355]"
+    },
+    {
+      "src": "param [49,56]",
+      "dest": "param [49,60]"
+    },
+    {
+      "src": "suite [22,114]",
+      "dest": "suite [22,401]"
+    },
+    {
+      "src": "classdef [0,114]",
+      "dest": "classdef [0,401]"
+    },
+    {
+      "src": "suite [58,114]",
+      "dest": "suite [62,401]"
+    },
+    {
+      "src": "name: decimal_to_binary [31,48]",
+      "dest": "name: decimal_to_binary [31,48]"
+    },
+    {
+      "src": "name: decimal [80,87]",
+      "dest": "name: decimal_num [362,373]"
+    },
+    {
+      "src": "name: binary [108,114]",
+      "dest": "name: binary [394,400]"
+    },
+    {
+      "src": "trailer [79,88]",
+      "dest": "trailer [361,374]"
+    },
+    {
+      "src": "operator: = [74,75]",
+      "dest": "operator: = [356,357]"
+    },
+    {
+      "src": "name: decimal [49,56]",
+      "dest": "name: decimal_num [49,60]"
+    },
+    {
+      "src": "name: NumberConverter [6,21]",
+      "dest": "name: NumberConverter [6,21]"
+    },
+    {
+      "src": "number: 2 [89,90]",
+      "dest": "number: 2 [375,376]"
+    },
+    {
+      "src": "atom_expr [76,92]",
+      "dest": "atom_expr [358,378]"
+    },
+    {
+      "src": "parameters [48,57]",
+      "dest": "parameters [48,61]"
+    },
+    {
+      "src": "simple_stmt [67,93]",
+      "dest": "simple_stmt [349,379]"
+    },
+    {
+      "src": "file_input [0,114]",
+      "dest": "file_input [0,401]"
+    },
+    {
+      "src": "trailer [88,92]",
+      "dest": "trailer [374,378]"
+    },
+    {
+      "src": "subscript [89,91]",
+      "dest": "subscript [375,377]"
+    },
+    {
+      "src": "funcdef [27,114]",
+      "dest": "funcdef [27,401]"
+    },
+    {
+      "src": "expr_stmt [67,92]",
+      "dest": "expr_stmt [349,378]"
+    },
+    {
+      "src": "name: bin [76,79]",
+      "dest": "name: bin [358,361]"
+    },
+    {
+      "src": "return_stmt [101,114]",
+      "dest": "return_stmt [387,400]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [71,341]",
+      "parent": "suite [62,401]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [387,401]",
+      "parent": "suite [62,401]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: decimal [49,56]",
+      "label": "decimal_num"
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [101,114]",
+      "parent": "simple_stmt [387,401]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: decimal [80,87]",
+      "label": "decimal_num"
+    }
+  ]
+}

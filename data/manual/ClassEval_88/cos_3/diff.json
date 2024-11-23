@@ -1,0 +1,234 @@
+{
+  "matches": [
+    {
+      "src": "atom_expr [189,206]",
+      "dest": "atom_expr [372,396]"
+    },
+    {
+      "src": "suite [20,240]",
+      "dest": "suite [20,494]"
+    },
+    {
+      "src": "param [33,34]",
+      "dest": "param [39,40]"
+    },
+    {
+      "src": "classdef [0,240]",
+      "dest": "classdef [0,494]"
+    },
+    {
+      "src": "suite [36,240]",
+      "dest": "suite [42,494]"
+    },
+    {
+      "src": "simple_stmt [97,123]",
+      "dest": "simple_stmt [273,343]"
+    },
+    {
+      "src": "expr_stmt [97,122]",
+      "dest": "expr_stmt [273,297]"
+    },
+    {
+      "src": "return_stmt [224,240]",
+      "dest": "return_stmt [478,494]"
+    },
+    {
+      "src": "trailer [193,197]",
+      "dest": "trailer [376,383]"
+    },
+    {
+      "src": "name: cos_value [177,186]",
+      "dest": "name: cos_value [360,369]"
+    },
+    {
+      "src": "file_input [0,240]",
+      "dest": "file_input [0,494]"
+    },
+    {
+      "src": "name: radians [112,119]",
+      "dest": "name: pi [288,290]"
+    },
+    {
+      "src": "simple_stmt [177,207]",
+      "dest": "simple_stmt [360,461]"
+    },
+    {
+      "src": "name: math [189,193]",
+      "dest": "name: self [372,376]"
+    },
+    {
+      "src": "name: math [107,111]",
+      "dest": "name: x [283,284]"
+    },
+    {
+      "src": "name: radians [97,104]",
+      "dest": "name: radians [273,280]"
+    },
+    {
+      "src": "operator: = [187,188]",
+      "dest": "operator: = [370,371]"
+    },
+    {
+      "src": "operator: = [105,106]",
+      "dest": "operator: = [281,282]"
+    },
+    {
+      "src": "name: x [33,34]",
+      "dest": "name: x [39,40]"
+    },
+    {
+      "src": "name: cos [29,32]",
+      "dest": "name: cos [29,32]"
+    },
+    {
+      "src": "name: radians [198,205]",
+      "dest": "name: radians [384,391]"
+    },
+    {
+      "src": "name: cos_value [231,240]",
+      "dest": "name: cos_value [485,494]"
+    },
+    {
+      "src": "name: TriCalculator [6,19]",
+      "dest": "name: TriCalculator [6,19]"
+    },
+    {
+      "src": "name: cos [194,197]",
+      "dest": "name: taylor [377,383]"
+    },
+    {
+      "src": "trailer [197,206]",
+      "dest": "trailer [383,396]"
+    },
+    {
+      "src": "expr_stmt [177,206]",
+      "dest": "expr_stmt [360,396]"
+    },
+    {
+      "src": "funcdef [25,240]",
+      "dest": "funcdef [25,494]"
+    },
+    {
+      "src": "parameters [32,35]",
+      "dest": "parameters [32,41]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [33,38]",
+      "parent": "parameters [32,41]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [51,256]",
+      "parent": "suite [42,494]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "term [283,297]",
+      "parent": "expr_stmt [273,297]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: math [107,111]",
+      "label": "x"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: math [107,111]",
+      "parent": "term [283,297]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: * [285,286]",
+      "parent": "term [283,297]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom [287,297]",
+      "parent": "term [283,297]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: math [189,193]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "term [288,296]",
+      "parent": "atom [287,297]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: cos [194,197]",
+      "label": "taylor"
+    },
+    {
+      "action": "insert-node",
+      "tree": "arglist [384,395]",
+      "parent": "trailer [383,396]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: radians [112,119]",
+      "label": "pi"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: radians [112,119]",
+      "parent": "term [288,296]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: / [291,292]",
+      "parent": "term [288,296]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "number: 180 [293,296]",
+      "parent": "term [288,296]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: radians [198,205]",
+      "parent": "arglist [384,395]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [391,392]",
+      "parent": "arglist [384,395]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "number: 10 [393,395]",
+      "parent": "arglist [384,395]",
+      "at": 2
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [111,119]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [119,122]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [107,122]"
+    }
+  ]
+}

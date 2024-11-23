@@ -1,0 +1,356 @@
+{
+  "matches": [
+    {
+      "src": "name: key_to_remove [53,66]",
+      "dest": "name: remove_key [59,69]"
+    },
+    {
+      "src": "simple_stmt [280,304]",
+      "dest": "simple_stmt [899,920]"
+    },
+    {
+      "src": "atom_expr [284,303]",
+      "dest": "atom_expr [903,919]"
+    },
+    {
+      "src": "suite [20,440]",
+      "dest": "suite [20,1075]"
+    },
+    {
+      "src": "name: key_to_remove [289,302]",
+      "dest": "name: remove_key [908,918]"
+    },
+    {
+      "src": "param [53,66]",
+      "dest": "param [59,69]"
+    },
+    {
+      "src": "classdef [0,440]",
+      "dest": "classdef [0,1075]"
+    },
+    {
+      "src": "string: 'r' [127,130]",
+      "dest": "string: \"\"\"         read a JSON file and process the data by removing a specified key and rewrite the modified data back to the file.          :param file_path: str, the path of the JSON file.         :param remove_key: str, the key to be removed.         :return: 1, if the specified key is successfully removed and the data is written back.                  0, if the file does not exist or the specified key does not exist in the data.         >>> json.read_json('test.json')         {'key1': 'value1', 'key2': 'value2'}         >>> json.process_json('test.json', 'key1')         1         >>> json.read_json('test.json')         {'key2': 'value2'}         \"\"\" [80,735]"
+    },
+    {
+      "src": "expr_stmt [153,175]",
+      "dest": "expr_stmt [773,805]"
+    },
+    {
+      "src": "operator: = [158,159]",
+      "dest": "operator: = [778,779]"
+    },
+    {
+      "src": "suite [68,440]",
+      "dest": "suite [71,1075]"
+    },
+    {
+      "src": "name: JSONProcessor [6,19]",
+      "dest": "name: JSONProcessor [6,19]"
+    },
+    {
+      "src": "parameters [41,67]",
+      "dest": "parameters [41,70]"
+    },
+    {
+      "src": "trailer [169,175]",
+      "dest": "trailer [794,805]"
+    },
+    {
+      "src": "comparison [245,266]",
+      "dest": "comparison [867,885]"
+    },
+    {
+      "src": "simple_stmt [153,176]",
+      "dest": "simple_stmt [773,806]"
+    },
+    {
+      "src": "name: data [153,157]",
+      "dest": "name: data [773,777]"
+    },
+    {
+      "src": "name: file [170,174]",
+      "dest": "name: file_path [795,804]"
+    },
+    {
+      "src": "atom_expr [419,440]",
+      "dest": "atom_expr [987,1019]"
+    },
+    {
+      "src": "name: key_to_remove [245,258]",
+      "dest": "name: remove_key [867,877]"
+    },
+    {
+      "src": "operator: , [433,434]",
+      "dest": "operator: , [1007,1008]"
+    },
+    {
+      "src": "name: data [284,288]",
+      "dest": "name: data [903,907]"
+    },
+    {
+      "src": "name: file_path [42,51]",
+      "dest": "name: file_path [48,57]"
+    },
+    {
+      "src": "file_input [0,440]",
+      "dest": "file_input [0,1075]"
+    },
+    {
+      "src": "trailer [423,428]",
+      "dest": "trailer [991,1002]"
+    },
+    {
+      "src": "param [42,52]",
+      "dest": "param [48,58]"
+    },
+    {
+      "src": "trailer [428,440]",
+      "dest": "trailer [1002,1019]"
+    },
+    {
+      "src": "name: dump [424,428]",
+      "dest": "name: write_json [992,1002]"
+    },
+    {
+      "src": "trailer [164,169]",
+      "dest": "trailer [784,794]"
+    },
+    {
+      "src": "name: data [429,433]",
+      "dest": "name: data [1003,1007]"
+    },
+    {
+      "src": "name: json [160,164]",
+      "dest": "name: self [780,784]"
+    },
+    {
+      "src": "arglist [429,439]",
+      "dest": "arglist [1003,1018]"
+    },
+    {
+      "src": "name: load [165,169]",
+      "dest": "name: read_json [785,794]"
+    },
+    {
+      "src": "atom_expr [160,175]",
+      "dest": "atom_expr [780,805]"
+    },
+    {
+      "src": "name: data [262,266]",
+      "dest": "name: data [881,885]"
+    },
+    {
+      "src": "operator: , [51,52]",
+      "dest": "operator: , [57,58]"
+    },
+    {
+      "src": "name: process_json [29,41]",
+      "dest": "name: process_json [29,41]"
+    },
+    {
+      "src": "name: file [435,439]",
+      "dest": "name: file_path [1009,1018]"
+    },
+    {
+      "src": "funcdef [25,440]",
+      "dest": "funcdef [25,1075]"
+    },
+    {
+      "src": "del_stmt [280,303]",
+      "dest": "del_stmt [899,919]"
+    },
+    {
+      "src": "name: json [419,423]",
+      "dest": "name: self [987,991]"
+    },
+    {
+      "src": "trailer [288,303]",
+      "dest": "trailer [907,919]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [42,47]",
+      "parent": "parameters [41,70]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [80,736]",
+      "parent": "suite [71,1075]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [153,176]",
+      "parent": "suite [71,1075]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [864,1075]",
+      "parent": "suite [71,1075]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: key_to_remove [53,66]",
+      "label": "remove_key"
+    },
+    {
+      "action": "update-node",
+      "tree": "string: 'r' [127,130]",
+      "label": "\"\"\"         read a JSON file and process the data by removing a specified key and rewrite the modified data back to the file.          :param file_path: str, the path of the JSON file.         :param remove_key: str, the key to be removed.         :return: 1, if the specified key is successfully removed and the data is written back.                  0, if the file does not exist or the specified key does not exist in the data.         >>> json.read_json('test.json')         {'key1': 'value1', 'key2': 'value2'}         >>> json.process_json('test.json', 'key1')         1         >>> json.read_json('test.json')         {'key2': 'value2'}         \"\"\""
+    },
+    {
+      "action": "move-tree",
+      "tree": "string: 'r' [127,130]",
+      "parent": "simple_stmt [80,736]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "comparison [245,266]",
+      "parent": "if_stmt [864,1075]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [886,1041]",
+      "parent": "if_stmt [864,1075]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [1054,1075]",
+      "parent": "if_stmt [864,1075]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: key_to_remove [245,258]",
+      "label": "remove_key"
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [280,304]",
+      "parent": "suite [886,1041]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [987,1020]",
+      "parent": "suite [886,1041]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [1032,1041]",
+      "parent": "suite [886,1041]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: json [160,164]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [419,440]",
+      "parent": "simple_stmt [987,1020]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: load [165,169]",
+      "label": "read_json"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: file [170,174]",
+      "label": "file_path"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: json [419,423]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: dump [424,428]",
+      "label": "write_json"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: key_to_remove [289,302]",
+      "label": "remove_key"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: file [435,439]",
+      "label": "file_path"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: open [111,115]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: file_path [116,125]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [125,126]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "arglist [116,130]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [115,131]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [111,131]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: file [135,139]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "with_item [111,139]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [140,176]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "with_stmt [106,176]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [267,304]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "if_stmt [242,304]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "with_item [377,405]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [406,440]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "with_stmt [372,440]"
+    }
+  ]
+}

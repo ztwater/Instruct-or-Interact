@@ -1,0 +1,89 @@
+{
+  "matches": [
+    {
+      "src": "suite [19,72]",
+      "dest": "suite [19,176]"
+    },
+    {
+      "src": "param [36,40]",
+      "dest": "param [36,40]"
+    },
+    {
+      "src": "classdef [0,72]",
+      "dest": "classdef [0,176]"
+    },
+    {
+      "src": "trailer [66,71]",
+      "dest": "trailer [169,175]"
+    },
+    {
+      "src": "suite [42,72]",
+      "dest": "suite [42,176]"
+    },
+    {
+      "src": "name: self [36,40]",
+      "dest": "name: self [36,40]"
+    },
+    {
+      "src": "name: __len__ [28,35]",
+      "dest": "name: __len__ [28,35]"
+    },
+    {
+      "src": "trailer [61,72]",
+      "dest": "trailer [164,176]"
+    },
+    {
+      "src": "parameters [35,41]",
+      "dest": "parameters [35,41]"
+    },
+    {
+      "src": "name: CamelCaseMap [6,18]",
+      "dest": "name: CamelCaseMap [6,18]"
+    },
+    {
+      "src": "name: data [67,71]",
+      "dest": "name: _data [170,175]"
+    },
+    {
+      "src": "name: len [58,61]",
+      "dest": "name: len [161,164]"
+    },
+    {
+      "src": "file_input [0,72]",
+      "dest": "file_input [0,176]"
+    },
+    {
+      "src": "return_stmt [51,72]",
+      "dest": "return_stmt [154,176]"
+    },
+    {
+      "src": "funcdef [24,72]",
+      "dest": "funcdef [24,176]"
+    },
+    {
+      "src": "atom_expr [62,71]",
+      "dest": "atom_expr [165,175]"
+    },
+    {
+      "src": "atom_expr [58,72]",
+      "dest": "atom_expr [161,176]"
+    },
+    {
+      "src": "name: self [62,66]",
+      "dest": "name: self [165,169]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [51,146]",
+      "parent": "suite [42,176]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: data [67,71]",
+      "label": "_data"
+    }
+  ]
+}

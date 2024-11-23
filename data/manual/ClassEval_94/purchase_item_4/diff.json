@@ -1,0 +1,399 @@
+{
+  "matches": [
+    {
+      "src": "simple_stmt [164,194]",
+      "dest": "simple_stmt [698,728]"
+    },
+    {
+      "src": "suite [21,308]",
+      "dest": "suite [21,985]"
+    },
+    {
+      "src": "expr_stmt [127,151]",
+      "dest": "expr_stmt [631,681]"
+    },
+    {
+      "src": "trailer [145,151]",
+      "dest": "trailer [661,672]"
+    },
+    {
+      "src": "name: stock [104,109]",
+      "dest": "name: self [572,576]"
+    },
+    {
+      "src": "atom_expr [138,151]",
+      "dest": "atom_expr [647,681]"
+    },
+    {
+      "src": "param [53,59]",
+      "dest": "param [44,49]"
+    },
+    {
+      "src": "classdef [0,308]",
+      "dest": "classdef [0,985]"
+    },
+    {
+      "src": "name: VendingMachine [6,20]",
+      "dest": "name: VendingMachine [6,20]"
+    },
+    {
+      "src": "trailer [225,276]",
+      "dest": "trailer [803,854]"
+    },
+    {
+      "src": "suite [69,308]",
+      "dest": "suite [61,985]"
+    },
+    {
+      "src": "simple_stmt [220,277]",
+      "dest": "simple_stmt [798,855]"
+    },
+    {
+      "src": "comparison [81,90]",
+      "dest": "comparison [513,554]"
+    },
+    {
+      "src": "name: print [164,169]",
+      "dest": "name: print [698,703]"
+    },
+    {
+      "src": "name: product [138,145]",
+      "dest": "name: self [647,651]"
+    },
+    {
+      "src": "operator: -= [135,137]",
+      "dest": "operator: -= [644,646]"
+    },
+    {
+      "src": "simple_stmt [127,152]",
+      "dest": "simple_stmt [631,682]"
+    },
+    {
+      "src": "name: purchase_item [30,43]",
+      "dest": "name: purchase_item [30,43]"
+    },
+    {
+      "src": "name: balance [60,67]",
+      "dest": "name: item_name [50,59]"
+    },
+    {
+      "src": "name: print [220,225]",
+      "dest": "name: print [798,803]"
+    },
+    {
+      "src": "name: stock [81,86]",
+      "dest": "name: self [513,517]"
+    },
+    {
+      "src": "number: 0 [89,90]",
+      "dest": "number: 0 [553,554]"
+    },
+    {
+      "src": "file_input [0,308]",
+      "dest": "file_input [0,985]"
+    },
+    {
+      "src": "string: \"Purchase unsuccessful. Product is out of stock.\" [226,275]",
+      "dest": "string: \"Purchase unsuccessful. Product is out of stock.\" [804,853]"
+    },
+    {
+      "src": "suite [91,194]",
+      "dest": "suite [555,764]"
+    },
+    {
+      "src": "parameters [43,68]",
+      "dest": "parameters [43,60]"
+    },
+    {
+      "src": "operator: -= [110,112]",
+      "dest": "operator: -= [610,612]"
+    },
+    {
+      "src": "trailer [169,193]",
+      "dest": "trailer [703,727]"
+    },
+    {
+      "src": "atom_expr [164,193]",
+      "dest": "atom_expr [698,727]"
+    },
+    {
+      "src": "atom_expr [220,276]",
+      "dest": "atom_expr [798,854]"
+    },
+    {
+      "src": "name: balance [301,308]",
+      "dest": "name: print [910,915]"
+    },
+    {
+      "src": "string: \"Purchase successful!\" [170,192]",
+      "dest": "string: \"Purchase successful!\" [704,726]"
+    },
+    {
+      "src": "name: stock [53,58]",
+      "dest": "name: self [44,48]"
+    },
+    {
+      "src": "operator: , [58,59]",
+      "dest": "operator: , [48,49]"
+    },
+    {
+      "src": "simple_stmt [104,115]",
+      "dest": "simple_stmt [572,615]"
+    },
+    {
+      "src": "operator: > [87,88]",
+      "dest": "operator: > [551,552]"
+    },
+    {
+      "src": "suite [207,277]",
+      "dest": "suite [781,884]"
+    },
+    {
+      "src": "number: 1 [113,114]",
+      "dest": "number: 1 [613,614]"
+    },
+    {
+      "src": "expr_stmt [104,114]",
+      "dest": "expr_stmt [572,614]"
+    },
+    {
+      "src": "if_stmt [78,277]",
+      "dest": "if_stmt [510,884]"
+    },
+    {
+      "src": "funcdef [26,308]",
+      "dest": "funcdef [26,985]"
+    },
+    {
+      "src": "name: price [146,151]",
+      "dest": "name: item_name [662,671]"
+    },
+    {
+      "src": "name: balance [127,134]",
+      "dest": "name: balance [636,643]"
+    },
+    {
+      "src": "param [60,67]",
+      "dest": "param [50,59]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [70,458]",
+      "parent": "suite [61,985]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [466,985]",
+      "parent": "suite [61,985]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: stock [53,58]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: balance [60,67]",
+      "label": "item_name"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [469,496]",
+      "parent": "if_stmt [466,985]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [497,884]",
+      "parent": "if_stmt [466,985]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [897,985]",
+      "parent": "if_stmt [466,985]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "if_stmt [78,277]",
+      "parent": "suite [497,884]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [910,961]",
+      "parent": "suite [897,985]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "return_stmt [973,985]",
+      "parent": "suite [897,985]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [910,960]",
+      "parent": "simple_stmt [910,961]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [513,550]",
+      "parent": "comparison [513,554]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [744,764]",
+      "parent": "suite [555,764]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [871,884]",
+      "parent": "suite [781,884]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: balance [301,308]",
+      "label": "print"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: balance [301,308]",
+      "parent": "atom_expr [910,960]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [915,960]",
+      "parent": "atom_expr [910,960]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: stock [81,86]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: stock [81,86]",
+      "parent": "atom_expr [513,550]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [517,527]",
+      "parent": "atom_expr [513,550]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [527,538]",
+      "parent": "atom_expr [513,550]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [538,550]",
+      "parent": "atom_expr [513,550]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [572,609]",
+      "parent": "expr_stmt [572,614]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [631,643]",
+      "parent": "expr_stmt [631,681]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: stock [104,109]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: stock [104,109]",
+      "parent": "atom_expr [572,609]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [576,586]",
+      "parent": "atom_expr [572,609]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [586,597]",
+      "parent": "atom_expr [572,609]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [597,609]",
+      "parent": "atom_expr [572,609]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [631,635]",
+      "parent": "atom_expr [631,643]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [635,643]",
+      "parent": "atom_expr [631,643]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: product [138,145]",
+      "label": "self"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [651,661]",
+      "parent": "atom_expr [647,681]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [672,681]",
+      "parent": "atom_expr [647,681]",
+      "at": 3
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: balance [127,134]",
+      "parent": "trailer [635,643]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: price [146,151]",
+      "label": "item_name"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "param [44,52]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "return_stmt [294,308]"
+    }
+  ]
+}

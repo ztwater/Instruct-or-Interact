@@ -1,0 +1,144 @@
+{
+  "matches": [
+    {
+      "src": "suite [16,129]",
+      "dest": "suite [16,454]"
+    },
+    {
+      "src": "operator: , [40,41]",
+      "dest": "operator: , [40,41]"
+    },
+    {
+      "src": "atom_expr [76,88]",
+      "dest": "atom_expr [400,412]"
+    },
+    {
+      "src": "classdef [0,129]",
+      "dest": "classdef [0,454]"
+    },
+    {
+      "src": "name: course [122,128]",
+      "dest": "name: course [446,452]"
+    },
+    {
+      "src": "suite [50,129]",
+      "dest": "suite [50,454]"
+    },
+    {
+      "src": "parameters [35,49]",
+      "dest": "parameters [35,49]"
+    },
+    {
+      "src": "name: self [76,80]",
+      "dest": "name: self [400,404]"
+    },
+    {
+      "src": "name: courses [81,88]",
+      "dest": "name: courses [405,412]"
+    },
+    {
+      "src": "trailer [106,114]",
+      "dest": "trailer [430,438]"
+    },
+    {
+      "src": "trailer [121,129]",
+      "dest": "trailer [445,453]"
+    },
+    {
+      "src": "comp_op [69,75]",
+      "dest": "comp_op [393,399]"
+    },
+    {
+      "src": "file_input [0,129]",
+      "dest": "file_input [0,454]"
+    },
+    {
+      "src": "param [36,41]",
+      "dest": "param [36,41]"
+    },
+    {
+      "src": "name: course [42,48]",
+      "dest": "name: course [42,48]"
+    },
+    {
+      "src": "comparison [62,88]",
+      "dest": "comparison [386,412]"
+    },
+    {
+      "src": "name: self [36,40]",
+      "dest": "name: self [36,40]"
+    },
+    {
+      "src": "name: courses [107,114]",
+      "dest": "name: courses [431,438]"
+    },
+    {
+      "src": "trailer [80,88]",
+      "dest": "trailer [404,412]"
+    },
+    {
+      "src": "name: self [102,106]",
+      "dest": "name: self [426,430]"
+    },
+    {
+      "src": "name: append [115,121]",
+      "dest": "name: append [439,445]"
+    },
+    {
+      "src": "trailer [114,121]",
+      "dest": "trailer [438,445]"
+    },
+    {
+      "src": "atom_expr [102,129]",
+      "dest": "atom_expr [426,453]"
+    },
+    {
+      "src": "param [42,48]",
+      "dest": "param [42,48]"
+    },
+    {
+      "src": "name: add_course [25,35]",
+      "dest": "name: add_course [25,35]"
+    },
+    {
+      "src": "name: course [62,68]",
+      "dest": "name: course [386,392]"
+    },
+    {
+      "src": "if_stmt [59,129]",
+      "dest": "if_stmt [383,454]"
+    },
+    {
+      "src": "suite [89,129]",
+      "dest": "suite [413,454]"
+    },
+    {
+      "src": "funcdef [21,129]",
+      "dest": "funcdef [21,454]"
+    },
+    {
+      "src": "name: Classroom [6,15]",
+      "dest": "name: Classroom [6,15]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [59,375]",
+      "parent": "suite [50,454]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [426,454]",
+      "parent": "suite [413,454]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [102,129]",
+      "parent": "simple_stmt [426,454]",
+      "at": 0
+    }
+  ]
+}

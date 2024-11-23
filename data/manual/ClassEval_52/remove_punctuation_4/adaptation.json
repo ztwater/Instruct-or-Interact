@@ -1,0 +1,51 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "sentence",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Removes punctuation from the input text.\n        :param sentence: a sentence str\n        :return: str, sentence without any punctuation\n        >>> lemmatization = Lemmatization()\n        >>> lemmatization.remove_punctuation(\"I am running in a race.\")\n        'I am running in a race'\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "text",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "sentence_without_punctuation",
+        "deleted": "text_without_punctuation",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "sentence_without_punctuation",
+        "deleted": "text_without_punctuation",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "sentence",
+        "deleted": "text",
+        "type": "Refactoring"
+    }
+]

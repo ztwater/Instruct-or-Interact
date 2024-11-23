@@ -1,0 +1,209 @@
+{
+  "matches": [
+    {
+      "src": "string: \"No image has been opened.\" [193,220]",
+      "dest": "string: \"No image has been opened.\" [445,472]"
+    },
+    {
+      "src": "operator: , [46,47]",
+      "dest": "operator: , [45,46]"
+    },
+    {
+      "src": "suite [21,221]",
+      "dest": "suite [21,473]"
+    },
+    {
+      "src": "parameters [40,53]",
+      "dest": "parameters [40,57]"
+    },
+    {
+      "src": "trailer [102,107]",
+      "dest": "trailer [349,354]"
+    },
+    {
+      "src": "classdef [0,221]",
+      "dest": "classdef [0,473]"
+    },
+    {
+      "src": "suite [54,221]",
+      "dest": "suite [58,473]"
+    },
+    {
+      "src": "param [48,52]",
+      "dest": "param [47,56]"
+    },
+    {
+      "src": "trailer [131,160]",
+      "dest": "trailer [383,412]"
+    },
+    {
+      "src": "comp_op [72,78]",
+      "dest": "comp_op [314,320]"
+    },
+    {
+      "src": "simple_stmt [97,114]",
+      "dest": "simple_stmt [339,366]"
+    },
+    {
+      "src": "comparison [66,83]",
+      "dest": "comparison [303,325]"
+    },
+    {
+      "src": "name: image [97,102]",
+      "dest": "name: image [344,349]"
+    },
+    {
+      "src": "file_input [0,221]",
+      "dest": "file_input [0,473]"
+    },
+    {
+      "src": "trailer [107,113]",
+      "dest": "trailer [354,365]"
+    },
+    {
+      "src": "string: \"Image saved successfully!\" [132,159]",
+      "dest": "string: \"Image saved successfully!\" [384,411]"
+    },
+    {
+      "src": "name: save [103,107]",
+      "dest": "name: save [350,354]"
+    },
+    {
+      "src": "suite [84,161]",
+      "dest": "suite [326,413]"
+    },
+    {
+      "src": "name: image [41,46]",
+      "dest": "name: self [41,45]"
+    },
+    {
+      "src": "trailer [192,221]",
+      "dest": "trailer [444,473]"
+    },
+    {
+      "src": "name: print [126,131]",
+      "dest": "name: print [378,383]"
+    },
+    {
+      "src": "atom_expr [97,113]",
+      "dest": "atom_expr [339,365]"
+    },
+    {
+      "src": "atom_expr [126,160]",
+      "dest": "atom_expr [378,412]"
+    },
+    {
+      "src": "name: print [187,192]",
+      "dest": "name: print [439,444]"
+    },
+    {
+      "src": "name: path [48,52]",
+      "dest": "name: save_path [47,56]"
+    },
+    {
+      "src": "suite [174,221]",
+      "dest": "suite [426,473]"
+    },
+    {
+      "src": "simple_stmt [126,161]",
+      "dest": "simple_stmt [378,413]"
+    },
+    {
+      "src": "name: save_image [30,40]",
+      "dest": "name: save_image [30,40]"
+    },
+    {
+      "src": "if_stmt [63,221]",
+      "dest": "if_stmt [300,473]"
+    },
+    {
+      "src": "name: image [66,71]",
+      "dest": "name: image [308,313]"
+    },
+    {
+      "src": "atom_expr [187,221]",
+      "dest": "atom_expr [439,473]"
+    },
+    {
+      "src": "funcdef [26,221]",
+      "dest": "funcdef [26,473]"
+    },
+    {
+      "src": "name: ImageProcessor [6,20]",
+      "dest": "name: ImageProcessor [6,20]"
+    },
+    {
+      "src": "name: path [108,112]",
+      "dest": "name: save_path [355,364]"
+    },
+    {
+      "src": "param [41,47]",
+      "dest": "param [41,46]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [67,292]",
+      "parent": "suite [58,473]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: image [41,46]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: path [48,52]",
+      "label": "save_path"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [303,313]",
+      "parent": "comparison [303,325]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [303,307]",
+      "parent": "atom_expr [303,313]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [307,313]",
+      "parent": "atom_expr [303,313]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: image [66,71]",
+      "parent": "trailer [307,313]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [339,343]",
+      "parent": "atom_expr [339,365]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [343,349]",
+      "parent": "atom_expr [339,365]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: image [97,102]",
+      "parent": "trailer [343,349]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: path [108,112]",
+      "label": "save_path"
+    }
+  ]
+}

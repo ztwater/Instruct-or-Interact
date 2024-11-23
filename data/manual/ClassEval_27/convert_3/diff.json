@@ -1,0 +1,518 @@
+{
+  "matches": [
+    {
+      "src": "name: to_currency [1001,1012]",
+      "dest": "name: to_currency [1149,1160]"
+    },
+    {
+      "src": "atom [440,543]",
+      "dest": "atom [716,819]"
+    },
+    {
+      "src": "operator: , [295,296]",
+      "dest": "operator: , [571,572]"
+    },
+    {
+      "src": "classdef [0,1044]",
+      "dest": "classdef [0,1192]"
+    },
+    {
+      "src": "number: 1.18 [341,345]",
+      "dest": "number: 1.18 [617,621]"
+    },
+    {
+      "src": "comparison [793,828]",
+      "dest": "comparison [1007,1036]"
+    },
+    {
+      "src": "atom [192,295]",
+      "dest": "atom [468,571]"
+    },
+    {
+      "src": "operator: } [542,543]",
+      "dest": "operator: } [818,819]"
+    },
+    {
+      "src": "string: 'JPY' [392,397]",
+      "dest": "string: 'JPY' [668,673]"
+    },
+    {
+      "src": "operator: , [250,251]",
+      "dest": "operator: , [526,527]"
+    },
+    {
+      "src": "return_stmt [842,872]",
+      "dest": "return_stmt [1050,1080]"
+    },
+    {
+      "src": "name: value [961,966]",
+      "dest": "name: amount [1108,1114]"
+    },
+    {
+      "src": "atom [316,419]",
+      "dest": "atom [592,695]"
+    },
+    {
+      "src": "name: conversion_rates [969,985]",
+      "dest": "name: conversion_rates [1117,1133]"
+    },
+    {
+      "src": "trailer [1000,1013]",
+      "dest": "trailer [1148,1161]"
+    },
+    {
+      "src": "number: 0.0091 [589,595]",
+      "dest": "number: 0.0091 [865,871]"
+    },
+    {
+      "src": "name: conversion_rates [773,789]",
+      "dest": "name: rates [998,1003]"
+    },
+    {
+      "src": "string: 'EUR' [210,215]",
+      "dest": "string: 'EUR' [486,491]"
+    },
+    {
+      "src": "or_test [752,828]",
+      "dest": "or_test [972,1036]"
+    },
+    {
+      "src": "operator: , [626,627]",
+      "dest": "operator: , [902,903]"
+    },
+    {
+      "src": "string: 'EUR' [309,314]",
+      "dest": "string: 'EUR' [585,590]"
+    },
+    {
+      "src": "name: conversion_rates [812,828]",
+      "dest": "name: rates [1031,1036]"
+    },
+    {
+      "src": "string: 'GBP' [433,438]",
+      "dest": "string: 'GBP' [709,714]"
+    },
+    {
+      "src": "dictorsetmaker [582,657]",
+      "dest": "dictorsetmaker [858,933]"
+    },
+    {
+      "src": "name: from_currency [986,999]",
+      "dest": "name: from_currency [1134,1147]"
+    },
+    {
+      "src": "atom [564,671]",
+      "dest": "atom [840,947]"
+    },
+    {
+      "src": "trailer [985,1000]",
+      "dest": "trailer [1133,1148]"
+    },
+    {
+      "src": "number: 151.32 [523,529]",
+      "dest": "number: 151.32 [799,805]"
+    },
+    {
+      "src": "param [48,62]",
+      "dest": "param [55,69]"
+    },
+    {
+      "src": "operator: { [440,441]",
+      "dest": "operator: { [716,717]"
+    },
+    {
+      "src": "operator: { [192,193]",
+      "dest": "operator: { [468,469]"
+    },
+    {
+      "src": "string: 'USD' [334,339]",
+      "dest": "string: 'USD' [610,615]"
+    },
+    {
+      "src": "string: 'JPY' [516,521]",
+      "dest": "string: 'JPY' [792,797]"
+    },
+    {
+      "src": "param [63,74]",
+      "dest": "param [70,81]"
+    },
+    {
+      "src": "name: convert [33,40]",
+      "dest": "name: convert [33,40]"
+    },
+    {
+      "src": "string: 'EUR' [613,618]",
+      "dest": "string: 'EUR' [889,894]"
+    },
+    {
+      "src": "name: conversion_rates [152,168]",
+      "dest": "name: conversion_rates [428,444]"
+    },
+    {
+      "src": "name: CurrencyConverter [6,23]",
+      "dest": "name: CurrencyConverter [6,23]"
+    },
+    {
+      "src": "operator: , [595,596]",
+      "dest": "operator: , [871,872]"
+    },
+    {
+      "src": "file_input [0,1044]",
+      "dest": "file_input [0,1192]"
+    },
+    {
+      "src": "operator: } [294,295]",
+      "dest": "operator: } [570,571]"
+    },
+    {
+      "src": "number: 1.16 [494,498]",
+      "dest": "number: 1.16 [770,774]"
+    },
+    {
+      "src": "operator: } [670,671]",
+      "dest": "operator: } [946,947]"
+    },
+    {
+      "src": "simple_stmt [842,873]",
+      "dest": "simple_stmt [1050,1081]"
+    },
+    {
+      "src": "return_stmt [1022,1044]",
+      "dest": "return_stmt [1170,1192]"
+    },
+    {
+      "src": "string: 'USD' [185,190]",
+      "dest": "string: 'USD' [461,466]"
+    },
+    {
+      "src": "number: 0.73 [246,250]",
+      "dest": "number: 0.73 [522,526]"
+    },
+    {
+      "src": "operator: , [61,62]",
+      "dest": "operator: , [68,69]"
+    },
+    {
+      "src": "operator: , [46,47]",
+      "dest": "operator: , [45,46]"
+    },
+    {
+      "src": "if_stmt [749,873]",
+      "dest": "if_stmt [969,1081]"
+    },
+    {
+      "src": "string: 'GBP' [239,244]",
+      "dest": "string: 'GBP' [515,520]"
+    },
+    {
+      "src": "number: 130.12 [399,405]",
+      "dest": "number: 130.12 [675,681]"
+    },
+    {
+      "src": "dictorsetmaker [334,405]",
+      "dest": "dictorsetmaker [610,681]"
+    },
+    {
+      "src": "operator: , [498,499]",
+      "dest": "operator: , [774,775]"
+    },
+    {
+      "src": "comparison [752,789]",
+      "dest": "comparison [972,1003]"
+    },
+    {
+      "src": "string: 'GBP' [363,368]",
+      "dest": "string: 'GBP' [639,644]"
+    },
+    {
+      "src": "param [41,47]",
+      "dest": "param [41,46]"
+    },
+    {
+      "src": "simple_stmt [152,682]",
+      "dest": "simple_stmt [428,958]"
+    },
+    {
+      "src": "comp_op [766,772]",
+      "dest": "comp_op [986,992]"
+    },
+    {
+      "src": "string: 'JPY' [557,562]",
+      "dest": "string: 'JPY' [833,838]"
+    },
+    {
+      "src": "operator: } [680,681]",
+      "dest": "operator: } [956,957]"
+    },
+    {
+      "src": "term [961,1013]",
+      "dest": "term [1108,1161]"
+    },
+    {
+      "src": "suite [24,1044]",
+      "dest": "suite [24,1192]"
+    },
+    {
+      "src": "operator: { [171,172]",
+      "dest": "operator: { [447,448]"
+    },
+    {
+      "src": "suite [76,1044]",
+      "dest": "suite [83,1192]"
+    },
+    {
+      "src": "operator: { [564,565]",
+      "dest": "operator: { [840,841]"
+    },
+    {
+      "src": "name: converted_value [943,958]",
+      "dest": "name: converted_value [1090,1105]"
+    },
+    {
+      "src": "operator: , [419,420]",
+      "dest": "operator: , [695,696]"
+    },
+    {
+      "src": "operator: , [543,544]",
+      "dest": "operator: , [819,820]"
+    },
+    {
+      "src": "number: 0.85 [217,221]",
+      "dest": "number: 0.85 [493,497]"
+    },
+    {
+      "src": "name: from_currency [752,765]",
+      "dest": "name: from_currency [972,985]"
+    },
+    {
+      "src": "string: 'USD' [458,463]",
+      "dest": "string: 'USD' [734,739]"
+    },
+    {
+      "src": "simple_stmt [943,1014]",
+      "dest": "simple_stmt [1090,1162]"
+    },
+    {
+      "src": "number: 1.37 [465,469]",
+      "dest": "number: 1.37 [741,745]"
+    },
+    {
+      "src": "comp_op [805,811]",
+      "dest": "comp_op [1019,1025]"
+    },
+    {
+      "src": "string: 'GBP' [644,649]",
+      "dest": "string: 'GBP' [920,925]"
+    },
+    {
+      "src": "operator: * [967,968]",
+      "dest": "operator: * [1115,1116]"
+    },
+    {
+      "src": "number: 109.78 [275,281]",
+      "dest": "number: 109.78 [551,557]"
+    },
+    {
+      "src": "name: value [41,46]",
+      "dest": "name: self [41,45]"
+    },
+    {
+      "src": "name: from_currency [48,61]",
+      "dest": "name: from_currency [55,68]"
+    },
+    {
+      "src": "suite [829,873]",
+      "dest": "suite [1037,1081]"
+    },
+    {
+      "src": "parameters [40,75]",
+      "dest": "parameters [40,82]"
+    },
+    {
+      "src": "operator: = [169,170]",
+      "dest": "operator: = [445,446]"
+    },
+    {
+      "src": "atom_expr [969,1013]",
+      "dest": "atom_expr [1117,1161]"
+    },
+    {
+      "src": "funcdef [29,1044]",
+      "dest": "funcdef [29,1192]"
+    },
+    {
+      "src": "operator: , [345,346]",
+      "dest": "operator: , [621,622]"
+    },
+    {
+      "src": "number: 0.0077 [620,626]",
+      "dest": "number: 0.0077 [896,902]"
+    },
+    {
+      "src": "string: 'JPY' [268,273]",
+      "dest": "string: 'JPY' [544,549]"
+    },
+    {
+      "src": "expr_stmt [152,681]",
+      "dest": "expr_stmt [428,957]"
+    },
+    {
+      "src": "dictorsetmaker [185,671]",
+      "dest": "dictorsetmaker [461,947]"
+    },
+    {
+      "src": "operator: } [418,419]",
+      "dest": "operator: } [694,695]"
+    },
+    {
+      "src": "atom [171,681]",
+      "dest": "atom [447,957]"
+    },
+    {
+      "src": "expr_stmt [943,1013]",
+      "dest": "expr_stmt [1090,1161]"
+    },
+    {
+      "src": "number: 0.0066 [651,657]",
+      "dest": "number: 0.0066 [927,933]"
+    },
+    {
+      "src": "name: to_currency [63,74]",
+      "dest": "name: to_currency [70,81]"
+    },
+    {
+      "src": "operator: , [221,222]",
+      "dest": "operator: , [497,498]"
+    },
+    {
+      "src": "name: converted_value [1029,1044]",
+      "dest": "name: converted_value [1177,1192]"
+    },
+    {
+      "src": "string: \"Invalid currency type\" [849,872]",
+      "dest": "string: \"Invalid currency type\" [1057,1080]"
+    },
+    {
+      "src": "operator: { [316,317]",
+      "dest": "operator: { [592,593]"
+    },
+    {
+      "src": "operator: , [469,470]",
+      "dest": "operator: , [745,746]"
+    },
+    {
+      "src": "dictorsetmaker [210,281]",
+      "dest": "dictorsetmaker [486,557]"
+    },
+    {
+      "src": "dictorsetmaker [458,529]",
+      "dest": "dictorsetmaker [734,805]"
+    },
+    {
+      "src": "operator: = [959,960]",
+      "dest": "operator: = [1106,1107]"
+    },
+    {
+      "src": "number: 0.86 [370,374]",
+      "dest": "number: 0.86 [646,650]"
+    },
+    {
+      "src": "operator: , [374,375]",
+      "dest": "operator: , [650,651]"
+    },
+    {
+      "src": "string: 'EUR' [487,492]",
+      "dest": "string: 'EUR' [763,768]"
+    },
+    {
+      "src": "string: 'USD' [582,587]",
+      "dest": "string: 'USD' [858,863]"
+    },
+    {
+      "src": "name: to_currency [793,804]",
+      "dest": "name: to_currency [1007,1018]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [47,54]",
+      "parent": "parameters [40,82]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [92,420]",
+      "parent": "suite [83,1192]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: value [41,46]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [993,1003]",
+      "parent": "comparison [972,1003]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [1026,1036]",
+      "parent": "comparison [1007,1036]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: value [961,966]",
+      "label": "amount"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [993,997]",
+      "parent": "atom_expr [993,1003]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [997,1003]",
+      "parent": "atom_expr [993,1003]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [1026,1030]",
+      "parent": "atom_expr [1026,1036]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [1030,1036]",
+      "parent": "atom_expr [1026,1036]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: conversion_rates [773,789]",
+      "label": "rates"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: conversion_rates [773,789]",
+      "parent": "trailer [997,1003]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: conversion_rates [812,828]",
+      "label": "rates"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: conversion_rates [812,828]",
+      "parent": "trailer [1030,1036]",
+      "at": 0
+    }
+  ]
+}

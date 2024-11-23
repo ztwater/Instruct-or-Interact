@@ -1,0 +1,81 @@
+{
+  "matches": [
+    {
+      "src": "suite [21,130]",
+      "dest": "suite [21,446]"
+    },
+    {
+      "src": "classdef [0,130]",
+      "dest": "classdef [0,446]"
+    },
+    {
+      "src": "file_input [0,130]",
+      "dest": "file_input [0,446]"
+    },
+    {
+      "src": "name: VendingMachine [6,20]",
+      "dest": "name: VendingMachine [6,20]"
+    },
+    {
+      "src": "funcdef [26,130]",
+      "dest": "funcdef [26,446]"
+    },
+    {
+      "src": "param [42,46]",
+      "dest": "param [42,47]"
+    },
+    {
+      "src": "name: insert_coin [30,41]",
+      "dest": "name: insert_coin [30,41]"
+    },
+    {
+      "src": "name: coin [42,46]",
+      "dest": "name: self [42,46]"
+    },
+    {
+      "src": "parameters [41,47]",
+      "dest": "parameters [41,55]"
+    },
+    {
+      "src": "suite [48,130]",
+      "dest": "suite [56,446]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [48,54]",
+      "parent": "parameters [41,55]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [65,388]",
+      "parent": "suite [56,446]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [396,419]",
+      "parent": "suite [56,446]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "return_stmt [427,446]",
+      "parent": "suite [56,446]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: coin [42,46]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [46,47]",
+      "parent": "param [42,47]",
+      "at": 1
+    }
+  ]
+}

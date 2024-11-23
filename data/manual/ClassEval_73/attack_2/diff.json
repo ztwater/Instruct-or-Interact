@@ -1,0 +1,185 @@
+{
+  "matches": [
+    {
+      "src": "param [35,42]",
+      "dest": "param [35,40]"
+    },
+    {
+      "src": "suite [19,122]",
+      "dest": "suite [19,348]"
+    },
+    {
+      "src": "param [43,50]",
+      "dest": "param [41,56]"
+    },
+    {
+      "src": "name: damage_caused [61,74]",
+      "dest": "name: damage_caused [245,258]"
+    },
+    {
+      "src": "name: RPGCharacter [6,18]",
+      "dest": "name: RPGCharacter [6,18]"
+    },
+    {
+      "src": "name: damage [77,83]",
+      "dest": "name: self [261,265]"
+    },
+    {
+      "src": "classdef [0,122]",
+      "dest": "classdef [0,348]"
+    },
+    {
+      "src": "name: attack [28,34]",
+      "dest": "name: attack [28,34]"
+    },
+    {
+      "src": "suite [52,122]",
+      "dest": "suite [58,348]"
+    },
+    {
+      "src": "name: defense [43,50]",
+      "dest": "name: other_character [41,56]"
+    },
+    {
+      "src": "operator: = [75,76]",
+      "dest": "operator: = [259,260]"
+    },
+    {
+      "src": "name: damage [35,41]",
+      "dest": "name: self [35,39]"
+    },
+    {
+      "src": "arith_expr [77,93]",
+      "dest": "arith_expr [261,304]"
+    },
+    {
+      "src": "expr_stmt [61,93]",
+      "dest": "expr_stmt [245,304]"
+    },
+    {
+      "src": "name: damage_caused [109,122]",
+      "dest": "name: damage_caused [335,348]"
+    },
+    {
+      "src": "name: defense [86,93]",
+      "dest": "name: defense [297,304]"
+    },
+    {
+      "src": "file_input [0,122]",
+      "dest": "file_input [0,348]"
+    },
+    {
+      "src": "simple_stmt [61,94]",
+      "dest": "simple_stmt [245,305]"
+    },
+    {
+      "src": "funcdef [24,122]",
+      "dest": "funcdef [24,348]"
+    },
+    {
+      "src": "parameters [34,51]",
+      "dest": "parameters [34,57]"
+    },
+    {
+      "src": "operator: , [41,42]",
+      "dest": "operator: , [39,40]"
+    },
+    {
+      "src": "operator: - [84,85]",
+      "dest": "operator: - [279,280]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [67,237]",
+      "parent": "suite [58,348]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [313,348]",
+      "parent": "suite [58,348]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: damage [35,41]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: defense [43,50]",
+      "label": "other_character"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [313,331]",
+      "parent": "expr_stmt [313,348]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: -= [332,334]",
+      "parent": "expr_stmt [313,348]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: damage_caused [109,122]",
+      "parent": "expr_stmt [313,348]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [261,278]",
+      "parent": "arith_expr [261,304]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [281,304]",
+      "parent": "arith_expr [261,304]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: damage [77,83]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: damage [77,83]",
+      "parent": "atom_expr [261,278]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [265,278]",
+      "parent": "atom_expr [261,278]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: other_character [281,296]",
+      "parent": "atom_expr [281,304]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [296,304]",
+      "parent": "atom_expr [281,304]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: defense [86,93]",
+      "parent": "trailer [296,304]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "return_stmt [102,122]"
+    }
+  ]
+}

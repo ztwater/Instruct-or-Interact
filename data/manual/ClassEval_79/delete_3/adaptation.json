@@ -1,0 +1,44 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Generates a DELETE SQL statement based on the given condition.\n        :param condition: str. The condition expression for the delete.\n        :return: str. The generated SQL statement.\n        >>> sql.delete(\"field1 = value1\")\n        'DELETE FROM table1 WHERE field1 = value1;'\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".table_name",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "table",
+        "deleted": "table",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "table",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "table_name",
+        "deleted": "table",
+        "type": "Refactoring"
+    }
+]

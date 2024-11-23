@@ -1,0 +1,30 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Extract all email addresses from the text\n        :param text: string, input text\n        :return: list of string, All extracted email addresses\n        >>> ru = RegexUtils()\n        >>> ru.extract_email(\"abcdefg@163.com ygusyfysy@126.com wljduyuv@qq.com\")\n        ['abcdefg@163.com', 'ygusyfysy@126.com', 'wljduyuv@qq.com']\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return emails\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return emails",
+        "deleted": "return emails",
+        "type": "Move"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "text",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Split text based on regular expression patterns and return a list of substrings\n        :param pattern: string, Regular expression pattern\n        :param text: string, Text to be split\n        :return: list of string, List of substrings after splitting\n        >>> ru = RegexUtils()\n        >>> ru.split(r'\\b\\d{3}-\\d{3}-\\d{4}\\b', \"123-456-7890 abiguygusu 876-286-9876 kjgufwycs 987-762-9767\")\n        ['', ' abiguygusu ', ' kjgufwycs ', '']\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "text",
+        "type": "Refactoring"
+    }
+]

@@ -1,0 +1,139 @@
+{
+  "matches": [
+    {
+      "src": "funcdef [30,130]",
+      "dest": "funcdef [30,236]"
+    },
+    {
+      "src": "suite [25,130]",
+      "dest": "suite [25,236]"
+    },
+    {
+      "src": "classdef [0,130]",
+      "dest": "classdef [0,236]"
+    },
+    {
+      "src": "simple_stmt [60,106]",
+      "dest": "simple_stmt [64,207]"
+    },
+    {
+      "src": "file_input [0,130]",
+      "dest": "file_input [0,236]"
+    },
+    {
+      "src": "suite [51,130]",
+      "dest": "suite [55,236]"
+    },
+    {
+      "src": "name: employees [121,130]",
+      "dest": "name: employees [227,236]"
+    },
+    {
+      "src": "name: HRManagementSystem [6,24]",
+      "dest": "name: HRManagementSystem [6,24]"
+    },
+    {
+      "src": "name: list_employees [34,48]",
+      "dest": "name: list_employees [34,48]"
+    },
+    {
+      "src": "string: \"John\" [73,79]",
+      "dest": "string: \"\"\"         List all employees' information in the HRManagementSystem.         :return: A list of all employees' information,dict.         \"\"\" [64,206]"
+    },
+    {
+      "src": "return_stmt [114,130]",
+      "dest": "return_stmt [215,236]"
+    },
+    {
+      "src": "parameters [48,50]",
+      "dest": "parameters [48,54]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [49,53]",
+      "parent": "parameters [48,54]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "string: \"John\" [73,79]",
+      "label": "\"\"\"         List all employees' information in the HRManagementSystem.         :return: A list of all employees' information,dict.         \"\"\""
+    },
+    {
+      "action": "move-tree",
+      "tree": "string: \"John\" [73,79]",
+      "parent": "simple_stmt [64,207]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [222,236]",
+      "parent": "return_stmt [215,236]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [222,226]",
+      "parent": "atom_expr [222,236]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [226,236]",
+      "parent": "atom_expr [222,236]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: employees [121,130]",
+      "parent": "trailer [226,236]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: employees [60,69]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: = [70,71]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [79,80]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"Jane\" [81,87]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [87,88]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"Mike\" [89,95]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [95,96]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"Emily\" [97,104]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "testlist_comp [73,104]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom [72,105]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [60,105]"
+    }
+  ]
+}

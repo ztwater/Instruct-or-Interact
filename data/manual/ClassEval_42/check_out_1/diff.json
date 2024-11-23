@@ -1,0 +1,310 @@
+{
+  "matches": [
+    {
+      "src": "param [48,58]",
+      "dest": "param [37,47]"
+    },
+    {
+      "src": "suite [67,282]",
+      "dest": "suite [12,806]"
+    },
+    {
+      "src": "name: available_rooms [221,236]",
+      "dest": "name: available_rooms [766,781]"
+    },
+    {
+      "src": "atom_expr [221,247]",
+      "dest": "atom_expr [761,792]"
+    },
+    {
+      "src": "name: room_type [79,88]",
+      "dest": "name: room_type [641,650]"
+    },
+    {
+      "src": "funcdef [17,282]",
+      "dest": "funcdef [17,806]"
+    },
+    {
+      "src": "suite [108,252]",
+      "dest": "suite [61,806]"
+    },
+    {
+      "src": "file_input [0,282]",
+      "dest": "file_input [0,806]"
+    },
+    {
+      "src": "param [59,65]",
+      "dest": "param [48,59]"
+    },
+    {
+      "src": "comparison [79,107]",
+      "dest": "comparison [641,674]"
+    },
+    {
+      "src": "param [31,47]",
+      "dest": "param [31,36]"
+    },
+    {
+      "src": "operator: , [57,58]",
+      "dest": "operator: , [46,47]"
+    },
+    {
+      "src": "name: room_type [137,146]",
+      "dest": "name: room_type [709,718]"
+    },
+    {
+      "src": "name: room_type [237,246]",
+      "dest": "name: room_type [782,791]"
+    },
+    {
+      "src": "expr_stmt [221,251]",
+      "dest": "expr_stmt [761,806]"
+    },
+    {
+      "src": "name: available_rooms [92,107]",
+      "dest": "name: available_rooms [659,674]"
+    },
+    {
+      "src": "name: number [151,157]",
+      "dest": "name: room_number [723,734]"
+    },
+    {
+      "src": "name: Hotel [6,11]",
+      "dest": "name: Hotel [6,11]"
+    },
+    {
+      "src": "name: number [59,65]",
+      "dest": "name: room_number [48,59]"
+    },
+    {
+      "src": "suite [204,252]",
+      "dest": "suite [748,806]"
+    },
+    {
+      "src": "name: available_rooms [121,136]",
+      "dest": "name: available_rooms [693,708]"
+    },
+    {
+      "src": "trailer [136,147]",
+      "dest": "trailer [708,719]"
+    },
+    {
+      "src": "trailer [236,247]",
+      "dest": "trailer [781,792]"
+    },
+    {
+      "src": "name: available_rooms [31,46]",
+      "dest": "name: self [31,35]"
+    },
+    {
+      "src": "name: room_type [48,57]",
+      "dest": "name: room_type [37,46]"
+    },
+    {
+      "src": "simple_stmt [121,158]",
+      "dest": "simple_stmt [688,735]"
+    },
+    {
+      "src": "operator: = [248,249]",
+      "dest": "operator: = [793,794]"
+    },
+    {
+      "src": "atom_expr [121,147]",
+      "dest": "atom_expr [688,719]"
+    },
+    {
+      "src": "name: check_out [21,30]",
+      "dest": "name: check_out [21,30]"
+    },
+    {
+      "src": "if_stmt [76,252]",
+      "dest": "if_stmt [638,806]"
+    },
+    {
+      "src": "operator: , [46,47]",
+      "dest": "operator: , [35,36]"
+    },
+    {
+      "src": "classdef [0,282]",
+      "dest": "classdef [0,806]"
+    },
+    {
+      "src": "expr_stmt [121,157]",
+      "dest": "expr_stmt [688,734]"
+    },
+    {
+      "src": "parameters [30,66]",
+      "dest": "parameters [30,60]"
+    },
+    {
+      "src": "operator: -= [148,150]",
+      "dest": "operator: += [720,722]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "move-tree",
+      "tree": "suite [67,282]",
+      "parent": "classdef [0,806]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "funcdef [17,282]",
+      "parent": "suite [12,806]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [108,252]",
+      "parent": "funcdef [17,806]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [70,630]",
+      "parent": "suite [61,806]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "if_stmt [76,252]",
+      "parent": "suite [61,806]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: available_rooms [31,46]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: number [59,65]",
+      "label": "room_number"
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [675,735]",
+      "parent": "if_stmt [638,806]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [204,252]",
+      "parent": "if_stmt [638,806]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [654,674]",
+      "parent": "comparison [641,674]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [121,158]",
+      "parent": "suite [675,735]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "expr_stmt [221,251]",
+      "parent": "suite [748,806]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [654,658]",
+      "parent": "atom_expr [654,674]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [658,674]",
+      "parent": "atom_expr [654,674]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: room_number [795,806]",
+      "parent": "expr_stmt [761,806]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: available_rooms [92,107]",
+      "parent": "trailer [658,674]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: -= [148,150]",
+      "label": "+="
+    },
+    {
+      "action": "update-node",
+      "tree": "name: number [151,157]",
+      "label": "room_number"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [761,765]",
+      "parent": "atom_expr [761,792]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [765,781]",
+      "parent": "atom_expr [761,792]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [688,692]",
+      "parent": "atom_expr [688,719]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [692,708]",
+      "parent": "atom_expr [688,719]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: available_rooms [221,236]",
+      "parent": "trailer [765,781]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: available_rooms [121,136]",
+      "parent": "trailer [692,708]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 0 [250,251]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [221,252]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "comparison [173,203]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "if_stmt [170,252]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "return_stmt [260,282]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [12,282]"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Multiplies two big numbers.\n        :param num1: The first number to multiply,str.\n        :param num2: The second number to multiply,str.\n        :return: The product of the two numbers,str.\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return str(int(num1) * int(num2))\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return str(int(num1) * int(num2))",
+        "deleted": "return str(int(num1) * int(num2))",
+        "type": "Move"
+    }
+]

@@ -1,0 +1,534 @@
+{
+  "matches": [
+    {
+      "src": "operator: += [154,156]",
+      "dest": "operator: += [472,474]"
+    },
+    {
+      "src": "expr_stmt [195,216]",
+      "dest": "expr_stmt [519,531]"
+    },
+    {
+      "src": "suite [19,273]",
+      "dest": "suite [19,599]"
+    },
+    {
+      "src": "simple_stmt [124,133]",
+      "dest": "simple_stmt [428,442]"
+    },
+    {
+      "src": "name: level_up [28,36]",
+      "dest": "name: level_up [28,36]"
+    },
+    {
+      "src": "operator: , [71,72]",
+      "dest": "operator: < [381,382]"
+    },
+    {
+      "src": "classdef [0,273]",
+      "dest": "classdef [0,599]"
+    },
+    {
+      "src": "return_stmt [234,273]",
+      "dest": "return_stmt [540,599]"
+    },
+    {
+      "src": "parameters [36,38]",
+      "dest": "parameters [36,42]"
+    },
+    {
+      "src": "simple_stmt [141,159]",
+      "dest": "simple_stmt [454,477]"
+    },
+    {
+      "src": "expr_stmt [167,186]",
+      "dest": "expr_stmt [489,506]"
+    },
+    {
+      "src": "name: defense_points [259,273]",
+      "dest": "name: defense [592,599]"
+    },
+    {
+      "src": "operator: += [182,184]",
+      "dest": "operator: += [502,504]"
+    },
+    {
+      "src": "operator: , [243,244]",
+      "dest": "operator: , [566,567]"
+    },
+    {
+      "src": "name: hp [241,243]",
+      "dest": "name: hp [564,566]"
+    },
+    {
+      "src": "name: attack_power [59,71]",
+      "dest": "name: level [375,380]"
+    },
+    {
+      "src": "number: 0 [215,216]",
+      "dest": "number: 0 [530,531]"
+    },
+    {
+      "src": "name: defense_points [73,87]",
+      "dest": "name: self [400,404]"
+    },
+    {
+      "src": "name: RPGCharacter [6,18]",
+      "dest": "name: RPGCharacter [6,18]"
+    },
+    {
+      "src": "simple_stmt [195,217]",
+      "dest": "simple_stmt [519,532]"
+    },
+    {
+      "src": "name: attack_power [245,257]",
+      "dest": "name: attack_power [573,585]"
+    },
+    {
+      "src": "file_input [0,273]",
+      "dest": "file_input [0,599]"
+    },
+    {
+      "src": "number: 5 [185,186]",
+      "dest": "number: 5 [505,506]"
+    },
+    {
+      "src": "name: attack_power [141,153]",
+      "dest": "name: attack_power [459,471]"
+    },
+    {
+      "src": "operator: = [213,214]",
+      "dest": "operator: = [528,529]"
+    },
+    {
+      "src": "operator: , [87,88]",
+      "dest": "operator: += [411,413]"
+    },
+    {
+      "src": "testlist_star_expr [241,273]",
+      "dest": "testlist_star_expr [547,599]"
+    },
+    {
+      "src": "name: hp [55,57]",
+      "dest": "name: self [370,374]"
+    },
+    {
+      "src": "expr_stmt [141,158]",
+      "dest": "expr_stmt [454,476]"
+    },
+    {
+      "src": "expr_stmt [124,132]",
+      "dest": "expr_stmt [428,441]"
+    },
+    {
+      "src": "number: 5 [157,158]",
+      "dest": "number: 5 [475,476]"
+    },
+    {
+      "src": "number: 20 [130,132]",
+      "dest": "number: 20 [439,441]"
+    },
+    {
+      "src": "name: hp [124,126]",
+      "dest": "name: hp [433,435]"
+    },
+    {
+      "src": "name: defense_points [167,181]",
+      "dest": "name: defense [494,501]"
+    },
+    {
+      "src": "funcdef [24,273]",
+      "dest": "funcdef [24,599]"
+    },
+    {
+      "src": "suite [39,273]",
+      "dest": "suite [43,599]"
+    },
+    {
+      "src": "operator: , [257,258]",
+      "dest": "operator: , [585,586]"
+    },
+    {
+      "src": "operator: += [127,129]",
+      "dest": "operator: += [436,438]"
+    },
+    {
+      "src": "name: experience_points [195,212]",
+      "dest": "name: exp [524,527]"
+    },
+    {
+      "src": "simple_stmt [167,187]",
+      "dest": "simple_stmt [489,507]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [37,41]",
+      "parent": "parameters [36,42]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [52,359]",
+      "parent": "suite [43,599]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [367,532]",
+      "parent": "suite [43,599]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "comparison [370,386]",
+      "parent": "if_stmt [367,532]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [387,532]",
+      "parent": "if_stmt [367,532]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [370,380]",
+      "parent": "comparison [370,386]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: , [71,72]",
+      "label": "<"
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: , [71,72]",
+      "parent": "comparison [370,386]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "number: 100 [383,386]",
+      "parent": "comparison [370,386]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [400,416]",
+      "parent": "suite [387,532]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [124,133]",
+      "parent": "suite [387,532]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [141,159]",
+      "parent": "suite [387,532]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [167,187]",
+      "parent": "suite [387,532]",
+      "at": 3
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [195,217]",
+      "parent": "suite [387,532]",
+      "at": 4
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [547,557]",
+      "parent": "testlist_star_expr [547,599]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [557,558]",
+      "parent": "testlist_star_expr [547,599]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [559,566]",
+      "parent": "testlist_star_expr [547,599]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [568,585]",
+      "parent": "testlist_star_expr [547,599]",
+      "at": 4
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [587,599]",
+      "parent": "testlist_star_expr [547,599]",
+      "at": 6
+    },
+    {
+      "action": "update-node",
+      "tree": "name: hp [55,57]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: hp [55,57]",
+      "parent": "atom_expr [370,380]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [374,380]",
+      "parent": "atom_expr [370,380]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [400,415]",
+      "parent": "simple_stmt [400,416]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [559,563]",
+      "parent": "atom_expr [559,566]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [563,566]",
+      "parent": "atom_expr [559,566]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [568,572]",
+      "parent": "atom_expr [568,585]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [572,585]",
+      "parent": "atom_expr [568,585]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [587,591]",
+      "parent": "atom_expr [587,599]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [591,599]",
+      "parent": "atom_expr [587,599]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: attack_power [59,71]",
+      "label": "level"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: attack_power [59,71]",
+      "parent": "trailer [374,380]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [400,410]",
+      "parent": "expr_stmt [400,415]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: , [87,88]",
+      "label": "+="
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: , [87,88]",
+      "parent": "expr_stmt [400,415]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "number: 1 [414,415]",
+      "parent": "expr_stmt [400,415]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [428,435]",
+      "parent": "expr_stmt [428,441]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [454,471]",
+      "parent": "expr_stmt [454,476]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [489,501]",
+      "parent": "expr_stmt [489,506]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [519,527]",
+      "parent": "expr_stmt [519,531]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: hp [241,243]",
+      "parent": "trailer [563,566]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: attack_power [245,257]",
+      "parent": "trailer [572,585]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: defense_points [259,273]",
+      "label": "defense"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: defense_points [259,273]",
+      "parent": "trailer [591,599]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: defense_points [73,87]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: defense_points [73,87]",
+      "parent": "atom_expr [400,410]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [404,410]",
+      "parent": "atom_expr [400,410]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [428,432]",
+      "parent": "atom_expr [428,435]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [432,435]",
+      "parent": "atom_expr [428,435]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [454,458]",
+      "parent": "atom_expr [454,471]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [458,471]",
+      "parent": "atom_expr [454,471]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [489,493]",
+      "parent": "atom_expr [489,501]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [493,501]",
+      "parent": "atom_expr [489,501]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [519,523]",
+      "parent": "atom_expr [519,527]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [523,527]",
+      "parent": "atom_expr [519,527]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: hp [124,126]",
+      "parent": "trailer [432,435]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: attack_power [141,153]",
+      "parent": "trailer [458,471]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: defense_points [167,181]",
+      "label": "defense"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: defense_points [167,181]",
+      "parent": "trailer [493,501]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: experience_points [195,212]",
+      "label": "exp"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: experience_points [195,212]",
+      "parent": "trailer [523,527]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [57,58]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: experience_points [89,106]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "global_stmt [48,106]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [48,107]"
+    }
+  ]
+}

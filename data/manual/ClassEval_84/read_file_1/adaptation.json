@@ -1,0 +1,23 @@
+[
+    {
+        "action": "INS",
+        "label": "funcdef",
+        "inserted": "def read_file(self):\n        with open(self.file_path, 'r') as file:\n            content = file.read()\n            return content",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return content\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return content",
+        "deleted": "return content",
+        "type": "Move"
+    }
+]

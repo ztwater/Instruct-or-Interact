@@ -1,0 +1,262 @@
+{
+  "matches": [
+    {
+      "src": "trailer [111,118]",
+      "dest": "trailer [905,912]"
+    },
+    {
+      "src": "atom_expr [86,141]",
+      "dest": "atom_expr [800,854]"
+    },
+    {
+      "src": "suite [22,170]",
+      "dest": "suite [22,940]"
+    },
+    {
+      "src": "string: \"DELETE FROM {} WHERE {}\" [86,111]",
+      "dest": "string: \"DELETE FROM {} WHERE {}\" [800,825]"
+    },
+    {
+      "src": "classdef [0,170]",
+      "dest": "classdef [0,940]"
+    },
+    {
+      "src": "name: format [112,118]",
+      "dest": "name: format [906,912]"
+    },
+    {
+      "src": "param [38,49]",
+      "dest": "param [38,44]"
+    },
+    {
+      "src": "name: sql_statement [157,170]",
+      "dest": "name: query [935,940]"
+    },
+    {
+      "src": "return_stmt [150,170]",
+      "dest": "return_stmt [928,940]"
+    },
+    {
+      "src": "name: condition [131,140]",
+      "dest": "name: condition_str [840,853]"
+    },
+    {
+      "src": "operator: , [48,49]",
+      "dest": "operator: , [43,44]"
+    },
+    {
+      "src": "name: delete [31,37]",
+      "dest": "name: delete [31,37]"
+    },
+    {
+      "src": "file_input [0,170]",
+      "dest": "file_input [0,940]"
+    },
+    {
+      "src": "name: sql_statement [70,83]",
+      "dest": "name: query [792,797]"
+    },
+    {
+      "src": "simple_stmt [70,142]",
+      "dest": "simple_stmt [792,855]"
+    },
+    {
+      "src": "name: SQLQueryBuilder [6,21]",
+      "dest": "name: SQLQueryBuilder [6,21]"
+    },
+    {
+      "src": "operator: = [84,85]",
+      "dest": "operator: = [798,799]"
+    },
+    {
+      "src": "arglist [119,140]",
+      "dest": "arglist [833,853]"
+    },
+    {
+      "src": "name: table_name [119,129]",
+      "dest": "name: table [833,838]"
+    },
+    {
+      "src": "param [50,59]",
+      "dest": "param [45,55]"
+    },
+    {
+      "src": "expr_stmt [70,141]",
+      "dest": "expr_stmt [792,854]"
+    },
+    {
+      "src": "parameters [37,60]",
+      "dest": "parameters [37,56]"
+    },
+    {
+      "src": "operator: , [129,130]",
+      "dest": "operator: , [838,839]"
+    },
+    {
+      "src": "name: condition [50,59]",
+      "dest": "name: where [45,50]"
+    },
+    {
+      "src": "funcdef [27,170]",
+      "dest": "funcdef [27,940]"
+    },
+    {
+      "src": "name: table_name [38,48]",
+      "dest": "name: table [38,43]"
+    },
+    {
+      "src": "trailer [118,141]",
+      "dest": "trailer [832,854]"
+    },
+    {
+      "src": "suite [61,170]",
+      "dest": "suite [57,940]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [66,515]",
+      "parent": "suite [57,940]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [523,539]",
+      "parent": "suite [57,940]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "if_stmt [547,704]",
+      "parent": "suite [57,940]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [712,920]",
+      "parent": "suite [57,940]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: table_name [38,48]",
+      "label": "table"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: condition [50,59]",
+      "label": "where"
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [50,51]",
+      "parent": "param [45,55]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: conditions [715,725]",
+      "parent": "if_stmt [712,920]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [726,855]",
+      "parent": "if_stmt [712,920]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [868,920]",
+      "parent": "if_stmt [712,920]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: sql_statement [157,170]",
+      "label": "query"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [739,780]",
+      "parent": "suite [726,855]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [70,142]",
+      "parent": "suite [726,855]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [881,920]",
+      "parent": "suite [868,920]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [881,919]",
+      "parent": "simple_stmt [881,920]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: sql_statement [70,83]",
+      "label": "query"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: query [881,886]",
+      "parent": "expr_stmt [881,919]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [887,888]",
+      "parent": "expr_stmt [881,919]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [889,919]",
+      "parent": "expr_stmt [881,919]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [825,832]",
+      "parent": "atom_expr [800,854]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: \"DELETE FROM {}\" [889,905]",
+      "parent": "atom_expr [889,919]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [111,118]",
+      "parent": "atom_expr [889,919]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [912,919]",
+      "parent": "atom_expr [889,919]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: table_name [119,129]",
+      "label": "table"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: condition [131,140]",
+      "label": "condition_str"
+    }
+  ]
+}

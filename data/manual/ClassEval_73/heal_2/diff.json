@@ -1,0 +1,186 @@
+{
+  "matches": [
+    {
+      "src": "operator: > [102,103]",
+      "dest": "operator: > [229,230]"
+    },
+    {
+      "src": "suite [19,142]",
+      "dest": "suite [19,261]"
+    },
+    {
+      "src": "parameters [32,43]",
+      "dest": "parameters [32,38]"
+    },
+    {
+      "src": "operator: = [137,138]",
+      "dest": "operator: = [256,257]"
+    },
+    {
+      "src": "trailer [62,68]",
+      "dest": "trailer [200,203]"
+    },
+    {
+      "src": "classdef [0,142]",
+      "dest": "classdef [0,261]"
+    },
+    {
+      "src": "suite [44,142]",
+      "dest": "suite [39,261]"
+    },
+    {
+      "src": "expr_stmt [53,74]",
+      "dest": "expr_stmt [196,209]"
+    },
+    {
+      "src": "atom_expr [86,101]",
+      "dest": "atom_expr [221,228]"
+    },
+    {
+      "src": "trailer [130,136]",
+      "dest": "trailer [252,255]"
+    },
+    {
+      "src": "number: 100 [104,107]",
+      "dest": "number: 100 [231,234]"
+    },
+    {
+      "src": "number: 10 [72,74]",
+      "dest": "number: 10 [207,209]"
+    },
+    {
+      "src": "atom_expr [53,68]",
+      "dest": "atom_expr [196,203]"
+    },
+    {
+      "src": "name: heal [28,32]",
+      "dest": "name: heal [28,32]"
+    },
+    {
+      "src": "file_input [0,142]",
+      "dest": "file_input [0,261]"
+    },
+    {
+      "src": "simple_stmt [53,75]",
+      "dest": "simple_stmt [196,210]"
+    },
+    {
+      "src": "name: character [121,130]",
+      "dest": "name: self [248,252]"
+    },
+    {
+      "src": "operator: += [69,71]",
+      "dest": "operator: += [204,206]"
+    },
+    {
+      "src": "name: character [86,95]",
+      "dest": "name: self [221,225]"
+    },
+    {
+      "src": "param [33,42]",
+      "dest": "param [33,37]"
+    },
+    {
+      "src": "number: 100 [139,142]",
+      "dest": "number: 100 [258,261]"
+    },
+    {
+      "src": "name: RPGCharacter [6,18]",
+      "dest": "name: RPGCharacter [6,18]"
+    },
+    {
+      "src": "comparison [86,107]",
+      "dest": "comparison [221,234]"
+    },
+    {
+      "src": "name: character [53,62]",
+      "dest": "name: self [196,200]"
+    },
+    {
+      "src": "if_stmt [83,142]",
+      "dest": "if_stmt [218,261]"
+    },
+    {
+      "src": "funcdef [24,142]",
+      "dest": "funcdef [24,261]"
+    },
+    {
+      "src": "trailer [95,101]",
+      "dest": "trailer [225,228]"
+    },
+    {
+      "src": "suite [108,142]",
+      "dest": "suite [235,261]"
+    },
+    {
+      "src": "expr_stmt [121,142]",
+      "dest": "expr_stmt [248,261]"
+    },
+    {
+      "src": "name: character [33,42]",
+      "dest": "name: self [33,37]"
+    },
+    {
+      "src": "atom_expr [121,136]",
+      "dest": "atom_expr [248,255]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [48,188]",
+      "parent": "suite [39,261]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: character [33,42]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: character [53,62]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: character [86,95]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: hp [201,203]",
+      "parent": "trailer [200,203]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: hp [226,228]",
+      "parent": "trailer [225,228]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: character [121,130]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: hp [253,255]",
+      "parent": "trailer [252,255]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: 'hp' [63,67]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: 'hp' [96,100]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: 'hp' [131,135]"
+    }
+  ]
+}

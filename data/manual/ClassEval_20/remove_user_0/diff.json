@@ -1,0 +1,205 @@
+{
+  "matches": [
+    {
+      "src": "name: chat [32,36]",
+      "dest": "name: self [32,36]"
+    },
+    {
+      "src": "funcdef [16,234]",
+      "dest": "funcdef [16,384]"
+    },
+    {
+      "src": "name: chat [64,68]",
+      "dest": "name: self [273,277]"
+    },
+    {
+      "src": "name: user [94,98]",
+      "dest": "name: username [312,320]"
+    },
+    {
+      "src": "comparison [56,68]",
+      "dest": "comparison [261,283]"
+    },
+    {
+      "src": "suite [11,234]",
+      "dest": "suite [11,384]"
+    },
+    {
+      "src": "if_stmt [53,234]",
+      "dest": "if_stmt [258,384]"
+    },
+    {
+      "src": "suite [179,234]",
+      "dest": "suite [359,384]"
+    },
+    {
+      "src": "name: user [56,60]",
+      "dest": "name: username [261,269]"
+    },
+    {
+      "src": "param [32,37]",
+      "dest": "param [32,37]"
+    },
+    {
+      "src": "trailer [93,99]",
+      "dest": "trailer [311,321]"
+    },
+    {
+      "src": "operator: , [36,37]",
+      "dest": "operator: , [36,37]"
+    },
+    {
+      "src": "classdef [0,234]",
+      "dest": "classdef [0,384]"
+    },
+    {
+      "src": "name: user [38,42]",
+      "dest": "name: username [38,46]"
+    },
+    {
+      "src": "trailer [86,93]",
+      "dest": "trailer [305,311]"
+    },
+    {
+      "src": "name: Chat [6,10]",
+      "dest": "name: Chat [6,10]"
+    },
+    {
+      "src": "name: remove [87,93]",
+      "dest": "name: users [306,311]"
+    },
+    {
+      "src": "name: remove_user [20,31]",
+      "dest": "name: remove_user [20,31]"
+    },
+    {
+      "src": "param [38,42]",
+      "dest": "param [38,46]"
+    },
+    {
+      "src": "name: chat [82,86]",
+      "dest": "name: self [301,305]"
+    },
+    {
+      "src": "file_input [0,238]",
+      "dest": "file_input [0,384]"
+    },
+    {
+      "src": "suite [69,166]",
+      "dest": "suite [284,346]"
+    },
+    {
+      "src": "atom_expr [82,99]",
+      "dest": "atom_expr [301,321]"
+    },
+    {
+      "src": "suite [44,234]",
+      "dest": "suite [48,384]"
+    },
+    {
+      "src": "simple_stmt [112,166]",
+      "dest": "simple_stmt [334,346]"
+    },
+    {
+      "src": "parameters [31,43]",
+      "dest": "parameters [31,47]"
+    },
+    {
+      "src": "simple_stmt [82,100]",
+      "dest": "simple_stmt [297,322]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [57,250]",
+      "parent": "suite [48,384]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: chat [32,36]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: user [38,42]",
+      "label": "username"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: user [56,60]",
+      "label": "username"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [273,283]",
+      "parent": "comparison [261,283]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "return_stmt [372,384]",
+      "parent": "suite [359,384]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: chat [64,68]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: chat [64,68]",
+      "parent": "atom_expr [273,283]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [277,283]",
+      "parent": "atom_expr [273,283]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "del_stmt [297,321]",
+      "parent": "simple_stmt [297,322]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "return_stmt [334,345]",
+      "parent": "simple_stmt [334,346]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [82,99]",
+      "parent": "del_stmt [297,321]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: chat [82,86]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: remove [87,93]",
+      "label": "users"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: user [94,98]",
+      "label": "username"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "atom_expr [112,165]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [192,234]"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "matches": [
+    {
+      "src": "return_stmt [100,110]",
+      "dest": "return_stmt [262,272]"
+    },
+    {
+      "src": "name: bmi [63,66]",
+      "dest": "name: bmi [215,218]"
+    },
+    {
+      "src": "suite [21,110]",
+      "dest": "suite [21,272]"
+    },
+    {
+      "src": "power [79,90]",
+      "dest": "power [236,252]"
+    },
+    {
+      "src": "name: height [79,85]",
+      "dest": "name: height [241,247]"
+    },
+    {
+      "src": "classdef [0,110]",
+      "dest": "classdef [0,272]"
+    },
+    {
+      "src": "suite [54,110]",
+      "dest": "suite [44,272]"
+    },
+    {
+      "src": "param [38,45]",
+      "dest": "param [38,42]"
+    },
+    {
+      "src": "operator: / [76,77]",
+      "dest": "operator: / [233,234]"
+    },
+    {
+      "src": "number: 2 [89,90]",
+      "dest": "number: 2 [251,252]"
+    },
+    {
+      "src": "name: bmi [107,110]",
+      "dest": "name: bmi [269,272]"
+    },
+    {
+      "src": "operator: = [67,68]",
+      "dest": "operator: = [219,220]"
+    },
+    {
+      "src": "name: height [38,44]",
+      "dest": "name: self [38,42]"
+    },
+    {
+      "src": "operator: ** [86,88]",
+      "dest": "operator: ** [248,250]"
+    },
+    {
+      "src": "term [69,91]",
+      "dest": "term [221,253]"
+    },
+    {
+      "src": "parameters [37,53]",
+      "dest": "parameters [37,43]"
+    },
+    {
+      "src": "file_input [0,110]",
+      "dest": "file_input [0,272]"
+    },
+    {
+      "src": "simple_stmt [63,92]",
+      "dest": "simple_stmt [215,254]"
+    },
+    {
+      "src": "funcdef [26,110]",
+      "dest": "funcdef [26,272]"
+    },
+    {
+      "src": "atom [78,91]",
+      "dest": "atom [235,253]"
+    },
+    {
+      "src": "name: FitnessTracker [6,20]",
+      "dest": "name: FitnessTracker [6,20]"
+    },
+    {
+      "src": "expr_stmt [63,91]",
+      "dest": "expr_stmt [215,253]"
+    },
+    {
+      "src": "name: weight [69,75]",
+      "dest": "name: weight [226,232]"
+    },
+    {
+      "src": "name: get_BMI [30,37]",
+      "dest": "name: get_BMI [30,37]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [53,207]",
+      "parent": "suite [44,272]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: height [38,44]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [221,232]",
+      "parent": "term [221,253]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [221,225]",
+      "parent": "atom_expr [221,232]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [225,232]",
+      "parent": "atom_expr [221,232]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: weight [69,75]",
+      "parent": "trailer [225,232]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [236,247]",
+      "parent": "power [236,252]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [236,240]",
+      "parent": "atom_expr [236,247]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [240,247]",
+      "parent": "atom_expr [236,247]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: height [79,85]",
+      "parent": "trailer [240,247]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [44,45]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "param [46,52]"
+    }
+  ]
+}

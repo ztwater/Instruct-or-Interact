@@ -1,0 +1,409 @@
+{
+  "matches": [
+    {
+      "src": "suite [19,544]",
+      "dest": "suite [19,964]"
+    },
+    {
+      "src": "string: '9:00 AM' [457,466]",
+      "dest": "string: 'date' [734,740]"
+    },
+    {
+      "src": "name: get_available_slots [28,47]",
+      "dest": "name: get_available_slots [28,47]"
+    },
+    {
+      "src": "operator: = [454,455]",
+      "dest": "operator: = [674,675]"
+    },
+    {
+      "src": "classdef [0,544]",
+      "dest": "classdef [0,964]"
+    },
+    {
+      "src": "operator: , [466,467]",
+      "dest": "operator: == [749,751]"
+    },
+    {
+      "src": "suite [54,544]",
+      "dest": "suite [60,964]"
+    },
+    {
+      "src": "name: CalendarUtil [6,18]",
+      "dest": "name: CalendarUtil [6,18]"
+    },
+    {
+      "src": "parameters [47,53]",
+      "dest": "parameters [47,59]"
+    },
+    {
+      "src": "name: available_slots [438,453]",
+      "dest": "name: available_slots [658,673]"
+    },
+    {
+      "src": "operator: , [490,491]",
+      "dest": "operator: = [837,838]"
+    },
+    {
+      "src": "return_stmt [522,544]",
+      "dest": "return_stmt [942,964]"
+    },
+    {
+      "src": "operator: , [478,479]",
+      "dest": "operator: = [792,793]"
+    },
+    {
+      "src": "file_input [0,544]",
+      "dest": "file_input [0,964]"
+    },
+    {
+      "src": "name: available_slots [529,544]",
+      "dest": "name: available_slots [949,964]"
+    },
+    {
+      "src": "operator: , [501,502]",
+      "dest": "operator: , [921,922]"
+    },
+    {
+      "src": "param [48,52]",
+      "dest": "param [54,58]"
+    },
+    {
+      "src": "funcdef [24,544]",
+      "dest": "funcdef [24,964]"
+    },
+    {
+      "src": "string: '11:00 AM' [480,490]",
+      "dest": "string: 'end_time' [800,810]"
+    },
+    {
+      "src": "name: date [48,52]",
+      "dest": "name: date [54,58]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [48,53]",
+      "parent": "parameters [47,59]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [69,650]",
+      "parent": "suite [60,964]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [658,679]",
+      "parent": "suite [60,964]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "for_stmt [687,934]",
+      "parent": "suite [60,964]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [658,678]",
+      "parent": "simple_stmt [658,679]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: event [691,696]",
+      "parent": "for_stmt [687,934]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [700,711]",
+      "parent": "for_stmt [687,934]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [712,934]",
+      "parent": "for_stmt [687,934]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: available_slots [438,453]",
+      "parent": "expr_stmt [658,678]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: = [454,455]",
+      "parent": "expr_stmt [658,678]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom [676,678]",
+      "parent": "expr_stmt [658,678]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [725,934]",
+      "parent": "suite [712,934]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "comparison [728,763]",
+      "parent": "if_stmt [725,934]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [764,934]",
+      "parent": "if_stmt [725,934]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [728,748]",
+      "parent": "comparison [728,763]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: , [466,467]",
+      "label": "=="
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: , [466,467]",
+      "parent": "comparison [728,763]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [752,763]",
+      "parent": "comparison [728,763]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [781,812]",
+      "parent": "suite [764,934]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [828,871]",
+      "parent": "suite [764,934]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [887,934]",
+      "parent": "suite [764,934]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: event [728,733]",
+      "parent": "atom_expr [728,748]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [733,741]",
+      "parent": "atom_expr [728,748]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [741,746]",
+      "parent": "atom_expr [728,748]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [746,748]",
+      "parent": "atom_expr [728,748]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [781,811]",
+      "parent": "simple_stmt [781,812]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [828,870]",
+      "parent": "simple_stmt [828,871]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [887,933]",
+      "parent": "simple_stmt [887,934]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "string: '9:00 AM' [457,466]",
+      "label": "'date'"
+    },
+    {
+      "action": "move-tree",
+      "tree": "string: '9:00 AM' [457,466]",
+      "parent": "trailer [733,741]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: start_time [781,791]",
+      "parent": "expr_stmt [781,811]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: , [478,479]",
+      "label": "="
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: , [478,479]",
+      "parent": "expr_stmt [781,811]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [794,811]",
+      "parent": "expr_stmt [781,811]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: end_time [828,836]",
+      "parent": "expr_stmt [828,870]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: , [490,491]",
+      "label": "="
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: , [490,491]",
+      "parent": "expr_stmt [828,870]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "arith_expr [839,870]",
+      "parent": "expr_stmt [828,870]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: available_slots [887,902]",
+      "parent": "atom_expr [887,933]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [902,909]",
+      "parent": "atom_expr [887,933]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [909,933]",
+      "parent": "atom_expr [887,933]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: event [794,799]",
+      "parent": "atom_expr [794,811]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [799,811]",
+      "parent": "atom_expr [794,811]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom [910,932]",
+      "parent": "trailer [909,933]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "string: '11:00 AM' [480,490]",
+      "label": "'end_time'"
+    },
+    {
+      "action": "move-tree",
+      "tree": "string: '11:00 AM' [480,490]",
+      "parent": "trailer [799,811]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "testlist_comp [911,931]",
+      "parent": "atom [910,932]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: start_time [911,921]",
+      "parent": "testlist_comp [911,931]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: , [501,502]",
+      "parent": "testlist_comp [911,931]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: end_time [923,931]",
+      "parent": "testlist_comp [911,931]",
+      "at": 2
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: '10:00 AM' [468,478]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: '2:00 PM' [492,501]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: '3:00 PM' [503,512]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "testlist_comp [457,512]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom [456,513]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [438,513]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [438,514]"
+    }
+  ]
+}

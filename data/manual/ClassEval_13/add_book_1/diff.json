@@ -1,0 +1,334 @@
+{
+  "matches": [
+    {
+      "src": "name: x [155,156]",
+      "dest": "name: x [383,384]"
+    },
+    {
+      "src": "name: inventory [98,107]",
+      "dest": "name: inventory [309,318]"
+    },
+    {
+      "src": "name: append [108,114]",
+      "dest": "name: append [319,325]"
+    },
+    {
+      "src": "suite [21,169]",
+      "dest": "suite [21,397]"
+    },
+    {
+      "src": "name: sort [139,143]",
+      "dest": "name: sort [367,371]"
+    },
+    {
+      "src": "suite [85,121]",
+      "dest": "suite [291,344]"
+    },
+    {
+      "src": "classdef [0,169]",
+      "dest": "classdef [0,397]"
+    },
+    {
+      "src": "suite [58,169]",
+      "dest": "suite [64,397]"
+    },
+    {
+      "src": "name: book [71,75]",
+      "dest": "name: _ [270,271]"
+    },
+    {
+      "src": "name: book [115,119]",
+      "dest": "name: title [336,341]"
+    },
+    {
+      "src": "trailer [159,168]",
+      "dest": "trailer [387,396]"
+    },
+    {
+      "src": "operator: , [48,49]",
+      "dest": "operator: , [43,44]"
+    },
+    {
+      "src": "parameters [38,57]",
+      "dest": "parameters [38,63]"
+    },
+    {
+      "src": "name: inventory [39,48]",
+      "dest": "name: self [39,43]"
+    },
+    {
+      "src": "name: add_book [30,38]",
+      "dest": "name: add_book [30,38]"
+    },
+    {
+      "src": "atom_expr [98,120]",
+      "dest": "atom_expr [304,343]"
+    },
+    {
+      "src": "operator: * [50,51]",
+      "dest": "operator: , [50,51]"
+    },
+    {
+      "src": "file_input [0,169]",
+      "dest": "file_input [0,397]"
+    },
+    {
+      "src": "trailer [138,143]",
+      "dest": "trailer [366,371]"
+    },
+    {
+      "src": "string: 'title' [160,167]",
+      "dest": "string: 'title' [388,395]"
+    },
+    {
+      "src": "trailer [114,120]",
+      "dest": "trailer [325,343]"
+    },
+    {
+      "src": "name: BookManagement [6,20]",
+      "dest": "name: BookManagement [6,20]"
+    },
+    {
+      "src": "param [155,156]",
+      "dest": "param [383,384]"
+    },
+    {
+      "src": "name: x [158,159]",
+      "dest": "name: x [386,387]"
+    },
+    {
+      "src": "trailer [107,114]",
+      "dest": "trailer [318,325]"
+    },
+    {
+      "src": "atom_expr [158,168]",
+      "dest": "atom_expr [386,396]"
+    },
+    {
+      "src": "name: key [144,147]",
+      "dest": "name: key [372,375]"
+    },
+    {
+      "src": "lambdef [148,168]",
+      "dest": "lambdef [376,396]"
+    },
+    {
+      "src": "simple_stmt [98,121]",
+      "dest": "simple_stmt [304,344]"
+    },
+    {
+      "src": "param [39,49]",
+      "dest": "param [39,44]"
+    },
+    {
+      "src": "trailer [143,169]",
+      "dest": "trailer [371,397]"
+    },
+    {
+      "src": "atom_expr [129,169]",
+      "dest": "atom_expr [352,397]"
+    },
+    {
+      "src": "name: books [79,84]",
+      "dest": "name: range [275,280]"
+    },
+    {
+      "src": "operator: = [147,148]",
+      "dest": "operator: = [375,376]"
+    },
+    {
+      "src": "for_stmt [67,121]",
+      "dest": "for_stmt [266,344]"
+    },
+    {
+      "src": "funcdef [26,169]",
+      "dest": "funcdef [26,397]"
+    },
+    {
+      "src": "name: books [51,56]",
+      "dest": "name: quantity [52,60]"
+    },
+    {
+      "src": "argument [144,168]",
+      "dest": "argument [372,396]"
+    },
+    {
+      "src": "name: inventory [129,138]",
+      "dest": "name: inventory [357,366]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "param [45,51]",
+      "parent": "parameters [38,63]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "param [52,62]",
+      "parent": "parameters [38,63]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [73,258]",
+      "parent": "suite [64,397]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: inventory [39,48]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: title [45,50]",
+      "parent": "param [45,51]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: * [50,51]",
+      "label": ","
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: * [50,51]",
+      "parent": "param [45,51]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: books [51,56]",
+      "label": "quantity"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: books [51,56]",
+      "parent": "param [52,62]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [60,61]",
+      "parent": "param [52,62]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "number: 1 [61,62]",
+      "parent": "param [52,62]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: book [71,75]",
+      "label": "_"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [275,290]",
+      "parent": "for_stmt [266,344]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [352,356]",
+      "parent": "atom_expr [352,397]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [356,366]",
+      "parent": "atom_expr [352,397]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: books [79,84]",
+      "label": "range"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: books [79,84]",
+      "parent": "atom_expr [275,290]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [280,290]",
+      "parent": "atom_expr [275,290]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: inventory [129,138]",
+      "parent": "trailer [356,366]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [304,308]",
+      "parent": "atom_expr [304,343]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [308,318]",
+      "parent": "atom_expr [304,343]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: inventory [98,107]",
+      "parent": "trailer [308,318]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom [326,342]",
+      "parent": "trailer [325,343]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: { [326,327]",
+      "parent": "atom [326,342]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "dictorsetmaker [327,341]",
+      "parent": "atom [326,342]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: } [341,342]",
+      "parent": "atom [326,342]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: 'title' [327,334]",
+      "parent": "dictorsetmaker [327,341]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: book [115,119]",
+      "label": "title"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: book [115,119]",
+      "parent": "dictorsetmaker [327,341]",
+      "at": 1
+    },
+    {
+      "action": "delete-node",
+      "tree": "param [50,56]"
+    }
+  ]
+}

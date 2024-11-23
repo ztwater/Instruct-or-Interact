@@ -1,0 +1,184 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "y,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "z,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "x_interp,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "interpolated_values = []\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "zip(x_interp, y_interp)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "interpolated_values",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "y_inter",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "interpolated_values",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".append",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "(interpolated_value)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "param",
+        "inserted": "",
+        "deleted": "data,",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "MOV",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Interpolates a value in a 2D grid using bilinear interpolation.\n        \n        Args:\n            data (list): A 2D grid of values.\n            x (float): The x-coordinate of the point to interpolate.\n            y (float): The y-coordinate of the point to interpolate.\n        \n        Returns:\n            float: The interpolated value at the given coordinates.\n        \"\"\"\n",
+        "deleted": "\"\"\"\n        Interpolates a value in a 2D grid using bilinear interpolation.\n        \n        Args:\n            data (list): A 2D grid of values.\n            x (float): The x-coordinate of the point to interpolate.\n            y (float): The y-coordinate of the point to interpolate.\n        \n        Returns:\n            float: The interpolated value at the given coordinates.\n        \"\"\"\n",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "data",
+        "deleted": "data",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": ",",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "interpolated_value",
+        "deleted": "interpolated_value",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "y_interp",
+        "deleted": "y",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "string:",
+        "inserted": "\"\"\"\n        Linear interpolation of two-dimensional data\n        :param x: The x-coordinate of the data point, list.\n        :param y: The y-coordinate of the data point, list.\n        :param z: The z-coordinate of the data point, list.\n        :param x_interp: The x-coordinate of the interpolation point, list.\n        :param y_interp: The y-coordinate of the interpolation point, list.\n        :return: The z-coordinate of the interpolation point, list.\n        \"\"\"",
+        "deleted": "\"\"\"\n        Interpolates a value in a 2D grid using bilinear interpolation.\n        \n        Args:\n            data (list): A 2D grid of values.\n            x (float): The x-coordinate of the point to interpolate.\n            y (float): The y-coordinate of the point to interpolate.\n        \n        Returns:\n            float: The interpolated value at the given coordinates.\n        \"\"\"",
+        "type": "Documentation"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "x_inter",
+        "deleted": "data",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "z",
+        "deleted": "data",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "z",
+        "deleted": "data",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "z",
+        "deleted": "data",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "z",
+        "deleted": "data",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "x_inter",
+        "deleted": "x",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "y_inter",
+        "deleted": "y",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "x_inter",
+        "deleted": "x",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "y_inter",
+        "deleted": "y",
+        "type": "Refactoring"
+    }
+]

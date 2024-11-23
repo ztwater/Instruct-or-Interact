@@ -1,0 +1,218 @@
+{
+  "matches": [
+    {
+      "src": "trailer [72,77]",
+      "dest": "trailer [210,215]"
+    },
+    {
+      "src": "suite [19,179]",
+      "dest": "suite [19,317]"
+    },
+    {
+      "src": "trailer [128,130]",
+      "dest": "trailer [266,268]"
+    },
+    {
+      "src": "atom_expr [99,107]",
+      "dest": "atom_expr [237,245]"
+    },
+    {
+      "src": "param [41,44]",
+      "dest": "param [47,50]"
+    },
+    {
+      "src": "classdef [0,179]",
+      "dest": "classdef [0,317]"
+    },
+    {
+      "src": "suite [46,179]",
+      "dest": "suite [52,317]"
+    },
+    {
+      "src": "trailer [66,72]",
+      "dest": "trailer [204,210]"
+    },
+    {
+      "src": "subscript [149,151]",
+      "dest": "subscript [287,289]"
+    },
+    {
+      "src": "number: 0 [105,106]",
+      "dest": "number: 0 [243,244]"
+    },
+    {
+      "src": "trailer [112,117]",
+      "dest": "trailer [250,255]"
+    },
+    {
+      "src": "return_stmt [162,179]",
+      "dest": "return_stmt [300,317]"
+    },
+    {
+      "src": "name: CamelCaseMap [6,18]",
+      "dest": "name: CamelCaseMap [6,18]"
+    },
+    {
+      "src": "operator: = [61,62]",
+      "dest": "operator: = [199,200]"
+    },
+    {
+      "src": "atom_expr [118,130]",
+      "dest": "atom_expr [256,268]"
+    },
+    {
+      "src": "trailer [122,128]",
+      "dest": "trailer [260,266]"
+    },
+    {
+      "src": "name: word [135,139]",
+      "dest": "name: word [273,277]"
+    },
+    {
+      "src": "string: '' [110,112]",
+      "dest": "string: '' [248,250]"
+    },
+    {
+      "src": "sync_comp_for [131,152]",
+      "dest": "sync_comp_for [269,290]"
+    },
+    {
+      "src": "name: split [67,72]",
+      "dest": "name: split [205,210]"
+    },
+    {
+      "src": "operator: = [97,98]",
+      "dest": "operator: = [235,236]"
+    },
+    {
+      "src": "funcdef [24,179]",
+      "dest": "funcdef [24,317]"
+    },
+    {
+      "src": "number: 1 [149,150]",
+      "dest": "number: 1 [287,288]"
+    },
+    {
+      "src": "string: '_' [73,76]",
+      "dest": "string: '_' [211,214]"
+    },
+    {
+      "src": "name: word [118,122]",
+      "dest": "name: word [256,260]"
+    },
+    {
+      "src": "expr_stmt [86,153]",
+      "dest": "expr_stmt [224,291]"
+    },
+    {
+      "src": "operator: + [108,109]",
+      "dest": "operator: + [246,247]"
+    },
+    {
+      "src": "trailer [148,152]",
+      "dest": "trailer [286,290]"
+    },
+    {
+      "src": "name: words [99,104]",
+      "dest": "name: words [237,242]"
+    },
+    {
+      "src": "name: key [63,66]",
+      "dest": "name: key [201,204]"
+    },
+    {
+      "src": "name: camel_case [86,96]",
+      "dest": "name: camel_case [224,234]"
+    },
+    {
+      "src": "arith_expr [99,153]",
+      "dest": "arith_expr [237,291]"
+    },
+    {
+      "src": "file_input [0,179]",
+      "dest": "file_input [0,317]"
+    },
+    {
+      "src": "name: title [123,128]",
+      "dest": "name: title [261,266]"
+    },
+    {
+      "src": "name: camel_case [169,179]",
+      "dest": "name: camel_case [307,317]"
+    },
+    {
+      "src": "name: join [113,117]",
+      "dest": "name: join [251,255]"
+    },
+    {
+      "src": "atom_expr [143,152]",
+      "dest": "atom_expr [281,290]"
+    },
+    {
+      "src": "trailer [104,107]",
+      "dest": "trailer [242,245]"
+    },
+    {
+      "src": "argument [118,152]",
+      "dest": "argument [256,290]"
+    },
+    {
+      "src": "trailer [117,153]",
+      "dest": "trailer [255,291]"
+    },
+    {
+      "src": "atom_expr [110,153]",
+      "dest": "atom_expr [248,291]"
+    },
+    {
+      "src": "atom_expr [63,77]",
+      "dest": "atom_expr [201,215]"
+    },
+    {
+      "src": "parameters [40,45]",
+      "dest": "parameters [40,51]"
+    },
+    {
+      "src": "name: words [143,148]",
+      "dest": "name: words [281,286]"
+    },
+    {
+      "src": "simple_stmt [55,78]",
+      "dest": "simple_stmt [193,216]"
+    },
+    {
+      "src": "simple_stmt [86,154]",
+      "dest": "simple_stmt [224,292]"
+    },
+    {
+      "src": "expr_stmt [55,77]",
+      "dest": "expr_stmt [193,215]"
+    },
+    {
+      "src": "name: words [55,60]",
+      "dest": "name: words [193,198]"
+    },
+    {
+      "src": "name: key [41,44]",
+      "dest": "name: key [47,50]"
+    },
+    {
+      "src": "name: _convert_key [28,40]",
+      "dest": "name: _convert_key [28,40]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [41,46]",
+      "parent": "parameters [40,51]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [61,185]",
+      "parent": "suite [52,317]",
+      "at": 0
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "matches": [
+    {
+      "src": "suite [17,227]",
+      "dest": "suite [17,301]"
+    },
+    {
+      "src": "name: generate_phone_number_pattern [26,55]",
+      "dest": "name: generate_phone_number_pattern [26,55]"
+    },
+    {
+      "src": "name: pattern [220,227]",
+      "dest": "name: pattern [293,300]"
+    },
+    {
+      "src": "name: pattern [122,129]",
+      "dest": "name: pattern [243,250]"
+    },
+    {
+      "src": "classdef [0,227]",
+      "dest": "classdef [0,301]"
+    },
+    {
+      "src": "suite [58,227]",
+      "dest": "suite [62,301]"
+    },
+    {
+      "src": "name: RegexUtils [6,16]",
+      "dest": "name: RegexUtils [6,16]"
+    },
+    {
+      "src": "parameters [55,57]",
+      "dest": "parameters [55,61]"
+    },
+    {
+      "src": "expr_stmt [122,195]",
+      "dest": "expr_stmt [243,277]"
+    },
+    {
+      "src": "return_stmt [213,227]",
+      "dest": "return_stmt [286,300]"
+    },
+    {
+      "src": "string: r'^\\+?\\d{1,3}[-.\\s]?\\(?\\d{1,3}\\)?[-.\\s]?\\d{1,4}[-.\\s]?\\d{1,4}$' [132,195]",
+      "dest": "string: r'\\b\\d{3}-\\d{3}-\\d{4}\\b' [253,277]"
+    },
+    {
+      "src": "file_input [0,227]",
+      "dest": "file_input [0,301]"
+    },
+    {
+      "src": "simple_stmt [122,196]",
+      "dest": "simple_stmt [243,278]"
+    },
+    {
+      "src": "funcdef [22,227]",
+      "dest": "funcdef [22,301]"
+    },
+    {
+      "src": "operator: = [130,131]",
+      "dest": "operator: = [251,252]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [56,60]",
+      "parent": "parameters [55,61]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [71,235]",
+      "parent": "suite [62,301]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [286,301]",
+      "parent": "suite [62,301]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [213,227]",
+      "parent": "simple_stmt [286,301]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "string: r'^\\+?\\d{1,3}[-.\\s]?\\(?\\d{1,3}\\)?[-.\\s]?\\d{1,4}[-.\\s]?\\d{1,4}$' [132,195]",
+      "label": "r'\\b\\d{3}-\\d{3}-\\d{4}\\b'"
+    }
+  ]
+}

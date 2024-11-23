@@ -1,0 +1,16 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Replace consecutive line breaks with a single line break\n        :param text: string with consecutive line breaks\n        :return: string, replaced text with single line break\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    }
+]

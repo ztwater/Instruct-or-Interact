@@ -1,0 +1,95 @@
+{
+  "matches": [
+    {
+      "src": "parameters [58,80]",
+      "dest": "parameters [58,64]"
+    },
+    {
+      "src": "simple_stmt [148,189]",
+      "dest": "simple_stmt [74,402]"
+    },
+    {
+      "src": "classdef [0,437]",
+      "dest": "classdef [0,442]"
+    },
+    {
+      "src": "name: RegexUtils [6,16]",
+      "dest": "name: RegexUtils [6,16]"
+    },
+    {
+      "src": "param [59,69]",
+      "dest": "param [59,63]"
+    },
+    {
+      "src": "file_input [0,437]",
+      "dest": "file_input [0,442]"
+    },
+    {
+      "src": "suite [17,437]",
+      "dest": "suite [17,442]"
+    },
+    {
+      "src": "name: sentence1 [59,68]",
+      "dest": "name: self [59,63]"
+    },
+    {
+      "src": "funcdef [22,437]",
+      "dest": "funcdef [22,442]"
+    },
+    {
+      "src": "name: generate_split_sentences_pattern [26,58]",
+      "dest": "name: generate_split_sentences_pattern [26,58]"
+    },
+    {
+      "src": "suite [81,437]",
+      "dest": "suite [65,442]"
+    },
+    {
+      "src": "return_stmt [423,437]",
+      "dest": "return_stmt [410,442]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "update-node",
+      "tree": "name: sentence1 [59,68]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: \"\"\"         Generate regular expression patterns that match the middle characters of two sentences         :return: string, regular expression patterns that match the middle characters of two sentences         >>> ru = RegexUtils()         >>> ru.generate_split_sentences_pattern()         '[.!?][\\s]{1,2}(?=[A-Z])'         \"\"\" [74,401]",
+      "parent": "simple_stmt [74,402]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: '[.!?][\\s]{1,2}(?=[A-Z])' [417,442]",
+      "parent": "return_stmt [410,442]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [68,69]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "param [70,79]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "expr_stmt [148,188]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [265,306]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [373,406]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: pattern [430,437]"
+    }
+  ]
+}

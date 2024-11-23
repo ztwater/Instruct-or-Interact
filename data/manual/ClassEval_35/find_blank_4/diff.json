@@ -1,0 +1,232 @@
+{
+  "matches": [
+    {
+      "src": "trailer [124,147]",
+      "dest": "trailer [114,129]"
+    },
+    {
+      "src": "name: len [77,80]",
+      "dest": "name: len [75,78]"
+    },
+    {
+      "src": "suite [18,227]",
+      "dest": "suite [18,201]"
+    },
+    {
+      "src": "atom_expr [77,95]",
+      "dest": "atom_expr [75,85]"
+    },
+    {
+      "src": "classdef [0,227]",
+      "dest": "classdef [0,201]"
+    },
+    {
+      "src": "trailer [184,187]",
+      "dest": "trailer [158,161]"
+    },
+    {
+      "src": "name: range [119,124]",
+      "dest": "name: range [109,114]"
+    },
+    {
+      "src": "suite [53,227]",
+      "dest": "suite [51,201]"
+    },
+    {
+      "src": "name: i [182,183]",
+      "dest": "name: i [156,157]"
+    },
+    {
+      "src": "name: range [71,76]",
+      "dest": "name: range [69,74]"
+    },
+    {
+      "src": "testlist_comp [222,226]",
+      "dest": "testlist_comp [196,200]"
+    },
+    {
+      "src": "name: current_state [168,181]",
+      "dest": "name: state [150,155]"
+    },
+    {
+      "src": "atom_expr [168,187]",
+      "dest": "atom_expr [150,161]"
+    },
+    {
+      "src": "if_stmt [165,227]",
+      "dest": "if_stmt [147,201]"
+    },
+    {
+      "src": "comparison [168,192]",
+      "dest": "comparison [150,166]"
+    },
+    {
+      "src": "name: j [185,186]",
+      "dest": "name: j [159,160]"
+    },
+    {
+      "src": "number: 0 [191,192]",
+      "dest": "number: 0 [165,166]"
+    },
+    {
+      "src": "atom [221,227]",
+      "dest": "atom [195,201]"
+    },
+    {
+      "src": "atom_expr [129,145]",
+      "dest": "atom_expr [119,127]"
+    },
+    {
+      "src": "for_stmt [110,227]",
+      "dest": "for_stmt [100,201]"
+    },
+    {
+      "src": "atom_expr [119,147]",
+      "dest": "atom_expr [109,129]"
+    },
+    {
+      "src": "name: current_state [129,142]",
+      "dest": "name: state [119,124]"
+    },
+    {
+      "src": "suite [148,227]",
+      "dest": "suite [130,201]"
+    },
+    {
+      "src": "funcdef [23,227]",
+      "dest": "funcdef [23,201]"
+    },
+    {
+      "src": "atom_expr [71,96]",
+      "dest": "atom_expr [69,86]"
+    },
+    {
+      "src": "trailer [76,96]",
+      "dest": "trailer [74,86]"
+    },
+    {
+      "src": "name: current_state [81,94]",
+      "dest": "name: state [79,84]"
+    },
+    {
+      "src": "name: find_blank [27,37]",
+      "dest": "name: find_blank [27,37]"
+    },
+    {
+      "src": "suite [193,227]",
+      "dest": "suite [167,201]"
+    },
+    {
+      "src": "trailer [128,146]",
+      "dest": "trailer [118,128]"
+    },
+    {
+      "src": "trailer [80,95]",
+      "dest": "trailer [78,85]"
+    },
+    {
+      "src": "name: current_state [38,51]",
+      "dest": "name: state [44,49]"
+    },
+    {
+      "src": "atom_expr [125,146]",
+      "dest": "atom_expr [115,128]"
+    },
+    {
+      "src": "name: j [114,115]",
+      "dest": "name: j [104,105]"
+    },
+    {
+      "src": "file_input [0,227]",
+      "dest": "file_input [0,201]"
+    },
+    {
+      "src": "suite [97,227]",
+      "dest": "suite [87,201]"
+    },
+    {
+      "src": "param [38,51]",
+      "dest": "param [44,49]"
+    },
+    {
+      "src": "parameters [37,52]",
+      "dest": "parameters [37,50]"
+    },
+    {
+      "src": "name: i [222,223]",
+      "dest": "name: i [196,197]"
+    },
+    {
+      "src": "operator: == [188,190]",
+      "dest": "operator: == [162,164]"
+    },
+    {
+      "src": "trailer [181,184]",
+      "dest": "trailer [155,158]"
+    },
+    {
+      "src": "name: j [225,226]",
+      "dest": "name: j [199,200]"
+    },
+    {
+      "src": "name: i [143,144]",
+      "dest": "name: i [125,126]"
+    },
+    {
+      "src": "operator: , [223,224]",
+      "dest": "operator: , [197,198]"
+    },
+    {
+      "src": "return_stmt [214,227]",
+      "dest": "return_stmt [188,201]"
+    },
+    {
+      "src": "trailer [142,145]",
+      "dest": "trailer [124,127]"
+    },
+    {
+      "src": "name: i [66,67]",
+      "dest": "name: i [64,65]"
+    },
+    {
+      "src": "name: EightPuzzle [6,17]",
+      "dest": "name: EightPuzzle [6,17]"
+    },
+    {
+      "src": "for_stmt [62,227]",
+      "dest": "for_stmt [60,201]"
+    },
+    {
+      "src": "name: len [125,128]",
+      "dest": "name: len [115,118]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [38,43]",
+      "parent": "parameters [37,50]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: current_state [38,51]",
+      "label": "state"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: current_state [81,94]",
+      "label": "state"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: current_state [168,181]",
+      "label": "state"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: current_state [129,142]",
+      "label": "state"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "matches": [
+    {
+      "src": "suite [24,154]",
+      "dest": "suite [24,292]"
+    },
+    {
+      "src": "trailer [124,129]",
+      "dest": "trailer [262,267]"
+    },
+    {
+      "src": "arglist [68,87]",
+      "dest": "arglist [206,225]"
+    },
+    {
+      "src": "classdef [0,154]",
+      "dest": "classdef [0,292]"
+    },
+    {
+      "src": "operator: = [118,119]",
+      "dest": "operator: = [256,257]"
+    },
+    {
+      "src": "suite [49,154]",
+      "dest": "suite [49,292]"
+    },
+    {
+      "src": "with_item [63,96]",
+      "dest": "with_item [201,234]"
+    },
+    {
+      "src": "name: file_path [73,82]",
+      "dest": "name: file_path [211,220]"
+    },
+    {
+      "src": "name: self [43,47]",
+      "dest": "name: self [43,47]"
+    },
+    {
+      "src": "atom_expr [68,82]",
+      "dest": "atom_expr [206,220]"
+    },
+    {
+      "src": "return_stmt [140,154]",
+      "dest": "return_stmt [278,292]"
+    },
+    {
+      "src": "name: read_file [33,42]",
+      "dest": "name: read_file [33,42]"
+    },
+    {
+      "src": "trailer [72,82]",
+      "dest": "trailer [210,220]"
+    },
+    {
+      "src": "name: file [92,96]",
+      "dest": "name: file [230,234]"
+    },
+    {
+      "src": "name: TextFileProcessor [6,23]",
+      "dest": "name: TextFileProcessor [6,23]"
+    },
+    {
+      "src": "atom_expr [63,88]",
+      "dest": "atom_expr [201,226]"
+    },
+    {
+      "src": "name: content [110,117]",
+      "dest": "name: content [248,255]"
+    },
+    {
+      "src": "trailer [67,88]",
+      "dest": "trailer [205,226]"
+    },
+    {
+      "src": "file_input [0,154]",
+      "dest": "file_input [0,292]"
+    },
+    {
+      "src": "atom_expr [120,131]",
+      "dest": "atom_expr [258,269]"
+    },
+    {
+      "src": "trailer [129,131]",
+      "dest": "trailer [267,269]"
+    },
+    {
+      "src": "name: file [120,124]",
+      "dest": "name: file [258,262]"
+    },
+    {
+      "src": "suite [97,132]",
+      "dest": "suite [235,270]"
+    },
+    {
+      "src": "parameters [42,48]",
+      "dest": "parameters [42,48]"
+    },
+    {
+      "src": "name: self [68,72]",
+      "dest": "name: self [206,210]"
+    },
+    {
+      "src": "string: 'r' [84,87]",
+      "dest": "string: 'r' [222,225]"
+    },
+    {
+      "src": "expr_stmt [110,131]",
+      "dest": "expr_stmt [248,269]"
+    },
+    {
+      "src": "simple_stmt [110,132]",
+      "dest": "simple_stmt [248,270]"
+    },
+    {
+      "src": "operator: , [82,83]",
+      "dest": "operator: , [220,221]"
+    },
+    {
+      "src": "name: read [125,129]",
+      "dest": "name: read [263,267]"
+    },
+    {
+      "src": "param [43,47]",
+      "dest": "param [43,47]"
+    },
+    {
+      "src": "name: content [147,154]",
+      "dest": "name: content [285,292]"
+    },
+    {
+      "src": "with_stmt [58,132]",
+      "dest": "with_stmt [196,270]"
+    },
+    {
+      "src": "name: open [63,67]",
+      "dest": "name: open [201,205]"
+    },
+    {
+      "src": "funcdef [29,154]",
+      "dest": "funcdef [29,292]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [58,188]",
+      "parent": "suite [49,292]",
+      "at": 0
+    }
+  ]
+}

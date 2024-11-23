@@ -1,0 +1,51 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Convert the temperature from Celsius to Fahrenheit.\n        :return: the temperature in Fahrenheit, float.\n        >>> weatherSystem = WeatherSystem('New York')\n        >>> weatherSystem.temperature = 27\n        >>> weatherSystem.celsius_to_fahrenheit()\n        80.6\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return fahrenheit\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".temperature",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return fahrenheit",
+        "deleted": "return fahrenheit",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "celsius",
+        "deleted": "celsius",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "celsius",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "celsius",
+        "type": "Refactoring"
+    }
+]

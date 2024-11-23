@@ -1,0 +1,58 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "output_filepath",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Read files in self.readers which stores handles to multiple PDF files.\n        Merge them to one pdf and update the page number, then save in disk.\n        :param output_filepath: str, ouput file path to save to\n        :return: str, \"Merged PDFs saved at {output_filepath}\" if successfully merged\n        >>> handler = PDFHandler(['a.pdf', 'b.pdf'])\n        >>> handler.merge_pdfs('out.pdf')\n        Merged PDFs saved at out.pdf\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "merged_pdf.close()\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "return_stmt",
+        "inserted": "return f\"Merged PDFs saved at {output_filepath}\"",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "output_filepath",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "string",
+        "inserted": "",
+        "deleted": "\"merged.pdf\"",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "merged_pdf.close()",
+        "deleted": "merged_pdf.close()",
+        "type": "Move"
+    }
+]

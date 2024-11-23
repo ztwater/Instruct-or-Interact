@@ -1,0 +1,243 @@
+{
+  "matches": [
+    {
+      "src": "name: lst [72,75]",
+      "dest": "name: data [421,425]"
+    },
+    {
+      "src": "suite [18,191]",
+      "dest": "suite [18,557]"
+    },
+    {
+      "src": "param [35,38]",
+      "dest": "param [35,39]"
+    },
+    {
+      "src": "classdef [0,191]",
+      "dest": "classdef [0,557]"
+    },
+    {
+      "src": "suite [40,191]",
+      "dest": "suite [41,557]"
+    },
+    {
+      "src": "name: z_score [27,34]",
+      "dest": "name: z_score [27,34]"
+    },
+    {
+      "src": "operator: - [138,139]",
+      "dest": "operator: - [503,504]"
+    },
+    {
+      "src": "name: Statistics3 [6,17]",
+      "dest": "name: Statistics3 [6,17]"
+    },
+    {
+      "src": "trailer [66,71]",
+      "dest": "trailer [415,420]"
+    },
+    {
+      "src": "name: lst [163,166]",
+      "dest": "name: data [528,532]"
+    },
+    {
+      "src": "parameters [34,39]",
+      "dest": "parameters [34,40]"
+    },
+    {
+      "src": "trailer [109,114]",
+      "dest": "trailer [473,479]"
+    },
+    {
+      "src": "trailer [103,109]",
+      "dest": "trailer [454,473]"
+    },
+    {
+      "src": "name: x [136,137]",
+      "dest": "name: x [501,502]"
+    },
+    {
+      "src": "name: x [158,159]",
+      "dest": "name: x [523,524]"
+    },
+    {
+      "src": "trailer [71,76]",
+      "dest": "trailer [420,426]"
+    },
+    {
+      "src": "sync_comp_for [154,166]",
+      "dest": "sync_comp_for [519,532]"
+    },
+    {
+      "src": "atom [134,167]",
+      "dest": "atom [499,533]"
+    },
+    {
+      "src": "simple_stmt [49,77]",
+      "dest": "simple_stmt [397,427]"
+    },
+    {
+      "src": "name: mean [67,71]",
+      "dest": "name: mean [416,420]"
+    },
+    {
+      "src": "name: statistics [56,66]",
+      "dest": "name: Statistics3 [404,415]"
+    },
+    {
+      "src": "simple_stmt [85,115]",
+      "dest": "simple_stmt [435,480]"
+    },
+    {
+      "src": "funcdef [23,191]",
+      "dest": "funcdef [23,557]"
+    },
+    {
+      "src": "expr_stmt [49,76]",
+      "dest": "expr_stmt [397,426]"
+    },
+    {
+      "src": "atom_expr [93,114]",
+      "dest": "atom_expr [443,479]"
+    },
+    {
+      "src": "term [135,153]",
+      "dest": "term [500,518]"
+    },
+    {
+      "src": "name: z_scores [183,191]",
+      "dest": "name: z_scores [549,557]"
+    },
+    {
+      "src": "name: z_scores [123,131]",
+      "dest": "name: z_scores [488,496]"
+    },
+    {
+      "src": "name: statistics [93,103]",
+      "dest": "name: Statistics3 [443,454]"
+    },
+    {
+      "src": "atom_expr [56,76]",
+      "dest": "atom_expr [404,426]"
+    },
+    {
+      "src": "atom [135,145]",
+      "dest": "atom [500,510]"
+    },
+    {
+      "src": "testlist_comp [135,166]",
+      "dest": "testlist_comp [500,532]"
+    },
+    {
+      "src": "operator: = [54,55]",
+      "dest": "operator: = [402,403]"
+    },
+    {
+      "src": "expr_stmt [85,114]",
+      "dest": "expr_stmt [435,479]"
+    },
+    {
+      "src": "name: lst [110,113]",
+      "dest": "name: data [474,478]"
+    },
+    {
+      "src": "name: stdev [104,109]",
+      "dest": "name: standard_deviation [455,473]"
+    },
+    {
+      "src": "name: lst [35,38]",
+      "dest": "name: data [35,39]"
+    },
+    {
+      "src": "operator: = [91,92]",
+      "dest": "operator: = [441,442]"
+    },
+    {
+      "src": "file_input [0,191]",
+      "dest": "file_input [0,557]"
+    },
+    {
+      "src": "expr_stmt [123,167]",
+      "dest": "expr_stmt [488,533]"
+    },
+    {
+      "src": "return_stmt [176,191]",
+      "dest": "return_stmt [542,557]"
+    },
+    {
+      "src": "name: mean [140,144]",
+      "dest": "name: mean [505,509]"
+    },
+    {
+      "src": "name: stdev [85,90]",
+      "dest": "name: stdev [435,440]"
+    },
+    {
+      "src": "name: stdev [148,153]",
+      "dest": "name: stdev [513,518]"
+    },
+    {
+      "src": "operator: / [146,147]",
+      "dest": "operator: / [511,512]"
+    },
+    {
+      "src": "operator: = [132,133]",
+      "dest": "operator: = [497,498]"
+    },
+    {
+      "src": "arith_expr [136,144]",
+      "dest": "arith_expr [501,509]"
+    },
+    {
+      "src": "simple_stmt [123,168]",
+      "dest": "simple_stmt [488,534]"
+    },
+    {
+      "src": "name: mean [49,53]",
+      "dest": "name: mean [397,401]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [50,389]",
+      "parent": "suite [41,557]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: lst [35,38]",
+      "label": "data"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: statistics [56,66]",
+      "label": "Statistics3"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: statistics [93,103]",
+      "label": "Statistics3"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: lst [72,75]",
+      "label": "data"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: stdev [104,109]",
+      "label": "standard_deviation"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: lst [110,113]",
+      "label": "data"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: lst [163,166]",
+      "label": "data"
+    }
+  ]
+}

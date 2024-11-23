@@ -1,0 +1,16 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "UPD",
+        "label": "string",
+        "inserted": "r\"<pre><code>(.*?)</code></pre>\"",
+        "deleted": "r\"<code>(.*?)</code>\"",
+        "type": "Logic"
+    }
+]

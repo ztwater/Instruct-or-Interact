@@ -1,0 +1,44 @@
+[
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".cart",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "[0]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "['quantity']",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "quantity",
+        "deleted": "quantity",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "order",
+        "deleted": "quantity",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "order",
+        "deleted": "quantity",
+        "type": "Refactoring"
+    }
+]

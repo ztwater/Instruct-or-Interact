@@ -1,0 +1,189 @@
+{
+  "matches": [
+    {
+      "src": "parameters [58,80]",
+      "dest": "parameters [58,64]"
+    },
+    {
+      "src": "name: sentence1 [59,68]",
+      "dest": "name: self [59,63]"
+    },
+    {
+      "src": "simple_stmt [148,189]",
+      "dest": "simple_stmt [410,437]"
+    },
+    {
+      "src": "name: middle1 [386,393]",
+      "dest": "name: middle1 [493,500]"
+    },
+    {
+      "src": "suite [81,437]",
+      "dest": "suite [65,534]"
+    },
+    {
+      "src": "file_input [0,437]",
+      "dest": "file_input [0,534]"
+    },
+    {
+      "src": "expr_stmt [148,188]",
+      "dest": "expr_stmt [410,436]"
+    },
+    {
+      "src": "fstring [383,405]",
+      "dest": "fstring [490,511]"
+    },
+    {
+      "src": "name: middle1 [148,155]",
+      "dest": "name: middle1 [410,417]"
+    },
+    {
+      "src": "name: middle2 [396,403]",
+      "dest": "name: middle2 [502,509]"
+    },
+    {
+      "src": "expr_stmt [265,305]",
+      "dest": "expr_stmt [445,471]"
+    },
+    {
+      "src": "name: middle2 [265,272]",
+      "dest": "name: middle2 [445,452]"
+    },
+    {
+      "src": "return_stmt [423,437]",
+      "dest": "return_stmt [520,534]"
+    },
+    {
+      "src": "funcdef [22,437]",
+      "dest": "funcdef [22,534]"
+    },
+    {
+      "src": "operator: = [156,157]",
+      "dest": "operator: = [418,419]"
+    },
+    {
+      "src": "name: pattern [430,437]",
+      "dest": "name: pattern [527,534]"
+    },
+    {
+      "src": "operator: } [403,404]",
+      "dest": "operator: } [509,510]"
+    },
+    {
+      "src": "name: generate_split_sentences_pattern [26,58]",
+      "dest": "name: generate_split_sentences_pattern [26,58]"
+    },
+    {
+      "src": "fstring_expr [395,404]",
+      "dest": "fstring_expr [501,510]"
+    },
+    {
+      "src": "fstring_end: \" [404,405]",
+      "dest": "fstring_end: \" [510,511]"
+    },
+    {
+      "src": "operator: = [381,382]",
+      "dest": "operator: = [488,489]"
+    },
+    {
+      "src": "operator: } [393,394]",
+      "dest": "operator: } [500,501]"
+    },
+    {
+      "src": "fstring_expr [385,394]",
+      "dest": "fstring_expr [492,501]"
+    },
+    {
+      "src": "operator: { [395,396]",
+      "dest": "operator: { [501,502]"
+    },
+    {
+      "src": "simple_stmt [265,306]",
+      "dest": "simple_stmt [445,472]"
+    },
+    {
+      "src": "name: RegexUtils [6,16]",
+      "dest": "name: RegexUtils [6,16]"
+    },
+    {
+      "src": "suite [17,437]",
+      "dest": "suite [17,534]"
+    },
+    {
+      "src": "name: pattern [373,380]",
+      "dest": "name: pattern [480,487]"
+    },
+    {
+      "src": "simple_stmt [373,406]",
+      "dest": "simple_stmt [480,512]"
+    },
+    {
+      "src": "param [59,69]",
+      "dest": "param [59,63]"
+    },
+    {
+      "src": "operator: = [273,274]",
+      "dest": "operator: = [453,454]"
+    },
+    {
+      "src": "fstring_start: f\" [383,385]",
+      "dest": "fstring_start: f\" [490,492]"
+    },
+    {
+      "src": "classdef [0,437]",
+      "dest": "classdef [0,534]"
+    },
+    {
+      "src": "expr_stmt [373,405]",
+      "dest": "expr_stmt [480,511]"
+    },
+    {
+      "src": "operator: { [385,386]",
+      "dest": "operator: { [492,493]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [74,402]",
+      "parent": "suite [65,534]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: sentence1 [59,68]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: r\"\\w(?<![\\s\\W])\" [420,436]",
+      "parent": "expr_stmt [410,436]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: r\"(?<![\\s\\W])\\w\" [455,471]",
+      "parent": "expr_stmt [445,471]",
+      "at": 2
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [68,69]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "param [70,79]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "atom_expr [158,188]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "atom_expr [275,305]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_string: . [394,395]"
+    }
+  ]
+}

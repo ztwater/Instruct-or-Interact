@@ -1,0 +1,76 @@
+{
+  "matches": [
+    {
+      "src": "param [51,59]",
+      "dest": "param [57,65]"
+    },
+    {
+      "src": "suite [18,279]",
+      "dest": "suite [18,682]"
+    },
+    {
+      "src": "name: search_user_by_username [27,50]",
+      "dest": "name: search_user_by_username [27,50]"
+    },
+    {
+      "src": "name: username [51,59]",
+      "dest": "name: username [57,65]"
+    },
+    {
+      "src": "classdef [0,279]",
+      "dest": "classdef [0,682]"
+    },
+    {
+      "src": "parameters [50,60]",
+      "dest": "parameters [50,66]"
+    },
+    {
+      "src": "file_input [0,279]",
+      "dest": "file_input [0,682]"
+    },
+    {
+      "src": "suite [61,279]",
+      "dest": "suite [67,682]"
+    },
+    {
+      "src": "name: UserLoginDB [6,17]",
+      "dest": "name: UserLoginDB [6,17]"
+    },
+    {
+      "src": "funcdef [23,279]",
+      "dest": "funcdef [23,682]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [51,56]",
+      "parent": "parameters [50,66]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [76,544]",
+      "parent": "suite [67,682]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [552,625]",
+      "parent": "suite [67,682]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [633,663]",
+      "parent": "suite [67,682]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "return_stmt [671,682]",
+      "parent": "suite [67,682]",
+      "at": 3
+    }
+  ]
+}

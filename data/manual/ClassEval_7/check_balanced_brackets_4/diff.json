@@ -1,0 +1,560 @@
+{
+  "matches": [
+    {
+      "src": "comparison [416,483]",
+      "dest": "comparison [470,547]"
+    },
+    {
+      "src": "number: 0 [556,557]",
+      "dest": "number: 0 [625,626]"
+    },
+    {
+      "src": "trailer [477,483]",
+      "dest": "trailer [541,547]"
+    },
+    {
+      "src": "suite [23,557]",
+      "dest": "suite [23,626]"
+    },
+    {
+      "src": "name: index [433,438]",
+      "dest": "name: index [489,494]"
+    },
+    {
+      "src": "classdef [0,557]",
+      "dest": "classdef [0,626]"
+    },
+    {
+      "src": "trailer [432,438]",
+      "dest": "trailer [488,494]"
+    },
+    {
+      "src": "suite [68,557]",
+      "dest": "suite [62,626]"
+    },
+    {
+      "src": "name: check_balanced_brackets [32,55]",
+      "dest": "name: check_balanced_brackets [32,55]"
+    },
+    {
+      "src": "name: stack [546,551]",
+      "dest": "name: stack [615,620]"
+    },
+    {
+      "src": "name: stack [272,277]",
+      "dest": "name: stack [318,323]"
+    },
+    {
+      "src": "name: char [285,289]",
+      "dest": "name: char [331,335]"
+    },
+    {
+      "src": "name: expression [203,213]",
+      "dest": "name: expr [248,252]"
+    },
+    {
+      "src": "simple_stmt [272,291]",
+      "dest": "simple_stmt [313,337]"
+    },
+    {
+      "src": "name: len [542,545]",
+      "dest": "name: self [610,614]"
+    },
+    {
+      "src": "parameters [55,67]",
+      "dest": "parameters [55,61]"
+    },
+    {
+      "src": "name: closing_brackets [455,471]",
+      "dest": "name: right_brackets [521,535]"
+    },
+    {
+      "src": "trailer [284,290]",
+      "dest": "trailer [330,336]"
+    },
+    {
+      "src": "return_stmt [384,396]",
+      "dest": "return_stmt [438,450]"
+    },
+    {
+      "src": "name: BalancedBrackets [6,22]",
+      "dest": "name: BalancedBrackets [6,22]"
+    },
+    {
+      "src": "comparison [230,254]",
+      "dest": "comparison [269,295]"
+    },
+    {
+      "src": "operator: == [553,555]",
+      "dest": "operator: == [622,624]"
+    },
+    {
+      "src": "name: opening_brackets [238,254]",
+      "dest": "name: left_brackets [282,295]"
+    },
+    {
+      "src": "name: index [472,477]",
+      "dest": "name: index [536,541]"
+    },
+    {
+      "src": "if_stmt [227,518]",
+      "dest": "if_stmt [266,582]"
+    },
+    {
+      "src": "suite [333,518]",
+      "dest": "suite [382,582]"
+    },
+    {
+      "src": "trailer [444,448]",
+      "dest": "trailer [505,509]"
+    },
+    {
+      "src": "name: pop [445,448]",
+      "dest": "name: pop [506,509]"
+    },
+    {
+      "src": "suite [255,291]",
+      "dest": "suite [296,337]"
+    },
+    {
+      "src": "name: closing_brackets [316,332]",
+      "dest": "name: right_brackets [367,381]"
+    },
+    {
+      "src": "funcdef [28,557]",
+      "dest": "funcdef [28,626]"
+    },
+    {
+      "src": "operator: != [452,454]",
+      "dest": "operator: != [513,515]"
+    },
+    {
+      "src": "simple_stmt [96,131]",
+      "dest": "simple_stmt [71,223]"
+    },
+    {
+      "src": "trailer [448,450]",
+      "dest": "trailer [509,511]"
+    },
+    {
+      "src": "name: append [278,284]",
+      "dest": "name: append [324,330]"
+    },
+    {
+      "src": "trailer [545,552]",
+      "dest": "trailer [614,620]"
+    },
+    {
+      "src": "atom_expr [455,483]",
+      "dest": "atom_expr [516,547]"
+    },
+    {
+      "src": "return_stmt [535,557]",
+      "dest": "return_stmt [599,626]"
+    },
+    {
+      "src": "name: char [230,234]",
+      "dest": "name: char [269,273]"
+    },
+    {
+      "src": "string: '(' [116,119]",
+      "dest": "string: \"\"\"         Checks if the expression has balanced brackets.         :return: True if the expression has balanced brackets, False otherwise.         \"\"\" [71,222]"
+    },
+    {
+      "src": "trailer [471,477]",
+      "dest": "trailer [535,541]"
+    },
+    {
+      "src": "if_stmt [413,518]",
+      "dest": "if_stmt [467,582]"
+    },
+    {
+      "src": "if_stmt [350,397]",
+      "dest": "if_stmt [399,451]"
+    },
+    {
+      "src": "atom_expr [542,552]",
+      "dest": "atom_expr [610,620]"
+    },
+    {
+      "src": "name: stack [439,444]",
+      "dest": "name: stack [500,505]"
+    },
+    {
+      "src": "file_input [0,557]",
+      "dest": "file_input [0,626]"
+    },
+    {
+      "src": "suite [214,518]",
+      "dest": "suite [253,582]"
+    },
+    {
+      "src": "param [56,66]",
+      "dest": "param [56,60]"
+    },
+    {
+      "src": "suite [484,518]",
+      "dest": "suite [548,582]"
+    },
+    {
+      "src": "simple_stmt [384,397]",
+      "dest": "simple_stmt [438,451]"
+    },
+    {
+      "src": "comparison [308,332]",
+      "dest": "comparison [354,381]"
+    },
+    {
+      "src": "name: opening_brackets [416,432]",
+      "dest": "name: left_brackets [475,488]"
+    },
+    {
+      "src": "trailer [438,451]",
+      "dest": "trailer [494,512]"
+    },
+    {
+      "src": "name: stack [357,362]",
+      "dest": "name: stack [411,416]"
+    },
+    {
+      "src": "name: expression [56,66]",
+      "dest": "name: self [56,60]"
+    },
+    {
+      "src": "atom_expr [272,290]",
+      "dest": "atom_expr [313,336]"
+    },
+    {
+      "src": "suite [363,397]",
+      "dest": "suite [417,451]"
+    },
+    {
+      "src": "return_stmt [505,517]",
+      "dest": "return_stmt [569,581]"
+    },
+    {
+      "src": "not_test [353,362]",
+      "dest": "not_test [402,416]"
+    },
+    {
+      "src": "simple_stmt [505,518]",
+      "dest": "simple_stmt [569,582]"
+    },
+    {
+      "src": "atom_expr [439,450]",
+      "dest": "atom_expr [495,511]"
+    },
+    {
+      "src": "comparison [542,557]",
+      "dest": "comparison [606,626]"
+    },
+    {
+      "src": "trailer [277,284]",
+      "dest": "trailer [323,330]"
+    },
+    {
+      "src": "name: char [308,312]",
+      "dest": "name: char [354,358]"
+    },
+    {
+      "src": "for_stmt [191,518]",
+      "dest": "for_stmt [231,582]"
+    },
+    {
+      "src": "name: char [478,482]",
+      "dest": "name: char [542,546]"
+    },
+    {
+      "src": "atom_expr [416,451]",
+      "dest": "atom_expr [470,512]"
+    },
+    {
+      "src": "name: char [195,199]",
+      "dest": "name: char [235,239]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "update-node",
+      "tree": "name: expression [56,66]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "string: '(' [116,119]",
+      "label": "\"\"\"         Checks if the expression has balanced brackets.         :return: True if the expression has balanced brackets, False otherwise.         \"\"\""
+    },
+    {
+      "action": "move-tree",
+      "tree": "string: '(' [116,119]",
+      "parent": "simple_stmt [71,223]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [243,252]",
+      "parent": "for_stmt [231,582]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [243,247]",
+      "parent": "atom_expr [243,252]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [247,252]",
+      "parent": "atom_expr [243,252]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [606,621]",
+      "parent": "comparison [606,626]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: expression [203,213]",
+      "label": "expr"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: expression [203,213]",
+      "parent": "trailer [247,252]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: len [606,609]",
+      "parent": "atom_expr [606,621]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [609,621]",
+      "parent": "atom_expr [606,621]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [277,295]",
+      "parent": "comparison [269,295]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [362,381]",
+      "parent": "comparison [354,381]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [542,552]",
+      "parent": "trailer [609,621]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [277,281]",
+      "parent": "atom_expr [277,295]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [281,295]",
+      "parent": "atom_expr [277,295]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [362,366]",
+      "parent": "atom_expr [362,381]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [366,381]",
+      "parent": "atom_expr [362,381]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: len [542,545]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: opening_brackets [238,254]",
+      "label": "left_brackets"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: opening_brackets [238,254]",
+      "parent": "trailer [281,295]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [313,317]",
+      "parent": "atom_expr [313,336]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [317,323]",
+      "parent": "atom_expr [313,336]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: closing_brackets [316,332]",
+      "label": "right_brackets"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: closing_brackets [316,332]",
+      "parent": "trailer [366,381]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [406,416]",
+      "parent": "not_test [402,416]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: stack [272,277]",
+      "parent": "trailer [317,323]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [406,410]",
+      "parent": "atom_expr [406,416]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [410,416]",
+      "parent": "atom_expr [406,416]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [470,474]",
+      "parent": "atom_expr [470,512]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [474,488]",
+      "parent": "atom_expr [470,512]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [516,520]",
+      "parent": "atom_expr [516,547]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [520,535]",
+      "parent": "atom_expr [516,547]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: stack [357,362]",
+      "parent": "trailer [410,416]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: opening_brackets [416,432]",
+      "label": "left_brackets"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: opening_brackets [416,432]",
+      "parent": "trailer [474,488]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: closing_brackets [455,471]",
+      "label": "right_brackets"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: closing_brackets [455,471]",
+      "parent": "trailer [520,535]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [495,499]",
+      "parent": "atom_expr [495,511]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [499,505]",
+      "parent": "atom_expr [495,511]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: stack [439,444]",
+      "parent": "trailer [499,505]",
+      "at": 0
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [77,88]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: opening_brackets [96,112]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: = [113,114]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [119,120]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: '[' [121,124]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [124,125]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: '{' [126,129]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "testlist_comp [116,129]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom [115,130]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [96,130]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [139,174]"
+    }
+  ]
+}

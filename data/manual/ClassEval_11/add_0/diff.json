@@ -1,0 +1,283 @@
+{
+  "matches": [
+    {
+      "src": "operator: + [246,247]",
+      "dest": "operator: + [497,498]"
+    },
+    {
+      "src": "suite [20,258]",
+      "dest": "suite [20,503]"
+    },
+    {
+      "src": "name: add [29,32]",
+      "dest": "name: add [29,32]"
+    },
+    {
+      "src": "raise_stmt [157,206]",
+      "dest": "raise_stmt [416,465]"
+    },
+    {
+      "src": "operator: , [47,48]",
+      "dest": "operator: , [50,51]"
+    },
+    {
+      "src": "trailer [87,108]",
+      "dest": "trailer [360,373]"
+    },
+    {
+      "src": "name: str [104,107]",
+      "dest": "name: int [369,372]"
+    },
+    {
+      "src": "classdef [0,258]",
+      "dest": "classdef [0,503]"
+    },
+    {
+      "src": "suite [61,258]",
+      "dest": "suite [70,503]"
+    },
+    {
+      "src": "name: new_status [49,59]",
+      "dest": "name: stat [52,56]"
+    },
+    {
+      "src": "atom_expr [77,108]",
+      "dest": "atom_expr [350,373]"
+    },
+    {
+      "src": "simple_stmt [157,207]",
+      "dest": "simple_stmt [416,466]"
+    },
+    {
+      "src": "param [49,59]",
+      "dest": "param [52,61]"
+    },
+    {
+      "src": "atom_expr [163,206]",
+      "dest": "atom_expr [422,465]"
+    },
+    {
+      "src": "arith_expr [231,258]",
+      "dest": "arith_expr [490,503]"
+    },
+    {
+      "src": "operator: , [102,103]",
+      "dest": "operator: , [367,368]"
+    },
+    {
+      "src": "name: isinstance [116,126]",
+      "dest": "name: isinstance [381,391]"
+    },
+    {
+      "src": "name: current_status [33,47]",
+      "dest": "name: states [39,45]"
+    },
+    {
+      "src": "parameters [32,60]",
+      "dest": "parameters [32,62]"
+    },
+    {
+      "src": "file_input [0,258]",
+      "dest": "file_input [0,503]"
+    },
+    {
+      "src": "or_test [73,143]",
+      "dest": "or_test [346,402]"
+    },
+    {
+      "src": "name: current_status [231,245]",
+      "dest": "name: states [490,496]"
+    },
+    {
+      "src": "name: new_status [127,137]",
+      "dest": "name: stat [392,396]"
+    },
+    {
+      "src": "param [33,48]",
+      "dest": "param [39,51]"
+    },
+    {
+      "src": "name: BitStatusUtil [6,19]",
+      "dest": "name: BitStatusUtil [6,19]"
+    },
+    {
+      "src": "operator: , [137,138]",
+      "dest": "operator: , [396,397]"
+    },
+    {
+      "src": "trailer [172,206]",
+      "dest": "trailer [431,465]"
+    },
+    {
+      "src": "name: isinstance [77,87]",
+      "dest": "name: isinstance [350,360]"
+    },
+    {
+      "src": "arglist [127,142]",
+      "dest": "arglist [392,401]"
+    },
+    {
+      "src": "arglist [88,107]",
+      "dest": "arglist [361,372]"
+    },
+    {
+      "src": "return_stmt [224,258]",
+      "dest": "return_stmt [483,503]"
+    },
+    {
+      "src": "name: new_status [248,258]",
+      "dest": "name: stat [499,503]"
+    },
+    {
+      "src": "not_test [73,108]",
+      "dest": "not_test [346,373]"
+    },
+    {
+      "src": "string: \"Parameters must be of type str\" [173,205]",
+      "dest": "string: \"Parameters must be of type int\" [432,464]"
+    },
+    {
+      "src": "name: str [139,142]",
+      "dest": "name: int [398,401]"
+    },
+    {
+      "src": "if_stmt [70,207]",
+      "dest": "if_stmt [343,466]"
+    },
+    {
+      "src": "name: current_status [88,102]",
+      "dest": "name: states [361,367]"
+    },
+    {
+      "src": "funcdef [25,258]",
+      "dest": "funcdef [25,503]"
+    },
+    {
+      "src": "not_test [112,143]",
+      "dest": "not_test [377,402]"
+    },
+    {
+      "src": "trailer [126,143]",
+      "dest": "trailer [391,402]"
+    },
+    {
+      "src": "suite [144,207]",
+      "dest": "suite [403,466]"
+    },
+    {
+      "src": "name: TypeError [163,172]",
+      "dest": "name: TypeError [422,431]"
+    },
+    {
+      "src": "atom_expr [116,143]",
+      "dest": "atom_expr [381,402]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "operator: -> [63,65]",
+      "parent": "funcdef [25,503]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: int [66,69]",
+      "parent": "funcdef [25,503]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [33,38]",
+      "parent": "parameters [32,62]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [79,335]",
+      "parent": "suite [70,503]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "tfpdef [39,50]",
+      "parent": "param [39,51]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "tfpdef [52,61]",
+      "parent": "param [52,61]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: current_status [33,47]",
+      "label": "states"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: current_status [33,47]",
+      "parent": "tfpdef [39,50]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: int [47,50]",
+      "parent": "tfpdef [39,50]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: new_status [49,59]",
+      "label": "stat"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: new_status [49,59]",
+      "parent": "tfpdef [52,61]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: int [58,61]",
+      "parent": "tfpdef [52,61]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: current_status [231,245]",
+      "label": "states"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: new_status [248,258]",
+      "label": "stat"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: current_status [88,102]",
+      "label": "states"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: str [104,107]",
+      "label": "int"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: new_status [127,137]",
+      "label": "stat"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: str [139,142]",
+      "label": "int"
+    },
+    {
+      "action": "update-node",
+      "tree": "string: \"Parameters must be of type str\" [173,205]",
+      "label": "\"Parameters must be of type int\""
+    }
+  ]
+}

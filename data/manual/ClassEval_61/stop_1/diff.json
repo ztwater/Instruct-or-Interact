@@ -1,0 +1,86 @@
+{
+  "matches": [
+    {
+      "src": "suite [18,103]",
+      "dest": "suite [18,366]"
+    },
+    {
+      "src": "name: stop [27,31]",
+      "dest": "name: stop [27,31]"
+    },
+    {
+      "src": "classdef [0,103]",
+      "dest": "classdef [0,366]"
+    },
+    {
+      "src": "file_input [0,103]",
+      "dest": "file_input [0,366]"
+    },
+    {
+      "src": "funcdef [23,103]",
+      "dest": "funcdef [23,366]"
+    },
+    {
+      "src": "suite [34,103]",
+      "dest": "suite [243,328]"
+    },
+    {
+      "src": "name: MusicPlayer [6,17]",
+      "dest": "name: MusicPlayer [6,17]"
+    },
+    {
+      "src": "parameters [31,33]",
+      "dest": "parameters [31,37]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "suite [38,366]",
+      "parent": "funcdef [23,366]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [32,36]",
+      "parent": "parameters [31,37]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [47,202]",
+      "parent": "suite [38,366]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [210,366]",
+      "parent": "suite [38,366]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [213,242]",
+      "parent": "if_stmt [210,366]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [34,103]",
+      "parent": "if_stmt [210,366]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [341,366]",
+      "parent": "if_stmt [210,366]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [316,328]",
+      "parent": "suite [243,328]",
+      "at": 0
+    }
+  ]
+}

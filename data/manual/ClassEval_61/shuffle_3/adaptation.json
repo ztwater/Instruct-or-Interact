@@ -1,0 +1,44 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Shuffles the playlist.\n        :return: True if the playlist was shuffled, False if the playlist was empty.\n        >>> musicPlayer = MusicPlayer()\n        >>> musicPlayer.playlist = [\"song1\", \"song2\"]\n        >>> musicPlayer.shuffle()\n        True\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "if_stmt",
+        "inserted": "if len(self.playlist) == 0:\n            return False\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "name",
+        "inserted": "",
+        "deleted": "playlist",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "trailer",
+        "inserted": "(playlist)",
+        "deleted": "(playlist)",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "playlist",
+        "type": "Refactoring"
+    }
+]

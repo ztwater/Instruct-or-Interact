@@ -1,0 +1,162 @@
+{
+  "matches": [
+    {
+      "src": "name: total_size [62,72]",
+      "dest": "name: total_size [215,225]"
+    },
+    {
+      "src": "suite [18,168]",
+      "dest": "suite [18,328]"
+    },
+    {
+      "src": "name: get_occupied_size [27,44]",
+      "dest": "name: get_occupied_size [27,44]"
+    },
+    {
+      "src": "name: email [89,94]",
+      "dest": "name: email [242,247]"
+    },
+    {
+      "src": "classdef [0,168]",
+      "dest": "classdef [0,328]"
+    },
+    {
+      "src": "suite [53,168]",
+      "dest": "suite [51,328]"
+    },
+    {
+      "src": "parameters [44,52]",
+      "dest": "parameters [44,50]"
+    },
+    {
+      "src": "name: emails [98,104]",
+      "dest": "name: self [251,255]"
+    },
+    {
+      "src": "return_stmt [151,168]",
+      "dest": "return_stmt [311,328]"
+    },
+    {
+      "src": "name: total_size [158,168]",
+      "dest": "name: total_size [318,328]"
+    },
+    {
+      "src": "trailer [137,142]",
+      "dest": "trailer [294,302]"
+    },
+    {
+      "src": "name: email [132,137]",
+      "dest": "name: email [289,294]"
+    },
+    {
+      "src": "atom_expr [132,142]",
+      "dest": "atom_expr [289,302]"
+    },
+    {
+      "src": "name: emails [45,51]",
+      "dest": "name: self [45,49]"
+    },
+    {
+      "src": "file_input [0,168]",
+      "dest": "file_input [0,328]"
+    },
+    {
+      "src": "param [45,51]",
+      "dest": "param [45,49]"
+    },
+    {
+      "src": "suite [105,143]",
+      "dest": "suite [262,303]"
+    },
+    {
+      "src": "expr_stmt [62,76]",
+      "dest": "expr_stmt [215,229]"
+    },
+    {
+      "src": "name: EmailClient [6,17]",
+      "dest": "name: EmailClient [6,17]"
+    },
+    {
+      "src": "number: 0 [75,76]",
+      "dest": "number: 0 [228,229]"
+    },
+    {
+      "src": "name: total_size [118,128]",
+      "dest": "name: total_size [275,285]"
+    },
+    {
+      "src": "operator: = [73,74]",
+      "dest": "operator: = [226,227]"
+    },
+    {
+      "src": "simple_stmt [118,143]",
+      "dest": "simple_stmt [275,303]"
+    },
+    {
+      "src": "expr_stmt [118,142]",
+      "dest": "expr_stmt [275,302]"
+    },
+    {
+      "src": "for_stmt [85,143]",
+      "dest": "for_stmt [238,303]"
+    },
+    {
+      "src": "operator: += [129,131]",
+      "dest": "operator: += [286,288]"
+    },
+    {
+      "src": "funcdef [23,168]",
+      "dest": "funcdef [23,328]"
+    },
+    {
+      "src": "simple_stmt [62,77]",
+      "dest": "simple_stmt [215,230]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [60,207]",
+      "parent": "suite [51,328]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: emails [45,51]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [251,261]",
+      "parent": "for_stmt [238,303]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: emails [98,104]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: emails [98,104]",
+      "parent": "atom_expr [251,261]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [255,261]",
+      "parent": "atom_expr [251,261]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: 'size' [295,301]",
+      "parent": "trailer [294,302]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: size [138,142]"
+    }
+  ]
+}

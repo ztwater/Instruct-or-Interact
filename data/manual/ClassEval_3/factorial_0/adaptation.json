@@ -1,0 +1,16 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return n * factorial(n-1)\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return n * factorial(n-1)",
+        "deleted": "return n * factorial(n-1)",
+        "type": "Move"
+    }
+]

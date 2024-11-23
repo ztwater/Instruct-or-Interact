@@ -1,0 +1,152 @@
+{
+  "matches": [
+    {
+      "src": "operator: , [76,77]",
+      "dest": "operator: , [603,604]"
+    },
+    {
+      "src": "return_stmt [58,80]",
+      "dest": "return_stmt [585,607]"
+    },
+    {
+      "src": "suite [28,80]",
+      "dest": "suite [28,607]"
+    },
+    {
+      "src": "name: ArrangementCalculator [6,27]",
+      "dest": "name: ArrangementCalculator [6,27]"
+    },
+    {
+      "src": "param [46,47]",
+      "dest": "param [52,58]"
+    },
+    {
+      "src": "name: math [65,69]",
+      "dest": "name: math [592,596]"
+    },
+    {
+      "src": "classdef [0,80]",
+      "dest": "classdef [0,607]"
+    },
+    {
+      "src": "suite [49,80]",
+      "dest": "suite [572,607]"
+    },
+    {
+      "src": "parameters [42,48]",
+      "dest": "parameters [42,59]"
+    },
+    {
+      "src": "name: n [43,44]",
+      "dest": "name: n [49,50]"
+    },
+    {
+      "src": "name: m [78,79]",
+      "dest": "name: m [605,606]"
+    },
+    {
+      "src": "name: count [37,42]",
+      "dest": "name: count [37,42]"
+    },
+    {
+      "src": "name: perm [70,74]",
+      "dest": "name: perm [597,601]"
+    },
+    {
+      "src": "arglist [75,79]",
+      "dest": "arglist [602,606]"
+    },
+    {
+      "src": "operator: , [44,45]",
+      "dest": "operator: , [50,51]"
+    },
+    {
+      "src": "file_input [0,80]",
+      "dest": "file_input [0,607]"
+    },
+    {
+      "src": "trailer [74,80]",
+      "dest": "trailer [601,607]"
+    },
+    {
+      "src": "funcdef [33,80]",
+      "dest": "funcdef [33,607]"
+    },
+    {
+      "src": "trailer [69,74]",
+      "dest": "trailer [596,601]"
+    },
+    {
+      "src": "atom_expr [65,80]",
+      "dest": "atom_expr [592,607]"
+    },
+    {
+      "src": "name: n [75,76]",
+      "dest": "name: n [602,603]"
+    },
+    {
+      "src": "param [43,45]",
+      "dest": "param [49,51]"
+    },
+    {
+      "src": "name: m [46,47]",
+      "dest": "name: m [52,53]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "suite [60,607]",
+      "parent": "funcdef [33,607]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [43,48]",
+      "parent": "parameters [42,59]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [69,470]",
+      "parent": "suite [60,607]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [478,490]",
+      "parent": "suite [60,607]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [498,607]",
+      "parent": "suite [60,607]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [53,54]",
+      "parent": "param [52,58]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "or_test [501,520]",
+      "parent": "if_stmt [498,607]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [521,559]",
+      "parent": "if_stmt [498,607]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [49,80]",
+      "parent": "if_stmt [498,607]",
+      "at": 2
+    }
+  ]
+}

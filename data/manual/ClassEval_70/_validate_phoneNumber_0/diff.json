@@ -1,0 +1,164 @@
+{
+  "matches": [
+    {
+      "src": "suite [20,189]",
+      "dest": "suite [20,474]"
+    },
+    {
+      "src": "param [51,62]",
+      "dest": "param [57,73]"
+    },
+    {
+      "src": "string: \"\" [91,93]",
+      "dest": "string: \"\" [376,378]"
+    },
+    {
+      "src": "classdef [0,189]",
+      "dest": "classdef [0,474]"
+    },
+    {
+      "src": "return_stmt [171,189]",
+      "dest": "return_stmt [456,474]"
+    },
+    {
+      "src": "suite [64,189]",
+      "dest": "suite [82,474]"
+    },
+    {
+      "src": "or_test [76,119]",
+      "dest": "or_test [361,404]"
+    },
+    {
+      "src": "trailer [100,113]",
+      "dest": "trailer [385,398]"
+    },
+    {
+      "src": "comparison [97,119]",
+      "dest": "comparison [382,404]"
+    },
+    {
+      "src": "name: len [97,100]",
+      "dest": "name: len [382,385]"
+    },
+    {
+      "src": "number: 11 [117,119]",
+      "dest": "number: 11 [402,404]"
+    },
+    {
+      "src": "comparison [76,93]",
+      "dest": "comparison [361,378]"
+    },
+    {
+      "src": "suite [158,189]",
+      "dest": "suite [443,474]"
+    },
+    {
+      "src": "operator: == [88,90]",
+      "dest": "operator: == [373,375]"
+    },
+    {
+      "src": "file_input [0,189]",
+      "dest": "file_input [0,474]"
+    },
+    {
+      "src": "name: phoneNumber [178,189]",
+      "dest": "name: phoneNumber [463,474]"
+    },
+    {
+      "src": "parameters [50,63]",
+      "dest": "parameters [50,74]"
+    },
+    {
+      "src": "suite [120,145]",
+      "dest": "suite [405,430]"
+    },
+    {
+      "src": "atom_expr [97,113]",
+      "dest": "atom_expr [382,398]"
+    },
+    {
+      "src": "operator: != [114,116]",
+      "dest": "operator: != [399,401]"
+    },
+    {
+      "src": "return_stmt [133,144]",
+      "dest": "return_stmt [418,429]"
+    },
+    {
+      "src": "name: PersonRequest [6,19]",
+      "dest": "name: PersonRequest [6,19]"
+    },
+    {
+      "src": "simple_stmt [133,145]",
+      "dest": "simple_stmt [418,430]"
+    },
+    {
+      "src": "name: phoneNumber [101,112]",
+      "dest": "name: phoneNumber [386,397]"
+    },
+    {
+      "src": "name: _validate_phoneNumber [29,50]",
+      "dest": "name: _validate_phoneNumber [29,50]"
+    },
+    {
+      "src": "if_stmt [73,189]",
+      "dest": "if_stmt [358,474]"
+    },
+    {
+      "src": "name: phoneNumber [76,87]",
+      "dest": "name: phoneNumber [361,372]"
+    },
+    {
+      "src": "funcdef [25,189]",
+      "dest": "funcdef [25,474]"
+    },
+    {
+      "src": "name: phoneNumber [51,62]",
+      "dest": "name: phoneNumber [57,68]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "operator: -> [75,77]",
+      "parent": "funcdef [25,474]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: str [78,81]",
+      "parent": "funcdef [25,474]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [51,56]",
+      "parent": "parameters [50,74]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [91,350]",
+      "parent": "suite [82,474]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "tfpdef [57,73]",
+      "parent": "param [57,73]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: phoneNumber [51,62]",
+      "parent": "tfpdef [57,73]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: str [70,73]",
+      "parent": "tfpdef [57,73]",
+      "at": 1
+    }
+  ]
+}

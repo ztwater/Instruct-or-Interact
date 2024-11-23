@@ -1,0 +1,16 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Verify if the phone number is valid\n        :param phone_number: Phone number to be verified\n        :return: True or False, indicating whether the phone number is valid\n        >>> ru = RegexUtils()\n        >>> ru.validate_phone_number(\"123-456-7890\")\n        True\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    }
+]

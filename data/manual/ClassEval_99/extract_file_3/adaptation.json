@@ -1,0 +1,58 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Extract the file with the specified name from the zip file and place it in the specified path\n        :param file_name:string, The name of the file to be uncompressed\n        :param output_path:string, The location of the extracted file\n        :return: True or False, representing whether the extraction operation was successful\n        >>> zfp = ZipFileProcessor(\"aaa.zip\")\n        >>> zfp.extract_file(\"bbb.txt\", \"result/aaa\")\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".file_name",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "zip_file_path",
+        "deleted": "zip_file_path",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "zip_file_path",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "output_path",
+        "deleted": "destination_path",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "output_path",
+        "deleted": "destination_path",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "file_name",
+        "deleted": "zip_file_path",
+        "type": "Refactoring"
+    }
+]

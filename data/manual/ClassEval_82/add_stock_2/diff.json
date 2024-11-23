@@ -1,0 +1,119 @@
+{
+  "matches": [
+    {
+      "src": "funcdef [33,122]",
+      "dest": "funcdef [33,97]"
+    },
+    {
+      "src": "name: append [84,90]",
+      "dest": "name: append [84,90]"
+    },
+    {
+      "src": "suite [28,122]",
+      "dest": "suite [28,97]"
+    },
+    {
+      "src": "atom_expr [74,97]",
+      "dest": "atom_expr [69,97]"
+    },
+    {
+      "src": "trailer [90,97]",
+      "dest": "trailer [90,97]"
+    },
+    {
+      "src": "name: stock [91,96]",
+      "dest": "name: stock [91,96]"
+    },
+    {
+      "src": "file_input [0,122]",
+      "dest": "file_input [0,97]"
+    },
+    {
+      "src": "name: stock [58,63]",
+      "dest": "name: stock [53,58]"
+    },
+    {
+      "src": "param [47,57]",
+      "dest": "param [47,52]"
+    },
+    {
+      "src": "param [58,63]",
+      "dest": "param [53,58]"
+    },
+    {
+      "src": "name: add_stock [37,46]",
+      "dest": "name: add_stock [37,46]"
+    },
+    {
+      "src": "parameters [46,64]",
+      "dest": "parameters [46,59]"
+    },
+    {
+      "src": "classdef [0,122]",
+      "dest": "classdef [0,97]"
+    },
+    {
+      "src": "trailer [83,90]",
+      "dest": "trailer [83,90]"
+    },
+    {
+      "src": "suite [65,122]",
+      "dest": "suite [60,97]"
+    },
+    {
+      "src": "name: portfolio [47,56]",
+      "dest": "name: self [47,51]"
+    },
+    {
+      "src": "name: StockPortfolioTracker [6,27]",
+      "dest": "name: StockPortfolioTracker [6,27]"
+    },
+    {
+      "src": "name: portfolio [74,83]",
+      "dest": "name: portfolio [74,83]"
+    },
+    {
+      "src": "operator: , [56,57]",
+      "dest": "operator: , [51,52]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [74,97]",
+      "parent": "suite [60,97]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: portfolio [47,56]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [69,73]",
+      "parent": "atom_expr [69,97]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [73,83]",
+      "parent": "atom_expr [69,97]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: portfolio [74,83]",
+      "parent": "trailer [73,83]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [74,98]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "return_stmt [106,122]"
+    }
+  ]
+}

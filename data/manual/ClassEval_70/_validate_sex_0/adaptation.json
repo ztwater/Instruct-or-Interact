@@ -1,0 +1,58 @@
+[
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "->",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "str",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Validate the sex and return it. If sex is not Man, Woman, or UGM, set to None.\n        :param sex: str, the sex to validate\n        :return: str, the validated sex or None if invalid\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "str",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return None\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "sex",
+        "deleted": "sex",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return None",
+        "deleted": "return None",
+        "type": "Move"
+    }
+]

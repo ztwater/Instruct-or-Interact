@@ -1,0 +1,121 @@
+{
+  "matches": [
+    {
+      "src": "operator: , [36,37]",
+      "dest": "operator: , [36,37]"
+    },
+    {
+      "src": "suite [17,86]",
+      "dest": "suite [17,565]"
+    },
+    {
+      "src": "trailer [71,86]",
+      "dest": "trailer [550,565]"
+    },
+    {
+      "src": "name: pattern [72,79]",
+      "dest": "name: pattern [551,558]"
+    },
+    {
+      "src": "classdef [0,86]",
+      "dest": "classdef [0,565]"
+    },
+    {
+      "src": "suite [47,86]",
+      "dest": "suite [53,565]"
+    },
+    {
+      "src": "atom_expr [63,86]",
+      "dest": "atom_expr [542,565]"
+    },
+    {
+      "src": "name: text [81,85]",
+      "dest": "name: text [560,564]"
+    },
+    {
+      "src": "name: text [32,36]",
+      "dest": "name: self [32,36]"
+    },
+    {
+      "src": "arglist [72,85]",
+      "dest": "arglist [551,564]"
+    },
+    {
+      "src": "param [32,37]",
+      "dest": "param [32,37]"
+    },
+    {
+      "src": "param [38,45]",
+      "dest": "param [38,46]"
+    },
+    {
+      "src": "operator: , [79,80]",
+      "dest": "operator: , [558,559]"
+    },
+    {
+      "src": "parameters [31,46]",
+      "dest": "parameters [31,52]"
+    },
+    {
+      "src": "name: RegexUtils [6,16]",
+      "dest": "name: RegexUtils [6,16]"
+    },
+    {
+      "src": "name: pattern [38,45]",
+      "dest": "name: pattern [38,45]"
+    },
+    {
+      "src": "name: re [63,65]",
+      "dest": "name: re [542,544]"
+    },
+    {
+      "src": "name: split [66,71]",
+      "dest": "name: split [545,550]"
+    },
+    {
+      "src": "return_stmt [56,86]",
+      "dest": "return_stmt [535,565]"
+    },
+    {
+      "src": "trailer [65,71]",
+      "dest": "trailer [544,550]"
+    },
+    {
+      "src": "file_input [0,86]",
+      "dest": "file_input [0,565]"
+    },
+    {
+      "src": "funcdef [22,86]",
+      "dest": "funcdef [22,565]"
+    },
+    {
+      "src": "name: split [26,31]",
+      "dest": "name: split [26,31]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [47,51]",
+      "parent": "parameters [31,52]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [62,527]",
+      "parent": "suite [53,565]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: text [32,36]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [45,46]",
+      "parent": "param [38,46]",
+      "at": 1
+    }
+  ]
+}

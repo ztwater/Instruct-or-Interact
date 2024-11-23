@@ -1,0 +1,58 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Set the target temperature\n        :param temperature: float, the target temperature\n        >>> thermostat.set_target_temperature(37.6)\n        >>> thermostat.target_temperature\n        37.6\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "DEL",
+        "label": "string:",
+        "inserted": "",
+        "deleted": "\"Target temperature set to {} degrees\"",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "trailer",
+        "inserted": "",
+        "deleted": ".format",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "name",
+        "inserted": "",
+        "deleted": "target_temperature",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "expr_stmt",
+        "inserted": "target_temperature = temperature",
+        "deleted": "target_temperature = temperature",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "format",
+        "deleted": "format",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "format",
+        "type": "Refactoring"
+    }
+]

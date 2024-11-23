@@ -1,0 +1,284 @@
+{
+  "matches": [
+    {
+      "src": "atom_expr [485,510]",
+      "dest": "atom_expr [482,507]"
+    },
+    {
+      "src": "suite [26,540]",
+      "dest": "suite [26,533]"
+    },
+    {
+      "src": "string: 'HS256' [315,322]",
+      "dest": "string: 'HS256' [316,323]"
+    },
+    {
+      "src": "operator: = [265,266]",
+      "dest": "operator: = [266,267]"
+    },
+    {
+      "src": "classdef [0,540]",
+      "dest": "classdef [0,533]"
+    },
+    {
+      "src": "suite [57,540]",
+      "dest": "suite [63,533]"
+    },
+    {
+      "src": "name: request [48,55]",
+      "dest": "name: request [54,61]"
+    },
+    {
+      "src": "name: user_info [473,482]",
+      "dest": "name: user_info [470,479]"
+    },
+    {
+      "src": "trailer [354,372]",
+      "dest": "trailer [355,373]"
+    },
+    {
+      "src": "trailer [270,277]",
+      "dest": "trailer [271,278]"
+    },
+    {
+      "src": "name: jwt_token [278,287]",
+      "dest": "name: jwt_token [279,288]"
+    },
+    {
+      "src": "name: get [499,502]",
+      "dest": "name: get [496,499]"
+    },
+    {
+      "src": "trailer [161,178]",
+      "dest": "trailer [159,176]"
+    },
+    {
+      "src": "trailer [502,510]",
+      "dest": "trailer [499,507]"
+    },
+    {
+      "src": "simple_stmt [130,179]",
+      "dest": "simple_stmt [125,184]"
+    },
+    {
+      "src": "argument [303,323]",
+      "dest": "argument [304,324]"
+    },
+    {
+      "src": "operator: = [313,314]",
+      "dest": "operator: = [314,315]"
+    },
+    {
+      "src": "atom_expr [340,372]",
+      "dest": "atom_expr [341,373]"
+    },
+    {
+      "src": "name: get_jwt_user [35,47]",
+      "dest": "name: get_jwt_user [35,47]"
+    },
+    {
+      "src": "string: 'Authorization' [162,177]",
+      "dest": "string: 'Authorization' [160,175]"
+    },
+    {
+      "src": "arglist [278,323]",
+      "dest": "arglist [279,324]"
+    },
+    {
+      "src": "except_clause [333,372]",
+      "dest": "except_clause [334,373]"
+    },
+    {
+      "src": "operator: = [483,484]",
+      "dest": "operator: = [480,481]"
+    },
+    {
+      "src": "expr_stmt [251,324]",
+      "dest": "expr_stmt [252,325]"
+    },
+    {
+      "src": "name: user_info [531,540]",
+      "dest": "name: user_info [524,533]"
+    },
+    {
+      "src": "funcdef [31,540]",
+      "dest": "funcdef [31,533]"
+    },
+    {
+      "src": "trailer [149,157]",
+      "dest": "trailer [144,155]"
+    },
+    {
+      "src": "name: request [142,149]",
+      "dest": "name: request [137,144]"
+    },
+    {
+      "src": "operator: = [140,141]",
+      "dest": "operator: = [135,136]"
+    },
+    {
+      "src": "name: InvalidTokenError [355,372]",
+      "dest": "name: InvalidTokenError [356,373]"
+    },
+    {
+      "src": "atom_expr [142,178]",
+      "dest": "atom_expr [137,183]"
+    },
+    {
+      "src": "name: decoded_token [485,498]",
+      "dest": "name: decoded_token [482,495]"
+    },
+    {
+      "src": "name: algorithms [303,313]",
+      "dest": "name: algorithms [304,314]"
+    },
+    {
+      "src": "suite [238,325]",
+      "dest": "suite [239,326]"
+    },
+    {
+      "src": "name: decode [271,277]",
+      "dest": "name: decode [272,278]"
+    },
+    {
+      "src": "name: exceptions [344,354]",
+      "dest": "name: exceptions [345,355]"
+    },
+    {
+      "src": "atom_expr [267,324]",
+      "dest": "atom_expr [268,325]"
+    },
+    {
+      "src": "return_stmt [524,540]",
+      "dest": "return_stmt [517,533]"
+    },
+    {
+      "src": "expr_stmt [473,510]",
+      "dest": "expr_stmt [470,507]"
+    },
+    {
+      "src": "name: AccessGatewayFilter [6,25]",
+      "dest": "name: AccessGatewayFilter [6,25]"
+    },
+    {
+      "src": "simple_stmt [251,325]",
+      "dest": "simple_stmt [252,326]"
+    },
+    {
+      "src": "name: decoded_token [251,264]",
+      "dest": "name: decoded_token [252,265]"
+    },
+    {
+      "src": "name: jwt_token [130,139]",
+      "dest": "name: jwt_token [125,134]"
+    },
+    {
+      "src": "param [48,55]",
+      "dest": "param [54,61]"
+    },
+    {
+      "src": "file_input [0,540]",
+      "dest": "file_input [0,533]"
+    },
+    {
+      "src": "atom [314,323]",
+      "dest": "atom [315,324]"
+    },
+    {
+      "src": "trailer [157,161]",
+      "dest": "trailer [155,159]"
+    },
+    {
+      "src": "parameters [47,56]",
+      "dest": "parameters [47,62]"
+    },
+    {
+      "src": "operator: , [287,288]",
+      "dest": "operator: , [288,289]"
+    },
+    {
+      "src": "name: jwt [340,343]",
+      "dest": "name: jwt [341,344]"
+    },
+    {
+      "src": "name: jwt [267,270]",
+      "dest": "name: jwt [268,271]"
+    },
+    {
+      "src": "simple_stmt [473,511]",
+      "dest": "simple_stmt [470,508]"
+    },
+    {
+      "src": "operator: , [301,302]",
+      "dest": "operator: , [302,303]"
+    },
+    {
+      "src": "string: 'user' [503,509]",
+      "dest": "string: 'user' [500,506]"
+    },
+    {
+      "src": "string: 'secret_key' [289,301]",
+      "dest": "string: 'secret_key' [290,302]"
+    },
+    {
+      "src": "trailer [277,324]",
+      "dest": "trailer [278,325]"
+    },
+    {
+      "src": "trailer [498,502]",
+      "dest": "trailer [495,499]"
+    },
+    {
+      "src": "trailer [343,354]",
+      "dest": "trailer [344,355]"
+    },
+    {
+      "src": "suite [373,398]",
+      "dest": "suite [374,399]"
+    },
+    {
+      "src": "try_stmt [234,398]",
+      "dest": "try_stmt [235,399]"
+    },
+    {
+      "src": "simple_stmt [386,398]",
+      "dest": "simple_stmt [387,399]"
+    },
+    {
+      "src": "return_stmt [386,397]",
+      "dest": "return_stmt [387,398]"
+    },
+    {
+      "src": "expr_stmt [130,178]",
+      "dest": "expr_stmt [125,183]"
+    },
+    {
+      "src": "name: get [158,161]",
+      "dest": "name: get [156,159]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [48,53]",
+      "parent": "parameters [47,62]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [176,183]",
+      "parent": "atom_expr [137,183]",
+      "at": 4
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: 'headers' [145,154]",
+      "parent": "trailer [144,155]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: headers [150,157]"
+    }
+  ]
+}

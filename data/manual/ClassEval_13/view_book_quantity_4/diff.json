@@ -1,0 +1,185 @@
+{
+  "matches": [
+    {
+      "src": "suite [21,544]",
+      "dest": "suite [21,400]"
+    },
+    {
+      "src": "name: book [49,53]",
+      "dest": "name: self [49,53]"
+    },
+    {
+      "src": "classdef [0,544]",
+      "dest": "classdef [0,400]"
+    },
+    {
+      "src": "parameters [48,54]",
+      "dest": "parameters [48,61]"
+    },
+    {
+      "src": "suite [55,544]",
+      "dest": "suite [62,400]"
+    },
+    {
+      "src": "name: book_quantity [307,320]",
+      "dest": "name: title [300,305]"
+    },
+    {
+      "src": "param [49,53]",
+      "dest": "param [49,54]"
+    },
+    {
+      "src": "name: book_quantity [531,544]",
+      "dest": "name: title [359,364]"
+    },
+    {
+      "src": "file_input [0,544]",
+      "dest": "file_input [0,400]"
+    },
+    {
+      "src": "name: BookManagement [6,20]",
+      "dest": "name: BookManagement [6,20]"
+    },
+    {
+      "src": "funcdef [26,544]",
+      "dest": "funcdef [26,400]"
+    },
+    {
+      "src": "return_stmt [524,544]",
+      "dest": "return_stmt [337,365]"
+    },
+    {
+      "src": "name: view_book_quantity [30,48]",
+      "dest": "name: view_book_quantity [30,48]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [55,60]",
+      "parent": "parameters [48,61]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [71,289]",
+      "parent": "suite [62,400]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [297,400]",
+      "parent": "suite [62,400]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: book [49,53]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [53,54]",
+      "parent": "param [49,54]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "comparison [300,323]",
+      "parent": "if_stmt [297,400]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [324,366]",
+      "parent": "if_stmt [297,400]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [379,400]",
+      "parent": "if_stmt [297,400]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: book_quantity [307,320]",
+      "label": "title"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: book_quantity [307,320]",
+      "parent": "comparison [300,323]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [309,323]",
+      "parent": "comparison [300,323]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [337,366]",
+      "parent": "suite [324,366]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [524,544]",
+      "parent": "simple_stmt [337,366]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [344,365]",
+      "parent": "return_stmt [337,365]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [344,348]",
+      "parent": "atom_expr [344,365]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [348,358]",
+      "parent": "atom_expr [344,365]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [358,365]",
+      "parent": "atom_expr [344,365]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: book_quantity [531,544]",
+      "label": "title"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: book_quantity [531,544]",
+      "parent": "trailer [358,365]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: = [321,322]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 0 [323,324]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [307,324]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [307,346]"
+    }
+  ]
+}

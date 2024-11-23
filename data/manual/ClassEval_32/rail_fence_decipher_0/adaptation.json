@@ -1,0 +1,72 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Deciphers the given ciphertext using the Rail Fence cipher\n        :param encrypted_text: The ciphertext to decipher,str.\n        :param rails: The number of rails to use for decryption,int.\n        :return: The deciphered plaintext,str.\n        >>> d = DecryptionUtils('key')\n        >>> d.rail_fence_decipher('Hoo!el,Wrdl l', 3)\n        'Hello, World!'\n\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "encrypted_text",
+        "deleted": "ciphertext",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "rails",
+        "deleted": "num_rails",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "encrypted_text",
+        "deleted": "ciphertext",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "encrypted_text",
+        "deleted": "ciphertext",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "rails",
+        "deleted": "num_rails",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "rails",
+        "deleted": "num_rails",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "encrypted_text",
+        "deleted": "ciphertext",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "rails",
+        "deleted": "num_rails",
+        "type": "Refactoring"
+    }
+]

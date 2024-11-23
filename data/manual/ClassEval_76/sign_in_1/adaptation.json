@@ -1,0 +1,30 @@
+[
+    {
+        "action": "INS",
+        "label": "return_stmt",
+        "inserted": "return False",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "return_stmt",
+        "inserted": "return True",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "atom_expr",
+        "inserted": "",
+        "deleted": "print(f\"User {username} has been signed in.\")",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "atom_expr",
+        "inserted": "",
+        "deleted": "print(f\"User {username} does not exist.\")",
+        "type": "Logic"
+    }
+]

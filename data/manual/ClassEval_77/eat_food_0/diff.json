@@ -1,0 +1,337 @@
+{
+  "matches": [
+    {
+      "src": "classdef [0,356]",
+      "dest": "classdef [0,497]"
+    },
+    {
+      "src": "param [30,36]",
+      "dest": "param [30,34]"
+    },
+    {
+      "src": "parameters [29,49]",
+      "dest": "parameters [29,35]"
+    },
+    {
+      "src": "name: snake [30,35]",
+      "dest": "name: self [30,34]"
+    },
+    {
+      "src": "name: snake [107,112]",
+      "dest": "name: self [296,300]"
+    },
+    {
+      "src": "name: score [184,189]",
+      "dest": "name: score [371,376]"
+    },
+    {
+      "src": "suite [50,356]",
+      "dest": "suite [36,497]"
+    },
+    {
+      "src": "file_input [0,356]",
+      "dest": "file_input [0,497]"
+    },
+    {
+      "src": "name: append [113,119]",
+      "dest": "name: length [301,307]"
+    },
+    {
+      "src": "simple_stmt [184,197]",
+      "dest": "simple_stmt [366,384]"
+    },
+    {
+      "src": "name: eat_food [21,29]",
+      "dest": "name: eat_food [21,29]"
+    },
+    {
+      "src": "trailer [112,119]",
+      "dest": "trailer [300,307]"
+    },
+    {
+      "src": "name: random [292,298]",
+      "dest": "name: self [470,474]"
+    },
+    {
+      "src": "number: 1 [127,128]",
+      "dest": "number: 1 [311,312]"
+    },
+    {
+      "src": "operator: += [190,192]",
+      "dest": "operator: += [377,379]"
+    },
+    {
+      "src": "expr_stmt [262,313]",
+      "dest": "expr_stmt [449,497]"
+    },
+    {
+      "src": "funcdef [17,356]",
+      "dest": "funcdef [17,497]"
+    },
+    {
+      "src": "name: randint [299,306]",
+      "dest": "name: random_food_position [475,495]"
+    },
+    {
+      "src": "name: Snake [6,11]",
+      "dest": "name: Snake [6,11]"
+    },
+    {
+      "src": "number: 100 [193,196]",
+      "dest": "number: 100 [380,383]"
+    },
+    {
+      "src": "trailer [298,306]",
+      "dest": "trailer [474,495]"
+    },
+    {
+      "src": "expr_stmt [184,196]",
+      "dest": "expr_stmt [366,383]"
+    },
+    {
+      "src": "trailer [276,284]",
+      "dest": "trailer [453,467]"
+    },
+    {
+      "src": "atom_expr [270,290]",
+      "dest": "atom_expr [449,467]"
+    },
+    {
+      "src": "name: randint [277,284]",
+      "dest": "name: food_position [454,467]"
+    },
+    {
+      "src": "operator: - [126,127]",
+      "dest": "operator: += [308,310]"
+    },
+    {
+      "src": "operator: , [290,291]",
+      "dest": "operator: = [468,469]"
+    },
+    {
+      "src": "trailer [306,312]",
+      "dest": "trailer [495,497]"
+    },
+    {
+      "src": "suite [12,356]",
+      "dest": "suite [12,497]"
+    },
+    {
+      "src": "simple_stmt [107,131]",
+      "dest": "simple_stmt [296,313]"
+    },
+    {
+      "src": "atom_expr [292,312]",
+      "dest": "atom_expr [470,497]"
+    },
+    {
+      "src": "name: random [270,276]",
+      "dest": "name: self [449,453]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [45,240]",
+      "parent": "suite [36,497]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "expr_stmt [262,313]",
+      "parent": "suite [36,497]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: snake [30,35]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [296,312]",
+      "parent": "simple_stmt [296,313]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [270,290]",
+      "parent": "expr_stmt [449,497]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: , [290,291]",
+      "label": "="
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: , [290,291]",
+      "parent": "expr_stmt [449,497]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [292,312]",
+      "parent": "expr_stmt [449,497]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [296,307]",
+      "parent": "expr_stmt [296,312]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: - [126,127]",
+      "label": "+="
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: - [126,127]",
+      "parent": "expr_stmt [296,312]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "number: 1 [127,128]",
+      "parent": "expr_stmt [296,312]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [366,376]",
+      "parent": "expr_stmt [366,383]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: random [270,276]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: random [292,298]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: snake [107,112]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: snake [107,112]",
+      "parent": "atom_expr [296,307]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [112,119]",
+      "parent": "atom_expr [296,307]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [366,370]",
+      "parent": "atom_expr [366,376]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [370,376]",
+      "parent": "atom_expr [366,376]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: randint [277,284]",
+      "label": "food_position"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: randint [299,306]",
+      "label": "random_food_position"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: append [113,119]",
+      "label": "length"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: score [184,189]",
+      "parent": "trailer [370,376]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [35,36]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "param [37,42]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "param [43,48]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: snake [120,125]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "factor [126,128]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [125,129]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [120,129]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [119,130]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [107,130]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [284,290]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "arglist [307,311]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: food [262,266]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: = [267,268]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "testlist_comp [270,312]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom [269,313]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [262,314]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "return_stmt [331,356]"
+    }
+  ]
+}

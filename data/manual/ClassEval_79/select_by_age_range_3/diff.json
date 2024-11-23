@@ -1,0 +1,147 @@
+{
+  "matches": [
+    {
+      "src": "trailer [145,152]",
+      "dest": "trailer [393,400]"
+    },
+    {
+      "src": "suite [19,199]",
+      "dest": "suite [19,464]"
+    },
+    {
+      "src": "arglist [153,169]",
+      "dest": "arglist [401,434]"
+    },
+    {
+      "src": "classdef [0,199]",
+      "dest": "classdef [0,464]"
+    },
+    {
+      "src": "suite [66,199]",
+      "dest": "suite [72,464]"
+    },
+    {
+      "src": "param [48,56]",
+      "dest": "param [54,62]"
+    },
+    {
+      "src": "operator: , [55,56]",
+      "dest": "operator: , [61,62]"
+    },
+    {
+      "src": "return_stmt [179,199]",
+      "dest": "return_stmt [444,464]"
+    },
+    {
+      "src": "name: min_age [153,160]",
+      "dest": "name: min_age [418,425]"
+    },
+    {
+      "src": "operator: , [160,161]",
+      "dest": "operator: , [425,426]"
+    },
+    {
+      "src": "file_input [0,199]",
+      "dest": "file_input [0,464]"
+    },
+    {
+      "src": "string: \"SELECT * FROM records WHERE age >= {} AND age <= {};\" [91,145]",
+      "dest": "string: \"SELECT * FROM {} WHERE age BETWEEN {} AND {};\" [346,393]"
+    },
+    {
+      "src": "expr_stmt [75,170]",
+      "dest": "expr_stmt [330,435]"
+    },
+    {
+      "src": "name: max_age [57,64]",
+      "dest": "name: max_age [63,70]"
+    },
+    {
+      "src": "operator: = [89,90]",
+      "dest": "operator: = [344,345]"
+    },
+    {
+      "src": "name: max_age [162,169]",
+      "dest": "name: max_age [427,434]"
+    },
+    {
+      "src": "name: sql_statement [75,88]",
+      "dest": "name: sql_statement [330,343]"
+    },
+    {
+      "src": "name: min_age [48,55]",
+      "dest": "name: min_age [54,61]"
+    },
+    {
+      "src": "name: format [146,152]",
+      "dest": "name: format [394,400]"
+    },
+    {
+      "src": "name: select_by_age_range [28,47]",
+      "dest": "name: select_by_age_range [28,47]"
+    },
+    {
+      "src": "name: sql_statement [186,199]",
+      "dest": "name: sql_statement [451,464]"
+    },
+    {
+      "src": "name: SQLGenerator [6,18]",
+      "dest": "name: SQLGenerator [6,18]"
+    },
+    {
+      "src": "atom_expr [91,170]",
+      "dest": "atom_expr [346,435]"
+    },
+    {
+      "src": "parameters [47,65]",
+      "dest": "parameters [47,71]"
+    },
+    {
+      "src": "simple_stmt [75,171]",
+      "dest": "simple_stmt [330,436]"
+    },
+    {
+      "src": "funcdef [24,199]",
+      "dest": "funcdef [24,464]"
+    },
+    {
+      "src": "trailer [152,170]",
+      "dest": "trailer [400,435]"
+    },
+    {
+      "src": "param [57,64]",
+      "dest": "param [63,70]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [48,53]",
+      "parent": "parameters [47,71]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [81,322]",
+      "parent": "suite [72,464]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "string: \"SELECT * FROM records WHERE age >= {} AND age <= {};\" [91,145]",
+      "label": "\"SELECT * FROM {} WHERE age BETWEEN {} AND {};\""
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [401,416]",
+      "parent": "arglist [401,434]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [416,417]",
+      "parent": "arglist [401,434]",
+      "at": 1
+    }
+  ]
+}

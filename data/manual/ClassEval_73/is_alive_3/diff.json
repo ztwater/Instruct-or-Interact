@@ -1,0 +1,119 @@
+{
+  "matches": [
+    {
+      "src": "name: health [64,70]",
+      "dest": "name: hp [293,295]"
+    },
+    {
+      "src": "suite [19,138]",
+      "dest": "suite [19,363]"
+    },
+    {
+      "src": "simple_stmt [88,100]",
+      "dest": "simple_stmt [313,325]"
+    },
+    {
+      "src": "suite [113,138]",
+      "dest": "suite [338,363]"
+    },
+    {
+      "src": "classdef [0,138]",
+      "dest": "classdef [0,363]"
+    },
+    {
+      "src": "name: player [37,43]",
+      "dest": "name: self [37,41]"
+    },
+    {
+      "src": "suite [45,138]",
+      "dest": "suite [43,363]"
+    },
+    {
+      "src": "return_stmt [88,99]",
+      "dest": "return_stmt [313,324]"
+    },
+    {
+      "src": "return_stmt [126,138]",
+      "dest": "return_stmt [351,363]"
+    },
+    {
+      "src": "trailer [63,70]",
+      "dest": "trailer [292,295]"
+    },
+    {
+      "src": "name: player [57,63]",
+      "dest": "name: self [288,292]"
+    },
+    {
+      "src": "operator: > [71,72]",
+      "dest": "operator: > [296,297]"
+    },
+    {
+      "src": "suite [75,100]",
+      "dest": "suite [300,325]"
+    },
+    {
+      "src": "name: is_alive [28,36]",
+      "dest": "name: is_alive [28,36]"
+    },
+    {
+      "src": "parameters [36,44]",
+      "dest": "parameters [36,42]"
+    },
+    {
+      "src": "atom_expr [57,70]",
+      "dest": "atom_expr [288,295]"
+    },
+    {
+      "src": "file_input [0,138]",
+      "dest": "file_input [0,363]"
+    },
+    {
+      "src": "if_stmt [54,138]",
+      "dest": "if_stmt [285,363]"
+    },
+    {
+      "src": "funcdef [24,138]",
+      "dest": "funcdef [24,363]"
+    },
+    {
+      "src": "comparison [57,74]",
+      "dest": "comparison [288,299]"
+    },
+    {
+      "src": "number: 0 [73,74]",
+      "dest": "number: 0 [298,299]"
+    },
+    {
+      "src": "param [37,43]",
+      "dest": "param [37,41]"
+    },
+    {
+      "src": "name: RPGCharacter [6,18]",
+      "dest": "name: RPGCharacter [6,18]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [52,277]",
+      "parent": "suite [43,363]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: player [37,43]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: player [57,63]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: health [64,70]",
+      "label": "hp"
+    }
+  ]
+}

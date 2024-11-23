@@ -1,0 +1,178 @@
+{
+  "matches": [
+    {
+      "src": "expr_stmt [69,94]",
+      "dest": "expr_stmt [369,391]"
+    },
+    {
+      "src": "suite [18,125]",
+      "dest": "suite [18,420]"
+    },
+    {
+      "src": "param [35,42]",
+      "dest": "param [35,40]"
+    },
+    {
+      "src": "operator: , [41,42]",
+      "dest": "operator: , [39,40]"
+    },
+    {
+      "src": "name: account_balance [69,84]",
+      "dest": "name: balance [374,381]"
+    },
+    {
+      "src": "classdef [0,125]",
+      "dest": "classdef [0,420]"
+    },
+    {
+      "src": "name: amount [35,41]",
+      "dest": "name: self [35,39]"
+    },
+    {
+      "src": "param [43,58]",
+      "dest": "param [41,47]"
+    },
+    {
+      "src": "name: account_balance [43,58]",
+      "dest": "name: amount [41,47]"
+    },
+    {
+      "src": "name: BankAccount [6,17]",
+      "dest": "name: BankAccount [6,17]"
+    },
+    {
+      "src": "simple_stmt [69,95]",
+      "dest": "simple_stmt [369,392]"
+    },
+    {
+      "src": "return_stmt [103,125]",
+      "dest": "return_stmt [400,419]"
+    },
+    {
+      "src": "parameters [34,59]",
+      "dest": "parameters [34,48]"
+    },
+    {
+      "src": "name: account_balance [110,125]",
+      "dest": "name: balance [412,419]"
+    },
+    {
+      "src": "name: amount [88,94]",
+      "dest": "name: amount [385,391]"
+    },
+    {
+      "src": "file_input [0,125]",
+      "dest": "file_input [0,420]"
+    },
+    {
+      "src": "suite [60,125]",
+      "dest": "suite [49,420]"
+    },
+    {
+      "src": "funcdef [23,125]",
+      "dest": "funcdef [23,420]"
+    },
+    {
+      "src": "name: deposit [27,34]",
+      "dest": "name: deposit [27,34]"
+    },
+    {
+      "src": "operator: += [85,87]",
+      "dest": "operator: += [382,384]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [58,290]",
+      "parent": "suite [49,420]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "if_stmt [298,360]",
+      "parent": "suite [49,420]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [400,420]",
+      "parent": "suite [49,420]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: amount [35,41]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: account_balance [43,58]",
+      "label": "amount"
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [103,125]",
+      "parent": "simple_stmt [400,420]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [369,381]",
+      "parent": "expr_stmt [369,391]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [407,419]",
+      "parent": "return_stmt [400,419]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [369,373]",
+      "parent": "atom_expr [369,381]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [373,381]",
+      "parent": "atom_expr [369,381]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [407,411]",
+      "parent": "atom_expr [407,419]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [411,419]",
+      "parent": "atom_expr [407,419]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: account_balance [69,84]",
+      "label": "balance"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: account_balance [69,84]",
+      "parent": "trailer [373,381]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: account_balance [110,125]",
+      "label": "balance"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: account_balance [110,125]",
+      "parent": "trailer [411,419]",
+      "at": 0
+    }
+  ]
+}

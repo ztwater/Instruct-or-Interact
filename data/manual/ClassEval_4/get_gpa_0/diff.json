@@ -1,0 +1,241 @@
+{
+  "matches": [
+    {
+      "src": "name: count [116,121]",
+      "dest": "name: count [480,485]"
+    },
+    {
+      "src": "suite [23,195]",
+      "dest": "suite [23,612]"
+    },
+    {
+      "src": "name: count [85,90]",
+      "dest": "name: count [445,450]"
+    },
+    {
+      "src": "operator: == [122,124]",
+      "dest": "operator: == [486,488]"
+    },
+    {
+      "src": "classdef [0,195]",
+      "dest": "classdef [0,612]"
+    },
+    {
+      "src": "simple_stmt [85,105]",
+      "dest": "simple_stmt [445,465]"
+    },
+    {
+      "src": "name: grades [69,75]",
+      "dest": "name: grades [425,431]"
+    },
+    {
+      "src": "suite [48,195]",
+      "dest": "suite [359,575]"
+    },
+    {
+      "src": "trailer [96,104]",
+      "dest": "trailer [456,464]"
+    },
+    {
+      "src": "term [182,195]",
+      "dest": "term [561,574]"
+    },
+    {
+      "src": "operator: = [91,92]",
+      "dest": "operator: = [451,452]"
+    },
+    {
+      "src": "name: total [182,187]",
+      "dest": "name: total [561,566]"
+    },
+    {
+      "src": "name: len [93,96]",
+      "dest": "name: len [453,456]"
+    },
+    {
+      "src": "name: total [57,62]",
+      "dest": "name: total [413,418]"
+    },
+    {
+      "src": "parameters [39,47]",
+      "dest": "parameters [39,51]"
+    },
+    {
+      "src": "name: get_gpa [32,39]",
+      "dest": "name: get_gpa [32,39]"
+    },
+    {
+      "src": "trailer [68,76]",
+      "dest": "trailer [424,432]"
+    },
+    {
+      "src": "expr_stmt [85,104]",
+      "dest": "expr_stmt [445,464]"
+    },
+    {
+      "src": "name: grades [40,46]",
+      "dest": "name: self [40,44]"
+    },
+    {
+      "src": "file_input [0,195]",
+      "dest": "file_input [0,612]"
+    },
+    {
+      "src": "suite [127,149]",
+      "dest": "suite [491,520]"
+    },
+    {
+      "src": "if_stmt [113,195]",
+      "dest": "if_stmt [477,575]"
+    },
+    {
+      "src": "return_stmt [175,195]",
+      "dest": "return_stmt [554,574]"
+    },
+    {
+      "src": "operator: = [63,64]",
+      "dest": "operator: = [419,420]"
+    },
+    {
+      "src": "atom_expr [93,104]",
+      "dest": "atom_expr [453,464]"
+    },
+    {
+      "src": "expr_stmt [57,76]",
+      "dest": "expr_stmt [413,432]"
+    },
+    {
+      "src": "name: sum [65,68]",
+      "dest": "name: sum [421,424]"
+    },
+    {
+      "src": "atom_expr [65,76]",
+      "dest": "atom_expr [421,432]"
+    },
+    {
+      "src": "suite [162,195]",
+      "dest": "suite [537,575]"
+    },
+    {
+      "src": "name: grades [97,103]",
+      "dest": "name: grades [457,463]"
+    },
+    {
+      "src": "number: 0 [125,126]",
+      "dest": "number: 0 [489,490]"
+    },
+    {
+      "src": "name: AssessmentSystem [6,22]",
+      "dest": "name: AssessmentSystem [6,22]"
+    },
+    {
+      "src": "simple_stmt [140,149]",
+      "dest": "simple_stmt [508,520]"
+    },
+    {
+      "src": "name: count [190,195]",
+      "dest": "name: count [569,574]"
+    },
+    {
+      "src": "return_stmt [140,148]",
+      "dest": "return_stmt [508,519]"
+    },
+    {
+      "src": "simple_stmt [57,77]",
+      "dest": "simple_stmt [413,433]"
+    },
+    {
+      "src": "funcdef [28,195]",
+      "dest": "funcdef [28,612]"
+    },
+    {
+      "src": "comparison [116,126]",
+      "dest": "comparison [480,490]"
+    },
+    {
+      "src": "param [40,46]",
+      "dest": "param [40,45]"
+    },
+    {
+      "src": "operator: / [188,189]",
+      "dest": "operator: / [567,568]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "suite [52,612]",
+      "parent": "funcdef [28,612]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [46,50]",
+      "parent": "parameters [39,51]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [61,302]",
+      "parent": "suite [52,612]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [310,612]",
+      "parent": "suite [52,612]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: grades [40,46]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [44,45]",
+      "parent": "param [40,45]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "and_test [313,358]",
+      "parent": "if_stmt [310,612]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [48,195]",
+      "parent": "if_stmt [310,612]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [588,612]",
+      "parent": "if_stmt [310,612]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [372,401]",
+      "parent": "suite [359,575]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [554,575]",
+      "parent": "suite [537,575]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [175,195]",
+      "parent": "simple_stmt [554,575]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 0 [147,148]"
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "matches": [
+    {
+      "src": "string: 'database.db' [120,133]",
+      "dest": "string: \"\"\"         Deletes a ticket from the \"tickets\" table by ticket ID.         :param ticket_id: int, the ID of the ticket to delete.         :return: None         \"\"\" [69,233]"
+    },
+    {
+      "src": "name: conn [351,355]",
+      "dest": "name: connection [434,444]"
+    },
+    {
+      "src": "suite [20,385]",
+      "dest": "suite [20,453]"
+    },
+    {
+      "src": "string: \"DELETE FROM tickets WHERE ticket_id = ?\" [227,268]",
+      "dest": "string: \"DELETE FROM tickets WHERE ticket_id = ?\" [305,346]"
+    },
+    {
+      "src": "trailer [355,362]",
+      "dest": "trailer [444,451]"
+    },
+    {
+      "src": "classdef [0,385]",
+      "dest": "classdef [0,453]"
+    },
+    {
+      "src": "name: commit [356,362]",
+      "dest": "name: commit [445,451]"
+    },
+    {
+      "src": "suite [54,385]",
+      "dest": "suite [60,453]"
+    },
+    {
+      "src": "name: ticket_id [271,280]",
+      "dest": "name: ticket_id [349,358]"
+    },
+    {
+      "src": "operator: , [268,269]",
+      "dest": "operator: , [346,347]"
+    },
+    {
+      "src": "name: delete_ticket [29,42]",
+      "dest": "name: delete_ticket [29,42]"
+    },
+    {
+      "src": "testlist_comp [271,281]",
+      "dest": "testlist_comp [349,359]"
+    },
+    {
+      "src": "trailer [151,158]",
+      "dest": "trailer [289,296]"
+    },
+    {
+      "src": "atom_expr [351,364]",
+      "dest": "atom_expr [429,453]"
+    },
+    {
+      "src": "arglist [227,282]",
+      "dest": "arglist [305,360]"
+    },
+    {
+      "src": "file_input [0,385]",
+      "dest": "file_input [0,453]"
+    },
+    {
+      "src": "name: cursor [152,158]",
+      "dest": "name: cursor [290,296]"
+    },
+    {
+      "src": "atom_expr [217,283]",
+      "dest": "atom_expr [285,361]"
+    },
+    {
+      "src": "name: ticket_id [43,52]",
+      "dest": "name: ticket_id [49,58]"
+    },
+    {
+      "src": "name: execute [219,226]",
+      "dest": "name: execute [297,304]"
+    },
+    {
+      "src": "atom [270,282]",
+      "dest": "atom [348,360]"
+    },
+    {
+      "src": "param [43,52]",
+      "dest": "param [49,58]"
+    },
+    {
+      "src": "parameters [42,53]",
+      "dest": "parameters [42,59]"
+    },
+    {
+      "src": "operator: , [280,281]",
+      "dest": "operator: , [358,359]"
+    },
+    {
+      "src": "trailer [218,226]",
+      "dest": "trailer [296,304]"
+    },
+    {
+      "src": "simple_stmt [97,135]",
+      "dest": "simple_stmt [69,234]"
+    },
+    {
+      "src": "trailer [226,283]",
+      "dest": "trailer [304,361]"
+    },
+    {
+      "src": "simple_stmt [217,284]",
+      "dest": "simple_stmt [285,362]"
+    },
+    {
+      "src": "name: MovieTicketDB [6,19]",
+      "dest": "name: MovieTicketDB [6,19]"
+    },
+    {
+      "src": "name: c [143,144]",
+      "dest": "name: self [285,289]"
+    },
+    {
+      "src": "funcdef [25,385]",
+      "dest": "funcdef [25,453]"
+    },
+    {
+      "src": "trailer [362,364]",
+      "dest": "trailer [451,453]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [43,48]",
+      "parent": "parameters [42,59]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [351,364]",
+      "parent": "suite [60,453]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "string: 'database.db' [120,133]",
+      "label": "\"\"\"         Deletes a ticket from the \"tickets\" table by ticket ID.         :param ticket_id: int, the ID of the ticket to delete.         :return: None         \"\"\""
+    },
+    {
+      "action": "move-tree",
+      "tree": "string: 'database.db' [120,133]",
+      "parent": "simple_stmt [69,234]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [429,433]",
+      "parent": "atom_expr [429,453]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [433,444]",
+      "parent": "atom_expr [429,453]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: c [143,144]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: c [143,144]",
+      "parent": "atom_expr [285,361]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [151,158]",
+      "parent": "atom_expr [285,361]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: conn [351,355]",
+      "label": "connection"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: conn [351,355]",
+      "parent": "trailer [433,444]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: conn [97,101]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: = [102,103]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: sqlite3 [104,111]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [111,119]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [119,134]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [104,134]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [97,134]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: = [145,146]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: conn [147,151]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [158,160]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [147,160]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [143,160]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [143,161]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: c [217,218]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [351,365]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "atom_expr [373,385]"
+    }
+  ]
+}

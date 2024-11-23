@@ -1,0 +1,151 @@
+{
+  "matches": [
+    {
+      "src": "param [38,43]",
+      "dest": "param [38,46]"
+    },
+    {
+      "src": "name: match [26,31]",
+      "dest": "name: match [26,31]"
+    },
+    {
+      "src": "name: regex [38,43]",
+      "dest": "name: pattern [38,45]"
+    },
+    {
+      "src": "suite [17,142]",
+      "dest": "suite [17,435]"
+    },
+    {
+      "src": "simple_stmt [92,104]",
+      "dest": "simple_stmt [385,397]"
+    },
+    {
+      "src": "name: regex [66,71]",
+      "dest": "name: pattern [357,364]"
+    },
+    {
+      "src": "classdef [0,142]",
+      "dest": "classdef [0,435]"
+    },
+    {
+      "src": "suite [45,142]",
+      "dest": "suite [53,435]"
+    },
+    {
+      "src": "arglist [66,77]",
+      "dest": "arglist [357,370]"
+    },
+    {
+      "src": "operator: , [71,72]",
+      "dest": "operator: , [364,365]"
+    },
+    {
+      "src": "name: RegexUtils [6,16]",
+      "dest": "name: RegexUtils [6,16]"
+    },
+    {
+      "src": "return_stmt [92,103]",
+      "dest": "return_stmt [385,396]"
+    },
+    {
+      "src": "param [32,37]",
+      "dest": "param [32,37]"
+    },
+    {
+      "src": "suite [79,104]",
+      "dest": "suite [372,397]"
+    },
+    {
+      "src": "name: re [57,59]",
+      "dest": "name: re [348,350]"
+    },
+    {
+      "src": "file_input [0,142]",
+      "dest": "file_input [0,435]"
+    },
+    {
+      "src": "atom_expr [57,78]",
+      "dest": "atom_expr [348,371]"
+    },
+    {
+      "src": "trailer [59,65]",
+      "dest": "trailer [350,356]"
+    },
+    {
+      "src": "name: match [60,65]",
+      "dest": "name: match [351,356]"
+    },
+    {
+      "src": "suite [117,142]",
+      "dest": "suite [410,435]"
+    },
+    {
+      "src": "operator: , [36,37]",
+      "dest": "operator: , [36,37]"
+    },
+    {
+      "src": "return_stmt [130,142]",
+      "dest": "return_stmt [423,435]"
+    },
+    {
+      "src": "name: text [73,77]",
+      "dest": "name: text [366,370]"
+    },
+    {
+      "src": "name: text [32,36]",
+      "dest": "name: self [32,36]"
+    },
+    {
+      "src": "parameters [31,44]",
+      "dest": "parameters [31,52]"
+    },
+    {
+      "src": "trailer [65,78]",
+      "dest": "trailer [356,371]"
+    },
+    {
+      "src": "if_stmt [54,142]",
+      "dest": "if_stmt [345,435]"
+    },
+    {
+      "src": "funcdef [22,142]",
+      "dest": "funcdef [22,435]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [47,51]",
+      "parent": "parameters [31,52]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [62,337]",
+      "parent": "suite [53,435]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: text [32,36]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: regex [38,43]",
+      "label": "pattern"
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [45,46]",
+      "parent": "param [38,46]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: regex [66,71]",
+      "label": "pattern"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "matches": [
+    {
+      "src": "suite [26,407]",
+      "dest": "suite [26,747]"
+    },
+    {
+      "src": "operator: = [132,133]",
+      "dest": "operator: = [488,489]"
+    },
+    {
+      "src": "name: get [295,298]",
+      "dest": "name: get [643,646]"
+    },
+    {
+      "src": "classdef [0,407]",
+      "dest": "classdef [0,747]"
+    },
+    {
+      "src": "suite [51,407]",
+      "dest": "suite [57,747]"
+    },
+    {
+      "src": "comparison [287,326]",
+      "dest": "comparison [635,674]"
+    },
+    {
+      "src": "string: 'allowed_value' [311,326]",
+      "dest": "string: 'allowed_value' [659,674]"
+    },
+    {
+      "src": "name: request [42,49]",
+      "dest": "name: request [48,55]"
+    },
+    {
+      "src": "trailer [298,307]",
+      "dest": "trailer [646,655]"
+    },
+    {
+      "src": "name: filtered_request [391,407]",
+      "dest": "name: filtered_request [731,747]"
+    },
+    {
+      "src": "operator: == [308,310]",
+      "dest": "operator: == [656,658]"
+    },
+    {
+      "src": "expr_stmt [340,366]",
+      "dest": "expr_stmt [688,714]"
+    },
+    {
+      "src": "atom_expr [287,307]",
+      "dest": "atom_expr [635,655]"
+    },
+    {
+      "src": "parameters [41,50]",
+      "dest": "parameters [41,56]"
+    },
+    {
+      "src": "trailer [294,298]",
+      "dest": "trailer [642,646]"
+    },
+    {
+      "src": "file_input [0,407]",
+      "dest": "file_input [0,747]"
+    },
+    {
+      "src": "expr_stmt [115,141]",
+      "dest": "expr_stmt [471,497]"
+    },
+    {
+      "src": "return_stmt [384,407]",
+      "dest": "return_stmt [724,747]"
+    },
+    {
+      "src": "param [42,49]",
+      "dest": "param [48,55]"
+    },
+    {
+      "src": "name: filtered_request [115,131]",
+      "dest": "name: filtered_request [471,487]"
+    },
+    {
+      "src": "name: filter [35,41]",
+      "dest": "name: filter [35,41]"
+    },
+    {
+      "src": "name: filtered_request [340,356]",
+      "dest": "name: filtered_request [688,704]"
+    },
+    {
+      "src": "string: 'param' [299,306]",
+      "dest": "string: 'param' [647,654]"
+    },
+    {
+      "src": "simple_stmt [340,367]",
+      "dest": "simple_stmt [688,715]"
+    },
+    {
+      "src": "name: request [359,366]",
+      "dest": "name: request [707,714]"
+    },
+    {
+      "src": "operator: = [357,358]",
+      "dest": "operator: = [705,706]"
+    },
+    {
+      "src": "suite [327,367]",
+      "dest": "suite [675,715]"
+    },
+    {
+      "src": "name: request [134,141]",
+      "dest": "name: request [490,497]"
+    },
+    {
+      "src": "if_stmt [284,367]",
+      "dest": "if_stmt [632,715]"
+    },
+    {
+      "src": "name: request [287,294]",
+      "dest": "name: request [635,642]"
+    },
+    {
+      "src": "funcdef [31,407]",
+      "dest": "funcdef [31,747]"
+    },
+    {
+      "src": "name: AccessGatewayFilter [6,25]",
+      "dest": "name: AccessGatewayFilter [6,25]"
+    },
+    {
+      "src": "simple_stmt [115,182]",
+      "dest": "simple_stmt [471,538]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [42,47]",
+      "parent": "parameters [41,56]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [66,407]",
+      "parent": "suite [57,747]",
+      "at": 0
+    }
+  ]
+}

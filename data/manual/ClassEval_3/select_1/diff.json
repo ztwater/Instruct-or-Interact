@@ -1,0 +1,197 @@
+{
+  "matches": [
+    {
+      "src": "suite [28,158]",
+      "dest": "suite [28,451]"
+    },
+    {
+      "src": "name: datas [44,49]",
+      "dest": "name: self [44,48]"
+    },
+    {
+      "src": "name: m [51,52]",
+      "dest": "name: m [50,51]"
+    },
+    {
+      "src": "operator: , [110,111]",
+      "dest": "operator: , [403,404]"
+    },
+    {
+      "src": "classdef [0,158]",
+      "dest": "classdef [0,451]"
+    },
+    {
+      "src": "suite [54,158]",
+      "dest": "suite [58,451]"
+    },
+    {
+      "src": "name: arrangements [63,75]",
+      "dest": "name: arrangements [346,358]"
+    },
+    {
+      "src": "name: select_items [89,101]",
+      "dest": "name: select_items [377,389]"
+    },
+    {
+      "src": "return_stmt [138,157]",
+      "dest": "return_stmt [431,450]"
+    },
+    {
+      "src": "expr_stmt [63,80]",
+      "dest": "expr_stmt [346,363]"
+    },
+    {
+      "src": "arglist [102,128]",
+      "dest": "arglist [390,421]"
+    },
+    {
+      "src": "name: m [109,110]",
+      "dest": "name: m [402,403]"
+    },
+    {
+      "src": "simple_stmt [63,81]",
+      "dest": "simple_stmt [346,364]"
+    },
+    {
+      "src": "atom [112,114]",
+      "dest": "atom [405,407]"
+    },
+    {
+      "src": "operator: , [49,50]",
+      "dest": "operator: , [48,49]"
+    },
+    {
+      "src": "file_input [0,162]",
+      "dest": "file_input [0,451]"
+    },
+    {
+      "src": "param [44,50]",
+      "dest": "param [44,49]"
+    },
+    {
+      "src": "atom_expr [89,129]",
+      "dest": "atom_expr [372,422]"
+    },
+    {
+      "src": "param [51,52]",
+      "dest": "param [50,56]"
+    },
+    {
+      "src": "operator: , [114,115]",
+      "dest": "operator: , [407,408]"
+    },
+    {
+      "src": "name: arrangements [145,157]",
+      "dest": "name: arrangements [438,450]"
+    },
+    {
+      "src": "atom [78,80]",
+      "dest": "atom [361,363]"
+    },
+    {
+      "src": "name: select [37,43]",
+      "dest": "name: select [37,43]"
+    },
+    {
+      "src": "name: arrangements [116,128]",
+      "dest": "name: arrangements [409,421]"
+    },
+    {
+      "src": "operator: = [76,77]",
+      "dest": "operator: = [359,360]"
+    },
+    {
+      "src": "name: datas [102,107]",
+      "dest": "name: datas [395,400]"
+    },
+    {
+      "src": "name: ArrangementCalculator [6,27]",
+      "dest": "name: ArrangementCalculator [6,27]"
+    },
+    {
+      "src": "parameters [43,53]",
+      "dest": "parameters [43,57]"
+    },
+    {
+      "src": "simple_stmt [138,158]",
+      "dest": "simple_stmt [431,451]"
+    },
+    {
+      "src": "simple_stmt [89,130]",
+      "dest": "simple_stmt [372,423]"
+    },
+    {
+      "src": "operator: , [107,108]",
+      "dest": "operator: , [400,401]"
+    },
+    {
+      "src": "funcdef [33,158]",
+      "dest": "funcdef [33,451]"
+    },
+    {
+      "src": "trailer [101,129]",
+      "dest": "trailer [389,422]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [67,338]",
+      "parent": "suite [58,451]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: datas [44,49]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [51,52]",
+      "parent": "param [50,56]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [372,376]",
+      "parent": "atom_expr [372,422]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [376,389]",
+      "parent": "atom_expr [372,422]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: select_items [89,101]",
+      "parent": "trailer [376,389]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [390,400]",
+      "parent": "arglist [390,421]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [390,394]",
+      "parent": "atom_expr [390,400]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [394,400]",
+      "parent": "atom_expr [390,400]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: datas [102,107]",
+      "parent": "trailer [394,400]",
+      "at": 0
+    }
+  ]
+}

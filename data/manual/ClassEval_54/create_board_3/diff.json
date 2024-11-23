@@ -1,0 +1,324 @@
+{
+  "matches": [
+    {
+      "src": "simple_stmt [177,195]",
+      "dest": "simple_stmt [595,618]"
+    },
+    {
+      "src": "name: board [65,70]",
+      "dest": "name: board [455,460]"
+    },
+    {
+      "src": "suite [21,245]",
+      "dest": "suite [21,669]"
+    },
+    {
+      "src": "name: range [93,98]",
+      "dest": "name: range [483,488]"
+    },
+    {
+      "src": "classdef [0,245]",
+      "dest": "classdef [0,669]"
+    },
+    {
+      "src": "atom [124,126]",
+      "dest": "atom [528,530]"
+    },
+    {
+      "src": "suite [56,245]",
+      "dest": "suite [49,669]"
+    },
+    {
+      "src": "name: board [240,245]",
+      "dest": "name: board [663,668]"
+    },
+    {
+      "src": "atom_expr [207,224]",
+      "dest": "atom_expr [630,647]"
+    },
+    {
+      "src": "trailer [219,224]",
+      "dest": "trailer [642,647]"
+    },
+    {
+      "src": "name: row [177,180]",
+      "dest": "name: row [595,598]"
+    },
+    {
+      "src": "expr_stmt [118,126]",
+      "dest": "expr_stmt [522,530]"
+    },
+    {
+      "src": "simple_stmt [207,225]",
+      "dest": "simple_stmt [630,648]"
+    },
+    {
+      "src": "param [43,48]",
+      "dest": "param [43,47]"
+    },
+    {
+      "src": "name: size [43,47]",
+      "dest": "name: self [43,47]"
+    },
+    {
+      "src": "atom_expr [148,159]",
+      "dest": "atom_expr [552,577]"
+    },
+    {
+      "src": "return_stmt [233,245]",
+      "dest": "return_stmt [656,668]"
+    },
+    {
+      "src": "operator: = [122,123]",
+      "dest": "operator: = [526,527]"
+    },
+    {
+      "src": "name: row [118,121]",
+      "dest": "name: row [522,525]"
+    },
+    {
+      "src": "name: append [213,219]",
+      "dest": "name: append [636,642]"
+    },
+    {
+      "src": "name: create_board [30,42]",
+      "dest": "name: create_board [30,42]"
+    },
+    {
+      "src": "for_stmt [139,195]",
+      "dest": "for_stmt [543,618]"
+    },
+    {
+      "src": "suite [160,195]",
+      "dest": "suite [578,618]"
+    },
+    {
+      "src": "atom [73,75]",
+      "dest": "atom [463,465]"
+    },
+    {
+      "src": "funcdef [26,245]",
+      "dest": "funcdef [26,669]"
+    },
+    {
+      "src": "atom_expr [177,194]",
+      "dest": "atom_expr [595,617]"
+    },
+    {
+      "src": "operator: = [71,72]",
+      "dest": "operator: = [461,462]"
+    },
+    {
+      "src": "name: board [207,212]",
+      "dest": "name: board [630,635]"
+    },
+    {
+      "src": "simple_stmt [118,127]",
+      "dest": "simple_stmt [522,531]"
+    },
+    {
+      "src": "name: size [154,158]",
+      "dest": "name: self [558,562]"
+    },
+    {
+      "src": "name: append [181,187]",
+      "dest": "name: append [599,605]"
+    },
+    {
+      "src": "name: _ [88,89]",
+      "dest": "name: _ [478,479]"
+    },
+    {
+      "src": "file_input [0,245]",
+      "dest": "file_input [0,669]"
+    },
+    {
+      "src": "expr_stmt [65,75]",
+      "dest": "expr_stmt [455,465]"
+    },
+    {
+      "src": "suite [105,225]",
+      "dest": "suite [509,648]"
+    },
+    {
+      "src": "name: size [99,103]",
+      "dest": "name: self [489,493]"
+    },
+    {
+      "src": "name: row [220,223]",
+      "dest": "name: row [643,646]"
+    },
+    {
+      "src": "trailer [98,104]",
+      "dest": "trailer [488,508]"
+    },
+    {
+      "src": "atom_expr [93,104]",
+      "dest": "atom_expr [483,508]"
+    },
+    {
+      "src": "name: MahjongConnect [6,20]",
+      "dest": "name: MahjongConnect [6,20]"
+    },
+    {
+      "src": "parameters [42,55]",
+      "dest": "parameters [42,48]"
+    },
+    {
+      "src": "trailer [212,219]",
+      "dest": "trailer [635,642]"
+    },
+    {
+      "src": "simple_stmt [65,76]",
+      "dest": "simple_stmt [455,466]"
+    },
+    {
+      "src": "name: _ [143,144]",
+      "dest": "name: _ [547,548]"
+    },
+    {
+      "src": "trailer [187,194]",
+      "dest": "trailer [610,616]"
+    },
+    {
+      "src": "for_stmt [84,225]",
+      "dest": "for_stmt [474,648]"
+    },
+    {
+      "src": "trailer [180,187]",
+      "dest": "trailer [598,605]"
+    },
+    {
+      "src": "trailer [153,159]",
+      "dest": "trailer [557,577]"
+    },
+    {
+      "src": "name: icons [188,193]",
+      "dest": "name: ICONS [611,616]"
+    },
+    {
+      "src": "name: range [148,153]",
+      "dest": "name: range [552,557]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [58,447]",
+      "parent": "suite [49,669]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [656,669]",
+      "parent": "suite [49,669]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: size [43,47]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [233,245]",
+      "parent": "simple_stmt [656,669]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [489,507]",
+      "parent": "trailer [488,508]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: size [99,103]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: size [99,103]",
+      "parent": "atom_expr [489,507]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [493,504]",
+      "parent": "atom_expr [489,507]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [504,507]",
+      "parent": "atom_expr [489,507]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [558,576]",
+      "parent": "trailer [557,577]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: size [154,158]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: size [154,158]",
+      "parent": "atom_expr [558,576]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [562,573]",
+      "parent": "atom_expr [558,576]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [573,576]",
+      "parent": "atom_expr [558,576]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [605,617]",
+      "parent": "atom_expr [595,617]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [606,616]",
+      "parent": "trailer [605,617]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [606,610]",
+      "parent": "atom_expr [606,616]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [187,194]",
+      "parent": "atom_expr [606,616]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: icons [188,193]",
+      "label": "ICONS"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [47,48]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "param [49,54]"
+    }
+  ]
+}

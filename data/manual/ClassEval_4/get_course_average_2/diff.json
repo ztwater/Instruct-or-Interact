@@ -1,0 +1,281 @@
+{
+  "matches": [
+    {
+      "src": "name: average_score [340,353]",
+      "dest": "name: average_score [677,690]"
+    },
+    {
+      "src": "suite [23,353]",
+      "dest": "suite [23,690]"
+    },
+    {
+      "src": "simple_stmt [75,91]",
+      "dest": "simple_stmt [313,329]"
+    },
+    {
+      "src": "classdef [0,353]",
+      "dest": "classdef [0,690]"
+    },
+    {
+      "src": "name: course_scores [51,64]",
+      "dest": "name: course [57,63]"
+    },
+    {
+      "src": "return_stmt [333,353]",
+      "dest": "return_stmt [670,690]"
+    },
+    {
+      "src": "if_stmt [148,189]",
+      "dest": "if_stmt [560,604]"
+    },
+    {
+      "src": "suite [66,353]",
+      "dest": "suite [65,690]"
+    },
+    {
+      "src": "term [300,324]",
+      "dest": "term [637,661]"
+    },
+    {
+      "src": "param [51,64]",
+      "dest": "param [57,63]"
+    },
+    {
+      "src": "operator: == [162,164]",
+      "dest": "operator: == [574,576]"
+    },
+    {
+      "src": "expr_stmt [284,324]",
+      "dest": "expr_stmt [621,661]"
+    },
+    {
+      "src": "trailer [115,130]",
+      "dest": "trailer [502,510]"
+    },
+    {
+      "src": "operator: = [298,299]",
+      "dest": "operator: = [635,636]"
+    },
+    {
+      "src": "name: num_scores [314,324]",
+      "dest": "name: num_scores [651,661]"
+    },
+    {
+      "src": "name: total_score [75,86]",
+      "dest": "name: total_score [313,324]"
+    },
+    {
+      "src": "name: num_scores [151,161]",
+      "dest": "name: num_scores [563,573]"
+    },
+    {
+      "src": "suite [167,189]",
+      "dest": "suite [579,604]"
+    },
+    {
+      "src": "name: get_course_average [32,50]",
+      "dest": "name: get_course_average [32,50]"
+    },
+    {
+      "src": "name: AssessmentSystem [6,22]",
+      "dest": "name: AssessmentSystem [6,22]"
+    },
+    {
+      "src": "name: len [112,115]",
+      "dest": "name: student [484,491]"
+    },
+    {
+      "src": "name: course_scores [116,129]",
+      "dest": "name: course [503,509]"
+    },
+    {
+      "src": "file_input [0,353]",
+      "dest": "file_input [0,690]"
+    },
+    {
+      "src": "return_stmt [180,188]",
+      "dest": "return_stmt [592,603]"
+    },
+    {
+      "src": "number: 0 [89,90]",
+      "dest": "number: 0 [327,328]"
+    },
+    {
+      "src": "operator: = [87,88]",
+      "dest": "operator: = [325,326]"
+    },
+    {
+      "src": "parameters [50,65]",
+      "dest": "parameters [50,64]"
+    },
+    {
+      "src": "name: average_score [284,297]",
+      "dest": "name: average_score [621,634]"
+    },
+    {
+      "src": "operator: / [312,313]",
+      "dest": "operator: / [649,650]"
+    },
+    {
+      "src": "name: num_scores [99,109]",
+      "dest": "name: total_score [469,480]"
+    },
+    {
+      "src": "atom_expr [112,130]",
+      "dest": "atom_expr [484,510]"
+    },
+    {
+      "src": "name: total_score [300,311]",
+      "dest": "name: total_score [637,648]"
+    },
+    {
+      "src": "operator: = [110,111]",
+      "dest": "operator: += [481,483]"
+    },
+    {
+      "src": "comparison [151,166]",
+      "dest": "comparison [563,578]"
+    },
+    {
+      "src": "expr_stmt [75,90]",
+      "dest": "expr_stmt [313,328]"
+    },
+    {
+      "src": "number: 0 [165,166]",
+      "dest": "number: 0 [577,578]"
+    },
+    {
+      "src": "simple_stmt [180,189]",
+      "dest": "simple_stmt [592,604]"
+    },
+    {
+      "src": "simple_stmt [284,325]",
+      "dest": "simple_stmt [621,662]"
+    },
+    {
+      "src": "expr_stmt [99,130]",
+      "dest": "expr_stmt [469,510]"
+    },
+    {
+      "src": "simple_stmt [99,131]",
+      "dest": "simple_stmt [469,511]"
+    },
+    {
+      "src": "funcdef [28,353]",
+      "dest": "funcdef [28,690]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [51,56]",
+      "parent": "parameters [50,64]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [74,305]",
+      "parent": "suite [65,690]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [337,352]",
+      "parent": "suite [65,690]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "for_stmt [369,543]",
+      "parent": "suite [65,690]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: course_scores [51,64]",
+      "label": "course"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: student [373,380]",
+      "parent": "for_stmt [369,543]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [384,406]",
+      "parent": "for_stmt [369,543]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [407,543]",
+      "parent": "for_stmt [369,543]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [420,543]",
+      "parent": "suite [407,543]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [423,451]",
+      "parent": "if_stmt [420,543]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [452,543]",
+      "parent": "if_stmt [420,543]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [99,131]",
+      "parent": "suite [452,543]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [527,543]",
+      "parent": "suite [452,543]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: num_scores [99,109]",
+      "label": "total_score"
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: = [110,111]",
+      "label": "+="
+    },
+    {
+      "action": "update-node",
+      "tree": "name: len [112,115]",
+      "label": "student"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [491,502]",
+      "parent": "atom_expr [484,510]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: course_scores [116,129]",
+      "label": "course"
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 0 [187,188]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "for_stmt [206,267]"
+    }
+  ]
+}

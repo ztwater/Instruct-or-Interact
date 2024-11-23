@@ -1,0 +1,157 @@
+{
+  "matches": [
+    {
+      "src": "suite [23,159]",
+      "dest": "suite [23,287]"
+    },
+    {
+      "src": "operator: += [117,119]",
+      "dest": "operator: += [245,247]"
+    },
+    {
+      "src": "name: total_cost [53,63]",
+      "dest": "name: total_cost [176,186]"
+    },
+    {
+      "src": "name: DiscountStrategy [6,22]",
+      "dest": "name: DiscountStrategy [6,22]"
+    },
+    {
+      "src": "classdef [0,159]",
+      "dest": "classdef [0,287]"
+    },
+    {
+      "src": "suite [44,159]",
+      "dest": "suite [44,287]"
+    },
+    {
+      "src": "param [38,42]",
+      "dest": "param [38,42]"
+    },
+    {
+      "src": "string: 'price' [125,132]",
+      "dest": "string: 'price' [253,260]"
+    },
+    {
+      "src": "atom_expr [120,133]",
+      "dest": "atom_expr [248,261]"
+    },
+    {
+      "src": "trailer [124,133]",
+      "dest": "trailer [252,261]"
+    },
+    {
+      "src": "number: 0 [66,67]",
+      "dest": "number: 0 [189,190]"
+    },
+    {
+      "src": "name: total [32,37]",
+      "dest": "name: total [32,37]"
+    },
+    {
+      "src": "simple_stmt [106,134]",
+      "dest": "simple_stmt [234,262]"
+    },
+    {
+      "src": "name: total_cost [106,116]",
+      "dest": "name: total_cost [234,244]"
+    },
+    {
+      "src": "file_input [0,159]",
+      "dest": "file_input [0,287]"
+    },
+    {
+      "src": "expr_stmt [53,67]",
+      "dest": "expr_stmt [176,190]"
+    },
+    {
+      "src": "suite [93,134]",
+      "dest": "suite [221,262]"
+    },
+    {
+      "src": "name: cart [38,42]",
+      "dest": "name: self [38,42]"
+    },
+    {
+      "src": "name: item [120,124]",
+      "dest": "name: item [248,252]"
+    },
+    {
+      "src": "name: item [80,84]",
+      "dest": "name: item [203,207]"
+    },
+    {
+      "src": "simple_stmt [53,68]",
+      "dest": "simple_stmt [176,191]"
+    },
+    {
+      "src": "parameters [37,43]",
+      "dest": "parameters [37,43]"
+    },
+    {
+      "src": "operator: = [64,65]",
+      "dest": "operator: = [187,188]"
+    },
+    {
+      "src": "name: total_cost [149,159]",
+      "dest": "name: total_cost [277,287]"
+    },
+    {
+      "src": "name: cart [88,92]",
+      "dest": "name: cart [216,220]"
+    },
+    {
+      "src": "expr_stmt [106,133]",
+      "dest": "expr_stmt [234,261]"
+    },
+    {
+      "src": "for_stmt [76,134]",
+      "dest": "for_stmt [199,262]"
+    },
+    {
+      "src": "funcdef [28,159]",
+      "dest": "funcdef [28,287]"
+    },
+    {
+      "src": "return_stmt [142,159]",
+      "dest": "return_stmt [270,287]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [53,168]",
+      "parent": "suite [44,287]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: cart [38,42]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [211,220]",
+      "parent": "for_stmt [199,262]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [211,215]",
+      "parent": "atom_expr [211,220]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [215,220]",
+      "parent": "atom_expr [211,220]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: cart [88,92]",
+      "parent": "trailer [215,220]",
+      "at": 0
+    }
+  ]
+}

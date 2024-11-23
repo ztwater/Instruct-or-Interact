@@ -1,0 +1,30 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Calculate the area of annulus based on inner_radius and outer_radius.\n        :param inner_radius: inner radius of sector, float\n        :param outer_radius: outer radius of sector, float\n        :return: area of annulus, float\n        >>> areaCalculator.calculate_annulus_area(2, 3)\n        15.707963267948966\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return annulus_area\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return annulus_area",
+        "deleted": "return annulus_area",
+        "type": "Move"
+    }
+]

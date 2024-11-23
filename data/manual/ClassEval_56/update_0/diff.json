@@ -1,0 +1,678 @@
+{
+  "matches": [
+    {
+      "src": "operator: , [71,72]",
+      "dest": "operator: , [62,63]"
+    },
+    {
+      "src": "operator: += [417,419]",
+      "dest": "operator: += [868,870]"
+    },
+    {
+      "src": "classdef [0,506]",
+      "dest": "classdef [0,1013]"
+    },
+    {
+      "src": "simple_stmt [402,422]",
+      "dest": "simple_stmt [847,873]"
+    },
+    {
+      "src": "funcdef [29,506]",
+      "dest": "funcdef [29,1013]"
+    },
+    {
+      "src": "param [40,55]",
+      "dest": "param [40,45]"
+    },
+    {
+      "src": "simple_stmt [161,181]",
+      "dest": "simple_stmt [562,587]"
+    },
+    {
+      "src": "number: 1 [341,342]",
+      "dest": "number: 1 [828,829]"
+    },
+    {
+      "src": "number: 1 [420,421]",
+      "dest": "number: 1 [871,872]"
+    },
+    {
+      "src": "name: true_negatives [90,104]",
+      "dest": "name: true_labels [437,448]"
+    },
+    {
+      "src": "number: 1 [260,261]",
+      "dest": "number: 1 [728,729]"
+    },
+    {
+      "src": "expr_stmt [161,180]",
+      "dest": "expr_stmt [562,586]"
+    },
+    {
+      "src": "operator: += [257,259]",
+      "dest": "operator: += [725,727]"
+    },
+    {
+      "src": "name: false_positives [241,256]",
+      "dest": "name: false_positives [709,724]"
+    },
+    {
+      "src": "name: false_negatives [322,337]",
+      "dest": "name: predicted [801,810]"
+    },
+    {
+      "src": "name: true_positives [442,456]",
+      "dest": "name: predicted [943,952]"
+    },
+    {
+      "src": "file_input [0,506]",
+      "dest": "file_input [0,1013]"
+    },
+    {
+      "src": "name: true_positives [161,175]",
+      "dest": "name: true_positives [567,581]"
+    },
+    {
+      "src": "name: false_negatives [475,490]",
+      "dest": "name: self [989,993]"
+    },
+    {
+      "src": "expr_stmt [241,261]",
+      "dest": "expr_stmt [704,729]"
+    },
+    {
+      "src": "name: false_positives [56,71]",
+      "dest": "name: predicted_labels [46,62]"
+    },
+    {
+      "src": "number: 1 [179,180]",
+      "dest": "number: 1 [585,586]"
+    },
+    {
+      "src": "name: true_negatives [492,506]",
+      "dest": "name: true_negatives [994,1008]"
+    },
+    {
+      "src": "expr_stmt [402,421]",
+      "dest": "expr_stmt [847,872]"
+    },
+    {
+      "src": "name: MetricsCalculator [6,23]",
+      "dest": "name: MetricsCalculator [6,23]"
+    },
+    {
+      "src": "name: false_positives [458,473]",
+      "dest": "name: true [962,966]"
+    },
+    {
+      "src": "param [56,72]",
+      "dest": "param [46,63]"
+    },
+    {
+      "src": "name: false_negatives [73,88]",
+      "dest": "name: true_labels [64,75]"
+    },
+    {
+      "src": "operator: , [54,55]",
+      "dest": "operator: , [44,45]"
+    },
+    {
+      "src": "suite [106,506]",
+      "dest": "suite [450,1013]"
+    },
+    {
+      "src": "name: update [33,39]",
+      "dest": "name: update [33,39]"
+    },
+    {
+      "src": "operator: , [88,89]",
+      "dest": "operator: , [405,406]"
+    },
+    {
+      "src": "operator: , [456,457]",
+      "dest": "operator: == [953,955]"
+    },
+    {
+      "src": "name: true_negatives [402,416]",
+      "dest": "name: false_negatives [852,867]"
+    },
+    {
+      "src": "suite [24,506]",
+      "dest": "suite [24,1013]"
+    },
+    {
+      "src": "operator: += [338,340]",
+      "dest": "operator: == [811,813]"
+    },
+    {
+      "src": "name: true_positives [40,54]",
+      "dest": "name: self [40,44]"
+    },
+    {
+      "src": "operator: += [176,178]",
+      "dest": "operator: += [582,584]"
+    },
+    {
+      "src": "operator: , [473,474]",
+      "dest": "operator: == [967,969]"
+    },
+    {
+      "src": "simple_stmt [241,262]",
+      "dest": "simple_stmt [704,730]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "parameters [39,76]",
+      "parent": "funcdef [29,1013]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [77,1013]",
+      "parent": "funcdef [29,1013]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "param [40,55]",
+      "parent": "parameters [39,76]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "param [56,72]",
+      "parent": "parameters [39,76]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "param [64,75]",
+      "parent": "parameters [39,76]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [86,384]",
+      "parent": "suite [77,1013]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "for_stmt [392,1013]",
+      "parent": "suite [77,1013]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: true_positives [40,54]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: false_positives [56,71]",
+      "label": "predicted_labels"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: false_negatives [73,88]",
+      "label": "true_labels"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: false_negatives [73,88]",
+      "parent": "param [64,75]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "exprlist [396,411]",
+      "parent": "for_stmt [392,1013]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [415,449]",
+      "parent": "for_stmt [392,1013]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [106,506]",
+      "parent": "for_stmt [392,1013]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: predicted [396,405]",
+      "parent": "exprlist [396,411]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: , [88,89]",
+      "parent": "exprlist [396,411]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: true [407,411]",
+      "parent": "exprlist [396,411]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: zip [415,418]",
+      "parent": "atom_expr [415,449]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [418,449]",
+      "parent": "atom_expr [415,449]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [513,587]",
+      "parent": "suite [450,1013]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [655,730]",
+      "parent": "suite [450,1013]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [798,873]",
+      "parent": "suite [450,1013]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [940,1013]",
+      "parent": "suite [450,1013]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "arglist [419,448]",
+      "parent": "trailer [418,449]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "and_test [516,544]",
+      "parent": "if_stmt [513,587]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [545,587]",
+      "parent": "if_stmt [513,587]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "and_test [658,686]",
+      "parent": "if_stmt [655,730]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [687,730]",
+      "parent": "if_stmt [655,730]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "and_test [801,829]",
+      "parent": "if_stmt [798,873]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [830,873]",
+      "parent": "if_stmt [798,873]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "and_test [943,971]",
+      "parent": "if_stmt [940,1013]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [972,1013]",
+      "parent": "if_stmt [940,1013]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: predicted_labels [419,435]",
+      "parent": "arglist [419,448]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [435,436]",
+      "parent": "arglist [419,448]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: true_negatives [90,104]",
+      "label": "true_labels"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: true_negatives [90,104]",
+      "parent": "arglist [419,448]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [161,181]",
+      "parent": "suite [545,587]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [241,262]",
+      "parent": "suite [687,730]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "comparison [801,815]",
+      "parent": "and_test [801,829]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "comparison [820,829]",
+      "parent": "and_test [801,829]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [402,422]",
+      "parent": "suite [830,873]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "comparison [943,957]",
+      "parent": "and_test [943,971]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "comparison [962,971]",
+      "parent": "and_test [943,971]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [989,1013]",
+      "parent": "suite [972,1013]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: false_negatives [322,337]",
+      "label": "predicted"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: false_negatives [322,337]",
+      "parent": "comparison [801,815]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: += [338,340]",
+      "label": "=="
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: += [338,340]",
+      "parent": "comparison [801,815]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "number: 0 [814,815]",
+      "parent": "comparison [801,815]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: true [820,824]",
+      "parent": "comparison [820,829]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: == [825,827]",
+      "parent": "comparison [820,829]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "number: 1 [341,342]",
+      "parent": "comparison [820,829]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: true_positives [442,456]",
+      "label": "predicted"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: true_positives [442,456]",
+      "parent": "comparison [943,957]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: , [456,457]",
+      "label": "=="
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: , [456,457]",
+      "parent": "comparison [943,957]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "number: 0 [956,957]",
+      "parent": "comparison [943,957]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: false_positives [458,473]",
+      "label": "true"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: false_positives [458,473]",
+      "parent": "comparison [962,971]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: , [473,474]",
+      "label": "=="
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: , [473,474]",
+      "parent": "comparison [962,971]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "number: 0 [970,971]",
+      "parent": "comparison [962,971]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [989,1008]",
+      "parent": "expr_stmt [989,1013]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: += [1009,1011]",
+      "parent": "expr_stmt [989,1013]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "number: 1 [1012,1013]",
+      "parent": "expr_stmt [989,1013]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [562,581]",
+      "parent": "expr_stmt [562,586]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [704,724]",
+      "parent": "expr_stmt [704,729]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [847,867]",
+      "parent": "expr_stmt [847,872]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: false_negatives [475,490]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: false_negatives [475,490]",
+      "parent": "atom_expr [989,1008]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [993,1008]",
+      "parent": "atom_expr [989,1008]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [562,566]",
+      "parent": "atom_expr [562,581]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [566,581]",
+      "parent": "atom_expr [562,581]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [704,708]",
+      "parent": "atom_expr [704,724]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [708,724]",
+      "parent": "atom_expr [704,724]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [847,851]",
+      "parent": "atom_expr [847,867]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [851,867]",
+      "parent": "atom_expr [847,867]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: true_negatives [492,506]",
+      "parent": "trailer [993,1008]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: true_positives [161,175]",
+      "parent": "trailer [566,581]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: false_positives [241,256]",
+      "parent": "trailer [708,724]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: true_negatives [402,416]",
+      "label": "false_negatives"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: true_negatives [402,416]",
+      "parent": "trailer [851,867]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [322,342]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [322,343]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [490,491]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "testlist_star_expr [442,506]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "return_stmt [435,506]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "param [73,89]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "param [90,104]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "parameters [39,105]"
+    }
+  ]
+}

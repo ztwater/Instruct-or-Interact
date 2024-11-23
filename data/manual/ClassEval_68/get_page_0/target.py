@@ -1,0 +1,3 @@
+class PageUtil:
+
+    pass

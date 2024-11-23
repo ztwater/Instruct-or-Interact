@@ -1,0 +1,16 @@
+[
+    {
+        "action": "INS",
+        "label": "return_stmt",
+        "inserted": "return self.calculate_total()",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "self.calculate_total()",
+        "deleted": "self.calculate_total()",
+        "type": "Move"
+    }
+]

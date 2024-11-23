@@ -1,0 +1,318 @@
+{
+  "matches": [
+    {
+      "src": "name: valid_words [59,70]",
+      "dest": "name: valid_words [416,427]"
+    },
+    {
+      "src": "suite [20,323]",
+      "dest": "suite [20,640]"
+    },
+    {
+      "src": "parameters [43,49]",
+      "dest": "parameters [43,58]"
+    },
+    {
+      "src": "comparison [233,264]",
+      "dest": "comparison [550,581]"
+    },
+    {
+      "src": "return_stmt [312,323]",
+      "dest": "return_stmt [629,640]"
+    },
+    {
+      "src": "classdef [0,323]",
+      "dest": "classdef [0,640]"
+    },
+    {
+      "src": "suite [50,323]",
+      "dest": "suite [59,640]"
+    },
+    {
+      "src": "name: word [203,207]",
+      "dest": "name: word [520,524]"
+    },
+    {
+      "src": "name: lower [238,243]",
+      "dest": "name: lower [555,560]"
+    },
+    {
+      "src": "trailer [182,188]",
+      "dest": "trailer [499,505]"
+    },
+    {
+      "src": "operator: = [71,72]",
+      "dest": "operator: = [428,429]"
+    },
+    {
+      "src": "name: is_valid_input [29,43]",
+      "dest": "name: is_valid_input [29,43]"
+    },
+    {
+      "src": "atom_expr [233,245]",
+      "dest": "atom_expr [550,562]"
+    },
+    {
+      "src": "trailer [237,243]",
+      "dest": "trailer [554,560]"
+    },
+    {
+      "src": "name: valid_words [253,264]",
+      "dest": "name: valid_words [570,581]"
+    },
+    {
+      "src": "trailer [188,190]",
+      "dest": "trailer [505,507]"
+    },
+    {
+      "src": "name: words [211,216]",
+      "dest": "name: words [528,533]"
+    },
+    {
+      "src": "simple_stmt [59,153]",
+      "dest": "simple_stmt [416,467]"
+    },
+    {
+      "src": "if_stmt [230,295]",
+      "dest": "if_stmt [547,612]"
+    },
+    {
+      "src": "file_input [0,323]",
+      "dest": "file_input [0,640]"
+    },
+    {
+      "src": "expr_stmt [170,190]",
+      "dest": "expr_stmt [484,507]"
+    },
+    {
+      "src": "param [44,48]",
+      "dest": "param [50,57]"
+    },
+    {
+      "src": "name: words [170,175]",
+      "dest": "name: words [484,489]"
+    },
+    {
+      "src": "suite [265,295]",
+      "dest": "suite [582,612]"
+    },
+    {
+      "src": "name: word [233,237]",
+      "dest": "name: word [550,554]"
+    },
+    {
+      "src": "comp_op [246,252]",
+      "dest": "comp_op [563,569]"
+    },
+    {
+      "src": "return_stmt [282,294]",
+      "dest": "return_stmt [599,611]"
+    },
+    {
+      "src": "simple_stmt [282,295]",
+      "dest": "simple_stmt [599,612]"
+    },
+    {
+      "src": "expr_stmt [59,152]",
+      "dest": "expr_stmt [416,466]"
+    },
+    {
+      "src": "trailer [243,245]",
+      "dest": "trailer [560,562]"
+    },
+    {
+      "src": "atom_expr [178,190]",
+      "dest": "atom_expr [492,507]"
+    },
+    {
+      "src": "operator: = [176,177]",
+      "dest": "operator: = [490,491]"
+    },
+    {
+      "src": "for_stmt [199,295]",
+      "dest": "for_stmt [516,612]"
+    },
+    {
+      "src": "suite [217,295]",
+      "dest": "suite [534,612]"
+    },
+    {
+      "src": "operator: , [79,80]",
+      "dest": "operator: + [441,442]"
+    },
+    {
+      "src": "name: text [44,48]",
+      "dest": "name: textnum [50,57]"
+    },
+    {
+      "src": "funcdef [25,323]",
+      "dest": "funcdef [25,640]"
+    },
+    {
+      "src": "name: Words2Numbers [6,19]",
+      "dest": "name: Words2Numbers [6,19]"
+    },
+    {
+      "src": "name: split [183,188]",
+      "dest": "name: split [500,505]"
+    },
+    {
+      "src": "operator: , [86,87]",
+      "dest": "operator: + [453,454]"
+    },
+    {
+      "src": "name: text [178,182]",
+      "dest": "name: textnum [492,499]"
+    },
+    {
+      "src": "simple_stmt [170,191]",
+      "dest": "simple_stmt [484,508]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [44,49]",
+      "parent": "parameters [43,58]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [68,407]",
+      "parent": "suite [59,640]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: text [44,48]",
+      "label": "textnum"
+    },
+    {
+      "action": "insert-node",
+      "tree": "arith_expr [430,466]",
+      "parent": "expr_stmt [416,466]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [430,440]",
+      "parent": "arith_expr [430,466]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: , [79,80]",
+      "label": "+"
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: , [79,80]",
+      "parent": "arith_expr [430,466]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [443,452]",
+      "parent": "arith_expr [430,466]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: , [86,87]",
+      "label": "+"
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: , [86,87]",
+      "parent": "arith_expr [430,466]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [455,466]",
+      "parent": "arith_expr [430,466]",
+      "at": 4
+    },
+    {
+      "action": "update-node",
+      "tree": "name: text [178,182]",
+      "label": "textnum"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"one\" [74,79]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"two\" [81,86]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"three\" [88,95]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [95,96]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"four\" [97,103]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [103,104]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"five\" [105,111]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [111,112]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"six\" [113,118]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [118,119]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"seven\" [120,127]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [127,128]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"eight\" [129,136]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [136,137]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"nine\" [138,144]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [144,145]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"ten\" [146,151]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "testlist_comp [74,151]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom [73,152]"
+    }
+  ]
+}

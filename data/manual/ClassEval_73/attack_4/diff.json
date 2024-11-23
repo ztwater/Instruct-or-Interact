@@ -1,0 +1,179 @@
+{
+  "matches": [
+    {
+      "src": "param [35,42]",
+      "dest": "param [35,40]"
+    },
+    {
+      "src": "suite [19,122]",
+      "dest": "suite [19,170]"
+    },
+    {
+      "src": "param [43,50]",
+      "dest": "param [41,56]"
+    },
+    {
+      "src": "operator: = [75,76]",
+      "dest": "operator: = [81,82]"
+    },
+    {
+      "src": "name: attack [28,34]",
+      "dest": "name: attack [28,34]"
+    },
+    {
+      "src": "operator: - [84,85]",
+      "dest": "operator: - [101,102]"
+    },
+    {
+      "src": "classdef [0,122]",
+      "dest": "classdef [0,170]"
+    },
+    {
+      "src": "name: damage [35,41]",
+      "dest": "name: self [35,39]"
+    },
+    {
+      "src": "suite [52,122]",
+      "dest": "suite [58,170]"
+    },
+    {
+      "src": "name: damage_caused [61,74]",
+      "dest": "name: damage_caused [67,80]"
+    },
+    {
+      "src": "name: damage [77,83]",
+      "dest": "name: self [83,87]"
+    },
+    {
+      "src": "operator: , [41,42]",
+      "dest": "operator: , [39,40]"
+    },
+    {
+      "src": "arith_expr [77,93]",
+      "dest": "arith_expr [83,126]"
+    },
+    {
+      "src": "expr_stmt [61,93]",
+      "dest": "expr_stmt [67,126]"
+    },
+    {
+      "src": "name: damage_caused [109,122]",
+      "dest": "name: damage_caused [157,170]"
+    },
+    {
+      "src": "file_input [0,122]",
+      "dest": "file_input [0,170]"
+    },
+    {
+      "src": "simple_stmt [61,94]",
+      "dest": "simple_stmt [67,127]"
+    },
+    {
+      "src": "funcdef [24,122]",
+      "dest": "funcdef [24,170]"
+    },
+    {
+      "src": "parameters [34,51]",
+      "dest": "parameters [34,57]"
+    },
+    {
+      "src": "name: defense [43,50]",
+      "dest": "name: other_character [41,56]"
+    },
+    {
+      "src": "name: RPGCharacter [6,18]",
+      "dest": "name: RPGCharacter [6,18]"
+    },
+    {
+      "src": "name: defense [86,93]",
+      "dest": "name: defense [119,126]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [135,170]",
+      "parent": "suite [58,170]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: damage [35,41]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: defense [43,50]",
+      "label": "other_character"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [135,153]",
+      "parent": "expr_stmt [135,170]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: -= [154,156]",
+      "parent": "expr_stmt [135,170]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: damage_caused [109,122]",
+      "parent": "expr_stmt [135,170]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [83,100]",
+      "parent": "arith_expr [83,126]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [103,126]",
+      "parent": "arith_expr [83,126]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: damage [77,83]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: damage [77,83]",
+      "parent": "atom_expr [83,100]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [87,100]",
+      "parent": "atom_expr [83,100]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: other_character [103,118]",
+      "parent": "atom_expr [103,126]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [118,126]",
+      "parent": "atom_expr [103,126]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: defense [86,93]",
+      "parent": "trailer [118,126]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "return_stmt [102,122]"
+    }
+  ]
+}

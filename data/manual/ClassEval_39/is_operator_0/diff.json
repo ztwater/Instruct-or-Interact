@@ -1,0 +1,162 @@
+{
+  "matches": [
+    {
+      "src": "suite [27,143]",
+      "dest": "suite [27,143]"
+    },
+    {
+      "src": "operator: } [109,110]",
+      "dest": "operator: } [112,113]"
+    },
+    {
+      "src": "operator: { [75,76]",
+      "dest": "operator: { [78,79]"
+    },
+    {
+      "src": "classdef [0,143]",
+      "dest": "classdef [0,143]"
+    },
+    {
+      "src": "string: ')' [101,104]",
+      "dest": "string: ')' [104,107]"
+    },
+    {
+      "src": "suite [54,143]",
+      "dest": "suite [57,143]"
+    },
+    {
+      "src": "comparison [126,143]",
+      "dest": "comparison [129,143]"
+    },
+    {
+      "src": "expr_stmt [63,110]",
+      "dest": "expr_stmt [66,113]"
+    },
+    {
+      "src": "string: '-' [81,84]",
+      "dest": "string: '-' [84,87]"
+    },
+    {
+      "src": "dictorsetmaker [76,109]",
+      "dest": "dictorsetmaker [79,112]"
+    },
+    {
+      "src": "name: is_operator [36,47]",
+      "dest": "name: is_operator [36,47]"
+    },
+    {
+      "src": "operator: , [79,80]",
+      "dest": "operator: , [82,83]"
+    },
+    {
+      "src": "operator: , [89,90]",
+      "dest": "operator: , [92,93]"
+    },
+    {
+      "src": "name: operators [63,72]",
+      "dest": "name: operators [66,75]"
+    },
+    {
+      "src": "operator: , [99,100]",
+      "dest": "operator: , [102,103]"
+    },
+    {
+      "src": "atom [75,110]",
+      "dest": "atom [78,113]"
+    },
+    {
+      "src": "name: char [48,52]",
+      "dest": "name: c [54,55]"
+    },
+    {
+      "src": "file_input [0,143]",
+      "dest": "file_input [0,143]"
+    },
+    {
+      "src": "operator: , [104,105]",
+      "dest": "operator: , [107,108]"
+    },
+    {
+      "src": "string: '%' [106,109]",
+      "dest": "string: '%' [109,112]"
+    },
+    {
+      "src": "return_stmt [119,143]",
+      "dest": "return_stmt [122,143]"
+    },
+    {
+      "src": "name: operators [134,143]",
+      "dest": "name: operators [134,143]"
+    },
+    {
+      "src": "string: '/' [91,94]",
+      "dest": "string: '/' [94,97]"
+    },
+    {
+      "src": "param [48,52]",
+      "dest": "param [54,55]"
+    },
+    {
+      "src": "string: '+' [76,79]",
+      "dest": "string: '+' [79,82]"
+    },
+    {
+      "src": "string: '*' [86,89]",
+      "dest": "string: '*' [89,92]"
+    },
+    {
+      "src": "string: '(' [96,99]",
+      "dest": "string: '(' [99,102]"
+    },
+    {
+      "src": "operator: , [94,95]",
+      "dest": "operator: , [97,98]"
+    },
+    {
+      "src": "operator: , [84,85]",
+      "dest": "operator: , [87,88]"
+    },
+    {
+      "src": "parameters [47,53]",
+      "dest": "parameters [47,56]"
+    },
+    {
+      "src": "simple_stmt [63,111]",
+      "dest": "simple_stmt [66,114]"
+    },
+    {
+      "src": "operator: = [73,74]",
+      "dest": "operator: = [76,77]"
+    },
+    {
+      "src": "name: ExpressionCalculator [6,26]",
+      "dest": "name: ExpressionCalculator [6,26]"
+    },
+    {
+      "src": "funcdef [32,143]",
+      "dest": "funcdef [32,143]"
+    },
+    {
+      "src": "name: char [126,130]",
+      "dest": "name: c [129,130]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [48,53]",
+      "parent": "parameters [47,56]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: char [48,52]",
+      "label": "c"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: char [126,130]",
+      "label": "c"
+    }
+  ]
+}

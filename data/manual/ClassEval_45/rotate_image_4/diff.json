@@ -1,0 +1,233 @@
+{
+  "matches": [
+    {
+      "src": "name: ImageProcessor [6,20]",
+      "dest": "name: ImageProcessor [6,20]"
+    },
+    {
+      "src": "name: image [95,100]",
+      "dest": "name: image [330,335]"
+    },
+    {
+      "src": "operator: = [101,102]",
+      "dest": "operator: = [336,337]"
+    },
+    {
+      "src": "suite [21,220]",
+      "dest": "suite [21,440]"
+    },
+    {
+      "src": "string: \"Image is not in RGB mode, cannot rotate.\" [178,220]",
+      "dest": "string: \"Image is not in RGB mode, cannot rotate.\" [398,440]"
+    },
+    {
+      "src": "atom_expr [62,72]",
+      "dest": "atom_expr [287,302]"
+    },
+    {
+      "src": "classdef [0,220]",
+      "dest": "classdef [0,440]"
+    },
+    {
+      "src": "name: rotate [109,115]",
+      "dest": "name: rotate [349,355]"
+    },
+    {
+      "src": "suite [50,220]",
+      "dest": "suite [58,440]"
+    },
+    {
+      "src": "parameters [42,49]",
+      "dest": "parameters [42,57]"
+    },
+    {
+      "src": "expr_stmt [95,119]",
+      "dest": "expr_stmt [325,364]"
+    },
+    {
+      "src": "name: image [62,67]",
+      "dest": "name: image [292,297]"
+    },
+    {
+      "src": "trailer [108,115]",
+      "dest": "trailer [348,355]"
+    },
+    {
+      "src": "operator: == [73,75]",
+      "dest": "operator: == [303,305]"
+    },
+    {
+      "src": "trailer [115,119]",
+      "dest": "trailer [355,364]"
+    },
+    {
+      "src": "file_input [0,220]",
+      "dest": "file_input [0,440]"
+    },
+    {
+      "src": "return_stmt [171,220]",
+      "dest": "return_stmt [391,440]"
+    },
+    {
+      "src": "suite [82,145]",
+      "dest": "suite [312,365]"
+    },
+    {
+      "src": "name: mode [68,72]",
+      "dest": "name: mode [298,302]"
+    },
+    {
+      "src": "trailer [67,72]",
+      "dest": "trailer [297,302]"
+    },
+    {
+      "src": "name: rotate_image [30,42]",
+      "dest": "name: rotate_image [30,42]"
+    },
+    {
+      "src": "simple_stmt [95,120]",
+      "dest": "simple_stmt [325,365]"
+    },
+    {
+      "src": "name: image [43,48]",
+      "dest": "name: self [43,47]"
+    },
+    {
+      "src": "if_stmt [59,220]",
+      "dest": "if_stmt [284,440]"
+    },
+    {
+      "src": "atom_expr [103,119]",
+      "dest": "atom_expr [338,364]"
+    },
+    {
+      "src": "name: image [103,108]",
+      "dest": "name: image [343,348]"
+    },
+    {
+      "src": "string: 'RGB' [76,81]",
+      "dest": "string: 'RGB' [306,311]"
+    },
+    {
+      "src": "comparison [62,81]",
+      "dest": "comparison [287,311]"
+    },
+    {
+      "src": "funcdef [26,220]",
+      "dest": "funcdef [26,440]"
+    },
+    {
+      "src": "suite [158,220]",
+      "dest": "suite [378,440]"
+    },
+    {
+      "src": "param [43,48]",
+      "dest": "param [43,48]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [49,56]",
+      "parent": "parameters [42,57]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [67,198]",
+      "parent": "suite [58,440]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "if_stmt [206,267]",
+      "parent": "suite [58,440]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: image [43,48]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [47,48]",
+      "parent": "param [43,48]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [287,291]",
+      "parent": "atom_expr [287,302]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [291,297]",
+      "parent": "atom_expr [287,302]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: image [62,67]",
+      "parent": "trailer [291,297]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [325,335]",
+      "parent": "expr_stmt [325,364]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [325,329]",
+      "parent": "atom_expr [325,335]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [329,335]",
+      "parent": "atom_expr [325,335]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [338,342]",
+      "parent": "atom_expr [338,364]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [342,348]",
+      "parent": "atom_expr [338,364]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: image [95,100]",
+      "parent": "trailer [329,335]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: image [103,108]",
+      "parent": "trailer [342,348]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: degrees [356,363]",
+      "parent": "trailer [355,364]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 90 [116,118]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [132,145]"
+    }
+  ]
+}

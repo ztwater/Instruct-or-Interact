@@ -1,0 +1,195 @@
+{
+  "matches": [
+    {
+      "src": "simple_stmt [136,173]",
+      "dest": "simple_stmt [276,313]"
+    },
+    {
+      "src": "name: calendar [101,109]",
+      "dest": "name: self [238,242]"
+    },
+    {
+      "src": "suite [19,241]",
+      "dest": "suite [19,381]"
+    },
+    {
+      "src": "name: print [199,204]",
+      "dest": "name: print [339,344]"
+    },
+    {
+      "src": "string: \"Event removed successfully.\" [142,171]",
+      "dest": "string: \"Event removed successfully.\" [282,311]"
+    },
+    {
+      "src": "param [41,50]",
+      "dest": "param [41,46]"
+    },
+    {
+      "src": "classdef [0,241]",
+      "dest": "classdef [0,381]"
+    },
+    {
+      "src": "comparison [70,87]",
+      "dest": "comparison [204,224]"
+    },
+    {
+      "src": "suite [58,241]",
+      "dest": "suite [54,381]"
+    },
+    {
+      "src": "name: remove [110,116]",
+      "dest": "name: remove [250,256]"
+    },
+    {
+      "src": "name: event [70,75]",
+      "dest": "name: event [204,209]"
+    },
+    {
+      "src": "trailer [204,240]",
+      "dest": "trailer [344,380]"
+    },
+    {
+      "src": "name: print [136,141]",
+      "dest": "name: print [276,281]"
+    },
+    {
+      "src": "name: CalendarUtil [6,18]",
+      "dest": "name: CalendarUtil [6,18]"
+    },
+    {
+      "src": "simple_stmt [101,124]",
+      "dest": "simple_stmt [238,264]"
+    },
+    {
+      "src": "atom_expr [199,240]",
+      "dest": "atom_expr [339,380]"
+    },
+    {
+      "src": "name: remove_event [28,40]",
+      "dest": "name: remove_event [28,40]"
+    },
+    {
+      "src": "file_input [0,245]",
+      "dest": "file_input [0,381]"
+    },
+    {
+      "src": "param [51,56]",
+      "dest": "param [47,52]"
+    },
+    {
+      "src": "trailer [141,172]",
+      "dest": "trailer [281,312]"
+    },
+    {
+      "src": "suite [88,173]",
+      "dest": "suite [225,313]"
+    },
+    {
+      "src": "trailer [116,123]",
+      "dest": "trailer [256,263]"
+    },
+    {
+      "src": "operator: , [49,50]",
+      "dest": "operator: , [45,46]"
+    },
+    {
+      "src": "name: event [117,122]",
+      "dest": "name: event [257,262]"
+    },
+    {
+      "src": "string: \"Event not found in the calendar.\" [205,239]",
+      "dest": "string: \"Event not found in the calendar.\" [345,379]"
+    },
+    {
+      "src": "atom_expr [101,123]",
+      "dest": "atom_expr [238,263]"
+    },
+    {
+      "src": "atom_expr [136,172]",
+      "dest": "atom_expr [276,312]"
+    },
+    {
+      "src": "trailer [109,116]",
+      "dest": "trailer [249,256]"
+    },
+    {
+      "src": "name: event [51,56]",
+      "dest": "name: event [47,52]"
+    },
+    {
+      "src": "parameters [40,57]",
+      "dest": "parameters [40,53]"
+    },
+    {
+      "src": "simple_stmt [199,241]",
+      "dest": "simple_stmt [339,381]"
+    },
+    {
+      "src": "if_stmt [67,241]",
+      "dest": "if_stmt [201,381]"
+    },
+    {
+      "src": "name: calendar [79,87]",
+      "dest": "name: self [213,217]"
+    },
+    {
+      "src": "suite [186,241]",
+      "dest": "suite [326,381]"
+    },
+    {
+      "src": "funcdef [24,241]",
+      "dest": "funcdef [24,381]"
+    },
+    {
+      "src": "name: calendar [41,49]",
+      "dest": "name: self [41,45]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [63,193]",
+      "parent": "suite [54,381]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: calendar [41,49]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [213,224]",
+      "parent": "comparison [204,224]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: calendar [79,87]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: calendar [79,87]",
+      "parent": "atom_expr [213,224]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [217,224]",
+      "parent": "atom_expr [213,224]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: calendar [101,109]",
+      "label": "self"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [242,249]",
+      "parent": "atom_expr [238,263]",
+      "at": 1
+    }
+  ]
+}

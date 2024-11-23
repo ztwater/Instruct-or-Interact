@@ -1,0 +1,37 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Get the request parameters for the URL\n        :return: dict, If successful, return the request parameters of the URL\n        >>> urlhandler = URLHandler(\"https://www.baidu.com/s?wd=aaa&rsv_spt=1#page\")\n        >>> urlhandler.get_query_params()\n        {\"wd\": \"aaa\", \"rsv_spt\": \"1\"}\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".url",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "url",
+        "deleted": "url",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "url",
+        "type": "Refactoring"
+    }
+]

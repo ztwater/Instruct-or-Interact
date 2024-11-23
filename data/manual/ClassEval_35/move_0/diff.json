@@ -1,0 +1,1680 @@
+{
+  "matches": [
+    {
+      "src": "operator: > [845,846]",
+      "dest": "operator: > [1153,1154]"
+    },
+    {
+      "src": "number: 1 [1182,1183]",
+      "dest": "number: 1 [1522,1523]"
+    },
+    {
+      "src": "name: direction [407,416]",
+      "dest": "name: direction [683,692]"
+    },
+    {
+      "src": "atom_expr [675,700]",
+      "dest": "atom_expr [967,996]"
+    },
+    {
+      "src": "number: 0 [452,453]",
+      "dest": "number: 0 [728,729]"
+    },
+    {
+      "src": "atom_expr [563,571]",
+      "dest": "atom_expr [855,863]"
+    },
+    {
+      "src": "name: direction [800,809]",
+      "dest": "name: direction [1108,1117]"
+    },
+    {
+      "src": "atom_expr [1028,1036]",
+      "dest": "atom_expr [1352,1360]"
+    },
+    {
+      "src": "atom_expr [929,937]",
+      "dest": "atom_expr [1249,1257]"
+    },
+    {
+      "src": "atom_expr [893,920]",
+      "dest": "atom_expr [1205,1236]"
+    },
+    {
+      "src": "number: 1 [493,494]",
+      "dest": "number: 1 [773,774]"
+    },
+    {
+      "src": "name: board [761,766]",
+      "dest": "name: new_state [1065,1074]"
+    },
+    {
+      "src": "atom_expr [708,716]",
+      "dest": "atom_expr [1008,1016]"
+    },
+    {
+      "src": "trailer [776,786]",
+      "dest": "trailer [1084,1094]"
+    },
+    {
+      "src": "number: 1 [579,580]",
+      "dest": "number: 1 [871,872]"
+    },
+    {
+      "src": "name: blank [899,904]",
+      "dest": "name: blank [1215,1220]"
+    },
+    {
+      "src": "operator: < [641,642]",
+      "dest": "operator: < [933,934]"
+    },
+    {
+      "src": "number: 0 [510,511]",
+      "dest": "number: 0 [794,795]"
+    },
+    {
+      "src": "trailer [766,776]",
+      "dest": "trailer [1074,1084]"
+    },
+    {
+      "src": "testlist_star_expr [675,729]",
+      "dest": "testlist_star_expr [967,1029]"
+    },
+    {
+      "src": "number: 1 [1034,1035]",
+      "dest": "number: 1 [1358,1359]"
+    },
+    {
+      "src": "number: 1 [1055,1056]",
+      "dest": "number: 1 [1379,1380]"
+    },
+    {
+      "src": "trailer [1165,1175]",
+      "dest": "trailer [1505,1515]"
+    },
+    {
+      "src": "name: blank [1147,1152]",
+      "dest": "name: blank [1483,1488]"
+    },
+    {
+      "src": "name: blank [738,743]",
+      "dest": "name: blank [1042,1047]"
+    },
+    {
+      "src": "name: blank [1176,1181]",
+      "dest": "name: blank [1516,1521]"
+    },
+    {
+      "src": "name: blank [1107,1112]",
+      "dest": "name: blank [1439,1444]"
+    },
+    {
+      "src": "operator: , [37,38]",
+      "dest": "operator: , [36,37]"
+    },
+    {
+      "src": "arith_expr [708,718]",
+      "dest": "arith_expr [1008,1018]"
+    },
+    {
+      "src": "operator: = [730,731]",
+      "dest": "operator: = [1030,1031]"
+    },
+    {
+      "src": "return_stmt [1203,1215]",
+      "dest": "return_stmt [1539,1555]"
+    },
+    {
+      "src": "trailer [934,937]",
+      "dest": "trailer [1254,1257]"
+    },
+    {
+      "src": "name: direction [596,605]",
+      "dest": "name: direction [888,897]"
+    },
+    {
+      "src": "number: 1 [1153,1154]",
+      "dest": "number: 1 [1489,1490]"
+    },
+    {
+      "src": "atom_expr [487,495]",
+      "dest": "atom_expr [767,775]"
+    },
+    {
+      "src": "atom_expr [557,582]",
+      "dest": "atom_expr [845,874]"
+    },
+    {
+      "src": "atom_expr [498,525]",
+      "dest": "atom_expr [778,809]"
+    },
+    {
+      "src": "trailer [963,966]",
+      "dest": "trailer [1287,1290]"
+    },
+    {
+      "src": "number: 0 [569,570]",
+      "dest": "number: 0 [861,862]"
+    },
+    {
+      "src": "trailer [1146,1158]",
+      "dest": "trailer [1482,1494]"
+    },
+    {
+      "src": "trailer [725,728]",
+      "dest": "trailer [1025,1028]"
+    },
+    {
+      "src": "name: blank [516,521]",
+      "dest": "name: blank [800,805]"
+    },
+    {
+      "src": "arith_expr [1117,1127]",
+      "dest": "arith_expr [1449,1459]"
+    },
+    {
+      "src": "name: board [952,957]",
+      "dest": "name: new_state [1272,1281]"
+    },
+    {
+      "src": "operator: - [947,948]",
+      "dest": "operator: - [1267,1268]"
+    },
+    {
+      "src": "operator: , [555,556]",
+      "dest": "operator: , [843,844]"
+    },
+    {
+      "src": "atom_expr [1147,1155]",
+      "dest": "atom_expr [1483,1491]"
+    },
+    {
+      "src": "comparison [407,424]",
+      "dest": "comparison [683,700]"
+    },
+    {
+      "src": "simple_stmt [1074,1186]",
+      "dest": "simple_stmt [1398,1526]"
+    },
+    {
+      "src": "trailer [737,749]",
+      "dest": "trailer [1041,1053]"
+    },
+    {
+      "src": "trailer [1048,1051]",
+      "dest": "trailer [1372,1375]"
+    },
+    {
+      "src": "trailer [1106,1116]",
+      "dest": "trailer [1438,1448]"
+    },
+    {
+      "src": "name: blank [241,246]",
+      "dest": "name: new_state [568,577]"
+    },
+    {
+      "src": "atom_expr [882,890]",
+      "dest": "atom_expr [1194,1202]"
+    },
+    {
+      "src": "atom_expr [1117,1125]",
+      "dest": "atom_expr [1449,1457]"
+    },
+    {
+      "src": "trailer [476,486]",
+      "dest": "trailer [756,766]"
+    },
+    {
+      "src": "operator: - [512,513]",
+      "dest": "operator: - [796,797]"
+    },
+    {
+      "src": "atom_expr [899,907]",
+      "dest": "atom_expr [1215,1223]"
+    },
+    {
+      "src": "parameters [31,49]",
+      "dest": "parameters [31,55]"
+    },
+    {
+      "src": "name: blank [1090,1095]",
+      "dest": "name: blank [1418,1423]"
+    },
+    {
+      "src": "atom_expr [573,581]",
+      "dest": "atom_expr [865,873]"
+    },
+    {
+      "src": "testlist_star_expr [528,582]",
+      "dest": "testlist_star_expr [812,874]"
+    },
+    {
+      "src": "trailer [719,729]",
+      "dest": "trailer [1019,1029]"
+    },
+    {
+      "src": "name: board [32,37]",
+      "dest": "name: self [32,36]"
+    },
+    {
+      "src": "number: 0 [687,688]",
+      "dest": "number: 0 [983,984]"
+    },
+    {
+      "src": "trailer [646,653]",
+      "dest": "trailer [938,945]"
+    },
+    {
+      "src": "name: j [253,254]",
+      "dest": "name: row [592,595]"
+    },
+    {
+      "src": "number: 0 [847,848]",
+      "dest": "number: 0 [1155,1156]"
+    },
+    {
+      "src": "name: blank [836,841]",
+      "dest": "name: blank [1144,1149]"
+    },
+    {
+      "src": "trailer [562,572]",
+      "dest": "trailer [854,864]"
+    },
+    {
+      "src": "atom_expr [968,976]",
+      "dest": "atom_expr [1292,1300]"
+    },
+    {
+      "src": "expr_stmt [675,786]",
+      "dest": "expr_stmt [967,1094]"
+    },
+    {
+      "src": "name: blank [487,492]",
+      "dest": "name: blank [767,772]"
+    },
+    {
+      "src": "number: 1 [842,843]",
+      "dest": "number: 1 [1150,1151]"
+    },
+    {
+      "src": "simple_stmt [866,978]",
+      "dest": "simple_stmt [1174,1302]"
+    },
+    {
+      "src": "atom_expr [1039,1052]",
+      "dest": "atom_expr [1363,1376]"
+    },
+    {
+      "src": "name: board [1074,1079]",
+      "dest": "name: new_state [1398,1407]"
+    },
+    {
+      "src": "arith_expr [939,949]",
+      "dest": "arith_expr [1259,1269]"
+    },
+    {
+      "src": "number: 0 [1113,1114]",
+      "dest": "number: 0 [1445,1446]"
+    },
+    {
+      "src": "name: blank [767,772]",
+      "dest": "name: blank [1075,1080]"
+    },
+    {
+      "src": "number: 0 [905,906]",
+      "dest": "number: 0 [1221,1222]"
+    },
+    {
+      "src": "operator: , [700,701]",
+      "dest": "operator: , [996,997]"
+    },
+    {
+      "src": "string: 'up' [420,424]",
+      "dest": "string: 'up' [696,700]"
+    },
+    {
+      "src": "atom_expr [681,689]",
+      "dest": "atom_expr [977,985]"
+    },
+    {
+      "src": "if_stmt [404,1186]",
+      "dest": "if_stmt [680,1526]"
+    },
+    {
+      "src": "trailer [446,449]",
+      "dest": "trailer [722,725]"
+    },
+    {
+      "src": "atom_expr [1107,1115]",
+      "dest": "atom_expr [1439,1447]"
+    },
+    {
+      "src": "suite [1057,1186]",
+      "dest": "suite [1381,1526]"
+    },
+    {
+      "src": "trailer [713,716]",
+      "dest": "trailer [1013,1016]"
+    },
+    {
+      "src": "name: j [210,211]",
+      "dest": "name: state [479,484]"
+    },
+    {
+      "src": "name: blank [691,696]",
+      "dest": "name: blank [987,992]"
+    },
+    {
+      "src": "name: board [923,928]",
+      "dest": "name: new_state [1239,1248]"
+    },
+    {
+      "src": "name: EightPuzzle [6,17]",
+      "dest": "name: EightPuzzle [6,17]"
+    },
+    {
+      "src": "suite [658,787]",
+      "dest": "suite [950,1095]"
+    },
+    {
+      "src": "comparison [1028,1056]",
+      "dest": "comparison [1352,1380]"
+    },
+    {
+      "src": "number: 1 [522,523]",
+      "dest": "number: 1 [806,807]"
+    },
+    {
+      "src": "suite [50,1215]",
+      "dest": "suite [56,1555]"
+    },
+    {
+      "src": "name: blank [632,637]",
+      "dest": "name: blank [924,929]"
+    },
+    {
+      "src": "operator: < [1037,1038]",
+      "dest": "operator: < [1361,1362]"
+    },
+    {
+      "src": "trailer [938,950]",
+      "dest": "trailer [1258,1270]"
+    },
+    {
+      "src": "arith_expr [534,544]",
+      "dest": "arith_expr [822,832]"
+    },
+    {
+      "src": "atom_expr [471,496]",
+      "dest": "atom_expr [747,776]"
+    },
+    {
+      "src": "number: 0 [744,745]",
+      "dest": "number: 0 [1048,1049]"
+    },
+    {
+      "src": "operator: + [1125,1126]",
+      "dest": "operator: + [1457,1458]"
+    },
+    {
+      "src": "name: board [702,707]",
+      "dest": "name: new_state [998,1007]"
+    },
+    {
+      "src": "atom_expr [1160,1185]",
+      "dest": "atom_expr [1496,1525]"
+    },
+    {
+      "src": "comparison [836,848]",
+      "dest": "comparison [1144,1156]"
+    },
+    {
+      "src": "name: board [675,680]",
+      "dest": "name: new_state [967,976]"
+    },
+    {
+      "src": "param [39,48]",
+      "dest": "param [45,54]"
+    },
+    {
+      "src": "trailer [509,512]",
+      "dest": "trailer [793,796]"
+    },
+    {
+      "src": "name: direction [991,1000]",
+      "dest": "name: direction [1315,1324]"
+    },
+    {
+      "src": "trailer [755,758]",
+      "dest": "trailer [1059,1062]"
+    },
+    {
+      "src": "trailer [881,891]",
+      "dest": "trailer [1193,1203]"
+    },
+    {
+      "src": "number: 1 [915,916]",
+      "dest": "number: 1 [1231,1232]"
+    },
+    {
+      "src": "name: move [27,31]",
+      "dest": "name: move [27,31]"
+    },
+    {
+      "src": "number: 1 [948,949]",
+      "dest": "number: 1 [1268,1269]"
+    },
+    {
+      "src": "trailer [1122,1125]",
+      "dest": "trailer [1454,1457]"
+    },
+    {
+      "src": "number: 1 [783,784]",
+      "dest": "number: 1 [1091,1092]"
+    },
+    {
+      "src": "comparison [596,615]",
+      "dest": "comparison [888,907]"
+    },
+    {
+      "src": "trailer [1181,1184]",
+      "dest": "trailer [1521,1524]"
+    },
+    {
+      "src": "atom_expr [720,728]",
+      "dest": "atom_expr [1020,1028]"
+    },
+    {
+      "src": "trailer [1175,1185]",
+      "dest": "trailer [1515,1525]"
+    },
+    {
+      "src": "suite [849,978]",
+      "dest": "suite [1157,1302]"
+    },
+    {
+      "src": "suite [820,978]",
+      "dest": "suite [1128,1302]"
+    },
+    {
+      "src": "number: 0 [1086,1087]",
+      "dest": "number: 0 [1414,1415]"
+    },
+    {
+      "src": "name: board [528,533]",
+      "dest": "name: new_state [812,821]"
+    },
+    {
+      "src": "name: board [1210,1215]",
+      "dest": "name: new_state [1546,1555]"
+    },
+    {
+      "src": "string: 'down' [609,615]",
+      "dest": "string: 'down' [901,907]"
+    },
+    {
+      "src": "suite [616,787]",
+      "dest": "suite [908,1095]"
+    },
+    {
+      "src": "funcdef [23,1215]",
+      "dest": "funcdef [23,1555]"
+    },
+    {
+      "src": "number: 1 [543,544]",
+      "dest": "number: 1 [831,832]"
+    },
+    {
+      "src": "atom_expr [872,880]",
+      "dest": "atom_expr [1184,1192]"
+    },
+    {
+      "src": "expr_stmt [1074,1185]",
+      "dest": "expr_stmt [1398,1525]"
+    },
+    {
+      "src": "atom_expr [750,758]",
+      "dest": "atom_expr [1054,1062]"
+    },
+    {
+      "src": "number: 1 [1096,1097]",
+      "dest": "number: 1 [1424,1425]"
+    },
+    {
+      "src": "name: i [250,251]",
+      "dest": "name: row [581,584]"
+    },
+    {
+      "src": "number: 0 [714,715]",
+      "dest": "number: 0 [1014,1015]"
+    },
+    {
+      "src": "atom_expr [836,844]",
+      "dest": "atom_expr [1144,1152]"
+    },
+    {
+      "src": "name: blank [546,551]",
+      "dest": "name: blank [834,839]"
+    },
+    {
+      "src": "atom_expr [534,542]",
+      "dest": "atom_expr [822,830]"
+    },
+    {
+      "src": "arith_expr [643,657]",
+      "dest": "arith_expr [935,949]"
+    },
+    {
+      "src": "suite [1012,1186]",
+      "dest": "suite [1336,1526]"
+    },
+    {
+      "src": "arith_expr [504,514]",
+      "dest": "arith_expr [788,798]"
+    },
+    {
+      "src": "trailer [1042,1052]",
+      "dest": "trailer [1366,1376]"
+    },
+    {
+      "src": "trailer [515,525]",
+      "dest": "trailer [799,809]"
+    },
+    {
+      "src": "trailer [578,581]",
+      "dest": "trailer [870,873]"
+    },
+    {
+      "src": "name: board [647,652]",
+      "dest": "name: state [939,944]"
+    },
+    {
+      "src": "number: 0 [540,541]",
+      "dest": "number: 0 [828,829]"
+    },
+    {
+      "src": "testlist_comp [250,254]",
+      "dest": "testlist_comp [581,604]"
+    },
+    {
+      "src": "atom_expr [1090,1098]",
+      "dest": "atom_expr [1418,1426]"
+    },
+    {
+      "src": "suite [425,583]",
+      "dest": "suite [701,875]"
+    },
+    {
+      "src": "comparison [991,1011]",
+      "dest": "comparison [1315,1335]"
+    },
+    {
+      "src": "trailer [1116,1128]",
+      "dest": "trailer [1448,1460]"
+    },
+    {
+      "src": "name: blank [777,782]",
+      "dest": "name: blank [1085,1090]"
+    },
+    {
+      "src": "operator: = [526,527]",
+      "dest": "operator: = [810,811]"
+    },
+    {
+      "src": "atom_expr [1074,1099]",
+      "dest": "atom_expr [1398,1427]"
+    },
+    {
+      "src": "atom_expr [923,950]",
+      "dest": "atom_expr [1239,1270]"
+    },
+    {
+      "src": "trailer [486,496]",
+      "dest": "trailer [766,776]"
+    },
+    {
+      "src": "name: blank [882,887]",
+      "dest": "name: blank [1194,1199]"
+    },
+    {
+      "src": "number: 0 [447,448]",
+      "dest": "number: 0 [723,724]"
+    },
+    {
+      "src": "operator: + [716,717]",
+      "dest": "operator: + [1016,1017]"
+    },
+    {
+      "src": "operator: == [810,812]",
+      "dest": "operator: == [1118,1120]"
+    },
+    {
+      "src": "atom_expr [952,977]",
+      "dest": "atom_expr [1272,1301]"
+    },
+    {
+      "src": "name: board [1131,1136]",
+      "dest": "name: new_state [1463,1472]"
+    },
+    {
+      "src": "name: board [1160,1165]",
+      "dest": "name: new_state [1496,1505]"
+    },
+    {
+      "src": "operator: = [1129,1130]",
+      "dest": "operator: = [1461,1462]"
+    },
+    {
+      "src": "atom_expr [516,524]",
+      "dest": "atom_expr [800,808]"
+    },
+    {
+      "src": "trailer [1033,1036]",
+      "dest": "trailer [1357,1360]"
+    },
+    {
+      "src": "name: board [201,206]",
+      "dest": "name: self [463,467]"
+    },
+    {
+      "src": "atom_expr [546,554]",
+      "dest": "atom_expr [834,842]"
+    },
+    {
+      "src": "number: 0 [964,965]",
+      "dest": "number: 0 [1288,1289]"
+    },
+    {
+      "src": "number: 1 [717,718]",
+      "dest": "number: 1 [1017,1018]"
+    },
+    {
+      "src": "name: board [498,503]",
+      "dest": "name: new_state [778,787]"
+    },
+    {
+      "src": "expr_stmt [241,255]",
+      "dest": "expr_stmt [568,605]"
+    },
+    {
+      "src": "name: blank [573,578]",
+      "dest": "name: blank [865,870]"
+    },
+    {
+      "src": "trailer [696,699]",
+      "dest": "trailer [992,995]"
+    },
+    {
+      "src": "if_stmt [1025,1186]",
+      "dest": "if_stmt [1349,1526]"
+    },
+    {
+      "src": "trailer [545,555]",
+      "dest": "trailer [833,843]"
+    },
+    {
+      "src": "name: blank [563,568]",
+      "dest": "name: blank [855,860]"
+    },
+    {
+      "src": "testlist_star_expr [866,920]",
+      "dest": "testlist_star_expr [1174,1236]"
+    },
+    {
+      "src": "arith_expr [738,748]",
+      "dest": "arith_expr [1042,1052]"
+    },
+    {
+      "src": "classdef [0,1215]",
+      "dest": "classdef [0,1555]"
+    },
+    {
+      "src": "name: blank [504,509]",
+      "dest": "name: blank [788,793]"
+    },
+    {
+      "src": "operator: = [247,248]",
+      "dest": "operator: = [578,579]"
+    },
+    {
+      "src": "name: blank [534,539]",
+      "dest": "name: blank [822,827]"
+    },
+    {
+      "src": "trailer [904,907]",
+      "dest": "trailer [1220,1223]"
+    },
+    {
+      "src": "testlist_star_expr [923,977]",
+      "dest": "testlist_star_expr [1239,1301]"
+    },
+    {
+      "src": "simple_stmt [241,256]",
+      "dest": "simple_stmt [568,606]"
+    },
+    {
+      "src": "name: blank [750,755]",
+      "dest": "name: blank [1054,1059]"
+    },
+    {
+      "src": "operator: == [417,419]",
+      "dest": "operator: == [693,695]"
+    },
+    {
+      "src": "trailer [539,542]",
+      "dest": "trailer [827,830]"
+    },
+    {
+      "src": "number: 0 [773,774]",
+      "dest": "number: 0 [1081,1082]"
+    },
+    {
+      "src": "number: 1 [656,657]",
+      "dest": "number: 1 [948,949]"
+    },
+    {
+      "src": "trailer [973,976]",
+      "dest": "trailer [1297,1300]"
+    },
+    {
+      "src": "trailer [914,917]",
+      "dest": "trailer [1230,1233]"
+    },
+    {
+      "src": "number: 1 [756,757]",
+      "dest": "number: 1 [1060,1061]"
+    },
+    {
+      "src": "testlist_star_expr [732,786]",
+      "dest": "testlist_star_expr [1032,1094]"
+    },
+    {
+      "src": "atom_expr [477,485]",
+      "dest": "atom_expr [757,765]"
+    },
+    {
+      "src": "operator: , [950,951]",
+      "dest": "operator: , [1270,1271]"
+    },
+    {
+      "src": "name: blank [477,482]",
+      "dest": "name: blank [757,762]"
+    },
+    {
+      "src": "operator: > [450,451]",
+      "dest": "operator: > [726,727]"
+    },
+    {
+      "src": "number: 1 [747,748]",
+      "dest": "number: 1 [1051,1052]"
+    },
+    {
+      "src": "operator: , [496,497]",
+      "dest": "operator: , [776,777]"
+    },
+    {
+      "src": "number: 0 [1049,1050]",
+      "dest": "number: 0 [1373,1374]"
+    },
+    {
+      "src": "comparison [800,819]",
+      "dest": "comparison [1108,1127]"
+    },
+    {
+      "src": "trailer [1079,1089]",
+      "dest": "trailer [1407,1417]"
+    },
+    {
+      "src": "name: board [732,737]",
+      "dest": "name: new_state [1032,1041]"
+    },
+    {
+      "src": "name: blank [1137,1142]",
+      "dest": "name: blank [1473,1478]"
+    },
+    {
+      "src": "testlist_star_expr [471,525]",
+      "dest": "testlist_star_expr [747,809]"
+    },
+    {
+      "src": "testlist_star_expr [1074,1128]",
+      "dest": "testlist_star_expr [1398,1460]"
+    },
+    {
+      "src": "name: blank [909,914]",
+      "dest": "name: blank [1225,1230]"
+    },
+    {
+      "src": "name: blank [1166,1171]",
+      "dest": "name: blank [1506,1511]"
+    },
+    {
+      "src": "trailer [877,880]",
+      "dest": "trailer [1189,1192]"
+    },
+    {
+      "src": "atom_expr [632,640]",
+      "dest": "atom_expr [924,932]"
+    },
+    {
+      "src": "operator: = [96,97]",
+      "dest": "operator: = [461,462]"
+    },
+    {
+      "src": "trailer [482,485]",
+      "dest": "trailer [762,765]"
+    },
+    {
+      "src": "atom_expr [866,891]",
+      "dest": "atom_expr [1174,1203]"
+    },
+    {
+      "src": "atom_expr [504,512]",
+      "dest": "atom_expr [788,796]"
+    },
+    {
+      "src": "trailer [1112,1115]",
+      "dest": "trailer [1444,1447]"
+    },
+    {
+      "src": "trailer [637,640]",
+      "dest": "trailer [929,932]"
+    },
+    {
+      "src": "number: 1 [974,975]",
+      "dest": "number: 1 [1298,1299]"
+    },
+    {
+      "src": "if_stmt [629,787]",
+      "dest": "if_stmt [921,1095]"
+    },
+    {
+      "src": "atom_expr [909,917]",
+      "dest": "atom_expr [1225,1233]"
+    },
+    {
+      "src": "number: 0 [483,484]",
+      "dest": "number: 0 [763,764]"
+    },
+    {
+      "src": "trailer [521,524]",
+      "dest": "trailer [805,808]"
+    },
+    {
+      "src": "name: board [1101,1106]",
+      "dest": "name: new_state [1429,1438]"
+    },
+    {
+      "src": "name: len [643,646]",
+      "dest": "name: len [935,938]"
+    },
+    {
+      "src": "name: board [471,476]",
+      "dest": "name: new_state [747,756]"
+    },
+    {
+      "src": "trailer [841,844]",
+      "dest": "trailer [1149,1152]"
+    },
+    {
+      "src": "operator: - [654,655]",
+      "dest": "operator: - [946,947]"
+    },
+    {
+      "src": "name: board [893,898]",
+      "dest": "name: new_state [1205,1214]"
+    },
+    {
+      "src": "atom [249,255]",
+      "dest": "atom [580,605]"
+    },
+    {
+      "src": "atom_expr [939,947]",
+      "dest": "atom_expr [1259,1267]"
+    },
+    {
+      "src": "operator: , [759,760]",
+      "dest": "operator: , [1063,1064]"
+    },
+    {
+      "src": "name: blank [1117,1122]",
+      "dest": "name: blank [1449,1454]"
+    },
+    {
+      "src": "arith_expr [909,919]",
+      "dest": "arith_expr [1225,1235]"
+    },
+    {
+      "src": "atom_expr [1176,1184]",
+      "dest": "atom_expr [1516,1524]"
+    },
+    {
+      "src": "atom_expr [643,653]",
+      "dest": "atom_expr [935,945]"
+    },
+    {
+      "src": "file_input [0,1215]",
+      "dest": "file_input [0,1555]"
+    },
+    {
+      "src": "name: board [866,871]",
+      "dest": "name: new_state [1174,1183]"
+    },
+    {
+      "src": "operator: , [1099,1100]",
+      "dest": "operator: , [1427,1428]"
+    },
+    {
+      "src": "trailer [503,515]",
+      "dest": "trailer [787,799]"
+    },
+    {
+      "src": "number: 0 [1143,1144]",
+      "dest": "number: 0 [1479,1480]"
+    },
+    {
+      "src": "trailer [967,977]",
+      "dest": "trailer [1291,1301]"
+    },
+    {
+      "src": "number: 1 [918,919]",
+      "dest": "number: 1 [1234,1235]"
+    },
+    {
+      "src": "atom_expr [732,759]",
+      "dest": "atom_expr [1032,1063]"
+    },
+    {
+      "src": "trailer [690,700]",
+      "dest": "trailer [986,996]"
+    },
+    {
+      "src": "atom_expr [691,699]",
+      "dest": "atom_expr [987,995]"
+    },
+    {
+      "src": "trailer [568,571]",
+      "dest": "trailer [860,863]"
+    },
+    {
+      "src": "expr_stmt [866,977]",
+      "dest": "expr_stmt [1174,1301]"
+    },
+    {
+      "src": "number: 0 [935,936]",
+      "dest": "number: 0 [1255,1256]"
+    },
+    {
+      "src": "atom_expr [528,555]",
+      "dest": "atom_expr [812,843]"
+    },
+    {
+      "src": "operator: = [921,922]",
+      "dest": "operator: = [1237,1238]"
+    },
+    {
+      "src": "trailer [1142,1145]",
+      "dest": "trailer [1478,1481]"
+    },
+    {
+      "src": "atom_expr [702,729]",
+      "dest": "atom_expr [998,1029]"
+    },
+    {
+      "src": "trailer [743,746]",
+      "dest": "trailer [1047,1050]"
+    },
+    {
+      "src": "number: 1 [726,727]",
+      "dest": "number: 1 [1026,1027]"
+    },
+    {
+      "src": "string: 'right' [1004,1011]",
+      "dest": "string: 'right' [1328,1335]"
+    },
+    {
+      "src": "number: 0 [1172,1173]",
+      "dest": "number: 0 [1512,1513]"
+    },
+    {
+      "src": "name: len [1039,1042]",
+      "dest": "name: len [1363,1366]"
+    },
+    {
+      "src": "trailer [1136,1146]",
+      "dest": "trailer [1472,1482]"
+    },
+    {
+      "src": "trailer [206,209]",
+      "dest": "trailer [467,478]"
+    },
+    {
+      "src": "operator: == [606,608]",
+      "dest": "operator: == [898,900]"
+    },
+    {
+      "src": "atom_expr [1080,1088]",
+      "dest": "atom_expr [1408,1416]"
+    },
+    {
+      "src": "trailer [680,690]",
+      "dest": "trailer [976,986]"
+    },
+    {
+      "src": "arith_expr [1039,1056]",
+      "dest": "arith_expr [1363,1380]"
+    },
+    {
+      "src": "number: 0 [878,879]",
+      "dest": "number: 0 [1190,1191]"
+    },
+    {
+      "src": "suite [18,1215]",
+      "dest": "suite [18,1555]"
+    },
+    {
+      "src": "atom_expr [767,775]",
+      "dest": "atom_expr [1075,1083]"
+    },
+    {
+      "src": "string: 'left' [813,819]",
+      "dest": "string: 'left' [1121,1127]"
+    },
+    {
+      "src": "atom_expr [1137,1145]",
+      "dest": "atom_expr [1473,1481]"
+    },
+    {
+      "src": "name: i [207,208]",
+      "dest": "name: find_blank [468,478]"
+    },
+    {
+      "src": "name: blank [872,877]",
+      "dest": "name: blank [1184,1189]"
+    },
+    {
+      "src": "trailer [209,212]",
+      "dest": "trailer [478,485]"
+    },
+    {
+      "src": "trailer [908,920]",
+      "dest": "trailer [1224,1236]"
+    },
+    {
+      "src": "trailer [898,908]",
+      "dest": "trailer [1214,1224]"
+    },
+    {
+      "src": "operator: , [1158,1159]",
+      "dest": "operator: , [1494,1495]"
+    },
+    {
+      "src": "comparison [441,453]",
+      "dest": "comparison [717,729]"
+    },
+    {
+      "src": "number: 1 [1126,1127]",
+      "dest": "number: 1 [1458,1459]"
+    },
+    {
+      "src": "name: blank [681,686]",
+      "dest": "name: blank [977,982]"
+    },
+    {
+      "src": "trailer [551,554]",
+      "dest": "trailer [839,842]"
+    },
+    {
+      "src": "trailer [1095,1098]",
+      "dest": "trailer [1423,1426]"
+    },
+    {
+      "src": "number: 1 [1156,1157]",
+      "dest": "number: 1 [1492,1493]"
+    },
+    {
+      "src": "number: 1 [552,553]",
+      "dest": "number: 1 [840,841]"
+    },
+    {
+      "src": "atom_expr [1131,1158]",
+      "dest": "atom_expr [1463,1494]"
+    },
+    {
+      "src": "trailer [1171,1174]",
+      "dest": "trailer [1511,1514]"
+    },
+    {
+      "src": "number: 1 [513,514]",
+      "dest": "number: 1 [797,798]"
+    },
+    {
+      "src": "name: blank [1028,1033]",
+      "dest": "name: blank [1352,1357]"
+    },
+    {
+      "src": "testlist_star_expr [1131,1185]",
+      "dest": "testlist_star_expr [1463,1525]"
+    },
+    {
+      "src": "atom_expr [777,785]",
+      "dest": "atom_expr [1085,1093]"
+    },
+    {
+      "src": "name: blank [1080,1085]",
+      "dest": "name: blank [1408,1413]"
+    },
+    {
+      "src": "number: 1 [1123,1124]",
+      "dest": "number: 1 [1455,1456]"
+    },
+    {
+      "src": "trailer [944,947]",
+      "dest": "trailer [1264,1267]"
+    },
+    {
+      "src": "atom_expr [958,966]",
+      "dest": "atom_expr [1282,1290]"
+    },
+    {
+      "src": "operator: + [746,747]",
+      "dest": "operator: + [1050,1051]"
+    },
+    {
+      "src": "number: 1 [888,889]",
+      "dest": "number: 1 [1200,1201]"
+    },
+    {
+      "src": "trailer [887,890]",
+      "dest": "trailer [1199,1202]"
+    },
+    {
+      "src": "trailer [492,495]",
+      "dest": "trailer [772,775]"
+    },
+    {
+      "src": "atom_expr [1166,1174]",
+      "dest": "atom_expr [1506,1514]"
+    },
+    {
+      "src": "trailer [572,582]",
+      "dest": "trailer [864,874]"
+    },
+    {
+      "src": "operator: == [1001,1003]",
+      "dest": "operator: == [1325,1327]"
+    },
+    {
+      "src": "number: 1 [945,946]",
+      "dest": "number: 1 [1265,1266]"
+    },
+    {
+      "src": "trailer [707,719]",
+      "dest": "trailer [1007,1019]"
+    },
+    {
+      "src": "trailer [1089,1099]",
+      "dest": "trailer [1417,1427]"
+    },
+    {
+      "src": "trailer [686,689]",
+      "dest": "trailer [982,985]"
+    },
+    {
+      "src": "trailer [1085,1088]",
+      "dest": "trailer [1413,1416]"
+    },
+    {
+      "src": "name: blank [958,963]",
+      "dest": "name: blank [1282,1287]"
+    },
+    {
+      "src": "if_stmt [438,583]",
+      "dest": "if_stmt [714,875]"
+    },
+    {
+      "src": "trailer [533,545]",
+      "dest": "trailer [821,833]"
+    },
+    {
+      "src": "simple_stmt [675,787]",
+      "dest": "simple_stmt [967,1095]"
+    },
+    {
+      "src": "trailer [772,775]",
+      "dest": "trailer [1080,1083]"
+    },
+    {
+      "src": "name: blank [708,713]",
+      "dest": "name: blank [1008,1013]"
+    },
+    {
+      "src": "name: blank [441,446]",
+      "dest": "name: blank [717,722]"
+    },
+    {
+      "src": "operator: - [542,543]",
+      "dest": "operator: - [830,831]"
+    },
+    {
+      "src": "if_stmt [833,978]",
+      "dest": "if_stmt [1141,1302]"
+    },
+    {
+      "src": "number: 1 [697,698]",
+      "dest": "number: 1 [993,994]"
+    },
+    {
+      "src": "trailer [871,881]",
+      "dest": "trailer [1183,1193]"
+    },
+    {
+      "src": "atom_expr [738,746]",
+      "dest": "atom_expr [1042,1050]"
+    },
+    {
+      "src": "name: blank [90,95]",
+      "dest": "name: blank [455,460]"
+    },
+    {
+      "src": "name: blank [939,944]",
+      "dest": "name: blank [1259,1264]"
+    },
+    {
+      "src": "name: board [1043,1048]",
+      "dest": "name: state [1367,1372]"
+    },
+    {
+      "src": "name: blank [720,725]",
+      "dest": "name: blank [1020,1025]"
+    },
+    {
+      "src": "name: blank [929,934]",
+      "dest": "name: blank [1249,1254]"
+    },
+    {
+      "src": "suite [454,583]",
+      "dest": "suite [730,875]"
+    },
+    {
+      "src": "trailer [782,785]",
+      "dest": "trailer [1090,1093]"
+    },
+    {
+      "src": "name: board [557,562]",
+      "dest": "name: new_state [845,854]"
+    },
+    {
+      "src": "operator: , [891,892]",
+      "dest": "operator: , [1203,1204]"
+    },
+    {
+      "src": "operator: + [1155,1156]",
+      "dest": "operator: + [1491,1492]"
+    },
+    {
+      "src": "expr_stmt [471,582]",
+      "dest": "expr_stmt [747,874]"
+    },
+    {
+      "src": "number: 0 [638,639]",
+      "dest": "number: 0 [930,931]"
+    },
+    {
+      "src": "trailer [957,967]",
+      "dest": "trailer [1281,1291]"
+    },
+    {
+      "src": "param [32,38]",
+      "dest": "param [32,37]"
+    },
+    {
+      "src": "trailer [1152,1155]",
+      "dest": "trailer [1488,1491]"
+    },
+    {
+      "src": "simple_stmt [471,583]",
+      "dest": "simple_stmt [747,875]"
+    },
+    {
+      "src": "comparison [632,657]",
+      "dest": "comparison [924,949]"
+    },
+    {
+      "src": "atom_expr [1043,1051]",
+      "dest": "atom_expr [1367,1375]"
+    },
+    {
+      "src": "operator: - [917,918]",
+      "dest": "operator: - [1233,1234]"
+    },
+    {
+      "src": "trailer [749,759]",
+      "dest": "trailer [1053,1063]"
+    },
+    {
+      "src": "arith_expr [1147,1157]",
+      "dest": "arith_expr [1483,1493]"
+    },
+    {
+      "src": "atom_expr [201,212]",
+      "dest": "atom_expr [463,485]"
+    },
+    {
+      "src": "name: blank [968,973]",
+      "dest": "name: blank [1292,1297]"
+    },
+    {
+      "src": "atom_expr [761,786]",
+      "dest": "atom_expr [1065,1094]"
+    },
+    {
+      "src": "atom_expr [1101,1128]",
+      "dest": "atom_expr [1429,1460]"
+    },
+    {
+      "src": "trailer [928,938]",
+      "dest": "trailer [1248,1258]"
+    },
+    {
+      "src": "operator: - [1053,1054]",
+      "dest": "operator: - [1377,1378]"
+    },
+    {
+      "src": "atom_expr [441,449]",
+      "dest": "atom_expr [717,725]"
+    },
+    {
+      "src": "name: direction [39,48]",
+      "dest": "name: direction [45,54]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [38,44]",
+      "parent": "parameters [31,55]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [65,416]",
+      "parent": "suite [56,1555]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [455,486]",
+      "parent": "suite [56,1555]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [241,256]",
+      "parent": "suite [56,1555]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: board [32,37]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [455,485]",
+      "parent": "simple_stmt [455,486]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: board [1210,1215]",
+      "label": "new_state"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: blank [90,95]",
+      "parent": "expr_stmt [455,485]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: = [96,97]",
+      "parent": "expr_stmt [455,485]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [201,212]",
+      "parent": "expr_stmt [455,485]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: blank [241,246]",
+      "label": "new_state"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: board [201,206]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: i [207,208]",
+      "label": "find_blank"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: j [210,211]",
+      "label": "state"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [581,587]",
+      "parent": "testlist_comp [581,604]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "sync_comp_for [588,604]",
+      "parent": "testlist_comp [581,604]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: i [250,251]",
+      "label": "row"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: i [250,251]",
+      "parent": "atom_expr [581,587]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [584,587]",
+      "parent": "atom_expr [581,587]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: j [253,254]",
+      "label": "row"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: j [253,254]",
+      "parent": "sync_comp_for [588,604]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: state [599,604]",
+      "parent": "sync_comp_for [588,604]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: board [647,652]",
+      "label": "state"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: board [471,476]",
+      "label": "new_state"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: board [498,503]",
+      "label": "new_state"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: board [528,533]",
+      "label": "new_state"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: board [557,562]",
+      "label": "new_state"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: board [675,680]",
+      "label": "new_state"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: board [702,707]",
+      "label": "new_state"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: board [732,737]",
+      "label": "new_state"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: board [761,766]",
+      "label": "new_state"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: board [866,871]",
+      "label": "new_state"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: board [893,898]",
+      "label": "new_state"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: board [923,928]",
+      "label": "new_state"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: board [952,957]",
+      "label": "new_state"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: board [1043,1048]",
+      "label": "state"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: board [1074,1079]",
+      "label": "new_state"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: board [1101,1106]",
+      "label": "new_state"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: board [1131,1136]",
+      "label": "new_state"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: board [1160,1165]",
+      "label": "new_state"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [251,252]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [90,102]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [90,103]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: i [115,116]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "atom_expr [120,137]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: j [155,156]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "atom_expr [160,180]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: == [213,215]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: ' ' [216,219]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "comparison [201,219]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [276,282]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [220,282]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "if_stmt [198,282]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [181,282]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "for_stmt [151,282]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "if_stmt [294,326]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [138,326]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "for_stmt [111,326]"
+    }
+  ]
+}

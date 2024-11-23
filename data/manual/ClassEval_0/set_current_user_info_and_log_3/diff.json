@@ -1,0 +1,212 @@
+{
+  "matches": [
+    {
+      "src": "trailer [270,283]",
+      "dest": "trailer [431,444]"
+    },
+    {
+      "src": "suite [26,283]",
+      "dest": "suite [26,445]"
+    },
+    {
+      "src": "name: user_info [65,74]",
+      "dest": "name: user [71,75]"
+    },
+    {
+      "src": "name: user_info [148,157]",
+      "dest": "name: user [309,313]"
+    },
+    {
+      "src": "operator: = [208,209]",
+      "dest": "operator: = [364,365]"
+    },
+    {
+      "src": "operator: } [254,255]",
+      "dest": "operator: } [415,416]"
+    },
+    {
+      "src": "classdef [0,283]",
+      "dest": "classdef [0,445]"
+    },
+    {
+      "src": "suite [76,283]",
+      "dest": "suite [77,445]"
+    },
+    {
+      "src": "simple_stmt [128,158]",
+      "dest": "simple_stmt [284,314]"
+    },
+    {
+      "src": "fstring_start: f\" [210,212]",
+      "dest": "fstring_start: f\" [366,368]"
+    },
+    {
+      "src": "name: set_current_user_info_and_log [35,64]",
+      "dest": "name: set_current_user_info_and_log [35,64]"
+    },
+    {
+      "src": "fstring_expr [236,255]",
+      "dest": "fstring_expr [392,416]"
+    },
+    {
+      "src": "name: current_user_info [237,254]",
+      "dest": "name: current_user_info [398,415]"
+    },
+    {
+      "src": "fstring [210,256]",
+      "dest": "fstring [366,417]"
+    },
+    {
+      "src": "fstring_end: \" [255,256]",
+      "dest": "fstring_end: \" [416,417]"
+    },
+    {
+      "src": "name: log_message [196,207]",
+      "dest": "name: log_message [352,363]"
+    },
+    {
+      "src": "file_input [0,283]",
+      "dest": "file_input [0,445]"
+    },
+    {
+      "src": "name: AccessGatewayFilter [6,25]",
+      "dest": "name: AccessGatewayFilter [6,25]"
+    },
+    {
+      "src": "name: print [265,270]",
+      "dest": "name: print [426,431]"
+    },
+    {
+      "src": "param [65,74]",
+      "dest": "param [71,75]"
+    },
+    {
+      "src": "operator: = [146,147]",
+      "dest": "operator: = [307,308]"
+    },
+    {
+      "src": "expr_stmt [128,157]",
+      "dest": "expr_stmt [284,313]"
+    },
+    {
+      "src": "fstring_string: Access logged for user:  [212,236]",
+      "dest": "fstring_string: Access logged for user:  [368,392]"
+    },
+    {
+      "src": "name: log_message [271,282]",
+      "dest": "name: log_message [432,443]"
+    },
+    {
+      "src": "name: current_user_info [128,145]",
+      "dest": "name: current_user_info [289,306]"
+    },
+    {
+      "src": "simple_stmt [196,257]",
+      "dest": "simple_stmt [352,418]"
+    },
+    {
+      "src": "operator: { [236,237]",
+      "dest": "operator: { [392,393]"
+    },
+    {
+      "src": "funcdef [31,283]",
+      "dest": "funcdef [31,445]"
+    },
+    {
+      "src": "parameters [64,75]",
+      "dest": "parameters [64,76]"
+    },
+    {
+      "src": "expr_stmt [196,256]",
+      "dest": "expr_stmt [352,417]"
+    },
+    {
+      "src": "atom_expr [265,283]",
+      "dest": "atom_expr [426,444]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [65,70]",
+      "parent": "parameters [64,76]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [86,233]",
+      "parent": "suite [77,445]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [426,445]",
+      "parent": "suite [77,445]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: user_info [65,74]",
+      "label": "user"
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [265,283]",
+      "parent": "simple_stmt [426,445]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [284,306]",
+      "parent": "expr_stmt [284,313]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: user_info [148,157]",
+      "label": "user"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [284,288]",
+      "parent": "atom_expr [284,306]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [288,306]",
+      "parent": "atom_expr [284,306]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: current_user_info [128,145]",
+      "parent": "trailer [288,306]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [393,415]",
+      "parent": "fstring_expr [392,416]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [393,397]",
+      "parent": "atom_expr [393,415]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [397,415]",
+      "parent": "atom_expr [393,415]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: current_user_info [237,254]",
+      "parent": "trailer [397,415]",
+      "at": 0
+    }
+  ]
+}

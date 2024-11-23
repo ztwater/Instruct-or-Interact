@@ -1,0 +1,376 @@
+{
+  "matches": [
+    {
+      "src": "suite [23,397]",
+      "dest": "suite [23,566]"
+    },
+    {
+      "src": "trailer [233,235]",
+      "dest": "trailer [407,409]"
+    },
+    {
+      "src": "classdef [0,397]",
+      "dest": "classdef [0,566]"
+    },
+    {
+      "src": "suite [59,397]",
+      "dest": "suite [85,566]"
+    },
+    {
+      "src": "return_stmt [384,397]",
+      "dest": "return_stmt [552,565]"
+    },
+    {
+      "src": "name: word [292,296]",
+      "dest": "name: word [466,470]"
+    },
+    {
+      "src": "name: remove_stop_words [32,49]",
+      "dest": "name: remove_stop_words [32,49]"
+    },
+    {
+      "src": "name: result [158,164]",
+      "dest": "name: result [328,334]"
+    },
+    {
+      "src": "testlist_comp [266,322]",
+      "dest": "testlist_comp [440,500]"
+    },
+    {
+      "src": "name: string [182,188]",
+      "dest": "name: string [352,358]"
+    },
+    {
+      "src": "operator: = [219,220]",
+      "dest": "operator: = [393,394]"
+    },
+    {
+      "src": "atom_expr [292,304]",
+      "dest": "atom_expr [466,478]"
+    },
+    {
+      "src": "simple_stmt [158,170]",
+      "dest": "simple_stmt [328,340]"
+    },
+    {
+      "src": "operator: = [263,264]",
+      "dest": "operator: = [437,438]"
+    },
+    {
+      "src": "name: stop_words [312,322]",
+      "dest": "name: stop_word_list [486,500]"
+    },
+    {
+      "src": "name: word [275,279]",
+      "dest": "name: word [449,453]"
+    },
+    {
+      "src": "parameters [49,58]",
+      "dest": "parameters [49,84]"
+    },
+    {
+      "src": "name: word [266,270]",
+      "dest": "name: word [440,444]"
+    },
+    {
+      "src": "simple_stmt [248,324]",
+      "dest": "simple_stmt [422,502]"
+    },
+    {
+      "src": "name: filtered_words [359,373]",
+      "dest": "name: filtered_words [528,542]"
+    },
+    {
+      "src": "expr_stmt [248,323]",
+      "dest": "expr_stmt [422,501]"
+    },
+    {
+      "src": "name: append [343,349]",
+      "dest": "name: append [521,527]"
+    },
+    {
+      "src": "comp_if [289,322]",
+      "dest": "comp_if [463,500]"
+    },
+    {
+      "src": "name: words [283,288]",
+      "dest": "name: words [457,462]"
+    },
+    {
+      "src": "funcdef [28,397]",
+      "dest": "funcdef [28,566]"
+    },
+    {
+      "src": "name: split [228,233]",
+      "dest": "name: split [402,407]"
+    },
+    {
+      "src": "trailer [296,302]",
+      "dest": "trailer [470,476]"
+    },
+    {
+      "src": "trailer [342,349]",
+      "dest": "trailer [520,527]"
+    },
+    {
+      "src": "simple_stmt [336,376]",
+      "dest": "simple_stmt [514,544]"
+    },
+    {
+      "src": "atom_expr [221,235]",
+      "dest": "atom_expr [395,409]"
+    },
+    {
+      "src": "simple_stmt [213,236]",
+      "dest": "simple_stmt [387,410]"
+    },
+    {
+      "src": "sync_comp_for [271,322]",
+      "dest": "sync_comp_for [445,500]"
+    },
+    {
+      "src": "atom [265,323]",
+      "dest": "atom [439,501]"
+    },
+    {
+      "src": "name: words [213,218]",
+      "dest": "name: words [387,392]"
+    },
+    {
+      "src": "trailer [227,233]",
+      "dest": "trailer [401,407]"
+    },
+    {
+      "src": "atom [167,169]",
+      "dest": "atom [337,339]"
+    },
+    {
+      "src": "name: NLPDataProcessor [6,22]",
+      "dest": "name: NLPDataProcessor [6,22]"
+    },
+    {
+      "src": "comp_op [305,311]",
+      "dest": "comp_op [479,485]"
+    },
+    {
+      "src": "simple_stmt [68,150]",
+      "dest": "simple_stmt [94,320]"
+    },
+    {
+      "src": "param [50,57]",
+      "dest": "param [56,68]"
+    },
+    {
+      "src": "string: 'the' [82,87]",
+      "dest": "string: \"\"\"         Remove all the stop words from the list of strings.         :param string_list: a list of strings         :param stop_word_list: a list of stop words         :return: a list of words without stop words         \"\"\" [94,319]"
+    },
+    {
+      "src": "name: strings [192,199]",
+      "dest": "name: string_list [362,373]"
+    },
+    {
+      "src": "file_input [0,397]",
+      "dest": "file_input [0,566]"
+    },
+    {
+      "src": "suite [200,376]",
+      "dest": "suite [374,544]"
+    },
+    {
+      "src": "comparison [292,322]",
+      "dest": "comparison [466,500]"
+    },
+    {
+      "src": "name: result [391,397]",
+      "dest": "name: result [559,565]"
+    },
+    {
+      "src": "name: filtered_words [248,262]",
+      "dest": "name: filtered_words [422,436]"
+    },
+    {
+      "src": "trailer [358,374]",
+      "dest": "trailer [527,543]"
+    },
+    {
+      "src": "expr_stmt [213,235]",
+      "dest": "expr_stmt [387,409]"
+    },
+    {
+      "src": "operator: = [165,166]",
+      "dest": "operator: = [335,336]"
+    },
+    {
+      "src": "name: string [221,227]",
+      "dest": "name: string [395,401]"
+    },
+    {
+      "src": "name: lower [297,302]",
+      "dest": "name: lower [471,476]"
+    },
+    {
+      "src": "for_stmt [178,376]",
+      "dest": "for_stmt [348,544]"
+    },
+    {
+      "src": "name: result [336,342]",
+      "dest": "name: result [514,520]"
+    },
+    {
+      "src": "trailer [302,304]",
+      "dest": "trailer [476,478]"
+    },
+    {
+      "src": "expr_stmt [158,169]",
+      "dest": "expr_stmt [328,339]"
+    },
+    {
+      "src": "atom_expr [336,375]",
+      "dest": "atom_expr [514,543]"
+    },
+    {
+      "src": "name: strings [50,57]",
+      "dest": "name: string_list [56,67]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [50,55]",
+      "parent": "parameters [49,84]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [69,83]",
+      "parent": "parameters [49,84]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [552,566]",
+      "parent": "suite [85,566]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: strings [50,57]",
+      "label": "string_list"
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [67,68]",
+      "parent": "param [56,68]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "string: 'the' [82,87]",
+      "label": "\"\"\"         Remove all the stop words from the list of strings.         :param string_list: a list of strings         :param stop_word_list: a list of stop words         :return: a list of words without stop words         \"\"\""
+    },
+    {
+      "action": "move-tree",
+      "tree": "string: 'the' [82,87]",
+      "parent": "simple_stmt [94,320]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: strings [192,199]",
+      "label": "string_list"
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [384,397]",
+      "parent": "simple_stmt [552,566]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [358,374]",
+      "parent": "atom_expr [514,543]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: stop_words [312,322]",
+      "label": "stop_word_list"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: stop_words [68,78]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: = [79,80]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [87,88]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: 'and' [89,94]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [94,95]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: 'is' [96,100]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [100,101]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: 'in' [102,106]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [106,107]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: 'it' [108,112]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [112,113]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: 'to' [114,118]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "testlist_comp [82,118]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom [81,119]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [68,119]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: ' ' [350,353]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [353,358]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [350,374]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [349,375]"
+    }
+  ]
+}

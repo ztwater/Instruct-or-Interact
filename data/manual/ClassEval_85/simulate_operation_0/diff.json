@@ -1,0 +1,96 @@
+{
+  "matches": [
+    {
+      "src": "name: Thermostat [6,16]",
+      "dest": "name: Thermostat [6,16]"
+    },
+    {
+      "src": "suite [17,139]",
+      "dest": "suite [17,450]"
+    },
+    {
+      "src": "suite [47,139]",
+      "dest": "suite [51,450]"
+    },
+    {
+      "src": "trailer [136,138]",
+      "dest": "trailer [78,80]"
+    },
+    {
+      "src": "classdef [0,139]",
+      "dest": "classdef [0,450]"
+    },
+    {
+      "src": "atom_expr [123,138]",
+      "dest": "atom_expr [60,80]"
+    },
+    {
+      "src": "file_input [0,246]",
+      "dest": "file_input [0,450]"
+    },
+    {
+      "src": "simple_stmt [123,139]",
+      "dest": "simple_stmt [60,81]"
+    },
+    {
+      "src": "name: auto_set_mode [123,136]",
+      "dest": "name: auto_set_mode [65,78]"
+    },
+    {
+      "src": "name: simulate_operation [26,44]",
+      "dest": "name: simulate_operation [26,44]"
+    },
+    {
+      "src": "parameters [44,46]",
+      "dest": "parameters [44,50]"
+    },
+    {
+      "src": "funcdef [22,139]",
+      "dest": "funcdef [22,450]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [45,49]",
+      "parent": "parameters [44,50]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [98,123]",
+      "parent": "suite [51,450]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "while_stmt [131,393]",
+      "parent": "suite [51,450]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "return_stmt [414,450]",
+      "parent": "suite [51,450]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [60,64]",
+      "parent": "atom_expr [60,80]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [64,78]",
+      "parent": "atom_expr [60,80]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: auto_set_mode [123,136]",
+      "parent": "trailer [64,78]",
+      "at": 0
+    }
+  ]
+}

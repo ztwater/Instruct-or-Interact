@@ -1,0 +1,16 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        extract codes from the html body\n        :param html_text: string, html text\n        :return: the list of code\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    }
+]

@@ -1,0 +1,539 @@
+{
+  "matches": [
+    {
+      "src": "suite [12,352]",
+      "dest": "suite [12,899]"
+    },
+    {
+      "src": "classdef [0,352]",
+      "dest": "classdef [0,899]"
+    },
+    {
+      "src": "operator: = [144,145]",
+      "dest": "operator: = [281,282]"
+    },
+    {
+      "src": "suite [42,352]",
+      "dest": "suite [176,639]"
+    },
+    {
+      "src": "simple_stmt [128,176]",
+      "dest": "simple_stmt [252,286]"
+    },
+    {
+      "src": "operator: , [155,156]",
+      "dest": "operator: { [283,284]"
+    },
+    {
+      "src": "simple_stmt [238,281]",
+      "dest": "simple_stmt [384,433]"
+    },
+    {
+      "src": "name: room_type [196,205]",
+      "dest": "name: name [322,326]"
+    },
+    {
+      "src": "name: available_rooms [209,224]",
+      "dest": "name: booked_rooms [339,351]"
+    },
+    {
+      "src": "operator: } [329,330]",
+      "dest": "operator: += [510,512]"
+    },
+    {
+      "src": "file_input [0,352]",
+      "dest": "file_input [0,899]"
+    },
+    {
+      "src": "name: available_rooms [128,143]",
+      "dest": "name: booked_rooms [257,269]"
+    },
+    {
+      "src": "comparison [196,224]",
+      "dest": "comparison [322,362]"
+    },
+    {
+      "src": "name: Hotel [6,11]",
+      "dest": "name: Hotel [6,11]"
+    },
+    {
+      "src": "name: room_type [250,259]",
+      "dest": "name: room_type [402,411]"
+    },
+    {
+      "src": "name: room_type [31,40]",
+      "dest": "name: room_type [37,46]"
+    },
+    {
+      "src": "name: book_room [21,30]",
+      "dest": "name: book_room [21,30]"
+    },
+    {
+      "src": "name: room_type [320,329]",
+      "dest": "name: room_type [493,502]"
+    },
+    {
+      "src": "atom [146,175]",
+      "dest": "atom [283,285]"
+    },
+    {
+      "src": "operator: , [165,166]",
+      "dest": "operator: } [284,285]"
+    },
+    {
+      "src": "param [31,40]",
+      "dest": "param [37,47]"
+    },
+    {
+      "src": "parameters [30,41]",
+      "dest": "parameters [30,66]"
+    },
+    {
+      "src": "operator: } [259,260]",
+      "dest": "operator: = [419,420]"
+    },
+    {
+      "src": "if_stmt [193,352]",
+      "dest": "if_stmt [319,525]"
+    },
+    {
+      "src": "funcdef [17,352]",
+      "dest": "funcdef [17,899]"
+    },
+    {
+      "src": "suite [225,281]",
+      "dest": "suite [363,433]"
+    },
+    {
+      "src": "expr_stmt [128,175]",
+      "dest": "expr_stmt [252,285]"
+    },
+    {
+      "src": "suite [294,352]",
+      "dest": "suite [454,525]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "suite [67,899]",
+      "parent": "funcdef [17,899]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [31,36]",
+      "parent": "parameters [30,66]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [48,60]",
+      "parent": "parameters [30,66]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [61,65]",
+      "parent": "parameters [30,66]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [76,899]",
+      "parent": "suite [67,899]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [46,47]",
+      "parent": "param [37,47]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [79,112]",
+      "parent": "if_stmt [76,899]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [113,861]",
+      "parent": "if_stmt [76,899]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [874,899]",
+      "parent": "if_stmt [76,899]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [126,861]",
+      "parent": "suite [113,861]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [129,175]",
+      "parent": "if_stmt [126,861]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [42,352]",
+      "parent": "if_stmt [126,861]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [656,861]",
+      "parent": "if_stmt [126,861]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [193,286]",
+      "parent": "suite [176,639]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [558,605]",
+      "parent": "suite [176,639]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [621,639]",
+      "parent": "suite [176,639]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [196,230]",
+      "parent": "if_stmt [193,286]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [231,286]",
+      "parent": "if_stmt [193,286]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [128,176]",
+      "parent": "suite [231,286]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: room_type [196,205]",
+      "label": "name"
+    },
+    {
+      "action": "insert-node",
+      "tree": "comp_op [327,333]",
+      "parent": "comparison [322,362]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [334,362]",
+      "parent": "comparison [322,362]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [475,525]",
+      "parent": "suite [454,525]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [334,338]",
+      "parent": "atom_expr [334,362]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [338,351]",
+      "parent": "atom_expr [334,362]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [351,362]",
+      "parent": "atom_expr [334,362]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [384,432]",
+      "parent": "simple_stmt [384,433]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [475,524]",
+      "parent": "simple_stmt [475,525]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [252,280]",
+      "parent": "expr_stmt [252,285]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: available_rooms [209,224]",
+      "label": "booked_rooms"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: available_rooms [209,224]",
+      "parent": "trailer [338,351]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [384,418]",
+      "parent": "expr_stmt [384,432]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: } [259,260]",
+      "label": "="
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: } [259,260]",
+      "parent": "expr_stmt [384,432]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: room_number [421,432]",
+      "parent": "expr_stmt [384,432]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [475,509]",
+      "parent": "expr_stmt [475,524]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: } [329,330]",
+      "label": "+="
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: } [329,330]",
+      "parent": "expr_stmt [475,524]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: room_number [513,524]",
+      "parent": "expr_stmt [475,524]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [252,256]",
+      "parent": "atom_expr [252,280]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [256,269]",
+      "parent": "atom_expr [252,280]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [269,280]",
+      "parent": "atom_expr [252,280]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: , [155,156]",
+      "label": "{"
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: , [155,156]",
+      "parent": "atom [283,285]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: , [165,166]",
+      "label": "}"
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: , [165,166]",
+      "parent": "atom [283,285]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [384,388]",
+      "parent": "atom_expr [384,418]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [388,401]",
+      "parent": "atom_expr [384,418]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [401,412]",
+      "parent": "atom_expr [384,418]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [412,418]",
+      "parent": "atom_expr [384,418]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [475,479]",
+      "parent": "atom_expr [475,509]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [479,492]",
+      "parent": "atom_expr [475,509]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [492,503]",
+      "parent": "atom_expr [475,509]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [503,509]",
+      "parent": "atom_expr [475,509]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: available_rooms [128,143]",
+      "label": "booked_rooms"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: available_rooms [128,143]",
+      "parent": "trailer [256,269]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: room_type [250,259]",
+      "parent": "trailer [401,412]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: room_type [320,329]",
+      "parent": "trailer [492,503]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: 'Single' [147,155]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: 'Double' [157,165]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: 'Suite' [167,174]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "testlist_comp [147,174]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_start: f\" [245,247]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_string: A  [247,249]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: { [249,250]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_expr [249,260]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_string:  room is available. [260,279]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_end: \" [279,280]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring [245,280]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "return_stmt [238,280]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_start: f\" [314,316]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_string: No  [316,319]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: { [319,320]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_expr [319,330]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_string:  rooms are available. [330,351]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_end: \" [351,352]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring [314,352]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "return_stmt [307,352]"
+    }
+  ]
+}

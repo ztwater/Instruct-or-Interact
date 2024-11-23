@@ -1,0 +1,198 @@
+{
+  "matches": [
+    {
+      "src": "suite [23,273]",
+      "dest": "suite [23,658]"
+    },
+    {
+      "src": "atom_expr [136,145]",
+      "dest": "atom_expr [516,525]"
+    },
+    {
+      "src": "param [41,46]",
+      "dest": "param [47,52]"
+    },
+    {
+      "src": "expr_stmt [194,214]",
+      "dest": "expr_stmt [574,594]"
+    },
+    {
+      "src": "classdef [0,273]",
+      "dest": "classdef [0,658]"
+    },
+    {
+      "src": "simple_stmt [129,146]",
+      "dest": "simple_stmt [509,526]"
+    },
+    {
+      "src": "name: num2 [210,214]",
+      "dest": "name: num2 [590,594]"
+    },
+    {
+      "src": "suite [53,273]",
+      "dest": "suite [59,658]"
+    },
+    {
+      "src": "expr_stmt [104,120]",
+      "dest": "expr_stmt [484,500]"
+    },
+    {
+      "src": "name: int [136,139]",
+      "dest": "name: int [516,519]"
+    },
+    {
+      "src": "return_stmt [260,273]",
+      "dest": "return_stmt [640,658]"
+    },
+    {
+      "src": "name: num2 [140,144]",
+      "dest": "name: num2 [520,524]"
+    },
+    {
+      "src": "atom_expr [111,120]",
+      "dest": "atom_expr [491,500]"
+    },
+    {
+      "src": "arith_expr [203,214]",
+      "dest": "arith_expr [583,594]"
+    },
+    {
+      "src": "name: num1 [41,45]",
+      "dest": "name: num1 [47,51]"
+    },
+    {
+      "src": "expr_stmt [129,145]",
+      "dest": "expr_stmt [509,525]"
+    },
+    {
+      "src": "simple_stmt [194,215]",
+      "dest": "simple_stmt [574,595]"
+    },
+    {
+      "src": "operator: = [134,135]",
+      "dest": "operator: = [514,515]"
+    },
+    {
+      "src": "name: result [267,273]",
+      "dest": "name: result [651,657]"
+    },
+    {
+      "src": "file_input [0,273]",
+      "dest": "file_input [0,658]"
+    },
+    {
+      "src": "parameters [40,52]",
+      "dest": "parameters [40,58]"
+    },
+    {
+      "src": "operator: - [208,209]",
+      "dest": "operator: - [588,589]"
+    },
+    {
+      "src": "name: num1 [203,207]",
+      "dest": "name: num1 [583,587]"
+    },
+    {
+      "src": "name: int [111,114]",
+      "dest": "name: int [491,494]"
+    },
+    {
+      "src": "trailer [139,145]",
+      "dest": "trailer [519,525]"
+    },
+    {
+      "src": "operator: = [109,110]",
+      "dest": "operator: = [489,490]"
+    },
+    {
+      "src": "name: num1 [115,119]",
+      "dest": "name: num1 [495,499]"
+    },
+    {
+      "src": "name: subtract [32,40]",
+      "dest": "name: subtract [32,40]"
+    },
+    {
+      "src": "trailer [114,120]",
+      "dest": "trailer [494,500]"
+    },
+    {
+      "src": "name: result [194,200]",
+      "dest": "name: result [574,580]"
+    },
+    {
+      "src": "name: num1 [104,108]",
+      "dest": "name: num1 [484,488]"
+    },
+    {
+      "src": "operator: , [45,46]",
+      "dest": "operator: , [51,52]"
+    },
+    {
+      "src": "operator: = [201,202]",
+      "dest": "operator: = [581,582]"
+    },
+    {
+      "src": "name: num2 [129,133]",
+      "dest": "name: num2 [509,513]"
+    },
+    {
+      "src": "simple_stmt [104,121]",
+      "dest": "simple_stmt [484,501]"
+    },
+    {
+      "src": "name: BigNumCalculator [6,22]",
+      "dest": "name: BigNumCalculator [6,22]"
+    },
+    {
+      "src": "funcdef [28,273]",
+      "dest": "funcdef [28,658]"
+    },
+    {
+      "src": "name: num2 [47,51]",
+      "dest": "name: num2 [53,57]"
+    },
+    {
+      "src": "param [47,51]",
+      "dest": "param [53,57]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [41,46]",
+      "parent": "parameters [40,58]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [68,434]",
+      "parent": "suite [59,658]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [647,658]",
+      "parent": "return_stmt [640,658]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: str [647,650]",
+      "parent": "atom_expr [647,658]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [650,658]",
+      "parent": "atom_expr [647,658]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: result [267,273]",
+      "parent": "trailer [650,658]",
+      "at": 0
+    }
+  ]
+}

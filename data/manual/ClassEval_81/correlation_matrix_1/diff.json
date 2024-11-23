@@ -1,0 +1,130 @@
+{
+  "matches": [
+    {
+      "src": "trailer [81,87]",
+      "dest": "trailer [81,87]"
+    },
+    {
+      "src": "name: correlation_matrix [27,45]",
+      "dest": "name: correlation_matrix [27,45]"
+    },
+    {
+      "src": "suite [18,109]",
+      "dest": "suite [18,119]"
+    },
+    {
+      "src": "name: matrix [61,67]",
+      "dest": "name: matrix [61,67]"
+    },
+    {
+      "src": "classdef [0,109]",
+      "dest": "classdef [0,119]"
+    },
+    {
+      "src": "suite [52,109]",
+      "dest": "suite [52,119]"
+    },
+    {
+      "src": "name: Statistics3 [6,17]",
+      "dest": "name: Statistics3 [6,17]"
+    },
+    {
+      "src": "parameters [45,51]",
+      "dest": "parameters [45,51]"
+    },
+    {
+      "src": "param [46,50]",
+      "dest": "param [46,50]"
+    },
+    {
+      "src": "return_stmt [96,109]",
+      "dest": "return_stmt [96,118]"
+    },
+    {
+      "src": "name: data [82,86]",
+      "dest": "name: data [82,86]"
+    },
+    {
+      "src": "atom_expr [70,87]",
+      "dest": "atom_expr [70,87]"
+    },
+    {
+      "src": "trailer [72,81]",
+      "dest": "trailer [72,81]"
+    },
+    {
+      "src": "name: matrix [103,109]",
+      "dest": "name: matrix [103,109]"
+    },
+    {
+      "src": "simple_stmt [61,88]",
+      "dest": "simple_stmt [61,88]"
+    },
+    {
+      "src": "file_input [0,109]",
+      "dest": "file_input [0,120]"
+    },
+    {
+      "src": "name: np [70,72]",
+      "dest": "name: np [70,72]"
+    },
+    {
+      "src": "funcdef [23,109]",
+      "dest": "funcdef [23,119]"
+    },
+    {
+      "src": "operator: = [68,69]",
+      "dest": "operator: = [68,69]"
+    },
+    {
+      "src": "expr_stmt [61,87]",
+      "dest": "expr_stmt [61,87]"
+    },
+    {
+      "src": "name: corrcoef [73,81]",
+      "dest": "name: corrcoef [73,81]"
+    },
+    {
+      "src": "name: data [46,50]",
+      "dest": "name: data [46,50]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [96,119]",
+      "parent": "suite [52,119]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [96,109]",
+      "parent": "simple_stmt [96,119]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [103,118]",
+      "parent": "return_stmt [96,118]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: matrix [103,109]",
+      "parent": "atom_expr [103,118]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [109,116]",
+      "parent": "atom_expr [103,118]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [116,118]",
+      "parent": "atom_expr [103,118]",
+      "at": 2
+    }
+  ]
+}

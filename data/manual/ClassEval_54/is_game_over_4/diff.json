@@ -1,0 +1,154 @@
+{
+  "matches": [
+    {
+      "src": "suite [21,199]",
+      "dest": "suite [21,646]"
+    },
+    {
+      "src": "suite [115,180]",
+      "dest": "suite [562,627]"
+    },
+    {
+      "src": "name: is_game_over [30,42]",
+      "dest": "name: is_game_over [30,42]"
+    },
+    {
+      "src": "classdef [0,199]",
+      "dest": "classdef [0,646]"
+    },
+    {
+      "src": "suite [55,199]",
+      "dest": "suite [49,646]"
+    },
+    {
+      "src": "operator: != [140,142]",
+      "dest": "operator: != [587,589]"
+    },
+    {
+      "src": "name: game_board [43,53]",
+      "dest": "name: self [43,47]"
+    },
+    {
+      "src": "if_stmt [132,180]",
+      "dest": "if_stmt [579,627]"
+    },
+    {
+      "src": "name: icon [135,139]",
+      "dest": "name: icon [582,586]"
+    },
+    {
+      "src": "simple_stmt [167,180]",
+      "dest": "simple_stmt [614,627]"
+    },
+    {
+      "src": "param [43,53]",
+      "dest": "param [43,47]"
+    },
+    {
+      "src": "for_stmt [99,180]",
+      "dest": "for_stmt [546,627]"
+    },
+    {
+      "src": "name: MahjongConnect [6,20]",
+      "dest": "name: MahjongConnect [6,20]"
+    },
+    {
+      "src": "name: row [111,114]",
+      "dest": "name: row [558,561]"
+    },
+    {
+      "src": "file_input [0,199]",
+      "dest": "file_input [0,646]"
+    },
+    {
+      "src": "suite [86,180]",
+      "dest": "suite [533,627]"
+    },
+    {
+      "src": "return_stmt [167,179]",
+      "dest": "return_stmt [614,626]"
+    },
+    {
+      "src": "return_stmt [188,199]",
+      "dest": "return_stmt [635,646]"
+    },
+    {
+      "src": "comparison [135,145]",
+      "dest": "comparison [582,592]"
+    },
+    {
+      "src": "suite [146,180]",
+      "dest": "suite [593,627]"
+    },
+    {
+      "src": "parameters [42,54]",
+      "dest": "parameters [42,48]"
+    },
+    {
+      "src": "string: \"\" [143,145]",
+      "dest": "string: \"\" [590,592]"
+    },
+    {
+      "src": "name: row [68,71]",
+      "dest": "name: row [515,518]"
+    },
+    {
+      "src": "name: icon [103,107]",
+      "dest": "name: icon [550,554]"
+    },
+    {
+      "src": "for_stmt [64,180]",
+      "dest": "for_stmt [511,627]"
+    },
+    {
+      "src": "name: game_board [75,85]",
+      "dest": "name: board [527,532]"
+    },
+    {
+      "src": "funcdef [26,199]",
+      "dest": "funcdef [26,646]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [58,503]",
+      "parent": "suite [49,646]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: game_board [43,53]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [522,532]",
+      "parent": "for_stmt [511,627]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [522,526]",
+      "parent": "atom_expr [522,532]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [526,532]",
+      "parent": "atom_expr [522,532]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: game_board [75,85]",
+      "label": "board"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: game_board [75,85]",
+      "parent": "trailer [526,532]",
+      "at": 0
+    }
+  ]
+}

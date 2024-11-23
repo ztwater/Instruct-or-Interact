@@ -1,0 +1,140 @@
+{
+  "matches": [
+    {
+      "src": "name: job_listings [72,84]",
+      "dest": "name: job_listings [571,583]"
+    },
+    {
+      "src": "suite [21,101]",
+      "dest": "suite [21,600]"
+    },
+    {
+      "src": "classdef [0,101]",
+      "dest": "classdef [0,600]"
+    },
+    {
+      "src": "atom_expr [72,101]",
+      "dest": "atom_expr [566,600]"
+    },
+    {
+      "src": "operator: , [51,52]",
+      "dest": "operator: , [54,55]"
+    },
+    {
+      "src": "suite [63,101]",
+      "dest": "suite [79,600]"
+    },
+    {
+      "src": "name: append [85,91]",
+      "dest": "name: append [584,590]"
+    },
+    {
+      "src": "trailer [91,101]",
+      "dest": "trailer [590,600]"
+    },
+    {
+      "src": "name: position [92,100]",
+      "dest": "name: position [591,599]"
+    },
+    {
+      "src": "name: position [53,61]",
+      "dest": "name: company [56,63]"
+    },
+    {
+      "src": "param [39,52]",
+      "dest": "param [45,55]"
+    },
+    {
+      "src": "name: job_listings [39,51]",
+      "dest": "name: job_title [45,54]"
+    },
+    {
+      "src": "param [53,61]",
+      "dest": "param [56,64]"
+    },
+    {
+      "src": "file_input [0,101]",
+      "dest": "file_input [0,600]"
+    },
+    {
+      "src": "parameters [38,62]",
+      "dest": "parameters [38,78]"
+    },
+    {
+      "src": "trailer [84,91]",
+      "dest": "trailer [583,590]"
+    },
+    {
+      "src": "funcdef [26,101]",
+      "dest": "funcdef [26,600]"
+    },
+    {
+      "src": "name: JobMarketplace [6,20]",
+      "dest": "name: JobMarketplace [6,20]"
+    },
+    {
+      "src": "name: post_job [30,38]",
+      "dest": "name: post_job [30,38]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [39,44]",
+      "parent": "parameters [38,78]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [65,77]",
+      "parent": "parameters [38,78]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [88,418]",
+      "parent": "suite [79,600]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [426,558]",
+      "parent": "suite [79,600]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: job_listings [39,51]",
+      "label": "job_title"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: position [53,61]",
+      "label": "company"
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [63,64]",
+      "parent": "param [56,64]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [566,570]",
+      "parent": "atom_expr [566,600]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [570,583]",
+      "parent": "atom_expr [566,600]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: job_listings [72,84]",
+      "parent": "trailer [570,583]",
+      "at": 0
+    }
+  ]
+}

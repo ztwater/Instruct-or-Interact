@@ -1,0 +1,58 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Generate the SELECT SQL statement from the given parameters.\n        :param table: str, the query table in database.\n        :param columns: list of str, ['col1', 'col2'].\n        :param where: dict, {key1: value1, key2: value2 ...}. The query condition.\n        return query: str, the SQL query statement.\n        >>> SQLQueryBuilder.select('table1', columns = [\"col1\",\"col2\"], where = {\"age\": 15})\n        \"SELECT col1, col2 FROM table1 WHERE age='15'\"\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "string",
+        "inserted": "'*'",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "condition = \" AND \".join([f\"{key}='{value}'\" for key, value in where.items()])\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "where",
+        "deleted": "conditions",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "where",
+        "deleted": "conditions",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "condition",
+        "deleted": "conditions",
+        "type": "Refactoring"
+    }
+]

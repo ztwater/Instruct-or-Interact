@@ -1,0 +1,505 @@
+{
+  "matches": [
+    {
+      "src": "suite [318,379]",
+      "dest": "suite [1148,1220]"
+    },
+    {
+      "src": "name: direction [114,123]",
+      "dest": "name: self [599,603]"
+    },
+    {
+      "src": "suite [413,515]",
+      "dest": "suite [1250,1323]"
+    },
+    {
+      "src": "classdef [0,593]",
+      "dest": "classdef [0,1424]"
+    },
+    {
+      "src": "funcdef [23,593]",
+      "dest": "funcdef [23,1424]"
+    },
+    {
+      "src": "suite [132,191]",
+      "dest": "suite [633,663]"
+    },
+    {
+      "src": "comparison [298,317]",
+      "dest": "comparison [1131,1147]"
+    },
+    {
+      "src": "operator: == [402,404]",
+      "dest": "operator: == [1243,1245]"
+    },
+    {
+      "src": "name: game_won [526,534]",
+      "dest": "name: self [1385,1389]"
+    },
+    {
+      "src": "comparison [392,412]",
+      "dest": "comparison [1233,1249]"
+    },
+    {
+      "src": "string: \"right\" [405,412]",
+      "dest": "string: \"a\" [1246,1249]"
+    },
+    {
+      "src": "parameters [31,42]",
+      "dest": "parameters [31,48]"
+    },
+    {
+      "src": "simple_stmt [510,515]",
+      "dest": "simple_stmt [1263,1323]"
+    },
+    {
+      "src": "name: direction [204,213]",
+      "dest": "name: direction [1028,1037]"
+    },
+    {
+      "src": "string: \"left\" [311,317]",
+      "dest": "string: \"s\" [1144,1147]"
+    },
+    {
+      "src": "trailer [534,536]",
+      "dest": "trailer [1389,1400]"
+    },
+    {
+      "src": "name: direction [32,41]",
+      "dest": "name: direction [38,47]"
+    },
+    {
+      "src": "operator: == [124,126]",
+      "dest": "operator: == [626,628]"
+    },
+    {
+      "src": "operator: == [308,310]",
+      "dest": "operator: == [1141,1143]"
+    },
+    {
+      "src": "file_input [0,593]",
+      "dest": "file_input [0,1424]"
+    },
+    {
+      "src": "suite [224,285]",
+      "dest": "suite [1045,1118]"
+    },
+    {
+      "src": "atom_expr [526,536]",
+      "dest": "atom_expr [1385,1400]"
+    },
+    {
+      "src": "name: move [27,31]",
+      "dest": "name: move [27,31]"
+    },
+    {
+      "src": "atom_expr [550,593]",
+      "dest": "atom_expr [1402,1417]"
+    },
+    {
+      "src": "name: print [550,555]",
+      "dest": "name: self [1402,1406]"
+    },
+    {
+      "src": "name: PushBoxGame [6,17]",
+      "dest": "name: PushBoxGame [6,17]"
+    },
+    {
+      "src": "comparison [114,131]",
+      "dest": "comparison [599,632]"
+    },
+    {
+      "src": "simple_stmt [374,379]",
+      "dest": "simple_stmt [1161,1220]"
+    },
+    {
+      "src": "name: direction [392,401]",
+      "dest": "name: direction [1233,1242]"
+    },
+    {
+      "src": "comparison [204,223]",
+      "dest": "comparison [1028,1044]"
+    },
+    {
+      "src": "name: direction [298,307]",
+      "dest": "name: direction [1131,1140]"
+    },
+    {
+      "src": "simple_stmt [280,285]",
+      "dest": "simple_stmt [1058,1118]"
+    },
+    {
+      "src": "operator: == [214,216]",
+      "dest": "operator: == [1038,1040]"
+    },
+    {
+      "src": "param [32,41]",
+      "dest": "param [38,47]"
+    },
+    {
+      "src": "suite [18,593]",
+      "dest": "suite [18,1424]"
+    },
+    {
+      "src": "suite [43,593]",
+      "dest": "suite [49,1424]"
+    },
+    {
+      "src": "string: \"down\" [217,223]",
+      "dest": "string: \"w\" [1041,1044]"
+    },
+    {
+      "src": "simple_stmt [186,191]",
+      "dest": "simple_stmt [650,663]"
+    },
+    {
+      "src": "string: \"up\" [127,131]",
+      "dest": "string: \"#\" [629,632]"
+    },
+    {
+      "src": "trailer [555,593]",
+      "dest": "trailer [1406,1417]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [32,37]",
+      "parent": "parameters [31,48]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [58,393]",
+      "parent": "suite [49,1424]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "funcdef [401,953]",
+      "parent": "suite [49,1424]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [1025,1424]",
+      "parent": "suite [49,1424]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: move_player [405,416]",
+      "parent": "funcdef [401,953]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "parameters [416,450]",
+      "parent": "funcdef [401,953]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [451,953]",
+      "parent": "funcdef [401,953]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "comparison [204,223]",
+      "parent": "if_stmt [1025,1424]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [224,285]",
+      "parent": "if_stmt [1025,1424]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "comparison [298,317]",
+      "parent": "if_stmt [1025,1424]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [318,379]",
+      "parent": "if_stmt [1025,1424]",
+      "at": 3
+    },
+    {
+      "action": "move-tree",
+      "tree": "comparison [392,412]",
+      "parent": "if_stmt [1025,1424]",
+      "at": 4
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [413,515]",
+      "parent": "if_stmt [1025,1424]",
+      "at": 5
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [1336,1352]",
+      "parent": "if_stmt [1025,1424]",
+      "at": 6
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [1353,1424]",
+      "parent": "if_stmt [1025,1424]",
+      "at": 7
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [464,491]",
+      "parent": "suite [451,953]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [503,530]",
+      "parent": "suite [451,953]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [596,663]",
+      "parent": "suite [451,953]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [730,755]",
+      "parent": "suite [451,953]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [767,800]",
+      "parent": "suite [451,953]",
+      "at": 4
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [860,886]",
+      "parent": "suite [451,953]",
+      "at": 5
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [898,924]",
+      "parent": "suite [451,953]",
+      "at": 6
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [941,953]",
+      "parent": "suite [451,953]",
+      "at": 7
+    },
+    {
+      "action": "update-node",
+      "tree": "string: \"down\" [217,223]",
+      "label": "\"w\""
+    },
+    {
+      "action": "update-node",
+      "tree": "string: \"left\" [311,317]",
+      "label": "\"s\""
+    },
+    {
+      "action": "update-node",
+      "tree": "string: \"right\" [405,412]",
+      "label": "\"a\""
+    },
+    {
+      "action": "insert-node",
+      "tree": "return_stmt [1366,1424]",
+      "parent": "suite [1353,1424]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "comparison [114,131]",
+      "parent": "if_stmt [596,663]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [132,191]",
+      "parent": "if_stmt [596,663]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "return_stmt [1058,1117]",
+      "parent": "simple_stmt [1058,1118]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "return_stmt [1161,1219]",
+      "parent": "simple_stmt [1161,1220]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "return_stmt [1263,1322]",
+      "parent": "simple_stmt [1263,1323]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [1373,1424]",
+      "parent": "return_stmt [1366,1424]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [599,625]",
+      "parent": "comparison [599,632]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "string: \"up\" [127,131]",
+      "label": "\"#\""
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: move_player [1373,1384]",
+      "parent": "atom_expr [1373,1424]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [1384,1424]",
+      "parent": "atom_expr [1373,1424]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: direction [114,123]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: direction [114,123]",
+      "parent": "atom_expr [599,625]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [603,607]",
+      "parent": "atom_expr [599,625]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [607,616]",
+      "parent": "atom_expr [599,625]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [616,625]",
+      "parent": "atom_expr [599,625]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "return_stmt [650,662]",
+      "parent": "simple_stmt [650,663]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "arglist [1385,1423]",
+      "parent": "trailer [1384,1424]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [526,536]",
+      "parent": "arglist [1385,1423]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [1400,1401]",
+      "parent": "arglist [1385,1423]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [550,593]",
+      "parent": "arglist [1385,1423]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [1417,1418]",
+      "parent": "arglist [1385,1423]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "number: 0 [1419,1420]",
+      "parent": "arglist [1385,1423]",
+      "at": 4
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [1420,1421]",
+      "parent": "arglist [1385,1423]",
+      "at": 5
+    },
+    {
+      "action": "insert-node",
+      "tree": "number: 1 [1422,1423]",
+      "parent": "arglist [1385,1423]",
+      "at": 6
+    },
+    {
+      "action": "update-node",
+      "tree": "name: game_won [526,534]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: print [550,555]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: player_row [1390,1400]",
+      "parent": "trailer [1389,1400]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: player_col [1407,1417]",
+      "parent": "trailer [1406,1417]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"Congratulations! You won the game!\" [556,592]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "if_stmt [111,515]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [537,593]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "if_stmt [523,593]"
+    }
+  ]
+}

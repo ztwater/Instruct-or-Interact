@@ -1,0 +1,189 @@
+{
+  "matches": [
+    {
+      "src": "name: args [62,66]",
+      "dest": "name: args [466,470]"
+    },
+    {
+      "src": "suite [20,199]",
+      "dest": "suite [20,563]"
+    },
+    {
+      "src": "atom_expr [130,199]",
+      "dest": "atom_expr [534,563]"
+    },
+    {
+      "src": "classdef [0,199]",
+      "dest": "classdef [0,563]"
+    },
+    {
+      "src": "suite [42,199]",
+      "dest": "suite [47,563]"
+    },
+    {
+      "src": "parameters [34,41]",
+      "dest": "parameters [34,46]"
+    },
+    {
+      "src": "or_test [83,106]",
+      "dest": "or_test [487,510]"
+    },
+    {
+      "src": "number: 0 [89,90]",
+      "dest": "number: 0 [493,494]"
+    },
+    {
+      "src": "comparison [83,90]",
+      "dest": "comparison [487,494]"
+    },
+    {
+      "src": "operator: < [87,88]",
+      "dest": "operator: < [491,492]"
+    },
+    {
+      "src": "name: arg [94,97]",
+      "dest": "name: arg [498,501]"
+    },
+    {
+      "src": "number: 0 [105,106]",
+      "dest": "number: 0 [509,510]"
+    },
+    {
+      "src": "file_input [0,199]",
+      "dest": "file_input [0,563]"
+    },
+    {
+      "src": "suite [67,199]",
+      "dest": "suite [471,563]"
+    },
+    {
+      "src": "name: arg [55,58]",
+      "dest": "name: arg [459,462]"
+    },
+    {
+      "src": "operator: % [98,99]",
+      "dest": "operator: % [502,503]"
+    },
+    {
+      "src": "name: arg [83,86]",
+      "dest": "name: arg [487,490]"
+    },
+    {
+      "src": "term [94,101]",
+      "dest": "term [498,505]"
+    },
+    {
+      "src": "operator: != [102,104]",
+      "dest": "operator: != [506,508]"
+    },
+    {
+      "src": "name: BitStatusUtil [6,19]",
+      "dest": "name: BitStatusUtil [6,19]"
+    },
+    {
+      "src": "number: 2 [100,101]",
+      "dest": "number: 2 [504,505]"
+    },
+    {
+      "src": "comparison [94,106]",
+      "dest": "comparison [498,510]"
+    },
+    {
+      "src": "trailer [140,199]",
+      "dest": "trailer [544,563]"
+    },
+    {
+      "src": "name: ValueError [130,140]",
+      "dest": "name: ValueError [534,544]"
+    },
+    {
+      "src": "if_stmt [80,199]",
+      "dest": "if_stmt [484,563]"
+    },
+    {
+      "src": "suite [107,199]",
+      "dest": "suite [511,563]"
+    },
+    {
+      "src": "name: args [36,40]",
+      "dest": "name: args [41,45]"
+    },
+    {
+      "src": "name: check [29,34]",
+      "dest": "name: check [29,34]"
+    },
+    {
+      "src": "for_stmt [51,199]",
+      "dest": "for_stmt [455,563]"
+    },
+    {
+      "src": "funcdef [25,199]",
+      "dest": "funcdef [25,563]"
+    },
+    {
+      "src": "operator: * [35,36]",
+      "dest": "operator: , [39,40]"
+    },
+    {
+      "src": "raise_stmt [124,199]",
+      "dest": "raise_stmt [528,563]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "param [35,40]",
+      "parent": "parameters [34,46]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "param [41,45]",
+      "parent": "parameters [34,46]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [56,447]",
+      "parent": "suite [47,563]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [35,39]",
+      "parent": "param [35,40]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: * [35,36]",
+      "label": ","
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: * [35,36]",
+      "parent": "param [35,40]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: args [36,40]",
+      "parent": "param [41,45]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "fstring [545,562]",
+      "parent": "trailer [544,563]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "param [35,40]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"Parameters must be greater than or equal to 0 and even.\" [141,198]"
+    }
+  ]
+}

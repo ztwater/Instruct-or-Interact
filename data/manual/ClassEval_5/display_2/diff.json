@@ -1,0 +1,128 @@
+{
+  "matches": [
+    {
+      "src": "param [48,54]",
+      "dest": "param [48,53]"
+    },
+    {
+      "src": "suite [31,145]",
+      "dest": "suite [31,149]"
+    },
+    {
+      "src": "param [55,59]",
+      "dest": "param [59,64]"
+    },
+    {
+      "src": "operator: % [129,130]",
+      "dest": "operator: % [134,135]"
+    },
+    {
+      "src": "name: chord [48,53]",
+      "dest": "name: self [48,52]"
+    },
+    {
+      "src": "operator: , [137,138]",
+      "dest": "operator: , [140,141]"
+    },
+    {
+      "src": "classdef [0,145]",
+      "dest": "classdef [0,149]"
+    },
+    {
+      "src": "operator: , [53,54]",
+      "dest": "operator: , [52,53]"
+    },
+    {
+      "src": "suite [61,145]",
+      "dest": "suite [66,149]"
+    },
+    {
+      "src": "string: \"Normal Guitar Playing -- Chord: %s, Play Tune: %s.\" [76,128]",
+      "dest": "string: \"Normal Guitar Playing -- Chord: %s, Play Tune: %s.\" [81,133]"
+    },
+    {
+      "src": "name: chord [132,137]",
+      "dest": "name: key [137,140]"
+    },
+    {
+      "src": "name: tune [55,59]",
+      "dest": "name: value [59,64]"
+    },
+    {
+      "src": "testlist_comp [132,143]",
+      "dest": "testlist_comp [137,147]"
+    },
+    {
+      "src": "term [76,144]",
+      "dest": "term [81,148]"
+    },
+    {
+      "src": "parameters [47,60]",
+      "dest": "parameters [47,65]"
+    },
+    {
+      "src": "file_input [0,145]",
+      "dest": "file_input [0,149]"
+    },
+    {
+      "src": "atom_expr [70,145]",
+      "dest": "atom_expr [75,149]"
+    },
+    {
+      "src": "name: AutomaticGuitarSimulator [6,30]",
+      "dest": "name: AutomaticGuitarSimulator [6,30]"
+    },
+    {
+      "src": "funcdef [36,145]",
+      "dest": "funcdef [36,149]"
+    },
+    {
+      "src": "atom [131,144]",
+      "dest": "atom [136,148]"
+    },
+    {
+      "src": "name: print [70,75]",
+      "dest": "name: print [75,80]"
+    },
+    {
+      "src": "trailer [75,145]",
+      "dest": "trailer [80,149]"
+    },
+    {
+      "src": "name: display [40,47]",
+      "dest": "name: display [40,47]"
+    },
+    {
+      "src": "name: tune [139,143]",
+      "dest": "name: value [142,147]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [54,58]",
+      "parent": "parameters [47,65]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: chord [48,53]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: tune [55,59]",
+      "label": "value"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: chord [132,137]",
+      "label": "key"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: tune [139,143]",
+      "label": "value"
+    }
+  ]
+}

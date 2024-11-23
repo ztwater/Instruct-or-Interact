@@ -1,0 +1,364 @@
+{
+  "matches": [
+    {
+      "src": "suite [21,308]",
+      "dest": "suite [21,936]"
+    },
+    {
+      "src": "parameters [43,68]",
+      "dest": "parameters [43,60]"
+    },
+    {
+      "src": "number: 1 [113,114]",
+      "dest": "number: 1 [618,619]"
+    },
+    {
+      "src": "comparison [81,90]",
+      "dest": "comparison [560,580]"
+    },
+    {
+      "src": "classdef [0,308]",
+      "dest": "classdef [0,936]"
+    },
+    {
+      "src": "operator: , [58,59]",
+      "dest": "operator: , [48,49]"
+    },
+    {
+      "src": "name: print [164,169]",
+      "dest": "name: print [682,687]"
+    },
+    {
+      "src": "suite [69,308]",
+      "dest": "suite [61,936]"
+    },
+    {
+      "src": "trailer [225,276]",
+      "dest": "trailer [787,838]"
+    },
+    {
+      "src": "simple_stmt [220,277]",
+      "dest": "simple_stmt [782,839]"
+    },
+    {
+      "src": "expr_stmt [127,151]",
+      "dest": "expr_stmt [636,665]"
+    },
+    {
+      "src": "name: print [220,225]",
+      "dest": "name: print [782,787]"
+    },
+    {
+      "src": "simple_stmt [104,115]",
+      "dest": "simple_stmt [598,620]"
+    },
+    {
+      "src": "name: stock [53,58]",
+      "dest": "name: self [44,48]"
+    },
+    {
+      "src": "simple_stmt [127,152]",
+      "dest": "simple_stmt [636,666]"
+    },
+    {
+      "src": "operator: > [87,88]",
+      "dest": "operator: > [577,578]"
+    },
+    {
+      "src": "atom_expr [164,193]",
+      "dest": "atom_expr [682,711]"
+    },
+    {
+      "src": "number: 0 [89,90]",
+      "dest": "number: 0 [579,580]"
+    },
+    {
+      "src": "operator: -= [110,112]",
+      "dest": "operator: -= [615,617]"
+    },
+    {
+      "src": "param [60,67]",
+      "dest": "param [50,59]"
+    },
+    {
+      "src": "file_input [0,308]",
+      "dest": "file_input [0,936]"
+    },
+    {
+      "src": "name: purchase_item [30,43]",
+      "dest": "name: purchase_item [30,43]"
+    },
+    {
+      "src": "trailer [169,193]",
+      "dest": "trailer [687,711]"
+    },
+    {
+      "src": "suite [91,194]",
+      "dest": "suite [581,748]"
+    },
+    {
+      "src": "string: \"Purchase successful!\" [170,192]",
+      "dest": "string: \"Purchase successful!\" [688,710]"
+    },
+    {
+      "src": "name: balance [127,134]",
+      "dest": "name: balance [641,648]"
+    },
+    {
+      "src": "name: VendingMachine [6,20]",
+      "dest": "name: VendingMachine [6,20]"
+    },
+    {
+      "src": "name: balance [301,308]",
+      "dest": "name: print [865,870]"
+    },
+    {
+      "src": "atom_expr [220,276]",
+      "dest": "atom_expr [782,838]"
+    },
+    {
+      "src": "simple_stmt [164,194]",
+      "dest": "simple_stmt [682,712]"
+    },
+    {
+      "src": "name: balance [60,67]",
+      "dest": "name: item_name [50,59]"
+    },
+    {
+      "src": "string: \"Purchase unsuccessful. Product is out of stock.\" [226,275]",
+      "dest": "string: \"Purchase unsuccessful. Product is out of stock.\" [788,837]"
+    },
+    {
+      "src": "name: stock [81,86]",
+      "dest": "name: item [560,564]"
+    },
+    {
+      "src": "atom_expr [138,151]",
+      "dest": "atom_expr [652,665]"
+    },
+    {
+      "src": "name: stock [104,109]",
+      "dest": "name: item [598,602]"
+    },
+    {
+      "src": "suite [207,277]",
+      "dest": "suite [765,839]"
+    },
+    {
+      "src": "param [53,59]",
+      "dest": "param [44,49]"
+    },
+    {
+      "src": "operator: -= [135,137]",
+      "dest": "operator: -= [649,651]"
+    },
+    {
+      "src": "if_stmt [78,277]",
+      "dest": "if_stmt [557,839]"
+    },
+    {
+      "src": "funcdef [26,308]",
+      "dest": "funcdef [26,936]"
+    },
+    {
+      "src": "expr_stmt [104,114]",
+      "dest": "expr_stmt [598,619]"
+    },
+    {
+      "src": "name: product [138,145]",
+      "dest": "name: item [652,656]"
+    },
+    {
+      "src": "trailer [145,151]",
+      "dest": "trailer [656,665]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [70,460]",
+      "parent": "suite [61,936]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [468,916]",
+      "parent": "suite [61,936]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "return_stmt [924,936]",
+      "parent": "suite [61,936]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: stock [53,58]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: balance [60,67]",
+      "label": "item_name"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [471,498]",
+      "parent": "if_stmt [468,916]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [499,839]",
+      "parent": "if_stmt [468,916]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [852,916]",
+      "parent": "if_stmt [468,916]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [512,545]",
+      "parent": "suite [499,839]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "if_stmt [78,277]",
+      "parent": "suite [499,839]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [865,916]",
+      "parent": "suite [852,916]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [865,915]",
+      "parent": "simple_stmt [865,916]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [560,576]",
+      "parent": "comparison [560,580]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [728,748]",
+      "parent": "suite [581,748]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: balance [301,308]",
+      "label": "print"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: balance [301,308]",
+      "parent": "atom_expr [865,915]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [870,915]",
+      "parent": "atom_expr [865,915]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: stock [81,86]",
+      "label": "item"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: stock [81,86]",
+      "parent": "atom_expr [560,576]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [564,576]",
+      "parent": "atom_expr [560,576]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [598,614]",
+      "parent": "expr_stmt [598,619]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [636,648]",
+      "parent": "expr_stmt [636,665]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: stock [104,109]",
+      "label": "item"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: stock [104,109]",
+      "parent": "atom_expr [598,614]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [602,614]",
+      "parent": "atom_expr [598,614]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [636,640]",
+      "parent": "atom_expr [636,648]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [640,648]",
+      "parent": "atom_expr [636,648]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: product [138,145]",
+      "label": "item"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: balance [127,134]",
+      "parent": "trailer [640,648]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: 'price' [657,664]",
+      "parent": "trailer [656,665]",
+      "at": 0
+    },
+    {
+      "action": "delete-tree",
+      "tree": "param [44,52]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: price [146,151]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "return_stmt [294,308]"
+    }
+  ]
+}

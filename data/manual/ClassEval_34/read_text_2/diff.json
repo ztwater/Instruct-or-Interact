@@ -1,0 +1,226 @@
+{
+  "matches": [
+    {
+      "src": "suite [21,211]",
+      "dest": "suite [21,359]"
+    },
+    {
+      "src": "parameters [39,50]",
+      "dest": "parameters [39,45]"
+    },
+    {
+      "src": "name: paragraphs [138,148]",
+      "dest": "name: paragraphs [286,296]"
+    },
+    {
+      "src": "classdef [0,211]",
+      "dest": "classdef [0,359]"
+    },
+    {
+      "src": "string: \"\\n\" [187,191]",
+      "dest": "string: \"\\n\" [335,339]"
+    },
+    {
+      "src": "suite [51,211]",
+      "dest": "suite [46,359]"
+    },
+    {
+      "src": "name: paragraph [121,130]",
+      "dest": "name: paragraph [269,278]"
+    },
+    {
+      "src": "name: text [162,166]",
+      "dest": "name: text [310,314]"
+    },
+    {
+      "src": "operator: = [104,105]",
+      "dest": "operator: = [252,253]"
+    },
+    {
+      "src": "suite [149,192]",
+      "dest": "suite [297,340]"
+    },
+    {
+      "src": "string: \"\" [106,108]",
+      "dest": "string: \"\" [254,256]"
+    },
+    {
+      "src": "expr_stmt [162,191]",
+      "dest": "expr_stmt [310,339]"
+    },
+    {
+      "src": "atom_expr [170,184]",
+      "dest": "atom_expr [318,332]"
+    },
+    {
+      "src": "simple_stmt [99,109]",
+      "dest": "simple_stmt [247,257]"
+    },
+    {
+      "src": "name: text [207,211]",
+      "dest": "name: text [355,359]"
+    },
+    {
+      "src": "atom_expr [134,148]",
+      "dest": "atom_expr [282,296]"
+    },
+    {
+      "src": "operator: + [185,186]",
+      "dest": "operator: + [333,334]"
+    },
+    {
+      "src": "trailer [137,148]",
+      "dest": "trailer [285,296]"
+    },
+    {
+      "src": "param [40,49]",
+      "dest": "param [40,44]"
+    },
+    {
+      "src": "name: Document [71,79]",
+      "dest": "name: Document [214,222]"
+    },
+    {
+      "src": "file_input [0,211]",
+      "dest": "file_input [0,359]"
+    },
+    {
+      "src": "simple_stmt [60,91]",
+      "dest": "simple_stmt [208,239]"
+    },
+    {
+      "src": "name: doc [60,63]",
+      "dest": "name: doc [208,211]"
+    },
+    {
+      "src": "expr_stmt [60,90]",
+      "dest": "expr_stmt [208,238]"
+    },
+    {
+      "src": "name: paragraph [170,179]",
+      "dest": "name: paragraph [318,327]"
+    },
+    {
+      "src": "name: docx [66,70]",
+      "dest": "name: self [223,227]"
+    },
+    {
+      "src": "expr_stmt [99,108]",
+      "dest": "expr_stmt [247,256]"
+    },
+    {
+      "src": "simple_stmt [162,192]",
+      "dest": "simple_stmt [310,340]"
+    },
+    {
+      "src": "operator: = [64,65]",
+      "dest": "operator: = [212,213]"
+    },
+    {
+      "src": "arith_expr [170,191]",
+      "dest": "arith_expr [318,339]"
+    },
+    {
+      "src": "name: text [180,184]",
+      "dest": "name: text [328,332]"
+    },
+    {
+      "src": "name: read_text [30,39]",
+      "dest": "name: read_text [30,39]"
+    },
+    {
+      "src": "trailer [179,184]",
+      "dest": "trailer [327,332]"
+    },
+    {
+      "src": "operator: += [167,169]",
+      "dest": "operator: += [315,317]"
+    },
+    {
+      "src": "name: file_path [80,89]",
+      "dest": "name: file_path [228,237]"
+    },
+    {
+      "src": "name: text [99,103]",
+      "dest": "name: text [247,251]"
+    },
+    {
+      "src": "atom_expr [66,90]",
+      "dest": "atom_expr [223,237]"
+    },
+    {
+      "src": "trailer [79,90]",
+      "dest": "trailer [227,237]"
+    },
+    {
+      "src": "for_stmt [117,192]",
+      "dest": "for_stmt [265,340]"
+    },
+    {
+      "src": "name: doc [134,137]",
+      "dest": "name: doc [282,285]"
+    },
+    {
+      "src": "name: DocFileHandler [6,20]",
+      "dest": "name: DocFileHandler [6,20]"
+    },
+    {
+      "src": "funcdef [26,211]",
+      "dest": "funcdef [26,359]"
+    },
+    {
+      "src": "name: file_path [40,49]",
+      "dest": "name: self [40,44]"
+    },
+    {
+      "src": "return_stmt [200,211]",
+      "dest": "return_stmt [348,359]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [55,200]",
+      "parent": "suite [46,359]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: file_path [40,49]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [214,238]",
+      "parent": "expr_stmt [208,238]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: Document [71,79]",
+      "parent": "atom_expr [214,238]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [222,238]",
+      "parent": "atom_expr [214,238]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [66,90]",
+      "parent": "trailer [222,238]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: docx [66,70]",
+      "label": "self"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [70,79]"
+    }
+  ]
+}

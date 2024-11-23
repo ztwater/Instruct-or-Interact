@@ -1,0 +1,51 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Compute cosine similarity between two sets of vectors.\n        :param vector_list_1: list of numpy vector\n        :param vector_list_2: list of numpy vector\n        :return: numpy.ndarray, Similarities between vector_list_1 and vector_list_2.\n        >>> vector_list1 = [np.array([1, 2, 3]), np.array([4, 5, 6])]\n        >>> vector_list2 = [np.array([7, 8, 9]), np.array([10, 11, 12])]\n        >>> VectorUtil.n_similarity(vector_list1, vector_list2)\n        0.9897287473881233\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "MOV",
+        "label": "trailer",
+        "inserted": ".array",
+        "deleted": ".array",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "trailer",
+        "inserted": ".array",
+        "deleted": ".array",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "vector_list_1",
+        "deleted": "vectors1",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "vector_list_2",
+        "deleted": "vectors2",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "vector_list_1",
+        "deleted": "vectors1",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "vector_list_2",
+        "deleted": "vectors2",
+        "type": "Refactoring"
+    }
+]

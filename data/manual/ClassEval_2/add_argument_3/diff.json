@@ -1,0 +1,240 @@
+{
+  "matches": [
+    {
+      "src": "trailer [90,96]",
+      "dest": "trailer [679,685]"
+    },
+    {
+      "src": "suite [21,160]",
+      "dest": "suite [21,701]"
+    },
+    {
+      "src": "name: ArgumentParser [6,20]",
+      "dest": "name: ArgumentParser [6,20]"
+    },
+    {
+      "src": "classdef [0,160]",
+      "dest": "classdef [0,701]"
+    },
+    {
+      "src": "param [49,63]",
+      "dest": "param [49,53]"
+    },
+    {
+      "src": "operator: , [47,48]",
+      "dest": "operator: , [47,48]"
+    },
+    {
+      "src": "suite [77,160]",
+      "dest": "suite [84,701]"
+    },
+    {
+      "src": "name: add_argument [30,42]",
+      "dest": "name: add_argument [30,42]"
+    },
+    {
+      "src": "trailer [96,103]",
+      "dest": "trailer [612,616]"
+    },
+    {
+      "src": "name: self [86,90]",
+      "dest": "name: self [599,603]"
+    },
+    {
+      "src": "name: append [141,147]",
+      "dest": "name: arg [686,689]"
+    },
+    {
+      "src": "name: self [127,131]",
+      "dest": "name: self [675,679]"
+    },
+    {
+      "src": "name: is_required [64,75]",
+      "dest": "name: required [54,62]"
+    },
+    {
+      "src": "atom_expr [86,118]",
+      "dest": "atom_expr [599,621]"
+    },
+    {
+      "src": "trailer [140,147]",
+      "dest": "trailer [685,690]"
+    },
+    {
+      "src": "param [43,48]",
+      "dest": "param [43,48]"
+    },
+    {
+      "src": "name: self [43,47]",
+      "dest": "name: self [43,47]"
+    },
+    {
+      "src": "name: is_required [148,159]",
+      "dest": "name: arg_type [693,701]"
+    },
+    {
+      "src": "file_input [0,160]",
+      "dest": "file_input [0,752]"
+    },
+    {
+      "src": "name: append [97,103]",
+      "dest": "name: add [613,616]"
+    },
+    {
+      "src": "name: types [91,96]",
+      "dest": "name: types [680,685]"
+    },
+    {
+      "src": "name: required [132,140]",
+      "dest": "name: required [604,612]"
+    },
+    {
+      "src": "name: argument_type [49,62]",
+      "dest": "name: arg [49,52]"
+    },
+    {
+      "src": "operator: , [62,63]",
+      "dest": "operator: , [52,53]"
+    },
+    {
+      "src": "param [64,75]",
+      "dest": "param [54,69]"
+    },
+    {
+      "src": "simple_stmt [86,119]",
+      "dest": "simple_stmt [599,667]"
+    },
+    {
+      "src": "funcdef [26,160]",
+      "dest": "funcdef [26,701]"
+    },
+    {
+      "src": "parameters [42,76]",
+      "dest": "parameters [42,83]"
+    },
+    {
+      "src": "name: argument_type [104,117]",
+      "dest": "name: arg [617,620]"
+    },
+    {
+      "src": "trailer [131,140]",
+      "dest": "trailer [603,612]"
+    },
+    {
+      "src": "trailer [103,118]",
+      "dest": "trailer [616,621]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [70,82]",
+      "parent": "parameters [42,83]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [93,591]",
+      "parent": "suite [84,701]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [675,701]",
+      "parent": "suite [84,701]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: argument_type [49,62]",
+      "label": "arg"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: is_required [64,75]",
+      "label": "required"
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [62,63]",
+      "parent": "param [54,69]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [68,69]",
+      "parent": "param [54,69]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [675,690]",
+      "parent": "expr_stmt [675,701]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [691,692]",
+      "parent": "expr_stmt [675,701]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: is_required [148,159]",
+      "label": "arg_type"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: is_required [148,159]",
+      "parent": "expr_stmt [675,701]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [131,140]",
+      "parent": "atom_expr [599,621]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: self [127,131]",
+      "parent": "atom_expr [675,690]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [90,96]",
+      "parent": "atom_expr [675,690]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [140,147]",
+      "parent": "atom_expr [675,690]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: append [97,103]",
+      "label": "add"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: argument_type [104,117]",
+      "label": "arg"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: append [141,147]",
+      "label": "arg"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [147,160]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [127,160]"
+    }
+  ]
+}

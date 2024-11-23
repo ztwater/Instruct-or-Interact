@@ -1,0 +1,339 @@
+{
+  "matches": [
+    {
+      "src": "suite [132,191]",
+      "dest": "suite [137,218]"
+    },
+    {
+      "src": "simple_stmt [374,379]",
+      "dest": "simple_stmt [372,398]"
+    },
+    {
+      "src": "parameters [31,42]",
+      "dest": "parameters [31,48]"
+    },
+    {
+      "src": "name: direction [204,213]",
+      "dest": "name: direction [231,240]"
+    },
+    {
+      "src": "name: PushBoxGame [6,17]",
+      "dest": "name: PushBoxGame [6,17]"
+    },
+    {
+      "src": "suite [224,285]",
+      "dest": "suite [248,329]"
+    },
+    {
+      "src": "name: print [550,555]",
+      "dest": "name: print [1958,1963]"
+    },
+    {
+      "src": "trailer [534,536]",
+      "dest": "trailer [1942,1944]"
+    },
+    {
+      "src": "suite [43,593]",
+      "dest": "suite [49,2051]"
+    },
+    {
+      "src": "name: game_won [526,534]",
+      "dest": "name: check_win [1933,1942]"
+    },
+    {
+      "src": "string: \"right\" [405,412]",
+      "dest": "string: \"d\" [466,469]"
+    },
+    {
+      "src": "string: \"Congratulations! You won the game!\" [556,592]",
+      "dest": "string: \"Congratulations! You won the game!\" [1964,2000]"
+    },
+    {
+      "src": "param [32,41]",
+      "dest": "param [38,47]"
+    },
+    {
+      "src": "name: direction [32,41]",
+      "dest": "name: direction [38,47]"
+    },
+    {
+      "src": "file_input [0,593]",
+      "dest": "file_input [0,2051]"
+    },
+    {
+      "src": "string: \"down\" [217,223]",
+      "dest": "string: \"s\" [244,247]"
+    },
+    {
+      "src": "operator: == [402,404]",
+      "dest": "operator: == [463,465]"
+    },
+    {
+      "src": "suite [413,515]",
+      "dest": "suite [470,551]"
+    },
+    {
+      "src": "suite [537,593]",
+      "dest": "suite [1945,2026]"
+    },
+    {
+      "src": "name: direction [114,123]",
+      "dest": "name: direction [120,129]"
+    },
+    {
+      "src": "comparison [392,412]",
+      "dest": "comparison [453,469]"
+    },
+    {
+      "src": "string: \"up\" [127,131]",
+      "dest": "string: \"w\" [133,136]"
+    },
+    {
+      "src": "comparison [298,317]",
+      "dest": "comparison [342,358]"
+    },
+    {
+      "src": "string: \"left\" [311,317]",
+      "dest": "string: \"a\" [355,358]"
+    },
+    {
+      "src": "name: move [27,31]",
+      "dest": "name: move [27,31]"
+    },
+    {
+      "src": "operator: == [214,216]",
+      "dest": "operator: == [241,243]"
+    },
+    {
+      "src": "trailer [555,593]",
+      "dest": "trailer [1963,2001]"
+    },
+    {
+      "src": "comparison [204,223]",
+      "dest": "comparison [231,247]"
+    },
+    {
+      "src": "suite [318,379]",
+      "dest": "suite [359,440]"
+    },
+    {
+      "src": "atom_expr [526,536]",
+      "dest": "atom_expr [1928,1944]"
+    },
+    {
+      "src": "if_stmt [111,515]",
+      "dest": "if_stmt [117,551]"
+    },
+    {
+      "src": "name: direction [392,401]",
+      "dest": "name: direction [453,462]"
+    },
+    {
+      "src": "if_stmt [523,593]",
+      "dest": "if_stmt [1925,2026]"
+    },
+    {
+      "src": "classdef [0,593]",
+      "dest": "classdef [0,2051]"
+    },
+    {
+      "src": "operator: == [124,126]",
+      "dest": "operator: == [130,132]"
+    },
+    {
+      "src": "comparison [114,131]",
+      "dest": "comparison [120,136]"
+    },
+    {
+      "src": "simple_stmt [186,191]",
+      "dest": "simple_stmt [150,180]"
+    },
+    {
+      "src": "funcdef [23,593]",
+      "dest": "funcdef [23,2051]"
+    },
+    {
+      "src": "name: direction [298,307]",
+      "dest": "name: direction [342,351]"
+    },
+    {
+      "src": "atom_expr [550,593]",
+      "dest": "atom_expr [1958,2001]"
+    },
+    {
+      "src": "suite [18,593]",
+      "dest": "suite [18,2051]"
+    },
+    {
+      "src": "operator: == [308,310]",
+      "dest": "operator: == [352,354]"
+    },
+    {
+      "src": "simple_stmt [280,285]",
+      "dest": "simple_stmt [261,291]"
+    },
+    {
+      "src": "simple_stmt [510,515]",
+      "dest": "simple_stmt [483,509]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [32,37]",
+      "parent": "parameters [31,48]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "if_stmt [609,672]",
+      "parent": "suite [49,2051]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "if_stmt [739,1530]",
+      "parent": "suite [49,2051]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [1589,1715]",
+      "parent": "suite [49,2051]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [1723,1809]",
+      "parent": "suite [49,2051]",
+      "at": 4
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [1817,1843]",
+      "parent": "suite [49,2051]",
+      "at": 5
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [1851,1877]",
+      "parent": "suite [49,2051]",
+      "at": 6
+    },
+    {
+      "action": "insert-node",
+      "tree": "return_stmt [2039,2051]",
+      "parent": "suite [49,2051]",
+      "at": 8
+    },
+    {
+      "action": "update-node",
+      "tree": "string: \"up\" [127,131]",
+      "label": "\"w\""
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [192,218]",
+      "parent": "suite [137,218]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "string: \"down\" [217,223]",
+      "label": "\"s\""
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [303,329]",
+      "parent": "suite [248,329]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "string: \"left\" [311,317]",
+      "label": "\"a\""
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [410,440]",
+      "parent": "suite [359,440]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "string: \"right\" [405,412]",
+      "label": "\"d\""
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [521,551]",
+      "parent": "suite [470,551]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [1928,1932]",
+      "parent": "atom_expr [1928,1944]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [1932,1942]",
+      "parent": "atom_expr [1928,1944]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [1958,2002]",
+      "parent": "suite [1945,2026]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [2014,2026]",
+      "parent": "suite [1945,2026]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "expr_stmt [150,179]",
+      "parent": "simple_stmt [150,180]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "expr_stmt [261,290]",
+      "parent": "simple_stmt [261,291]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "expr_stmt [372,397]",
+      "parent": "simple_stmt [372,398]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "expr_stmt [483,508]",
+      "parent": "simple_stmt [483,509]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: game_won [526,534]",
+      "label": "check_win"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: game_won [526,534]",
+      "parent": "trailer [1932,1942]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [550,593]",
+      "parent": "simple_stmt [1958,2002]",
+      "at": 0
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Calculate the average value of a group of data, accurate to two digits after the Decimal separator\n        :param data:list, data list\n        :return:float, the mean value\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    }
+]

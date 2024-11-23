@@ -1,0 +1,51 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Update the exchange rate for a certain currency\n        :param currency:string\n        :param new_rate:float\n        :return:If successful, returns None; if unsuccessful, returns False\n        >>> cc = CurrencyConverter()\n        >>> cc.update_currency_rate('CNY', 7.18)\n        self.rates['CNY'] = 7.18\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".rates",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "fstring",
+        "inserted": "",
+        "deleted": "f\"The exchange rate for {currency} has been updated to {new_rate}\"",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "exchange_rates",
+        "deleted": "exchange_rates",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "rates",
+        "deleted": "exchange_rates",
+        "type": "Refactoring"
+    }
+]

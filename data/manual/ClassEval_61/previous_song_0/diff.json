@@ -1,0 +1,302 @@
+{
+  "matches": [
+    {
+      "src": "name: previous_song_index [118,137]",
+      "dest": "name: previous_song_index [412,431]"
+    },
+    {
+      "src": "suite [18,225]",
+      "dest": "suite [18,570]"
+    },
+    {
+      "src": "number: 1 [162,163]",
+      "dest": "number: 1 [456,457]"
+    },
+    {
+      "src": "atom_expr [196,225]",
+      "dest": "atom_expr [512,546]"
+    },
+    {
+      "src": "name: playlist [171,179]",
+      "dest": "name: playlist [366,374]"
+    },
+    {
+      "src": "classdef [0,225]",
+      "dest": "classdef [0,570]"
+    },
+    {
+      "src": "operator: = [79,80]",
+      "dest": "operator: = [359,360]"
+    },
+    {
+      "src": "arith_expr [141,163]",
+      "dest": "arith_expr [435,457]"
+    },
+    {
+      "src": "suite [51,225]",
+      "dest": "suite [327,570]"
+    },
+    {
+      "src": "term [140,180]",
+      "dest": "term [434,479]"
+    },
+    {
+      "src": "atom [140,164]",
+      "dest": "atom [434,458]"
+    },
+    {
+      "src": "operator: % [165,166]",
+      "dest": "operator: % [459,460]"
+    },
+    {
+      "src": "file_input [0,225]",
+      "dest": "file_input [0,570]"
+    },
+    {
+      "src": "name: len [167,170]",
+      "dest": "name: len [461,464]"
+    },
+    {
+      "src": "name: current_song_index [141,159]",
+      "dest": "name: current_song_index [435,453]"
+    },
+    {
+      "src": "trailer [95,109]",
+      "dest": "trailer [496,509]"
+    },
+    {
+      "src": "simple_stmt [118,181]",
+      "dest": "simple_stmt [412,480]"
+    },
+    {
+      "src": "trailer [170,180]",
+      "dest": "trailer [365,374]"
+    },
+    {
+      "src": "operator: - [160,161]",
+      "dest": "operator: - [454,455]"
+    },
+    {
+      "src": "trailer [89,95]",
+      "dest": "trailer [374,380]"
+    },
+    {
+      "src": "name: previous_song [27,40]",
+      "dest": "name: previous_song [27,40]"
+    },
+    {
+      "src": "name: index [90,95]",
+      "dest": "name: index [375,380]"
+    },
+    {
+      "src": "name: current_song [96,108]",
+      "dest": "name: current_song [497,509]"
+    },
+    {
+      "src": "name: current_song_index [60,78]",
+      "dest": "name: current_song_index [340,358]"
+    },
+    {
+      "src": "trailer [204,225]",
+      "dest": "trailer [525,546]"
+    },
+    {
+      "src": "name: MusicPlayer [6,17]",
+      "dest": "name: MusicPlayer [6,17]"
+    },
+    {
+      "src": "param [41,49]",
+      "dest": "param [41,45]"
+    },
+    {
+      "src": "parameters [40,50]",
+      "dest": "parameters [40,46]"
+    },
+    {
+      "src": "atom_expr [167,180]",
+      "dest": "atom_expr [461,479]"
+    },
+    {
+      "src": "name: playlist [81,89]",
+      "dest": "name: self [492,496]"
+    },
+    {
+      "src": "simple_stmt [60,110]",
+      "dest": "simple_stmt [340,400]"
+    },
+    {
+      "src": "name: previous_song_index [205,224]",
+      "dest": "name: previous_song_index [526,545]"
+    },
+    {
+      "src": "atom_expr [81,109]",
+      "dest": "atom_expr [492,509]"
+    },
+    {
+      "src": "funcdef [23,225]",
+      "dest": "funcdef [23,570]"
+    },
+    {
+      "src": "expr_stmt [118,180]",
+      "dest": "expr_stmt [412,479]"
+    },
+    {
+      "src": "name: playlist [196,204]",
+      "dest": "name: playlist [517,525]"
+    },
+    {
+      "src": "operator: = [138,139]",
+      "dest": "operator: = [432,433]"
+    },
+    {
+      "src": "expr_stmt [60,109]",
+      "dest": "expr_stmt [340,399]"
+    },
+    {
+      "src": "name: playlist [41,49]",
+      "dest": "name: self [41,45]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "suite [47,570]",
+      "parent": "funcdef [23,570]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [56,224]",
+      "parent": "suite [47,570]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [232,570]",
+      "parent": "suite [47,570]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: playlist [41,49]",
+      "label": "self"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "or_test [235,287]",
+      "parent": "if_stmt [232,570]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [288,314]",
+      "parent": "if_stmt [232,570]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [51,225]",
+      "parent": "if_stmt [232,570]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [492,547]",
+      "parent": "suite [327,570]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "return_stmt [559,570]",
+      "parent": "suite [327,570]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [492,546]",
+      "parent": "simple_stmt [492,547]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [361,399]",
+      "parent": "expr_stmt [340,399]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [81,109]",
+      "parent": "expr_stmt [492,546]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [510,511]",
+      "parent": "expr_stmt [492,546]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [196,225]",
+      "parent": "expr_stmt [492,546]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [361,365]",
+      "parent": "atom_expr [361,399]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [170,180]",
+      "parent": "atom_expr [361,399]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [89,95]",
+      "parent": "atom_expr [361,399]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [380,399]",
+      "parent": "atom_expr [361,399]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: playlist [81,89]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [512,516]",
+      "parent": "atom_expr [512,546]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [516,525]",
+      "parent": "atom_expr [512,546]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [464,479]",
+      "parent": "atom_expr [461,479]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: playlist [196,204]",
+      "parent": "trailer [516,525]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "return_stmt [189,225]"
+    }
+  ]
+}

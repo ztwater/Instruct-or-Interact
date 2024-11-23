@@ -1,0 +1,335 @@
+{
+  "matches": [
+    {
+      "src": "trailer [271,278]",
+      "dest": "trailer [543,550]"
+    },
+    {
+      "src": "arglist [161,252]",
+      "dest": "arglist [442,518]"
+    },
+    {
+      "src": "suite [18,301]",
+      "dest": "suite [18,552]"
+    },
+    {
+      "src": "operator: , [244,245]",
+      "dest": "operator: , [507,508]"
+    },
+    {
+      "src": "classdef [0,301]",
+      "dest": "classdef [0,552]"
+    },
+    {
+      "src": "operator: , [56,57]",
+      "dest": "operator: , [53,54]"
+    },
+    {
+      "src": "suite [65,301]",
+      "dest": "suite [65,552]"
+    },
+    {
+      "src": "parameters [38,64]",
+      "dest": "parameters [38,64]"
+    },
+    {
+      "src": "param [39,47]",
+      "dest": "param [39,44]"
+    },
+    {
+      "src": "trailer [128,135]",
+      "dest": "trailer [426,433]"
+    },
+    {
+      "src": "name: insert_user [27,38]",
+      "dest": "name: insert_user [27,38]"
+    },
+    {
+      "src": "name: execute [153,160]",
+      "dest": "name: execute [434,441]"
+    },
+    {
+      "src": "operator: , [224,225]",
+      "dest": "operator: , [496,497]"
+    },
+    {
+      "src": "atom_expr [267,280]",
+      "dest": "atom_expr [528,552]"
+    },
+    {
+      "src": "name: username [236,244]",
+      "dest": "name: username [499,507]"
+    },
+    {
+      "src": "file_input [0,301]",
+      "dest": "file_input [0,552]"
+    },
+    {
+      "src": "name: user_id [39,46]",
+      "dest": "name: self [39,43]"
+    },
+    {
+      "src": "name: cursor [129,135]",
+      "dest": "name: cursor [427,433]"
+    },
+    {
+      "src": "name: username [48,56]",
+      "dest": "name: username [45,53]"
+    },
+    {
+      "src": "name: commit [272,278]",
+      "dest": "name: commit [544,550]"
+    },
+    {
+      "src": "name: email [58,63]",
+      "dest": "name: password [55,63]"
+    },
+    {
+      "src": "name: email [246,251]",
+      "dest": "name: password [509,517]"
+    },
+    {
+      "src": "testlist_comp [227,251]",
+      "dest": "testlist_comp [499,517]"
+    },
+    {
+      "src": "name: c [120,121]",
+      "dest": "name: self [422,426]"
+    },
+    {
+      "src": "param [58,63]",
+      "dest": "param [55,63]"
+    },
+    {
+      "src": "string: \"INSERT INTO users (user_id, username, email) VALUES (?, ?, ?)\" [161,224]",
+      "dest": "string: \"INSERT INTO users (username, password) VALUES (?, ?)\" [442,496]"
+    },
+    {
+      "src": "param [48,57]",
+      "dest": "param [45,54]"
+    },
+    {
+      "src": "simple_stmt [74,112]",
+      "dest": "simple_stmt [74,414]"
+    },
+    {
+      "src": "trailer [160,253]",
+      "dest": "trailer [441,519]"
+    },
+    {
+      "src": "name: conn [267,271]",
+      "dest": "name: connection [533,543]"
+    },
+    {
+      "src": "name: UserLoginDB [6,17]",
+      "dest": "name: UserLoginDB [6,17]"
+    },
+    {
+      "src": "string: 'database.db' [97,110]",
+      "dest": "string: \"\"\"         Inserts a new user into the \"users\" table.         :param username: str, the username of the user.         :param password: str, the password of the user.         :return: None         >>> user_db = UserLoginDB(\"user_database.db\")         >>> user_db.create_table()         >>> user_db.insert_user('user1', 'pass1')         \"\"\" [74,413]"
+    },
+    {
+      "src": "atom [226,252]",
+      "dest": "atom [498,518]"
+    },
+    {
+      "src": "trailer [152,160]",
+      "dest": "trailer [433,441]"
+    },
+    {
+      "src": "funcdef [23,301]",
+      "dest": "funcdef [23,552]"
+    },
+    {
+      "src": "operator: , [46,47]",
+      "dest": "operator: , [43,44]"
+    },
+    {
+      "src": "trailer [278,280]",
+      "dest": "trailer [550,552]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [422,520]",
+      "parent": "suite [65,552]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [267,280]",
+      "parent": "suite [65,552]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: user_id [39,46]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: email [58,63]",
+      "label": "password"
+    },
+    {
+      "action": "update-node",
+      "tree": "string: 'database.db' [97,110]",
+      "label": "\"\"\"         Inserts a new user into the \"users\" table.         :param username: str, the username of the user.         :param password: str, the password of the user.         :return: None         >>> user_db = UserLoginDB(\"user_database.db\")         >>> user_db.create_table()         >>> user_db.insert_user('user1', 'pass1')         \"\"\""
+    },
+    {
+      "action": "move-tree",
+      "tree": "string: 'database.db' [97,110]",
+      "parent": "simple_stmt [74,414]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [422,519]",
+      "parent": "simple_stmt [422,520]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [528,532]",
+      "parent": "atom_expr [528,552]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [532,543]",
+      "parent": "atom_expr [528,552]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: c [120,121]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: c [120,121]",
+      "parent": "atom_expr [422,519]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [128,135]",
+      "parent": "atom_expr [422,519]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [152,160]",
+      "parent": "atom_expr [422,519]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [160,253]",
+      "parent": "atom_expr [422,519]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: conn [267,271]",
+      "label": "connection"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: conn [267,271]",
+      "parent": "trailer [532,543]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "string: \"INSERT INTO users (user_id, username, email) VALUES (?, ?, ?)\" [161,224]",
+      "label": "\"INSERT INTO users (username, password) VALUES (?, ?)\""
+    },
+    {
+      "action": "update-node",
+      "tree": "name: email [246,251]",
+      "label": "password"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: conn [74,78]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: = [79,80]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: sqlite3 [81,88]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [88,96]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [96,111]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [81,111]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [74,111]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: user_id [227,234]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [234,235]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: = [122,123]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: conn [124,128]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [135,137]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [124,137]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [120,137]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [120,138]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: c [151,152]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [151,253]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [151,254]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [267,281]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "atom_expr [289,301]"
+    }
+  ]
+}

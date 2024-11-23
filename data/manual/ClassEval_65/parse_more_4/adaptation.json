@@ -1,0 +1,30 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Parses the thousand/million/billion suffix based on the index\n        :param i: int, the index representing the magnitude (thousand, million, billion)\n        :return: str, the corresponding suffix for the magnitude\n        >>> formatter = NumberWordFormatter()\n        >>> formatter.parse_more(1)\n        \"THOUSAND\"\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "i",
+        "deleted": "index",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "i",
+        "deleted": "index",
+        "type": "Refactoring"
+    }
+]

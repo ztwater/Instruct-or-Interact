@@ -1,0 +1,652 @@
+{
+  "matches": [
+    {
+      "src": "suite [21,354]",
+      "dest": "suite [21,761]"
+    },
+    {
+      "src": "name: bmi [178,181]",
+      "dest": "name: bmi_range [549,558]"
+    },
+    {
+      "src": "return_stmt [218,240]",
+      "dest": "return_stmt [639,648]"
+    },
+    {
+      "src": "classdef [0,354]",
+      "dest": "classdef [0,761]"
+    },
+    {
+      "src": "suite [62,354]",
+      "dest": "suite [52,761]"
+    },
+    {
+      "src": "comparison [194,204]",
+      "dest": "comparison [607,625]"
+    },
+    {
+      "src": "parameters [45,61]",
+      "dest": "parameters [45,51]"
+    },
+    {
+      "src": "number: 24.9 [200,204]",
+      "dest": "number: 0 [623,624]"
+    },
+    {
+      "src": "power [87,98]",
+      "dest": "power [396,412]"
+    },
+    {
+      "src": "name: bmi [120,123]",
+      "dest": "name: self [434,438]"
+    },
+    {
+      "src": "operator: < [124,125]",
+      "dest": "operator: == [443,445]"
+    },
+    {
+      "src": "name: weight [46,52]",
+      "dest": "name: self [46,50]"
+    },
+    {
+      "src": "return_stmt [294,313]",
+      "dest": "return_stmt [718,726]"
+    },
+    {
+      "src": "return_stmt [340,354]",
+      "dest": "return_stmt [753,761]"
+    },
+    {
+      "src": "simple_stmt [294,314]",
+      "dest": "simple_stmt [718,727]"
+    },
+    {
+      "src": "comparison [120,130]",
+      "dest": "comparison [434,452]"
+    },
+    {
+      "src": "number: 2 [97,98]",
+      "dest": "number: 2 [411,412]"
+    },
+    {
+      "src": "param [46,53]",
+      "dest": "param [46,50]"
+    },
+    {
+      "src": "comparison [270,280]",
+      "dest": "comparison [686,704]"
+    },
+    {
+      "src": "number: 29.9 [276,280]",
+      "dest": "number: 1 [702,703]"
+    },
+    {
+      "src": "funcdef [26,354]",
+      "dest": "funcdef [26,761]"
+    },
+    {
+      "src": "expr_stmt [71,99]",
+      "dest": "expr_stmt [375,413]"
+    },
+    {
+      "src": "suite [205,241]",
+      "dest": "suite [626,649]"
+    },
+    {
+      "src": "operator: = [75,76]",
+      "dest": "operator: = [379,380]"
+    },
+    {
+      "src": "term [77,99]",
+      "dest": "term [381,413]"
+    },
+    {
+      "src": "name: height [87,93]",
+      "dest": "name: height [401,407]"
+    },
+    {
+      "src": "simple_stmt [71,100]",
+      "dest": "simple_stmt [375,414]"
+    },
+    {
+      "src": "suite [131,165]",
+      "dest": "suite [453,502]"
+    },
+    {
+      "src": "and_test [254,280]",
+      "dest": "and_test [662,704]"
+    },
+    {
+      "src": "simple_stmt [218,241]",
+      "dest": "simple_stmt [639,649]"
+    },
+    {
+      "src": "operator: < [198,199]",
+      "dest": "operator: < [611,612]"
+    },
+    {
+      "src": "operator: / [84,85]",
+      "dest": "operator: / [393,394]"
+    },
+    {
+      "src": "name: weight [77,83]",
+      "dest": "name: weight [386,392]"
+    },
+    {
+      "src": "suite [281,314]",
+      "dest": "suite [705,727]"
+    },
+    {
+      "src": "number: 24.9 [261,265]",
+      "dest": "number: 0 [679,680]"
+    },
+    {
+      "src": "string: \"Underweight\" [151,164]",
+      "dest": "string: \"male\" [494,500]"
+    },
+    {
+      "src": "file_input [0,354]",
+      "dest": "file_input [0,761]"
+    },
+    {
+      "src": "name: bmi [71,74]",
+      "dest": "name: bmi [375,378]"
+    },
+    {
+      "src": "comparison [254,265]",
+      "dest": "comparison [662,681]"
+    },
+    {
+      "src": "operator: >= [182,184]",
+      "dest": "operator: = [559,560]"
+    },
+    {
+      "src": "name: bmi [254,257]",
+      "dest": "name: bmi [662,665]"
+    },
+    {
+      "src": "operator: < [274,275]",
+      "dest": "operator: < [690,691]"
+    },
+    {
+      "src": "name: FitnessTracker [6,20]",
+      "dest": "name: FitnessTracker [6,20]"
+    },
+    {
+      "src": "operator: >= [258,260]",
+      "dest": "operator: >= [666,668]"
+    },
+    {
+      "src": "atom [86,99]",
+      "dest": "atom [395,413]"
+    },
+    {
+      "src": "operator: ** [94,96]",
+      "dest": "operator: ** [408,410]"
+    },
+    {
+      "src": "simple_stmt [144,165]",
+      "dest": "simple_stmt [466,502]"
+    },
+    {
+      "src": "suite [327,354]",
+      "dest": "suite [740,761]"
+    },
+    {
+      "src": "number: 18.5 [185,189]",
+      "dest": "number: 1 [574,575]"
+    },
+    {
+      "src": "name: bmi [270,273]",
+      "dest": "name: bmi [686,689]"
+    },
+    {
+      "src": "name: condition_judge [30,45]",
+      "dest": "name: condition_judge [30,45]"
+    },
+    {
+      "src": "name: bmi [194,197]",
+      "dest": "name: bmi [607,610]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [61,367]",
+      "parent": "suite [52,761]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [431,587]",
+      "parent": "suite [52,761]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [604,761]",
+      "parent": "suite [52,761]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: weight [46,52]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "comparison [120,130]",
+      "parent": "if_stmt [431,587]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [131,165]",
+      "parent": "if_stmt [431,587]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [515,535]",
+      "parent": "if_stmt [431,587]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [536,587]",
+      "parent": "if_stmt [431,587]",
+      "at": 3
+    },
+    {
+      "action": "move-tree",
+      "tree": "comparison [194,204]",
+      "parent": "if_stmt [604,761]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [205,241]",
+      "parent": "if_stmt [604,761]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "and_test [254,280]",
+      "parent": "if_stmt [604,761]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [281,314]",
+      "parent": "if_stmt [604,761]",
+      "at": 3
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [327,354]",
+      "parent": "if_stmt [604,761]",
+      "at": 4
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [434,442]",
+      "parent": "comparison [434,452]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: < [124,125]",
+      "label": "=="
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: \"male\" [446,452]",
+      "parent": "comparison [434,452]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [549,587]",
+      "parent": "suite [536,587]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [613,625]",
+      "parent": "comparison [607,625]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [381,392]",
+      "parent": "term [381,413]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: bmi [120,123]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: bmi [120,123]",
+      "parent": "atom_expr [434,442]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [438,442]",
+      "parent": "atom_expr [434,442]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [466,501]",
+      "parent": "simple_stmt [466,502]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [549,586]",
+      "parent": "simple_stmt [549,587]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: bmi_range [613,622]",
+      "parent": "atom_expr [613,625]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [622,625]",
+      "parent": "atom_expr [613,625]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [669,681]",
+      "parent": "comparison [662,681]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [692,704]",
+      "parent": "comparison [686,704]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "number: 1 [760,761]",
+      "parent": "return_stmt [753,761]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [381,385]",
+      "parent": "atom_expr [381,392]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [385,392]",
+      "parent": "atom_expr [381,392]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: bmi_range [466,475]",
+      "parent": "expr_stmt [466,501]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [476,477]",
+      "parent": "expr_stmt [466,501]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [478,501]",
+      "parent": "expr_stmt [466,501]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: bmi [178,181]",
+      "label": "bmi_range"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: bmi [178,181]",
+      "parent": "expr_stmt [549,586]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: >= [182,184]",
+      "label": "="
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: >= [182,184]",
+      "parent": "expr_stmt [549,586]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [561,586]",
+      "parent": "expr_stmt [549,586]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "number: 24.9 [200,204]",
+      "label": "0"
+    },
+    {
+      "action": "move-tree",
+      "tree": "number: 24.9 [200,204]",
+      "parent": "trailer [622,625]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "factor [646,648]",
+      "parent": "return_stmt [639,648]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: bmi_range [669,678]",
+      "parent": "atom_expr [669,681]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [678,681]",
+      "parent": "atom_expr [669,681]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: bmi_range [692,701]",
+      "parent": "atom_expr [692,704]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [701,704]",
+      "parent": "atom_expr [692,704]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "number: 0 [725,726]",
+      "parent": "return_stmt [718,726]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: weight [77,83]",
+      "parent": "trailer [385,392]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [396,407]",
+      "parent": "power [396,412]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [478,482]",
+      "parent": "atom_expr [478,501]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [482,490]",
+      "parent": "atom_expr [478,501]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [490,493]",
+      "parent": "atom_expr [478,501]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [493,501]",
+      "parent": "atom_expr [478,501]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [561,565]",
+      "parent": "atom_expr [561,586]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [565,573]",
+      "parent": "atom_expr [561,586]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [573,576]",
+      "parent": "atom_expr [561,586]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [576,586]",
+      "parent": "atom_expr [561,586]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "number: 24.9 [261,265]",
+      "label": "0"
+    },
+    {
+      "action": "move-tree",
+      "tree": "number: 24.9 [261,265]",
+      "parent": "trailer [678,681]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "number: 29.9 [276,280]",
+      "label": "1"
+    },
+    {
+      "action": "move-tree",
+      "tree": "number: 29.9 [276,280]",
+      "parent": "trailer [701,704]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [396,400]",
+      "parent": "atom_expr [396,407]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [400,407]",
+      "parent": "atom_expr [396,407]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "string: \"Underweight\" [151,164]",
+      "label": "\"male\""
+    },
+    {
+      "action": "move-tree",
+      "tree": "string: \"Underweight\" [151,164]",
+      "parent": "trailer [493,501]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "number: 18.5 [185,189]",
+      "label": "1"
+    },
+    {
+      "action": "move-tree",
+      "tree": "number: 18.5 [185,189]",
+      "parent": "trailer [573,576]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: height [87,93]",
+      "parent": "trailer [400,407]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [52,53]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "param [54,60]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 18.5 [126,130]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "return_stmt [144,164]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"Normal weight\" [225,240]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"Overweight\" [301,313]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"Obese\" [347,354]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "comparison [178,189]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "and_test [178,204]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "if_stmt [117,354]"
+    }
+  ]
+}

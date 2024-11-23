@@ -1,0 +1,140 @@
+{
+  "matches": [
+    {
+      "src": "suite [26,142]",
+      "dest": "suite [26,489]"
+    },
+    {
+      "src": "testlist_comp [74,110]",
+      "dest": "testlist_comp [425,461]"
+    },
+    {
+      "src": "name: suffixes [127,135]",
+      "dest": "name: suffixes [478,486]"
+    },
+    {
+      "src": "classdef [0,142]",
+      "dest": "classdef [0,489]"
+    },
+    {
+      "src": "suite [53,142]",
+      "dest": "suite [55,489]"
+    },
+    {
+      "src": "expr_stmt [62,111]",
+      "dest": "expr_stmt [413,462]"
+    },
+    {
+      "src": "operator: , [88,89]",
+      "dest": "operator: , [439,440]"
+    },
+    {
+      "src": "string: \"\" [74,76]",
+      "dest": "string: \"\" [425,427]"
+    },
+    {
+      "src": "string: \"thousand\" [78,88]",
+      "dest": "string: \"thousand\" [429,439]"
+    },
+    {
+      "src": "string: \"billion\" [101,110]",
+      "dest": "string: \"billion\" [452,461]"
+    },
+    {
+      "src": "name: index [46,51]",
+      "dest": "name: i [52,53]"
+    },
+    {
+      "src": "name: index [136,141]",
+      "dest": "name: i [487,488]"
+    },
+    {
+      "src": "name: suffixes [62,70]",
+      "dest": "name: suffixes [413,421]"
+    },
+    {
+      "src": "trailer [135,142]",
+      "dest": "trailer [486,489]"
+    },
+    {
+      "src": "atom [73,111]",
+      "dest": "atom [424,462]"
+    },
+    {
+      "src": "file_input [0,142]",
+      "dest": "file_input [0,489]"
+    },
+    {
+      "src": "return_stmt [120,142]",
+      "dest": "return_stmt [471,489]"
+    },
+    {
+      "src": "operator: , [76,77]",
+      "dest": "operator: , [427,428]"
+    },
+    {
+      "src": "operator: , [99,100]",
+      "dest": "operator: , [450,451]"
+    },
+    {
+      "src": "parameters [45,52]",
+      "dest": "parameters [45,54]"
+    },
+    {
+      "src": "string: \"million\" [90,99]",
+      "dest": "string: \"million\" [441,450]"
+    },
+    {
+      "src": "name: NumberWordFormatter [6,25]",
+      "dest": "name: NumberWordFormatter [6,25]"
+    },
+    {
+      "src": "atom_expr [127,142]",
+      "dest": "atom_expr [478,489]"
+    },
+    {
+      "src": "simple_stmt [62,112]",
+      "dest": "simple_stmt [413,463]"
+    },
+    {
+      "src": "operator: = [71,72]",
+      "dest": "operator: = [422,423]"
+    },
+    {
+      "src": "name: parse_more [35,45]",
+      "dest": "name: parse_more [35,45]"
+    },
+    {
+      "src": "funcdef [31,142]",
+      "dest": "funcdef [31,489]"
+    },
+    {
+      "src": "param [46,51]",
+      "dest": "param [52,53]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [46,51]",
+      "parent": "parameters [45,54]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [64,405]",
+      "parent": "suite [55,489]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: index [46,51]",
+      "label": "i"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: index [136,141]",
+      "label": "i"
+    }
+  ]
+}

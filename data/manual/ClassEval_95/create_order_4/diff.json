@@ -1,0 +1,196 @@
+{
+  "matches": [
+    {
+      "src": "suite [16,180]",
+      "dest": "suite [16,1076]"
+    },
+    {
+      "src": "name: product_id [105,115]",
+      "dest": "name: product_id [922,932]"
+    },
+    {
+      "src": "operator: , [48,49]",
+      "dest": "operator: , [64,65]"
+    },
+    {
+      "src": "classdef [0,180]",
+      "dest": "classdef [0,1076]"
+    },
+    {
+      "src": "suite [60,180]",
+      "dest": "suite [76,1076]"
+    },
+    {
+      "src": "name: create_order [25,37]",
+      "dest": "name: create_order [25,37]"
+    },
+    {
+      "src": "atom [77,159]",
+      "dest": "atom [894,1009]"
+    },
+    {
+      "src": "operator: { [77,78]",
+      "dest": "operator: { [894,895]"
+    },
+    {
+      "src": "name: order [175,180]",
+      "dest": "name: order [1051,1056]"
+    },
+    {
+      "src": "param [50,58]",
+      "dest": "param [66,74]"
+    },
+    {
+      "src": "name: quantity [141,149]",
+      "dest": "name: quantity [958,966]"
+    },
+    {
+      "src": "file_input [0,180]",
+      "dest": "file_input [0,1076]"
+    },
+    {
+      "src": "string: 'quantity' [129,139]",
+      "dest": "string: 'quantity' [946,956]"
+    },
+    {
+      "src": "string: 'product_id' [91,103]",
+      "dest": "string: 'product_id' [908,920]"
+    },
+    {
+      "src": "operator: , [115,116]",
+      "dest": "operator: , [932,933]"
+    },
+    {
+      "src": "name: order [69,74]",
+      "dest": "name: order [886,891]"
+    },
+    {
+      "src": "name: quantity [50,58]",
+      "dest": "name: quantity [66,74]"
+    },
+    {
+      "src": "dictorsetmaker [91,149]",
+      "dest": "dictorsetmaker [908,999]"
+    },
+    {
+      "src": "expr_stmt [69,159]",
+      "dest": "expr_stmt [886,1009]"
+    },
+    {
+      "src": "name: Warehouse [6,15]",
+      "dest": "name: Warehouse [6,15]"
+    },
+    {
+      "src": "simple_stmt [69,160]",
+      "dest": "simple_stmt [886,1010]"
+    },
+    {
+      "src": "operator: = [75,76]",
+      "dest": "operator: = [892,893]"
+    },
+    {
+      "src": "funcdef [21,180]",
+      "dest": "funcdef [21,1076]"
+    },
+    {
+      "src": "operator: } [158,159]",
+      "dest": "operator: } [1008,1009]"
+    },
+    {
+      "src": "param [38,49]",
+      "dest": "param [54,65]"
+    },
+    {
+      "src": "parameters [37,59]",
+      "dest": "parameters [37,75]"
+    },
+    {
+      "src": "name: product_id [38,48]",
+      "dest": "name: product_id [54,64]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [38,43]",
+      "parent": "parameters [37,75]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [44,53]",
+      "parent": "parameters [37,75]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [85,758]",
+      "parent": "suite [76,1076]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "if_stmt [766,869]",
+      "parent": "suite [76,1076]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [1027,1057]",
+      "parent": "suite [76,1076]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "return_stmt [1065,1076]",
+      "parent": "suite [76,1076]",
+      "at": 4
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [1027,1056]",
+      "parent": "simple_stmt [1027,1057]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [1027,1048]",
+      "parent": "expr_stmt [1027,1056]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [1049,1050]",
+      "parent": "expr_stmt [1027,1056]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: order [175,180]",
+      "parent": "expr_stmt [1027,1056]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [966,967]",
+      "parent": "dictorsetmaker [908,999]",
+      "at": 5
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: 'status' [980,988]",
+      "parent": "dictorsetmaker [908,999]",
+      "at": 6
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: 'Shipped' [990,999]",
+      "parent": "dictorsetmaker [908,999]",
+      "at": 7
+    },
+    {
+      "action": "delete-node",
+      "tree": "return_stmt [168,180]"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Convert a datetime instance to a string\n        :param datetime: the datetime instance to convert\n        :return: string, converted time string\n        >>> timeutils.datetime_to_string(timeutils.datetime)\n        \"2023-06-14 19:30:03\"\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return datetime.strftime(\"%Y-%m-%d %H:%M:%S\")\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return dt.strftime(\"%Y-%m-%d %H:%M:%S\")",
+        "deleted": "return dt.strftime(\"%Y-%m-%d %H:%M:%S\")",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "datetime",
+        "deleted": "dt",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "datetime",
+        "deleted": "dt",
+        "type": "Refactoring"
+    }
+]

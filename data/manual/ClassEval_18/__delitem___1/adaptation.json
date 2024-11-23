@@ -1,0 +1,30 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Delete the value corresponding to the key\n        :param key:str\n        :return:None\n        >>> camelize_map = CamelCaseMap()\n        >>> camelize_map['first_name'] = 'John'\n        >>> camelize_map.__delitem__('first_name')\n        >>> flag = 'first_name' in camelize_map\n        flag = False\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "._data",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "._data",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "self",
+        "type": "Move"
+    }
+]

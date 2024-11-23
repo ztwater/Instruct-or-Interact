@@ -1,0 +1,340 @@
+{
+  "matches": [
+    {
+      "src": "trailer [128,137]",
+      "dest": "trailer [411,420]"
+    },
+    {
+      "src": "name: current_time [116,128]",
+      "dest": "name: minute [396,402]"
+    },
+    {
+      "src": "name: TimeUtils [6,15]",
+      "dest": "name: TimeUtils [6,15]"
+    },
+    {
+      "src": "suite [16,179]",
+      "dest": "suite [16,471]"
+    },
+    {
+      "src": "trailer [137,149]",
+      "dest": "trailer [420,441]"
+    },
+    {
+      "src": "parameters [40,42]",
+      "dest": "parameters [40,86]"
+    },
+    {
+      "src": "classdef [0,179]",
+      "dest": "classdef [0,471]"
+    },
+    {
+      "src": "suite [43,179]",
+      "dest": "suite [87,471]"
+    },
+    {
+      "src": "trailer [75,84]",
+      "dest": "trailer [362,371]"
+    },
+    {
+      "src": "name: current_time [52,64]",
+      "dest": "name: formatted_time [337,351]"
+    },
+    {
+      "src": "name: formatted_time [99,113]",
+      "dest": "name: month [378,383]"
+    },
+    {
+      "src": "string: \"%H:%M:%S\" [138,148]",
+      "dest": "string: \"%Y-%m-%d %H:%M:%S\" [421,440]"
+    },
+    {
+      "src": "name: formatted_time [165,179]",
+      "dest": "name: formatted_time [457,471]"
+    },
+    {
+      "src": "name: strftime [129,137]",
+      "dest": "name: strftime [412,420]"
+    },
+    {
+      "src": "name: now [85,88]",
+      "dest": "name: year [372,376]"
+    },
+    {
+      "src": "operator: = [65,66]",
+      "dest": "operator: = [352,353]"
+    },
+    {
+      "src": "return_stmt [158,179]",
+      "dest": "return_stmt [450,471]"
+    },
+    {
+      "src": "name: get_format_time [25,40]",
+      "dest": "name: get_format_time [25,40]"
+    },
+    {
+      "src": "name: datetime [76,84]",
+      "dest": "name: datetime [363,371]"
+    },
+    {
+      "src": "file_input [0,179]",
+      "dest": "file_input [0,471]"
+    },
+    {
+      "src": "name: datetime [67,75]",
+      "dest": "name: datetime [354,362]"
+    },
+    {
+      "src": "operator: = [114,115]",
+      "dest": "operator: , [383,384]"
+    },
+    {
+      "src": "funcdef [21,179]",
+      "dest": "funcdef [21,471]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [41,46]",
+      "parent": "parameters [40,86]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [47,52]",
+      "parent": "parameters [40,86]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [53,59]",
+      "parent": "parameters [40,86]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [60,64]",
+      "parent": "parameters [40,86]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [65,70]",
+      "parent": "parameters [40,86]",
+      "at": 4
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [71,78]",
+      "parent": "parameters [40,86]",
+      "at": 5
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [79,85]",
+      "parent": "parameters [40,86]",
+      "at": 6
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [96,329]",
+      "parent": "suite [87,471]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [337,442]",
+      "parent": "suite [87,471]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [337,441]",
+      "parent": "simple_stmt [337,442]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: current_time [52,64]",
+      "label": "formatted_time"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: current_time [52,64]",
+      "parent": "expr_stmt [337,441]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: = [65,66]",
+      "parent": "expr_stmt [337,441]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [354,441]",
+      "parent": "expr_stmt [337,441]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: datetime [67,75]",
+      "parent": "atom_expr [354,441]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [75,84]",
+      "parent": "atom_expr [354,441]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [371,411]",
+      "parent": "atom_expr [354,441]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [128,137]",
+      "parent": "atom_expr [354,441]",
+      "at": 3
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [137,149]",
+      "parent": "atom_expr [354,441]",
+      "at": 4
+    },
+    {
+      "action": "insert-node",
+      "tree": "arglist [372,410]",
+      "parent": "trailer [371,411]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "string: \"%H:%M:%S\" [138,148]",
+      "label": "\"%Y-%m-%d %H:%M:%S\""
+    },
+    {
+      "action": "update-node",
+      "tree": "name: now [85,88]",
+      "label": "year"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: now [85,88]",
+      "parent": "arglist [372,410]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [376,377]",
+      "parent": "arglist [372,410]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: formatted_time [99,113]",
+      "label": "month"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: formatted_time [99,113]",
+      "parent": "arglist [372,410]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: = [114,115]",
+      "label": ","
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: = [114,115]",
+      "parent": "arglist [372,410]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: day [385,388]",
+      "parent": "arglist [372,410]",
+      "at": 4
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [388,389]",
+      "parent": "arglist [372,410]",
+      "at": 5
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: hour [390,394]",
+      "parent": "arglist [372,410]",
+      "at": 6
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [394,395]",
+      "parent": "arglist [372,410]",
+      "at": 7
+    },
+    {
+      "action": "update-node",
+      "tree": "name: current_time [116,128]",
+      "label": "minute"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: current_time [116,128]",
+      "parent": "arglist [372,410]",
+      "at": 8
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [402,403]",
+      "parent": "arglist [372,410]",
+      "at": 9
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: second [404,410]",
+      "parent": "arglist [372,410]",
+      "at": 10
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [84,88]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [88,90]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [67,90]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [52,90]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [52,91]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [116,149]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [99,149]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [99,150]"
+    }
+  ]
+}

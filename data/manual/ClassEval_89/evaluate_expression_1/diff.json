@@ -1,0 +1,158 @@
+{
+  "matches": [
+    {
+      "src": "suite [26,189]",
+      "dest": "suite [26,201]"
+    },
+    {
+      "src": "name: evaluate_expression [35,54]",
+      "dest": "name: evaluate_expression [35,54]"
+    },
+    {
+      "src": "operator: == [120,122]",
+      "dest": "operator: == [132,134]"
+    },
+    {
+      "src": "name: result [76,82]",
+      "dest": "name: result [70,76]"
+    },
+    {
+      "src": "classdef [0,189]",
+      "dest": "classdef [0,201]"
+    },
+    {
+      "src": "suite [67,189]",
+      "dest": "suite [61,201]"
+    },
+    {
+      "src": "return_stmt [139,150]",
+      "dest": "return_stmt [151,162]"
+    },
+    {
+      "src": "operator: = [83,84]",
+      "dest": "operator: = [77,78]"
+    },
+    {
+      "src": "number: 24 [123,125]",
+      "dest": "number: 24 [135,137]"
+    },
+    {
+      "src": "simple_stmt [139,151]",
+      "dest": "simple_stmt [151,163]"
+    },
+    {
+      "src": "parameters [54,66]",
+      "dest": "parameters [54,60]"
+    },
+    {
+      "src": "name: expression [55,65]",
+      "dest": "name: self [55,59]"
+    },
+    {
+      "src": "name: result [113,119]",
+      "dest": "name: result [125,131]"
+    },
+    {
+      "src": "file_input [0,189]",
+      "dest": "file_input [0,201]"
+    },
+    {
+      "src": "atom_expr [85,101]",
+      "dest": "atom_expr [79,113]"
+    },
+    {
+      "src": "if_stmt [110,189]",
+      "dest": "if_stmt [122,201]"
+    },
+    {
+      "src": "suite [126,151]",
+      "dest": "suite [138,163]"
+    },
+    {
+      "src": "return_stmt [177,189]",
+      "dest": "return_stmt [189,201]"
+    },
+    {
+      "src": "name: TwentyFourPointGame [6,25]",
+      "dest": "name: TwentyFourPointGame [6,25]"
+    },
+    {
+      "src": "param [55,65]",
+      "dest": "param [55,59]"
+    },
+    {
+      "src": "suite [164,189]",
+      "dest": "suite [176,201]"
+    },
+    {
+      "src": "name: eval [85,89]",
+      "dest": "name: eval [79,83]"
+    },
+    {
+      "src": "trailer [89,101]",
+      "dest": "trailer [86,91]"
+    },
+    {
+      "src": "comparison [113,125]",
+      "dest": "comparison [125,137]"
+    },
+    {
+      "src": "simple_stmt [76,102]",
+      "dest": "simple_stmt [70,114]"
+    },
+    {
+      "src": "name: expression [90,100]",
+      "dest": "name: join [87,91]"
+    },
+    {
+      "src": "funcdef [31,189]",
+      "dest": "funcdef [31,201]"
+    },
+    {
+      "src": "expr_stmt [76,101]",
+      "dest": "expr_stmt [70,113]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "update-node",
+      "tree": "name: expression [55,65]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [83,113]",
+      "parent": "atom_expr [79,113]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [84,112]",
+      "parent": "trailer [83,113]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: \"\" [84,86]",
+      "parent": "atom_expr [84,112]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [89,101]",
+      "parent": "atom_expr [84,112]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [91,112]",
+      "parent": "atom_expr [84,112]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: expression [90,100]",
+      "label": "join"
+    }
+  ]
+}

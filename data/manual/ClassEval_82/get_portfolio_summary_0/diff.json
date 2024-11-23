@@ -1,0 +1,580 @@
+{
+  "matches": [
+    {
+      "src": "simple_stmt [139,189]",
+      "dest": "simple_stmt [255,302]"
+    },
+    {
+      "src": "name: total_value [139,150]",
+      "dest": "name: total_value [255,266]"
+    },
+    {
+      "src": "name: summary [433,440]",
+      "dest": "name: summary [494,501]"
+    },
+    {
+      "src": "name: stock_value [467,478]",
+      "dest": "name: stock_value [542,553]"
+    },
+    {
+      "src": "suite [28,534]",
+      "dest": "suite [28,602]"
+    },
+    {
+      "src": "parameters [58,69]",
+      "dest": "parameters [58,64]"
+    },
+    {
+      "src": "param [59,68]",
+      "dest": "param [59,63]"
+    },
+    {
+      "src": "name: stock [281,286]",
+      "dest": "name: stock [344,349]"
+    },
+    {
+      "src": "name: summary [527,534]",
+      "dest": "name: summary [594,601]"
+    },
+    {
+      "src": "classdef [0,534]",
+      "dest": "classdef [0,602]"
+    },
+    {
+      "src": "suite [70,534]",
+      "dest": "suite [65,602]"
+    },
+    {
+      "src": "trailer [159,171]",
+      "dest": "trailer [273,299]"
+    },
+    {
+      "src": "simple_stmt [79,95]",
+      "dest": "simple_stmt [74,247]"
+    },
+    {
+      "src": "name: percentage [374,384]",
+      "dest": "name: percentage [435,445]"
+    },
+    {
+      "src": "term [388,413]",
+      "dest": "term [449,474]"
+    },
+    {
+      "src": "name: StockPortfolioTracker [6,27]",
+      "dest": "name: StockPortfolioTracker [6,27]"
+    },
+    {
+      "src": "operator: * [415,416]",
+      "dest": "operator: * [476,477]"
+    },
+    {
+      "src": "name: summary [206,213]",
+      "dest": "name: summary [310,317]"
+    },
+    {
+      "src": "operator: = [325,326]",
+      "dest": "operator: = [393,394]"
+    },
+    {
+      "src": "simple_stmt [206,269]",
+      "dest": "simple_stmt [310,323]"
+    },
+    {
+      "src": "expr_stmt [206,268]",
+      "dest": "expr_stmt [310,322]"
+    },
+    {
+      "src": "name: stock_value [313,324]",
+      "dest": "name: stock_value [381,392]"
+    },
+    {
+      "src": "return_stmt [520,534]",
+      "dest": "return_stmt [573,602]"
+    },
+    {
+      "src": "name: portfolio [290,299]",
+      "dest": "name: portfolio [358,367]"
+    },
+    {
+      "src": "atom [387,414]",
+      "dest": "atom [448,475]"
+    },
+    {
+      "src": "expr_stmt [139,188]",
+      "dest": "expr_stmt [255,301]"
+    },
+    {
+      "src": "expr_stmt [313,361]",
+      "dest": "expr_stmt [381,422]"
+    },
+    {
+      "src": "funcdef [33,534]",
+      "dest": "funcdef [33,602]"
+    },
+    {
+      "src": "suite [300,503]",
+      "dest": "suite [368,556]"
+    },
+    {
+      "src": "name: stock [327,332]",
+      "dest": "name: self [395,399]"
+    },
+    {
+      "src": "atom_expr [154,171]",
+      "dest": "atom_expr [269,301]"
+    },
+    {
+      "src": "string: 'symbol' [453,461]",
+      "dest": "string: 'name' [524,530]"
+    },
+    {
+      "src": "operator: } [478,479]",
+      "dest": "operator: } [553,554]"
+    },
+    {
+      "src": "trailer [452,462]",
+      "dest": "trailer [523,531]"
+    },
+    {
+      "src": "trailer [332,344]",
+      "dest": "trailer [399,415]"
+    },
+    {
+      "src": "number: 100 [417,420]",
+      "dest": "number: 100 [478,481]"
+    },
+    {
+      "src": "operator: = [385,386]",
+      "dest": "operator: = [446,447]"
+    },
+    {
+      "src": "simple_stmt [313,362]",
+      "dest": "simple_stmt [381,423]"
+    },
+    {
+      "src": "operator: } [462,463]",
+      "dest": "operator: , [531,532]"
+    },
+    {
+      "src": "name: stock [154,159]",
+      "dest": "name: self [269,273]"
+    },
+    {
+      "src": "simple_stmt [433,503]",
+      "dest": "simple_stmt [494,556]"
+    },
+    {
+      "src": "operator: = [214,215]",
+      "dest": "operator: = [318,319]"
+    },
+    {
+      "src": "file_input [0,534]",
+      "dest": "file_input [0,602]"
+    },
+    {
+      "src": "name: stock [347,352]",
+      "dest": "name: stock [416,421]"
+    },
+    {
+      "src": "name: stock_value [388,399]",
+      "dest": "name: stock_value [449,460]"
+    },
+    {
+      "src": "operator: { [446,447]",
+      "dest": "operator: { [509,510]"
+    },
+    {
+      "src": "expr_stmt [374,420]",
+      "dest": "expr_stmt [435,481]"
+    },
+    {
+      "src": "name: portfolio [59,68]",
+      "dest": "name: self [59,63]"
+    },
+    {
+      "src": "operator: += [151,153]",
+      "dest": "operator: = [267,268]"
+    },
+    {
+      "src": "name: total_value [402,413]",
+      "dest": "name: total_value [463,474]"
+    },
+    {
+      "src": "operator: / [400,401]",
+      "dest": "operator: / [461,462]"
+    },
+    {
+      "src": "term [387,420]",
+      "dest": "term [448,481]"
+    },
+    {
+      "src": "name: stock [447,452]",
+      "dest": "name: stock [518,523]"
+    },
+    {
+      "src": "atom_expr [447,462]",
+      "dest": "atom_expr [518,531]"
+    },
+    {
+      "src": "for_stmt [277,503]",
+      "dest": "for_stmt [340,556]"
+    },
+    {
+      "src": "name: get_portfolio_summary [37,58]",
+      "dest": "name: get_portfolio_summary [37,58]"
+    },
+    {
+      "src": "simple_stmt [374,421]",
+      "dest": "simple_stmt [435,482]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [139,189]",
+      "parent": "suite [65,602]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: portfolio [59,68]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: \"\"\"         Get a summary of the portfolio.         :return: a tuple of the total value of the portfolio and a list of dictionaries with keys \"name\" and \"value\"         \"\"\" [74,246]",
+      "parent": "simple_stmt [74,247]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [353,367]",
+      "parent": "for_stmt [340,556]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom [580,602]",
+      "parent": "return_stmt [573,602]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: += [151,153]",
+      "label": "="
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [154,171]",
+      "parent": "expr_stmt [255,301]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom [320,322]",
+      "parent": "expr_stmt [310,322]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [353,357]",
+      "parent": "atom_expr [353,367]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [357,367]",
+      "parent": "atom_expr [353,367]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "testlist_comp [581,601]",
+      "parent": "atom [580,602]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: stock [154,159]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [299,301]",
+      "parent": "atom_expr [269,301]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: portfolio [290,299]",
+      "parent": "trailer [357,367]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [494,555]",
+      "parent": "simple_stmt [494,556]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: total_value [581,592]",
+      "parent": "testlist_comp [581,601]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [592,593]",
+      "parent": "testlist_comp [581,601]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: summary [527,534]",
+      "parent": "testlist_comp [581,601]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: calculate_portfolio_value [274,299]",
+      "parent": "trailer [273,299]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [395,422]",
+      "parent": "expr_stmt [381,422]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: summary [433,440]",
+      "parent": "atom_expr [494,555]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [501,508]",
+      "parent": "atom_expr [494,555]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [508,555]",
+      "parent": "atom_expr [494,555]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: stock [327,332]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: stock [327,332]",
+      "parent": "atom_expr [395,422]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [332,344]",
+      "parent": "atom_expr [395,422]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [415,422]",
+      "parent": "atom_expr [395,422]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom [509,554]",
+      "parent": "trailer [508,555]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: get_stock_value [400,415]",
+      "parent": "trailer [399,415]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: stock [347,352]",
+      "parent": "trailer [415,422]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: { [446,447]",
+      "parent": "atom [509,554]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "dictorsetmaker [510,553]",
+      "parent": "atom [509,554]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: } [478,479]",
+      "parent": "atom [509,554]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: 'name' [510,516]",
+      "parent": "dictorsetmaker [510,553]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [447,462]",
+      "parent": "dictorsetmaker [510,553]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: } [462,463]",
+      "label": ","
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: } [462,463]",
+      "parent": "dictorsetmaker [510,553]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: 'value' [533,540]",
+      "parent": "dictorsetmaker [510,553]",
+      "at": 3
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: stock_value [467,478]",
+      "parent": "dictorsetmaker [510,553]",
+      "at": 4
+    },
+    {
+      "action": "update-node",
+      "tree": "string: 'symbol' [453,461]",
+      "label": "'name'"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "expr_stmt [79,94]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: 'quantity' [160,170]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: * [172,173]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "atom_expr [174,188]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "term [154,188]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: stock [107,112]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: portfolio [116,125]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [126,189]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "for_stmt [103,189]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "fstring [216,268]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: 'quantity' [333,343]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [327,344]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: * [345,346]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [352,361]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [347,361]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "term [327,361]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: += [441,443]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_start: f\" [444,446]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_expr [446,463]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_string: : $ [463,466]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: { [466,467]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_expr [466,479]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_string:  ( [479,481]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "fstring_expr [481,497]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_string: %)\\n [497,501]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring_end: \" [501,502]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "fstring [444,502]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [433,502]"
+    }
+  ]
+}

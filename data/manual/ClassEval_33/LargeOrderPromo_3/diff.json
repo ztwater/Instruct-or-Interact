@@ -1,0 +1,176 @@
+{
+  "matches": [
+    {
+      "src": "trailer [86,93]",
+      "dest": "trailer [88,93]"
+    },
+    {
+      "src": "suite [23,219]",
+      "dest": "suite [23,219]"
+    },
+    {
+      "src": "trailer [82,94]",
+      "dest": "trailer [82,94]"
+    },
+    {
+      "src": "name: num_products [106,118]",
+      "dest": "name: num_products [106,118]"
+    },
+    {
+      "src": "classdef [0,219]",
+      "dest": "classdef [0,219]"
+    },
+    {
+      "src": "name: discount [180,188]",
+      "dest": "name: discount [180,188]"
+    },
+    {
+      "src": "suite [55,219]",
+      "dest": "suite [55,219]"
+    },
+    {
+      "src": "simple_stmt [138,154]",
+      "dest": "simple_stmt [138,154]"
+    },
+    {
+      "src": "return_stmt [204,219]",
+      "dest": "return_stmt [204,219]"
+    },
+    {
+      "src": "name: set [83,86]",
+      "dest": "name: order [83,88]"
+    },
+    {
+      "src": "operator: >= [119,121]",
+      "dest": "operator: >= [119,121]"
+    },
+    {
+      "src": "name: num_products [64,76]",
+      "dest": "name: num_products [64,76]"
+    },
+    {
+      "src": "suite [125,154]",
+      "dest": "suite [125,154]"
+    },
+    {
+      "src": "operator: = [147,148]",
+      "dest": "operator: = [147,148]"
+    },
+    {
+      "src": "name: LargeOrderPromo [32,47]",
+      "dest": "name: LargeOrderPromo [32,47]"
+    },
+    {
+      "src": "name: DiscountStrategy [6,22]",
+      "dest": "name: DiscountStrategy [6,22]"
+    },
+    {
+      "src": "atom_expr [79,94]",
+      "dest": "atom_expr [79,94]"
+    },
+    {
+      "src": "expr_stmt [180,195]",
+      "dest": "expr_stmt [180,195]"
+    },
+    {
+      "src": "operator: = [77,78]",
+      "dest": "operator: = [77,78]"
+    },
+    {
+      "src": "comparison [106,124]",
+      "dest": "comparison [106,124]"
+    },
+    {
+      "src": "file_input [0,219]",
+      "dest": "file_input [0,219]"
+    },
+    {
+      "src": "operator: = [189,190]",
+      "dest": "operator: = [189,190]"
+    },
+    {
+      "src": "expr_stmt [64,94]",
+      "dest": "expr_stmt [64,94]"
+    },
+    {
+      "src": "number: 0.00 [191,195]",
+      "dest": "number: 0.00 [191,195]"
+    },
+    {
+      "src": "atom_expr [83,93]",
+      "dest": "atom_expr [83,93]"
+    },
+    {
+      "src": "number: 0.07 [149,153]",
+      "dest": "number: 0.07 [149,153]"
+    },
+    {
+      "src": "param [48,53]",
+      "dest": "param [48,53]"
+    },
+    {
+      "src": "number: 10 [122,124]",
+      "dest": "number: 10 [122,124]"
+    },
+    {
+      "src": "name: discount [138,146]",
+      "dest": "name: discount [138,146]"
+    },
+    {
+      "src": "simple_stmt [180,196]",
+      "dest": "simple_stmt [180,196]"
+    },
+    {
+      "src": "suite [167,196]",
+      "dest": "suite [167,196]"
+    },
+    {
+      "src": "expr_stmt [138,153]",
+      "dest": "expr_stmt [138,153]"
+    },
+    {
+      "src": "parameters [47,54]",
+      "dest": "parameters [47,54]"
+    },
+    {
+      "src": "name: order [48,53]",
+      "dest": "name: order [48,53]"
+    },
+    {
+      "src": "if_stmt [103,196]",
+      "dest": "if_stmt [103,196]"
+    },
+    {
+      "src": "simple_stmt [64,95]",
+      "dest": "simple_stmt [64,95]"
+    },
+    {
+      "src": "name: order [87,92]",
+      "dest": "name: cart [89,93]"
+    },
+    {
+      "src": "name: len [79,82]",
+      "dest": "name: len [79,82]"
+    },
+    {
+      "src": "funcdef [28,219]",
+      "dest": "funcdef [28,219]"
+    },
+    {
+      "src": "name: discount [211,219]",
+      "dest": "name: discount [211,219]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "update-node",
+      "tree": "name: set [83,86]",
+      "label": "order"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: order [87,92]",
+      "label": "cart"
+    }
+  ]
+}

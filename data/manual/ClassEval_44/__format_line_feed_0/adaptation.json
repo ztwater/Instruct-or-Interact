@@ -1,0 +1,23 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Replace consecutive line breaks with a single line break\n        :param text: string with consecutive line breaks\n        :return: string, replaced text with single line break\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return '\\n'.join(line.strip() for line in text.splitlines() if line.strip())\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return '\\n'.join(line.strip() for line in text.splitlines() if line.strip())",
+        "deleted": "return '\\n'.join(line.strip() for line in text.splitlines() if line.strip())",
+        "type": "Move"
+    }
+]

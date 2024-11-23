@@ -1,0 +1,16 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Get the status of specific order.\n        :param order_id: int\n        :return False: only if the order_id is not in self.orders.\n        >>> warehouse.add_product(1, \"product1\", 3)\n        >>> warehouse.create_order(1, 1, 2)\n        >>> warehouse.track_order(1)\n        'Shipped'\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    }
+]

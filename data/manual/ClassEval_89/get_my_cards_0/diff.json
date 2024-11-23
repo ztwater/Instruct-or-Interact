@@ -1,0 +1,186 @@
+{
+  "matches": [
+    {
+      "src": "return_stmt [176,188]",
+      "dest": "return_stmt [362,374]"
+    },
+    {
+      "src": "name: cards [183,188]",
+      "dest": "name: cards [369,374]"
+    },
+    {
+      "src": "suite [26,188]",
+      "dest": "suite [26,374]"
+    },
+    {
+      "src": "simple_stmt [149,168]",
+      "dest": "simple_stmt [335,354]"
+    },
+    {
+      "src": "number: 4 [93,94]",
+      "dest": "number: 4 [279,280]"
+    },
+    {
+      "src": "parameters [47,49]",
+      "dest": "parameters [47,53]"
+    },
+    {
+      "src": "classdef [0,188]",
+      "dest": "classdef [0,374]"
+    },
+    {
+      "src": "number: 1 [131,132]",
+      "dest": "number: 1 [317,318]"
+    },
+    {
+      "src": "suite [50,188]",
+      "dest": "suite [54,374]"
+    },
+    {
+      "src": "name: _ [82,83]",
+      "dest": "name: _ [268,269]"
+    },
+    {
+      "src": "name: card [109,113]",
+      "dest": "name: card [295,299]"
+    },
+    {
+      "src": "trailer [161,167]",
+      "dest": "trailer [347,353]"
+    },
+    {
+      "src": "suite [96,168]",
+      "dest": "suite [282,354]"
+    },
+    {
+      "src": "name: card [162,166]",
+      "dest": "name: card [348,352]"
+    },
+    {
+      "src": "expr_stmt [109,136]",
+      "dest": "expr_stmt [295,322]"
+    },
+    {
+      "src": "name: random [116,122]",
+      "dest": "name: random [302,308]"
+    },
+    {
+      "src": "atom_expr [87,95]",
+      "dest": "atom_expr [273,281]"
+    },
+    {
+      "src": "arglist [131,135]",
+      "dest": "arglist [317,321]"
+    },
+    {
+      "src": "trailer [92,95]",
+      "dest": "trailer [278,281]"
+    },
+    {
+      "src": "expr_stmt [59,69]",
+      "dest": "expr_stmt [245,255]"
+    },
+    {
+      "src": "name: get_my_cards [35,47]",
+      "dest": "name: get_my_cards [35,47]"
+    },
+    {
+      "src": "file_input [0,188]",
+      "dest": "file_input [0,374]"
+    },
+    {
+      "src": "operator: , [132,133]",
+      "dest": "operator: , [318,319]"
+    },
+    {
+      "src": "name: cards [149,154]",
+      "dest": "name: cards [335,340]"
+    },
+    {
+      "src": "number: 9 [134,135]",
+      "dest": "number: 9 [320,321]"
+    },
+    {
+      "src": "trailer [122,130]",
+      "dest": "trailer [308,316]"
+    },
+    {
+      "src": "operator: = [65,66]",
+      "dest": "operator: = [251,252]"
+    },
+    {
+      "src": "name: TwentyFourPointGame [6,25]",
+      "dest": "name: TwentyFourPointGame [6,25]"
+    },
+    {
+      "src": "trailer [154,161]",
+      "dest": "trailer [340,347]"
+    },
+    {
+      "src": "simple_stmt [109,137]",
+      "dest": "simple_stmt [295,323]"
+    },
+    {
+      "src": "atom [67,69]",
+      "dest": "atom [253,255]"
+    },
+    {
+      "src": "atom_expr [116,136]",
+      "dest": "atom_expr [302,322]"
+    },
+    {
+      "src": "trailer [130,136]",
+      "dest": "trailer [316,322]"
+    },
+    {
+      "src": "name: randint [123,130]",
+      "dest": "name: randint [309,316]"
+    },
+    {
+      "src": "operator: = [114,115]",
+      "dest": "operator: = [300,301]"
+    },
+    {
+      "src": "atom_expr [149,167]",
+      "dest": "atom_expr [335,353]"
+    },
+    {
+      "src": "name: append [155,161]",
+      "dest": "name: append [341,347]"
+    },
+    {
+      "src": "name: cards [59,64]",
+      "dest": "name: cards [245,250]"
+    },
+    {
+      "src": "for_stmt [78,168]",
+      "dest": "for_stmt [264,354]"
+    },
+    {
+      "src": "name: range [87,92]",
+      "dest": "name: range [273,278]"
+    },
+    {
+      "src": "funcdef [31,188]",
+      "dest": "funcdef [31,374]"
+    },
+    {
+      "src": "simple_stmt [59,70]",
+      "dest": "simple_stmt [245,256]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [48,52]",
+      "parent": "parameters [47,53]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [63,237]",
+      "parent": "suite [54,374]",
+      "at": 0
+    }
+  ]
+}

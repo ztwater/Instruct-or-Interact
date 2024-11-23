@@ -1,0 +1,247 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "sql_statement += \";\"\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "condition",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "test",
+        "inserted": "', '.join(fields) if fields else '*'",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "fstring_end",
+        "inserted": "\"",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "sql_statement",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "+=",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".table_name",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "fstring_start",
+        "inserted": "f\"",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "operator",
+        "inserted": "",
+        "deleted": "=",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "trailer",
+        "inserted": "",
+        "deleted": ".join",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "trailer",
+        "inserted": "",
+        "deleted": "(conditions)",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "fstring_string",
+        "inserted": "",
+        "deleted": ";",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "sql_statement",
+        "deleted": "sql_statement",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "=",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "', '.join(fields)",
+        "deleted": "', '.join(fields)",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "conditions_str",
+        "deleted": "conditions_str",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "string:",
+        "inserted": "' AND '",
+        "deleted": "' AND '",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "fstring_start",
+        "inserted": "f\"",
+        "deleted": "f\"",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "fstring_string",
+        "inserted": "SELECT ",
+        "deleted": "SELECT ",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "fstring_expr",
+        "inserted": "{fields_str}",
+        "deleted": "{fields_str}",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "fstring_string",
+        "inserted": " FROM ",
+        "deleted": " FROM ",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "fstring_string",
+        "inserted": " WHERE ",
+        "deleted": " WHERE ",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "fstring_expr",
+        "inserted": "{conditions_str}",
+        "deleted": "{conditions_str}",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "fstring_end",
+        "inserted": "\"",
+        "deleted": "\"",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "table",
+        "deleted": "table",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "fields",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "fields",
+        "deleted": "table",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "condition",
+        "deleted": "conditions",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "fields",
+        "deleted": "conditions_str",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "string",
+        "inserted": "'*'",
+        "deleted": "' AND '",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "table_name",
+        "deleted": "table",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "condition",
+        "deleted": "conditions_str",
+        "type": "Refactoring"
+    }
+]

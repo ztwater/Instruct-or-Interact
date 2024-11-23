@@ -1,0 +1,614 @@
+{
+  "matches": [
+    {
+      "src": "operator: = [813,814]",
+      "dest": "operator: = [664,665]"
+    },
+    {
+      "src": "funcdef [20,972]",
+      "dest": "funcdef [20,991]"
+    },
+    {
+      "src": "expr_stmt [803,825]",
+      "dest": "expr_stmt [659,698]"
+    },
+    {
+      "src": "suite [15,972]",
+      "dest": "suite [15,991]"
+    },
+    {
+      "src": "simple_stmt [504,558]",
+      "dest": "simple_stmt [385,416]"
+    },
+    {
+      "src": "atom_expr [419,441]",
+      "dest": "atom_expr [362,376]"
+    },
+    {
+      "src": "trailer [818,825]",
+      "dest": "trailer [670,675]"
+    },
+    {
+      "src": "operator: = [509,510]",
+      "dest": "operator: = [397,398]"
+    },
+    {
+      "src": "string: 'num_links' [940,951]",
+      "dest": "string: \"total_pages\" [813,826]"
+    },
+    {
+      "src": "operator: , [926,927]",
+      "dest": "operator: , [799,800]"
+    },
+    {
+      "src": "name: page_url [38,46]",
+      "dest": "name: page_number [44,55]"
+    },
+    {
+      "src": "param [38,46]",
+      "dest": "param [44,55]"
+    },
+    {
+      "src": "atom_expr [525,541]",
+      "dest": "atom_expr [399,415]"
+    },
+    {
+      "src": "trailer [431,441]",
+      "dest": "trailer [366,376]"
+    },
+    {
+      "src": "file_input [0,972]",
+      "dest": "file_input [0,991]"
+    },
+    {
+      "src": "operator: { [893,894]",
+      "dest": "operator: { [723,724]"
+    },
+    {
+      "src": "simple_stmt [292,308]",
+      "dest": "simple_stmt [66,308]"
+    },
+    {
+      "src": "name: soup [504,508]",
+      "dest": "name: total_pages [385,396]"
+    },
+    {
+      "src": "expr_stmt [408,441]",
+      "dest": "expr_stmt [351,376]"
+    },
+    {
+      "src": "name: num_links [803,812]",
+      "dest": "name: data [659,663]"
+    },
+    {
+      "src": "simple_stmt [408,442]",
+      "dest": "simple_stmt [351,377]"
+    },
+    {
+      "src": "return_stmt [886,972]",
+      "dest": "return_stmt [716,991]"
+    },
+    {
+      "src": "suite [48,972]",
+      "dest": "suite [57,991]"
+    },
+    {
+      "src": "simple_stmt [667,696]",
+      "dest": "simple_stmt [424,455]"
+    },
+    {
+      "src": "atom_expr [776,794]",
+      "dest": "atom_expr [610,650]"
+    },
+    {
+      "src": "name: response [408,416]",
+      "dest": "name: per_page [351,359]"
+    },
+    {
+      "src": "simple_stmt [768,795]",
+      "dest": "simple_stmt [598,651]"
+    },
+    {
+      "src": "trailer [780,789]",
+      "dest": "trailer [613,650]"
+    },
+    {
+      "src": "simple_stmt [316,346]",
+      "dest": "simple_stmt [316,343]"
+    },
+    {
+      "src": "name: links [819,824]",
+      "dest": "name: data [671,675]"
+    },
+    {
+      "src": "name: soup [680,684]",
+      "dest": "name: self [438,442]"
+    },
+    {
+      "src": "name: requests [419,427]",
+      "dest": "name: self [362,366]"
+    },
+    {
+      "src": "operator: = [417,418]",
+      "dest": "operator: = [360,361]"
+    },
+    {
+      "src": "name: soup [776,780]",
+      "dest": "name: min [610,613]"
+    },
+    {
+      "src": "name: content [534,541]",
+      "dest": "name: total_pages [404,415]"
+    },
+    {
+      "src": "name: num_links [953,962]",
+      "dest": "name: total_pages [828,839]"
+    },
+    {
+      "src": "classdef [0,972]",
+      "dest": "classdef [0,991]"
+    },
+    {
+      "src": "name: BeautifulSoup [332,345]",
+      "dest": "name: page_number [331,342]"
+    },
+    {
+      "src": "trailer [533,541]",
+      "dest": "trailer [403,415]"
+    },
+    {
+      "src": "atom [893,972]",
+      "dest": "atom [723,991]"
+    },
+    {
+      "src": "name: bs4 [321,324]",
+      "dest": "name: current_page [316,328]"
+    },
+    {
+      "src": "name: page_title [916,926]",
+      "dest": "name: per_page [791,799]"
+    },
+    {
+      "src": "operator: } [971,972]",
+      "dest": "operator: } [990,991]"
+    },
+    {
+      "src": "trailer [690,695]",
+      "dest": "trailer [442,454]"
+    },
+    {
+      "src": "name: links [768,773]",
+      "dest": "name: end_index [598,607]"
+    },
+    {
+      "src": "name: len [815,818]",
+      "dest": "name: self [666,670]"
+    },
+    {
+      "src": "string: 'title' [907,914]",
+      "dest": "string: \"current_page\" [737,751]"
+    },
+    {
+      "src": "name: PageUtil [6,14]",
+      "dest": "name: PageUtil [6,14]"
+    },
+    {
+      "src": "operator: = [774,775]",
+      "dest": "operator: = [608,609]"
+    },
+    {
+      "src": "parameters [37,47]",
+      "dest": "parameters [37,56]"
+    },
+    {
+      "src": "name: page_url [432,440]",
+      "dest": "name: page_size [367,376]"
+    },
+    {
+      "src": "atom_expr [680,695]",
+      "dest": "atom_expr [438,454]"
+    },
+    {
+      "src": "dictorsetmaker [907,962]",
+      "dest": "dictorsetmaker [737,981]"
+    },
+    {
+      "src": "atom_expr [815,825]",
+      "dest": "atom_expr [666,698]"
+    },
+    {
+      "src": "name: response [525,533]",
+      "dest": "name: self [399,403]"
+    },
+    {
+      "src": "name: page_title [667,677]",
+      "dest": "name: total_items [424,435]"
+    },
+    {
+      "src": "expr_stmt [504,557]",
+      "dest": "expr_stmt [385,415]"
+    },
+    {
+      "src": "name: find_all [781,789]",
+      "dest": "name: start_index [614,625]"
+    },
+    {
+      "src": "expr_stmt [768,794]",
+      "dest": "expr_stmt [598,650]"
+    },
+    {
+      "src": "name: get_page_info [24,37]",
+      "dest": "name: get_page_info [24,37]"
+    },
+    {
+      "src": "expr_stmt [667,695]",
+      "dest": "expr_stmt [424,454]"
+    },
+    {
+      "src": "name: text [691,695]",
+      "dest": "name: total_items [443,454]"
+    },
+    {
+      "src": "operator: = [678,679]",
+      "dest": "operator: = [436,437]"
+    },
+    {
+      "src": "simple_stmt [803,826]",
+      "dest": "simple_stmt [659,699]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [38,43]",
+      "parent": "parameters [37,56]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [463,494]",
+      "parent": "suite [57,991]",
+      "at": 5
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [502,539]",
+      "parent": "suite [57,991]",
+      "at": 6
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [547,590]",
+      "parent": "suite [57,991]",
+      "at": 7
+    },
+    {
+      "action": "update-node",
+      "tree": "name: page_url [38,46]",
+      "label": "page_number"
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: \"\"\"         Retrieve information about a specific page.         :param page_number: int, the page number to fetch information about         :return: dict, containing page information such as current page number, total pages, etc.         \"\"\" [66,307]",
+      "parent": "simple_stmt [66,308]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [316,342]",
+      "parent": "simple_stmt [316,343]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: bs4 [321,324]",
+      "label": "current_page"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: bs4 [321,324]",
+      "parent": "expr_stmt [316,342]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [329,330]",
+      "parent": "expr_stmt [316,342]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: BeautifulSoup [332,345]",
+      "label": "page_number"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: BeautifulSoup [332,345]",
+      "parent": "expr_stmt [316,342]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: response [408,416]",
+      "label": "per_page"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: soup [504,508]",
+      "label": "total_pages"
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [525,541]",
+      "parent": "expr_stmt [385,415]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: page_title [667,677]",
+      "label": "total_items"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: links [768,773]",
+      "label": "end_index"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: num_links [803,812]",
+      "label": "data"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: requests [419,427]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: response [525,533]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: soup [680,684]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: soup [776,780]",
+      "label": "min"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: len [815,818]",
+      "label": "self"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [675,698]",
+      "parent": "atom_expr [666,698]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "string: 'title' [907,914]",
+      "label": "\"current_page\""
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: current_page [753,765]",
+      "parent": "dictorsetmaker [737,981]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [765,766]",
+      "parent": "dictorsetmaker [737,981]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: \"per_page\" [779,789]",
+      "parent": "dictorsetmaker [737,981]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: page_title [916,926]",
+      "label": "per_page"
+    },
+    {
+      "action": "update-node",
+      "tree": "string: 'num_links' [940,951]",
+      "label": "\"total_pages\""
+    },
+    {
+      "action": "update-node",
+      "tree": "name: num_links [953,962]",
+      "label": "total_pages"
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [839,840]",
+      "parent": "dictorsetmaker [737,981]",
+      "at": 8
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: \"total_items\" [853,866]",
+      "parent": "dictorsetmaker [737,981]",
+      "at": 9
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: total_items [868,879]",
+      "parent": "dictorsetmaker [737,981]",
+      "at": 10
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [879,880]",
+      "parent": "dictorsetmaker [737,981]",
+      "at": 11
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: \"has_previous\" [893,907]",
+      "parent": "dictorsetmaker [737,981]",
+      "at": 12
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: has_previous [909,921]",
+      "parent": "dictorsetmaker [737,981]",
+      "at": 13
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [921,922]",
+      "parent": "dictorsetmaker [737,981]",
+      "at": 14
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: \"has_next\" [935,945]",
+      "parent": "dictorsetmaker [737,981]",
+      "at": 15
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: has_next [947,955]",
+      "parent": "dictorsetmaker [737,981]",
+      "at": 16
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [955,956]",
+      "parent": "dictorsetmaker [737,981]",
+      "at": 17
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: \"data\" [969,975]",
+      "parent": "dictorsetmaker [737,981]",
+      "at": 18
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: data [977,981]",
+      "parent": "dictorsetmaker [737,981]",
+      "at": 19
+    },
+    {
+      "action": "update-node",
+      "tree": "name: page_url [432,440]",
+      "label": "page_size"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: content [534,541]",
+      "label": "total_pages"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: text [691,695]",
+      "label": "total_items"
+    },
+    {
+      "action": "insert-node",
+      "tree": "arglist [614,649]",
+      "parent": "trailer [613,650]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: links [819,824]",
+      "label": "data"
+    },
+    {
+      "action": "insert-node",
+      "tree": "arith_expr [614,636]",
+      "parent": "arglist [614,649]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [636,637]",
+      "parent": "arglist [614,649]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: total_items [638,649]",
+      "parent": "arglist [614,649]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: find_all [781,789]",
+      "label": "start_index"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: find_all [781,789]",
+      "parent": "arith_expr [614,636]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: + [626,627]",
+      "parent": "arith_expr [614,636]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: per_page [628,636]",
+      "parent": "arith_expr [614,636]",
+      "at": 2
+    },
+    {
+      "action": "delete-tree",
+      "tree": "import_name [292,307]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "import_from [316,345]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [427,431]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: BeautifulSoup [511,524]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [541,542]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: 'html.parser' [543,556]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "arglist [525,556]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [524,557]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [511,557]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [684,690]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [789,794]"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Compress the specified file list into a zip file and place it in the specified path\n        :param files:list of string, List of files to compress\n        :param output_file_name: string, Specified output path\n        :return:True or False, representing whether the compression operation was successful\n        >>> zfp = ZipFileProcessor(\"aaa.zip\")\n        >>> zfp.create_zip_file([\"bbb.txt\", \"ccc,txt\", \"ddd.txt\"], \"output/bcd\")\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "zip_path = self.file_name + \"/\" + output_file_name + \".zip\"\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "files",
+        "deleted": "file_list",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "output_file_name",
+        "deleted": "zip_path",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "files",
+        "deleted": "file_list",
+        "type": "Refactoring"
+    }
+]

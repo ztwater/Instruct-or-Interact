@@ -1,0 +1,118 @@
+{
+  "matches": [
+    {
+      "src": "suite [24,103]",
+      "dest": "suite [24,95]"
+    },
+    {
+      "src": "name: result [97,103]",
+      "dest": "name: result [89,95]"
+    },
+    {
+      "src": "classdef [0,103]",
+      "dest": "classdef [0,95]"
+    },
+    {
+      "src": "suite [52,103]",
+      "dest": "suite [48,95]"
+    },
+    {
+      "src": "name: num2 [77,81]",
+      "dest": "name: c2 [71,73]"
+    },
+    {
+      "src": "param [46,50]",
+      "dest": "param [44,46]"
+    },
+    {
+      "src": "operator: / [75,76]",
+      "dest": "operator: / [69,70]"
+    },
+    {
+      "src": "name: num1 [40,44]",
+      "dest": "name: c1 [40,42]"
+    },
+    {
+      "src": "return_stmt [90,103]",
+      "dest": "return_stmt [82,95]"
+    },
+    {
+      "src": "name: divide [33,39]",
+      "dest": "name: divide [33,39]"
+    },
+    {
+      "src": "name: result [61,67]",
+      "dest": "name: result [57,63]"
+    },
+    {
+      "src": "operator: , [44,45]",
+      "dest": "operator: , [42,43]"
+    },
+    {
+      "src": "file_input [0,103]",
+      "dest": "file_input [0,95]"
+    },
+    {
+      "src": "simple_stmt [61,82]",
+      "dest": "simple_stmt [57,74]"
+    },
+    {
+      "src": "funcdef [29,103]",
+      "dest": "funcdef [29,95]"
+    },
+    {
+      "src": "param [40,45]",
+      "dest": "param [40,43]"
+    },
+    {
+      "src": "expr_stmt [61,81]",
+      "dest": "expr_stmt [57,73]"
+    },
+    {
+      "src": "parameters [39,51]",
+      "dest": "parameters [39,47]"
+    },
+    {
+      "src": "name: num2 [46,50]",
+      "dest": "name: c2 [44,46]"
+    },
+    {
+      "src": "operator: = [68,69]",
+      "dest": "operator: = [64,65]"
+    },
+    {
+      "src": "term [70,81]",
+      "dest": "term [66,73]"
+    },
+    {
+      "src": "name: ComplexCalculator [6,23]",
+      "dest": "name: ComplexCalculator [6,23]"
+    },
+    {
+      "src": "name: num1 [70,74]",
+      "dest": "name: c1 [66,68]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "update-node",
+      "tree": "name: num1 [40,44]",
+      "label": "c1"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: num2 [46,50]",
+      "label": "c2"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: num1 [70,74]",
+      "label": "c1"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: num2 [77,81]",
+      "label": "c2"
+    }
+  ]
+}

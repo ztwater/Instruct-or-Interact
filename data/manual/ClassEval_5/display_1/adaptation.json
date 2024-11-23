@@ -1,0 +1,44 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "key,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Print out chord and play tune with following format: Normal Guitar Playing -- Chord: %s, Play Tune: %s\n        :param key:str, chord\n        :param value:str, play tune\n        :return:None\n        >>> context = AutomaticGuitarSimulator(\"C53231323 Em43231323 F43231323 G63231323\")\n        >>> context.display(\"C\", \"53231323\")\n        Normal Guitar Playing -- Chord: C, Play Tune: 53231323\n\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "chord",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "value",
+        "deleted": "tune",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "key",
+        "deleted": "chord",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "value",
+        "deleted": "tune",
+        "type": "Refactoring"
+    }
+]

@@ -1,0 +1,178 @@
+{
+  "matches": [
+    {
+      "src": "suite [21,190]",
+      "dest": "suite [21,412]"
+    },
+    {
+      "src": "operator: , [52,53]",
+      "dest": "operator: , [47,48]"
+    },
+    {
+      "src": "name: arguments [98,107]",
+      "dest": "name: arguments [325,334]"
+    },
+    {
+      "src": "name: argument_name [138,151]",
+      "dest": "name: key [370,373]"
+    },
+    {
+      "src": "classdef [0,190]",
+      "dest": "classdef [0,412]"
+    },
+    {
+      "src": "param [43,53]",
+      "dest": "param [43,48]"
+    },
+    {
+      "src": "suite [69,190]",
+      "dest": "suite [54,412]"
+    },
+    {
+      "src": "name: arguments [43,52]",
+      "dest": "name: self [43,47]"
+    },
+    {
+      "src": "name: ArgumentParser [6,20]",
+      "dest": "name: ArgumentParser [6,20]"
+    },
+    {
+      "src": "atom_expr [128,152]",
+      "dest": "atom_expr [355,374]"
+    },
+    {
+      "src": "suite [166,190]",
+      "dest": "suite [388,412]"
+    },
+    {
+      "src": "name: arguments [128,137]",
+      "dest": "name: arguments [360,369]"
+    },
+    {
+      "src": "file_input [0,190]",
+      "dest": "file_input [0,412]"
+    },
+    {
+      "src": "suite [108,153]",
+      "dest": "suite [335,375]"
+    },
+    {
+      "src": "name: get_argument [30,42]",
+      "dest": "name: get_argument [30,42]"
+    },
+    {
+      "src": "return_stmt [179,190]",
+      "dest": "return_stmt [401,412]"
+    },
+    {
+      "src": "name: argument_name [81,94]",
+      "dest": "name: key [313,316]"
+    },
+    {
+      "src": "name: argument_name [54,67]",
+      "dest": "name: key [49,52]"
+    },
+    {
+      "src": "simple_stmt [121,153]",
+      "dest": "simple_stmt [348,375]"
+    },
+    {
+      "src": "return_stmt [121,152]",
+      "dest": "return_stmt [348,374]"
+    },
+    {
+      "src": "param [54,67]",
+      "dest": "param [49,52]"
+    },
+    {
+      "src": "if_stmt [78,190]",
+      "dest": "if_stmt [310,412]"
+    },
+    {
+      "src": "funcdef [26,190]",
+      "dest": "funcdef [26,412]"
+    },
+    {
+      "src": "trailer [137,152]",
+      "dest": "trailer [369,374]"
+    },
+    {
+      "src": "parameters [42,68]",
+      "dest": "parameters [42,53]"
+    },
+    {
+      "src": "comparison [81,107]",
+      "dest": "comparison [313,334]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [63,302]",
+      "parent": "suite [54,412]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: arguments [43,52]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: argument_name [54,67]",
+      "label": "key"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: argument_name [81,94]",
+      "label": "key"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [320,334]",
+      "parent": "comparison [313,334]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [320,324]",
+      "parent": "atom_expr [320,334]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [324,334]",
+      "parent": "atom_expr [320,334]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: arguments [98,107]",
+      "parent": "trailer [324,334]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [355,359]",
+      "parent": "atom_expr [355,374]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [359,369]",
+      "parent": "atom_expr [355,374]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: arguments [128,137]",
+      "parent": "trailer [359,369]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: argument_name [138,151]",
+      "label": "key"
+    }
+  ]
+}

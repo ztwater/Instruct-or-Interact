@@ -1,0 +1,191 @@
+{
+  "matches": [
+    {
+      "src": "name: address [27,34]",
+      "dest": "name: self [27,31]"
+    },
+    {
+      "src": "comparison [68,88]",
+      "dest": "comparison [51,82]"
+    },
+    {
+      "src": "suite [130,154]",
+      "dest": "suite [132,157]"
+    },
+    {
+      "src": "suite [13,154]",
+      "dest": "suite [13,157]"
+    },
+    {
+      "src": "name: content [109,116]",
+      "dest": "name: info [103,107]"
+    },
+    {
+      "src": "classdef [0,154]",
+      "dest": "classdef [0,157]"
+    },
+    {
+      "src": "name: Server [6,12]",
+      "dest": "name: Server [6,12]"
+    },
+    {
+      "src": "suite [56,154]",
+      "dest": "suite [39,157]"
+    },
+    {
+      "src": "return_stmt [102,116]",
+      "dest": "return_stmt [96,118]"
+    },
+    {
+      "src": "return_stmt [143,154]",
+      "dest": "return_stmt [145,157]"
+    },
+    {
+      "src": "name: whitelist [79,88]",
+      "dest": "name: white_list [72,82]"
+    },
+    {
+      "src": "name: recv [22,26]",
+      "dest": "name: recv [22,26]"
+    },
+    {
+      "src": "operator: , [34,35]",
+      "dest": "operator: , [31,32]"
+    },
+    {
+      "src": "parameters [26,55]",
+      "dest": "parameters [26,38]"
+    },
+    {
+      "src": "name: address [68,75]",
+      "dest": "name: info [51,55]"
+    },
+    {
+      "src": "param [36,44]",
+      "dest": "param [33,37]"
+    },
+    {
+      "src": "simple_stmt [102,117]",
+      "dest": "simple_stmt [96,119]"
+    },
+    {
+      "src": "file_input [0,154]",
+      "dest": "file_input [0,157]"
+    },
+    {
+      "src": "if_stmt [65,154]",
+      "dest": "if_stmt [48,157]"
+    },
+    {
+      "src": "funcdef [18,154]",
+      "dest": "funcdef [18,157]"
+    },
+    {
+      "src": "suite [89,117]",
+      "dest": "suite [83,119]"
+    },
+    {
+      "src": "param [27,35]",
+      "dest": "param [27,32]"
+    },
+    {
+      "src": "name: content [36,43]",
+      "dest": "name: info [33,37]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "update-node",
+      "tree": "name: address [27,34]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: content [36,43]",
+      "label": "info"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [51,63]",
+      "parent": "comparison [51,82]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [67,82]",
+      "parent": "comparison [51,82]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: address [68,75]",
+      "label": "info"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: address [68,75]",
+      "parent": "atom_expr [51,63]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [55,63]",
+      "parent": "atom_expr [51,63]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [67,71]",
+      "parent": "atom_expr [67,82]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [71,82]",
+      "parent": "atom_expr [67,82]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: whitelist [79,88]",
+      "label": "white_list"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: whitelist [79,88]",
+      "parent": "trailer [71,82]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [103,118]",
+      "parent": "return_stmt [96,118]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: content [109,116]",
+      "label": "info"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: content [109,116]",
+      "parent": "atom_expr [103,118]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [107,118]",
+      "parent": "atom_expr [103,118]",
+      "at": 1
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [43,44]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "param [45,54]"
+    }
+  ]
+}

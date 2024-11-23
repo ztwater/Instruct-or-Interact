@@ -1,0 +1,30 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Calculates the factorial of a given number.\n        :param n: int, the number to calculate the factorial.\n        :return: int, the factorial of the given number.\n        >>> ArrangementCalculator.factorial(4)\n        24\n\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "ArrangementCalculator",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".factorial",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "factorial",
+        "deleted": "factorial",
+        "type": "Move"
+    }
+]

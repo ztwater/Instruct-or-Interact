@@ -1,0 +1,70 @@
+{
+  "matches": [
+    {
+      "src": "param [56,69]",
+      "dest": "param [62,75]"
+    },
+    {
+      "src": "suite [20,229]",
+      "dest": "suite [20,313]"
+    },
+    {
+      "src": "suite [71,229]",
+      "dest": "suite [77,313]"
+    },
+    {
+      "src": "name: MovieTicketDB [6,19]",
+      "dest": "name: MovieTicketDB [6,19]"
+    },
+    {
+      "src": "classdef [0,229]",
+      "dest": "classdef [0,313]"
+    },
+    {
+      "src": "parameters [55,70]",
+      "dest": "parameters [55,76]"
+    },
+    {
+      "src": "file_input [0,229]",
+      "dest": "file_input [0,313]"
+    },
+    {
+      "src": "name: customer_name [56,69]",
+      "dest": "name: customer_name [62,75]"
+    },
+    {
+      "src": "funcdef [25,229]",
+      "dest": "funcdef [25,313]"
+    },
+    {
+      "src": "name: search_tickets_by_customer [29,55]",
+      "dest": "name: search_tickets_by_customer [29,55]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [56,61]",
+      "parent": "parameters [55,76]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [163,250]",
+      "parent": "suite [77,313]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [258,291]",
+      "parent": "suite [77,313]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "return_stmt [299,313]",
+      "parent": "suite [77,313]",
+      "at": 2
+    }
+  ]
+}

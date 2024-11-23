@@ -1,0 +1,37 @@
+[
+    {
+        "action": "INS",
+        "label": "string",
+        "inserted": "\"\"",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "(map(str, self.nums))",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "trailer",
+        "inserted": "(expression)",
+        "deleted": "(expression)",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "expression",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "join",
+        "deleted": "expression",
+        "type": "Refactoring"
+    }
+]

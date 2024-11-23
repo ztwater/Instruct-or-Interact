@@ -1,0 +1,44 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Read a JSON file and return the data.\n        :param file_path: str, the path of the JSON file.\n        :return: dict, the data from the JSON file if read successfully, or return -1 if an error occurs during the reading process.\n                    return 0 if the file does not exist.\n        >>> json.read_json('test.json')\n        {'name': 'test', 'age': 14}\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "if_stmt",
+        "inserted": "if not os.path.exists(file_path):\n            return 0\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "except_clause",
+        "inserted": "except Exception",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return data\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return data",
+        "deleted": "return data",
+        "type": "Move"
+    }
+]

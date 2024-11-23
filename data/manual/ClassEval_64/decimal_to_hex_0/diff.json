@@ -1,0 +1,124 @@
+{
+  "matches": [
+    {
+      "src": "param [46,53]",
+      "dest": "param [46,57]"
+    },
+    {
+      "src": "suite [22,113]",
+      "dest": "suite [22,122]"
+    },
+    {
+      "src": "name: hex_value [64,73]",
+      "dest": "name: hex_num [68,75]"
+    },
+    {
+      "src": "classdef [0,113]",
+      "dest": "classdef [0,122]"
+    },
+    {
+      "src": "suite [55,113]",
+      "dest": "suite [59,122]"
+    },
+    {
+      "src": "operator: = [74,75]",
+      "dest": "operator: = [76,77]"
+    },
+    {
+      "src": "name: hex_value [104,113]",
+      "dest": "name: hex_num [114,121]"
+    },
+    {
+      "src": "atom_expr [76,88]",
+      "dest": "atom_expr [78,98]"
+    },
+    {
+      "src": "name: hex [76,79]",
+      "dest": "name: hex [78,81]"
+    },
+    {
+      "src": "trailer [79,88]",
+      "dest": "trailer [81,94]"
+    },
+    {
+      "src": "parameters [45,54]",
+      "dest": "parameters [45,58]"
+    },
+    {
+      "src": "file_input [0,113]",
+      "dest": "file_input [0,122]"
+    },
+    {
+      "src": "simple_stmt [64,89]",
+      "dest": "simple_stmt [68,99]"
+    },
+    {
+      "src": "funcdef [27,113]",
+      "dest": "funcdef [27,122]"
+    },
+    {
+      "src": "name: decimal_to_hex [31,45]",
+      "dest": "name: decimal_to_hex [31,45]"
+    },
+    {
+      "src": "expr_stmt [64,88]",
+      "dest": "expr_stmt [68,98]"
+    },
+    {
+      "src": "name: decimal [80,87]",
+      "dest": "name: decimal_num [82,93]"
+    },
+    {
+      "src": "name: decimal [46,53]",
+      "dest": "name: decimal_num [46,57]"
+    },
+    {
+      "src": "name: NumberConverter [6,21]",
+      "dest": "name: NumberConverter [6,21]"
+    },
+    {
+      "src": "return_stmt [97,113]",
+      "dest": "return_stmt [107,121]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [107,122]",
+      "parent": "suite [59,122]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: decimal [46,53]",
+      "label": "decimal_num"
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [97,113]",
+      "parent": "simple_stmt [107,122]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: hex_value [64,73]",
+      "label": "hex_num"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: hex_value [104,113]",
+      "label": "hex_num"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [94,98]",
+      "parent": "atom_expr [78,98]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: decimal [80,87]",
+      "label": "decimal_num"
+    }
+  ]
+}

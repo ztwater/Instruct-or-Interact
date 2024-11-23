@@ -1,0 +1,198 @@
+{
+  "matches": [
+    {
+      "src": "suite [16,187]",
+      "dest": "suite [16,456]"
+    },
+    {
+      "src": "atom_expr [70,93]",
+      "dest": "atom_expr [318,341]"
+    },
+    {
+      "src": "name: current_time [113,125]",
+      "dest": "name: current_time [361,373]"
+    },
+    {
+      "src": "classdef [0,187]",
+      "dest": "classdef [0,456]"
+    },
+    {
+      "src": "expr_stmt [55,93]",
+      "dest": "expr_stmt [303,341]"
+    },
+    {
+      "src": "suite [46,187]",
+      "dest": "suite [52,456]"
+    },
+    {
+      "src": "expr_stmt [102,163]",
+      "dest": "expr_stmt [350,411]"
+    },
+    {
+      "src": "trailer [136,146]",
+      "dest": "trailer [384,394]"
+    },
+    {
+      "src": "name: now [88,91]",
+      "dest": "name: now [336,339]"
+    },
+    {
+      "src": "operator: + [126,127]",
+      "dest": "operator: + [374,375]"
+    },
+    {
+      "src": "trailer [91,93]",
+      "dest": "trailer [339,341]"
+    },
+    {
+      "src": "name: datetime [128,136]",
+      "dest": "name: datetime [376,384]"
+    },
+    {
+      "src": "argument [147,162]",
+      "dest": "argument [395,410]"
+    },
+    {
+      "src": "name: new_time [102,110]",
+      "dest": "name: new_time [350,358]"
+    },
+    {
+      "src": "simple_stmt [55,94]",
+      "dest": "simple_stmt [303,342]"
+    },
+    {
+      "src": "arith_expr [113,163]",
+      "dest": "arith_expr [361,411]"
+    },
+    {
+      "src": "return_stmt [172,187]",
+      "dest": "return_stmt [420,456]"
+    },
+    {
+      "src": "name: new_time [179,187]",
+      "dest": "name: new_time [427,435]"
+    },
+    {
+      "src": "file_input [0,187]",
+      "dest": "file_input [0,456]"
+    },
+    {
+      "src": "name: current_time [55,67]",
+      "dest": "name: current_time [303,315]"
+    },
+    {
+      "src": "trailer [78,87]",
+      "dest": "trailer [326,335]"
+    },
+    {
+      "src": "operator: = [68,69]",
+      "dest": "operator: = [316,317]"
+    },
+    {
+      "src": "name: seconds [147,154]",
+      "dest": "name: seconds [395,402]"
+    },
+    {
+      "src": "name: datetime [79,87]",
+      "dest": "name: datetime [327,335]"
+    },
+    {
+      "src": "atom_expr [128,163]",
+      "dest": "atom_expr [376,411]"
+    },
+    {
+      "src": "trailer [146,163]",
+      "dest": "trailer [394,411]"
+    },
+    {
+      "src": "name: seconds [155,162]",
+      "dest": "name: seconds [403,410]"
+    },
+    {
+      "src": "name: add_seconds [25,36]",
+      "dest": "name: add_seconds [25,36]"
+    },
+    {
+      "src": "operator: = [154,155]",
+      "dest": "operator: = [402,403]"
+    },
+    {
+      "src": "name: timedelta [137,146]",
+      "dest": "name: timedelta [385,394]"
+    },
+    {
+      "src": "name: seconds [37,44]",
+      "dest": "name: seconds [43,50]"
+    },
+    {
+      "src": "name: datetime [70,78]",
+      "dest": "name: datetime [318,326]"
+    },
+    {
+      "src": "trailer [87,91]",
+      "dest": "trailer [335,339]"
+    },
+    {
+      "src": "simple_stmt [102,164]",
+      "dest": "simple_stmt [350,412]"
+    },
+    {
+      "src": "operator: = [111,112]",
+      "dest": "operator: = [359,360]"
+    },
+    {
+      "src": "name: TimeUtils [6,15]",
+      "dest": "name: TimeUtils [6,15]"
+    },
+    {
+      "src": "funcdef [21,187]",
+      "dest": "funcdef [21,456]"
+    },
+    {
+      "src": "param [37,44]",
+      "dest": "param [43,50]"
+    },
+    {
+      "src": "parameters [36,45]",
+      "dest": "parameters [36,51]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [37,42]",
+      "parent": "parameters [36,51]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [61,295]",
+      "parent": "suite [52,456]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [427,456]",
+      "parent": "return_stmt [420,456]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: new_time [179,187]",
+      "parent": "atom_expr [427,456]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [435,444]",
+      "parent": "atom_expr [427,456]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [444,456]",
+      "parent": "atom_expr [427,456]",
+      "at": 2
+    }
+  ]
+}

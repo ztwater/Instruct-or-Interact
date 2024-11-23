@@ -1,0 +1,421 @@
+{
+  "matches": [
+    {
+      "src": "fstring_string:  = ' [162,166]",
+      "dest": "fstring_string: =' [161,163]"
+    },
+    {
+      "src": "parameters [37,63]",
+      "dest": "parameters [37,62]"
+    },
+    {
+      "src": "suite [22,510]",
+      "dest": "suite [22,734]"
+    },
+    {
+      "src": "operator: } [437,438]",
+      "dest": "operator: } [669,670]"
+    },
+    {
+      "src": "classdef [0,510]",
+      "dest": "classdef [0,734]"
+    },
+    {
+      "src": "operator: } [172,173]",
+      "dest": "operator: } [169,170]"
+    },
+    {
+      "src": "suite [64,510]",
+      "dest": "suite [63,734]"
+    },
+    {
+      "src": "atom_expr [197,211]",
+      "dest": "atom_expr [194,206]"
+    },
+    {
+      "src": "operator: = [301,302]",
+      "dest": "operator: = [494,495]"
+    },
+    {
+      "src": "fstring_end: \" [322,323]",
+      "dest": "fstring_end: \" [518,519]"
+    },
+    {
+      "src": "name: update [31,37]",
+      "dest": "name: update [31,37]"
+    },
+    {
+      "src": "fstring_string:   [455,456]",
+      "dest": "fstring_string:   [687,688]"
+    },
+    {
+      "src": "operator: } [161,162]",
+      "dest": "operator: } [160,161]"
+    },
+    {
+      "src": "trailer [209,211]",
+      "dest": "trailer [204,206]"
+    },
+    {
+      "src": "name: sql_statement [406,419]",
+      "dest": "name: sql_statement [638,651]"
+    },
+    {
+      "src": "name: SQLQueryBuilder [6,21]",
+      "dest": "name: SQLQueryBuilder [6,21]"
+    },
+    {
+      "src": "fstring_string: ; [470,471]",
+      "dest": "fstring_string: ; [702,703]"
+    },
+    {
+      "src": "fstring_string: UPDATE  [424,431]",
+      "dest": "fstring_string: UPDATE  [656,663]"
+    },
+    {
+      "src": "operator: { [431,432]",
+      "dest": "operator: { [663,664]"
+    },
+    {
+      "src": "operator: { [311,312]",
+      "dest": "operator: { [504,505]"
+    },
+    {
+      "src": "fstring_expr [443,455]",
+      "dest": "fstring_expr [675,687]"
+    },
+    {
+      "src": "name: condition [53,62]",
+      "dest": "name: where [51,56]"
+    },
+    {
+      "src": "sync_comp_for [176,211]",
+      "dest": "sync_comp_for [173,206]"
+    },
+    {
+      "src": "name: column [180,186]",
+      "dest": "name: column [177,183]"
+    },
+    {
+      "src": "expr_stmt [406,472]",
+      "dest": "expr_stmt [638,704]"
+    },
+    {
+      "src": "fstring_string:  SET  [438,443]",
+      "dest": "fstring_string:  SET  [670,675]"
+    },
+    {
+      "src": "exprlist [180,193]",
+      "dest": "exprlist [177,190]"
+    },
+    {
+      "src": "atom_expr [141,213]",
+      "dest": "atom_expr [140,208]"
+    },
+    {
+      "src": "return_stmt [490,510]",
+      "dest": "return_stmt [714,734]"
+    },
+    {
+      "src": "testlist_comp [152,211]",
+      "dest": "testlist_comp [151,206]"
+    },
+    {
+      "src": "fstring_start: f\" [303,305]",
+      "dest": "fstring_start: f\" [496,498]"
+    },
+    {
+      "src": "param [45,52]",
+      "dest": "param [45,50]"
+    },
+    {
+      "src": "expr_stmt [128,213]",
+      "dest": "expr_stmt [127,208]"
+    },
+    {
+      "src": "funcdef [27,510]",
+      "dest": "funcdef [27,734]"
+    },
+    {
+      "src": "fstring_expr [166,173]",
+      "dest": "fstring_expr [163,170]"
+    },
+    {
+      "src": "operator: = [139,140]",
+      "dest": "operator: = [138,139]"
+    },
+    {
+      "src": "fstring_expr [456,470]",
+      "dest": "fstring_expr [688,702]"
+    },
+    {
+      "src": "operator: { [166,167]",
+      "dest": "operator: { [163,164]"
+    },
+    {
+      "src": "fstring_start: f\" [152,154]",
+      "dest": "fstring_start: f\" [151,153]"
+    },
+    {
+      "src": "fstring_expr [311,322]",
+      "dest": "fstring_expr [504,518]"
+    },
+    {
+      "src": "atom [151,212]",
+      "dest": "atom [150,207]"
+    },
+    {
+      "src": "fstring [303,323]",
+      "dest": "fstring [496,519]"
+    },
+    {
+      "src": "simple_stmt [406,473]",
+      "dest": "simple_stmt [638,705]"
+    },
+    {
+      "src": "operator: , [43,44]",
+      "dest": "operator: , [43,44]"
+    },
+    {
+      "src": "fstring_expr [431,438]",
+      "dest": "fstring_expr [663,670]"
+    },
+    {
+      "src": "operator: } [454,455]",
+      "dest": "operator: } [686,687]"
+    },
+    {
+      "src": "operator: { [154,155]",
+      "dest": "operator: { [153,154]"
+    },
+    {
+      "src": "param [53,62]",
+      "dest": "param [51,61]"
+    },
+    {
+      "src": "expr_stmt [288,323]",
+      "dest": "expr_stmt [481,519]"
+    },
+    {
+      "src": "name: sql_statement [497,510]",
+      "dest": "name: sql_statement [721,734]"
+    },
+    {
+      "src": "name: values [45,51]",
+      "dest": "name: data [45,49]"
+    },
+    {
+      "src": "fstring [152,175]",
+      "dest": "fstring [151,172]"
+    },
+    {
+      "src": "simple_stmt [288,324]",
+      "dest": "simple_stmt [481,520]"
+    },
+    {
+      "src": "name: value [167,172]",
+      "dest": "name: value [164,169]"
+    },
+    {
+      "src": "fstring_expr [154,162]",
+      "dest": "fstring_expr [153,161]"
+    },
+    {
+      "src": "file_input [0,510]",
+      "dest": "file_input [0,734]"
+    },
+    {
+      "src": "name: value [188,193]",
+      "dest": "name: value [185,190]"
+    },
+    {
+      "src": "name: condition [312,321]",
+      "dest": "name: where_clause [505,517]"
+    },
+    {
+      "src": "name: table [432,437]",
+      "dest": "name: table [664,669]"
+    },
+    {
+      "src": "trailer [203,209]",
+      "dest": "trailer [198,204]"
+    },
+    {
+      "src": "operator: = [420,421]",
+      "dest": "operator: = [652,653]"
+    },
+    {
+      "src": "name: table [38,43]",
+      "dest": "name: table [38,43]"
+    },
+    {
+      "src": "fstring_string: WHERE  [305,311]",
+      "dest": "fstring_string: WHERE  [498,504]"
+    },
+    {
+      "src": "name: items [204,209]",
+      "dest": "name: items [199,204]"
+    },
+    {
+      "src": "operator: , [51,52]",
+      "dest": "operator: , [49,50]"
+    },
+    {
+      "src": "operator: } [321,322]",
+      "dest": "operator: } [517,518]"
+    },
+    {
+      "src": "operator: { [443,444]",
+      "dest": "operator: { [675,676]"
+    },
+    {
+      "src": "string: ', ' [141,145]",
+      "dest": "string: ', ' [140,144]"
+    },
+    {
+      "src": "name: set_clause [128,138]",
+      "dest": "name: set_clause [127,137]"
+    },
+    {
+      "src": "fstring_start: f\" [422,424]",
+      "dest": "fstring_start: f\" [654,656]"
+    },
+    {
+      "src": "fstring [422,472]",
+      "dest": "fstring [654,704]"
+    },
+    {
+      "src": "fstring_end: \" [471,472]",
+      "dest": "fstring_end: \" [703,704]"
+    },
+    {
+      "src": "name: set_clause [444,454]",
+      "dest": "name: set_clause [676,686]"
+    },
+    {
+      "src": "param [38,44]",
+      "dest": "param [38,44]"
+    },
+    {
+      "src": "name: column [155,161]",
+      "dest": "name: column [154,160]"
+    },
+    {
+      "src": "operator: { [456,457]",
+      "dest": "operator: { [688,689]"
+    },
+    {
+      "src": "name: join [146,150]",
+      "dest": "name: join [145,149]"
+    },
+    {
+      "src": "name: values [197,203]",
+      "dest": "name: data [194,198]"
+    },
+    {
+      "src": "operator: , [186,187]",
+      "dest": "operator: , [183,184]"
+    },
+    {
+      "src": "fstring_end: \" [174,175]",
+      "dest": "fstring_end: \" [171,172]"
+    },
+    {
+      "src": "simple_stmt [128,214]",
+      "dest": "simple_stmt [127,209]"
+    },
+    {
+      "src": "name: where_clause [457,469]",
+      "dest": "name: where_clause [689,701]"
+    },
+    {
+      "src": "operator: } [469,470]",
+      "dest": "operator: } [701,702]"
+    },
+    {
+      "src": "trailer [145,150]",
+      "dest": "trailer [144,149]"
+    },
+    {
+      "src": "fstring_string: ' [173,174]",
+      "dest": "fstring_string: ' [170,171]"
+    },
+    {
+      "src": "trailer [150,213]",
+      "dest": "trailer [149,208]"
+    },
+    {
+      "src": "name: where_clause [288,300]",
+      "dest": "name: where_clause [481,493]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [359,564]",
+      "parent": "suite [63,734]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: values [45,51]",
+      "label": "data"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: condition [53,62]",
+      "label": "where"
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [56,57]",
+      "parent": "param [51,61]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: where [362,367]",
+      "parent": "if_stmt [359,564]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [368,520]",
+      "parent": "if_stmt [359,564]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [533,564]",
+      "parent": "if_stmt [359,564]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [381,469]",
+      "parent": "suite [368,520]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [288,324]",
+      "parent": "suite [368,520]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: condition [312,321]",
+      "label": "where_clause"
+    },
+    {
+      "action": "update-node",
+      "tree": "fstring_string:  = ' [162,166]",
+      "label": "='"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: values [197,203]",
+      "label": "data"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Remove punctuation marks and split a sentence into a list of word. Find the longest splited word that is in the self.word_list.\n        Words are strictly case sensitive.\n        :param sentence: a sentence str\n        :return str: longest splited word that is in the self.word_list. return '' if self.word_list is empty.\n        >>> longestWord = LongestWord()\n        >>> longestWord.add_word('A')\n        >>> longestWord.add_word('aM')\n        >>> longestWord.find_longest_word('I am a student.')\n        'a'\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return longest_word\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".word_list",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return longest_word",
+        "deleted": "return longest_word",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "word_list",
+        "deleted": "word_list",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "sentence",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "sentence",
+        "deleted": "word_list",
+        "type": "Refactoring"
+    }
+]

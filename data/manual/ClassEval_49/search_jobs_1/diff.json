@@ -1,0 +1,243 @@
+{
+  "matches": [
+    {
+      "src": "simple_stmt [595,631]",
+      "dest": "simple_stmt [232,268]"
+    },
+    {
+      "src": "name: position [535,543]",
+      "dest": "name: position [169,177]"
+    },
+    {
+      "src": "suite [578,631]",
+      "dest": "suite [215,268]"
+    },
+    {
+      "src": "atom [462,464]",
+      "dest": "atom [88,90]"
+    },
+    {
+      "src": "suite [21,673]",
+      "dest": "suite [21,310]"
+    },
+    {
+      "src": "atom_expr [535,552]",
+      "dest": "atom_expr [169,193]"
+    },
+    {
+      "src": "trailer [620,630]",
+      "dest": "trailer [257,267]"
+    },
+    {
+      "src": "return_stmt [648,673]",
+      "dest": "return_stmt [285,310]"
+    },
+    {
+      "src": "simple_stmt [441,465]",
+      "dest": "simple_stmt [67,91]"
+    },
+    {
+      "src": "classdef [0,673]",
+      "dest": "classdef [0,310]"
+    },
+    {
+      "src": "name: matching_positions [441,459]",
+      "dest": "name: matching_positions [67,85]"
+    },
+    {
+      "src": "parameters [41,55]",
+      "dest": "parameters [41,57]"
+    },
+    {
+      "src": "suite [56,673]",
+      "dest": "suite [58,310]"
+    },
+    {
+      "src": "trailer [613,620]",
+      "dest": "trailer [250,257]"
+    },
+    {
+      "src": "comparison [528,552]",
+      "dest": "comparison [162,193]"
+    },
+    {
+      "src": "name: position [486,494]",
+      "dest": "name: position [112,120]"
+    },
+    {
+      "src": "trailer [527,577]",
+      "dest": "trailer [161,214]"
+    },
+    {
+      "src": "file_input [0,673]",
+      "dest": "file_input [0,310]"
+    },
+    {
+      "src": "name: all [524,527]",
+      "dest": "name: all [158,161]"
+    },
+    {
+      "src": "name: JobMarketplace [6,20]",
+      "dest": "name: JobMarketplace [6,20]"
+    },
+    {
+      "src": "name: append [614,620]",
+      "dest": "name: append [251,257]"
+    },
+    {
+      "src": "operator: = [460,461]",
+      "dest": "operator: = [86,87]"
+    },
+    {
+      "src": "suite [508,631]",
+      "dest": "suite [142,268]"
+    },
+    {
+      "src": "expr_stmt [441,464]",
+      "dest": "expr_stmt [67,90]"
+    },
+    {
+      "src": "name: matching_positions [655,673]",
+      "dest": "name: matching_positions [292,310]"
+    },
+    {
+      "src": "name: requirements [42,54]",
+      "dest": "name: self [42,46]"
+    },
+    {
+      "src": "name: req [528,531]",
+      "dest": "name: req [162,165]"
+    },
+    {
+      "src": "name: req [557,560]",
+      "dest": "name: req [198,201]"
+    },
+    {
+      "src": "name: search_jobs [30,41]",
+      "dest": "name: search_jobs [30,41]"
+    },
+    {
+      "src": "name: matching_positions [595,613]",
+      "dest": "name: matching_positions [232,250]"
+    },
+    {
+      "src": "atom_expr [595,630]",
+      "dest": "atom_expr [232,267]"
+    },
+    {
+      "src": "name: position [621,629]",
+      "dest": "name: position [258,266]"
+    },
+    {
+      "src": "if_stmt [521,631]",
+      "dest": "if_stmt [155,268]"
+    },
+    {
+      "src": "name: requirements [564,576]",
+      "dest": "name: criteria [205,213]"
+    },
+    {
+      "src": "trailer [543,550]",
+      "dest": "trailer [177,193]"
+    },
+    {
+      "src": "for_stmt [482,631]",
+      "dest": "for_stmt [108,268]"
+    },
+    {
+      "src": "name: positions [498,507]",
+      "dest": "name: job_listings [129,141]"
+    },
+    {
+      "src": "funcdef [26,673]",
+      "dest": "funcdef [26,310]"
+    },
+    {
+      "src": "atom_expr [524,577]",
+      "dest": "atom_expr [158,214]"
+    },
+    {
+      "src": "param [42,54]",
+      "dest": "param [42,47]"
+    },
+    {
+      "src": "argument [528,576]",
+      "dest": "argument [162,213]"
+    },
+    {
+      "src": "sync_comp_for [553,576]",
+      "dest": "sync_comp_for [194,213]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [48,56]",
+      "parent": "parameters [41,57]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: requirements [42,54]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [46,47]",
+      "parent": "param [42,47]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [124,141]",
+      "parent": "for_stmt [108,268]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [124,128]",
+      "parent": "atom_expr [124,141]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [128,141]",
+      "parent": "atom_expr [124,141]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: positions [498,507]",
+      "label": "job_listings"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: positions [498,507]",
+      "parent": "trailer [128,141]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: requirements [564,576]",
+      "label": "criteria"
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: \"requirements\" [178,192]",
+      "parent": "trailer [177,193]",
+      "at": 0
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [65,424]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: values [544,550]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [550,552]"
+    }
+  ]
+}

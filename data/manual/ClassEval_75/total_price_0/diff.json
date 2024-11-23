@@ -1,0 +1,244 @@
+{
+  "matches": [
+    {
+      "src": "return_stmt [229,241]",
+      "dest": "return_stmt [461,473]"
+    },
+    {
+      "src": "name: total [236,241]",
+      "dest": "name: total [468,473]"
+    },
+    {
+      "src": "suite [19,241]",
+      "dest": "suite [19,473]"
+    },
+    {
+      "src": "name: total [195,200]",
+      "dest": "name: total [427,432]"
+    },
+    {
+      "src": "operator: = [130,131]",
+      "dest": "operator: = [362,363]"
+    },
+    {
+      "src": "simple_stmt [64,74]",
+      "dest": "simple_stmt [290,300]"
+    },
+    {
+      "src": "name: shopping_list [40,53]",
+      "dest": "name: self [40,44]"
+    },
+    {
+      "src": "classdef [0,241]",
+      "dest": "classdef [0,473]"
+    },
+    {
+      "src": "string: 'price' [174,181]",
+      "dest": "string: 'price' [406,413]"
+    },
+    {
+      "src": "suite [55,241]",
+      "dest": "suite [55,473]"
+    },
+    {
+      "src": "string: 'quantity' [137,147]",
+      "dest": "string: 'quantity' [369,379]"
+    },
+    {
+      "src": "name: price [215,220]",
+      "dest": "name: price [447,452]"
+    },
+    {
+      "src": "atom_expr [132,148]",
+      "dest": "atom_expr [364,380]"
+    },
+    {
+      "src": "parameters [39,54]",
+      "dest": "parameters [39,45]"
+    },
+    {
+      "src": "trailer [136,148]",
+      "dest": "trailer [368,380]"
+    },
+    {
+      "src": "name: price [161,166]",
+      "dest": "name: price [393,398]"
+    },
+    {
+      "src": "param [40,53]",
+      "dest": "param [40,44]"
+    },
+    {
+      "src": "name: total_price [28,39]",
+      "dest": "name: total_price [28,39]"
+    },
+    {
+      "src": "name: ShoppingCart [6,18]",
+      "dest": "name: ShoppingCart [6,18]"
+    },
+    {
+      "src": "simple_stmt [121,149]",
+      "dest": "simple_stmt [353,381]"
+    },
+    {
+      "src": "trailer [173,182]",
+      "dest": "trailer [405,414]"
+    },
+    {
+      "src": "name: quantity [121,129]",
+      "dest": "name: quantity [353,361]"
+    },
+    {
+      "src": "expr_stmt [64,73]",
+      "dest": "expr_stmt [290,299]"
+    },
+    {
+      "src": "file_input [0,241]",
+      "dest": "file_input [0,473]"
+    },
+    {
+      "src": "simple_stmt [195,221]",
+      "dest": "simple_stmt [427,453]"
+    },
+    {
+      "src": "term [204,220]",
+      "dest": "term [436,452]"
+    },
+    {
+      "src": "suite [108,221]",
+      "dest": "suite [340,453]"
+    },
+    {
+      "src": "expr_stmt [195,220]",
+      "dest": "expr_stmt [427,452]"
+    },
+    {
+      "src": "operator: = [167,168]",
+      "dest": "operator: = [399,400]"
+    },
+    {
+      "src": "operator: = [70,71]",
+      "dest": "operator: = [296,297]"
+    },
+    {
+      "src": "name: quantity [204,212]",
+      "dest": "name: quantity [436,444]"
+    },
+    {
+      "src": "name: item [132,136]",
+      "dest": "name: item [364,368]"
+    },
+    {
+      "src": "number: 0 [72,73]",
+      "dest": "number: 0 [298,299]"
+    },
+    {
+      "src": "expr_stmt [161,182]",
+      "dest": "expr_stmt [393,414]"
+    },
+    {
+      "src": "name: item [169,173]",
+      "dest": "name: item [401,405]"
+    },
+    {
+      "src": "atom_expr [169,182]",
+      "dest": "atom_expr [401,414]"
+    },
+    {
+      "src": "name: item [86,90]",
+      "dest": "name: item [312,316]"
+    },
+    {
+      "src": "simple_stmt [161,183]",
+      "dest": "simple_stmt [393,415]"
+    },
+    {
+      "src": "name: shopping_list [94,107]",
+      "dest": "name: self [320,324]"
+    },
+    {
+      "src": "operator: += [201,203]",
+      "dest": "operator: += [433,435]"
+    },
+    {
+      "src": "operator: * [213,214]",
+      "dest": "operator: * [445,446]"
+    },
+    {
+      "src": "name: total [64,69]",
+      "dest": "name: total [290,295]"
+    },
+    {
+      "src": "expr_stmt [121,148]",
+      "dest": "expr_stmt [353,380]"
+    },
+    {
+      "src": "for_stmt [82,221]",
+      "dest": "for_stmt [308,453]"
+    },
+    {
+      "src": "funcdef [24,241]",
+      "dest": "funcdef [24,473]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "operator: -> [46,48]",
+      "parent": "funcdef [24,473]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: float [49,54]",
+      "parent": "funcdef [24,473]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [64,282]",
+      "parent": "suite [55,473]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: shopping_list [40,53]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [320,339]",
+      "parent": "for_stmt [308,453]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: shopping_list [94,107]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: shopping_list [94,107]",
+      "parent": "atom_expr [320,339]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [324,330]",
+      "parent": "atom_expr [320,339]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [330,337]",
+      "parent": "atom_expr [320,339]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [337,339]",
+      "parent": "atom_expr [320,339]",
+      "at": 3
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "matches": [
+    {
+      "src": "number: 100 [79,82]",
+      "dest": "number: 100 [421,424]"
+    },
+    {
+      "src": "simple_stmt [148,167]",
+      "dest": "simple_stmt [581,619]"
+    },
+    {
+      "src": "suite [19,239]",
+      "dest": "suite [19,649]"
+    },
+    {
+      "src": "expr_stmt [125,135]",
+      "dest": "expr_stmt [553,568]"
+    },
+    {
+      "src": "expr_stmt [58,82]",
+      "dest": "expr_stmt [387,424]"
+    },
+    {
+      "src": "classdef [0,239]",
+      "dest": "classdef [0,649]"
+    },
+    {
+      "src": "trailer [153,166]",
+      "dest": "trailer [636,649]"
+    },
+    {
+      "src": "suite [49,239]",
+      "dest": "suite [51,649]"
+    },
+    {
+      "src": "name: level [71,76]",
+      "dest": "name: level [413,418]"
+    },
+    {
+      "src": "name: exp [94,97]",
+      "dest": "name: exp [471,474]"
+    },
+    {
+      "src": "atom_expr [148,166]",
+      "dest": "atom_expr [631,649]"
+    },
+    {
+      "src": "name: level [42,47]",
+      "dest": "name: amount [43,49]"
+    },
+    {
+      "src": "operator: , [40,41]",
+      "dest": "operator: , [41,42]"
+    },
+    {
+      "src": "name: exp [37,40]",
+      "dest": "name: self [37,41]"
+    },
+    {
+      "src": "simple_stmt [58,83]",
+      "dest": "simple_stmt [387,425]"
+    },
+    {
+      "src": "name: print [148,153]",
+      "dest": "name: print [631,636]"
+    },
+    {
+      "src": "name: exp_needed [58,68]",
+      "dest": "name: current_exp_needed [387,405]"
+    },
+    {
+      "src": "parameters [36,48]",
+      "dest": "parameters [36,50]"
+    },
+    {
+      "src": "operator: >= [98,100]",
+      "dest": "operator: >= [475,477]"
+    },
+    {
+      "src": "file_input [0,239]",
+      "dest": "file_input [0,649]"
+    },
+    {
+      "src": "string: \"Level up!\" [154,165]",
+      "dest": "string: \"Level up!\" [637,648]"
+    },
+    {
+      "src": "number: 1 [134,135]",
+      "dest": "number: 1 [567,568]"
+    },
+    {
+      "src": "term [71,82]",
+      "dest": "term [408,424]"
+    },
+    {
+      "src": "name: gain_exp [28,36]",
+      "dest": "name: gain_exp [28,36]"
+    },
+    {
+      "src": "param [42,47]",
+      "dest": "param [43,49]"
+    },
+    {
+      "src": "name: level [125,130]",
+      "dest": "name: level [558,563]"
+    },
+    {
+      "src": "param [37,41]",
+      "dest": "param [37,42]"
+    },
+    {
+      "src": "comparison [94,111]",
+      "dest": "comparison [466,496]"
+    },
+    {
+      "src": "simple_stmt [125,136]",
+      "dest": "simple_stmt [553,569]"
+    },
+    {
+      "src": "name: exp_needed [101,111]",
+      "dest": "name: current_exp_needed [478,496]"
+    },
+    {
+      "src": "operator: * [77,78]",
+      "dest": "operator: * [419,420]"
+    },
+    {
+      "src": "funcdef [24,239]",
+      "dest": "funcdef [24,649]"
+    },
+    {
+      "src": "operator: = [69,70]",
+      "dest": "operator: = [406,407]"
+    },
+    {
+      "src": "name: RPGCharacter [6,18]",
+      "dest": "name: RPGCharacter [6,18]"
+    },
+    {
+      "src": "operator: += [131,133]",
+      "dest": "operator: += [564,566]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [60,379]",
+      "parent": "suite [51,649]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [433,452]",
+      "parent": "suite [51,649]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "while_stmt [460,649]",
+      "parent": "suite [51,649]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: exp [37,40]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: level [42,47]",
+      "label": "amount"
+    },
+    {
+      "action": "move-tree",
+      "tree": "comparison [94,111]",
+      "parent": "while_stmt [460,649]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [497,649]",
+      "parent": "while_stmt [460,649]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: exp_needed [58,68]",
+      "label": "current_exp_needed"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [466,474]",
+      "parent": "comparison [466,496]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: exp_needed [101,111]",
+      "label": "current_exp_needed"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [510,541]",
+      "parent": "suite [497,649]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [125,136]",
+      "parent": "suite [497,649]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [148,167]",
+      "parent": "suite [497,649]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [148,166]",
+      "parent": "suite [497,649]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [408,418]",
+      "parent": "term [408,424]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [466,470]",
+      "parent": "atom_expr [466,474]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [470,474]",
+      "parent": "atom_expr [466,474]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "expr_stmt [581,618]",
+      "parent": "simple_stmt [581,619]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [408,412]",
+      "parent": "atom_expr [408,418]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [412,418]",
+      "parent": "atom_expr [408,418]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: exp [94,97]",
+      "parent": "trailer [470,474]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [553,563]",
+      "parent": "expr_stmt [553,568]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: level [71,76]",
+      "parent": "trailer [412,418]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [553,557]",
+      "parent": "atom_expr [553,563]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [557,563]",
+      "parent": "atom_expr [553,563]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: level [125,130]",
+      "parent": "trailer [557,563]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [112,167]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "suite [180,219]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "if_stmt [91,219]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "return_stmt [227,239]"
+    }
+  ]
+}

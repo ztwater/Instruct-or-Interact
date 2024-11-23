@@ -1,0 +1,84 @@
+{
+  "matches": [
+    {
+      "src": "suite [21,237]",
+      "dest": "suite [21,391]"
+    },
+    {
+      "src": "return_stmt [225,237]",
+      "dest": "return_stmt [379,391]"
+    },
+    {
+      "src": "name: MahjongConnect [6,20]",
+      "dest": "name: MahjongConnect [6,20]"
+    },
+    {
+      "src": "classdef [0,237]",
+      "dest": "classdef [0,391]"
+    },
+    {
+      "src": "parameters [38,52]",
+      "dest": "parameters [38,56]"
+    },
+    {
+      "src": "suite [53,237]",
+      "dest": "suite [57,391]"
+    },
+    {
+      "src": "name: icon1 [39,44]",
+      "dest": "name: pos1 [45,49]"
+    },
+    {
+      "src": "name: icon2 [46,51]",
+      "dest": "name: pos2 [51,55]"
+    },
+    {
+      "src": "file_input [0,237]",
+      "dest": "file_input [0,391]"
+    },
+    {
+      "src": "name: has_path [30,38]",
+      "dest": "name: has_path [30,38]"
+    },
+    {
+      "src": "funcdef [26,237]",
+      "dest": "funcdef [26,391]"
+    },
+    {
+      "src": "param [46,51]",
+      "dest": "param [51,55]"
+    },
+    {
+      "src": "param [39,45]",
+      "dest": "param [45,50]"
+    },
+    {
+      "src": "operator: , [44,45]",
+      "dest": "operator: , [49,50]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [39,44]",
+      "parent": "parameters [38,56]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [66,341]",
+      "parent": "suite [57,391]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: icon1 [39,44]",
+      "label": "pos1"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: icon2 [46,51]",
+      "label": "pos2"
+    }
+  ]
+}

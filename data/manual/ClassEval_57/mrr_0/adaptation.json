@@ -1,0 +1,30 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return sum(reciprocal_ranks) / len(reciprocal_ranks)\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "[0]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return sum(reciprocal_ranks) / len(reciprocal_ranks)",
+        "deleted": "return sum(reciprocal_ranks) / len(reciprocal_ranks)",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "query_results",
+        "deleted": "query_results",
+        "type": "Move"
+    }
+]

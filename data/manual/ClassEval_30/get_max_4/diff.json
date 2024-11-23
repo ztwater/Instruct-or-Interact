@@ -1,0 +1,118 @@
+{
+  "matches": [
+    {
+      "src": "name: DataStatistics2 [6,21]",
+      "dest": "name: DataStatistics2 [6,21]"
+    },
+    {
+      "src": "suite [22,70]",
+      "dest": "suite [22,79]"
+    },
+    {
+      "src": "name: data [39,43]",
+      "dest": "name: self [39,43]"
+    },
+    {
+      "src": "classdef [0,70]",
+      "dest": "classdef [0,79]"
+    },
+    {
+      "src": "suite [45,70]",
+      "dest": "suite [45,79]"
+    },
+    {
+      "src": "name: get_max [31,38]",
+      "dest": "name: get_max [31,38]"
+    },
+    {
+      "src": "param [39,43]",
+      "dest": "param [39,43]"
+    },
+    {
+      "src": "return_stmt [54,70]",
+      "dest": "return_stmt [54,78]"
+    },
+    {
+      "src": "file_input [0,70]",
+      "dest": "file_input [0,79]"
+    },
+    {
+      "src": "trailer [64,70]",
+      "dest": "trailer [72,77]"
+    },
+    {
+      "src": "name: data [65,69]",
+      "dest": "name: data [73,77]"
+    },
+    {
+      "src": "atom_expr [61,70]",
+      "dest": "atom_expr [68,77]"
+    },
+    {
+      "src": "funcdef [27,70]",
+      "dest": "funcdef [27,79]"
+    },
+    {
+      "src": "parameters [38,44]",
+      "dest": "parameters [38,44]"
+    },
+    {
+      "src": "name: max [61,64]",
+      "dest": "name: self [68,72]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [54,79]",
+      "parent": "suite [45,79]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: data [39,43]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [54,70]",
+      "parent": "simple_stmt [54,79]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [61,78]",
+      "parent": "return_stmt [54,78]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: np [61,63]",
+      "parent": "atom_expr [61,78]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [63,67]",
+      "parent": "atom_expr [61,78]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [67,78]",
+      "parent": "atom_expr [61,78]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [61,70]",
+      "parent": "trailer [67,78]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: max [61,64]",
+      "label": "self"
+    }
+  ]
+}

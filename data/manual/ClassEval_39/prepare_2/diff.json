@@ -1,0 +1,416 @@
+{
+  "matches": [
+    {
+      "src": "string: '+' [255,258]",
+      "dest": "string: '+' [249,252]"
+    },
+    {
+      "src": "trailer [499,510]",
+      "dest": "trailer [493,504]"
+    },
+    {
+      "src": "simple_stmt [123,176]",
+      "dest": "simple_stmt [123,170]"
+    },
+    {
+      "src": "suite [27,594]",
+      "dest": "suite [27,1149]"
+    },
+    {
+      "src": "string: '(' [280,283]",
+      "dest": "string: '(' [274,277]"
+    },
+    {
+      "src": "fstring_start: f\" [391,393]",
+      "dest": "fstring_start: f\" [385,387]"
+    },
+    {
+      "src": "classdef [0,594]",
+      "dest": "classdef [0,1149]"
+    },
+    {
+      "src": "fstring_string:   [404,405]",
+      "dest": "fstring_string:   [398,399]"
+    },
+    {
+      "src": "suite [62,594]",
+      "dest": "suite [62,1149]"
+    },
+    {
+      "src": "trailer [491,499]",
+      "dest": "trailer [485,493]"
+    },
+    {
+      "src": "simple_stmt [456,511]",
+      "dest": "simple_stmt [450,505]"
+    },
+    {
+      "src": "operator: = [252,253]",
+      "dest": "operator: = [246,247]"
+    },
+    {
+      "src": "name: infix_expression [578,594]",
+      "dest": "name: infix_expression [601,617]"
+    },
+    {
+      "src": "operator: , [504,505]",
+      "dest": "operator: , [498,499]"
+    },
+    {
+      "src": "operator: { [394,395]",
+      "dest": "operator: { [388,389]"
+    },
+    {
+      "src": "operator: = [473,474]",
+      "dest": "operator: = [467,468]"
+    },
+    {
+      "src": "string: \" \" [506,509]",
+      "dest": "string: \" \" [500,503]"
+    },
+    {
+      "src": "string: '^' [275,278]",
+      "dest": "string: '^' [269,272]"
+    },
+    {
+      "src": "operator: , [258,259]",
+      "dest": "operator: , [252,253]"
+    },
+    {
+      "src": "string: \"\" [172,174]",
+      "dest": "string: \"\" [166,168]"
+    },
+    {
+      "src": "operator: , [263,264]",
+      "dest": "operator: , [257,258]"
+    },
+    {
+      "src": "trailer [380,407]",
+      "dest": "trailer [374,401]"
+    },
+    {
+      "src": "operator: } [403,404]",
+      "dest": "operator: } [397,398]"
+    },
+    {
+      "src": "name: operator [395,403]",
+      "dest": "name: operator [389,397]"
+    },
+    {
+      "src": "operator: = [354,355]",
+      "dest": "operator: = [348,349]"
+    },
+    {
+      "src": "string: \" \" [167,170]",
+      "dest": "string: \" \" [161,164]"
+    },
+    {
+      "src": "operator: , [170,171]",
+      "dest": "operator: , [164,165]"
+    },
+    {
+      "src": "fstring_string:   [393,394]",
+      "dest": "fstring_string:   [387,388]"
+    },
+    {
+      "src": "simple_stmt [337,408]",
+      "dest": "simple_stmt [331,402]"
+    },
+    {
+      "src": "fstring_expr [394,404]",
+      "dest": "fstring_expr [388,398]"
+    },
+    {
+      "src": "name: replace [492,499]",
+      "dest": "name: replace [486,493]"
+    },
+    {
+      "src": "name: ExpressionCalculator [6,26]",
+      "dest": "name: ExpressionCalculator [6,26]"
+    },
+    {
+      "src": "expr_stmt [123,175]",
+      "dest": "expr_stmt [123,169]"
+    },
+    {
+      "src": "arglist [167,174]",
+      "dest": "arglist [161,168]"
+    },
+    {
+      "src": "trailer [158,166]",
+      "dest": "trailer [152,160]"
+    },
+    {
+      "src": "funcdef [32,594]",
+      "dest": "funcdef [32,1149]"
+    },
+    {
+      "src": "name: operator [302,310]",
+      "dest": "name: operator [296,304]"
+    },
+    {
+      "src": "fstring [391,406]",
+      "dest": "fstring [385,400]"
+    },
+    {
+      "src": "atom_expr [356,407]",
+      "dest": "atom_expr [350,401]"
+    },
+    {
+      "src": "arglist [381,406]",
+      "dest": "arglist [375,400]"
+    },
+    {
+      "src": "arglist [500,509]",
+      "dest": "arglist [494,503]"
+    },
+    {
+      "src": "name: operators [314,323]",
+      "dest": "name: operators [308,317]"
+    },
+    {
+      "src": "operator: , [268,269]",
+      "dest": "operator: , [262,263]"
+    },
+    {
+      "src": "testlist_comp [255,288]",
+      "dest": "testlist_comp [249,282]"
+    },
+    {
+      "src": "name: replace [373,380]",
+      "dest": "name: replace [367,374]"
+    },
+    {
+      "src": "trailer [166,175]",
+      "dest": "trailer [160,169]"
+    },
+    {
+      "src": "operator: , [389,390]",
+      "dest": "operator: , [383,384]"
+    },
+    {
+      "src": "name: infix_expression [475,491]",
+      "dest": "name: infix_expression [469,485]"
+    },
+    {
+      "src": "string: ')' [285,288]",
+      "dest": "string: ')' [279,282]"
+    },
+    {
+      "src": "string: '/' [270,273]",
+      "dest": "string: '/' [264,267]"
+    },
+    {
+      "src": "name: infix_expression [142,158]",
+      "dest": "name: expression [142,152]"
+    },
+    {
+      "src": "atom [254,289]",
+      "dest": "atom [248,283]"
+    },
+    {
+      "src": "operator: = [140,141]",
+      "dest": "operator: = [140,141]"
+    },
+    {
+      "src": "expr_stmt [242,289]",
+      "dest": "expr_stmt [236,283]"
+    },
+    {
+      "src": "file_input [0,594]",
+      "dest": "file_input [0,1149]"
+    },
+    {
+      "src": "param [44,60]",
+      "dest": "param [50,60]"
+    },
+    {
+      "src": "fstring_end: \" [405,406]",
+      "dest": "fstring_end: \" [399,400]"
+    },
+    {
+      "src": "name: operators [242,251]",
+      "dest": "name: operators [236,245]"
+    },
+    {
+      "src": "string: '*' [265,268]",
+      "dest": "string: '*' [259,262]"
+    },
+    {
+      "src": "name: replace [159,166]",
+      "dest": "name: replace [153,160]"
+    },
+    {
+      "src": "parameters [43,61]",
+      "dest": "parameters [43,61]"
+    },
+    {
+      "src": "simple_stmt [242,290]",
+      "dest": "simple_stmt [236,284]"
+    },
+    {
+      "src": "string: '-' [260,263]",
+      "dest": "string: '-' [254,257]"
+    },
+    {
+      "src": "trailer [372,380]",
+      "dest": "trailer [366,374]"
+    },
+    {
+      "src": "operator: , [273,274]",
+      "dest": "operator: , [267,268]"
+    },
+    {
+      "src": "atom_expr [475,510]",
+      "dest": "atom_expr [469,504]"
+    },
+    {
+      "src": "string: \"  \" [500,504]",
+      "dest": "string: \"  \" [494,498]"
+    },
+    {
+      "src": "name: infix_expression [356,372]",
+      "dest": "name: infix_expression [350,366]"
+    },
+    {
+      "src": "name: infix_expression [123,139]",
+      "dest": "name: infix_expression [123,139]"
+    },
+    {
+      "src": "name: infix_expression [337,353]",
+      "dest": "name: infix_expression [331,347]"
+    },
+    {
+      "src": "name: operator [381,389]",
+      "dest": "name: operator [375,383]"
+    },
+    {
+      "src": "name: infix_expression [44,60]",
+      "dest": "name: expression [50,60]"
+    },
+    {
+      "src": "operator: , [278,279]",
+      "dest": "operator: , [272,273]"
+    },
+    {
+      "src": "operator: , [283,284]",
+      "dest": "operator: , [277,278]"
+    },
+    {
+      "src": "for_stmt [298,408]",
+      "dest": "for_stmt [292,402]"
+    },
+    {
+      "src": "expr_stmt [337,407]",
+      "dest": "expr_stmt [331,401]"
+    },
+    {
+      "src": "name: prepare [36,43]",
+      "dest": "name: prepare [36,43]"
+    },
+    {
+      "src": "expr_stmt [456,510]",
+      "dest": "expr_stmt [450,504]"
+    },
+    {
+      "src": "name: infix_expression [456,472]",
+      "dest": "name: infix_expression [450,466]"
+    },
+    {
+      "src": "suite [324,408]",
+      "dest": "suite [318,402]"
+    },
+    {
+      "src": "atom_expr [142,175]",
+      "dest": "atom_expr [142,169]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [44,49]",
+      "parent": "parameters [43,61]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [586,626]",
+      "parent": "suite [62,1149]",
+      "at": 4
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [698,718]",
+      "parent": "suite [62,1149]",
+      "at": 5
+    },
+    {
+      "action": "insert-tree",
+      "tree": "for_stmt [726,1055]",
+      "parent": "suite [62,1149]",
+      "at": 6
+    },
+    {
+      "action": "insert-tree",
+      "tree": "while_stmt [1068,1149]",
+      "parent": "suite [62,1149]",
+      "at": 7
+    },
+    {
+      "action": "update-node",
+      "tree": "name: infix_expression [44,60]",
+      "label": "expression"
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [586,625]",
+      "parent": "simple_stmt [586,626]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: infix_tokens [586,598]",
+      "parent": "expr_stmt [586,625]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [599,600]",
+      "parent": "expr_stmt [586,625]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [601,625]",
+      "parent": "expr_stmt [586,625]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: infix_expression [142,158]",
+      "label": "expression"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: infix_expression [578,594]",
+      "parent": "atom_expr [601,625]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [617,623]",
+      "parent": "atom_expr [601,625]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [623,625]",
+      "parent": "atom_expr [601,625]",
+      "at": 2
+    },
+    {
+      "action": "delete-node",
+      "tree": "return_stmt [571,594]"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "matches": [
+    {
+      "src": "suite [26,188]",
+      "dest": "suite [26,448]"
+    },
+    {
+      "src": "simple_stmt [149,168]",
+      "dest": "simple_stmt [408,427]"
+    },
+    {
+      "src": "number: 4 [93,94]",
+      "dest": "number: 4 [352,353]"
+    },
+    {
+      "src": "name: get_my_cards [35,47]",
+      "dest": "name: get_my_cards [35,47]"
+    },
+    {
+      "src": "classdef [0,188]",
+      "dest": "classdef [0,448]"
+    },
+    {
+      "src": "number: 1 [131,132]",
+      "dest": "number: 1 [390,391]"
+    },
+    {
+      "src": "suite [50,188]",
+      "dest": "suite [54,448]"
+    },
+    {
+      "src": "name: _ [82,83]",
+      "dest": "name: _ [341,342]"
+    },
+    {
+      "src": "name: card [109,113]",
+      "dest": "name: card [368,372]"
+    },
+    {
+      "src": "trailer [161,167]",
+      "dest": "trailer [420,426]"
+    },
+    {
+      "src": "suite [96,168]",
+      "dest": "suite [355,427]"
+    },
+    {
+      "src": "name: card [162,166]",
+      "dest": "name: card [421,425]"
+    },
+    {
+      "src": "expr_stmt [109,136]",
+      "dest": "expr_stmt [368,395]"
+    },
+    {
+      "src": "name: random [116,122]",
+      "dest": "name: random [375,381]"
+    },
+    {
+      "src": "return_stmt [176,188]",
+      "dest": "return_stmt [435,447]"
+    },
+    {
+      "src": "operator: = [65,66]",
+      "dest": "operator: = [324,325]"
+    },
+    {
+      "src": "parameters [47,49]",
+      "dest": "parameters [47,53]"
+    },
+    {
+      "src": "atom_expr [87,95]",
+      "dest": "atom_expr [346,354]"
+    },
+    {
+      "src": "arglist [131,135]",
+      "dest": "arglist [390,394]"
+    },
+    {
+      "src": "trailer [92,95]",
+      "dest": "trailer [351,354]"
+    },
+    {
+      "src": "name: TwentyFourPointGame [6,25]",
+      "dest": "name: TwentyFourPointGame [6,25]"
+    },
+    {
+      "src": "file_input [0,188]",
+      "dest": "file_input [0,448]"
+    },
+    {
+      "src": "operator: , [132,133]",
+      "dest": "operator: , [391,392]"
+    },
+    {
+      "src": "name: cards [149,154]",
+      "dest": "name: cards [408,413]"
+    },
+    {
+      "src": "number: 9 [134,135]",
+      "dest": "number: 9 [393,394]"
+    },
+    {
+      "src": "trailer [122,130]",
+      "dest": "trailer [381,389]"
+    },
+    {
+      "src": "trailer [154,161]",
+      "dest": "trailer [413,420]"
+    },
+    {
+      "src": "simple_stmt [109,137]",
+      "dest": "simple_stmt [368,396]"
+    },
+    {
+      "src": "atom_expr [116,136]",
+      "dest": "atom_expr [375,395]"
+    },
+    {
+      "src": "trailer [130,136]",
+      "dest": "trailer [389,395]"
+    },
+    {
+      "src": "name: randint [123,130]",
+      "dest": "name: randint [382,389]"
+    },
+    {
+      "src": "operator: = [114,115]",
+      "dest": "operator: = [373,374]"
+    },
+    {
+      "src": "atom [67,69]",
+      "dest": "atom [326,328]"
+    },
+    {
+      "src": "atom_expr [149,167]",
+      "dest": "atom_expr [408,426]"
+    },
+    {
+      "src": "name: append [155,161]",
+      "dest": "name: append [414,420]"
+    },
+    {
+      "src": "name: cards [183,188]",
+      "dest": "name: cards [442,447]"
+    },
+    {
+      "src": "for_stmt [78,168]",
+      "dest": "for_stmt [337,427]"
+    },
+    {
+      "src": "name: range [87,92]",
+      "dest": "name: range [346,351]"
+    },
+    {
+      "src": "funcdef [31,188]",
+      "dest": "funcdef [31,448]"
+    },
+    {
+      "src": "expr_stmt [59,69]",
+      "dest": "expr_stmt [318,328]"
+    },
+    {
+      "src": "name: cards [59,64]",
+      "dest": "name: cards [318,323]"
+    },
+    {
+      "src": "simple_stmt [59,70]",
+      "dest": "simple_stmt [318,329]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [48,52]",
+      "parent": "parameters [47,53]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [63,310]",
+      "parent": "suite [54,448]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [435,448]",
+      "parent": "suite [54,448]",
+      "at": 3
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [176,188]",
+      "parent": "simple_stmt [435,448]",
+      "at": 0
+    }
+  ]
+}

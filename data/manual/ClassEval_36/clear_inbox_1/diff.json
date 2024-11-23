@@ -1,0 +1,279 @@
+{
+  "matches": [
+    {
+      "src": "parameters [38,55]",
+      "dest": "parameters [38,50]"
+    },
+    {
+      "src": "name: email_box [125,134]",
+      "dest": "name: email [636,641]"
+    },
+    {
+      "src": "suite [18,203]",
+      "dest": "suite [18,701]"
+    },
+    {
+      "src": "atom_expr [121,135]",
+      "dest": "atom_expr [609,657]"
+    },
+    {
+      "src": "trailer [124,135]",
+      "dest": "trailer [612,657]"
+    },
+    {
+      "src": "classdef [0,203]",
+      "dest": "classdef [0,701]"
+    },
+    {
+      "src": "suite [56,203]",
+      "dest": "suite [51,701]"
+    },
+    {
+      "src": "atom_expr [148,178]",
+      "dest": "atom_expr [670,701]"
+    },
+    {
+      "src": "name: email_box [148,157]",
+      "dest": "name: inbox [675,680]"
+    },
+    {
+      "src": "expr_stmt [106,135]",
+      "dest": "expr_stmt [594,657]"
+    },
+    {
+      "src": "operator: = [119,120]",
+      "dest": "operator: = [607,608]"
+    },
+    {
+      "src": "param [50,54]",
+      "dest": "param [45,49]"
+    },
+    {
+      "src": "operator: > [86,87]",
+      "dest": "operator: > [574,575]"
+    },
+    {
+      "src": "name: email_box [75,84]",
+      "dest": "name: get_occupied_size [554,571]"
+    },
+    {
+      "src": "name: remove [158,164]",
+      "dest": "name: remove [681,687]"
+    },
+    {
+      "src": "name: sum [71,74]",
+      "dest": "name: self [549,553]"
+    },
+    {
+      "src": "name: size [88,92]",
+      "dest": "name: size [576,580]"
+    },
+    {
+      "src": "file_input [0,203]",
+      "dest": "file_input [0,701]"
+    },
+    {
+      "src": "suite [93,179]",
+      "dest": "suite [581,701]"
+    },
+    {
+      "src": "trailer [164,178]",
+      "dest": "trailer [687,701]"
+    },
+    {
+      "src": "name: EmailClient [6,17]",
+      "dest": "name: EmailClient [6,17]"
+    },
+    {
+      "src": "trailer [157,164]",
+      "dest": "trailer [680,687]"
+    },
+    {
+      "src": "name: clear_inbox [27,38]",
+      "dest": "name: clear_inbox [27,38]"
+    },
+    {
+      "src": "name: size [50,54]",
+      "dest": "name: size [45,49]"
+    },
+    {
+      "src": "name: oldest_email [165,177]",
+      "dest": "name: oldest_email [688,700]"
+    },
+    {
+      "src": "trailer [74,85]",
+      "dest": "trailer [553,571]"
+    },
+    {
+      "src": "simple_stmt [106,136]",
+      "dest": "simple_stmt [594,658]"
+    },
+    {
+      "src": "comparison [71,92]",
+      "dest": "comparison [549,580]"
+    },
+    {
+      "src": "name: email_box [39,48]",
+      "dest": "name: self [39,43]"
+    },
+    {
+      "src": "while_stmt [65,179]",
+      "dest": "while_stmt [543,701]"
+    },
+    {
+      "src": "name: min [121,124]",
+      "dest": "name: min [609,612]"
+    },
+    {
+      "src": "funcdef [23,203]",
+      "dest": "funcdef [23,701]"
+    },
+    {
+      "src": "param [39,49]",
+      "dest": "param [39,44]"
+    },
+    {
+      "src": "name: oldest_email [106,118]",
+      "dest": "name: oldest_email [594,606]"
+    },
+    {
+      "src": "operator: , [48,49]",
+      "dest": "operator: , [43,44]"
+    },
+    {
+      "src": "atom_expr [71,85]",
+      "dest": "atom_expr [549,573]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [60,535]",
+      "parent": "suite [51,701]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: email_box [39,48]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [148,178]",
+      "parent": "suite [581,701]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: sum [71,74]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [571,573]",
+      "parent": "atom_expr [549,573]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [670,674]",
+      "parent": "atom_expr [670,701]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [674,680]",
+      "parent": "atom_expr [670,701]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: email_box [75,84]",
+      "label": "get_occupied_size"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: email_box [148,157]",
+      "label": "inbox"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: email_box [148,157]",
+      "parent": "trailer [674,680]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "arglist [613,656]",
+      "parent": "trailer [612,657]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [613,623]",
+      "parent": "arglist [613,656]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [623,624]",
+      "parent": "arglist [613,656]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "argument [625,656]",
+      "parent": "arglist [613,656]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: key [625,628]",
+      "parent": "argument [625,656]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [628,629]",
+      "parent": "argument [625,656]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "lambdef [629,656]",
+      "parent": "argument [625,656]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "param [636,641]",
+      "parent": "lambdef [629,656]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [643,656]",
+      "parent": "lambdef [629,656]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: email_box [125,134]",
+      "label": "email"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: email_box [125,134]",
+      "parent": "param [636,641]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [148,179]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "return_stmt [187,203]"
+    }
+  ]
+}

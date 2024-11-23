@@ -1,0 +1,953 @@
+{
+  "matches": [
+    {
+      "src": "simple_stmt [892,969]",
+      "dest": "simple_stmt [927,1012]"
+    },
+    {
+      "src": "trailer [271,283]",
+      "dest": "trailer [290,306]"
+    },
+    {
+      "src": "atom_expr [574,595]",
+      "dest": "atom_expr [609,630]"
+    },
+    {
+      "src": "simple_stmt [643,665]",
+      "dest": "simple_stmt [678,700]"
+    },
+    {
+      "src": "atom_expr [1130,1153]",
+      "dest": "atom_expr [1173,1201]"
+    },
+    {
+      "src": "number: 0 [181,182]",
+      "dest": "number: 0 [200,201]"
+    },
+    {
+      "src": "operator: != [952,954]",
+      "dest": "operator: != [995,997]"
+    },
+    {
+      "src": "name: j [301,302]",
+      "dest": "name: j [324,325]"
+    },
+    {
+      "src": "term [658,663]",
+      "dest": "term [693,698]"
+    },
+    {
+      "src": "trailer [934,946]",
+      "dest": "trailer [973,989]"
+    },
+    {
+      "src": "atom_expr [352,360]",
+      "dest": "atom_expr [379,391]"
+    },
+    {
+      "src": "name: b [546,547]",
+      "dest": "name: b [581,582]"
+    },
+    {
+      "src": "name: a [615,616]",
+      "dest": "name: a [650,651]"
+    },
+    {
+      "src": "name: len [139,142]",
+      "dest": "name: len [150,153]"
+    },
+    {
+      "src": "name: i [358,359]",
+      "dest": "name: i [389,390]"
+    },
+    {
+      "src": "return_stmt [168,189]",
+      "dest": "return_stmt [183,208]"
+    },
+    {
+      "src": "operator: , [317,318]",
+      "dest": "operator: , [340,341]"
+    },
+    {
+      "src": "term [520,525]",
+      "dest": "term [555,560]"
+    },
+    {
+      "src": "name: results [643,650]",
+      "dest": "name: results [678,685]"
+    },
+    {
+      "src": "arith_expr [312,317]",
+      "dest": "arith_expr [335,340]"
+    },
+    {
+      "src": "atom_expr [929,946]",
+      "dest": "atom_expr [968,989]"
+    },
+    {
+      "src": "name: i [261,262]",
+      "dest": "name: i [280,281]"
+    },
+    {
+      "src": "operator: * [522,523]",
+      "dest": "operator: * [557,558]"
+    },
+    {
+      "src": "name: range [929,934]",
+      "dest": "name: range [968,973]"
+    },
+    {
+      "src": "name: cards [175,180]",
+      "dest": "name: nums [195,199]"
+    },
+    {
+      "src": "operator: != [963,965]",
+      "dest": "operator: != [1006,1008]"
+    },
+    {
+      "src": "simple_stmt [348,361]",
+      "dest": "simple_stmt [375,392]"
+    },
+    {
+      "src": "testlist_comp [499,525]",
+      "dest": "testlist_comp [534,560]"
+    },
+    {
+      "src": "trailer [357,360]",
+      "dest": "trailer [388,391]"
+    },
+    {
+      "src": "name: b [524,525]",
+      "dest": "name: b [559,560]"
+    },
+    {
+      "src": "trailer [180,183]",
+      "dest": "trailer [199,202]"
+    },
+    {
+      "src": "name: results [777,784]",
+      "dest": "name: results [812,819]"
+    },
+    {
+      "src": "name: b [503,504]",
+      "dest": "name: b [538,539]"
+    },
+    {
+      "src": "atom_expr [643,664]",
+      "dest": "atom_expr [678,699]"
+    },
+    {
+      "src": "simple_stmt [574,596]",
+      "dest": "simple_stmt [609,631]"
+    },
+    {
+      "src": "name: cards [939,944]",
+      "dest": "name: nums [983,987]"
+    },
+    {
+      "src": "atom_expr [175,183]",
+      "dest": "atom_expr [190,202]"
+    },
+    {
+      "src": "name: i [312,313]",
+      "dest": "name: i [335,336]"
+    },
+    {
+      "src": "operator: = [496,497]",
+      "dest": "operator: = [531,532]"
+    },
+    {
+      "src": "trailer [1004,1011]",
+      "dest": "trailer [1047,1054]"
+    },
+    {
+      "src": "name: cards [276,281]",
+      "dest": "name: nums [300,304]"
+    },
+    {
+      "src": "expr_stmt [488,526]",
+      "dest": "expr_stmt [523,561]"
+    },
+    {
+      "src": "sync_comp_for [920,967]",
+      "dest": "sync_comp_for [959,1010]"
+    },
+    {
+      "src": "operator: = [350,351]",
+      "dest": "operator: = [377,378]"
+    },
+    {
+      "src": "trailer [322,329]",
+      "dest": "trailer [350,355]"
+    },
+    {
+      "src": "comp_if [947,967]",
+      "dest": "comp_if [990,1010]"
+    },
+    {
+      "src": "expr_stmt [377,389]",
+      "dest": "expr_stmt [408,424]"
+    },
+    {
+      "src": "simple_stmt [1179,1191]",
+      "dest": "simple_stmt [1227,1239]"
+    },
+    {
+      "src": "name: results [574,581]",
+      "dest": "name: results [609,616]"
+    },
+    {
+      "src": "name: k [924,925]",
+      "dest": "name: k [963,964]"
+    },
+    {
+      "src": "atom [910,968]",
+      "dest": "atom [945,1011]"
+    },
+    {
+      "src": "trailer [386,389]",
+      "dest": "trailer [421,424]"
+    },
+    {
+      "src": "name: cards [352,357]",
+      "dest": "name: nums [384,388]"
+    },
+    {
+      "src": "trailer [657,664]",
+      "dest": "trailer [692,699]"
+    },
+    {
+      "src": "expr_stmt [348,360]",
+      "dest": "expr_stmt [375,391]"
+    },
+    {
+      "src": "atom_expr [306,330]",
+      "dest": "atom_expr [329,357]"
+    },
+    {
+      "src": "operator: + [314,315]",
+      "dest": "operator: + [337,338]"
+    },
+    {
+      "src": "name: a [499,500]",
+      "dest": "name: a [534,535]"
+    },
+    {
+      "src": "if_stmt [136,190]",
+      "dest": "if_stmt [147,209]"
+    },
+    {
+      "src": "name: a [520,521]",
+      "dest": "name: a [555,556]"
+    },
+    {
+      "src": "arglist [312,329]",
+      "dest": "arglist [335,356]"
+    },
+    {
+      "src": "name: len [319,322]",
+      "dest": "name: len [342,345]"
+    },
+    {
+      "src": "suite [1154,1191]",
+      "dest": "suite [1202,1239]"
+    },
+    {
+      "src": "simple_stmt [488,527]",
+      "dest": "simple_stmt [523,562]"
+    },
+    {
+      "src": "arith_expr [499,504]",
+      "dest": "arith_expr [534,539]"
+    },
+    {
+      "src": "atom_expr [989,1019]",
+      "dest": "atom_expr [1032,1062]"
+    },
+    {
+      "src": "suite [622,665]",
+      "dest": "suite [657,700]"
+    },
+    {
+      "src": "operator: / [591,592]",
+      "dest": "operator: / [626,627]"
+    },
+    {
+      "src": "operator: = [908,909]",
+      "dest": "operator: = [943,944]"
+    },
+    {
+      "src": "name: a [506,507]",
+      "dest": "name: a [541,542]"
+    },
+    {
+      "src": "name: i [955,956]",
+      "dest": "name: i [998,999]"
+    },
+    {
+      "src": "atom_expr [911,919]",
+      "dest": "atom_expr [946,958]"
+    },
+    {
+      "src": "if_stmt [1127,1191]",
+      "dest": "if_stmt [1170,1239]"
+    },
+    {
+      "src": "operator: , [511,512]",
+      "dest": "operator: , [546,547]"
+    },
+    {
+      "src": "name: b [513,514]",
+      "dest": "name: b [548,549]"
+    },
+    {
+      "src": "comparison [615,621]",
+      "dest": "comparison [650,656]"
+    },
+    {
+      "src": "name: k [961,962]",
+      "dest": "name: k [1004,1005]"
+    },
+    {
+      "src": "operator: != [548,550]",
+      "dest": "operator: != [583,585]"
+    },
+    {
+      "src": "name: append [651,657]",
+      "dest": "name: append [686,692]"
+    },
+    {
+      "src": "atom_expr [935,945]",
+      "dest": "atom_expr [974,988]"
+    },
+    {
+      "src": "name: b [593,594]",
+      "dest": "name: b [628,629]"
+    },
+    {
+      "src": "comparison [175,189]",
+      "dest": "comparison [190,208]"
+    },
+    {
+      "src": "name: remaining_cards [892,907]",
+      "dest": "name: remaining_cards [927,942]"
+    },
+    {
+      "src": "operator: / [660,661]",
+      "dest": "operator: / [695,696]"
+    },
+    {
+      "src": "comparison [139,154]",
+      "dest": "comparison [150,169]"
+    },
+    {
+      "src": "classdef [0,1274]",
+      "dest": "classdef [0,1322]"
+    },
+    {
+      "src": "simple_stmt [989,1020]",
+      "dest": "simple_stmt [1032,1063]"
+    },
+    {
+      "src": "name: k [917,918]",
+      "dest": "name: k [956,957]"
+    },
+    {
+      "src": "suite [155,190]",
+      "dest": "suite [170,209]"
+    },
+    {
+      "src": "name: append [1005,1011]",
+      "dest": "name: append [1048,1054]"
+    },
+    {
+      "src": "operator: - [508,509]",
+      "dest": "operator: - [543,544]"
+    },
+    {
+      "src": "name: k [950,951]",
+      "dest": "name: k [993,994]"
+    },
+    {
+      "src": "suite [785,1191]",
+      "dest": "suite [820,1239]"
+    },
+    {
+      "src": "name: remaining_cards [1137,1152]",
+      "dest": "name: remaining_cards [1185,1200]"
+    },
+    {
+      "src": "operator: - [515,516]",
+      "dest": "operator: - [550,551]"
+    },
+    {
+      "src": "simple_stmt [377,390]",
+      "dest": "simple_stmt [408,425]"
+    },
+    {
+      "src": "if_stmt [612,665]",
+      "dest": "if_stmt [647,700]"
+    },
+    {
+      "src": "name: answer [35,41]",
+      "dest": "name: answer [35,41]"
+    },
+    {
+      "src": "name: b [377,378]",
+      "dest": "name: b [408,409]"
+    },
+    {
+      "src": "name: cards [42,47]",
+      "dest": "name: self [42,46]"
+    },
+    {
+      "src": "name: results [488,495]",
+      "dest": "name: results [523,530]"
+    },
+    {
+      "src": "trailer [275,282]",
+      "dest": "trailer [299,304]"
+    },
+    {
+      "src": "suite [553,596]",
+      "dest": "suite [588,631]"
+    },
+    {
+      "src": "number: 1 [316,317]",
+      "dest": "number: 1 [339,340]"
+    },
+    {
+      "src": "name: result [767,773]",
+      "dest": "name: result [802,808]"
+    },
+    {
+      "src": "name: append [582,588]",
+      "dest": "name: append [617,623]"
+    },
+    {
+      "src": "name: b [510,511]",
+      "dest": "name: b [545,546]"
+    },
+    {
+      "src": "trailer [588,595]",
+      "dest": "trailer [623,630]"
+    },
+    {
+      "src": "suite [49,1274]",
+      "dest": "suite [60,1322]"
+    },
+    {
+      "src": "operator: , [504,505]",
+      "dest": "operator: , [539,540]"
+    },
+    {
+      "src": "trailer [916,919]",
+      "dest": "trailer [955,958]"
+    },
+    {
+      "src": "return_stmt [1262,1274]",
+      "dest": "return_stmt [1310,1322]"
+    },
+    {
+      "src": "name: range [306,311]",
+      "dest": "name: range [329,334]"
+    },
+    {
+      "src": "name: cards [323,328]",
+      "dest": "name: nums [351,355]"
+    },
+    {
+      "src": "number: 0 [620,621]",
+      "dest": "number: 0 [655,656]"
+    },
+    {
+      "src": "number: 24 [187,189]",
+      "dest": "number: 24 [206,208]"
+    },
+    {
+      "src": "return_stmt [1179,1190]",
+      "dest": "return_stmt [1227,1238]"
+    },
+    {
+      "src": "operator: == [150,152]",
+      "dest": "operator: == [165,167]"
+    },
+    {
+      "src": "name: TwentyFourPointGame [6,25]",
+      "dest": "name: TwentyFourPointGame [6,25]"
+    },
+    {
+      "src": "comparison [961,967]",
+      "dest": "comparison [1004,1010]"
+    },
+    {
+      "src": "trailer [311,330]",
+      "dest": "trailer [334,357]"
+    },
+    {
+      "src": "param [42,47]",
+      "dest": "param [42,47]"
+    },
+    {
+      "src": "file_input [0,1274]",
+      "dest": "file_input [0,1322]"
+    },
+    {
+      "src": "and_test [950,967]",
+      "dest": "and_test [993,1010]"
+    },
+    {
+      "src": "number: 1 [153,154]",
+      "dest": "number: 1 [168,169]"
+    },
+    {
+      "src": "suite [26,1274]",
+      "dest": "suite [26,1322]"
+    },
+    {
+      "src": "if_stmt [543,596]",
+      "dest": "if_stmt [578,631]"
+    },
+    {
+      "src": "funcdef [31,1274]",
+      "dest": "funcdef [31,1322]"
+    },
+    {
+      "src": "operator: == [184,186]",
+      "dest": "operator: == [203,205]"
+    },
+    {
+      "src": "comparison [950,956]",
+      "dest": "comparison [993,999]"
+    },
+    {
+      "src": "for_stmt [763,1191]",
+      "dest": "for_stmt [798,1239]"
+    },
+    {
+      "src": "for_stmt [297,1191]",
+      "dest": "for_stmt [320,1239]"
+    },
+    {
+      "src": "name: cards [143,148]",
+      "dest": "name: nums [159,163]"
+    },
+    {
+      "src": "atom_expr [139,149]",
+      "dest": "atom_expr [150,164]"
+    },
+    {
+      "src": "atom_expr [319,329]",
+      "dest": "atom_expr [342,356]"
+    },
+    {
+      "src": "name: b [658,659]",
+      "dest": "name: b [693,694]"
+    },
+    {
+      "src": "parameters [41,48]",
+      "dest": "parameters [41,59]"
+    },
+    {
+      "src": "operator: + [501,502]",
+      "dest": "operator: + [536,537]"
+    },
+    {
+      "src": "operator: != [617,619]",
+      "dest": "operator: != [652,654]"
+    },
+    {
+      "src": "suite [284,1191]",
+      "dest": "suite [307,1239]"
+    },
+    {
+      "src": "expr_stmt [892,968]",
+      "dest": "expr_stmt [927,1011]"
+    },
+    {
+      "src": "testlist_comp [911,967]",
+      "dest": "testlist_comp [946,1010]"
+    },
+    {
+      "src": "name: a [517,518]",
+      "dest": "name: a [552,553]"
+    },
+    {
+      "src": "number: 0 [551,552]",
+      "dest": "number: 0 [586,587]"
+    },
+    {
+      "src": "suite [331,1191]",
+      "dest": "suite [358,1239]"
+    },
+    {
+      "src": "atom_expr [266,283]",
+      "dest": "atom_expr [285,306]"
+    },
+    {
+      "src": "name: result [1012,1018]",
+      "dest": "name: result [1055,1061]"
+    },
+    {
+      "src": "name: len [272,275]",
+      "dest": "name: len [291,294]"
+    },
+    {
+      "src": "trailer [1011,1019]",
+      "dest": "trailer [1054,1062]"
+    },
+    {
+      "src": "name: j [387,388]",
+      "dest": "name: j [422,423]"
+    },
+    {
+      "src": "arith_expr [513,518]",
+      "dest": "arith_expr [548,553]"
+    },
+    {
+      "src": "arith_expr [506,511]",
+      "dest": "arith_expr [541,546]"
+    },
+    {
+      "src": "trailer [938,945]",
+      "dest": "trailer [982,987]"
+    },
+    {
+      "src": "simple_stmt [168,190]",
+      "dest": "simple_stmt [183,209]"
+    },
+    {
+      "src": "name: answer [1130,1136]",
+      "dest": "name: answer [1178,1184]"
+    },
+    {
+      "src": "trailer [650,657]",
+      "dest": "trailer [685,692]"
+    },
+    {
+      "src": "name: remaining_cards [989,1004]",
+      "dest": "name: remaining_cards [1032,1047]"
+    },
+    {
+      "src": "trailer [1136,1153]",
+      "dest": "trailer [1184,1201]"
+    },
+    {
+      "src": "operator: , [518,519]",
+      "dest": "operator: , [553,554]"
+    },
+    {
+      "src": "trailer [142,149]",
+      "dest": "trailer [158,163]"
+    },
+    {
+      "src": "term [589,594]",
+      "dest": "term [624,629]"
+    },
+    {
+      "src": "name: cards [381,386]",
+      "dest": "name: nums [417,421]"
+    },
+    {
+      "src": "name: len [935,938]",
+      "dest": "name: len [974,977]"
+    },
+    {
+      "src": "name: a [348,349]",
+      "dest": "name: a [375,376]"
+    },
+    {
+      "src": "trailer [581,588]",
+      "dest": "trailer [616,623]"
+    },
+    {
+      "src": "atom_expr [381,389]",
+      "dest": "atom_expr [412,424]"
+    },
+    {
+      "src": "name: cards [911,916]",
+      "dest": "name: nums [951,955]"
+    },
+    {
+      "src": "name: j [966,967]",
+      "dest": "name: j [1009,1010]"
+    },
+    {
+      "src": "name: range [266,271]",
+      "dest": "name: range [285,290]"
+    },
+    {
+      "src": "atom_expr [272,282]",
+      "dest": "atom_expr [291,305]"
+    },
+    {
+      "src": "name: a [662,663]",
+      "dest": "name: a [697,698]"
+    },
+    {
+      "src": "comparison [546,552]",
+      "dest": "comparison [581,587]"
+    },
+    {
+      "src": "name: a [589,590]",
+      "dest": "name: a [624,625]"
+    },
+    {
+      "src": "atom [498,526]",
+      "dest": "atom [533,561]"
+    },
+    {
+      "src": "operator: = [379,380]",
+      "dest": "operator: = [410,411]"
+    },
+    {
+      "src": "for_stmt [257,1191]",
+      "dest": "for_stmt [276,1239]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [48,58]",
+      "parent": "parameters [41,59]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: cards [42,47]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [46,47]",
+      "parent": "param [42,47]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [153,164]",
+      "parent": "atom_expr [150,164]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [154,163]",
+      "parent": "trailer [153,164]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [294,305]",
+      "parent": "atom_expr [291,305]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [154,158]",
+      "parent": "atom_expr [154,163]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [142,149]",
+      "parent": "atom_expr [154,163]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [295,304]",
+      "parent": "trailer [294,305]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: cards [143,148]",
+      "label": "nums"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [190,194]",
+      "parent": "atom_expr [190,202]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [194,199]",
+      "parent": "atom_expr [190,202]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [295,299]",
+      "parent": "atom_expr [295,304]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [275,282]",
+      "parent": "atom_expr [295,304]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: cards [175,180]",
+      "label": "nums"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: cards [175,180]",
+      "parent": "trailer [194,199]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: cards [276,281]",
+      "label": "nums"
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [345,356]",
+      "parent": "atom_expr [342,356]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [379,383]",
+      "parent": "atom_expr [379,391]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [383,388]",
+      "parent": "atom_expr [379,391]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [412,416]",
+      "parent": "atom_expr [412,424]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [416,421]",
+      "parent": "atom_expr [412,424]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [346,355]",
+      "parent": "trailer [345,356]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: cards [352,357]",
+      "label": "nums"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: cards [352,357]",
+      "parent": "trailer [383,388]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: cards [381,386]",
+      "label": "nums"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: cards [381,386]",
+      "parent": "trailer [416,421]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [1173,1177]",
+      "parent": "atom_expr [1173,1201]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [1177,1184]",
+      "parent": "atom_expr [1173,1201]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [346,350]",
+      "parent": "atom_expr [346,355]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [322,329]",
+      "parent": "atom_expr [346,355]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: answer [1130,1136]",
+      "parent": "trailer [1177,1184]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: cards [323,328]",
+      "label": "nums"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [946,950]",
+      "parent": "atom_expr [946,958]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [950,955]",
+      "parent": "atom_expr [946,958]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: cards [911,916]",
+      "label": "nums"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: cards [911,916]",
+      "parent": "trailer [950,955]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [977,988]",
+      "parent": "atom_expr [974,988]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [978,987]",
+      "parent": "trailer [977,988]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [978,982]",
+      "parent": "atom_expr [978,987]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [938,945]",
+      "parent": "atom_expr [978,987]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: cards [939,944]",
+      "label": "nums"
+    }
+  ]
+}

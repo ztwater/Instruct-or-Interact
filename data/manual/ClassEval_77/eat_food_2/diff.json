@@ -1,0 +1,477 @@
+{
+  "matches": [
+    {
+      "src": "name: random [292,298]",
+      "dest": "name: self [358,362]"
+    },
+    {
+      "src": "suite [12,356]",
+      "dest": "suite [12,450]"
+    },
+    {
+      "src": "name: eat_food [21,29]",
+      "dest": "name: eat_food [21,29]"
+    },
+    {
+      "src": "classdef [0,356]",
+      "dest": "classdef [0,450]"
+    },
+    {
+      "src": "suite [50,356]",
+      "dest": "suite [36,450]"
+    },
+    {
+      "src": "name: randint [299,306]",
+      "dest": "name: positions [363,372]"
+    },
+    {
+      "src": "trailer [112,119]",
+      "dest": "trailer [97,104]"
+    },
+    {
+      "src": "simple_stmt [184,197]",
+      "dest": "simple_stmt [163,181]"
+    },
+    {
+      "src": "name: score [184,189]",
+      "dest": "name: score [168,173]"
+    },
+    {
+      "src": "name: randint [277,284]",
+      "dest": "name: random_food_position [295,315]"
+    },
+    {
+      "src": "name: random [270,276]",
+      "dest": "name: self [290,294]"
+    },
+    {
+      "src": "trailer [284,290]",
+      "dest": "trailer [315,317]"
+    },
+    {
+      "src": "trailer [298,306]",
+      "dest": "trailer [362,372]"
+    },
+    {
+      "src": "name: Snake [6,11]",
+      "dest": "name: Snake [6,11]"
+    },
+    {
+      "src": "operator: = [267,268]",
+      "dest": "operator: = [288,289]"
+    },
+    {
+      "src": "name: snake [30,35]",
+      "dest": "name: self [30,34]"
+    },
+    {
+      "src": "atom_expr [292,312]",
+      "dest": "atom_expr [358,372]"
+    },
+    {
+      "src": "expr_stmt [184,196]",
+      "dest": "expr_stmt [163,180]"
+    },
+    {
+      "src": "file_input [0,356]",
+      "dest": "file_input [0,450]"
+    },
+    {
+      "src": "operator: += [190,192]",
+      "dest": "operator: += [174,176]"
+    },
+    {
+      "src": "name: score [351,356]",
+      "dest": "name: new_food_position [411,428]"
+    },
+    {
+      "src": "trailer [276,284]",
+      "dest": "trailer [294,315]"
+    },
+    {
+      "src": "simple_stmt [107,131]",
+      "dest": "simple_stmt [93,110]"
+    },
+    {
+      "src": "name: append [113,119]",
+      "dest": "name: length [98,104]"
+    },
+    {
+      "src": "name: food [262,266]",
+      "dest": "name: new_food_position [270,287]"
+    },
+    {
+      "src": "operator: , [349,350]",
+      "dest": "operator: = [409,410]"
+    },
+    {
+      "src": "name: food [345,349]",
+      "dest": "name: food_position [395,408]"
+    },
+    {
+      "src": "param [30,36]",
+      "dest": "param [30,34]"
+    },
+    {
+      "src": "operator: - [126,127]",
+      "dest": "operator: += [105,107]"
+    },
+    {
+      "src": "name: snake [107,112]",
+      "dest": "name: self [93,97]"
+    },
+    {
+      "src": "number: 1 [127,128]",
+      "dest": "number: 1 [108,109]"
+    },
+    {
+      "src": "funcdef [17,356]",
+      "dest": "funcdef [17,450]"
+    },
+    {
+      "src": "parameters [29,49]",
+      "dest": "parameters [29,35]"
+    },
+    {
+      "src": "number: 100 [193,196]",
+      "dest": "number: 100 [177,180]"
+    },
+    {
+      "src": "name: snake [338,343]",
+      "dest": "name: self [390,394]"
+    },
+    {
+      "src": "atom_expr [270,290]",
+      "dest": "atom_expr [290,317]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "while_stmt [246,450]",
+      "parent": "suite [36,450]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: snake [30,35]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [93,109]",
+      "parent": "simple_stmt [93,110]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [257,450]",
+      "parent": "while_stmt [246,450]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [93,104]",
+      "parent": "expr_stmt [93,109]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: - [126,127]",
+      "label": "+="
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: - [126,127]",
+      "parent": "expr_stmt [93,109]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "number: 1 [127,128]",
+      "parent": "expr_stmt [93,109]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [163,173]",
+      "parent": "expr_stmt [163,180]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [270,318]",
+      "parent": "suite [257,450]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [330,450]",
+      "parent": "suite [257,450]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: snake [107,112]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: snake [107,112]",
+      "parent": "atom_expr [93,104]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [112,119]",
+      "parent": "atom_expr [93,104]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [163,167]",
+      "parent": "atom_expr [163,173]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [167,173]",
+      "parent": "atom_expr [163,173]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [270,317]",
+      "parent": "simple_stmt [270,318]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "comparison [333,372]",
+      "parent": "if_stmt [330,450]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [373,450]",
+      "parent": "if_stmt [330,450]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: append [113,119]",
+      "label": "length"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: score [184,189]",
+      "parent": "trailer [167,173]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: food [262,266]",
+      "label": "new_food_position"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: food [262,266]",
+      "parent": "expr_stmt [270,317]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: = [267,268]",
+      "parent": "expr_stmt [270,317]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [270,290]",
+      "parent": "expr_stmt [270,317]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: new_food_position [333,350]",
+      "parent": "comparison [333,372]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "comp_op [351,357]",
+      "parent": "comparison [333,372]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [292,312]",
+      "parent": "comparison [333,372]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [390,429]",
+      "parent": "suite [373,450]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: random [270,276]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: random [292,298]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [390,428]",
+      "parent": "simple_stmt [390,429]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: randint [277,284]",
+      "label": "random_food_position"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: randint [299,306]",
+      "label": "positions"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [390,408]",
+      "parent": "expr_stmt [390,428]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: , [349,350]",
+      "label": "="
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: , [349,350]",
+      "parent": "expr_stmt [390,428]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: score [351,356]",
+      "label": "new_food_position"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: score [351,356]",
+      "parent": "expr_stmt [390,428]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: snake [338,343]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: snake [338,343]",
+      "parent": "atom_expr [390,408]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [394,408]",
+      "parent": "atom_expr [390,408]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: food [345,349]",
+      "label": "food_position"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: food [345,349]",
+      "parent": "trailer [394,408]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [35,36]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "param [37,42]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "param [43,48]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: snake [120,125]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "factor [126,128]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [125,129]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [120,129]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [119,130]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [107,130]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "arglist [285,289]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [306,312]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [290,291]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "testlist_comp [270,312]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom [269,313]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [262,313]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [262,314]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [343,344]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "testlist_star_expr [338,356]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "return_stmt [331,356]"
+    }
+  ]
+}

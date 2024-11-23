@@ -1,0 +1,147 @@
+{
+  "matches": [
+    {
+      "src": "suite [19,89]",
+      "dest": "suite [19,494]"
+    },
+    {
+      "src": "name: __setitem__ [28,39]",
+      "dest": "name: __setitem__ [28,39]"
+    },
+    {
+      "src": "operator: , [44,45]",
+      "dest": "operator: , [44,45]"
+    },
+    {
+      "src": "classdef [0,89]",
+      "dest": "classdef [0,494]"
+    },
+    {
+      "src": "suite [58,89]",
+      "dest": "suite [58,494]"
+    },
+    {
+      "src": "param [51,56]",
+      "dest": "param [51,56]"
+    },
+    {
+      "src": "name: CamelCaseMap [6,18]",
+      "dest": "name: CamelCaseMap [6,18]"
+    },
+    {
+      "src": "param [46,50]",
+      "dest": "param [46,50]"
+    },
+    {
+      "src": "trailer [76,81]",
+      "dest": "trailer [480,485]"
+    },
+    {
+      "src": "operator: , [49,50]",
+      "dest": "operator: , [49,50]"
+    },
+    {
+      "src": "name: self [40,44]",
+      "dest": "name: self [40,44]"
+    },
+    {
+      "src": "file_input [0,89]",
+      "dest": "file_input [0,494]"
+    },
+    {
+      "src": "parameters [39,57]",
+      "dest": "parameters [39,57]"
+    },
+    {
+      "src": "operator: = [82,83]",
+      "dest": "operator: = [487,488]"
+    },
+    {
+      "src": "name: key [46,49]",
+      "dest": "name: key [46,49]"
+    },
+    {
+      "src": "trailer [71,76]",
+      "dest": "trailer [456,462]"
+    },
+    {
+      "src": "name: data [72,76]",
+      "dest": "name: _data [457,462]"
+    },
+    {
+      "src": "name: value [84,89]",
+      "dest": "name: value [489,494]"
+    },
+    {
+      "src": "name: key [77,80]",
+      "dest": "name: key [481,484]"
+    },
+    {
+      "src": "name: value [51,56]",
+      "dest": "name: value [51,56]"
+    },
+    {
+      "src": "name: self [67,71]",
+      "dest": "name: self [452,456]"
+    },
+    {
+      "src": "param [40,45]",
+      "dest": "param [40,45]"
+    },
+    {
+      "src": "expr_stmt [67,89]",
+      "dest": "expr_stmt [452,494]"
+    },
+    {
+      "src": "funcdef [24,89]",
+      "dest": "funcdef [24,494]"
+    },
+    {
+      "src": "atom_expr [67,81]",
+      "dest": "atom_expr [452,486]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [67,444]",
+      "parent": "suite [58,494]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [462,486]",
+      "parent": "atom_expr [452,486]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: data [72,76]",
+      "label": "_data"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [463,485]",
+      "parent": "trailer [462,486]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [463,467]",
+      "parent": "atom_expr [463,485]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [467,480]",
+      "parent": "atom_expr [463,485]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [76,81]",
+      "parent": "atom_expr [463,485]",
+      "at": 2
+    }
+  ]
+}

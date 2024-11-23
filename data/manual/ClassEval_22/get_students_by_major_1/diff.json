@@ -1,0 +1,205 @@
+{
+  "matches": [
+    {
+      "src": "suite [30,722]",
+      "dest": "suite [30,258]"
+    },
+    {
+      "src": "string: 'name' [681,687]",
+      "dest": "string: 'name' [217,223]"
+    },
+    {
+      "src": "name: student [614,621]",
+      "dest": "name: student [150,157]"
+    },
+    {
+      "src": "name: get_students_by_major [39,60]",
+      "dest": "name: get_students_by_major [39,60]"
+    },
+    {
+      "src": "classdef [0,722]",
+      "dest": "classdef [0,258]"
+    },
+    {
+      "src": "atom_expr [673,688]",
+      "dest": "atom_expr [209,224]"
+    },
+    {
+      "src": "suite [68,722]",
+      "dest": "suite [74,258]"
+    },
+    {
+      "src": "name: major [634,639]",
+      "dest": "name: major [170,175]"
+    },
+    {
+      "src": "trailer [621,630]",
+      "dest": "trailer [157,166]"
+    },
+    {
+      "src": "expr_stmt [77,90]",
+      "dest": "expr_stmt [83,96]"
+    },
+    {
+      "src": "operator: == [631,633]",
+      "dest": "operator: == [167,169]"
+    },
+    {
+      "src": "atom_expr [657,689]",
+      "dest": "atom_expr [193,225]"
+    },
+    {
+      "src": "name: ClassRegistrationSystem [6,29]",
+      "dest": "name: ClassRegistrationSystem [6,29]"
+    },
+    {
+      "src": "if_stmt [611,690]",
+      "dest": "if_stmt [147,226]"
+    },
+    {
+      "src": "name: major [61,66]",
+      "dest": "name: major [67,72]"
+    },
+    {
+      "src": "trailer [672,689]",
+      "dest": "trailer [208,225]"
+    },
+    {
+      "src": "atom_expr [614,630]",
+      "dest": "atom_expr [150,166]"
+    },
+    {
+      "src": "file_input [0,722]",
+      "dest": "file_input [0,258]"
+    },
+    {
+      "src": "name: student [673,680]",
+      "dest": "name: student [209,216]"
+    },
+    {
+      "src": "suite [598,690]",
+      "dest": "suite [134,226]"
+    },
+    {
+      "src": "trailer [680,688]",
+      "dest": "trailer [216,224]"
+    },
+    {
+      "src": "simple_stmt [77,91]",
+      "dest": "simple_stmt [83,97]"
+    },
+    {
+      "src": "name: students [657,665]",
+      "dest": "name: students [193,201]"
+    },
+    {
+      "src": "param [61,66]",
+      "dest": "param [67,72]"
+    },
+    {
+      "src": "name: student [574,581]",
+      "dest": "name: student [109,116]"
+    },
+    {
+      "src": "string: 'major' [622,629]",
+      "dest": "string: 'major' [158,165]"
+    },
+    {
+      "src": "simple_stmt [657,690]",
+      "dest": "simple_stmt [193,226]"
+    },
+    {
+      "src": "name: append [666,672]",
+      "dest": "name: append [202,208]"
+    },
+    {
+      "src": "name: students [714,722]",
+      "dest": "name: students [250,258]"
+    },
+    {
+      "src": "name: all_students [585,597]",
+      "dest": "name: students [125,133]"
+    },
+    {
+      "src": "trailer [665,672]",
+      "dest": "trailer [201,208]"
+    },
+    {
+      "src": "suite [640,690]",
+      "dest": "suite [176,226]"
+    },
+    {
+      "src": "parameters [60,67]",
+      "dest": "parameters [60,73]"
+    },
+    {
+      "src": "operator: = [86,87]",
+      "dest": "operator: = [92,93]"
+    },
+    {
+      "src": "comparison [614,639]",
+      "dest": "comparison [150,175]"
+    },
+    {
+      "src": "for_stmt [570,690]",
+      "dest": "for_stmt [105,226]"
+    },
+    {
+      "src": "funcdef [35,722]",
+      "dest": "funcdef [35,258]"
+    },
+    {
+      "src": "atom [88,90]",
+      "dest": "atom [94,96]"
+    },
+    {
+      "src": "return_stmt [707,722]",
+      "dest": "return_stmt [243,258]"
+    },
+    {
+      "src": "name: students [77,85]",
+      "dest": "name: students [83,91]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [61,66]",
+      "parent": "parameters [60,73]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [120,133]",
+      "parent": "for_stmt [105,226]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [120,124]",
+      "parent": "atom_expr [120,133]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [124,133]",
+      "parent": "atom_expr [120,133]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: all_students [585,597]",
+      "label": "students"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: all_students [585,597]",
+      "parent": "trailer [124,133]",
+      "at": 0
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [164,468]"
+    }
+  ]
+}

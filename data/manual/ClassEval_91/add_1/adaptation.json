@@ -1,0 +1,9 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Adds a segment to the list of segments in the UrlPath.\n        :param segment: str, the segment to add.\n        >>> url_path = UrlPath()\n        >>> url_path.add('foo')\n        >>> url_path.add('bar')\n\n        url_path.segments = ['foo', 'bar']\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    }
+]

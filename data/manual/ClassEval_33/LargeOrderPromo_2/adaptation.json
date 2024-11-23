@@ -1,0 +1,37 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Calculate the discount based on the number of different products in the order.If the quantity of different products in the order reaches 10 or more, the entire order will enjoy a 7% discount.\n        :param order: object, the order to apply the discount to\n        :return: float, discount amount\n        >>> customer = {'name': 'John Doe', 'fidelity': 1200}\n        >>> cart = [{'product': 'product', 'quantity': 14, 'price': 23.5}]\n        >>> order = DiscountStrategy(customer, cart, DiscountStrategy.LargeOrderPromo)\n        >>> DiscountStrategy.LargeOrderPromo(order)\n        0.0\n\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return discount\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".cart",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return discount",
+        "deleted": "return discount",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "order",
+        "deleted": "order",
+        "type": "Move"
+    }
+]

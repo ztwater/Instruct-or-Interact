@@ -1,0 +1,122 @@
+{
+  "matches": [
+    {
+      "src": "operator: , [76,77]",
+      "dest": "operator: , [596,597]"
+    },
+    {
+      "src": "suite [28,80]",
+      "dest": "suite [28,600]"
+    },
+    {
+      "src": "param [46,47]",
+      "dest": "param [46,52]"
+    },
+    {
+      "src": "name: count [37,42]",
+      "dest": "name: count [37,42]"
+    },
+    {
+      "src": "name: math [65,69]",
+      "dest": "name: math [585,589]"
+    },
+    {
+      "src": "classdef [0,80]",
+      "dest": "classdef [0,600]"
+    },
+    {
+      "src": "suite [49,80]",
+      "dest": "suite [54,600]"
+    },
+    {
+      "src": "parameters [42,48]",
+      "dest": "parameters [42,53]"
+    },
+    {
+      "src": "name: ArrangementCalculator [6,27]",
+      "dest": "name: ArrangementCalculator [6,27]"
+    },
+    {
+      "src": "name: m [78,79]",
+      "dest": "name: m [598,599]"
+    },
+    {
+      "src": "name: m [46,47]",
+      "dest": "name: m [46,47]"
+    },
+    {
+      "src": "name: perm [70,74]",
+      "dest": "name: perm [590,594]"
+    },
+    {
+      "src": "arglist [75,79]",
+      "dest": "arglist [595,599]"
+    },
+    {
+      "src": "return_stmt [58,80]",
+      "dest": "return_stmt [578,600]"
+    },
+    {
+      "src": "file_input [0,80]",
+      "dest": "file_input [0,600]"
+    },
+    {
+      "src": "name: n [43,44]",
+      "dest": "name: n [43,44]"
+    },
+    {
+      "src": "trailer [74,80]",
+      "dest": "trailer [594,600]"
+    },
+    {
+      "src": "funcdef [33,80]",
+      "dest": "funcdef [33,600]"
+    },
+    {
+      "src": "trailer [69,74]",
+      "dest": "trailer [589,594]"
+    },
+    {
+      "src": "operator: , [44,45]",
+      "dest": "operator: , [44,45]"
+    },
+    {
+      "src": "atom_expr [65,80]",
+      "dest": "atom_expr [585,600]"
+    },
+    {
+      "src": "name: n [75,76]",
+      "dest": "name: n [595,596]"
+    },
+    {
+      "src": "param [43,45]",
+      "dest": "param [43,45]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [63,464]",
+      "parent": "suite [54,600]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [472,484]",
+      "parent": "suite [54,600]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "if_stmt [492,570]",
+      "parent": "suite [54,600]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [47,48]",
+      "parent": "param [46,52]",
+      "at": 1
+    }
+  ]
+}

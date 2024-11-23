@@ -1,0 +1,164 @@
+{
+  "matches": [
+    {
+      "src": "string: 'Woman' [75,82]",
+      "dest": "string: 'Woman' [308,315]"
+    },
+    {
+      "src": "suite [20,152]",
+      "dest": "suite [20,386]"
+    },
+    {
+      "src": "name: sex [111,114]",
+      "dest": "name: sex [344,347]"
+    },
+    {
+      "src": "return_stmt [141,152]",
+      "dest": "return_stmt [374,385]"
+    },
+    {
+      "src": "classdef [0,152]",
+      "dest": "classdef [0,386]"
+    },
+    {
+      "src": "suite [48,152]",
+      "dest": "suite [66,386]"
+    },
+    {
+      "src": "simple_stmt [104,115]",
+      "dest": "simple_stmt [337,348]"
+    },
+    {
+      "src": "name: sex [43,46]",
+      "dest": "name: sex [49,52]"
+    },
+    {
+      "src": "suite [128,152]",
+      "dest": "suite [361,386]"
+    },
+    {
+      "src": "file_input [0,152]",
+      "dest": "file_input [0,386]"
+    },
+    {
+      "src": "return_stmt [104,114]",
+      "dest": "return_stmt [337,347]"
+    },
+    {
+      "src": "comparison [60,90]",
+      "dest": "comparison [293,323]"
+    },
+    {
+      "src": "operator: , [73,74]",
+      "dest": "operator: , [306,307]"
+    },
+    {
+      "src": "string: 'UGM' [84,89]",
+      "dest": "string: 'UGM' [317,322]"
+    },
+    {
+      "src": "name: PersonRequest [6,19]",
+      "dest": "name: PersonRequest [6,19]"
+    },
+    {
+      "src": "operator: , [82,83]",
+      "dest": "operator: , [315,316]"
+    },
+    {
+      "src": "atom [67,90]",
+      "dest": "atom [300,323]"
+    },
+    {
+      "src": "string: 'Man' [68,73]",
+      "dest": "string: 'Man' [301,306]"
+    },
+    {
+      "src": "parameters [42,47]",
+      "dest": "parameters [42,58]"
+    },
+    {
+      "src": "if_stmt [57,152]",
+      "dest": "if_stmt [290,386]"
+    },
+    {
+      "src": "name: _validate_sex [29,42]",
+      "dest": "name: _validate_sex [29,42]"
+    },
+    {
+      "src": "testlist_comp [68,89]",
+      "dest": "testlist_comp [301,322]"
+    },
+    {
+      "src": "suite [91,115]",
+      "dest": "suite [324,348]"
+    },
+    {
+      "src": "funcdef [25,152]",
+      "dest": "funcdef [25,386]"
+    },
+    {
+      "src": "name: sex [60,63]",
+      "dest": "name: sex [293,296]"
+    },
+    {
+      "src": "param [43,46]",
+      "dest": "param [49,57]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "operator: -> [59,61]",
+      "parent": "funcdef [25,386]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: str [62,65]",
+      "parent": "funcdef [25,386]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [43,48]",
+      "parent": "parameters [42,58]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [75,282]",
+      "parent": "suite [66,386]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "tfpdef [49,57]",
+      "parent": "param [49,57]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: sex [43,46]",
+      "parent": "tfpdef [49,57]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: str [54,57]",
+      "parent": "tfpdef [49,57]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [374,386]",
+      "parent": "suite [361,386]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [141,152]",
+      "parent": "simple_stmt [374,386]",
+      "at": 0
+    }
+  ]
+}

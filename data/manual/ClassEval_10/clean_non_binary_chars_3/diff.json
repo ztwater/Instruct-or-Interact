@@ -1,0 +1,166 @@
+{
+  "matches": [
+    {
+      "src": "name: clean_non_binary_chars [35,57]",
+      "dest": "name: clean_non_binary_chars [35,57]"
+    },
+    {
+      "src": "suite [26,248]",
+      "dest": "suite [26,349]"
+    },
+    {
+      "src": "parameters [57,72]",
+      "dest": "parameters [57,78]"
+    },
+    {
+      "src": "or_test [152,178]",
+      "dest": "or_test [253,279]"
+    },
+    {
+      "src": "param [58,71]",
+      "dest": "param [64,77]"
+    },
+    {
+      "src": "classdef [0,248]",
+      "dest": "classdef [0,349]"
+    },
+    {
+      "src": "name: cleaned_string [196,210]",
+      "dest": "name: cleaned_string [297,311]"
+    },
+    {
+      "src": "suite [73,248]",
+      "dest": "suite [79,349]"
+    },
+    {
+      "src": "name: char [114,118]",
+      "dest": "name: char [215,219]"
+    },
+    {
+      "src": "string: '0' [160,163]",
+      "dest": "string: '0' [261,264]"
+    },
+    {
+      "src": "string: \"\" [99,101]",
+      "dest": "string: \"\" [200,202]"
+    },
+    {
+      "src": "comparison [152,163]",
+      "dest": "comparison [253,264]"
+    },
+    {
+      "src": "return_stmt [227,248]",
+      "dest": "return_stmt [328,349]"
+    },
+    {
+      "src": "operator: == [157,159]",
+      "dest": "operator: == [258,260]"
+    },
+    {
+      "src": "operator: == [172,174]",
+      "dest": "operator: == [273,275]"
+    },
+    {
+      "src": "simple_stmt [82,102]",
+      "dest": "simple_stmt [183,203]"
+    },
+    {
+      "src": "name: binary_string [122,135]",
+      "dest": "name: binary_string [223,236]"
+    },
+    {
+      "src": "expr_stmt [196,218]",
+      "dest": "expr_stmt [297,319]"
+    },
+    {
+      "src": "if_stmt [149,219]",
+      "dest": "if_stmt [250,320]"
+    },
+    {
+      "src": "file_input [0,248]",
+      "dest": "file_input [0,349]"
+    },
+    {
+      "src": "operator: += [211,213]",
+      "dest": "operator: += [312,314]"
+    },
+    {
+      "src": "expr_stmt [82,101]",
+      "dest": "expr_stmt [183,202]"
+    },
+    {
+      "src": "name: char [214,218]",
+      "dest": "name: char [315,319]"
+    },
+    {
+      "src": "string: '1' [175,178]",
+      "dest": "string: '1' [276,279]"
+    },
+    {
+      "src": "name: cleaned_string [82,96]",
+      "dest": "name: cleaned_string [183,197]"
+    },
+    {
+      "src": "name: char [152,156]",
+      "dest": "name: char [253,257]"
+    },
+    {
+      "src": "name: char [167,171]",
+      "dest": "name: char [268,272]"
+    },
+    {
+      "src": "simple_stmt [196,219]",
+      "dest": "simple_stmt [297,320]"
+    },
+    {
+      "src": "suite [179,219]",
+      "dest": "suite [280,320]"
+    },
+    {
+      "src": "comparison [167,178]",
+      "dest": "comparison [268,279]"
+    },
+    {
+      "src": "operator: = [97,98]",
+      "dest": "operator: = [198,199]"
+    },
+    {
+      "src": "for_stmt [110,219]",
+      "dest": "for_stmt [211,320]"
+    },
+    {
+      "src": "suite [136,219]",
+      "dest": "suite [237,320]"
+    },
+    {
+      "src": "name: BinaryDataProcessor [6,25]",
+      "dest": "name: BinaryDataProcessor [6,25]"
+    },
+    {
+      "src": "funcdef [31,248]",
+      "dest": "funcdef [31,349]"
+    },
+    {
+      "src": "name: cleaned_string [234,248]",
+      "dest": "name: cleaned_string [335,349]"
+    },
+    {
+      "src": "name: binary_string [58,71]",
+      "dest": "name: binary_string [64,77]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [58,63]",
+      "parent": "parameters [57,78]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [88,175]",
+      "parent": "suite [79,349]",
+      "at": 0
+    }
+  ]
+}

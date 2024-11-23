@@ -1,0 +1,72 @@
+{
+  "matches": [
+    {
+      "src": "suite [17,94]",
+      "dest": "suite [17,240]"
+    },
+    {
+      "src": "parameters [48,54]",
+      "dest": "parameters [48,54]"
+    },
+    {
+      "src": "name: self [49,53]",
+      "dest": "name: self [49,53]"
+    },
+    {
+      "src": "classdef [0,94]",
+      "dest": "classdef [0,240]"
+    },
+    {
+      "src": "suite [55,94]",
+      "dest": "suite [55,240]"
+    },
+    {
+      "src": "atom_expr [71,94]",
+      "dest": "atom_expr [217,240]"
+    },
+    {
+      "src": "param [49,53]",
+      "dest": "param [49,53]"
+    },
+    {
+      "src": "name: self [71,75]",
+      "dest": "name: self [217,221]"
+    },
+    {
+      "src": "name: target_temperature [76,94]",
+      "dest": "name: target_temperature [222,240]"
+    },
+    {
+      "src": "name: get_target_temperature [26,48]",
+      "dest": "name: get_target_temperature [26,48]"
+    },
+    {
+      "src": "return_stmt [64,94]",
+      "dest": "return_stmt [210,240]"
+    },
+    {
+      "src": "trailer [75,94]",
+      "dest": "trailer [221,240]"
+    },
+    {
+      "src": "file_input [0,94]",
+      "dest": "file_input [0,240]"
+    },
+    {
+      "src": "funcdef [22,94]",
+      "dest": "funcdef [22,240]"
+    },
+    {
+      "src": "name: Thermostat [6,16]",
+      "dest": "name: Thermostat [6,16]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [64,202]",
+      "parent": "suite [55,240]",
+      "at": 0
+    }
+  ]
+}

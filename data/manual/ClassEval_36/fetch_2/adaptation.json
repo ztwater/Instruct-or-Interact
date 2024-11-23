@@ -1,0 +1,30 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "email_dict = {\n                'sender': email_message['From'],\n                'receiver': email_message['To'],\n                'content': email_message.get_payload(),\n                'size': len(raw_email),\n                'time': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),\n                'state': 'read'\n            }\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "self.inbox.append(email_dict)\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return email_dict\n",
+        "deleted": "",
+        "type": "Logic"
+    }
+]

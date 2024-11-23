@@ -1,0 +1,68 @@
+{
+  "matches": [
+    {
+      "src": "file_input [0,613]",
+      "dest": "file_input [0,36]"
+    },
+    {
+      "src": "classdef [0,613]",
+      "dest": "classdef [0,36]"
+    },
+    {
+      "src": "name: NumberWordFormatter [6,25]",
+      "dest": "name: NumberWordFormatter [6,25]"
+    },
+    {
+      "src": "suite [524,558]",
+      "dest": "suite [26,36]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "move-tree",
+      "tree": "suite [524,558]",
+      "parent": "classdef [0,36]",
+      "at": 1
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [537,558]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: format [35,41]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "parameters [41,49]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [125,440]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "comparison [508,523]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "suite [571,613]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "if_stmt [505,613]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [50,613]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "funcdef [31,613]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [26,613]"
+    }
+  ]
+}

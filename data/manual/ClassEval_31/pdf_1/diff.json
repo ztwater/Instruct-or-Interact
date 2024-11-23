@@ -1,0 +1,176 @@
+{
+  "matches": [
+    {
+      "src": "return_stmt [116,133]",
+      "dest": "return_stmt [609,626]"
+    },
+    {
+      "src": "operator: , [97,98]",
+      "dest": "operator: , [592,593]"
+    },
+    {
+      "src": "trailer [82,86]",
+      "dest": "trailer [579,583]"
+    },
+    {
+      "src": "suite [22,133]",
+      "dest": "suite [22,627]"
+    },
+    {
+      "src": "name: mean [41,45]",
+      "dest": "name: mu [41,43]"
+    },
+    {
+      "src": "name: std_dev [47,54]",
+      "dest": "name: sigma [45,50]"
+    },
+    {
+      "src": "classdef [0,133]",
+      "dest": "classdef [0,627]"
+    },
+    {
+      "src": "arglist [87,106]",
+      "dest": "arglist [584,599]"
+    },
+    {
+      "src": "suite [56,133]",
+      "dest": "suite [52,627]"
+    },
+    {
+      "src": "param [35,40]",
+      "dest": "param [35,40]"
+    },
+    {
+      "src": "name: pdf_values [123,133]",
+      "dest": "name: pdf_values [616,626]"
+    },
+    {
+      "src": "operator: , [45,46]",
+      "dest": "operator: , [43,44]"
+    },
+    {
+      "src": "param [47,54]",
+      "dest": "param [45,50]"
+    },
+    {
+      "src": "file_input [0,133]",
+      "dest": "file_input [0,627]"
+    },
+    {
+      "src": "expr_stmt [65,107]",
+      "dest": "expr_stmt [562,600]"
+    },
+    {
+      "src": "name: mean [93,97]",
+      "dest": "name: mu [590,592]"
+    },
+    {
+      "src": "name: data [35,39]",
+      "dest": "name: data [35,39]"
+    },
+    {
+      "src": "name: pdf_values [65,75]",
+      "dest": "name: pdf_values [562,572]"
+    },
+    {
+      "src": "name: pdf [83,86]",
+      "dest": "name: pdf [580,583]"
+    },
+    {
+      "src": "name: pdf [31,34]",
+      "dest": "name: pdf [31,34]"
+    },
+    {
+      "src": "operator: = [76,77]",
+      "dest": "operator: = [573,574]"
+    },
+    {
+      "src": "operator: , [39,40]",
+      "dest": "operator: , [39,40]"
+    },
+    {
+      "src": "name: DataStatistics4 [6,21]",
+      "dest": "name: DataStatistics4 [6,21]"
+    },
+    {
+      "src": "name: std_dev [99,106]",
+      "dest": "name: sigma [594,599]"
+    },
+    {
+      "src": "atom_expr [78,107]",
+      "dest": "atom_expr [575,600]"
+    },
+    {
+      "src": "parameters [34,55]",
+      "dest": "parameters [34,51]"
+    },
+    {
+      "src": "operator: , [91,92]",
+      "dest": "operator: , [588,589]"
+    },
+    {
+      "src": "name: norm [78,82]",
+      "dest": "name: norm [575,579]"
+    },
+    {
+      "src": "simple_stmt [65,108]",
+      "dest": "simple_stmt [562,601]"
+    },
+    {
+      "src": "funcdef [27,133]",
+      "dest": "funcdef [27,627]"
+    },
+    {
+      "src": "trailer [86,107]",
+      "dest": "trailer [583,600]"
+    },
+    {
+      "src": "name: data [87,91]",
+      "dest": "name: data [584,588]"
+    },
+    {
+      "src": "param [41,46]",
+      "dest": "param [41,44]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [61,554]",
+      "parent": "suite [52,627]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [609,627]",
+      "parent": "suite [52,627]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: mean [41,45]",
+      "label": "mu"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: std_dev [47,54]",
+      "label": "sigma"
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [116,133]",
+      "parent": "simple_stmt [609,627]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: mean [93,97]",
+      "label": "mu"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: std_dev [99,106]",
+      "label": "sigma"
+    }
+  ]
+}

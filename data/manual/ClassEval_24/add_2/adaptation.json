@@ -1,0 +1,44 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Adds two complex numbers.\n        :param c1: The first complex number,complex.\n        :param c2: The second complex number,complex.\n        :return: The sum of the two complex numbers,complex.\n        >>> complexCalculator = ComplexCalculator()\n        >>> complexCalculator.add(1+2j, 3+4j)\n        (4+6j)\n        \n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "c1",
+        "deleted": "num1",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "c2",
+        "deleted": "num2",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "c1",
+        "deleted": "num1",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "c2",
+        "deleted": "num2",
+        "type": "Refactoring"
+    }
+]

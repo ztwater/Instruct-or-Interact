@@ -1,0 +1,30 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Replaces numeric character references (HTML entities) in the input string with their corresponding Unicode characters.\n        :param string: str, the input string containing numeric character references.\n        :return: str, the input string with numeric character references replaced with their corresponding Unicode characters.\n        >>> unescaper = NumericEntityUnescaper()\n        >>> unescaper.replace(\"&#65;&#66;&#67;\")\n        'ABC'\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "string",
+        "deleted": "input_string",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "string",
+        "deleted": "input_string",
+        "type": "Refactoring"
+    }
+]

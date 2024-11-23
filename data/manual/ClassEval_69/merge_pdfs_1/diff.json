@@ -1,0 +1,228 @@
+{
+  "matches": [
+    {
+      "src": "param [37,41]",
+      "dest": "param [37,42]"
+    },
+    {
+      "src": "atom_expr [391,409]",
+      "dest": "atom_expr [765,783]"
+    },
+    {
+      "src": "suite [17,409]",
+      "dest": "suite [17,847]"
+    },
+    {
+      "src": "trailer [71,85]",
+      "dest": "trailer [419,433]"
+    },
+    {
+      "src": "name: readers [180,187]",
+      "dest": "name: readers [530,537]"
+    },
+    {
+      "src": "name: write [363,368]",
+      "dest": "name: write [734,739]"
+    },
+    {
+      "src": "classdef [0,409]",
+      "dest": "classdef [0,847]"
+    },
+    {
+      "src": "name: PDFHandler [6,16]",
+      "dest": "name: PDFHandler [6,16]"
+    },
+    {
+      "src": "operator: = [63,64]",
+      "dest": "operator: = [411,412]"
+    },
+    {
+      "src": "suite [43,409]",
+      "dest": "suite [60,847]"
+    },
+    {
+      "src": "name: reader [165,171]",
+      "dest": "name: reader [515,521]"
+    },
+    {
+      "src": "name: merged_pdf [269,279]",
+      "dest": "name: merged_pdf [619,629]"
+    },
+    {
+      "src": "parameters [36,42]",
+      "dest": "parameters [36,59]"
+    },
+    {
+      "src": "suite [188,295]",
+      "dest": "suite [538,645]"
+    },
+    {
+      "src": "atom_expr [352,382]",
+      "dest": "atom_expr [723,756]"
+    },
+    {
+      "src": "atom_expr [269,294]",
+      "dest": "atom_expr [619,644]"
+    },
+    {
+      "src": "trailer [286,294]",
+      "dest": "trailer [636,644]"
+    },
+    {
+      "src": "trailer [362,368]",
+      "dest": "trailer [733,739]"
+    },
+    {
+      "src": "atom_expr [175,187]",
+      "dest": "atom_expr [525,537]"
+    },
+    {
+      "src": "name: merged_pdf [352,362]",
+      "dest": "name: merged_pdf [723,733]"
+    },
+    {
+      "src": "name: merged_pdf [52,62]",
+      "dest": "name: merged_pdf [400,410]"
+    },
+    {
+      "src": "trailer [179,187]",
+      "dest": "trailer [529,537]"
+    },
+    {
+      "src": "name: merged_pdf [391,401]",
+      "dest": "name: merged_pdf [765,775]"
+    },
+    {
+      "src": "file_input [0,409]",
+      "dest": "file_input [0,847]"
+    },
+    {
+      "src": "atom_expr [65,87]",
+      "dest": "atom_expr [413,435]"
+    },
+    {
+      "src": "trailer [85,87]",
+      "dest": "trailer [433,435]"
+    },
+    {
+      "src": "name: PyPDF2 [65,71]",
+      "dest": "name: PyPDF2 [413,419]"
+    },
+    {
+      "src": "trailer [368,382]",
+      "dest": "trailer [739,756]"
+    },
+    {
+      "src": "name: reader [287,293]",
+      "dest": "name: reader [637,643]"
+    },
+    {
+      "src": "name: close [402,407]",
+      "dest": "name: close [776,781]"
+    },
+    {
+      "src": "simple_stmt [352,383]",
+      "dest": "simple_stmt [723,757]"
+    },
+    {
+      "src": "simple_stmt [269,295]",
+      "dest": "simple_stmt [619,645]"
+    },
+    {
+      "src": "trailer [407,409]",
+      "dest": "trailer [781,783]"
+    },
+    {
+      "src": "name: append [280,286]",
+      "dest": "name: append [630,636]"
+    },
+    {
+      "src": "expr_stmt [52,87]",
+      "dest": "expr_stmt [400,435]"
+    },
+    {
+      "src": "simple_stmt [52,88]",
+      "dest": "simple_stmt [400,436]"
+    },
+    {
+      "src": "name: merge_pdfs [26,36]",
+      "dest": "name: merge_pdfs [26,36]"
+    },
+    {
+      "src": "trailer [279,286]",
+      "dest": "trailer [629,636]"
+    },
+    {
+      "src": "name: self [37,41]",
+      "dest": "name: self [37,41]"
+    },
+    {
+      "src": "name: PdfFileMerger [72,85]",
+      "dest": "name: PdfFileMerger [420,433]"
+    },
+    {
+      "src": "trailer [401,407]",
+      "dest": "trailer [775,781]"
+    },
+    {
+      "src": "for_stmt [161,295]",
+      "dest": "for_stmt [511,645]"
+    },
+    {
+      "src": "name: self [175,179]",
+      "dest": "name: self [525,529]"
+    },
+    {
+      "src": "funcdef [22,409]",
+      "dest": "funcdef [22,847]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [43,58]",
+      "parent": "parameters [36,59]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [69,392]",
+      "parent": "suite [60,847]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [765,784]",
+      "parent": "suite [60,847]",
+      "at": 4
+    },
+    {
+      "action": "insert-tree",
+      "tree": "return_stmt [799,847]",
+      "parent": "suite [60,847]",
+      "at": 5
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [41,42]",
+      "parent": "param [37,42]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [391,409]",
+      "parent": "simple_stmt [765,784]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: output_filepath [740,755]",
+      "parent": "trailer [739,756]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"merged.pdf\" [369,381]"
+    }
+  ]
+}

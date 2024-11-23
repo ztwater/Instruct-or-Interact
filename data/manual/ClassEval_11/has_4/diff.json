@@ -1,0 +1,248 @@
+{
+  "matches": [
+    {
+      "src": "name: specified_status [49,65]",
+      "dest": "name: stat [41,45]"
+    },
+    {
+      "src": "suite [20,242]",
+      "dest": "suite [20,607]"
+    },
+    {
+      "src": "parameters [32,66]",
+      "dest": "parameters [32,46]"
+    },
+    {
+      "src": "name: str [106,109]",
+      "dest": "name: int [495,498]"
+    },
+    {
+      "src": "operator: , [142,143]",
+      "dest": "operator: , [519,520]"
+    },
+    {
+      "src": "name: specified_status [169,185]",
+      "dest": "name: states [546,552]"
+    },
+    {
+      "src": "suite [217,242]",
+      "dest": "suite [581,607]"
+    },
+    {
+      "src": "classdef [0,242]",
+      "dest": "classdef [0,607]"
+    },
+    {
+      "src": "suite [67,242]",
+      "dest": "suite [47,607]"
+    },
+    {
+      "src": "trailer [89,110]",
+      "dest": "trailer [486,499]"
+    },
+    {
+      "src": "simple_stmt [162,204]",
+      "dest": "simple_stmt [539,568]"
+    },
+    {
+      "src": "name: current_status [189,203]",
+      "dest": "name: stat [555,559]"
+    },
+    {
+      "src": "operator: , [104,105]",
+      "dest": "operator: , [493,494]"
+    },
+    {
+      "src": "comparison [169,203]",
+      "dest": "comparison [546,567]"
+    },
+    {
+      "src": "name: isinstance [79,89]",
+      "dest": "name: isinstance [476,486]"
+    },
+    {
+      "src": "name: has [29,32]",
+      "dest": "name: has [29,32]"
+    },
+    {
+      "src": "trailer [125,148]",
+      "dest": "trailer [514,525]"
+    },
+    {
+      "src": "name: str [144,147]",
+      "dest": "name: int [521,524]"
+    },
+    {
+      "src": "file_input [0,242]",
+      "dest": "file_input [0,608]"
+    },
+    {
+      "src": "and_test [79,148]",
+      "dest": "and_test [476,525]"
+    },
+    {
+      "src": "name: current_status [90,104]",
+      "dest": "name: states [487,493]"
+    },
+    {
+      "src": "param [49,65]",
+      "dest": "param [41,45]"
+    },
+    {
+      "src": "name: BitStatusUtil [6,19]",
+      "dest": "name: BitStatusUtil [6,19]"
+    },
+    {
+      "src": "param [33,48]",
+      "dest": "param [33,40]"
+    },
+    {
+      "src": "name: current_status [33,47]",
+      "dest": "name: states [33,39]"
+    },
+    {
+      "src": "name: specified_status [126,142]",
+      "dest": "name: stat [515,519]"
+    },
+    {
+      "src": "operator: , [47,48]",
+      "dest": "operator: , [39,40]"
+    },
+    {
+      "src": "return_stmt [230,242]",
+      "dest": "return_stmt [594,606]"
+    },
+    {
+      "src": "name: isinstance [115,125]",
+      "dest": "name: isinstance [504,514]"
+    },
+    {
+      "src": "arglist [126,147]",
+      "dest": "arglist [515,524]"
+    },
+    {
+      "src": "atom_expr [79,110]",
+      "dest": "atom_expr [476,499]"
+    },
+    {
+      "src": "if_stmt [76,242]",
+      "dest": "if_stmt [473,607]"
+    },
+    {
+      "src": "funcdef [25,242]",
+      "dest": "funcdef [25,607]"
+    },
+    {
+      "src": "arglist [90,109]",
+      "dest": "arglist [487,498]"
+    },
+    {
+      "src": "atom_expr [115,148]",
+      "dest": "atom_expr [504,525]"
+    },
+    {
+      "src": "suite [149,204]",
+      "dest": "suite [526,568]"
+    },
+    {
+      "src": "return_stmt [162,203]",
+      "dest": "return_stmt [539,567]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [56,465]",
+      "parent": "suite [47,607]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: current_status [33,47]",
+      "label": "states"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: specified_status [49,65]",
+      "label": "stat"
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [594,607]",
+      "parent": "suite [581,607]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [230,242]",
+      "parent": "simple_stmt [594,607]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: current_status [90,104]",
+      "label": "states"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: str [106,109]",
+      "label": "int"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: specified_status [126,142]",
+      "label": "stat"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: str [144,147]",
+      "label": "int"
+    },
+    {
+      "action": "insert-node",
+      "tree": "and_expr [546,559]",
+      "parent": "comparison [546,567]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: == [560,562]",
+      "parent": "comparison [546,567]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: stat [563,567]",
+      "parent": "comparison [546,567]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: specified_status [169,185]",
+      "label": "states"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: specified_status [169,185]",
+      "parent": "and_expr [546,559]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: & [553,554]",
+      "parent": "and_expr [546,559]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: current_status [189,203]",
+      "label": "stat"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: current_status [189,203]",
+      "parent": "and_expr [546,559]",
+      "at": 2
+    }
+  ]
+}

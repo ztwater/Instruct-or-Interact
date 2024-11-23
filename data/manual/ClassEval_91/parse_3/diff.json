@@ -1,0 +1,208 @@
+{
+  "matches": [
+    {
+      "src": "suite [14,94]",
+      "dest": "suite [14,538]"
+    },
+    {
+      "src": "name: parse [23,28]",
+      "dest": "name: parse [23,28]"
+    },
+    {
+      "src": "name: segments [44,52]",
+      "dest": "name: segments [419,427]"
+    },
+    {
+      "src": "trailer [65,70]",
+      "dest": "trailer [480,485]"
+    },
+    {
+      "src": "classdef [0,94]",
+      "dest": "classdef [0,538]"
+    },
+    {
+      "src": "parameters [28,34]",
+      "dest": "parameters [28,49]"
+    },
+    {
+      "src": "operator: = [53,54]",
+      "dest": "operator: = [428,429]"
+    },
+    {
+      "src": "name: UrlPath [6,13]",
+      "dest": "name: UrlPath [6,13]"
+    },
+    {
+      "src": "name: split [60,65]",
+      "dest": "name: split [475,480]"
+    },
+    {
+      "src": "name: path [55,59]",
+      "dest": "name: path [451,455]"
+    },
+    {
+      "src": "expr_stmt [44,70]",
+      "dest": "expr_stmt [419,485]"
+    },
+    {
+      "src": "string: '/' [66,69]",
+      "dest": "string: '/' [481,484]"
+    },
+    {
+      "src": "trailer [59,65]",
+      "dest": "trailer [474,480]"
+    },
+    {
+      "src": "name: path [29,33]",
+      "dest": "name: path [35,39]"
+    },
+    {
+      "src": "file_input [0,94]",
+      "dest": "file_input [0,538]"
+    },
+    {
+      "src": "param [29,33]",
+      "dest": "param [35,40]"
+    },
+    {
+      "src": "funcdef [19,94]",
+      "dest": "funcdef [19,538]"
+    },
+    {
+      "src": "simple_stmt [44,71]",
+      "dest": "simple_stmt [419,486]"
+    },
+    {
+      "src": "name: segments [86,94]",
+      "dest": "name: segments [499,507]"
+    },
+    {
+      "src": "atom_expr [55,70]",
+      "dest": "atom_expr [430,485]"
+    },
+    {
+      "src": "suite [35,94]",
+      "dest": "suite [50,538]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [29,34]",
+      "parent": "parameters [28,49]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [41,48]",
+      "parent": "parameters [28,49]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [59,411]",
+      "parent": "suite [50,538]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [494,538]",
+      "parent": "suite [50,538]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [39,40]",
+      "parent": "param [35,40]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [494,507]",
+      "parent": "expr_stmt [494,538]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [508,509]",
+      "parent": "expr_stmt [494,538]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [510,538]",
+      "parent": "expr_stmt [494,538]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [494,498]",
+      "parent": "atom_expr [494,507]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [498,507]",
+      "parent": "atom_expr [494,507]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: urllib [430,436]",
+      "parent": "atom_expr [430,485]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [436,442]",
+      "parent": "atom_expr [430,485]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [442,450]",
+      "parent": "atom_expr [430,485]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [450,474]",
+      "parent": "atom_expr [430,485]",
+      "at": 3
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: segments [86,94]",
+      "parent": "trailer [498,507]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "arglist [451,473]",
+      "parent": "trailer [450,474]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: path [55,59]",
+      "parent": "arglist [451,473]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [455,456]",
+      "parent": "arglist [451,473]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "argument [457,473]",
+      "parent": "arglist [451,473]",
+      "at": 2
+    },
+    {
+      "action": "delete-node",
+      "tree": "return_stmt [79,94]"
+    }
+  ]
+}

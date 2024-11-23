@@ -1,0 +1,23 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Check if the given IP address is a valid IPv6 address.\n        :param ip_address:string, the IP address to check\n        :return:bool, True if the IP address is valid, False otherwise\n        >>> IpUtil.is_valid_ipv6('2001:0db8:85a3:0000:0000:8a2e:0370:7334')\n        True\n        >>> IpUtil.is_valid_ipv6('2001:0db8:85a3:::8a2e:0370:7334')\n        False\n\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return True\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return True",
+        "deleted": "return True",
+        "type": "Move"
+    }
+]

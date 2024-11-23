@@ -1,0 +1,58 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Send a message from a user to another user.\n        :param sender: The sender's name, str.\n        :param receiver: The receiver's name, str.\n        :param message: The message, str.\n        :return: If the sender or the receiver is not in the Chat, returns False, otherwise, returns True.\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "if_stmt",
+        "inserted": "if sender not in self.users or receiver not in self.users:\n            return False\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "print(f\"Sending message from {sender} to {receiver}: {message}\")\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "return_stmt",
+        "inserted": "return True",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "print(f\"Sending message from {sender} to {recipient}: {message}\")",
+        "deleted": "print(f\"Sending message from {sender} to {recipient}: {message}\")",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "receiver",
+        "deleted": "recipient",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "receiver",
+        "deleted": "recipient",
+        "type": "Refactoring"
+    }
+]

@@ -1,0 +1,275 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Move the player based on the specified direction and check if the game is won.\n        :param direction: str, the direction of the player's movement. \n            It can be 'w', 's', 'a', or 'd' representing up, down, left, or right respectively.\n    \n        :return: True if the game is won, False otherwise.\n        >>> game = PushBoxGame([\"#####\", \"#O  #\", \"# X #\", \"#  G#\", \"#####\"])       \n        >>> game.print_map()\n        # # # # # \n        # O     #\n        #   X   #\n        #     G #\n        # # # # #\n        >>> game.move('d')\n        False\n        >>> game.move('s')   \n        False\n        >>> game.move('a')   \n        False\n        >>> game.move('s') \n        False\n        >>> game.move('d') \n        True\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "move_player",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "parameters",
+        "inserted": "(row_offset, col_offset)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "comparison",
+        "inserted": "direction == 'a'",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "comparison",
+        "inserted": "direction == 'd'",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "new_row = self.player_row + row_offset\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "new_col = self.player_col + col_offset\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "next_cell = self.map[new_row][new_col]\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return False\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "comparison",
+        "inserted": "next_cell not in ['#', 'X']",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "return_stmt",
+        "inserted": "return move_player(-1, 0)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "return_stmt",
+        "inserted": "return move_player(1, 0)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return True\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "arglist",
+        "inserted": "0, 1",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "self.player_row = new_row\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "self.player_col = new_col\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "self.player_row = new_row\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "self.player_col = new_col\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "self.target_count -= 1\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "arglist",
+        "inserted": "0, -1",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "expr_stmt",
+        "inserted": "self.map[new_row] = self.map[new_row][:new_col] + 'O' + self.map[new_row][new_col + 1:]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "expr_stmt",
+        "inserted": "self.map[new_row] = self.map[new_row][:new_col] + 'O' + self.map[new_row][new_col + 1:]",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "string:",
+        "inserted": "",
+        "deleted": "\"Congratulations! You won the game!\"",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "if_stmt",
+        "inserted": "",
+        "deleted": "if direction == \"up\":\n            # code to move the player up\n            pass\n        elif direction == \"down\":\n            # code to move the player down\n            pass\n        elif direction == \"left\":\n            # code to move the player left\n            pass\n        elif direction == \"right\":\n            # code to move the player right\n    \n        # Check if the game is won\n            pass\n",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "comparison",
+        "inserted": "direction == \"left\"",
+        "deleted": "direction == \"left\"",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "comparison",
+        "inserted": "direction == \"right\"",
+        "deleted": "direction == \"right\"",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "print(\"Congratulations! You won the game!\")",
+        "deleted": "print(\"Congratulations! You won the game!\")",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "game_won()",
+        "deleted": "game_won()",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "comparison",
+        "inserted": "direction == \"up\"",
+        "deleted": "direction == \"up\"",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "comparison",
+        "inserted": "direction == \"down\"",
+        "deleted": "direction == \"down\"",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "string",
+        "inserted": "'w'",
+        "deleted": "\"left\"",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "string",
+        "inserted": "'s'",
+        "deleted": "\"right\"",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "move_player",
+        "deleted": "print",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "move_player",
+        "deleted": "game_won",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "next_cell",
+        "deleted": "direction",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "string:",
+        "inserted": "' '",
+        "deleted": "\"up\"",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "next_cell",
+        "deleted": "direction",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "string",
+        "inserted": "'G'",
+        "deleted": "\"down\"",
+        "type": "Logic"
+    }
+]

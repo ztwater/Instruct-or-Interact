@@ -1,0 +1,37 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Convert a number from octal format to decimal format.\n        :param octal_num: str, octal num\n        :return: int, the decimal representation of octal number str.\n        >>> NumberConverter.octal_to_decimal('122667')\n        42423\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "octal_num",
+        "deleted": "octal_number",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "octal_num",
+        "deleted": "octal_number",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "octal_num",
+        "deleted": "octal_number",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "octal_num",
+        "deleted": "octal_number",
+        "type": "Refactoring"
+    }
+]

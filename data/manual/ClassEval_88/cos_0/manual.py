@@ -1,0 +1,99 @@
+### Method Description:
+    def cos(self, x):
+        """
+        Calculate the cos value of the x-degree angle
+        :param x:float
+        :return:float
+        >>> tricalculator = TriCalculator()
+        >>> tricalculator.cos(60)
+        0.5
+        """
+
+### Solution Code:
+    def cos(self, x):
+        return round(self.taylor(x, 50), 10)
+
+### Source Code:
+    def cos(x):
+        # Convert the angle from degrees to radians
+        radians = math.radians(x)
+        
+        # Calculate the cosine value
+        cos_value = math.cos(radians)
+        
+        return cos_value
+
+### Predicted Code:
+    def cos(self, x):
+        """
+        Calculate the cos value of the x-degree angle
+        :param x:float
+        :return:float
+        """
+        # Convert the angle from degrees to radians
+        radians = math.radians(x)
+        
+        # Calculate the cosine value
+        cos_value = math.cos(radians)
+        
+        return cos_value
+
+### Adaptation:
+Total number: 2
+### Raw Output:
+```
+    def cos(self, x):
+        """
+        Calculate the cos value of the x-degree angle
+        :param x:float
+        :return:float
+        """
+        # Convert the angle from degrees to radians
+        radians = math.radians(x)
+        
+        # Calculate the cosine value
+        cos_value = math.cos(radians)
+        
+        return cos_value
+```
+
+### Test Code:
+class TriCalculatorTestCos(unittest.TestCase):
+    def test_cos_1(self):
+        tricalculator = TriCalculator()
+        self.assertEqual(tricalculator.cos(60), 0.5)
+
+    def test_cos_2(self):
+        tricalculator = TriCalculator()
+        self.assertAlmostEqual(tricalculator.cos(30), 0.8660254038)
+
+    def test_cos_3(self):
+        tricalculator = TriCalculator()
+        self.assertEqual(tricalculator.cos(0), 1.0)
+
+    def test_cos_4(self):
+        tricalculator = TriCalculator()
+        self.assertEqual(tricalculator.cos(90), 0.0)
+
+    def test_cos_5(self):
+        tricalculator = TriCalculator()
+        self.assertAlmostEqual(tricalculator.cos(45), 0.7071067812)
+
+### Test Output:
+# 5 errors, 0 failures in 5 runs.
+# errors:
+#     NameError:
+#         test_cos_1: name 'math' is not defined
+#         test_cos_2: name 'math' is not defined
+#         test_cos_3: name 'math' is not defined
+#         test_cos_4: name 'math' is not defined
+#         test_cos_5: name 'math' is not defined
+# failures:
+
+
+### Dependencies:
+# lib_dependencies: 
+# field_dependencies: 
+# method_dependencies: taylor
+
+

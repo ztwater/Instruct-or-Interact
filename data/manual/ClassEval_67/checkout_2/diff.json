@@ -1,0 +1,132 @@
+{
+  "matches": [
+    {
+      "src": "trailer [203,205]",
+      "dest": "trailer [110,112]"
+    },
+    {
+      "src": "suite [12,205]",
+      "dest": "suite [12,176]"
+    },
+    {
+      "src": "name: selected_dishes [106,121]",
+      "dest": "name: selected_dishes [53,68]"
+    },
+    {
+      "src": "classdef [0,205]",
+      "dest": "classdef [0,176]"
+    },
+    {
+      "src": "suite [36,205]",
+      "dest": "suite [36,176]"
+    },
+    {
+      "src": "name: checkout [21,29]",
+      "dest": "name: checkout [21,29]"
+    },
+    {
+      "src": "name: self [101,105]",
+      "dest": "name: self [48,52]"
+    },
+    {
+      "src": "name: self [30,34]",
+      "dest": "name: self [30,34]"
+    },
+    {
+      "src": "param [30,34]",
+      "dest": "param [30,34]"
+    },
+    {
+      "src": "atom_expr [101,121]",
+      "dest": "atom_expr [48,68]"
+    },
+    {
+      "src": "trailer [187,203]",
+      "dest": "trailer [94,110]"
+    },
+    {
+      "src": "parameters [29,35]",
+      "dest": "parameters [29,35]"
+    },
+    {
+      "src": "atom_expr [183,205]",
+      "dest": "atom_expr [90,112]"
+    },
+    {
+      "src": "if_stmt [98,205]",
+      "dest": "if_stmt [45,176]"
+    },
+    {
+      "src": "file_input [0,205]",
+      "dest": "file_input [0,176]"
+    },
+    {
+      "src": "name: self [183,187]",
+      "dest": "name: self [90,94]"
+    },
+    {
+      "src": "trailer [105,121]",
+      "dest": "trailer [52,68]"
+    },
+    {
+      "src": "funcdef [17,205]",
+      "dest": "funcdef [17,176]"
+    },
+    {
+      "src": "suite [122,205]",
+      "dest": "suite [69,138]"
+    },
+    {
+      "src": "name: Order [6,11]",
+      "dest": "name: Order [6,11]"
+    },
+    {
+      "src": "name: calculate_total [188,203]",
+      "dest": "name: calculate_total [95,110]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "suite [151,176]",
+      "parent": "if_stmt [45,176]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [82,113]",
+      "parent": "suite [69,138]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [125,138]",
+      "parent": "suite [69,138]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [82,112]",
+      "parent": "simple_stmt [82,113]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: total [82,87]",
+      "parent": "expr_stmt [82,112]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [88,89]",
+      "parent": "expr_stmt [82,112]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [183,205]",
+      "parent": "expr_stmt [82,112]",
+      "at": 2
+    }
+  ]
+}

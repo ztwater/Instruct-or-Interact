@@ -1,0 +1,278 @@
+{
+  "matches": [
+    {
+      "src": "term [140,180]",
+      "dest": "term [390,435]"
+    },
+    {
+      "src": "suite [18,225]",
+      "dest": "suite [18,518]"
+    },
+    {
+      "src": "expr_stmt [60,109]",
+      "dest": "expr_stmt [300,359]"
+    },
+    {
+      "src": "trailer [95,109]",
+      "dest": "trailer [448,461]"
+    },
+    {
+      "src": "atom_expr [167,180]",
+      "dest": "atom_expr [417,435]"
+    },
+    {
+      "src": "classdef [0,225]",
+      "dest": "classdef [0,518]"
+    },
+    {
+      "src": "operator: - [160,161]",
+      "dest": "operator: - [410,411]"
+    },
+    {
+      "src": "name: current_song [96,108]",
+      "dest": "name: current_song [449,461]"
+    },
+    {
+      "src": "suite [51,225]",
+      "dest": "suite [47,518]"
+    },
+    {
+      "src": "simple_stmt [118,181]",
+      "dest": "simple_stmt [368,436]"
+    },
+    {
+      "src": "name: playlist [196,204]",
+      "dest": "name: playlist [469,477]"
+    },
+    {
+      "src": "trailer [170,180]",
+      "dest": "trailer [325,334]"
+    },
+    {
+      "src": "expr_stmt [118,180]",
+      "dest": "expr_stmt [368,435]"
+    },
+    {
+      "src": "name: current_song_index [141,159]",
+      "dest": "name: current_song_index [391,409]"
+    },
+    {
+      "src": "atom_expr [81,109]",
+      "dest": "atom_expr [444,461]"
+    },
+    {
+      "src": "name: playlist [81,89]",
+      "dest": "name: self [444,448]"
+    },
+    {
+      "src": "file_input [0,225]",
+      "dest": "file_input [0,518]"
+    },
+    {
+      "src": "number: 1 [162,163]",
+      "dest": "number: 1 [412,413]"
+    },
+    {
+      "src": "operator: = [138,139]",
+      "dest": "operator: = [388,389]"
+    },
+    {
+      "src": "param [41,49]",
+      "dest": "param [41,45]"
+    },
+    {
+      "src": "operator: % [165,166]",
+      "dest": "operator: % [415,416]"
+    },
+    {
+      "src": "arith_expr [141,163]",
+      "dest": "arith_expr [391,413]"
+    },
+    {
+      "src": "name: previous_song [27,40]",
+      "dest": "name: previous_song [27,40]"
+    },
+    {
+      "src": "name: previous_song_index [118,137]",
+      "dest": "name: previous_song_index [368,387]"
+    },
+    {
+      "src": "name: len [167,170]",
+      "dest": "name: len [417,420]"
+    },
+    {
+      "src": "name: MusicPlayer [6,17]",
+      "dest": "name: MusicPlayer [6,17]"
+    },
+    {
+      "src": "trailer [204,225]",
+      "dest": "trailer [477,498]"
+    },
+    {
+      "src": "atom [140,164]",
+      "dest": "atom [390,414]"
+    },
+    {
+      "src": "trailer [89,95]",
+      "dest": "trailer [334,340]"
+    },
+    {
+      "src": "name: index [90,95]",
+      "dest": "name: index [335,340]"
+    },
+    {
+      "src": "simple_stmt [60,110]",
+      "dest": "simple_stmt [300,360]"
+    },
+    {
+      "src": "name: current_song_index [60,78]",
+      "dest": "name: current_song_index [300,318]"
+    },
+    {
+      "src": "parameters [40,50]",
+      "dest": "parameters [40,46]"
+    },
+    {
+      "src": "name: playlist [41,49]",
+      "dest": "name: self [41,45]"
+    },
+    {
+      "src": "funcdef [23,225]",
+      "dest": "funcdef [23,518]"
+    },
+    {
+      "src": "name: playlist [171,179]",
+      "dest": "name: playlist [326,334]"
+    },
+    {
+      "src": "atom_expr [196,225]",
+      "dest": "atom_expr [464,498]"
+    },
+    {
+      "src": "operator: = [79,80]",
+      "dest": "operator: = [319,320]"
+    },
+    {
+      "src": "name: previous_song_index [205,224]",
+      "dest": "name: previous_song_index [478,497]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [56,224]",
+      "parent": "suite [47,518]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "if_stmt [232,287]",
+      "parent": "suite [47,518]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [444,499]",
+      "parent": "suite [47,518]",
+      "at": 4
+    },
+    {
+      "action": "insert-node",
+      "tree": "return_stmt [507,518]",
+      "parent": "suite [47,518]",
+      "at": 5
+    },
+    {
+      "action": "update-node",
+      "tree": "name: playlist [41,49]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [444,498]",
+      "parent": "simple_stmt [444,499]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [321,359]",
+      "parent": "expr_stmt [300,359]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [81,109]",
+      "parent": "expr_stmt [444,498]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [462,463]",
+      "parent": "expr_stmt [444,498]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [196,225]",
+      "parent": "expr_stmt [444,498]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [321,325]",
+      "parent": "atom_expr [321,359]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [170,180]",
+      "parent": "atom_expr [321,359]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [89,95]",
+      "parent": "atom_expr [321,359]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [340,359]",
+      "parent": "atom_expr [321,359]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: playlist [81,89]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [464,468]",
+      "parent": "atom_expr [464,498]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [468,477]",
+      "parent": "atom_expr [464,498]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [420,435]",
+      "parent": "atom_expr [417,435]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: playlist [196,204]",
+      "parent": "trailer [468,477]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "return_stmt [189,225]"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "matches": [
+    {
+      "src": "name: sin_value [259,268]",
+      "dest": "name: sin_value [465,474]"
+    },
+    {
+      "src": "suite [20,268]",
+      "dest": "suite [20,475]"
+    },
+    {
+      "src": "parameters [32,35]",
+      "dest": "parameters [32,41]"
+    },
+    {
+      "src": "atom_expr [208,234]",
+      "dest": "atom_expr [414,440]"
+    },
+    {
+      "src": "name: x [33,34]",
+      "dest": "name: x [39,40]"
+    },
+    {
+      "src": "classdef [0,268]",
+      "dest": "classdef [0,475]"
+    },
+    {
+      "src": "simple_stmt [196,235]",
+      "dest": "simple_stmt [402,441]"
+    },
+    {
+      "src": "name: radians [121,128]",
+      "dest": "name: radians [327,334]"
+    },
+    {
+      "src": "suite [36,268]",
+      "dest": "suite [42,475]"
+    },
+    {
+      "src": "trailer [216,234]",
+      "dest": "trailer [422,440]"
+    },
+    {
+      "src": "name: math [208,212]",
+      "dest": "name: math [414,418]"
+    },
+    {
+      "src": "name: sin [213,216]",
+      "dest": "name: sin [419,422]"
+    },
+    {
+      "src": "name: angle_in_radians [97,113]",
+      "dest": "name: angle_in_radians [303,319]"
+    },
+    {
+      "src": "name: sin [29,32]",
+      "dest": "name: sin [29,32]"
+    },
+    {
+      "src": "expr_stmt [196,234]",
+      "dest": "expr_stmt [402,440]"
+    },
+    {
+      "src": "trailer [120,128]",
+      "dest": "trailer [326,334]"
+    },
+    {
+      "src": "operator: = [206,207]",
+      "dest": "operator: = [412,413]"
+    },
+    {
+      "src": "file_input [0,268]",
+      "dest": "file_input [0,475]"
+    },
+    {
+      "src": "trailer [128,131]",
+      "dest": "trailer [334,337]"
+    },
+    {
+      "src": "return_stmt [252,268]",
+      "dest": "return_stmt [458,474]"
+    },
+    {
+      "src": "param [33,34]",
+      "dest": "param [39,40]"
+    },
+    {
+      "src": "name: x [129,130]",
+      "dest": "name: x [335,336]"
+    },
+    {
+      "src": "name: TriCalculator [6,19]",
+      "dest": "name: TriCalculator [6,19]"
+    },
+    {
+      "src": "operator: = [114,115]",
+      "dest": "operator: = [320,321]"
+    },
+    {
+      "src": "trailer [212,216]",
+      "dest": "trailer [418,422]"
+    },
+    {
+      "src": "expr_stmt [97,131]",
+      "dest": "expr_stmt [303,337]"
+    },
+    {
+      "src": "name: math [116,120]",
+      "dest": "name: math [322,326]"
+    },
+    {
+      "src": "atom_expr [116,131]",
+      "dest": "atom_expr [322,337]"
+    },
+    {
+      "src": "name: angle_in_radians [217,233]",
+      "dest": "name: angle_in_radians [423,439]"
+    },
+    {
+      "src": "name: sin_value [196,205]",
+      "dest": "name: sin_value [402,411]"
+    },
+    {
+      "src": "simple_stmt [97,132]",
+      "dest": "simple_stmt [303,338]"
+    },
+    {
+      "src": "funcdef [25,268]",
+      "dest": "funcdef [25,475]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [33,38]",
+      "parent": "parameters [32,41]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [51,214]",
+      "parent": "suite [42,475]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [222,234]",
+      "parent": "suite [42,475]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [458,475]",
+      "parent": "suite [42,475]",
+      "at": 4
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [252,268]",
+      "parent": "simple_stmt [458,475]",
+      "at": 0
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "matches": [
+    {
+      "src": "name: URLHandler [6,16]",
+      "dest": "name: URLHandler [6,16]"
+    },
+    {
+      "src": "name: replace [105,112]",
+      "dest": "name: replace [307,314]"
+    },
+    {
+      "src": "suite [17,330]",
+      "dest": "suite [17,509]"
+    },
+    {
+      "src": "operator: = [206,207]",
+      "dest": "operator: = [385,386]"
+    },
+    {
+      "src": "classdef [0,330]",
+      "dest": "classdef [0,509]"
+    },
+    {
+      "src": "number: 1 [328,329]",
+      "dest": "number: 1 [507,508]"
+    },
+    {
+      "src": "suite [40,330]",
+      "dest": "suite [41,509]"
+    },
+    {
+      "src": "name: split [212,217]",
+      "dest": "name: split [391,396]"
+    },
+    {
+      "src": "arglist [113,126]",
+      "dest": "arglist [292,305]"
+    },
+    {
+      "src": "atom_expr [208,222]",
+      "dest": "atom_expr [387,401]"
+    },
+    {
+      "src": "name: url [101,104]",
+      "dest": "name: url [280,283]"
+    },
+    {
+      "src": "string: \"http://\" [113,122]",
+      "dest": "string: \"http://\" [292,301]"
+    },
+    {
+      "src": "trailer [211,217]",
+      "dest": "trailer [390,396]"
+    },
+    {
+      "src": "return_stmt [315,330]",
+      "dest": "return_stmt [494,509]"
+    },
+    {
+      "src": "name: replace [128,135]",
+      "dest": "name: replace [284,291]"
+    },
+    {
+      "src": "trailer [327,330]",
+      "dest": "trailer [506,509]"
+    },
+    {
+      "src": "name: parts [200,205]",
+      "dest": "name: parts [379,384]"
+    },
+    {
+      "src": "file_input [0,330]",
+      "dest": "file_input [0,509]"
+    },
+    {
+      "src": "parameters [34,39]",
+      "dest": "parameters [34,40]"
+    },
+    {
+      "src": "string: \"https://\" [136,146]",
+      "dest": "string: \"https://\" [315,325]"
+    },
+    {
+      "src": "atom_expr [101,151]",
+      "dest": "atom_expr [275,330]"
+    },
+    {
+      "src": "simple_stmt [200,223]",
+      "dest": "simple_stmt [379,402]"
+    },
+    {
+      "src": "trailer [135,151]",
+      "dest": "trailer [314,330]"
+    },
+    {
+      "src": "operator: , [146,147]",
+      "dest": "operator: , [325,326]"
+    },
+    {
+      "src": "name: url [35,38]",
+      "dest": "name: self [35,39]"
+    },
+    {
+      "src": "name: url [208,211]",
+      "dest": "name: url [387,390]"
+    },
+    {
+      "src": "string: \"/\" [218,221]",
+      "dest": "string: \"/\" [397,400]"
+    },
+    {
+      "src": "name: parts [322,327]",
+      "dest": "name: parts [501,506]"
+    },
+    {
+      "src": "atom_expr [322,330]",
+      "dest": "atom_expr [501,509]"
+    },
+    {
+      "src": "trailer [112,127]",
+      "dest": "trailer [291,306]"
+    },
+    {
+      "src": "trailer [217,222]",
+      "dest": "trailer [396,401]"
+    },
+    {
+      "src": "arglist [136,150]",
+      "dest": "arglist [315,329]"
+    },
+    {
+      "src": "string: \"\" [148,150]",
+      "dest": "string: \"\" [327,329]"
+    },
+    {
+      "src": "string: \"\" [124,126]",
+      "dest": "string: \"\" [303,305]"
+    },
+    {
+      "src": "name: url [95,98]",
+      "dest": "name: url [269,272]"
+    },
+    {
+      "src": "trailer [127,135]",
+      "dest": "trailer [283,291]"
+    },
+    {
+      "src": "expr_stmt [200,222]",
+      "dest": "expr_stmt [379,401]"
+    },
+    {
+      "src": "simple_stmt [95,152]",
+      "dest": "simple_stmt [269,331]"
+    },
+    {
+      "src": "name: get_host [26,34]",
+      "dest": "name: get_host [26,34]"
+    },
+    {
+      "src": "expr_stmt [95,151]",
+      "dest": "expr_stmt [269,330]"
+    },
+    {
+      "src": "funcdef [22,330]",
+      "dest": "funcdef [22,509]"
+    },
+    {
+      "src": "trailer [104,112]",
+      "dest": "trailer [306,314]"
+    },
+    {
+      "src": "param [35,38]",
+      "dest": "param [35,39]"
+    },
+    {
+      "src": "operator: , [122,123]",
+      "dest": "operator: , [301,302]"
+    },
+    {
+      "src": "operator: = [99,100]",
+      "dest": "operator: = [273,274]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [50,215]",
+      "parent": "suite [41,509]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: url [35,38]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [112,127]",
+      "parent": "atom_expr [275,330]",
+      "at": 3
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [104,112]",
+      "parent": "atom_expr [275,330]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [275,279]",
+      "parent": "atom_expr [275,330]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [279,283]",
+      "parent": "atom_expr [275,330]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: url [101,104]",
+      "parent": "trailer [279,283]",
+      "at": 0
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "matches": [
+    {
+      "src": "suite [24,232]",
+      "dest": "suite [24,756]"
+    },
+    {
+      "src": "param [59,74]",
+      "dest": "param [67,78]"
+    },
+    {
+      "src": "name: true_positives [199,213]",
+      "dest": "name: true_positives [718,732]"
+    },
+    {
+      "src": "suite [126,148]",
+      "dest": "suite [635,657]"
+    },
+    {
+      "src": "classdef [0,232]",
+      "dest": "classdef [0,756]"
+    },
+    {
+      "src": "name: true_positives [43,57]",
+      "dest": "name: predicted_labels [49,65]"
+    },
+    {
+      "src": "name: true_positives [88,102]",
+      "dest": "name: true_positives [592,606]"
+    },
+    {
+      "src": "atom [198,232]",
+      "dest": "atom [712,756]"
+    },
+    {
+      "src": "param [43,58]",
+      "dest": "param [49,66]"
+    },
+    {
+      "src": "name: false_positives [59,74]",
+      "dest": "name: true_labels [67,78]"
+    },
+    {
+      "src": "suite [161,232]",
+      "dest": "suite [670,756]"
+    },
+    {
+      "src": "operator: , [57,58]",
+      "dest": "operator: , [65,66]"
+    },
+    {
+      "src": "operator: == [121,123]",
+      "dest": "operator: == [630,632]"
+    },
+    {
+      "src": "parameters [42,75]",
+      "dest": "parameters [42,79]"
+    },
+    {
+      "src": "number: 0 [124,125]",
+      "dest": "number: 0 [633,634]"
+    },
+    {
+      "src": "operator: / [196,197]",
+      "dest": "operator: / [710,711]"
+    },
+    {
+      "src": "file_input [0,232]",
+      "dest": "file_input [0,756]"
+    },
+    {
+      "src": "name: precision [33,42]",
+      "dest": "name: precision [33,42]"
+    },
+    {
+      "src": "if_stmt [85,232]",
+      "dest": "if_stmt [584,756]"
+    },
+    {
+      "src": "arith_expr [199,231]",
+      "dest": "arith_expr [713,755]"
+    },
+    {
+      "src": "operator: + [214,215]",
+      "dest": "operator: + [733,734]"
+    },
+    {
+      "src": "simple_stmt [139,148]",
+      "dest": "simple_stmt [648,657]"
+    },
+    {
+      "src": "name: MetricsCalculator [6,23]",
+      "dest": "name: MetricsCalculator [6,23]"
+    },
+    {
+      "src": "number: 0 [146,147]",
+      "dest": "number: 0 [655,656]"
+    },
+    {
+      "src": "return_stmt [139,147]",
+      "dest": "return_stmt [648,656]"
+    },
+    {
+      "src": "operator: + [103,104]",
+      "dest": "operator: + [607,608]"
+    },
+    {
+      "src": "name: false_positives [105,120]",
+      "dest": "name: false_positives [614,629]"
+    },
+    {
+      "src": "arith_expr [88,120]",
+      "dest": "arith_expr [587,629]"
+    },
+    {
+      "src": "name: true_positives [181,195]",
+      "dest": "name: true_positives [695,709]"
+    },
+    {
+      "src": "name: false_positives [216,231]",
+      "dest": "name: false_positives [740,755]"
+    },
+    {
+      "src": "term [181,232]",
+      "dest": "term [690,756]"
+    },
+    {
+      "src": "funcdef [29,232]",
+      "dest": "funcdef [29,756]"
+    },
+    {
+      "src": "return_stmt [174,232]",
+      "dest": "return_stmt [683,756]"
+    },
+    {
+      "src": "suite [76,232]",
+      "dest": "suite [80,756]"
+    },
+    {
+      "src": "comparison [88,125]",
+      "dest": "comparison [587,634]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [43,48]",
+      "parent": "parameters [42,79]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [89,259]",
+      "parent": "suite [80,756]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [267,291]",
+      "parent": "suite [80,756]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [299,324]",
+      "parent": "suite [80,756]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "for_stmt [337,571]",
+      "parent": "suite [80,756]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: true_positives [43,57]",
+      "label": "predicted_labels"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: false_positives [59,74]",
+      "label": "true_labels"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [587,606]",
+      "parent": "arith_expr [587,629]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [609,629]",
+      "parent": "arith_expr [587,629]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [587,591]",
+      "parent": "atom_expr [587,606]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [591,606]",
+      "parent": "atom_expr [587,606]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [609,613]",
+      "parent": "atom_expr [609,629]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [613,629]",
+      "parent": "atom_expr [609,629]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [690,709]",
+      "parent": "term [690,756]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: true_positives [88,102]",
+      "parent": "trailer [591,606]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: false_positives [105,120]",
+      "parent": "trailer [613,629]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [690,694]",
+      "parent": "atom_expr [690,709]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [694,709]",
+      "parent": "atom_expr [690,709]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: true_positives [181,195]",
+      "parent": "trailer [694,709]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [713,732]",
+      "parent": "arith_expr [713,755]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [735,755]",
+      "parent": "arith_expr [713,755]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [713,717]",
+      "parent": "atom_expr [713,732]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [717,732]",
+      "parent": "atom_expr [713,732]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [735,739]",
+      "parent": "atom_expr [735,755]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [739,755]",
+      "parent": "atom_expr [735,755]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: true_positives [199,213]",
+      "parent": "trailer [717,732]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: false_positives [216,231]",
+      "parent": "trailer [739,755]",
+      "at": 0
+    }
+  ]
+}

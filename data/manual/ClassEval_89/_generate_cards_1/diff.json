@@ -1,0 +1,180 @@
+{
+  "matches": [
+    {
+      "src": "simple_stmt [62,73]",
+      "dest": "simple_stmt [66,77]"
+    },
+    {
+      "src": "suite [26,191]",
+      "dest": "suite [26,195]"
+    },
+    {
+      "src": "trailer [133,139]",
+      "dest": "trailer [137,143]"
+    },
+    {
+      "src": "for_stmt [81,171]",
+      "dest": "for_stmt [85,175]"
+    },
+    {
+      "src": "classdef [0,191]",
+      "dest": "classdef [0,195]"
+    },
+    {
+      "src": "suite [53,191]",
+      "dest": "suite [57,195]"
+    },
+    {
+      "src": "name: random [119,125]",
+      "dest": "name: random [123,129]"
+    },
+    {
+      "src": "expr_stmt [62,72]",
+      "dest": "expr_stmt [66,76]"
+    },
+    {
+      "src": "trailer [95,98]",
+      "dest": "trailer [99,102]"
+    },
+    {
+      "src": "simple_stmt [152,171]",
+      "dest": "simple_stmt [156,175]"
+    },
+    {
+      "src": "name: _ [85,86]",
+      "dest": "name: _ [89,90]"
+    },
+    {
+      "src": "atom_expr [152,170]",
+      "dest": "atom_expr [156,174]"
+    },
+    {
+      "src": "name: range [90,95]",
+      "dest": "name: range [94,99]"
+    },
+    {
+      "src": "simple_stmt [112,140]",
+      "dest": "simple_stmt [116,144]"
+    },
+    {
+      "src": "name: cards [186,191]",
+      "dest": "name: cards [190,195]"
+    },
+    {
+      "src": "name: card [165,169]",
+      "dest": "name: card [169,173]"
+    },
+    {
+      "src": "name: cards [62,67]",
+      "dest": "name: cards [66,71]"
+    },
+    {
+      "src": "atom_expr [119,139]",
+      "dest": "atom_expr [123,143]"
+    },
+    {
+      "src": "atom [70,72]",
+      "dest": "atom [74,76]"
+    },
+    {
+      "src": "file_input [0,191]",
+      "dest": "file_input [0,195]"
+    },
+    {
+      "src": "trailer [125,133]",
+      "dest": "trailer [129,137]"
+    },
+    {
+      "src": "name: _generate_cards [35,50]",
+      "dest": "name: _generate_cards [35,50]"
+    },
+    {
+      "src": "number: 1 [134,135]",
+      "dest": "number: 1 [138,139]"
+    },
+    {
+      "src": "name: randint [126,133]",
+      "dest": "name: randint [130,137]"
+    },
+    {
+      "src": "expr_stmt [112,139]",
+      "dest": "expr_stmt [116,143]"
+    },
+    {
+      "src": "operator: , [135,136]",
+      "dest": "operator: , [139,140]"
+    },
+    {
+      "src": "atom_expr [90,98]",
+      "dest": "atom_expr [94,102]"
+    },
+    {
+      "src": "parameters [50,52]",
+      "dest": "parameters [50,56]"
+    },
+    {
+      "src": "suite [99,171]",
+      "dest": "suite [103,175]"
+    },
+    {
+      "src": "operator: = [117,118]",
+      "dest": "operator: = [121,122]"
+    },
+    {
+      "src": "name: card [112,116]",
+      "dest": "name: card [116,120]"
+    },
+    {
+      "src": "number: 9 [96,97]",
+      "dest": "number: 9 [100,101]"
+    },
+    {
+      "src": "return_stmt [179,191]",
+      "dest": "return_stmt [183,195]"
+    },
+    {
+      "src": "arglist [134,138]",
+      "dest": "arglist [138,142]"
+    },
+    {
+      "src": "number: 9 [137,138]",
+      "dest": "number: 9 [141,142]"
+    },
+    {
+      "src": "trailer [157,164]",
+      "dest": "trailer [161,168]"
+    },
+    {
+      "src": "operator: = [68,69]",
+      "dest": "operator: = [72,73]"
+    },
+    {
+      "src": "funcdef [31,191]",
+      "dest": "funcdef [31,195]"
+    },
+    {
+      "src": "name: append [158,164]",
+      "dest": "name: append [162,168]"
+    },
+    {
+      "src": "trailer [164,170]",
+      "dest": "trailer [168,174]"
+    },
+    {
+      "src": "name: TwentyFourPointGame [6,25]",
+      "dest": "name: TwentyFourPointGame [6,25]"
+    },
+    {
+      "src": "name: cards [152,157]",
+      "dest": "name: cards [156,161]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [51,55]",
+      "parent": "parameters [50,56]",
+      "at": 0
+    }
+  ]
+}

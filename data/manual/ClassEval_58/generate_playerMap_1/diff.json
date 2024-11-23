@@ -1,0 +1,215 @@
+{
+  "matches": [
+    {
+      "src": "testlist_comp [75,96]",
+      "dest": "testlist_comp [519,545]"
+    },
+    {
+      "src": "name: range [88,93]",
+      "dest": "name: self [538,542]"
+    },
+    {
+      "src": "suite [22,137]",
+      "dest": "suite [22,591]"
+    },
+    {
+      "src": "classdef [0,137]",
+      "dest": "classdef [0,591]"
+    },
+    {
+      "src": "name: board [132,137]",
+      "dest": "name: board [586,591]"
+    },
+    {
+      "src": "suite [56,137]",
+      "dest": "suite [56,591]"
+    },
+    {
+      "src": "atom [74,97]",
+      "dest": "atom [518,546]"
+    },
+    {
+      "src": "param [50,52]",
+      "dest": "param [50,54]"
+    },
+    {
+      "src": "name: _ [83,84]",
+      "dest": "name: _ [527,528]"
+    },
+    {
+      "src": "name: n [94,95]",
+      "dest": "name: n [543,544]"
+    },
+    {
+      "src": "sync_comp_for [79,96]",
+      "dest": "sync_comp_for [523,545]"
+    },
+    {
+      "src": "atom_expr [88,96]",
+      "dest": "atom_expr [538,544]"
+    },
+    {
+      "src": "name: generate_playerMap [31,49]",
+      "dest": "name: generate_playerMap [31,49]"
+    },
+    {
+      "src": "name: n [50,51]",
+      "dest": "name: self [50,54]"
+    },
+    {
+      "src": "file_input [0,137]",
+      "dest": "file_input [0,591]"
+    },
+    {
+      "src": "name: MinesweeperGame [6,21]",
+      "dest": "name: MinesweeperGame [6,21]"
+    },
+    {
+      "src": "expr_stmt [65,116]",
+      "dest": "expr_stmt [509,570]"
+    },
+    {
+      "src": "trailer [112,115]",
+      "dest": "trailer [566,568]"
+    },
+    {
+      "src": "name: _ [102,103]",
+      "dest": "name: _ [551,552]"
+    },
+    {
+      "src": "trailer [93,96]",
+      "dest": "trailer [542,544]"
+    },
+    {
+      "src": "operator: = [71,72]",
+      "dest": "operator: = [515,516]"
+    },
+    {
+      "src": "return_stmt [125,137]",
+      "dest": "return_stmt [579,591]"
+    },
+    {
+      "src": "atom_expr [107,115]",
+      "dest": "atom_expr [562,568]"
+    },
+    {
+      "src": "name: board [65,70]",
+      "dest": "name: board [509,514]"
+    },
+    {
+      "src": "atom [73,116]",
+      "dest": "atom [517,570]"
+    },
+    {
+      "src": "name: n [113,114]",
+      "dest": "name: n [567,568]"
+    },
+    {
+      "src": "testlist_comp [74,115]",
+      "dest": "testlist_comp [518,569]"
+    },
+    {
+      "src": "string: '-' [75,78]",
+      "dest": "string: '-' [519,522]"
+    },
+    {
+      "src": "simple_stmt [65,117]",
+      "dest": "simple_stmt [509,571]"
+    },
+    {
+      "src": "funcdef [27,137]",
+      "dest": "funcdef [27,591]"
+    },
+    {
+      "src": "name: range [107,112]",
+      "dest": "name: self [562,566]"
+    },
+    {
+      "src": "parameters [49,55]",
+      "dest": "parameters [49,55]"
+    },
+    {
+      "src": "sync_comp_for [98,115]",
+      "dest": "sync_comp_for [547,569]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [65,501]",
+      "parent": "suite [56,591]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: n [50,51]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [556,569]",
+      "parent": "sync_comp_for [547,569]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: range [556,561]",
+      "parent": "atom_expr [556,569]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [561,569]",
+      "parent": "atom_expr [556,569]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [532,545]",
+      "parent": "sync_comp_for [523,545]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [107,115]",
+      "parent": "trailer [561,569]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: range [532,537]",
+      "parent": "atom_expr [532,545]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [537,545]",
+      "parent": "atom_expr [532,545]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: range [107,112]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [88,96]",
+      "parent": "trailer [537,545]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: range [88,93]",
+      "label": "self"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [51,52]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "param [53,54]"
+    }
+  ]
+}

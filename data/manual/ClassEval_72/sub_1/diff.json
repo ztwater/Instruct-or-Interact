@@ -1,0 +1,162 @@
+{
+  "matches": [
+    {
+      "src": "param [37,49]",
+      "dest": "param [45,57]"
+    },
+    {
+      "src": "name: sub [26,29]",
+      "dest": "name: sub [26,29]"
+    },
+    {
+      "src": "suite [17,108]",
+      "dest": "suite [17,432]"
+    },
+    {
+      "src": "param [50,56]",
+      "dest": "param [58,62]"
+    },
+    {
+      "src": "name: regex [81,86]",
+      "dest": "name: pattern [404,411]"
+    },
+    {
+      "src": "classdef [0,108]",
+      "dest": "classdef [0,432]"
+    },
+    {
+      "src": "suite [58,108]",
+      "dest": "suite [64,432]"
+    },
+    {
+      "src": "trailer [76,80]",
+      "dest": "trailer [399,403]"
+    },
+    {
+      "src": "name: string [50,56]",
+      "dest": "name: text [58,62]"
+    },
+    {
+      "src": "name: sub [77,80]",
+      "dest": "name: sub [400,403]"
+    },
+    {
+      "src": "name: re [74,76]",
+      "dest": "name: re [397,399]"
+    },
+    {
+      "src": "name: regex [30,35]",
+      "dest": "name: self [30,34]"
+    },
+    {
+      "src": "param [30,36]",
+      "dest": "param [30,35]"
+    },
+    {
+      "src": "trailer [80,108]",
+      "dest": "trailer [403,431]"
+    },
+    {
+      "src": "operator: , [86,87]",
+      "dest": "operator: , [411,412]"
+    },
+    {
+      "src": "file_input [0,108]",
+      "dest": "file_input [0,432]"
+    },
+    {
+      "src": "atom_expr [74,108]",
+      "dest": "atom_expr [397,431]"
+    },
+    {
+      "src": "operator: , [35,36]",
+      "dest": "operator: , [34,35]"
+    },
+    {
+      "src": "name: replacement [88,99]",
+      "dest": "name: replacement [413,424]"
+    },
+    {
+      "src": "operator: , [48,49]",
+      "dest": "operator: , [56,57]"
+    },
+    {
+      "src": "operator: , [99,100]",
+      "dest": "operator: , [424,425]"
+    },
+    {
+      "src": "name: replacement [37,48]",
+      "dest": "name: replacement [45,56]"
+    },
+    {
+      "src": "name: RegexUtils [6,16]",
+      "dest": "name: RegexUtils [6,16]"
+    },
+    {
+      "src": "parameters [29,57]",
+      "dest": "parameters [29,63]"
+    },
+    {
+      "src": "name: string [101,107]",
+      "dest": "name: text [426,430]"
+    },
+    {
+      "src": "return_stmt [67,108]",
+      "dest": "return_stmt [390,431]"
+    },
+    {
+      "src": "funcdef [22,108]",
+      "dest": "funcdef [22,432]"
+    },
+    {
+      "src": "arglist [81,107]",
+      "dest": "arglist [404,430]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [36,44]",
+      "parent": "parameters [29,63]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [73,382]",
+      "parent": "suite [64,432]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [390,432]",
+      "parent": "suite [64,432]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: regex [30,35]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: string [50,56]",
+      "label": "text"
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [67,108]",
+      "parent": "simple_stmt [390,432]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: regex [81,86]",
+      "label": "pattern"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: string [101,107]",
+      "label": "text"
+    }
+  ]
+}

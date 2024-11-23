@@ -1,0 +1,65 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        read a JSON file and process the data by removing a specified key and rewrite the modified data back to the file.\n\n        :param file_path: str, the path of the JSON file.\n        :param remove_key: str, the key to be removed.\n        :return: 1, if the specified key is successfully removed and the data is written back.\n                    0, if the file does not exist or the specified key does not exist in the data.\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "if_stmt",
+        "inserted": "if not os.path.exists(file_path):\n            return 0\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "return_stmt",
+        "inserted": "return 1",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "json.dump(data, file)\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "json.dump(data, file)",
+        "deleted": "json.dump(data, file)",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "remove_key",
+        "deleted": "key_to_remove",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "remove_key",
+        "deleted": "key_to_remove",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "remove_key",
+        "deleted": "key_to_remove",
+        "type": "Refactoring"
+    }
+]

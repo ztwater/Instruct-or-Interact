@@ -1,0 +1,234 @@
+{
+  "matches": [
+    {
+      "src": "name: add_student [32,43]",
+      "dest": "name: add_student [32,43]"
+    },
+    {
+      "src": "param [64,74]",
+      "dest": "param [56,62]"
+    },
+    {
+      "src": "suite [23,125]",
+      "dest": "suite [23,357]"
+    },
+    {
+      "src": "name: student_name [99,111]",
+      "dest": "name: name [288,292]"
+    },
+    {
+      "src": "classdef [0,125]",
+      "dest": "classdef [0,357]"
+    },
+    {
+      "src": "suite [76,125]",
+      "dest": "suite [70,357]"
+    },
+    {
+      "src": "trailer [98,112]",
+      "dest": "trailer [287,293]"
+    },
+    {
+      "src": "name: student_id [64,74]",
+      "dest": "name: grade [56,61]"
+    },
+    {
+      "src": "operator: , [48,49]",
+      "dest": "operator: , [48,49]"
+    },
+    {
+      "src": "name: self [85,89]",
+      "dest": "name: self [274,278]"
+    },
+    {
+      "src": "name: student_name [50,62]",
+      "dest": "name: name [50,54]"
+    },
+    {
+      "src": "param [50,63]",
+      "dest": "param [50,55]"
+    },
+    {
+      "src": "file_input [0,125]",
+      "dest": "file_input [0,357]"
+    },
+    {
+      "src": "parameters [43,75]",
+      "dest": "parameters [43,69]"
+    },
+    {
+      "src": "operator: , [62,63]",
+      "dest": "operator: , [54,55]"
+    },
+    {
+      "src": "name: self [44,48]",
+      "dest": "name: self [44,48]"
+    },
+    {
+      "src": "operator: = [113,114]",
+      "dest": "operator: = [294,295]"
+    },
+    {
+      "src": "name: students [90,98]",
+      "dest": "name: students [279,287]"
+    },
+    {
+      "src": "name: AssessmentSystem [6,22]",
+      "dest": "name: AssessmentSystem [6,22]"
+    },
+    {
+      "src": "name: student_id [115,125]",
+      "dest": "name: name [305,309]"
+    },
+    {
+      "src": "expr_stmt [85,125]",
+      "dest": "expr_stmt [274,357]"
+    },
+    {
+      "src": "trailer [89,98]",
+      "dest": "trailer [278,287]"
+    },
+    {
+      "src": "funcdef [28,125]",
+      "dest": "funcdef [28,357]"
+    },
+    {
+      "src": "atom_expr [85,112]",
+      "dest": "atom_expr [274,293]"
+    },
+    {
+      "src": "param [44,49]",
+      "dest": "param [44,49]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [63,68]",
+      "parent": "parameters [43,69]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [79,266]",
+      "parent": "suite [70,357]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: student_name [50,62]",
+      "label": "name"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: student_id [64,74]",
+      "label": "grade"
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [61,62]",
+      "parent": "param [56,62]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom [296,357]",
+      "parent": "expr_stmt [274,357]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: { [296,297]",
+      "parent": "atom [296,357]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "dictorsetmaker [297,356]",
+      "parent": "atom [296,357]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: } [356,357]",
+      "parent": "atom [296,357]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: student_name [99,111]",
+      "label": "name"
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: 'name' [297,303]",
+      "parent": "dictorsetmaker [297,356]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: student_id [115,125]",
+      "label": "name"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: student_id [115,125]",
+      "parent": "dictorsetmaker [297,356]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [309,310]",
+      "parent": "dictorsetmaker [297,356]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: 'grade' [311,318]",
+      "parent": "dictorsetmaker [297,356]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: grade [320,325]",
+      "parent": "dictorsetmaker [297,356]",
+      "at": 4
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [325,326]",
+      "parent": "dictorsetmaker [297,356]",
+      "at": 5
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: 'major' [327,334]",
+      "parent": "dictorsetmaker [297,356]",
+      "at": 6
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: major [336,341]",
+      "parent": "dictorsetmaker [297,356]",
+      "at": 7
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [341,342]",
+      "parent": "dictorsetmaker [297,356]",
+      "at": 8
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: 'courses' [343,352]",
+      "parent": "dictorsetmaker [297,356]",
+      "at": 9
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom [354,356]",
+      "parent": "dictorsetmaker [297,356]",
+      "at": 10
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        calculate the area of sector based on self.radius and angle\n        :param angle: angle of sector, float\n        :return: area of sector, float\n        >>> areaCalculator = AreaCalculator(2)\n        >>> areaCalculator.calculate_sector_area(math.pi)\n        6.283185307179586\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    }
+]

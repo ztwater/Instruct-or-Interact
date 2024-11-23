@@ -1,0 +1,204 @@
+{
+  "matches": [
+    {
+      "src": "suite [24,199]",
+      "dest": "suite [24,572]"
+    },
+    {
+      "src": "operator: * [167,168]",
+      "dest": "operator: * [540,541]"
+    },
+    {
+      "src": "name: recall [85,91]",
+      "dest": "name: recall [458,464]"
+    },
+    {
+      "src": "operator: , [51,52]",
+      "dest": "operator: , [64,65]"
+    },
+    {
+      "src": "classdef [0,199]",
+      "dest": "classdef [0,572]"
+    },
+    {
+      "src": "atom [156,176]",
+      "dest": "atom [529,549]"
+    },
+    {
+      "src": "suite [61,199]",
+      "dest": "suite [79,572]"
+    },
+    {
+      "src": "comparison [73,96]",
+      "dest": "comparison [446,469]"
+    },
+    {
+      "src": "simple_stmt [110,119]",
+      "dest": "simple_stmt [483,492]"
+    },
+    {
+      "src": "name: precision [180,189]",
+      "dest": "name: precision [553,562]"
+    },
+    {
+      "src": "operator: == [92,94]",
+      "dest": "operator: == [465,467]"
+    },
+    {
+      "src": "operator: + [190,191]",
+      "dest": "operator: + [563,564]"
+    },
+    {
+      "src": "suite [97,119]",
+      "dest": "suite [470,492]"
+    },
+    {
+      "src": "suite [132,199]",
+      "dest": "suite [505,572]"
+    },
+    {
+      "src": "name: recall [53,59]",
+      "dest": "name: true_labels [66,77]"
+    },
+    {
+      "src": "arith_expr [73,91]",
+      "dest": "arith_expr [446,464]"
+    },
+    {
+      "src": "operator: * [154,155]",
+      "dest": "operator: * [527,528]"
+    },
+    {
+      "src": "operator: + [83,84]",
+      "dest": "operator: + [456,457]"
+    },
+    {
+      "src": "name: precision [42,51]",
+      "dest": "name: predicted_labels [48,64]"
+    },
+    {
+      "src": "file_input [0,199]",
+      "dest": "file_input [0,572]"
+    },
+    {
+      "src": "term [157,175]",
+      "dest": "term [530,548]"
+    },
+    {
+      "src": "operator: / [177,178]",
+      "dest": "operator: / [550,551]"
+    },
+    {
+      "src": "name: precision [157,166]",
+      "dest": "name: precision [530,539]"
+    },
+    {
+      "src": "return_stmt [145,199]",
+      "dest": "return_stmt [518,572]"
+    },
+    {
+      "src": "name: f1_score [33,41]",
+      "dest": "name: f1_score [33,41]"
+    },
+    {
+      "src": "param [53,59]",
+      "dest": "param [66,77]"
+    },
+    {
+      "src": "atom [179,199]",
+      "dest": "atom [552,572]"
+    },
+    {
+      "src": "number: 0 [95,96]",
+      "dest": "number: 0 [468,469]"
+    },
+    {
+      "src": "name: MetricsCalculator [6,23]",
+      "dest": "name: MetricsCalculator [6,23]"
+    },
+    {
+      "src": "number: 0 [117,118]",
+      "dest": "number: 0 [490,491]"
+    },
+    {
+      "src": "number: 2 [152,153]",
+      "dest": "number: 2 [525,526]"
+    },
+    {
+      "src": "term [152,199]",
+      "dest": "term [525,572]"
+    },
+    {
+      "src": "return_stmt [110,118]",
+      "dest": "return_stmt [483,491]"
+    },
+    {
+      "src": "name: recall [169,175]",
+      "dest": "name: recall [542,548]"
+    },
+    {
+      "src": "arith_expr [180,198]",
+      "dest": "arith_expr [553,571]"
+    },
+    {
+      "src": "parameters [41,60]",
+      "dest": "parameters [41,78]"
+    },
+    {
+      "src": "if_stmt [70,199]",
+      "dest": "if_stmt [443,572]"
+    },
+    {
+      "src": "name: precision [73,82]",
+      "dest": "name: precision [446,455]"
+    },
+    {
+      "src": "funcdef [29,199]",
+      "dest": "funcdef [29,572]"
+    },
+    {
+      "src": "param [42,52]",
+      "dest": "param [48,65]"
+    },
+    {
+      "src": "name: recall [192,198]",
+      "dest": "name: recall [565,571]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [42,47]",
+      "parent": "parameters [41,78]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [88,309]",
+      "parent": "suite [79,572]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [317,375]",
+      "parent": "suite [79,572]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [383,435]",
+      "parent": "suite [79,572]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: precision [42,51]",
+      "label": "predicted_labels"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: recall [53,59]",
+      "label": "true_labels"
+    }
+  ]
+}

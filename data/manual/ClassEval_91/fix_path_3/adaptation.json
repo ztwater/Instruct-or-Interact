@@ -1,0 +1,9 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Fixes the given path string by removing leading and trailing slashes.\n        :param path: str, the path string to fix.\n        :return: str, the fixed path string.\n        >>> url_path = UrlPath()\n        >>> url_path.fix_path('/foo/bar/')\n        'foo/bar'\n\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    }
+]

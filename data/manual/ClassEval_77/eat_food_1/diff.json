@@ -1,0 +1,531 @@
+{
+  "matches": [
+    {
+      "src": "suite [12,356]",
+      "dest": "suite [12,843]"
+    },
+    {
+      "src": "classdef [0,356]",
+      "dest": "classdef [0,843]"
+    },
+    {
+      "src": "name: food [345,349]",
+      "dest": "name: food_position [810,823]"
+    },
+    {
+      "src": "suite [50,356]",
+      "dest": "suite [36,843]"
+    },
+    {
+      "src": "name: food [262,266]",
+      "dest": "name: new_food_position [613,630]"
+    },
+    {
+      "src": "name: snake [107,112]",
+      "dest": "name: self [452,456]"
+    },
+    {
+      "src": "simple_stmt [184,197]",
+      "dest": "simple_stmt [514,532]"
+    },
+    {
+      "src": "testlist_comp [270,312]",
+      "dest": "testlist_comp [634,717]"
+    },
+    {
+      "src": "arglist [285,289]",
+      "dest": "arglist [649,673]"
+    },
+    {
+      "src": "parameters [29,49]",
+      "dest": "parameters [29,35]"
+    },
+    {
+      "src": "name: snake [30,35]",
+      "dest": "name: self [30,34]"
+    },
+    {
+      "src": "name: snake [338,343]",
+      "dest": "name: self [759,763]"
+    },
+    {
+      "src": "expr_stmt [184,196]",
+      "dest": "expr_stmt [514,531]"
+    },
+    {
+      "src": "name: append [113,119]",
+      "dest": "name: length [457,463]"
+    },
+    {
+      "src": "number: 100 [193,196]",
+      "dest": "number: 100 [528,531]"
+    },
+    {
+      "src": "atom [269,313]",
+      "dest": "atom [633,718]"
+    },
+    {
+      "src": "atom_expr [270,290]",
+      "dest": "atom_expr [634,674]"
+    },
+    {
+      "src": "operator: , [308,309]",
+      "dest": "operator: , [692,693]"
+    },
+    {
+      "src": "number: 1 [127,128]",
+      "dest": "number: 1 [467,468]"
+    },
+    {
+      "src": "funcdef [17,356]",
+      "dest": "funcdef [17,843]"
+    },
+    {
+      "src": "expr_stmt [262,313]",
+      "dest": "expr_stmt [613,718]"
+    },
+    {
+      "src": "param [30,36]",
+      "dest": "param [30,34]"
+    },
+    {
+      "src": "operator: , [286,287]",
+      "dest": "operator: , [650,651]"
+    },
+    {
+      "src": "name: randint [299,306]",
+      "dest": "name: randint [683,690]"
+    },
+    {
+      "src": "number: 9 [288,289]",
+      "dest": "number: 1 [672,673]"
+    },
+    {
+      "src": "number: 9 [310,311]",
+      "dest": "number: 1 [715,716]"
+    },
+    {
+      "src": "name: score [351,356]",
+      "dest": "name: new_food_position [826,843]"
+    },
+    {
+      "src": "arglist [307,311]",
+      "dest": "arglist [691,716]"
+    },
+    {
+      "src": "file_input [0,356]",
+      "dest": "file_input [0,843]"
+    },
+    {
+      "src": "simple_stmt [107,131]",
+      "dest": "simple_stmt [452,469]"
+    },
+    {
+      "src": "name: random [292,298]",
+      "dest": "name: random [676,682]"
+    },
+    {
+      "src": "operator: , [349,350]",
+      "dest": "operator: = [824,825]"
+    },
+    {
+      "src": "name: randint [277,284]",
+      "dest": "name: randint [641,648]"
+    },
+    {
+      "src": "operator: = [267,268]",
+      "dest": "operator: = [631,632]"
+    },
+    {
+      "src": "trailer [298,306]",
+      "dest": "trailer [682,690]"
+    },
+    {
+      "src": "operator: - [126,127]",
+      "dest": "operator: += [464,466]"
+    },
+    {
+      "src": "trailer [112,119]",
+      "dest": "trailer [456,463]"
+    },
+    {
+      "src": "trailer [306,312]",
+      "dest": "trailer [690,717]"
+    },
+    {
+      "src": "trailer [284,290]",
+      "dest": "trailer [648,674]"
+    },
+    {
+      "src": "trailer [276,284]",
+      "dest": "trailer [640,648]"
+    },
+    {
+      "src": "number: 0 [307,308]",
+      "dest": "number: 0 [691,692]"
+    },
+    {
+      "src": "number: 0 [285,286]",
+      "dest": "number: 0 [649,650]"
+    },
+    {
+      "src": "name: score [184,189]",
+      "dest": "name: score [519,524]"
+    },
+    {
+      "src": "name: eat_food [21,29]",
+      "dest": "name: eat_food [21,29]"
+    },
+    {
+      "src": "simple_stmt [262,314]",
+      "dest": "simple_stmt [613,719]"
+    },
+    {
+      "src": "name: random [270,276]",
+      "dest": "name: random [634,640]"
+    },
+    {
+      "src": "operator: , [290,291]",
+      "dest": "operator: , [674,675]"
+    },
+    {
+      "src": "atom_expr [292,312]",
+      "dest": "atom_expr [676,717]"
+    },
+    {
+      "src": "name: Snake [6,11]",
+      "dest": "name: Snake [6,11]"
+    },
+    {
+      "src": "operator: += [190,192]",
+      "dest": "operator: += [525,527]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [45,396]",
+      "parent": "suite [36,843]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "while_stmt [589,797]",
+      "parent": "suite [36,843]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [805,843]",
+      "parent": "suite [36,843]",
+      "at": 4
+    },
+    {
+      "action": "update-node",
+      "tree": "name: snake [30,35]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [452,468]",
+      "parent": "simple_stmt [452,469]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [600,797]",
+      "parent": "while_stmt [589,797]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [805,823]",
+      "parent": "expr_stmt [805,843]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: , [349,350]",
+      "label": "="
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: , [349,350]",
+      "parent": "expr_stmt [805,843]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: score [351,356]",
+      "label": "new_food_position"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: score [351,356]",
+      "parent": "expr_stmt [805,843]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [452,463]",
+      "parent": "expr_stmt [452,468]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: - [126,127]",
+      "label": "+="
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: - [126,127]",
+      "parent": "expr_stmt [452,468]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "number: 1 [127,128]",
+      "parent": "expr_stmt [452,468]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [514,524]",
+      "parent": "expr_stmt [514,531]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [262,314]",
+      "parent": "suite [600,797]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [731,797]",
+      "parent": "suite [600,797]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [805,809]",
+      "parent": "atom_expr [805,823]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [809,823]",
+      "parent": "atom_expr [805,823]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: snake [107,112]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: snake [107,112]",
+      "parent": "atom_expr [452,463]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [112,119]",
+      "parent": "atom_expr [452,463]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [514,518]",
+      "parent": "atom_expr [514,524]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [518,524]",
+      "parent": "atom_expr [514,524]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "comparison [734,773]",
+      "parent": "if_stmt [731,797]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [774,797]",
+      "parent": "if_stmt [731,797]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: food [345,349]",
+      "label": "food_position"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: food [345,349]",
+      "parent": "trailer [809,823]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: append [113,119]",
+      "label": "length"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: score [184,189]",
+      "parent": "trailer [518,524]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: food [262,266]",
+      "label": "new_food_position"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: new_food_position [734,751]",
+      "parent": "comparison [734,773]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "comp_op [752,758]",
+      "parent": "comparison [734,773]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [759,773]",
+      "parent": "comparison [734,773]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: snake [338,343]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: snake [338,343]",
+      "parent": "atom_expr [759,773]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [763,773]",
+      "parent": "atom_expr [759,773]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "arith_expr [652,673]",
+      "parent": "arglist [649,673]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "arith_expr [694,716]",
+      "parent": "arglist [691,716]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [652,669]",
+      "parent": "arith_expr [652,673]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: - [670,671]",
+      "parent": "arith_expr [652,673]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "number: 9 [288,289]",
+      "label": "1"
+    },
+    {
+      "action": "move-tree",
+      "tree": "number: 9 [288,289]",
+      "parent": "arith_expr [652,673]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [694,712]",
+      "parent": "arith_expr [694,716]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: - [713,714]",
+      "parent": "arith_expr [694,716]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "number: 9 [310,311]",
+      "label": "1"
+    },
+    {
+      "action": "move-tree",
+      "tree": "number: 9 [310,311]",
+      "parent": "arith_expr [694,716]",
+      "at": 2
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [35,36]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "param [37,42]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "param [43,48]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: snake [120,125]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "factor [126,128]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [125,129]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [120,129]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [119,130]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [107,130]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [343,344]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "testlist_star_expr [338,356]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "return_stmt [331,356]"
+    }
+  ]
+}

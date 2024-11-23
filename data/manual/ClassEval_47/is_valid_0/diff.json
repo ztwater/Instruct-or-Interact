@@ -1,0 +1,303 @@
+{
+  "matches": [
+    {
+      "src": "trailer [120,126]",
+      "dest": "trailer [368,374]"
+    },
+    {
+      "src": "suite [16,751]",
+      "dest": "suite [16,999]"
+    },
+    {
+      "src": "name: IPAddress [6,15]",
+      "dest": "name: IPAddress [6,15]"
+    },
+    {
+      "src": "trailer [523,529]",
+      "dest": "trailer [771,777]"
+    },
+    {
+      "src": "not_test [395,413]",
+      "dest": "not_test [643,661]"
+    },
+    {
+      "src": "classdef [0,751]",
+      "dest": "classdef [0,999]"
+    },
+    {
+      "src": "suite [46,751]",
+      "dest": "suite [40,999]"
+    },
+    {
+      "src": "trailer [126,131]",
+      "dest": "trailer [374,379]"
+    },
+    {
+      "src": "return_stmt [656,668]",
+      "dest": "return_stmt [904,916]"
+    },
+    {
+      "src": "operator: < [622,623]",
+      "dest": "operator: < [870,871]"
+    },
+    {
+      "src": "parameters [33,45]",
+      "dest": "parameters [33,39]"
+    },
+    {
+      "src": "trailer [403,411]",
+      "dest": "trailer [651,659]"
+    },
+    {
+      "src": "simple_stmt [431,444]",
+      "dest": "simple_stmt [679,692]"
+    },
+    {
+      "src": "name: len [200,203]",
+      "dest": "name: len [448,451]"
+    },
+    {
+      "src": "expr_stmt [102,131]",
+      "dest": "expr_stmt [345,379]"
+    },
+    {
+      "src": "number: 255 [635,638]",
+      "dest": "number: 255 [883,886]"
+    },
+    {
+      "src": "trailer [203,210]",
+      "dest": "trailer [451,458]"
+    },
+    {
+      "src": "name: ip_address [110,120]",
+      "dest": "name: ip_address [358,368]"
+    },
+    {
+      "src": "name: num [514,517]",
+      "dest": "name: num [762,765]"
+    },
+    {
+      "src": "name: parts [102,107]",
+      "dest": "name: parts [345,350]"
+    },
+    {
+      "src": "atom_expr [520,529]",
+      "dest": "atom_expr [768,777]"
+    },
+    {
+      "src": "if_stmt [615,669]",
+      "dest": "if_stmt [863,917]"
+    },
+    {
+      "src": "name: ip_address [34,44]",
+      "dest": "name: self [34,38]"
+    },
+    {
+      "src": "string: '.' [127,130]",
+      "dest": "string: '.' [375,378]"
+    },
+    {
+      "src": "name: is_valid [25,33]",
+      "dest": "name: is_valid [25,33]"
+    },
+    {
+      "src": "suite [414,444]",
+      "dest": "suite [662,692]"
+    },
+    {
+      "src": "name: part [524,528]",
+      "dest": "name: part [772,776]"
+    },
+    {
+      "src": "simple_stmt [102,132]",
+      "dest": "simple_stmt [345,380]"
+    },
+    {
+      "src": "suite [321,669]",
+      "dest": "suite [569,917]"
+    },
+    {
+      "src": "param [34,44]",
+      "dest": "param [34,38]"
+    },
+    {
+      "src": "operator: = [108,109]",
+      "dest": "operator: = [351,352]"
+    },
+    {
+      "src": "funcdef [21,751]",
+      "dest": "funcdef [21,999]"
+    },
+    {
+      "src": "return_stmt [229,241]",
+      "dest": "return_stmt [477,489]"
+    },
+    {
+      "src": "number: 0 [624,625]",
+      "dest": "number: 0 [872,873]"
+    },
+    {
+      "src": "comparison [200,215]",
+      "dest": "comparison [448,463]"
+    },
+    {
+      "src": "operator: = [518,519]",
+      "dest": "operator: = [766,767]"
+    },
+    {
+      "src": "name: part [307,311]",
+      "dest": "name: part [555,559]"
+    },
+    {
+      "src": "name: isdigit [404,411]",
+      "dest": "name: isdigit [652,659]"
+    },
+    {
+      "src": "name: num [618,621]",
+      "dest": "name: num [866,869]"
+    },
+    {
+      "src": "atom_expr [399,413]",
+      "dest": "atom_expr [647,661]"
+    },
+    {
+      "src": "simple_stmt [229,242]",
+      "dest": "simple_stmt [477,490]"
+    },
+    {
+      "src": "simple_stmt [656,669]",
+      "dest": "simple_stmt [904,917]"
+    },
+    {
+      "src": "name: parts [315,320]",
+      "dest": "name: parts [563,568]"
+    },
+    {
+      "src": "atom_expr [110,131]",
+      "dest": "atom_expr [353,379]"
+    },
+    {
+      "src": "if_stmt [392,444]",
+      "dest": "if_stmt [640,692]"
+    },
+    {
+      "src": "return_stmt [740,751]",
+      "dest": "return_stmt [988,999]"
+    },
+    {
+      "src": "name: split [121,126]",
+      "dest": "name: split [369,374]"
+    },
+    {
+      "src": "file_input [0,751]",
+      "dest": "file_input [0,999]"
+    },
+    {
+      "src": "name: int [520,523]",
+      "dest": "name: int [768,771]"
+    },
+    {
+      "src": "number: 4 [214,215]",
+      "dest": "number: 4 [462,463]"
+    },
+    {
+      "src": "return_stmt [431,443]",
+      "dest": "return_stmt [679,691]"
+    },
+    {
+      "src": "or_test [618,638]",
+      "dest": "or_test [866,886]"
+    },
+    {
+      "src": "name: part [399,403]",
+      "dest": "name: part [647,651]"
+    },
+    {
+      "src": "expr_stmt [514,529]",
+      "dest": "expr_stmt [762,777]"
+    },
+    {
+      "src": "if_stmt [197,242]",
+      "dest": "if_stmt [445,490]"
+    },
+    {
+      "src": "name: parts [204,209]",
+      "dest": "name: parts [452,457]"
+    },
+    {
+      "src": "simple_stmt [514,530]",
+      "dest": "simple_stmt [762,778]"
+    },
+    {
+      "src": "trailer [411,413]",
+      "dest": "trailer [659,661]"
+    },
+    {
+      "src": "suite [639,669]",
+      "dest": "suite [887,917]"
+    },
+    {
+      "src": "atom_expr [200,210]",
+      "dest": "atom_expr [448,458]"
+    },
+    {
+      "src": "comparison [618,625]",
+      "dest": "comparison [866,873]"
+    },
+    {
+      "src": "suite [216,242]",
+      "dest": "suite [464,490]"
+    },
+    {
+      "src": "comparison [629,638]",
+      "dest": "comparison [877,886]"
+    },
+    {
+      "src": "for_stmt [303,669]",
+      "dest": "for_stmt [551,917]"
+    },
+    {
+      "src": "name: num [629,632]",
+      "dest": "name: num [877,880]"
+    },
+    {
+      "src": "operator: > [633,634]",
+      "dest": "operator: > [881,882]"
+    },
+    {
+      "src": "operator: != [211,213]",
+      "dest": "operator: != [459,461]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [49,290]",
+      "parent": "suite [40,999]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: ip_address [34,44]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [353,357]",
+      "parent": "atom_expr [353,379]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [357,368]",
+      "parent": "atom_expr [353,379]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: ip_address [110,120]",
+      "parent": "trailer [357,368]",
+      "at": 0
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "matches": [
+    {
+      "src": "suite [18,191]",
+      "dest": "suite [18,210]"
+    },
+    {
+      "src": "param [35,38]",
+      "dest": "param [35,39]"
+    },
+    {
+      "src": "classdef [0,191]",
+      "dest": "classdef [0,210]"
+    },
+    {
+      "src": "suite [40,191]",
+      "dest": "suite [41,210]"
+    },
+    {
+      "src": "name: z_scores [183,191]",
+      "dest": "name: z_scores [202,210]"
+    },
+    {
+      "src": "name: lst [35,38]",
+      "dest": "name: data [35,39]"
+    },
+    {
+      "src": "operator: - [138,139]",
+      "dest": "operator: - [156,157]"
+    },
+    {
+      "src": "name: z_score [27,34]",
+      "dest": "name: z_score [27,34]"
+    },
+    {
+      "src": "trailer [66,71]",
+      "dest": "trailer [68,73]"
+    },
+    {
+      "src": "name: Statistics3 [6,17]",
+      "dest": "name: Statistics3 [6,17]"
+    },
+    {
+      "src": "parameters [34,39]",
+      "dest": "parameters [34,40]"
+    },
+    {
+      "src": "trailer [109,114]",
+      "dest": "trailer [126,132]"
+    },
+    {
+      "src": "trailer [103,109]",
+      "dest": "trailer [107,126]"
+    },
+    {
+      "src": "name: stdev [85,90]",
+      "dest": "name: stdev [88,93]"
+    },
+    {
+      "src": "name: x [136,137]",
+      "dest": "name: x [154,155]"
+    },
+    {
+      "src": "name: lst [163,166]",
+      "dest": "name: data [181,185]"
+    },
+    {
+      "src": "trailer [71,76]",
+      "dest": "trailer [73,79]"
+    },
+    {
+      "src": "sync_comp_for [154,166]",
+      "dest": "sync_comp_for [172,185]"
+    },
+    {
+      "src": "atom [134,167]",
+      "dest": "atom [152,186]"
+    },
+    {
+      "src": "simple_stmt [49,77]",
+      "dest": "simple_stmt [50,80]"
+    },
+    {
+      "src": "name: lst [72,75]",
+      "dest": "name: data [74,78]"
+    },
+    {
+      "src": "simple_stmt [85,115]",
+      "dest": "simple_stmt [88,133]"
+    },
+    {
+      "src": "funcdef [23,191]",
+      "dest": "funcdef [23,210]"
+    },
+    {
+      "src": "expr_stmt [49,76]",
+      "dest": "expr_stmt [50,79]"
+    },
+    {
+      "src": "name: mean [67,71]",
+      "dest": "name: mean [69,73]"
+    },
+    {
+      "src": "atom_expr [93,114]",
+      "dest": "atom_expr [96,132]"
+    },
+    {
+      "src": "term [135,153]",
+      "dest": "term [153,171]"
+    },
+    {
+      "src": "operator: = [132,133]",
+      "dest": "operator: = [150,151]"
+    },
+    {
+      "src": "name: stdev [104,109]",
+      "dest": "name: standard_deviation [108,126]"
+    },
+    {
+      "src": "atom_expr [56,76]",
+      "dest": "atom_expr [57,79]"
+    },
+    {
+      "src": "atom [135,145]",
+      "dest": "atom [153,163]"
+    },
+    {
+      "src": "testlist_comp [135,166]",
+      "dest": "testlist_comp [153,185]"
+    },
+    {
+      "src": "name: statistics [56,66]",
+      "dest": "name: Statistics3 [57,68]"
+    },
+    {
+      "src": "expr_stmt [85,114]",
+      "dest": "expr_stmt [88,132]"
+    },
+    {
+      "src": "name: z_scores [123,131]",
+      "dest": "name: z_scores [141,149]"
+    },
+    {
+      "src": "name: lst [110,113]",
+      "dest": "name: data [127,131]"
+    },
+    {
+      "src": "name: mean [49,53]",
+      "dest": "name: mean [50,54]"
+    },
+    {
+      "src": "name: statistics [93,103]",
+      "dest": "name: Statistics3 [96,107]"
+    },
+    {
+      "src": "file_input [0,191]",
+      "dest": "file_input [0,210]"
+    },
+    {
+      "src": "expr_stmt [123,167]",
+      "dest": "expr_stmt [141,186]"
+    },
+    {
+      "src": "return_stmt [176,191]",
+      "dest": "return_stmt [195,210]"
+    },
+    {
+      "src": "name: mean [140,144]",
+      "dest": "name: mean [158,162]"
+    },
+    {
+      "src": "operator: = [91,92]",
+      "dest": "operator: = [94,95]"
+    },
+    {
+      "src": "name: stdev [148,153]",
+      "dest": "name: stdev [166,171]"
+    },
+    {
+      "src": "operator: / [146,147]",
+      "dest": "operator: / [164,165]"
+    },
+    {
+      "src": "name: x [158,159]",
+      "dest": "name: x [176,177]"
+    },
+    {
+      "src": "arith_expr [136,144]",
+      "dest": "arith_expr [154,162]"
+    },
+    {
+      "src": "simple_stmt [123,168]",
+      "dest": "simple_stmt [141,187]"
+    },
+    {
+      "src": "operator: = [54,55]",
+      "dest": "operator: = [55,56]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "update-node",
+      "tree": "name: lst [35,38]",
+      "label": "data"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: statistics [56,66]",
+      "label": "Statistics3"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: statistics [93,103]",
+      "label": "Statistics3"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: lst [72,75]",
+      "label": "data"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: stdev [104,109]",
+      "label": "standard_deviation"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: lst [110,113]",
+      "label": "data"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: lst [163,166]",
+      "label": "data"
+    }
+  ]
+}

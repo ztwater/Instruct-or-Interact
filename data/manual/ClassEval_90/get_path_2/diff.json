@@ -1,0 +1,260 @@
+{
+  "matches": [
+    {
+      "src": "suite [17,165]",
+      "dest": "suite [17,375]"
+    },
+    {
+      "src": "atom_expr [57,71]",
+      "dest": "atom_expr [244,263]"
+    },
+    {
+      "src": "trailer [66,71]",
+      "dest": "trailer [258,263]"
+    },
+    {
+      "src": "classdef [0,165]",
+      "dest": "classdef [0,375]"
+    },
+    {
+      "src": "trailer [60,66]",
+      "dest": "trailer [252,258]"
+    },
+    {
+      "src": "suite [40,165]",
+      "dest": "suite [41,375]"
+    },
+    {
+      "src": "comparison [83,98]",
+      "dest": "comparison [275,290]"
+    },
+    {
+      "src": "trailer [86,93]",
+      "dest": "trailer [278,285]"
+    },
+    {
+      "src": "number: 2 [125,126]",
+      "dest": "number: 3 [332,333]"
+    },
+    {
+      "src": "name: url [35,38]",
+      "dest": "name: self [35,39]"
+    },
+    {
+      "src": "name: len [83,86]",
+      "dest": "name: len [275,278]"
+    },
+    {
+      "src": "number: 3 [97,98]",
+      "dest": "number: 3 [289,290]"
+    },
+    {
+      "src": "simple_stmt [112,128]",
+      "dest": "simple_stmt [304,337]"
+    },
+    {
+      "src": "return_stmt [112,127]",
+      "dest": "return_stmt [304,336]"
+    },
+    {
+      "src": "name: parts [49,54]",
+      "dest": "name: parts [236,241]"
+    },
+    {
+      "src": "file_input [0,165]",
+      "dest": "file_input [0,375]"
+    },
+    {
+      "src": "param [35,38]",
+      "dest": "param [35,39]"
+    },
+    {
+      "src": "suite [99,128]",
+      "dest": "suite [291,337]"
+    },
+    {
+      "src": "name: url [57,60]",
+      "dest": "name: url [249,252]"
+    },
+    {
+      "src": "parameters [34,39]",
+      "dest": "parameters [34,40]"
+    },
+    {
+      "src": "string: '/' [67,70]",
+      "dest": "string: '/' [259,262]"
+    },
+    {
+      "src": "atom_expr [83,93]",
+      "dest": "atom_expr [275,285]"
+    },
+    {
+      "src": "operator: >= [94,96]",
+      "dest": "operator: >= [286,288]"
+    },
+    {
+      "src": "atom_expr [119,127]",
+      "dest": "atom_expr [326,335]"
+    },
+    {
+      "src": "trailer [124,127]",
+      "dest": "trailer [331,335]"
+    },
+    {
+      "src": "name: parts [87,92]",
+      "dest": "name: parts [279,284]"
+    },
+    {
+      "src": "name: split [61,66]",
+      "dest": "name: split [253,258]"
+    },
+    {
+      "src": "return_stmt [154,165]",
+      "dest": "return_stmt [363,374]"
+    },
+    {
+      "src": "name: URLHandler [6,16]",
+      "dest": "name: URLHandler [6,16]"
+    },
+    {
+      "src": "simple_stmt [49,72]",
+      "dest": "simple_stmt [236,264]"
+    },
+    {
+      "src": "if_stmt [80,165]",
+      "dest": "if_stmt [272,375]"
+    },
+    {
+      "src": "name: get_path [26,34]",
+      "dest": "name: get_path [26,34]"
+    },
+    {
+      "src": "funcdef [22,165]",
+      "dest": "funcdef [22,375]"
+    },
+    {
+      "src": "operator: = [55,56]",
+      "dest": "operator: = [242,243]"
+    },
+    {
+      "src": "expr_stmt [49,71]",
+      "dest": "expr_stmt [236,263]"
+    },
+    {
+      "src": "name: parts [119,124]",
+      "dest": "name: parts [326,331]"
+    },
+    {
+      "src": "suite [141,165]",
+      "dest": "suite [350,375]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [50,228]",
+      "parent": "suite [41,375]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: url [35,38]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [363,375]",
+      "parent": "suite [350,375]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [244,248]",
+      "parent": "atom_expr [244,263]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [248,252]",
+      "parent": "atom_expr [244,263]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [154,165]",
+      "parent": "simple_stmt [363,375]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: url [57,60]",
+      "parent": "trailer [248,252]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "arith_expr [311,336]",
+      "parent": "return_stmt [304,336]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: \"/\" [311,314]",
+      "parent": "arith_expr [311,336]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: + [315,316]",
+      "parent": "arith_expr [311,336]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [317,336]",
+      "parent": "arith_expr [311,336]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: \"/\" [317,320]",
+      "parent": "atom_expr [317,336]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [320,325]",
+      "parent": "atom_expr [317,336]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [325,336]",
+      "parent": "atom_expr [317,336]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [119,127]",
+      "parent": "trailer [325,336]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "subscript [332,334]",
+      "parent": "trailer [331,335]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "number: 2 [125,126]",
+      "label": "3"
+    },
+    {
+      "action": "move-tree",
+      "tree": "number: 2 [125,126]",
+      "parent": "subscript [332,334]",
+      "at": 0
+    }
+  ]
+}

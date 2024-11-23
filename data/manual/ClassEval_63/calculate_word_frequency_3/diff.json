@@ -1,0 +1,417 @@
+{
+  "matches": [
+    {
+      "src": "param [58,63]",
+      "dest": "param [64,74]"
+    },
+    {
+      "src": "comparison [180,202]",
+      "dest": "comparison [232,254]"
+    },
+    {
+      "src": "suite [24,532]",
+      "dest": "suite [24,620]"
+    },
+    {
+      "src": "lambdef [456,470]",
+      "dest": "lambdef [520,534]"
+    },
+    {
+      "src": "operator: = [89,90]",
+      "dest": "operator: = [100,101]"
+    },
+    {
+      "src": "name: dict [416,420]",
+      "dest": "name: dict [480,484]"
+    },
+    {
+      "src": "classdef [0,532]",
+      "dest": "classdef [0,620]"
+    },
+    {
+      "src": "suite [65,532]",
+      "dest": "suite [76,620]"
+    },
+    {
+      "src": "atom_expr [280,300]",
+      "dest": "atom_expr [344,364]"
+    },
+    {
+      "src": "suite [164,305]",
+      "dest": "suite [212,369]"
+    },
+    {
+      "src": "number: 1 [468,469]",
+      "dest": "number: 1 [532,533]"
+    },
+    {
+      "src": "suite [263,305]",
+      "dest": "suite [323,369]"
+    },
+    {
+      "src": "name: words [58,63]",
+      "dest": "name: words_list [64,74]"
+    },
+    {
+      "src": "name: sorted [421,427]",
+      "dest": "name: sorted [485,491]"
+    },
+    {
+      "src": "name: word_frequency [428,442]",
+      "dest": "name: word_frequency [492,506]"
+    },
+    {
+      "src": "suite [203,246]",
+      "dest": "suite [255,302]"
+    },
+    {
+      "src": "number: 1 [244,245]",
+      "dest": "number: 1 [300,301]"
+    },
+    {
+      "src": "for_stmt [146,305]",
+      "dest": "for_stmt [194,369]"
+    },
+    {
+      "src": "simple_stmt [220,246]",
+      "dest": "simple_stmt [276,302]"
+    },
+    {
+      "src": "expr_stmt [74,93]",
+      "dest": "expr_stmt [85,104]"
+    },
+    {
+      "src": "operator: , [450,451]",
+      "dest": "operator: , [514,515]"
+    },
+    {
+      "src": "name: key [452,455]",
+      "dest": "name: key [516,519]"
+    },
+    {
+      "src": "name: x [463,464]",
+      "dest": "name: x [527,528]"
+    },
+    {
+      "src": "name: word [295,299]",
+      "dest": "name: word [359,363]"
+    },
+    {
+      "src": "atom_expr [428,450]",
+      "dest": "atom_expr [492,514]"
+    },
+    {
+      "src": "name: sorted_word_frequency [511,532]",
+      "dest": "name: sorted_word_frequency [585,606]"
+    },
+    {
+      "src": "param [463,464]",
+      "dest": "param [527,528]"
+    },
+    {
+      "src": "if_stmt [177,305]",
+      "dest": "if_stmt [229,369]"
+    },
+    {
+      "src": "return_stmt [504,532]",
+      "dest": "return_stmt [568,620]"
+    },
+    {
+      "src": "operator: = [414,415]",
+      "dest": "operator: = [478,479]"
+    },
+    {
+      "src": "name: word_frequency [280,294]",
+      "dest": "name: word_frequency [344,358]"
+    },
+    {
+      "src": "expr_stmt [280,304]",
+      "dest": "expr_stmt [344,368]"
+    },
+    {
+      "src": "funcdef [29,532]",
+      "dest": "funcdef [29,620]"
+    },
+    {
+      "src": "operator: += [241,243]",
+      "dest": "operator: += [297,299]"
+    },
+    {
+      "src": "operator: , [470,471]",
+      "dest": "operator: , [534,535]"
+    },
+    {
+      "src": "name: word [180,184]",
+      "dest": "name: word [232,236]"
+    },
+    {
+      "src": "simple_stmt [74,94]",
+      "dest": "simple_stmt [85,105]"
+    },
+    {
+      "src": "argument [452,470]",
+      "dest": "argument [516,534]"
+    },
+    {
+      "src": "expr_stmt [392,486]",
+      "dest": "expr_stmt [456,550]"
+    },
+    {
+      "src": "trailer [427,485]",
+      "dest": "trailer [491,549]"
+    },
+    {
+      "src": "trailer [467,470]",
+      "dest": "trailer [531,534]"
+    },
+    {
+      "src": "trailer [420,486]",
+      "dest": "trailer [484,550]"
+    },
+    {
+      "src": "name: word [235,239]",
+      "dest": "name: word [291,295]"
+    },
+    {
+      "src": "name: words [158,163]",
+      "dest": "name: words [206,211]"
+    },
+    {
+      "src": "operator: { [91,92]",
+      "dest": "operator: { [102,103]"
+    },
+    {
+      "src": "number: 1 [303,304]",
+      "dest": "number: 1 [367,368]"
+    },
+    {
+      "src": "name: sorted_word_frequency [392,413]",
+      "dest": "name: sorted_word_frequency [456,477]"
+    },
+    {
+      "src": "atom_expr [416,486]",
+      "dest": "atom_expr [480,550]"
+    },
+    {
+      "src": "operator: = [301,302]",
+      "dest": "operator: = [365,366]"
+    },
+    {
+      "src": "file_input [0,532]",
+      "dest": "file_input [0,620]"
+    },
+    {
+      "src": "operator: = [455,456]",
+      "dest": "operator: = [519,520]"
+    },
+    {
+      "src": "name: word_frequency [220,234]",
+      "dest": "name: word_frequency [276,290]"
+    },
+    {
+      "src": "trailer [442,448]",
+      "dest": "trailer [506,512]"
+    },
+    {
+      "src": "name: calculate_word_frequency [33,57]",
+      "dest": "name: calculate_word_frequency [33,57]"
+    },
+    {
+      "src": "atom_expr [466,470]",
+      "dest": "atom_expr [530,534]"
+    },
+    {
+      "src": "atom_expr [421,485]",
+      "dest": "atom_expr [485,549]"
+    },
+    {
+      "src": "trailer [448,450]",
+      "dest": "trailer [512,514]"
+    },
+    {
+      "src": "expr_stmt [220,245]",
+      "dest": "expr_stmt [276,301]"
+    },
+    {
+      "src": "parameters [57,64]",
+      "dest": "parameters [57,75]"
+    },
+    {
+      "src": "name: items [443,448]",
+      "dest": "name: items [507,512]"
+    },
+    {
+      "src": "arglist [428,484]",
+      "dest": "arglist [492,548]"
+    },
+    {
+      "src": "name: word [150,154]",
+      "dest": "name: word [198,202]"
+    },
+    {
+      "src": "name: word_frequency [188,202]",
+      "dest": "name: word_frequency [240,254]"
+    },
+    {
+      "src": "name: x [466,467]",
+      "dest": "name: x [530,531]"
+    },
+    {
+      "src": "trailer [234,240]",
+      "dest": "trailer [290,296]"
+    },
+    {
+      "src": "name: word_frequency [74,88]",
+      "dest": "name: word_frequency [85,99]"
+    },
+    {
+      "src": "argument [472,484]",
+      "dest": "argument [536,548]"
+    },
+    {
+      "src": "name: NLPDataProcessor2 [6,23]",
+      "dest": "name: NLPDataProcessor2 [6,23]"
+    },
+    {
+      "src": "atom [91,93]",
+      "dest": "atom [102,104]"
+    },
+    {
+      "src": "simple_stmt [392,487]",
+      "dest": "simple_stmt [456,551]"
+    },
+    {
+      "src": "simple_stmt [280,305]",
+      "dest": "simple_stmt [344,369]"
+    },
+    {
+      "src": "name: reverse [472,479]",
+      "dest": "name: reverse [536,543]"
+    },
+    {
+      "src": "operator: = [479,480]",
+      "dest": "operator: = [543,544]"
+    },
+    {
+      "src": "atom_expr [220,240]",
+      "dest": "atom_expr [276,296]"
+    },
+    {
+      "src": "trailer [294,300]",
+      "dest": "trailer [358,364]"
+    },
+    {
+      "src": "operator: } [92,93]",
+      "dest": "operator: } [103,104]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [58,63]",
+      "parent": "parameters [57,75]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "for_stmt [157,369]",
+      "parent": "suite [76,620]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: words [58,63]",
+      "label": "words_list"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: words [161,166]",
+      "parent": "for_stmt [157,369]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: words_list [170,180]",
+      "parent": "for_stmt [157,369]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [181,369]",
+      "parent": "for_stmt [157,369]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [575,620]",
+      "parent": "return_stmt [568,620]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "for_stmt [146,305]",
+      "parent": "suite [181,369]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: dict [575,579]",
+      "parent": "atom_expr [575,620]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [579,620]",
+      "parent": "atom_expr [575,620]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [580,619]",
+      "parent": "trailer [579,620]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: list [580,584]",
+      "parent": "atom_expr [580,619]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [584,615]",
+      "parent": "atom_expr [580,619]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [615,619]",
+      "parent": "atom_expr [580,619]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [585,614]",
+      "parent": "trailer [584,615]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: sorted_word_frequency [511,532]",
+      "parent": "atom_expr [585,614]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [606,612]",
+      "parent": "atom_expr [585,614]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [612,614]",
+      "parent": "atom_expr [585,614]",
+      "at": 2
+    }
+  ]
+}

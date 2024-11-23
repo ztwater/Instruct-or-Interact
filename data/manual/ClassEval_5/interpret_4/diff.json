@@ -1,0 +1,101 @@
+{
+  "matches": [
+    {
+      "src": "return_stmt [190,211]",
+      "dest": "return_stmt [959,980]"
+    },
+    {
+      "src": "name: AutomaticGuitarSimulator [6,30]",
+      "dest": "name: AutomaticGuitarSimulator [6,30]"
+    },
+    {
+      "src": "suite [63,211]",
+      "dest": "suite [71,980]"
+    },
+    {
+      "src": "file_input [0,211]",
+      "dest": "file_input [0,980]"
+    },
+    {
+      "src": "funcdef [36,211]",
+      "dest": "funcdef [36,980]"
+    },
+    {
+      "src": "suite [31,211]",
+      "dest": "suite [31,980]"
+    },
+    {
+      "src": "name: music_score [50,61]",
+      "dest": "name: self [50,54]"
+    },
+    {
+      "src": "param [50,61]",
+      "dest": "param [50,55]"
+    },
+    {
+      "src": "classdef [0,211]",
+      "dest": "classdef [0,980]"
+    },
+    {
+      "src": "parameters [49,62]",
+      "dest": "parameters [49,70]"
+    },
+    {
+      "src": "name: interpretation [197,211]",
+      "dest": "name: interpretation [966,980]"
+    },
+    {
+      "src": "name: interpret [40,49]",
+      "dest": "name: interpret [40,49]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [56,69]",
+      "parent": "parameters [49,70]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [80,649]",
+      "parent": "suite [71,980]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [657,695]",
+      "parent": "suite [71,980]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [703,723]",
+      "parent": "suite [71,980]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "for_stmt [731,833]",
+      "parent": "suite [71,980]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "if_stmt [841,951]",
+      "parent": "suite [71,980]",
+      "at": 4
+    },
+    {
+      "action": "update-node",
+      "tree": "name: music_score [50,61]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [54,55]",
+      "parent": "param [50,55]",
+      "at": 1
+    }
+  ]
+}

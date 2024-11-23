@@ -1,0 +1,359 @@
+{
+  "matches": [
+    {
+      "src": "suite [269,304]",
+      "dest": "suite [828,866]"
+    },
+    {
+      "src": "suite [20,350]",
+      "dest": "suite [20,919]"
+    },
+    {
+      "src": "comparison [241,268]",
+      "dest": "comparison [717,744]"
+    },
+    {
+      "src": "classdef [0,350]",
+      "dest": "classdef [0,919]"
+    },
+    {
+      "src": "suite [68,350]",
+      "dest": "suite [74,919]"
+    },
+    {
+      "src": "return_stmt [206,227]",
+      "dest": "return_stmt [334,354]"
+    },
+    {
+      "src": "name: player_value [165,177]",
+      "dest": "name: player_value [800,812]"
+    },
+    {
+      "src": "string: \"Player wins!\" [213,227]",
+      "dest": "string: \"Player wins\" [341,354]"
+    },
+    {
+      "src": "name: player_hand [96,107]",
+      "dest": "name: player_hand [124,135]"
+    },
+    {
+      "src": "suite [317,350]",
+      "dest": "suite [883,919]"
+    },
+    {
+      "src": "name: sum [92,95]",
+      "dest": "name: self [98,102]"
+    },
+    {
+      "src": "name: dealer_value [256,268]",
+      "dest": "name: dealer_value [732,744]"
+    },
+    {
+      "src": "param [42,54]",
+      "dest": "param [48,60]"
+    },
+    {
+      "src": "suite [193,228]",
+      "dest": "suite [317,355]"
+    },
+    {
+      "src": "return_stmt [330,350]",
+      "dest": "return_stmt [900,919]"
+    },
+    {
+      "src": "trailer [95,108]",
+      "dest": "trailer [123,136]"
+    },
+    {
+      "src": "return_stmt [282,303]",
+      "dest": "return_stmt [845,865]"
+    },
+    {
+      "src": "parameters [41,67]",
+      "dest": "parameters [41,73]"
+    },
+    {
+      "src": "name: sum [132,135]",
+      "dest": "name: self [160,164]"
+    },
+    {
+      "src": "name: BlackjackGame [6,19]",
+      "dest": "name: BlackjackGame [6,19]"
+    },
+    {
+      "src": "param [55,66]",
+      "dest": "param [61,72]"
+    },
+    {
+      "src": "comparison [165,192]",
+      "dest": "comparison [800,827]"
+    },
+    {
+      "src": "operator: > [178,179]",
+      "dest": "operator: > [813,814]"
+    },
+    {
+      "src": "name: check_winner [29,41]",
+      "dest": "name: check_winner [29,41]"
+    },
+    {
+      "src": "operator: , [53,54]",
+      "dest": "operator: , [59,60]"
+    },
+    {
+      "src": "funcdef [25,350]",
+      "dest": "funcdef [25,919]"
+    },
+    {
+      "src": "if_stmt [162,350]",
+      "dest": "if_stmt [208,919]"
+    },
+    {
+      "src": "operator: < [254,255]",
+      "dest": "operator: < [730,731]"
+    },
+    {
+      "src": "operator: = [90,91]",
+      "dest": "operator: = [96,97]"
+    },
+    {
+      "src": "name: player_value [77,89]",
+      "dest": "name: player_value [83,95]"
+    },
+    {
+      "src": "simple_stmt [282,304]",
+      "dest": "simple_stmt [845,866]"
+    },
+    {
+      "src": "expr_stmt [117,148]",
+      "dest": "expr_stmt [145,198]"
+    },
+    {
+      "src": "simple_stmt [77,109]",
+      "dest": "simple_stmt [83,137]"
+    },
+    {
+      "src": "simple_stmt [206,228]",
+      "dest": "simple_stmt [334,355]"
+    },
+    {
+      "src": "name: player_value [241,253]",
+      "dest": "name: player_value [717,729]"
+    },
+    {
+      "src": "operator: = [130,131]",
+      "dest": "operator: = [158,159]"
+    },
+    {
+      "src": "string: \"Dealer wins!\" [289,303]",
+      "dest": "string: \"Dealer wins\" [852,865]"
+    },
+    {
+      "src": "name: dealer_value [117,129]",
+      "dest": "name: dealer_value [145,157]"
+    },
+    {
+      "src": "file_input [0,350]",
+      "dest": "file_input [0,919]"
+    },
+    {
+      "src": "simple_stmt [117,149]",
+      "dest": "simple_stmt [145,199]"
+    },
+    {
+      "src": "name: dealer_hand [136,147]",
+      "dest": "name: dealer_hand [186,197]"
+    },
+    {
+      "src": "string: \"It's a tie!\" [337,350]",
+      "dest": "string: \"It's a tie\" [907,919]"
+    },
+    {
+      "src": "trailer [135,148]",
+      "dest": "trailer [185,198]"
+    },
+    {
+      "src": "atom_expr [92,108]",
+      "dest": "atom_expr [98,136]"
+    },
+    {
+      "src": "atom_expr [132,148]",
+      "dest": "atom_expr [160,198]"
+    },
+    {
+      "src": "name: dealer_hand [55,66]",
+      "dest": "name: dealer_hand [61,72]"
+    },
+    {
+      "src": "name: player_hand [42,53]",
+      "dest": "name: player_hand [48,59]"
+    },
+    {
+      "src": "name: dealer_value [180,192]",
+      "dest": "name: dealer_value [815,827]"
+    },
+    {
+      "src": "expr_stmt [77,108]",
+      "dest": "expr_stmt [83,136]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [42,47]",
+      "parent": "parameters [41,73]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "and_test [211,252]",
+      "parent": "if_stmt [208,919]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [253,512]",
+      "parent": "if_stmt [208,919]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "and_test [525,565]",
+      "parent": "if_stmt [208,919]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [566,600]",
+      "parent": "if_stmt [208,919]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "and_test [613,653]",
+      "parent": "if_stmt [208,919]",
+      "at": 4
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [654,688]",
+      "parent": "if_stmt [208,919]",
+      "at": 5
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [701,919]",
+      "parent": "if_stmt [208,919]",
+      "at": 6
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [266,512]",
+      "parent": "suite [253,512]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [714,919]",
+      "parent": "suite [701,919]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: sum [92,95]",
+      "label": "self"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [102,123]",
+      "parent": "atom_expr [98,136]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: sum [132,135]",
+      "label": "self"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [164,185]",
+      "parent": "atom_expr [160,198]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [269,316]",
+      "parent": "if_stmt [266,512]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [193,228]",
+      "parent": "if_stmt [266,512]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [372,419]",
+      "parent": "if_stmt [266,512]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [420,458]",
+      "parent": "if_stmt [266,512]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [475,512]",
+      "parent": "if_stmt [266,512]",
+      "at": 4
+    },
+    {
+      "action": "move-tree",
+      "tree": "comparison [241,268]",
+      "parent": "if_stmt [714,919]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [745,783]",
+      "parent": "if_stmt [714,919]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "comparison [165,192]",
+      "parent": "if_stmt [714,919]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [269,304]",
+      "parent": "if_stmt [714,919]",
+      "at": 3
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [317,350]",
+      "parent": "if_stmt [714,919]",
+      "at": 4
+    },
+    {
+      "action": "update-node",
+      "tree": "string: \"It's a tie!\" [337,350]",
+      "label": "\"It's a tie\""
+    },
+    {
+      "action": "update-node",
+      "tree": "string: \"Player wins!\" [213,227]",
+      "label": "\"Player wins\""
+    },
+    {
+      "action": "update-node",
+      "tree": "string: \"Dealer wins!\" [289,303]",
+      "label": "\"Dealer wins\""
+    }
+  ]
+}

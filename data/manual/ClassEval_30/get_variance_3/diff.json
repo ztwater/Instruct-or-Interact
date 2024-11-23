@@ -1,0 +1,182 @@
+{
+  "matches": [
+    {
+      "src": "name: variance [127,135]",
+      "dest": "name: variance [113,121]"
+    },
+    {
+      "src": "suite [22,163]",
+      "dest": "suite [22,149]"
+    },
+    {
+      "src": "parameters [43,52]",
+      "dest": "parameters [43,49]"
+    },
+    {
+      "src": "name: DataStatistics2 [6,21]",
+      "dest": "name: DataStatistics2 [6,21]"
+    },
+    {
+      "src": "name: variance [110,118]",
+      "dest": "name: variance [96,104]"
+    },
+    {
+      "src": "classdef [0,163]",
+      "dest": "classdef [0,149]"
+    },
+    {
+      "src": "suite [53,163]",
+      "dest": "suite [50,149]"
+    },
+    {
+      "src": "param [44,51]",
+      "dest": "param [44,48]"
+    },
+    {
+      "src": "simple_stmt [62,102]",
+      "dest": "simple_stmt [59,88]"
+    },
+    {
+      "src": "return_stmt [148,163]",
+      "dest": "return_stmt [134,149]"
+    },
+    {
+      "src": "name: get_variance [31,43]",
+      "dest": "name: get_variance [31,43]"
+    },
+    {
+      "src": "trailer [83,92]",
+      "dest": "trailer [72,76]"
+    },
+    {
+      "src": "file_input [0,163]",
+      "dest": "file_input [0,149]"
+    },
+    {
+      "src": "expr_stmt [62,101]",
+      "dest": "expr_stmt [59,87]"
+    },
+    {
+      "src": "name: numbers [93,100]",
+      "dest": "name: data [82,86]"
+    },
+    {
+      "src": "arglist [127,138]",
+      "dest": "arglist [113,124]"
+    },
+    {
+      "src": "name: numbers [44,51]",
+      "dest": "name: self [44,48]"
+    },
+    {
+      "src": "name: variance [62,70]",
+      "dest": "name: variance [59,67]"
+    },
+    {
+      "src": "number: 2 [137,138]",
+      "dest": "number: 2 [123,124]"
+    },
+    {
+      "src": "atom_expr [73,101]",
+      "dest": "atom_expr [70,87]"
+    },
+    {
+      "src": "operator: , [135,136]",
+      "dest": "operator: , [121,122]"
+    },
+    {
+      "src": "atom_expr [121,139]",
+      "dest": "atom_expr [107,125]"
+    },
+    {
+      "src": "trailer [126,139]",
+      "dest": "trailer [112,125]"
+    },
+    {
+      "src": "name: variance [155,163]",
+      "dest": "name: variance [141,149]"
+    },
+    {
+      "src": "name: variance [84,92]",
+      "dest": "name: var [73,76]"
+    },
+    {
+      "src": "operator: = [71,72]",
+      "dest": "operator: = [68,69]"
+    },
+    {
+      "src": "simple_stmt [110,140]",
+      "dest": "simple_stmt [96,126]"
+    },
+    {
+      "src": "name: round [121,126]",
+      "dest": "name: round [107,112]"
+    },
+    {
+      "src": "funcdef [27,163]",
+      "dest": "funcdef [27,149]"
+    },
+    {
+      "src": "name: statistics [73,83]",
+      "dest": "name: np [70,72]"
+    },
+    {
+      "src": "operator: = [119,120]",
+      "dest": "operator: = [105,106]"
+    },
+    {
+      "src": "expr_stmt [110,139]",
+      "dest": "expr_stmt [96,125]"
+    },
+    {
+      "src": "trailer [92,101]",
+      "dest": "trailer [81,86]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "update-node",
+      "tree": "name: numbers [44,51]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: statistics [73,83]",
+      "label": "np"
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [76,87]",
+      "parent": "atom_expr [70,87]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: variance [84,92]",
+      "label": "var"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [77,86]",
+      "parent": "trailer [76,87]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [77,81]",
+      "parent": "atom_expr [77,86]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [92,101]",
+      "parent": "atom_expr [77,86]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: numbers [93,100]",
+      "label": "data"
+    }
+  ]
+}

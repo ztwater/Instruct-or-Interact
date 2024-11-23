@@ -1,0 +1,51 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "predicted_labels",
+        "deleted": "predictions",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "true_labels",
+        "deleted": "labels",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "string:",
+        "inserted": "\"\"\"\n        Calculate accuracy\n        :param predicted_labels: list, predicted results\n        :param true_labels: list, true labels\n        :return: float\n        \"\"\"",
+        "deleted": "\"\"\"\n        Calculate accuracy of model predictions.\n    \n        Args:\n            predictions (list): List of predicted labels.\n            labels (list): List of true labels.\n    \n        Returns:\n            float: Accuracy of the model predictions.\n        \"\"\"",
+        "type": "Documentation"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "predicted_labels",
+        "deleted": "predictions",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "predicted_labels",
+        "deleted": "predictions",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "true_labels",
+        "deleted": "labels",
+        "type": "Refactoring"
+    }
+]

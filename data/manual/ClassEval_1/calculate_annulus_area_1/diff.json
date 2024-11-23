@@ -1,0 +1,214 @@
+{
+  "matches": [
+    {
+      "src": "name: inner_radius [93,105]",
+      "dest": "name: inner_radius [442,454]"
+    },
+    {
+      "src": "suite [21,317]",
+      "dest": "suite [21,667]"
+    },
+    {
+      "src": "name: inner_radius [269,281]",
+      "dest": "name: inner_radius [618,630]"
+    },
+    {
+      "src": "operator: = [238,239]",
+      "dest": "operator: = [587,588]"
+    },
+    {
+      "src": "operator: , [65,66]",
+      "dest": "operator: , [71,72]"
+    },
+    {
+      "src": "classdef [0,317]",
+      "dest": "classdef [0,667]"
+    },
+    {
+      "src": "number: 2 [265,266]",
+      "dest": "number: 2 [614,615]"
+    },
+    {
+      "src": "suite [81,317]",
+      "dest": "suite [87,667]"
+    },
+    {
+      "src": "trailer [244,247]",
+      "dest": "trailer [593,596]"
+    },
+    {
+      "src": "return_stmt [135,198]",
+      "dest": "return_stmt [484,547]"
+    },
+    {
+      "src": "name: annulus_area [305,317]",
+      "dest": "name: annulus_area [654,666]"
+    },
+    {
+      "src": "term [240,285]",
+      "dest": "term [589,634]"
+    },
+    {
+      "src": "string: \"Error: Inner radius must be smaller than outer radius.\" [142,198]",
+      "dest": "string: \"Error: Inner radius must be smaller than outer radius.\" [491,547]"
+    },
+    {
+      "src": "name: math [240,244]",
+      "dest": "name: math [589,593]"
+    },
+    {
+      "src": "atom [250,285]",
+      "dest": "atom [599,634]"
+    },
+    {
+      "src": "name: outer_radius [109,121]",
+      "dest": "name: outer_radius [458,470]"
+    },
+    {
+      "src": "operator: ** [263,265]",
+      "dest": "operator: ** [612,614]"
+    },
+    {
+      "src": "name: annulus_area [225,237]",
+      "dest": "name: annulus_area [574,586]"
+    },
+    {
+      "src": "name: calculate_annulus_area [30,52]",
+      "dest": "name: calculate_annulus_area [30,52]"
+    },
+    {
+      "src": "comparison [93,121]",
+      "dest": "comparison [442,470]"
+    },
+    {
+      "src": "file_input [0,317]",
+      "dest": "file_input [0,667]"
+    },
+    {
+      "src": "operator: - [267,268]",
+      "dest": "operator: - [616,617]"
+    },
+    {
+      "src": "number: 2 [283,284]",
+      "dest": "number: 2 [632,633]"
+    },
+    {
+      "src": "suite [212,317]",
+      "dest": "suite [561,667]"
+    },
+    {
+      "src": "power [269,284]",
+      "dest": "power [618,633]"
+    },
+    {
+      "src": "name: outer_radius [67,79]",
+      "dest": "name: outer_radius [73,85]"
+    },
+    {
+      "src": "arith_expr [251,284]",
+      "dest": "arith_expr [600,633]"
+    },
+    {
+      "src": "suite [122,199]",
+      "dest": "suite [471,548]"
+    },
+    {
+      "src": "atom_expr [240,247]",
+      "dest": "atom_expr [589,596]"
+    },
+    {
+      "src": "operator: * [248,249]",
+      "dest": "operator: * [597,598]"
+    },
+    {
+      "src": "name: outer_radius [251,263]",
+      "dest": "name: outer_radius [600,612]"
+    },
+    {
+      "src": "operator: >= [106,108]",
+      "dest": "operator: >= [455,457]"
+    },
+    {
+      "src": "power [251,266]",
+      "dest": "power [600,615]"
+    },
+    {
+      "src": "name: pi [245,247]",
+      "dest": "name: pi [594,596]"
+    },
+    {
+      "src": "operator: ** [281,283]",
+      "dest": "operator: ** [630,632]"
+    },
+    {
+      "src": "simple_stmt [135,199]",
+      "dest": "simple_stmt [484,548]"
+    },
+    {
+      "src": "name: AreaCalculator [6,20]",
+      "dest": "name: AreaCalculator [6,20]"
+    },
+    {
+      "src": "simple_stmt [225,286]",
+      "dest": "simple_stmt [574,635]"
+    },
+    {
+      "src": "param [53,66]",
+      "dest": "param [59,72]"
+    },
+    {
+      "src": "expr_stmt [225,285]",
+      "dest": "expr_stmt [574,634]"
+    },
+    {
+      "src": "name: inner_radius [53,65]",
+      "dest": "name: inner_radius [59,71]"
+    },
+    {
+      "src": "if_stmt [90,317]",
+      "dest": "if_stmt [439,667]"
+    },
+    {
+      "src": "funcdef [26,317]",
+      "dest": "funcdef [26,667]"
+    },
+    {
+      "src": "param [67,79]",
+      "dest": "param [73,85]"
+    },
+    {
+      "src": "return_stmt [298,317]",
+      "dest": "return_stmt [647,666]"
+    },
+    {
+      "src": "parameters [52,80]",
+      "dest": "parameters [52,86]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [53,58]",
+      "parent": "parameters [52,86]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [96,431]",
+      "parent": "suite [87,667]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [647,667]",
+      "parent": "suite [561,667]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [298,317]",
+      "parent": "simple_stmt [647,667]",
+      "at": 0
+    }
+  ]
+}

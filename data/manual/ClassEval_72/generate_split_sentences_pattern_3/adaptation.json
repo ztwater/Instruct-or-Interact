@@ -1,0 +1,30 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Generate regular expression patterns that match the middle characters of two sentences\n        :return: string, regular expression patterns that match the middle characters of two sentences\n        >>> ru = RegexUtils()\n        >>> ru.generate_split_sentences_pattern()\n        '[.!?][\\s]{1,2}(?=[A-Z])'\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "DEL",
+        "label": "operator",
+        "inserted": "",
+        "deleted": ",",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "param",
+        "inserted": "",
+        "deleted": "sentence2",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "sentence1",
+        "type": "Refactoring"
+    }
+]

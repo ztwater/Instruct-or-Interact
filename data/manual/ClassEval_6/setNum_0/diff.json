@@ -1,0 +1,219 @@
+{
+  "matches": [
+    {
+      "src": "operator: % [118,119]",
+      "dest": "operator: % [349,350]"
+    },
+    {
+      "src": "suite [19,172]",
+      "dest": "suite [19,403]"
+    },
+    {
+      "src": "term [79,93]",
+      "dest": "term [310,324]"
+    },
+    {
+      "src": "classdef [0,172]",
+      "dest": "classdef [0,403]"
+    },
+    {
+      "src": "simple_stmt [58,94]",
+      "dest": "simple_stmt [289,325]"
+    },
+    {
+      "src": "name: remainder [163,172]",
+      "dest": "name: remainder [394,403]"
+    },
+    {
+      "src": "suite [49,172]",
+      "dest": "suite [41,403]"
+    },
+    {
+      "src": "name: size_of_each_block [58,76]",
+      "dest": "name: size_of_each_block [289,307]"
+    },
+    {
+      "src": "operator: , [38,39]",
+      "dest": "operator: = [236,237]"
+    },
+    {
+      "src": "operator: // [83,85]",
+      "dest": "operator: // [314,316]"
+    },
+    {
+      "src": "name: num [35,38]",
+      "dest": "name: num [232,235]"
+    },
+    {
+      "src": "testlist_star_expr [143,172]",
+      "dest": "testlist_star_expr [374,403]"
+    },
+    {
+      "src": "name: setNum [28,34]",
+      "dest": "name: setNum [28,34]"
+    },
+    {
+      "src": "name: divisor [40,47]",
+      "dest": "name: divisor [260,267]"
+    },
+    {
+      "src": "file_input [0,172]",
+      "dest": "file_input [0,403]"
+    },
+    {
+      "src": "return_stmt [136,172]",
+      "dest": "return_stmt [367,403]"
+    },
+    {
+      "src": "operator: = [77,78]",
+      "dest": "operator: = [308,309]"
+    },
+    {
+      "src": "simple_stmt [102,128]",
+      "dest": "simple_stmt [333,359]"
+    },
+    {
+      "src": "operator: , [161,162]",
+      "dest": "operator: , [392,393]"
+    },
+    {
+      "src": "name: size_of_each_block [143,161]",
+      "dest": "name: size_of_each_block [374,392]"
+    },
+    {
+      "src": "name: AvgPartition [6,18]",
+      "dest": "name: AvgPartition [6,18]"
+    },
+    {
+      "src": "name: num [114,117]",
+      "dest": "name: num [345,348]"
+    },
+    {
+      "src": "expr_stmt [58,93]",
+      "dest": "expr_stmt [289,324]"
+    },
+    {
+      "src": "name: divisor [120,127]",
+      "dest": "name: divisor [351,358]"
+    },
+    {
+      "src": "name: remainder [102,111]",
+      "dest": "name: remainder [333,342]"
+    },
+    {
+      "src": "term [114,127]",
+      "dest": "term [345,358]"
+    },
+    {
+      "src": "name: num [79,82]",
+      "dest": "name: num [310,313]"
+    },
+    {
+      "src": "operator: = [112,113]",
+      "dest": "operator: = [343,344]"
+    },
+    {
+      "src": "funcdef [24,172]",
+      "dest": "funcdef [24,403]"
+    },
+    {
+      "src": "expr_stmt [102,127]",
+      "dest": "expr_stmt [333,358]"
+    },
+    {
+      "src": "name: divisor [86,93]",
+      "dest": "name: divisor [317,324]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "parameters [34,40]",
+      "parent": "funcdef [24,403]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [50,224]",
+      "parent": "suite [41,403]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [232,252]",
+      "parent": "suite [41,403]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [260,281]",
+      "parent": "suite [41,403]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [232,251]",
+      "parent": "simple_stmt [232,252]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [260,280]",
+      "parent": "simple_stmt [260,281]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: num [35,38]",
+      "parent": "expr_stmt [232,251]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: , [38,39]",
+      "label": "="
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: , [38,39]",
+      "parent": "expr_stmt [232,251]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [238,251]",
+      "parent": "expr_stmt [232,251]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: divisor [40,47]",
+      "parent": "expr_stmt [260,280]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [268,269]",
+      "parent": "expr_stmt [260,280]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [270,280]",
+      "parent": "expr_stmt [260,280]",
+      "at": 2
+    },
+    {
+      "action": "delete-node",
+      "tree": "param [35,39]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "param [40,47]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "parameters [34,48]"
+    }
+  ]
+}

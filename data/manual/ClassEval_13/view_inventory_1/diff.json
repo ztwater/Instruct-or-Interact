@@ -1,0 +1,243 @@
+{
+  "matches": [
+    {
+      "src": "suite [21,267]",
+      "dest": "suite [21,511]"
+    },
+    {
+      "src": "string: 'Book 1' [131,139]",
+      "dest": "string: \"\"\"         Get the inventory of the Book Management.         :return self.inventory: dictionary, {title(str): quantity(int), ...}         >>> bookManagement = BookManagement()         >>> bookManagement.add_book(\"book1\", 1)         >>> bookManagement.add_book(\"book2\", 1)         >>> bookManagement.view_inventory()         {'book1': 1, 'book2': 1}         \"\"\" [60,421]"
+    },
+    {
+      "src": "trailer [261,267]",
+      "dest": "trailer [494,511]"
+    },
+    {
+      "src": "name: BookManagement [6,20]",
+      "dest": "name: BookManagement [6,20]"
+    },
+    {
+      "src": "classdef [0,267]",
+      "dest": "classdef [0,511]"
+    },
+    {
+      "src": "name: view_inventory [30,44]",
+      "dest": "name: view_inventory [30,44]"
+    },
+    {
+      "src": "suite [47,267]",
+      "dest": "suite [51,511]"
+    },
+    {
+      "src": "operator: , [139,140]",
+      "dest": "operator: , [439,440]"
+    },
+    {
+      "src": "parameters [44,46]",
+      "dest": "parameters [44,50]"
+    },
+    {
+      "src": "name: book [225,229]",
+      "dest": "name: quantity [441,449]"
+    },
+    {
+      "src": "atom_expr [256,267]",
+      "dest": "atom_expr [489,511]"
+    },
+    {
+      "src": "name: book [262,266]",
+      "dest": "name: title [495,500]"
+    },
+    {
+      "src": "name: inventory [233,242]",
+      "dest": "name: inventory [458,467]"
+    },
+    {
+      "src": "file_input [0,267]",
+      "dest": "file_input [0,511]"
+    },
+    {
+      "src": "funcdef [26,267]",
+      "dest": "funcdef [26,511]"
+    },
+    {
+      "src": "suite [243,267]",
+      "dest": "suite [476,511]"
+    },
+    {
+      "src": "name: print [256,261]",
+      "dest": "name: print [489,494]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [45,49]",
+      "parent": "parameters [44,50]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [60,422]",
+      "parent": "suite [51,511]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "for_stmt [430,511]",
+      "parent": "suite [51,511]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "string: 'Book 1' [131,139]",
+      "label": "\"\"\"         Get the inventory of the Book Management.         :return self.inventory: dictionary, {title(str): quantity(int), ...}         >>> bookManagement = BookManagement()         >>> bookManagement.add_book(\"book1\", 1)         >>> bookManagement.add_book(\"book2\", 1)         >>> bookManagement.view_inventory()         {'book1': 1, 'book2': 1}         \"\"\""
+    },
+    {
+      "action": "move-tree",
+      "tree": "string: 'Book 1' [131,139]",
+      "parent": "simple_stmt [60,422]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "exprlist [434,449]",
+      "parent": "for_stmt [430,511]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [453,475]",
+      "parent": "for_stmt [430,511]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [243,267]",
+      "parent": "for_stmt [430,511]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: title [434,439]",
+      "parent": "exprlist [434,449]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: , [139,140]",
+      "parent": "exprlist [434,449]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: book [225,229]",
+      "label": "quantity"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: book [225,229]",
+      "parent": "exprlist [434,449]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [453,457]",
+      "parent": "atom_expr [453,475]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [457,467]",
+      "parent": "atom_expr [453,475]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [467,473]",
+      "parent": "atom_expr [453,475]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [473,475]",
+      "parent": "atom_expr [453,475]",
+      "at": 3
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: inventory [233,242]",
+      "parent": "trailer [457,467]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "arglist [495,510]",
+      "parent": "trailer [494,511]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: book [262,266]",
+      "label": "title"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: book [262,266]",
+      "parent": "arglist [495,510]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [500,501]",
+      "parent": "arglist [495,510]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: quantity [502,510]",
+      "parent": "arglist [495,510]",
+      "at": 2
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: inventory [118,127]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: = [128,129]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: 'Book 2' [141,149]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [149,150]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: 'Book 3' [151,159]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "testlist_comp [131,159]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom [130,160]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [118,160]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [118,161]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "for_stmt [221,267]"
+    }
+  ]
+}

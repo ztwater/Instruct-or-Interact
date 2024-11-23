@@ -1,0 +1,228 @@
+{
+  "matches": [
+    {
+      "src": "suite [31,478]",
+      "dest": "suite [31,773]"
+    },
+    {
+      "src": "trailer [247,255]",
+      "dest": "trailer [542,550]"
+    },
+    {
+      "src": "atom_expr [156,169]",
+      "dest": "atom_expr [451,464]"
+    },
+    {
+      "src": "name: conn [466,470]",
+      "dest": "name: conn [761,765]"
+    },
+    {
+      "src": "operator: = [111,112]",
+      "dest": "operator: = [401,402]"
+    },
+    {
+      "src": "classdef [0,478]",
+      "dest": "classdef [0,773]"
+    },
+    {
+      "src": "simple_stmt [152,170]",
+      "dest": "simple_stmt [447,465]"
+    },
+    {
+      "src": "trailer [455,457]",
+      "dest": "trailer [750,752]"
+    },
+    {
+      "src": "suite [63,478]",
+      "dest": "suite [67,773]"
+    },
+    {
+      "src": "trailer [167,169]",
+      "dest": "trailer [462,464]"
+    },
+    {
+      "src": "name: conn [156,160]",
+      "dest": "name: conn [451,455]"
+    },
+    {
+      "src": "name: cursor [161,167]",
+      "dest": "name: cursor [456,462]"
+    },
+    {
+      "src": "trailer [128,143]",
+      "dest": "trailer [423,437]"
+    },
+    {
+      "src": "name: sqlite3 [113,120]",
+      "dest": "name: sqlite3 [403,410]"
+    },
+    {
+      "src": "expr_stmt [152,169]",
+      "dest": "expr_stmt [447,464]"
+    },
+    {
+      "src": "name: commit [449,455]",
+      "dest": "name: commit [744,750]"
+    },
+    {
+      "src": "operator: = [154,155]",
+      "dest": "operator: = [449,450]"
+    },
+    {
+      "src": "name: close [471,476]",
+      "dest": "name: close [766,771]"
+    },
+    {
+      "src": "name: conn [106,110]",
+      "dest": "name: conn [396,400]"
+    },
+    {
+      "src": "file_input [0,478]",
+      "dest": "file_input [0,773]"
+    },
+    {
+      "src": "atom_expr [246,372]",
+      "dest": "atom_expr [541,667]"
+    },
+    {
+      "src": "name: StudentDatabaseProcessor [6,30]",
+      "dest": "name: StudentDatabaseProcessor [6,30]"
+    },
+    {
+      "src": "trailer [255,372]",
+      "dest": "trailer [550,667]"
+    },
+    {
+      "src": "atom_expr [113,143]",
+      "dest": "atom_expr [403,438]"
+    },
+    {
+      "src": "name: c [246,247]",
+      "dest": "name: c [541,542]"
+    },
+    {
+      "src": "name: connect [121,128]",
+      "dest": "name: connect [411,418]"
+    },
+    {
+      "src": "atom_expr [444,457]",
+      "dest": "atom_expr [739,752]"
+    },
+    {
+      "src": "trailer [120,128]",
+      "dest": "trailer [410,418]"
+    },
+    {
+      "src": "parameters [60,62]",
+      "dest": "parameters [60,66]"
+    },
+    {
+      "src": "string: '''CREATE TABLE IF NOT EXISTS students                      (ID INT, name TEXT, age INT, gender TEXT, grade INT)''' [256,371]",
+      "dest": "string: '''CREATE TABLE IF NOT EXISTS students                      (ID INT, name TEXT, age INT, gender TEXT, grade INT)''' [551,666]"
+    },
+    {
+      "src": "trailer [160,167]",
+      "dest": "trailer [455,462]"
+    },
+    {
+      "src": "name: create_student_table [40,60]",
+      "dest": "name: create_student_table [40,60]"
+    },
+    {
+      "src": "trailer [448,455]",
+      "dest": "trailer [743,750]"
+    },
+    {
+      "src": "expr_stmt [106,143]",
+      "dest": "expr_stmt [396,438]"
+    },
+    {
+      "src": "simple_stmt [444,458]",
+      "dest": "simple_stmt [739,753]"
+    },
+    {
+      "src": "name: conn [444,448]",
+      "dest": "name: conn [739,743]"
+    },
+    {
+      "src": "simple_stmt [246,373]",
+      "dest": "simple_stmt [541,668]"
+    },
+    {
+      "src": "name: execute [248,255]",
+      "dest": "name: execute [543,550]"
+    },
+    {
+      "src": "atom_expr [466,478]",
+      "dest": "atom_expr [761,773]"
+    },
+    {
+      "src": "trailer [470,476]",
+      "dest": "trailer [765,771]"
+    },
+    {
+      "src": "trailer [476,478]",
+      "dest": "trailer [771,773]"
+    },
+    {
+      "src": "name: c [152,153]",
+      "dest": "name: c [447,448]"
+    },
+    {
+      "src": "simple_stmt [106,144]",
+      "dest": "simple_stmt [396,439]"
+    },
+    {
+      "src": "funcdef [36,478]",
+      "dest": "funcdef [36,773]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [61,65]",
+      "parent": "parameters [60,66]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [76,354]",
+      "parent": "suite [67,773]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [418,438]",
+      "parent": "atom_expr [403,438]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [419,437]",
+      "parent": "trailer [418,438]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [419,423]",
+      "parent": "atom_expr [419,437]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [128,143]",
+      "parent": "atom_expr [419,437]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: database_name [424,437]",
+      "parent": "trailer [423,437]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: 'database.db' [129,142]"
+    }
+  ]
+}

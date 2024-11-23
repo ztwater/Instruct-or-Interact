@@ -1,0 +1,751 @@
+{
+  "matches": [
+    {
+      "src": "atom [373,450]",
+      "dest": "atom [442,533]"
+    },
+    {
+      "src": "operator: ** [390,392]",
+      "dest": "operator: ** [462,464]"
+    },
+    {
+      "src": "atom_expr [332,349]",
+      "dest": "atom_expr [393,418]"
+    },
+    {
+      "src": "name: list1 [47,52]",
+      "dest": "name: self [47,51]"
+    },
+    {
+      "src": "classdef [0,596]",
+      "dest": "classdef [0,679]"
+    },
+    {
+      "src": "name: list2 [164,169]",
+      "dest": "name: mean [226,230]"
+    },
+    {
+      "src": "name: list2 [177,182]",
+      "dest": "name: data [236,240]"
+    },
+    {
+      "src": "name: x [324,325]",
+      "dest": "name: x [385,386]"
+    },
+    {
+      "src": "simple_stmt [152,184]",
+      "dest": "simple_stmt [215,242]"
+    },
+    {
+      "src": "operator: = [118,119]",
+      "dest": "operator: = [186,187]"
+    },
+    {
+      "src": "operator: - [311,312]",
+      "dest": "operator: - [372,373]"
+    },
+    {
+      "src": "atom [378,389]",
+      "dest": "atom [450,461]"
+    },
+    {
+      "src": "expr_stmt [278,350]",
+      "dest": "expr_stmt [336,419]"
+    },
+    {
+      "src": "name: list2 [443,448]",
+      "dest": "name: self [522,526]"
+    },
+    {
+      "src": "sync_comp_for [434,448]",
+      "dest": "sync_comp_for [513,531]"
+    },
+    {
+      "src": "sync_comp_for [395,409]",
+      "dest": "sync_comp_for [467,485]"
+    },
+    {
+      "src": "sync_comp_for [320,349]",
+      "dest": "sync_comp_for [381,418]"
+    },
+    {
+      "src": "name: list2 [343,348]",
+      "dest": "name: self [408,412]"
+    },
+    {
+      "src": "simple_stmt [112,144]",
+      "dest": "simple_stmt [180,207]"
+    },
+    {
+      "src": "trailer [123,130]",
+      "dest": "trailer [190,195]"
+    },
+    {
+      "src": "arglist [336,348]",
+      "dest": "arglist [397,417]"
+    },
+    {
+      "src": "operator: ** [429,431]",
+      "dest": "operator: ** [508,510]"
+    },
+    {
+      "src": "param [47,53]",
+      "dest": "param [47,51]"
+    },
+    {
+      "src": "operator: = [535,536]",
+      "dest": "operator: = [618,619]"
+    },
+    {
+      "src": "name: mean1 [383,388]",
+      "dest": "name: mean1 [455,460]"
+    },
+    {
+      "src": "power [417,433]",
+      "dest": "power [496,512]"
+    },
+    {
+      "src": "name: sum [120,123]",
+      "dest": "name: np [188,190]"
+    },
+    {
+      "src": "simple_stmt [278,351]",
+      "dest": "simple_stmt [336,420]"
+    },
+    {
+      "src": "operator: - [420,421]",
+      "dest": "operator: - [499,500]"
+    },
+    {
+      "src": "arith_expr [418,427]",
+      "dest": "arith_expr [497,506]"
+    },
+    {
+      "src": "name: y [309,310]",
+      "dest": "name: y [370,371]"
+    },
+    {
+      "src": "operator: , [325,326]",
+      "dest": "operator: , [386,387]"
+    },
+    {
+      "src": "name: zip [332,335]",
+      "dest": "name: zip [393,396]"
+    },
+    {
+      "src": "number: 2 [393,394]",
+      "dest": "number: 2 [465,466]"
+    },
+    {
+      "src": "trailer [416,449]",
+      "dest": "trailer [495,532]"
+    },
+    {
+      "src": "arith_expr [309,318]",
+      "dest": "arith_expr [370,379]"
+    },
+    {
+      "src": "name: correlation [585,596]",
+      "dest": "name: correlation [668,679]"
+    },
+    {
+      "src": "name: mean2 [152,157]",
+      "dest": "name: mean2 [215,220]"
+    },
+    {
+      "src": "expr_stmt [523,560]",
+      "dest": "expr_stmt [606,643]"
+    },
+    {
+      "src": "name: sum [374,377]",
+      "dest": "name: sum [446,449]"
+    },
+    {
+      "src": "term [374,449]",
+      "dest": "term [443,532]"
+    },
+    {
+      "src": "exprlist [324,328]",
+      "dest": "exprlist [385,389]"
+    },
+    {
+      "src": "name: list1 [137,142]",
+      "dest": "name: data [201,205]"
+    },
+    {
+      "src": "number: 2 [432,433]",
+      "dest": "number: 2 [511,512]"
+    },
+    {
+      "src": "file_input [0,596]",
+      "dest": "file_input [0,679]"
+    },
+    {
+      "src": "power [378,394]",
+      "dest": "power [450,466]"
+    },
+    {
+      "src": "operator: * [306,307]",
+      "dest": "operator: * [367,368]"
+    },
+    {
+      "src": "operator: / [547,548]",
+      "dest": "operator: / [630,631]"
+    },
+    {
+      "src": "return_stmt [578,596]",
+      "dest": "return_stmt [661,679]"
+    },
+    {
+      "src": "operator: = [288,289]",
+      "dest": "operator: = [346,347]"
+    },
+    {
+      "src": "operator: ** [451,453]",
+      "dest": "operator: ** [534,536]"
+    },
+    {
+      "src": "name: get_correlation [31,46]",
+      "dest": "name: get_correlation [31,46]"
+    },
+    {
+      "src": "atom_expr [133,143]",
+      "dest": "atom_expr [196,205]"
+    },
+    {
+      "src": "name: sum [160,163]",
+      "dest": "name: np [223,225]"
+    },
+    {
+      "src": "expr_stmt [112,143]",
+      "dest": "expr_stmt [180,206]"
+    },
+    {
+      "src": "arith_expr [379,388]",
+      "dest": "arith_expr [451,460]"
+    },
+    {
+      "src": "trailer [377,410]",
+      "dest": "trailer [449,486]"
+    },
+    {
+      "src": "argument [417,448]",
+      "dest": "argument [496,531]"
+    },
+    {
+      "src": "atom [308,319]",
+      "dest": "atom [369,380]"
+    },
+    {
+      "src": "simple_stmt [359,458]",
+      "dest": "simple_stmt [428,541]"
+    },
+    {
+      "src": "atom [417,428]",
+      "dest": "atom [496,507]"
+    },
+    {
+      "src": "atom_expr [374,410]",
+      "dest": "atom_expr [443,486]"
+    },
+    {
+      "src": "name: denominator [549,560]",
+      "dest": "name: denominator [632,643]"
+    },
+    {
+      "src": "suite [22,596]",
+      "dest": "suite [22,679]"
+    },
+    {
+      "src": "name: sum [413,416]",
+      "dest": "name: sum [492,495]"
+    },
+    {
+      "src": "simple_stmt [523,561]",
+      "dest": "simple_stmt [606,644]"
+    },
+    {
+      "src": "name: y [327,328]",
+      "dest": "name: y [388,389]"
+    },
+    {
+      "src": "name: y [438,439]",
+      "dest": "name: y [517,518]"
+    },
+    {
+      "src": "suite [61,596]",
+      "dest": "suite [53,679]"
+    },
+    {
+      "src": "name: y [418,419]",
+      "dest": "name: y [497,498]"
+    },
+    {
+      "src": "operator: - [381,382]",
+      "dest": "operator: - [453,454]"
+    },
+    {
+      "src": "name: x [399,400]",
+      "dest": "name: x [471,472]"
+    },
+    {
+      "src": "name: mean2 [313,318]",
+      "dest": "name: mean2 [374,379]"
+    },
+    {
+      "src": "name: len [173,176]",
+      "dest": "name: self [231,235]"
+    },
+    {
+      "src": "arith_expr [295,304]",
+      "dest": "arith_expr [356,365]"
+    },
+    {
+      "src": "parameters [46,60]",
+      "dest": "parameters [46,52]"
+    },
+    {
+      "src": "name: x [295,296]",
+      "dest": "name: x [356,357]"
+    },
+    {
+      "src": "term [537,560]",
+      "dest": "term [620,643]"
+    },
+    {
+      "src": "name: denominator [359,370]",
+      "dest": "name: denominator [428,439]"
+    },
+    {
+      "src": "term [294,319]",
+      "dest": "term [355,380]"
+    },
+    {
+      "src": "number: 0.5 [454,457]",
+      "dest": "number: 0.5 [537,540]"
+    },
+    {
+      "src": "operator: , [341,342]",
+      "dest": "operator: , [406,407]"
+    },
+    {
+      "src": "name: list1 [404,409]",
+      "dest": "name: self [476,480]"
+    },
+    {
+      "src": "name: sum [290,293]",
+      "dest": "name: sum [351,354]"
+    },
+    {
+      "src": "operator: * [411,412]",
+      "dest": "operator: * [487,488]"
+    },
+    {
+      "src": "operator: = [158,159]",
+      "dest": "operator: = [221,222]"
+    },
+    {
+      "src": "operator: = [371,372]",
+      "dest": "operator: = [440,441]"
+    },
+    {
+      "src": "trailer [293,350]",
+      "dest": "trailer [354,419]"
+    },
+    {
+      "src": "trailer [136,143]",
+      "dest": "trailer [200,205]"
+    },
+    {
+      "src": "power [373,457]",
+      "dest": "power [442,540]"
+    },
+    {
+      "src": "expr_stmt [359,457]",
+      "dest": "expr_stmt [428,540]"
+    },
+    {
+      "src": "funcdef [27,596]",
+      "dest": "funcdef [27,679]"
+    },
+    {
+      "src": "name: mean1 [112,117]",
+      "dest": "name: mean1 [180,185]"
+    },
+    {
+      "src": "atom_expr [290,350]",
+      "dest": "atom_expr [348,419]"
+    },
+    {
+      "src": "argument [294,349]",
+      "dest": "argument [355,418]"
+    },
+    {
+      "src": "name: DataStatistics2 [6,21]",
+      "dest": "name: DataStatistics2 [6,21]"
+    },
+    {
+      "src": "argument [378,409]",
+      "dest": "argument [450,485]"
+    },
+    {
+      "src": "name: correlation [523,534]",
+      "dest": "name: correlation [606,617]"
+    },
+    {
+      "src": "name: x [379,380]",
+      "dest": "name: x [451,452]"
+    },
+    {
+      "src": "trailer [176,183]",
+      "dest": "trailer [235,240]"
+    },
+    {
+      "src": "name: numerator [278,287]",
+      "dest": "name: numerator [336,345]"
+    },
+    {
+      "src": "atom_expr [413,449]",
+      "dest": "atom_expr [489,532]"
+    },
+    {
+      "src": "atom_expr [173,183]",
+      "dest": "atom_expr [231,240]"
+    },
+    {
+      "src": "name: numerator [537,546]",
+      "dest": "name: numerator [620,629]"
+    },
+    {
+      "src": "expr_stmt [152,183]",
+      "dest": "expr_stmt [215,241]"
+    },
+    {
+      "src": "trailer [163,170]",
+      "dest": "trailer [225,230]"
+    },
+    {
+      "src": "operator: - [297,298]",
+      "dest": "operator: - [358,359]"
+    },
+    {
+      "src": "atom [294,305]",
+      "dest": "atom [355,366]"
+    },
+    {
+      "src": "name: len [133,136]",
+      "dest": "name: self [196,200]"
+    },
+    {
+      "src": "name: list1 [336,341]",
+      "dest": "name: self [397,401]"
+    },
+    {
+      "src": "trailer [335,349]",
+      "dest": "trailer [396,418]"
+    },
+    {
+      "src": "name: list1 [124,129]",
+      "dest": "name: mean [191,195]"
+    },
+    {
+      "src": "name: mean1 [299,304]",
+      "dest": "name: mean1 [360,365]"
+    },
+    {
+      "src": "name: mean2 [422,427]",
+      "dest": "name: mean2 [501,506]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [62,130]",
+      "parent": "suite [53,679]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: list1 [47,52]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [188,206]",
+      "parent": "expr_stmt [180,206]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [223,241]",
+      "parent": "expr_stmt [215,241]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: sum [120,123]",
+      "label": "np"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: sum [120,123]",
+      "parent": "atom_expr [188,206]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [123,130]",
+      "parent": "atom_expr [188,206]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [195,206]",
+      "parent": "atom_expr [188,206]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: sum [160,163]",
+      "label": "np"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: sum [160,163]",
+      "parent": "atom_expr [223,241]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [163,170]",
+      "parent": "atom_expr [223,241]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [230,241]",
+      "parent": "atom_expr [223,241]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: np [348,350]",
+      "parent": "atom_expr [348,419]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [350,354]",
+      "parent": "atom_expr [348,419]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: list1 [124,129]",
+      "label": "mean"
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [133,143]",
+      "parent": "trailer [195,206]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: list2 [164,169]",
+      "label": "mean"
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [173,183]",
+      "parent": "trailer [230,241]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: sum [290,293]",
+      "parent": "trailer [350,354]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: len [133,136]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: len [173,176]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: list1 [137,142]",
+      "label": "data"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: list2 [177,182]",
+      "label": "data"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: np [443,445]",
+      "parent": "atom_expr [443,486]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [445,449]",
+      "parent": "atom_expr [443,486]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: np [489,491]",
+      "parent": "atom_expr [489,532]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [491,495]",
+      "parent": "atom_expr [489,532]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: sum [374,377]",
+      "parent": "trailer [445,449]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: sum [413,416]",
+      "parent": "trailer [491,495]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [397,406]",
+      "parent": "arglist [397,417]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [408,417]",
+      "parent": "arglist [397,417]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [476,485]",
+      "parent": "sync_comp_for [467,485]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [522,531]",
+      "parent": "sync_comp_for [513,531]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: list1 [336,341]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: list1 [336,341]",
+      "parent": "atom_expr [397,406]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [401,406]",
+      "parent": "atom_expr [397,406]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: list2 [343,348]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: list2 [343,348]",
+      "parent": "atom_expr [408,417]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [412,417]",
+      "parent": "atom_expr [408,417]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: list1 [404,409]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: list1 [404,409]",
+      "parent": "atom_expr [476,485]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [480,485]",
+      "parent": "atom_expr [476,485]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: list2 [443,448]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: list2 [443,448]",
+      "parent": "atom_expr [522,531]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [526,531]",
+      "parent": "atom_expr [522,531]",
+      "at": 1
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [52,53]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "param [54,59]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [120,130]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: / [131,132]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "term [120,143]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [160,170]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: / [171,172]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "term [160,183]"
+    }
+  ]
+}

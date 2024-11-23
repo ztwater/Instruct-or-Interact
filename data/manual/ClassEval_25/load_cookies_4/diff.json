@@ -1,0 +1,220 @@
+{
+  "matches": [
+    {
+      "src": "atom_expr [68,91]",
+      "dest": "atom_expr [194,222]"
+    },
+    {
+      "src": "name: open [68,72]",
+      "dest": "name: open [194,198]"
+    },
+    {
+      "src": "suite [18,167]",
+      "dest": "suite [18,338]"
+    },
+    {
+      "src": "name: file [95,99]",
+      "dest": "name: file [226,230]"
+    },
+    {
+      "src": "name: file [128,132]",
+      "dest": "name: json [259,263]"
+    },
+    {
+      "src": "trailer [137,139]",
+      "dest": "trailer [268,274]"
+    },
+    {
+      "src": "classdef [0,167]",
+      "dest": "classdef [0,338]"
+    },
+    {
+      "src": "parameters [39,53]",
+      "dest": "parameters [39,45]"
+    },
+    {
+      "src": "suite [54,167]",
+      "dest": "suite [46,338]"
+    },
+    {
+      "src": "name: cookies_data [155,167]",
+      "dest": "name: cookies [331,338]"
+    },
+    {
+      "src": "string: 'r' [87,90]",
+      "dest": "string: 'r' [218,221]"
+    },
+    {
+      "src": "trailer [132,137]",
+      "dest": "trailer [263,268]"
+    },
+    {
+      "src": "name: cookies_file [73,85]",
+      "dest": "name: cookies_file [204,216]"
+    },
+    {
+      "src": "name: CookiesUtil [6,17]",
+      "dest": "name: CookiesUtil [6,17]"
+    },
+    {
+      "src": "with_item [68,99]",
+      "dest": "with_item [194,230]"
+    },
+    {
+      "src": "expr_stmt [113,139]",
+      "dest": "expr_stmt [244,274]"
+    },
+    {
+      "src": "name: read [133,137]",
+      "dest": "name: load [264,268]"
+    },
+    {
+      "src": "file_input [0,167]",
+      "dest": "file_input [0,338]"
+    },
+    {
+      "src": "suite [100,140]",
+      "dest": "suite [231,275]"
+    },
+    {
+      "src": "operator: , [85,86]",
+      "dest": "operator: , [216,217]"
+    },
+    {
+      "src": "param [40,52]",
+      "dest": "param [40,44]"
+    },
+    {
+      "src": "arglist [73,90]",
+      "dest": "arglist [199,221]"
+    },
+    {
+      "src": "name: load_cookies [27,39]",
+      "dest": "name: load_cookies [27,39]"
+    },
+    {
+      "src": "operator: = [126,127]",
+      "dest": "operator: = [257,258]"
+    },
+    {
+      "src": "name: cookies_file [40,52]",
+      "dest": "name: self [40,44]"
+    },
+    {
+      "src": "name: cookies_data [113,125]",
+      "dest": "name: cookies_data [244,256]"
+    },
+    {
+      "src": "return_stmt [148,167]",
+      "dest": "return_stmt [319,338]"
+    },
+    {
+      "src": "simple_stmt [113,140]",
+      "dest": "simple_stmt [244,275]"
+    },
+    {
+      "src": "with_stmt [63,140]",
+      "dest": "with_stmt [189,275]"
+    },
+    {
+      "src": "atom_expr [128,139]",
+      "dest": "atom_expr [259,274]"
+    },
+    {
+      "src": "funcdef [23,167]",
+      "dest": "funcdef [23,338]"
+    },
+    {
+      "src": "trailer [72,91]",
+      "dest": "trailer [198,222]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [55,181]",
+      "parent": "suite [46,338]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [283,311]",
+      "parent": "suite [46,338]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: cookies_file [40,52]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [326,338]",
+      "parent": "return_stmt [319,338]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [326,330]",
+      "parent": "atom_expr [326,338]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [330,338]",
+      "parent": "atom_expr [326,338]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: cookies_data [155,167]",
+      "label": "cookies"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: cookies_data [155,167]",
+      "parent": "trailer [330,338]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [199,216]",
+      "parent": "arglist [199,221]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: file [128,132]",
+      "label": "json"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [199,203]",
+      "parent": "atom_expr [199,216]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [203,216]",
+      "parent": "atom_expr [199,216]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: read [133,137]",
+      "label": "load"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: file [269,273]",
+      "parent": "trailer [268,274]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: cookies_file [73,85]",
+      "parent": "trailer [203,216]",
+      "at": 0
+    }
+  ]
+}

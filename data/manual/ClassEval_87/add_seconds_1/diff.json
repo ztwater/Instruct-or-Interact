@@ -1,0 +1,199 @@
+{
+  "matches": [
+    {
+      "src": "name: current_time [55,67]",
+      "dest": "name: current_time [361,373]"
+    },
+    {
+      "src": "name: new_time [179,187]",
+      "dest": "name: new_time [475,483]"
+    },
+    {
+      "src": "suite [16,187]",
+      "dest": "suite [16,504]"
+    },
+    {
+      "src": "name: current_time [113,125]",
+      "dest": "name: current_time [409,421]"
+    },
+    {
+      "src": "classdef [0,187]",
+      "dest": "classdef [0,504]"
+    },
+    {
+      "src": "suite [46,187]",
+      "dest": "suite [52,504]"
+    },
+    {
+      "src": "expr_stmt [55,93]",
+      "dest": "expr_stmt [361,389]"
+    },
+    {
+      "src": "expr_stmt [102,163]",
+      "dest": "expr_stmt [398,459]"
+    },
+    {
+      "src": "trailer [136,146]",
+      "dest": "trailer [432,442]"
+    },
+    {
+      "src": "operator: + [126,127]",
+      "dest": "operator: + [422,423]"
+    },
+    {
+      "src": "name: seconds [37,44]",
+      "dest": "name: seconds [43,50]"
+    },
+    {
+      "src": "name: datetime [128,136]",
+      "dest": "name: datetime [424,432]"
+    },
+    {
+      "src": "argument [147,162]",
+      "dest": "argument [443,458]"
+    },
+    {
+      "src": "name: add_seconds [25,36]",
+      "dest": "name: add_seconds [25,36]"
+    },
+    {
+      "src": "name: TimeUtils [6,15]",
+      "dest": "name: TimeUtils [6,15]"
+    },
+    {
+      "src": "name: new_time [102,110]",
+      "dest": "name: new_time [398,406]"
+    },
+    {
+      "src": "simple_stmt [55,94]",
+      "dest": "simple_stmt [361,390]"
+    },
+    {
+      "src": "arith_expr [113,163]",
+      "dest": "arith_expr [409,459]"
+    },
+    {
+      "src": "file_input [0,187]",
+      "dest": "file_input [0,504]"
+    },
+    {
+      "src": "param [37,44]",
+      "dest": "param [43,50]"
+    },
+    {
+      "src": "trailer [78,87]",
+      "dest": "trailer [380,389]"
+    },
+    {
+      "src": "atom_expr [70,93]",
+      "dest": "atom_expr [376,389]"
+    },
+    {
+      "src": "name: seconds [147,154]",
+      "dest": "name: seconds [443,450]"
+    },
+    {
+      "src": "name: datetime [70,78]",
+      "dest": "name: self [376,380]"
+    },
+    {
+      "src": "atom_expr [128,163]",
+      "dest": "atom_expr [424,459]"
+    },
+    {
+      "src": "trailer [146,163]",
+      "dest": "trailer [442,459]"
+    },
+    {
+      "src": "name: seconds [155,162]",
+      "dest": "name: seconds [451,458]"
+    },
+    {
+      "src": "operator: = [154,155]",
+      "dest": "operator: = [450,451]"
+    },
+    {
+      "src": "parameters [36,45]",
+      "dest": "parameters [36,51]"
+    },
+    {
+      "src": "name: timedelta [137,146]",
+      "dest": "name: timedelta [433,442]"
+    },
+    {
+      "src": "return_stmt [172,187]",
+      "dest": "return_stmt [468,504]"
+    },
+    {
+      "src": "simple_stmt [102,164]",
+      "dest": "simple_stmt [398,460]"
+    },
+    {
+      "src": "operator: = [111,112]",
+      "dest": "operator: = [407,408]"
+    },
+    {
+      "src": "operator: = [68,69]",
+      "dest": "operator: = [374,375]"
+    },
+    {
+      "src": "funcdef [21,187]",
+      "dest": "funcdef [21,504]"
+    },
+    {
+      "src": "name: datetime [79,87]",
+      "dest": "name: datetime [381,389]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [37,42]",
+      "parent": "parameters [36,51]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [61,353]",
+      "parent": "suite [52,504]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [475,504]",
+      "parent": "return_stmt [468,504]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: new_time [179,187]",
+      "parent": "atom_expr [475,504]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [483,492]",
+      "parent": "atom_expr [475,504]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [492,504]",
+      "parent": "atom_expr [475,504]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: datetime [70,78]",
+      "label": "self"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [87,91]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [91,93]"
+    }
+  ]
+}

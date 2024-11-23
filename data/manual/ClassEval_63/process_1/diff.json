@@ -1,0 +1,100 @@
+{
+  "matches": [
+    {
+      "src": "classdef [0,757]",
+      "dest": "classdef [0,34]"
+    },
+    {
+      "src": "name: NLPDataProcessor2 [6,23]",
+      "dest": "name: NLPDataProcessor2 [6,23]"
+    },
+    {
+      "src": "suite [428,471]",
+      "dest": "suite [24,34]"
+    },
+    {
+      "src": "file_input [0,757]",
+      "dest": "file_input [0,34]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "move-tree",
+      "tree": "suite [428,471]",
+      "parent": "classdef [0,34]",
+      "at": 1
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [445,471]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: process [33,40]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "parameters [40,48]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [105,187]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [252,287]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [339,359]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: word [371,375]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: word_list [379,388]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "comparison [405,427]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "suite [488,530]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "if_stmt [402,530]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [389,530]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "for_stmt [367,530]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [617,712]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "return_stmt [729,757]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [49,757]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "funcdef [29,757]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [24,757]"
+    }
+  ]
+}

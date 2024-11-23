@@ -1,0 +1,44 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Write data to a JSON file and save it to the given path.\n\n        :param data: dict, the data to be written to the JSON file.\n        :param file_path: str, the path of the JSON file.\n        :return: 1 if the writing process is successful, or -1, if an error occurs during the writing process.\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "except_clause",
+        "inserted": "except Exception",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return 1\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "json.dump(data, file)\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "json.dump(data, file)",
+        "deleted": "json.dump(data, file)",
+        "type": "Move"
+    }
+]

@@ -1,0 +1,228 @@
+{
+  "matches": [
+    {
+      "src": "operator: = [54,55]",
+      "dest": "operator: = [402,403]"
+    },
+    {
+      "src": "suite [18,191]",
+      "dest": "suite [18,542]"
+    },
+    {
+      "src": "name: x [158,159]",
+      "dest": "name: x [508,509]"
+    },
+    {
+      "src": "param [35,38]",
+      "dest": "param [35,39]"
+    },
+    {
+      "src": "classdef [0,191]",
+      "dest": "classdef [0,542]"
+    },
+    {
+      "src": "suite [40,191]",
+      "dest": "suite [41,542]"
+    },
+    {
+      "src": "name: statistics [56,66]",
+      "dest": "name: statistics [404,414]"
+    },
+    {
+      "src": "operator: - [138,139]",
+      "dest": "operator: - [488,489]"
+    },
+    {
+      "src": "trailer [66,71]",
+      "dest": "trailer [414,419]"
+    },
+    {
+      "src": "parameters [34,39]",
+      "dest": "parameters [34,40]"
+    },
+    {
+      "src": "name: mean [67,71]",
+      "dest": "name: mean [415,419]"
+    },
+    {
+      "src": "name: lst [72,75]",
+      "dest": "name: data [420,424]"
+    },
+    {
+      "src": "trailer [109,114]",
+      "dest": "trailer [458,464]"
+    },
+    {
+      "src": "trailer [103,109]",
+      "dest": "trailer [452,458]"
+    },
+    {
+      "src": "name: x [136,137]",
+      "dest": "name: x [486,487]"
+    },
+    {
+      "src": "trailer [71,76]",
+      "dest": "trailer [419,425]"
+    },
+    {
+      "src": "sync_comp_for [154,166]",
+      "dest": "sync_comp_for [504,517]"
+    },
+    {
+      "src": "atom [134,167]",
+      "dest": "atom [484,518]"
+    },
+    {
+      "src": "simple_stmt [49,77]",
+      "dest": "simple_stmt [397,426]"
+    },
+    {
+      "src": "name: stdev [104,109]",
+      "dest": "name: stdev [453,458]"
+    },
+    {
+      "src": "name: mean [49,53]",
+      "dest": "name: mean [397,401]"
+    },
+    {
+      "src": "simple_stmt [85,115]",
+      "dest": "simple_stmt [434,465]"
+    },
+    {
+      "src": "funcdef [23,191]",
+      "dest": "funcdef [23,542]"
+    },
+    {
+      "src": "expr_stmt [49,76]",
+      "dest": "expr_stmt [397,425]"
+    },
+    {
+      "src": "atom_expr [93,114]",
+      "dest": "atom_expr [442,464]"
+    },
+    {
+      "src": "term [135,153]",
+      "dest": "term [485,503]"
+    },
+    {
+      "src": "name: z_scores [183,191]",
+      "dest": "name: z_scores [534,542]"
+    },
+    {
+      "src": "name: stdev [85,90]",
+      "dest": "name: stdev [434,439]"
+    },
+    {
+      "src": "name: lst [110,113]",
+      "dest": "name: data [459,463]"
+    },
+    {
+      "src": "atom_expr [56,76]",
+      "dest": "atom_expr [404,425]"
+    },
+    {
+      "src": "atom [135,145]",
+      "dest": "atom [485,495]"
+    },
+    {
+      "src": "testlist_comp [135,166]",
+      "dest": "testlist_comp [485,517]"
+    },
+    {
+      "src": "expr_stmt [85,114]",
+      "dest": "expr_stmt [434,464]"
+    },
+    {
+      "src": "name: lst [35,38]",
+      "dest": "name: data [35,39]"
+    },
+    {
+      "src": "name: statistics [93,103]",
+      "dest": "name: statistics [442,452]"
+    },
+    {
+      "src": "operator: = [91,92]",
+      "dest": "operator: = [440,441]"
+    },
+    {
+      "src": "name: Statistics3 [6,17]",
+      "dest": "name: Statistics3 [6,17]"
+    },
+    {
+      "src": "operator: = [132,133]",
+      "dest": "operator: = [482,483]"
+    },
+    {
+      "src": "file_input [0,191]",
+      "dest": "file_input [0,542]"
+    },
+    {
+      "src": "expr_stmt [123,167]",
+      "dest": "expr_stmt [473,518]"
+    },
+    {
+      "src": "return_stmt [176,191]",
+      "dest": "return_stmt [527,542]"
+    },
+    {
+      "src": "name: lst [163,166]",
+      "dest": "name: data [513,517]"
+    },
+    {
+      "src": "name: mean [140,144]",
+      "dest": "name: mean [490,494]"
+    },
+    {
+      "src": "name: stdev [148,153]",
+      "dest": "name: stdev [498,503]"
+    },
+    {
+      "src": "operator: / [146,147]",
+      "dest": "operator: / [496,497]"
+    },
+    {
+      "src": "arith_expr [136,144]",
+      "dest": "arith_expr [486,494]"
+    },
+    {
+      "src": "name: z_scores [123,131]",
+      "dest": "name: z_scores [473,481]"
+    },
+    {
+      "src": "simple_stmt [123,168]",
+      "dest": "simple_stmt [473,519]"
+    },
+    {
+      "src": "name: z_score [27,34]",
+      "dest": "name: z_score [27,34]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [50,389]",
+      "parent": "suite [41,542]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: lst [35,38]",
+      "label": "data"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: lst [72,75]",
+      "label": "data"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: lst [110,113]",
+      "label": "data"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: lst [163,166]",
+      "label": "data"
+    }
+  ]
+}

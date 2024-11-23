@@ -1,0 +1,93 @@
+{
+  "matches": [
+    {
+      "src": "name: event [38,43]",
+      "dest": "name: event [44,49]"
+    },
+    {
+      "src": "suite [19,76]",
+      "dest": "suite [19,645]"
+    },
+    {
+      "src": "classdef [0,76]",
+      "dest": "classdef [0,645]"
+    },
+    {
+      "src": "atom_expr [54,76]",
+      "dest": "atom_expr [620,645]"
+    },
+    {
+      "src": "suite [45,76]",
+      "dest": "suite [51,645]"
+    },
+    {
+      "src": "trailer [62,69]",
+      "dest": "trailer [631,638]"
+    },
+    {
+      "src": "name: event [70,75]",
+      "dest": "name: event [639,644]"
+    },
+    {
+      "src": "param [38,43]",
+      "dest": "param [44,49]"
+    },
+    {
+      "src": "trailer [69,76]",
+      "dest": "trailer [638,645]"
+    },
+    {
+      "src": "name: calendar [54,62]",
+      "dest": "name: self [620,624]"
+    },
+    {
+      "src": "name: CalendarUtil [6,18]",
+      "dest": "name: CalendarUtil [6,18]"
+    },
+    {
+      "src": "parameters [37,44]",
+      "dest": "parameters [37,50]"
+    },
+    {
+      "src": "file_input [0,76]",
+      "dest": "file_input [0,645]"
+    },
+    {
+      "src": "funcdef [24,76]",
+      "dest": "funcdef [24,645]"
+    },
+    {
+      "src": "name: add_event [28,37]",
+      "dest": "name: add_event [28,37]"
+    },
+    {
+      "src": "name: append [63,69]",
+      "dest": "name: append [632,638]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [38,43]",
+      "parent": "parameters [37,50]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [60,612]",
+      "parent": "suite [51,645]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: calendar [54,62]",
+      "label": "self"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [624,631]",
+      "parent": "atom_expr [620,645]",
+      "at": 1
+    }
+  ]
+}

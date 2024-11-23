@@ -1,0 +1,86 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "sync_comp_for",
+        "inserted": "for string in string_list",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "sync_comp_for",
+        "inserted": "for string in filtered_string",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "sync_comp_for",
+        "inserted": "for string in lowercased_string",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "''.join([char for char in string if char.isalpha() or char.isspace()])",
+        "deleted": "''.join([char for char in string if char.isalpha() or char.isspace()])",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "filtered_string.lower()",
+        "deleted": "filtered_string.lower()",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "lowercased_string.split()",
+        "deleted": "lowercased_string.split()",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "string_list",
+        "deleted": "string",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "words_list",
+        "deleted": "word_list",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "words_list",
+        "deleted": "word_list",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "string",
+        "deleted": "filtered_string",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "string",
+        "deleted": "lowercased_string",
+        "type": "Refactoring"
+    }
+]

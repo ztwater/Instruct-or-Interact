@@ -1,0 +1,206 @@
+{
+  "matches": [
+    {
+      "src": "name: text [48,52]",
+      "dest": "name: self [48,52]"
+    },
+    {
+      "src": "suite [20,367]",
+      "dest": "suite [20,402]"
+    },
+    {
+      "src": "parameters [47,53]",
+      "dest": "parameters [47,63]"
+    },
+    {
+      "src": "name: str [135,138]",
+      "dest": "name: str [254,257]"
+    },
+    {
+      "src": "classdef [0,367]",
+      "dest": "classdef [0,402]"
+    },
+    {
+      "src": "name: punctuation [164,175]",
+      "dest": "name: punctuation [283,294]"
+    },
+    {
+      "src": "trailer [296,306]",
+      "dest": "trailer [339,349]"
+    },
+    {
+      "src": "suite [54,367]",
+      "dest": "suite [64,402]"
+    },
+    {
+      "src": "expr_stmt [122,176]",
+      "dest": "expr_stmt [241,295]"
+    },
+    {
+      "src": "arglist [149,175]",
+      "dest": "arglist [268,294]"
+    },
+    {
+      "src": "name: text_without_punctuation [265,289]",
+      "dest": "name: text_without_punctuation [304,328]"
+    },
+    {
+      "src": "name: Lemmatization [6,19]",
+      "dest": "name: Lemmatization [6,19]"
+    },
+    {
+      "src": "trailer [138,148]",
+      "dest": "trailer [257,267]"
+    },
+    {
+      "src": "trailer [148,176]",
+      "dest": "trailer [267,295]"
+    },
+    {
+      "src": "string: \"\" [153,155]",
+      "dest": "string: \"\" [272,274]"
+    },
+    {
+      "src": "atom_expr [292,318]",
+      "dest": "atom_expr [331,361]"
+    },
+    {
+      "src": "name: translator [122,132]",
+      "dest": "name: translator [241,251]"
+    },
+    {
+      "src": "trailer [163,175]",
+      "dest": "trailer [282,294]"
+    },
+    {
+      "src": "atom_expr [135,176]",
+      "dest": "atom_expr [254,295]"
+    },
+    {
+      "src": "name: text_without_punctuation [343,367]",
+      "dest": "name: text_without_punctuation [377,401]"
+    },
+    {
+      "src": "operator: = [290,291]",
+      "dest": "operator: = [329,330]"
+    },
+    {
+      "src": "file_input [0,367]",
+      "dest": "file_input [0,402]"
+    },
+    {
+      "src": "simple_stmt [265,319]",
+      "dest": "simple_stmt [304,362]"
+    },
+    {
+      "src": "return_stmt [336,367]",
+      "dest": "return_stmt [370,401]"
+    },
+    {
+      "src": "expr_stmt [265,318]",
+      "dest": "expr_stmt [304,361]"
+    },
+    {
+      "src": "operator: , [155,156]",
+      "dest": "operator: , [274,275]"
+    },
+    {
+      "src": "param [48,52]",
+      "dest": "param [48,53]"
+    },
+    {
+      "src": "name: maketrans [139,148]",
+      "dest": "name: maketrans [258,267]"
+    },
+    {
+      "src": "operator: , [151,152]",
+      "dest": "operator: , [270,271]"
+    },
+    {
+      "src": "name: string [157,163]",
+      "dest": "name: string [276,282]"
+    },
+    {
+      "src": "atom_expr [157,175]",
+      "dest": "atom_expr [276,294]"
+    },
+    {
+      "src": "string: \"\" [149,151]",
+      "dest": "string: \"\" [268,270]"
+    },
+    {
+      "src": "trailer [306,318]",
+      "dest": "trailer [349,361]"
+    },
+    {
+      "src": "name: translate [297,306]",
+      "dest": "name: translate [340,349]"
+    },
+    {
+      "src": "name: translator [307,317]",
+      "dest": "name: translator [350,360]"
+    },
+    {
+      "src": "simple_stmt [122,177]",
+      "dest": "simple_stmt [241,296]"
+    },
+    {
+      "src": "operator: = [133,134]",
+      "dest": "operator: = [252,253]"
+    },
+    {
+      "src": "name: text [292,296]",
+      "dest": "name: sentence [331,339]"
+    },
+    {
+      "src": "name: remove_punctuation [29,47]",
+      "dest": "name: remove_punctuation [29,47]"
+    },
+    {
+      "src": "funcdef [25,367]",
+      "dest": "funcdef [25,402]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [54,62]",
+      "parent": "parameters [47,63]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [73,233]",
+      "parent": "suite [64,402]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [370,402]",
+      "parent": "suite [64,402]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: text [48,52]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [52,53]",
+      "parent": "param [48,53]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [336,367]",
+      "parent": "simple_stmt [370,402]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: text [292,296]",
+      "label": "sentence"
+    }
+  ]
+}

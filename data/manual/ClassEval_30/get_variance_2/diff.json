@@ -1,0 +1,190 @@
+{
+  "matches": [
+    {
+      "src": "name: variance [127,135]",
+      "dest": "name: variance [343,351]"
+    },
+    {
+      "src": "operator: = [71,72]",
+      "dest": "operator: = [285,286]"
+    },
+    {
+      "src": "suite [22,163]",
+      "dest": "suite [22,380]"
+    },
+    {
+      "src": "parameters [43,52]",
+      "dest": "parameters [43,49]"
+    },
+    {
+      "src": "param [44,51]",
+      "dest": "param [44,48]"
+    },
+    {
+      "src": "name: variance [110,118]",
+      "dest": "name: variance [326,334]"
+    },
+    {
+      "src": "classdef [0,163]",
+      "dest": "classdef [0,380]"
+    },
+    {
+      "src": "suite [53,163]",
+      "dest": "suite [50,380]"
+    },
+    {
+      "src": "trailer [92,101]",
+      "dest": "trailer [311,316]"
+    },
+    {
+      "src": "simple_stmt [62,102]",
+      "dest": "simple_stmt [276,318]"
+    },
+    {
+      "src": "name: variance [155,163]",
+      "dest": "name: variance [371,379]"
+    },
+    {
+      "src": "return_stmt [148,163]",
+      "dest": "return_stmt [364,379]"
+    },
+    {
+      "src": "file_input [0,163]",
+      "dest": "file_input [0,380]"
+    },
+    {
+      "src": "expr_stmt [62,101]",
+      "dest": "expr_stmt [276,317]"
+    },
+    {
+      "src": "name: variance [84,92]",
+      "dest": "name: variance [298,306]"
+    },
+    {
+      "src": "name: variance [62,70]",
+      "dest": "name: variance [276,284]"
+    },
+    {
+      "src": "arglist [127,138]",
+      "dest": "arglist [343,354]"
+    },
+    {
+      "src": "number: 2 [137,138]",
+      "dest": "number: 2 [353,354]"
+    },
+    {
+      "src": "atom_expr [73,101]",
+      "dest": "atom_expr [287,317]"
+    },
+    {
+      "src": "operator: , [135,136]",
+      "dest": "operator: , [351,352]"
+    },
+    {
+      "src": "atom_expr [121,139]",
+      "dest": "atom_expr [337,355]"
+    },
+    {
+      "src": "trailer [126,139]",
+      "dest": "trailer [342,355]"
+    },
+    {
+      "src": "name: statistics [73,83]",
+      "dest": "name: statistics [287,297]"
+    },
+    {
+      "src": "name: numbers [44,51]",
+      "dest": "name: self [44,48]"
+    },
+    {
+      "src": "name: DataStatistics2 [6,21]",
+      "dest": "name: DataStatistics2 [6,21]"
+    },
+    {
+      "src": "simple_stmt [110,140]",
+      "dest": "simple_stmt [326,356]"
+    },
+    {
+      "src": "name: numbers [93,100]",
+      "dest": "name: data [312,316]"
+    },
+    {
+      "src": "name: round [121,126]",
+      "dest": "name: round [337,342]"
+    },
+    {
+      "src": "funcdef [27,163]",
+      "dest": "funcdef [27,380]"
+    },
+    {
+      "src": "name: get_variance [31,43]",
+      "dest": "name: get_variance [31,43]"
+    },
+    {
+      "src": "operator: = [119,120]",
+      "dest": "operator: = [335,336]"
+    },
+    {
+      "src": "expr_stmt [110,139]",
+      "dest": "expr_stmt [326,355]"
+    },
+    {
+      "src": "trailer [83,92]",
+      "dest": "trailer [297,306]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [59,268]",
+      "parent": "suite [50,380]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [364,380]",
+      "parent": "suite [50,380]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: numbers [44,51]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [148,163]",
+      "parent": "simple_stmt [364,380]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [306,317]",
+      "parent": "atom_expr [287,317]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [307,316]",
+      "parent": "trailer [306,317]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [307,311]",
+      "parent": "atom_expr [307,316]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [92,101]",
+      "parent": "atom_expr [307,316]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: numbers [93,100]",
+      "label": "data"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Returns the length of the own data\n        :return:int, length of data\n        >>> camelize_map = CamelCaseMap()\n        >>> camelize_map['first_name'] = 'John'\n        >>> camelize_map['last_name'] = 'Doe'\n        >>> camelize_map['age'] = 30\n        >>> camelize_map.__len__()\n        3\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "_data",
+        "deleted": "data",
+        "type": "Refactoring"
+    }
+]

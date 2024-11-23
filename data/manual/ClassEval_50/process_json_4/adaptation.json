@@ -1,0 +1,184 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        read a JSON file and process the data by removing a specified key and rewrite the modified data back to the file.\n\n        :param file_path: str, the path of the JSON file.\n        :param remove_key: str, the key to be removed.\n        :return: 1, if the specified key is successfully removed and the data is written back.\n                    0, if the file does not exist or the specified key does not exist in the data.\n        >>> json.read_json('test.json')\n        {'key1': 'value1', 'key2': 'value2'}\n        >>> json.process_json('test.json', 'key1')\n        1\n        >>> json.read_json('test.json')\n        {'key2': 'value2'}\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".path",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".exists",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "self.write_json(data, file_path)\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return 1\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "operator",
+        "inserted": "",
+        "deleted": ",",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "string",
+        "inserted": "",
+        "deleted": "'r'",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "name",
+        "inserted": "",
+        "deleted": "file",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "if_stmt",
+        "inserted": "",
+        "deleted": "if key_to_remove in data:\n            del data[key_to_remove]\n",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "with_item",
+        "inserted": "",
+        "deleted": "open(file_path, 'w') as file",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "simple_stmt",
+        "inserted": "data = json.load(file)\n",
+        "deleted": "data = json.load(file)\n",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "file_path",
+        "deleted": "file_path",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "comparison",
+        "inserted": "key_to_remove in data",
+        "deleted": "key_to_remove in data",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "simple_stmt",
+        "inserted": "del data[key_to_remove]\n",
+        "deleted": "del data[key_to_remove]\n",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "json.dump(data, file)",
+        "deleted": "json.dump(data, file)",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "remove_key",
+        "deleted": "key_to_remove",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "os",
+        "deleted": "open",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "remove_key",
+        "deleted": "key_to_remove",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "json",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "read_json",
+        "deleted": "load",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "file_path",
+        "deleted": "file",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "json",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "write_json",
+        "deleted": "dump",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "remove_key",
+        "deleted": "key_to_remove",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "file_path",
+        "deleted": "file",
+        "type": "Refactoring"
+    }
+]

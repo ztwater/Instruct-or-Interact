@@ -1,0 +1,316 @@
+{
+  "matches": [
+    {
+      "src": "suite [21,201]",
+      "dest": "suite [21,579]"
+    },
+    {
+      "src": "operator: , [46,47]",
+      "dest": "operator: , [43,44]"
+    },
+    {
+      "src": "name: inventory [58,67]",
+      "dest": "name: quantity [63,71]"
+    },
+    {
+      "src": "comparison [81,101]",
+      "dest": "comparison [396,423]"
+    },
+    {
+      "src": "name: inventory [92,101]",
+      "dest": "name: inventory [414,423]"
+    },
+    {
+      "src": "name: inventory [172,181]",
+      "dest": "name: inventory [518,527]"
+    },
+    {
+      "src": "classdef [0,201]",
+      "dest": "classdef [0,579]"
+    },
+    {
+      "src": "suite [69,201]",
+      "dest": "suite [73,579]"
+    },
+    {
+      "src": "parameters [38,68]",
+      "dest": "parameters [38,72]"
+    },
+    {
+      "src": "name: inventory [115,124]",
+      "dest": "name: inventory [442,451]"
+    },
+    {
+      "src": "expr_stmt [172,201]",
+      "dest": "expr_stmt [513,579]"
+    },
+    {
+      "src": "name: product [39,46]",
+      "dest": "name: self [39,43]"
+    },
+    {
+      "src": "trailer [124,133]",
+      "dest": "trailer [451,462]"
+    },
+    {
+      "src": "name: quantity [137,145]",
+      "dest": "name: quantity [478,486]"
+    },
+    {
+      "src": "name: VendingMachine [6,20]",
+      "dest": "name: VendingMachine [6,20]"
+    },
+    {
+      "src": "simple_stmt [115,146]",
+      "dest": "simple_stmt [437,487]"
+    },
+    {
+      "src": "name: product [182,189]",
+      "dest": "name: item_name [528,537]"
+    },
+    {
+      "src": "name: product [81,88]",
+      "dest": "name: item_name [396,405]"
+    },
+    {
+      "src": "atom_expr [172,190]",
+      "dest": "atom_expr [513,538]"
+    },
+    {
+      "src": "file_input [0,201]",
+      "dest": "file_input [0,579]"
+    },
+    {
+      "src": "suite [102,146]",
+      "dest": "suite [424,487]"
+    },
+    {
+      "src": "name: add_item [30,38]",
+      "dest": "name: add_item [30,38]"
+    },
+    {
+      "src": "param [58,67]",
+      "dest": "param [63,71]"
+    },
+    {
+      "src": "operator: = [191,192]",
+      "dest": "operator: = [539,540]"
+    },
+    {
+      "src": "param [48,57]",
+      "dest": "param [45,55]"
+    },
+    {
+      "src": "operator: , [56,57]",
+      "dest": "operator: , [54,55]"
+    },
+    {
+      "src": "name: quantity [193,201]",
+      "dest": "name: quantity [570,578]"
+    },
+    {
+      "src": "name: product [125,132]",
+      "dest": "name: item_name [452,461]"
+    },
+    {
+      "src": "param [39,47]",
+      "dest": "param [39,44]"
+    },
+    {
+      "src": "name: quantity [48,56]",
+      "dest": "name: item_name [45,54]"
+    },
+    {
+      "src": "suite [159,201]",
+      "dest": "suite [500,579]"
+    },
+    {
+      "src": "if_stmt [78,201]",
+      "dest": "if_stmt [393,579]"
+    },
+    {
+      "src": "operator: += [134,136]",
+      "dest": "operator: += [475,477]"
+    },
+    {
+      "src": "funcdef [26,201]",
+      "dest": "funcdef [26,579]"
+    },
+    {
+      "src": "trailer [181,190]",
+      "dest": "trailer [527,538]"
+    },
+    {
+      "src": "expr_stmt [115,145]",
+      "dest": "expr_stmt [437,486]"
+    },
+    {
+      "src": "atom_expr [115,133]",
+      "dest": "atom_expr [437,474]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [56,62]",
+      "parent": "parameters [38,72]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [82,385]",
+      "parent": "suite [73,579]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: product [39,46]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: quantity [48,56]",
+      "label": "item_name"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: inventory [58,67]",
+      "label": "quantity"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: product [81,88]",
+      "label": "item_name"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [409,423]",
+      "parent": "comparison [396,423]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [409,413]",
+      "parent": "atom_expr [409,423]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [413,423]",
+      "parent": "atom_expr [409,423]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom [541,579]",
+      "parent": "expr_stmt [513,579]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: inventory [92,101]",
+      "parent": "trailer [413,423]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [513,517]",
+      "parent": "atom_expr [513,538]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [517,527]",
+      "parent": "atom_expr [513,538]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: { [541,542]",
+      "parent": "atom [541,579]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "dictorsetmaker [542,578]",
+      "parent": "atom [541,579]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: } [578,579]",
+      "parent": "atom [541,579]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [437,441]",
+      "parent": "atom_expr [437,474]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [441,451]",
+      "parent": "atom_expr [437,474]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [462,474]",
+      "parent": "atom_expr [437,474]",
+      "at": 3
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: inventory [172,181]",
+      "parent": "trailer [517,527]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: product [182,189]",
+      "label": "item_name"
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: 'price' [542,549]",
+      "parent": "dictorsetmaker [542,578]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: price [551,556]",
+      "parent": "dictorsetmaker [542,578]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [556,557]",
+      "parent": "dictorsetmaker [542,578]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: 'quantity' [558,568]",
+      "parent": "dictorsetmaker [542,578]",
+      "at": 3
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: quantity [193,201]",
+      "parent": "dictorsetmaker [542,578]",
+      "at": 4
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: inventory [115,124]",
+      "parent": "trailer [441,451]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: product [125,132]",
+      "label": "item_name"
+    }
+  ]
+}

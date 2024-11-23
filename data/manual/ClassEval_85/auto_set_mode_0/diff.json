@@ -1,0 +1,249 @@
+{
+  "matches": [
+    {
+      "src": "operator: = [162,163]",
+      "dest": "operator: = [400,401]"
+    },
+    {
+      "src": "string: 'cool' [214,220]",
+      "dest": "string: 'cool' [447,453]"
+    },
+    {
+      "src": "expr_stmt [147,170]",
+      "dest": "expr_stmt [390,408]"
+    },
+    {
+      "src": "if_stmt [90,221]",
+      "dest": "if_stmt [323,453]"
+    },
+    {
+      "src": "operator: = [212,213]",
+      "dest": "operator: = [445,446]"
+    },
+    {
+      "src": "string: 'heat' [164,170]",
+      "dest": "string: 'heat' [402,408]"
+    },
+    {
+      "src": "operator: < [113,114]",
+      "dest": "operator: < [351,352]"
+    },
+    {
+      "src": "simple_stmt [147,171]",
+      "dest": "simple_stmt [390,409]"
+    },
+    {
+      "src": "suite [184,221]",
+      "dest": "suite [422,453]"
+    },
+    {
+      "src": "funcdef [22,250]",
+      "dest": "funcdef [22,453]"
+    },
+    {
+      "src": "param [40,60]",
+      "dest": "param [40,44]"
+    },
+    {
+      "src": "name: auto_set_mode [26,39]",
+      "dest": "name: auto_set_mode [26,39]"
+    },
+    {
+      "src": "name: operating_mode [197,211]",
+      "dest": "name: mode [440,444]"
+    },
+    {
+      "src": "name: current_temperature [93,112]",
+      "dest": "name: current_temperature [331,350]"
+    },
+    {
+      "src": "name: target_temperature [115,133]",
+      "dest": "name: target_temperature [358,376]"
+    },
+    {
+      "src": "name: operating_mode [147,161]",
+      "dest": "name: mode [395,399]"
+    },
+    {
+      "src": "classdef [0,250]",
+      "dest": "classdef [0,453]"
+    },
+    {
+      "src": "file_input [0,250]",
+      "dest": "file_input [0,453]"
+    },
+    {
+      "src": "name: Thermostat [6,16]",
+      "dest": "name: Thermostat [6,16]"
+    },
+    {
+      "src": "suite [17,250]",
+      "dest": "suite [17,453]"
+    },
+    {
+      "src": "suite [134,171]",
+      "dest": "suite [377,409]"
+    },
+    {
+      "src": "expr_stmt [197,220]",
+      "dest": "expr_stmt [435,453]"
+    },
+    {
+      "src": "name: current_temperature [40,59]",
+      "dest": "name: self [40,44]"
+    },
+    {
+      "src": "comparison [93,133]",
+      "dest": "comparison [326,376]"
+    },
+    {
+      "src": "parameters [39,80]",
+      "dest": "parameters [39,45]"
+    },
+    {
+      "src": "suite [81,250]",
+      "dest": "suite [46,453]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [55,315]",
+      "parent": "suite [46,453]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: current_temperature [40,59]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [326,350]",
+      "parent": "comparison [326,376]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [353,376]",
+      "parent": "comparison [326,376]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "expr_stmt [197,220]",
+      "parent": "suite [422,453]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [326,330]",
+      "parent": "atom_expr [326,350]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [330,350]",
+      "parent": "atom_expr [326,350]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [353,357]",
+      "parent": "atom_expr [353,376]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [357,376]",
+      "parent": "atom_expr [353,376]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [435,444]",
+      "parent": "expr_stmt [435,453]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: current_temperature [93,112]",
+      "parent": "trailer [330,350]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: target_temperature [115,133]",
+      "parent": "trailer [357,376]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [390,399]",
+      "parent": "expr_stmt [390,408]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [435,439]",
+      "parent": "atom_expr [435,444]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [439,444]",
+      "parent": "atom_expr [435,444]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [390,394]",
+      "parent": "atom_expr [390,399]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [394,399]",
+      "parent": "atom_expr [390,399]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: operating_mode [197,211]",
+      "label": "mode"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: operating_mode [197,211]",
+      "parent": "trailer [439,444]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: operating_mode [147,161]",
+      "label": "mode"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: operating_mode [147,161]",
+      "parent": "trailer [394,399]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [59,60]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "param [61,79]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [197,221]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "return_stmt [229,250]"
+    }
+  ]
+}

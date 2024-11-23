@@ -1,0 +1,192 @@
+{
+  "matches": [
+    {
+      "src": "name: value [50,55]",
+      "dest": "name: value [55,60]"
+    },
+    {
+      "src": "parameters [43,56]",
+      "dest": "parameters [43,61]"
+    },
+    {
+      "src": "suite [21,258]",
+      "dest": "suite [21,275]"
+    },
+    {
+      "src": "name: self [44,48]",
+      "dest": "name: self [44,48]"
+    },
+    {
+      "src": "trailer [139,146]",
+      "dest": "trailer [156,163]"
+    },
+    {
+      "src": "classdef [0,258]",
+      "dest": "classdef [0,275]"
+    },
+    {
+      "src": "name: value [140,145]",
+      "dest": "name: value [157,162]"
+    },
+    {
+      "src": "param [50,55]",
+      "dest": "param [55,60]"
+    },
+    {
+      "src": "suite [57,258]",
+      "dest": "suite [62,275]"
+    },
+    {
+      "src": "atom_expr [75,85]",
+      "dest": "atom_expr [80,90]"
+    },
+    {
+      "src": "simple_stmt [120,147]",
+      "dest": "simple_stmt [125,164]"
+    },
+    {
+      "src": "operator: = [136,137]",
+      "dest": "operator: = [141,142]"
+    },
+    {
+      "src": "name: self [75,79]",
+      "dest": "name: self [80,84]"
+    },
+    {
+      "src": "except_clause [198,215]",
+      "dest": "except_clause [215,232]"
+    },
+    {
+      "src": "expr_stmt [120,146]",
+      "dest": "expr_stmt [125,163]"
+    },
+    {
+      "src": "atom_expr [138,146]",
+      "dest": "atom_expr [143,163]"
+    },
+    {
+      "src": "suite [216,238]",
+      "dest": "suite [233,255]"
+    },
+    {
+      "src": "name: ArgumentParser [6,20]",
+      "dest": "name: ArgumentParser [6,20]"
+    },
+    {
+      "src": "name: ValueError [205,215]",
+      "dest": "name: ValueError [222,232]"
+    },
+    {
+      "src": "file_input [0,258]",
+      "dest": "file_input [0,275]"
+    },
+    {
+      "src": "name: value [253,258]",
+      "dest": "name: value [270,275]"
+    },
+    {
+      "src": "suite [86,238]",
+      "dest": "suite [91,255]"
+    },
+    {
+      "src": "simple_stmt [233,238]",
+      "dest": "simple_stmt [250,255]"
+    },
+    {
+      "src": "trailer [79,85]",
+      "dest": "trailer [84,90]"
+    },
+    {
+      "src": "name: converted_value [170,185]",
+      "dest": "name: converted_value [187,202]"
+    },
+    {
+      "src": "return_stmt [246,258]",
+      "dest": "return_stmt [263,275]"
+    },
+    {
+      "src": "name: types [80,85]",
+      "dest": "name: types [85,90]"
+    },
+    {
+      "src": "return_stmt [163,185]",
+      "dest": "return_stmt [180,202]"
+    },
+    {
+      "src": "name: t [138,139]",
+      "dest": "name: t [154,155]"
+    },
+    {
+      "src": "try_stmt [99,238]",
+      "dest": "try_stmt [104,255]"
+    },
+    {
+      "src": "name: t [70,71]",
+      "dest": "name: t [75,76]"
+    },
+    {
+      "src": "suite [103,186]",
+      "dest": "suite [108,203]"
+    },
+    {
+      "src": "operator: , [48,49]",
+      "dest": "operator: , [48,49]"
+    },
+    {
+      "src": "for_stmt [66,238]",
+      "dest": "for_stmt [71,255]"
+    },
+    {
+      "src": "funcdef [26,258]",
+      "dest": "funcdef [26,275]"
+    },
+    {
+      "src": "name: _convert_type [30,43]",
+      "dest": "name: _convert_type [30,43]"
+    },
+    {
+      "src": "simple_stmt [163,186]",
+      "dest": "simple_stmt [180,203]"
+    },
+    {
+      "src": "param [44,49]",
+      "dest": "param [44,49]"
+    },
+    {
+      "src": "name: converted_value [120,135]",
+      "dest": "name: converted_value [125,140]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [50,54]",
+      "parent": "parameters [43,61]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [143,147]",
+      "parent": "atom_expr [143,163]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [147,153]",
+      "parent": "atom_expr [143,163]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [153,156]",
+      "parent": "atom_expr [143,163]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: t [138,139]",
+      "parent": "trailer [153,156]",
+      "at": 0
+    }
+  ]
+}

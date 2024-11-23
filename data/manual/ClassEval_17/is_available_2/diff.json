@@ -1,0 +1,212 @@
+{
+  "matches": [
+    {
+      "src": "operator: , [49,50]",
+      "dest": "operator: , [45,46]"
+    },
+    {
+      "src": "suite [19,235]",
+      "dest": "suite [19,877]"
+    },
+    {
+      "src": "return_stmt [203,215]",
+      "dest": "return_stmt [844,856]"
+    },
+    {
+      "src": "name: start_time [120,130]",
+      "dest": "name: start_time [761,771]"
+    },
+    {
+      "src": "classdef [0,235]",
+      "dest": "classdef [0,877]"
+    },
+    {
+      "src": "string: 'start_time' [172,184]",
+      "dest": "string: 'start_time' [813,825]"
+    },
+    {
+      "src": "param [63,71]",
+      "dest": "param [59,67]"
+    },
+    {
+      "src": "suite [73,235]",
+      "dest": "suite [69,877]"
+    },
+    {
+      "src": "return_stmt [224,235]",
+      "dest": "return_stmt [865,876]"
+    },
+    {
+      "src": "trailer [138,150]",
+      "dest": "trailer [779,791]"
+    },
+    {
+      "src": "name: is_available [28,40]",
+      "dest": "name: is_available [28,40]"
+    },
+    {
+      "src": "operator: < [131,132]",
+      "dest": "operator: < [772,773]"
+    },
+    {
+      "src": "name: calendar [95,103]",
+      "dest": "name: self [733,737]"
+    },
+    {
+      "src": "name: event [133,138]",
+      "dest": "name: event [774,779]"
+    },
+    {
+      "src": "name: end_time [155,163]",
+      "dest": "name: end_time [796,804]"
+    },
+    {
+      "src": "if_stmt [117,216]",
+      "dest": "if_stmt [758,857]"
+    },
+    {
+      "src": "trailer [171,185]",
+      "dest": "trailer [812,826]"
+    },
+    {
+      "src": "comparison [120,150]",
+      "dest": "comparison [761,791]"
+    },
+    {
+      "src": "file_input [0,235]",
+      "dest": "file_input [0,877]"
+    },
+    {
+      "src": "suite [186,216]",
+      "dest": "suite [827,857]"
+    },
+    {
+      "src": "suite [104,216]",
+      "dest": "suite [745,857]"
+    },
+    {
+      "src": "param [41,50]",
+      "dest": "param [41,46]"
+    },
+    {
+      "src": "simple_stmt [203,216]",
+      "dest": "simple_stmt [844,857]"
+    },
+    {
+      "src": "operator: > [164,165]",
+      "dest": "operator: > [805,806]"
+    },
+    {
+      "src": "param [51,62]",
+      "dest": "param [47,58]"
+    },
+    {
+      "src": "atom_expr [133,150]",
+      "dest": "atom_expr [774,791]"
+    },
+    {
+      "src": "comparison [155,185]",
+      "dest": "comparison [796,826]"
+    },
+    {
+      "src": "name: event [166,171]",
+      "dest": "name: event [807,812]"
+    },
+    {
+      "src": "atom_expr [166,185]",
+      "dest": "atom_expr [807,826]"
+    },
+    {
+      "src": "string: 'end_time' [139,149]",
+      "dest": "string: 'end_time' [780,790]"
+    },
+    {
+      "src": "parameters [40,72]",
+      "dest": "parameters [40,68]"
+    },
+    {
+      "src": "name: event [86,91]",
+      "dest": "name: event [724,729]"
+    },
+    {
+      "src": "name: start_time [51,61]",
+      "dest": "name: start_time [47,57]"
+    },
+    {
+      "src": "and_test [120,185]",
+      "dest": "and_test [761,826]"
+    },
+    {
+      "src": "for_stmt [82,216]",
+      "dest": "for_stmt [720,857]"
+    },
+    {
+      "src": "name: calendar [41,49]",
+      "dest": "name: self [41,45]"
+    },
+    {
+      "src": "funcdef [24,235]",
+      "dest": "funcdef [24,877]"
+    },
+    {
+      "src": "name: CalendarUtil [6,18]",
+      "dest": "name: CalendarUtil [6,18]"
+    },
+    {
+      "src": "operator: , [61,62]",
+      "dest": "operator: , [57,58]"
+    },
+    {
+      "src": "name: end_time [63,71]",
+      "dest": "name: end_time [59,67]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [78,712]",
+      "parent": "suite [69,877]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [865,877]",
+      "parent": "suite [69,877]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: calendar [41,49]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [733,744]",
+      "parent": "for_stmt [720,857]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [224,235]",
+      "parent": "simple_stmt [865,877]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: calendar [95,103]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: calendar [95,103]",
+      "parent": "atom_expr [733,744]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [737,744]",
+      "parent": "atom_expr [733,744]",
+      "at": 1
+    }
+  ]
+}

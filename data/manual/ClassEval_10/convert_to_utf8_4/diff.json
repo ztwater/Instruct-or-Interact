@@ -1,0 +1,123 @@
+{
+  "matches": [
+    {
+      "src": "trailer [109,118]",
+      "dest": "trailer [312,321]"
+    },
+    {
+      "src": "name: utf8_string [75,86]",
+      "dest": "name: utf8_string [273,284]"
+    },
+    {
+      "src": "suite [26,145]",
+      "dest": "suite [26,348]"
+    },
+    {
+      "src": "classdef [0,145]",
+      "dest": "classdef [0,348]"
+    },
+    {
+      "src": "suite [66,145]",
+      "dest": "suite [57,348]"
+    },
+    {
+      "src": "name: convert_to_utf8 [35,50]",
+      "dest": "name: convert_to_utf8 [35,50]"
+    },
+    {
+      "src": "name: decode [103,109]",
+      "dest": "name: decode [306,312]"
+    },
+    {
+      "src": "return_stmt [127,145]",
+      "dest": "return_stmt [330,348]"
+    },
+    {
+      "src": "name: utf8_string [134,145]",
+      "dest": "name: utf8_string [337,348]"
+    },
+    {
+      "src": "string: 'utf-8' [110,117]",
+      "dest": "string: 'utf-8' [313,320]"
+    },
+    {
+      "src": "operator: = [87,88]",
+      "dest": "operator: = [285,286]"
+    },
+    {
+      "src": "name: binary_string [51,64]",
+      "dest": "name: self [51,55]"
+    },
+    {
+      "src": "trailer [102,109]",
+      "dest": "trailer [305,312]"
+    },
+    {
+      "src": "atom_expr [89,118]",
+      "dest": "atom_expr [287,321]"
+    },
+    {
+      "src": "name: BinaryDataProcessor [6,25]",
+      "dest": "name: BinaryDataProcessor [6,25]"
+    },
+    {
+      "src": "parameters [50,65]",
+      "dest": "parameters [50,56]"
+    },
+    {
+      "src": "simple_stmt [75,119]",
+      "dest": "simple_stmt [273,322]"
+    },
+    {
+      "src": "file_input [0,145]",
+      "dest": "file_input [0,348]"
+    },
+    {
+      "src": "funcdef [31,145]",
+      "dest": "funcdef [31,348]"
+    },
+    {
+      "src": "expr_stmt [75,118]",
+      "dest": "expr_stmt [273,321]"
+    },
+    {
+      "src": "name: binary_string [89,102]",
+      "dest": "name: binary_string [292,305]"
+    },
+    {
+      "src": "param [51,64]",
+      "dest": "param [51,55]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [66,265]",
+      "parent": "suite [57,348]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: binary_string [51,64]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [287,291]",
+      "parent": "atom_expr [287,321]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [291,305]",
+      "parent": "atom_expr [287,321]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: binary_string [89,102]",
+      "parent": "trailer [291,305]",
+      "at": 0
+    }
+  ]
+}

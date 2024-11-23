@@ -1,0 +1,134 @@
+{
+  "matches": [
+    {
+      "src": "suite [26,200]",
+      "dest": "suite [26,266]"
+    },
+    {
+      "src": "atom_expr [120,150]",
+      "dest": "atom_expr [186,216]"
+    },
+    {
+      "src": "return_stmt [188,200]",
+      "dest": "return_stmt [254,266]"
+    },
+    {
+      "src": "name: AccessGatewayFilter [6,25]",
+      "dest": "name: AccessGatewayFilter [6,25]"
+    },
+    {
+      "src": "classdef [0,200]",
+      "dest": "classdef [0,266]"
+    },
+    {
+      "src": "suite [72,200]",
+      "dest": "suite [68,266]"
+    },
+    {
+      "src": "name: prefix [85,91]",
+      "dest": "name: prefix [151,157]"
+    },
+    {
+      "src": "trailer [142,150]",
+      "dest": "trailer [208,216]"
+    },
+    {
+      "src": "name: is_start_with [35,48]",
+      "dest": "name: is_start_with [35,48]"
+    },
+    {
+      "src": "name: request_uri [120,131]",
+      "dest": "name: request_uri [186,197]"
+    },
+    {
+      "src": "name: startswith [132,142]",
+      "dest": "name: startswith [198,208]"
+    },
+    {
+      "src": "simple_stmt [168,180]",
+      "dest": "simple_stmt [234,246]"
+    },
+    {
+      "src": "param [49,61]",
+      "dest": "param [49,54]"
+    },
+    {
+      "src": "name: prefixes [62,70]",
+      "dest": "name: request_uri [55,66]"
+    },
+    {
+      "src": "name: prefixes [95,103]",
+      "dest": "name: prefixes [161,169]"
+    },
+    {
+      "src": "param [62,70]",
+      "dest": "param [55,66]"
+    },
+    {
+      "src": "if_stmt [117,180]",
+      "dest": "if_stmt [183,246]"
+    },
+    {
+      "src": "file_input [0,200]",
+      "dest": "file_input [0,266]"
+    },
+    {
+      "src": "return_stmt [168,179]",
+      "dest": "return_stmt [234,245]"
+    },
+    {
+      "src": "trailer [131,142]",
+      "dest": "trailer [197,208]"
+    },
+    {
+      "src": "suite [151,180]",
+      "dest": "suite [217,246]"
+    },
+    {
+      "src": "parameters [48,71]",
+      "dest": "parameters [48,67]"
+    },
+    {
+      "src": "name: prefix [143,149]",
+      "dest": "name: prefix [209,215]"
+    },
+    {
+      "src": "name: request_uri [49,60]",
+      "dest": "name: self [49,53]"
+    },
+    {
+      "src": "for_stmt [81,180]",
+      "dest": "for_stmt [147,246]"
+    },
+    {
+      "src": "suite [104,180]",
+      "dest": "suite [170,246]"
+    },
+    {
+      "src": "operator: , [60,61]",
+      "dest": "operator: , [53,54]"
+    },
+    {
+      "src": "funcdef [31,200]",
+      "dest": "funcdef [31,266]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [77,139]",
+      "parent": "suite [68,266]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: request_uri [49,60]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: prefixes [62,70]",
+      "label": "request_uri"
+    }
+  ]
+}

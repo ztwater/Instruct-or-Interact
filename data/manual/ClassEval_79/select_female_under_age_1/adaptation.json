@@ -1,0 +1,44 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Generates a SQL statement to select females under a specified age.\n        :param age: int. The specified age.\n        :return: str. The generated SQL statement.\n        >>> sql.select_female_under_age(30)\n        \"SELECT * FROM table1 WHERE age < 30 AND gender = 'female';\"\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "self.table_name",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "age",
+        "deleted": "age",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "string:",
+        "inserted": "\"SELECT * FROM {} WHERE age < {} AND gender = 'female';\"",
+        "deleted": "\"SELECT * FROM table_name WHERE gender = 'female' AND age < {}\"",
+        "type": "Logic"
+    }
+]

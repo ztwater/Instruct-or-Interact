@@ -1,0 +1,210 @@
+{
+  "matches": [
+    {
+      "src": "suite [30,215]",
+      "dest": "suite [30,373]"
+    },
+    {
+      "src": "name: ClassRegistrationSystem [6,29]",
+      "dest": "name: ClassRegistrationSystem [6,29]"
+    },
+    {
+      "src": "name: student [186,193]",
+      "dest": "name: student [343,350]"
+    },
+    {
+      "src": "classdef [0,215]",
+      "dest": "classdef [0,373]"
+    },
+    {
+      "src": "suite [80,215]",
+      "dest": "suite [71,373]"
+    },
+    {
+      "src": "param [56,64]",
+      "dest": "param [56,61]"
+    },
+    {
+      "src": "atom_expr [165,194]",
+      "dest": "atom_expr [322,351]"
+    },
+    {
+      "src": "param [65,78]",
+      "dest": "param [62,69]"
+    },
+    {
+      "src": "simple_stmt [165,195]",
+      "dest": "simple_stmt [322,352]"
+    },
+    {
+      "src": "name: register_student [39,55]",
+      "dest": "name: register_student [39,55]"
+    },
+    {
+      "src": "file_input [0,215]",
+      "dest": "file_input [0,373]"
+    },
+    {
+      "src": "trailer [178,185]",
+      "dest": "trailer [335,342]"
+    },
+    {
+      "src": "suite [152,215]",
+      "dest": "suite [309,373]"
+    },
+    {
+      "src": "name: students_list [165,178]",
+      "dest": "name: students [327,335]"
+    },
+    {
+      "src": "trailer [185,194]",
+      "dest": "trailer [342,351]"
+    },
+    {
+      "src": "parameters [55,79]",
+      "dest": "parameters [55,70]"
+    },
+    {
+      "src": "name: student [56,63]",
+      "dest": "name: self [56,60]"
+    },
+    {
+      "src": "return_stmt [207,215]",
+      "dest": "return_stmt [364,372]"
+    },
+    {
+      "src": "operator: , [63,64]",
+      "dest": "operator: , [60,61]"
+    },
+    {
+      "src": "comparison [92,116]",
+      "dest": "comparison [249,273]"
+    },
+    {
+      "src": "number: 1 [214,215]",
+      "dest": "number: 1 [371,372]"
+    },
+    {
+      "src": "simple_stmt [130,139]",
+      "dest": "simple_stmt [287,296]"
+    },
+    {
+      "src": "number: 0 [137,138]",
+      "dest": "number: 0 [294,295]"
+    },
+    {
+      "src": "name: append [179,185]",
+      "dest": "name: append [336,342]"
+    },
+    {
+      "src": "suite [117,139]",
+      "dest": "suite [274,296]"
+    },
+    {
+      "src": "name: students_list [103,116]",
+      "dest": "name: students [265,273]"
+    },
+    {
+      "src": "name: students_list [65,78]",
+      "dest": "name: student [62,69]"
+    },
+    {
+      "src": "if_stmt [89,215]",
+      "dest": "if_stmt [246,373]"
+    },
+    {
+      "src": "return_stmt [130,138]",
+      "dest": "return_stmt [287,295]"
+    },
+    {
+      "src": "funcdef [35,215]",
+      "dest": "funcdef [35,373]"
+    },
+    {
+      "src": "name: student [92,99]",
+      "dest": "name: student [249,256]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [80,238]",
+      "parent": "suite [71,373]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: student [56,63]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: students_list [65,78]",
+      "label": "student"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [260,273]",
+      "parent": "comparison [249,273]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [364,373]",
+      "parent": "suite [309,373]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [260,264]",
+      "parent": "atom_expr [260,273]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [264,273]",
+      "parent": "atom_expr [260,273]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [207,215]",
+      "parent": "simple_stmt [364,373]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: students_list [103,116]",
+      "label": "students"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: students_list [103,116]",
+      "parent": "trailer [264,273]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [322,326]",
+      "parent": "atom_expr [322,351]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [326,335]",
+      "parent": "atom_expr [322,351]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: students_list [165,178]",
+      "label": "students"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: students_list [165,178]",
+      "parent": "trailer [326,335]",
+      "at": 0
+    }
+  ]
+}

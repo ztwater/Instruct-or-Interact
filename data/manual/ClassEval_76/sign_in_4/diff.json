@@ -1,0 +1,260 @@
+{
+  "matches": [
+    {
+      "src": "operator: { [225,226]",
+      "dest": "operator: { [521,522]"
+    },
+    {
+      "src": "operator: = [121,122]",
+      "dest": "operator: = [393,394]"
+    },
+    {
+      "src": "suite [19,253]",
+      "dest": "suite [19,574]"
+    },
+    {
+      "src": "atom_expr [76,86]",
+      "dest": "atom_expr [348,358]"
+    },
+    {
+      "src": "classdef [0,253]",
+      "dest": "classdef [0,574]"
+    },
+    {
+      "src": "trailer [110,120]",
+      "dest": "trailer [382,392]"
+    },
+    {
+      "src": "suite [52,253]",
+      "dest": "suite [52,574]"
+    },
+    {
+      "src": "comparison [64,86]",
+      "dest": "comparison [336,358]"
+    },
+    {
+      "src": "param [42,50]",
+      "dest": "param [42,50]"
+    },
+    {
+      "src": "name: self [100,104]",
+      "dest": "name: self [372,376]"
+    },
+    {
+      "src": "fstring [218,252]",
+      "dest": "fstring [514,548]"
+    },
+    {
+      "src": "name: username [154,162]",
+      "dest": "name: username [426,434]"
+    },
+    {
+      "src": "name: users [105,110]",
+      "dest": "name: users [377,382]"
+    },
+    {
+      "src": "trailer [104,110]",
+      "dest": "trailer [376,382]"
+    },
+    {
+      "src": "name: username [226,234]",
+      "dest": "name: username [522,530]"
+    },
+    {
+      "src": "fstring [146,184]",
+      "dest": "fstring [418,456]"
+    },
+    {
+      "src": "name: SignInSystem [6,18]",
+      "dest": "name: SignInSystem [6,18]"
+    },
+    {
+      "src": "expr_stmt [100,127]",
+      "dest": "expr_stmt [372,399]"
+    },
+    {
+      "src": "atom_expr [140,185]",
+      "dest": "atom_expr [412,457]"
+    },
+    {
+      "src": "atom_expr [100,120]",
+      "dest": "atom_expr [372,392]"
+    },
+    {
+      "src": "simple_stmt [140,186]",
+      "dest": "simple_stmt [412,458]"
+    },
+    {
+      "src": "name: users [81,86]",
+      "dest": "name: users [353,358]"
+    },
+    {
+      "src": "trailer [217,253]",
+      "dest": "trailer [513,549]"
+    },
+    {
+      "src": "trailer [80,86]",
+      "dest": "trailer [352,358]"
+    },
+    {
+      "src": "name: username [64,72]",
+      "dest": "name: username [336,344]"
+    },
+    {
+      "src": "param [36,41]",
+      "dest": "param [36,41]"
+    },
+    {
+      "src": "funcdef [24,253]",
+      "dest": "funcdef [24,574]"
+    },
+    {
+      "src": "simple_stmt [100,128]",
+      "dest": "simple_stmt [372,400]"
+    },
+    {
+      "src": "fstring_start: f\" [146,148]",
+      "dest": "fstring_start: f\" [418,420]"
+    },
+    {
+      "src": "parameters [35,51]",
+      "dest": "parameters [35,51]"
+    },
+    {
+      "src": "operator: } [234,235]",
+      "dest": "operator: } [530,531]"
+    },
+    {
+      "src": "operator: } [162,163]",
+      "dest": "operator: } [434,435]"
+    },
+    {
+      "src": "name: print [212,217]",
+      "dest": "name: print [508,513]"
+    },
+    {
+      "src": "atom_expr [212,253]",
+      "dest": "atom_expr [508,549]"
+    },
+    {
+      "src": "operator: { [153,154]",
+      "dest": "operator: { [425,426]"
+    },
+    {
+      "src": "fstring_end: \" [183,184]",
+      "dest": "fstring_end: \" [455,456]"
+    },
+    {
+      "src": "suite [199,253]",
+      "dest": "suite [495,574]"
+    },
+    {
+      "src": "fstring_end: \" [251,252]",
+      "dest": "fstring_end: \" [547,548]"
+    },
+    {
+      "src": "name: username [42,50]",
+      "dest": "name: username [42,50]"
+    },
+    {
+      "src": "name: self [36,40]",
+      "dest": "name: self [36,40]"
+    },
+    {
+      "src": "file_input [0,253]",
+      "dest": "file_input [0,574]"
+    },
+    {
+      "src": "name: username [111,119]",
+      "dest": "name: username [383,391]"
+    },
+    {
+      "src": "suite [87,186]",
+      "dest": "suite [359,482]"
+    },
+    {
+      "src": "operator: , [40,41]",
+      "dest": "operator: , [40,41]"
+    },
+    {
+      "src": "name: self [76,80]",
+      "dest": "name: self [348,352]"
+    },
+    {
+      "src": "fstring_string: User  [220,225]",
+      "dest": "fstring_string: User  [516,521]"
+    },
+    {
+      "src": "fstring_expr [225,235]",
+      "dest": "fstring_expr [521,531]"
+    },
+    {
+      "src": "name: sign_in [28,35]",
+      "dest": "name: sign_in [28,35]"
+    },
+    {
+      "src": "fstring_string:  does not exist. [235,251]",
+      "dest": "fstring_string:  does not exist. [531,547]"
+    },
+    {
+      "src": "fstring_expr [153,163]",
+      "dest": "fstring_expr [425,435]"
+    },
+    {
+      "src": "fstring_string: User  [148,153]",
+      "dest": "fstring_string: User  [420,425]"
+    },
+    {
+      "src": "trailer [145,185]",
+      "dest": "trailer [417,457]"
+    },
+    {
+      "src": "fstring_string:  has been signed in. [163,183]",
+      "dest": "fstring_string:  has been signed in. [435,455]"
+    },
+    {
+      "src": "fstring_start: f\" [218,220]",
+      "dest": "fstring_start: f\" [514,516]"
+    },
+    {
+      "src": "if_stmt [61,253]",
+      "dest": "if_stmt [333,574]"
+    },
+    {
+      "src": "name: print [140,145]",
+      "dest": "name: print [412,417]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [61,325]",
+      "parent": "suite [52,574]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [470,482]",
+      "parent": "suite [359,482]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [508,550]",
+      "parent": "suite [495,574]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "return_stmt [562,574]",
+      "parent": "suite [495,574]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [212,253]",
+      "parent": "simple_stmt [508,550]",
+      "at": 0
+    }
+  ]
+}

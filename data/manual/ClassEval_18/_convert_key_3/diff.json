@@ -1,0 +1,56 @@
+{
+  "matches": [
+    {
+      "src": "name: CamelCaseMap [6,18]",
+      "dest": "name: CamelCaseMap [6,18]"
+    },
+    {
+      "src": "file_input [0,179]",
+      "dest": "file_input [0,29]"
+    },
+    {
+      "src": "classdef [0,179]",
+      "dest": "classdef [0,29]"
+    },
+    {
+      "src": "suite [46,179]",
+      "dest": "suite [19,29]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "move-tree",
+      "tree": "suite [46,179]",
+      "parent": "classdef [0,29]",
+      "at": 1
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [55,78]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [86,154]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "return_stmt [162,179]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: _convert_key [28,40]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "parameters [40,45]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "funcdef [24,179]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [19,179]"
+    }
+  ]
+}

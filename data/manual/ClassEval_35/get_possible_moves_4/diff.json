@@ -1,0 +1,135 @@
+{
+  "matches": [
+    {
+      "src": "suite [18,148]",
+      "dest": "suite [18,488]"
+    },
+    {
+      "src": "testlist_comp [88,117]",
+      "dest": "testlist_comp [427,456]"
+    },
+    {
+      "src": "name: possible_moves [134,148]",
+      "dest": "name: possible_moves [473,487]"
+    },
+    {
+      "src": "classdef [0,148]",
+      "dest": "classdef [0,488]"
+    },
+    {
+      "src": "suite [61,148]",
+      "dest": "suite [59,488]"
+    },
+    {
+      "src": "expr_stmt [70,118]",
+      "dest": "expr_stmt [409,457]"
+    },
+    {
+      "src": "operator: , [100,101]",
+      "dest": "operator: , [439,440]"
+    },
+    {
+      "src": "name: EightPuzzle [6,17]",
+      "dest": "name: EightPuzzle [6,17]"
+    },
+    {
+      "src": "string: 'up' [88,92]",
+      "dest": "string: 'up' [427,431]"
+    },
+    {
+      "src": "string: 'down' [94,100]",
+      "dest": "string: 'down' [433,439]"
+    },
+    {
+      "src": "string: 'right' [110,117]",
+      "dest": "string: 'right' [449,456]"
+    },
+    {
+      "src": "name: possible_moves [70,84]",
+      "dest": "name: possible_moves [409,423]"
+    },
+    {
+      "src": "atom [87,118]",
+      "dest": "atom [426,457]"
+    },
+    {
+      "src": "file_input [0,148]",
+      "dest": "file_input [0,488]"
+    },
+    {
+      "src": "parameters [45,60]",
+      "dest": "parameters [45,58]"
+    },
+    {
+      "src": "operator: , [92,93]",
+      "dest": "operator: , [431,432]"
+    },
+    {
+      "src": "operator: , [108,109]",
+      "dest": "operator: , [447,448]"
+    },
+    {
+      "src": "param [46,59]",
+      "dest": "param [52,57]"
+    },
+    {
+      "src": "string: 'left' [102,108]",
+      "dest": "string: 'left' [441,447]"
+    },
+    {
+      "src": "name: get_possible_moves [27,45]",
+      "dest": "name: get_possible_moves [27,45]"
+    },
+    {
+      "src": "return_stmt [127,148]",
+      "dest": "return_stmt [466,487]"
+    },
+    {
+      "src": "simple_stmt [70,119]",
+      "dest": "simple_stmt [409,458]"
+    },
+    {
+      "src": "operator: = [85,86]",
+      "dest": "operator: = [424,425]"
+    },
+    {
+      "src": "name: current_state [46,59]",
+      "dest": "name: state [52,57]"
+    },
+    {
+      "src": "funcdef [23,148]",
+      "dest": "funcdef [23,488]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [46,51]",
+      "parent": "parameters [45,58]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [68,401]",
+      "parent": "suite [59,488]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [466,488]",
+      "parent": "suite [59,488]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: current_state [46,59]",
+      "label": "state"
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [127,148]",
+      "parent": "simple_stmt [466,488]",
+      "at": 0
+    }
+  ]
+}

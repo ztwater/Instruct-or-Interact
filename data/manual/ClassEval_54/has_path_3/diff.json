@@ -1,0 +1,180 @@
+{
+  "matches": [
+    {
+      "src": "classdef [0,237]",
+      "dest": "classdef [0,1342]"
+    },
+    {
+      "src": "operator: , [44,45]",
+      "dest": "operator: , [49,50]"
+    },
+    {
+      "src": "param [39,45]",
+      "dest": "param [45,50]"
+    },
+    {
+      "src": "name: MahjongConnect [6,20]",
+      "dest": "name: MahjongConnect [6,20]"
+    },
+    {
+      "src": "param [46,51]",
+      "dest": "param [51,55]"
+    },
+    {
+      "src": "parameters [38,52]",
+      "dest": "parameters [38,56]"
+    },
+    {
+      "src": "suite [53,237]",
+      "dest": "suite [739,768]"
+    },
+    {
+      "src": "file_input [0,237]",
+      "dest": "file_input [0,1342]"
+    },
+    {
+      "src": "return_stmt [225,237]",
+      "dest": "return_stmt [756,767]"
+    },
+    {
+      "src": "name: icon1 [39,44]",
+      "dest": "name: pos1 [45,49]"
+    },
+    {
+      "src": "funcdef [26,237]",
+      "dest": "funcdef [26,1342]"
+    },
+    {
+      "src": "name: has_path [30,38]",
+      "dest": "name: has_path [30,38]"
+    },
+    {
+      "src": "suite [21,237]",
+      "dest": "suite [21,1342]"
+    },
+    {
+      "src": "name: icon2 [46,51]",
+      "dest": "name: pos2 [51,55]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "suite [57,1342]",
+      "parent": "funcdef [26,1342]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [39,44]",
+      "parent": "parameters [38,56]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [66,624]",
+      "parent": "suite [57,1342]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "funcdef [641,1264]",
+      "parent": "suite [57,1342]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [1281,1297]",
+      "parent": "suite [57,1342]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "return_stmt [1305,1342]",
+      "parent": "suite [57,1342]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: icon1 [39,44]",
+      "label": "pos1"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: icon2 [46,51]",
+      "label": "pos2"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: dfs [645,648]",
+      "parent": "funcdef [641,1264]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "parameters [648,667]",
+      "parent": "funcdef [641,1264]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [668,1264]",
+      "parent": "funcdef [641,1264]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [681,705]",
+      "parent": "suite [668,1264]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [717,768]",
+      "parent": "suite [668,1264]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [793,841]",
+      "parent": "suite [668,1264]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "for_stmt [853,1218]",
+      "parent": "suite [668,1264]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [1251,1264]",
+      "parent": "suite [668,1264]",
+      "at": 4
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [720,738]",
+      "parent": "if_stmt [717,768]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [53,237]",
+      "parent": "if_stmt [717,768]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [756,768]",
+      "parent": "suite [739,768]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [225,237]",
+      "parent": "simple_stmt [756,768]",
+      "at": 0
+    }
+  ]
+}

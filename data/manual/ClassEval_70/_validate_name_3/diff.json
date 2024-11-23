@@ -1,0 +1,176 @@
+{
+  "matches": [
+    {
+      "src": "suite [20,153]",
+      "dest": "suite [20,410]"
+    },
+    {
+      "src": "string: \"\" [70,72]",
+      "dest": "string: \"\" [326,328]"
+    },
+    {
+      "src": "suite [91,116]",
+      "dest": "suite [347,372]"
+    },
+    {
+      "src": "classdef [0,153]",
+      "dest": "classdef [0,410]"
+    },
+    {
+      "src": "return_stmt [104,115]",
+      "dest": "return_stmt [360,371]"
+    },
+    {
+      "src": "suite [50,153]",
+      "dest": "suite [68,410]"
+    },
+    {
+      "src": "trailer [79,85]",
+      "dest": "trailer [335,341]"
+    },
+    {
+      "src": "comparison [76,90]",
+      "dest": "comparison [332,346]"
+    },
+    {
+      "src": "name: len [76,79]",
+      "dest": "name: len [332,335]"
+    },
+    {
+      "src": "number: 33 [88,90]",
+      "dest": "number: 33 [344,346]"
+    },
+    {
+      "src": "comparison [62,72]",
+      "dest": "comparison [318,328]"
+    },
+    {
+      "src": "simple_stmt [104,116]",
+      "dest": "simple_stmt [360,372]"
+    },
+    {
+      "src": "operator: == [67,69]",
+      "dest": "operator: == [323,325]"
+    },
+    {
+      "src": "file_input [0,153]",
+      "dest": "file_input [0,410]"
+    },
+    {
+      "src": "return_stmt [142,153]",
+      "dest": "return_stmt [398,409]"
+    },
+    {
+      "src": "or_test [62,90]",
+      "dest": "or_test [318,346]"
+    },
+    {
+      "src": "parameters [43,49]",
+      "dest": "parameters [43,60]"
+    },
+    {
+      "src": "atom_expr [76,85]",
+      "dest": "atom_expr [332,341]"
+    },
+    {
+      "src": "operator: > [86,87]",
+      "dest": "operator: > [342,343]"
+    },
+    {
+      "src": "name: PersonRequest [6,19]",
+      "dest": "name: PersonRequest [6,19]"
+    },
+    {
+      "src": "suite [129,153]",
+      "dest": "suite [385,410]"
+    },
+    {
+      "src": "param [44,48]",
+      "dest": "param [50,59]"
+    },
+    {
+      "src": "name: name [80,84]",
+      "dest": "name: name [336,340]"
+    },
+    {
+      "src": "name: name [149,153]",
+      "dest": "name: name [405,409]"
+    },
+    {
+      "src": "name: _validate_name [29,43]",
+      "dest": "name: _validate_name [29,43]"
+    },
+    {
+      "src": "name: name [62,66]",
+      "dest": "name: name [318,322]"
+    },
+    {
+      "src": "if_stmt [59,153]",
+      "dest": "if_stmt [315,410]"
+    },
+    {
+      "src": "funcdef [25,153]",
+      "dest": "funcdef [25,410]"
+    },
+    {
+      "src": "name: name [44,48]",
+      "dest": "name: name [50,54]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "operator: -> [61,63]",
+      "parent": "funcdef [25,410]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: str [64,67]",
+      "parent": "funcdef [25,410]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [44,49]",
+      "parent": "parameters [43,60]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [77,307]",
+      "parent": "suite [68,410]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "tfpdef [50,59]",
+      "parent": "param [50,59]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: name [44,48]",
+      "parent": "tfpdef [50,59]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: str [56,59]",
+      "parent": "tfpdef [50,59]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [398,410]",
+      "parent": "suite [385,410]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [142,153]",
+      "parent": "simple_stmt [398,410]",
+      "at": 0
+    }
+  ]
+}

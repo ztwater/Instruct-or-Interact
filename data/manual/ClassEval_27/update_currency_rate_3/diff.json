@@ -1,0 +1,175 @@
+{
+  "matches": [
+    {
+      "src": "suite [24,892]",
+      "dest": "suite [24,440]"
+    },
+    {
+      "src": "name: currency [54,62]",
+      "dest": "name: currency [60,68]"
+    },
+    {
+      "src": "name: update_currency_rate [33,53]",
+      "dest": "name: update_currency_rate [33,53]"
+    },
+    {
+      "src": "param [64,72]",
+      "dest": "param [70,78]"
+    },
+    {
+      "src": "classdef [0,892]",
+      "dest": "classdef [0,440]"
+    },
+    {
+      "src": "suite [74,892]",
+      "dest": "suite [332,401]"
+    },
+    {
+      "src": "atom_expr [382,406]",
+      "dest": "atom_expr [345,365]"
+    },
+    {
+      "src": "name: currency [397,405]",
+      "dest": "name: currency [356,364]"
+    },
+    {
+      "src": "operator: , [62,63]",
+      "dest": "operator: , [68,69]"
+    },
+    {
+      "src": "name: new_rate [409,417]",
+      "dest": "name: new_rate [368,376]"
+    },
+    {
+      "src": "param [54,63]",
+      "dest": "param [60,69]"
+    },
+    {
+      "src": "name: CurrencyConverter [6,23]",
+      "dest": "name: CurrencyConverter [6,23]"
+    },
+    {
+      "src": "parameters [53,73]",
+      "dest": "parameters [53,79]"
+    },
+    {
+      "src": "name: exchange_rates [382,396]",
+      "dest": "name: rates [350,355]"
+    },
+    {
+      "src": "trailer [396,406]",
+      "dest": "trailer [355,365]"
+    },
+    {
+      "src": "simple_stmt [382,418]",
+      "dest": "simple_stmt [345,377]"
+    },
+    {
+      "src": "file_input [0,892]",
+      "dest": "file_input [0,440]"
+    },
+    {
+      "src": "expr_stmt [382,417]",
+      "dest": "expr_stmt [345,376]"
+    },
+    {
+      "src": "funcdef [29,892]",
+      "dest": "funcdef [29,440]"
+    },
+    {
+      "src": "return_stmt [819,892]",
+      "dest": "return_stmt [389,400]"
+    },
+    {
+      "src": "operator: = [407,408]",
+      "dest": "operator: = [366,367]"
+    },
+    {
+      "src": "name: new_rate [64,72]",
+      "dest": "name: new_rate [70,78]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "suite [80,440]",
+      "parent": "funcdef [29,440]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [54,59]",
+      "parent": "parameters [53,79]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [89,298]",
+      "parent": "suite [80,440]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [306,440]",
+      "parent": "suite [80,440]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [309,331]",
+      "parent": "if_stmt [306,440]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [74,892]",
+      "parent": "if_stmt [306,440]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [414,440]",
+      "parent": "if_stmt [306,440]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [389,401]",
+      "parent": "suite [332,401]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [819,892]",
+      "parent": "simple_stmt [389,401]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [345,349]",
+      "parent": "atom_expr [345,365]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [349,355]",
+      "parent": "atom_expr [345,365]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: exchange_rates [382,396]",
+      "label": "rates"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: exchange_rates [382,396]",
+      "parent": "trailer [349,355]",
+      "at": 0
+    },
+    {
+      "action": "delete-tree",
+      "tree": "fstring [826,892]"
+    }
+  ]
+}

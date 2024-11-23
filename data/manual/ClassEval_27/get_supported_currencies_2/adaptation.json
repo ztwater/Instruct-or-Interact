@@ -1,0 +1,30 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "DEL",
+        "label": "simple_stmt",
+        "inserted": "",
+        "deleted": "supported_currencies = ['USD', 'EUR', 'GBP', 'JPY', 'CAD']\n",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "return_stmt",
+        "inserted": "",
+        "deleted": "return supported_currencies",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "expr_stmt",
+        "inserted": "supported_currencies = ['USD', 'EUR', 'GBP', 'JPY', 'CAD']",
+        "deleted": "supported_currencies = ['USD', 'EUR', 'GBP', 'JPY', 'CAD']",
+        "type": "Move"
+    }
+]

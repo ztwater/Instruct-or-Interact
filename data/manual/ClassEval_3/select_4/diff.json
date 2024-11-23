@@ -1,0 +1,179 @@
+{
+  "matches": [
+    {
+      "src": "atom [78,80]",
+      "dest": "atom [82,84]"
+    },
+    {
+      "src": "suite [28,158]",
+      "dest": "suite [28,166]"
+    },
+    {
+      "src": "name: datas [44,49]",
+      "dest": "name: self [44,48]"
+    },
+    {
+      "src": "name: select_items [89,101]",
+      "dest": "name: select_items [93,105]"
+    },
+    {
+      "src": "name: arrangements [145,157]",
+      "dest": "name: arrangements [154,166]"
+    },
+    {
+      "src": "operator: , [107,108]",
+      "dest": "operator: , [116,117]"
+    },
+    {
+      "src": "name: arrangements [116,128]",
+      "dest": "name: arrangements [125,137]"
+    },
+    {
+      "src": "classdef [0,158]",
+      "dest": "classdef [0,166]"
+    },
+    {
+      "src": "suite [54,158]",
+      "dest": "suite [58,166]"
+    },
+    {
+      "src": "name: m [109,110]",
+      "dest": "name: m [118,119]"
+    },
+    {
+      "src": "name: select [37,43]",
+      "dest": "name: select [37,43]"
+    },
+    {
+      "src": "operator: , [114,115]",
+      "dest": "operator: , [123,124]"
+    },
+    {
+      "src": "simple_stmt [63,81]",
+      "dest": "simple_stmt [67,85]"
+    },
+    {
+      "src": "name: datas [102,107]",
+      "dest": "name: datas [111,116]"
+    },
+    {
+      "src": "file_input [0,162]",
+      "dest": "file_input [0,166]"
+    },
+    {
+      "src": "atom_expr [89,129]",
+      "dest": "atom_expr [93,138]"
+    },
+    {
+      "src": "name: ArrangementCalculator [6,27]",
+      "dest": "name: ArrangementCalculator [6,27]"
+    },
+    {
+      "src": "operator: = [76,77]",
+      "dest": "operator: = [80,81]"
+    },
+    {
+      "src": "param [51,52]",
+      "dest": "param [50,56]"
+    },
+    {
+      "src": "name: m [51,52]",
+      "dest": "name: m [50,51]"
+    },
+    {
+      "src": "param [44,50]",
+      "dest": "param [44,49]"
+    },
+    {
+      "src": "arglist [102,128]",
+      "dest": "arglist [106,137]"
+    },
+    {
+      "src": "operator: , [110,111]",
+      "dest": "operator: , [119,120]"
+    },
+    {
+      "src": "return_stmt [138,157]",
+      "dest": "return_stmt [147,166]"
+    },
+    {
+      "src": "name: arrangements [63,75]",
+      "dest": "name: arrangements [67,79]"
+    },
+    {
+      "src": "operator: , [49,50]",
+      "dest": "operator: , [48,49]"
+    },
+    {
+      "src": "parameters [43,53]",
+      "dest": "parameters [43,57]"
+    },
+    {
+      "src": "simple_stmt [89,130]",
+      "dest": "simple_stmt [93,139]"
+    },
+    {
+      "src": "atom [112,114]",
+      "dest": "atom [121,123]"
+    },
+    {
+      "src": "expr_stmt [63,80]",
+      "dest": "expr_stmt [67,84]"
+    },
+    {
+      "src": "funcdef [33,158]",
+      "dest": "funcdef [33,166]"
+    },
+    {
+      "src": "trailer [101,129]",
+      "dest": "trailer [105,138]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [138,157]",
+      "parent": "suite [58,166]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: datas [44,49]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [51,52]",
+      "parent": "param [50,56]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [106,116]",
+      "parent": "arglist [106,137]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [106,110]",
+      "parent": "atom_expr [106,116]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [110,116]",
+      "parent": "atom_expr [106,116]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: datas [102,107]",
+      "parent": "trailer [110,116]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [138,158]"
+    }
+  ]
+}

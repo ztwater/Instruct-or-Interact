@@ -1,0 +1,88 @@
+{
+  "matches": [
+    {
+      "src": "parameters [52,54]",
+      "dest": "parameters [52,58]"
+    },
+    {
+      "src": "return_stmt [218,231]",
+      "dest": "return_stmt [330,343]"
+    },
+    {
+      "src": "suite [30,231]",
+      "dest": "suite [30,343]"
+    },
+    {
+      "src": "classdef [0,231]",
+      "dest": "classdef [0,343]"
+    },
+    {
+      "src": "name: ClassRegistrationSystem [6,29]",
+      "dest": "name: ClassRegistrationSystem [6,29]"
+    },
+    {
+      "src": "suite [55,231]",
+      "dest": "suite [59,343]"
+    },
+    {
+      "src": "name: majors [225,231]",
+      "dest": "name: majors [337,343]"
+    },
+    {
+      "src": "name: get_all_major [39,52]",
+      "dest": "name: get_all_major [39,52]"
+    },
+    {
+      "src": "name: majors [131,137]",
+      "dest": "name: majors [162,168]"
+    },
+    {
+      "src": "atom [140,200]",
+      "dest": "atom [171,173]"
+    },
+    {
+      "src": "file_input [0,231]",
+      "dest": "file_input [0,343]"
+    },
+    {
+      "src": "simple_stmt [131,201]",
+      "dest": "simple_stmt [162,174]"
+    },
+    {
+      "src": "funcdef [35,231]",
+      "dest": "funcdef [35,343]"
+    },
+    {
+      "src": "expr_stmt [131,200]",
+      "dest": "expr_stmt [162,173]"
+    },
+    {
+      "src": "operator: = [138,139]",
+      "dest": "operator: = [169,170]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [53,57]",
+      "parent": "parameters [52,58]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [68,154]",
+      "parent": "suite [59,343]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "for_stmt [182,322]",
+      "parent": "suite [59,343]",
+      "at": 2
+    },
+    {
+      "action": "delete-tree",
+      "tree": "testlist_comp [141,199]"
+    }
+  ]
+}

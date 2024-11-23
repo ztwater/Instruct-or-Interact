@@ -1,0 +1,191 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "if_stmt",
+        "inserted": "if self.map[new_row][new_col] == \"#\":\n            return False\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "if_stmt",
+        "inserted": "if self.map[new_row][new_col] == \"X\":\n            # Calculate the new position of the box\n            new_box_row = new_row + (new_row - self.player_row)\n            new_box_col = new_col + (new_col - self.player_col)\n    \n            # Check if the new position of the box is valid\n            if self.map[new_box_row][new_box_col] == \"#\" or self.map[new_box_row][new_box_col] == \"X\":\n                return False\n    \n            # Move the box to the new position\n            self.boxes.remove((new_row, new_col))\n            self.boxes.append((new_box_row, new_box_col))\n            self.map[new_row] = self.map[new_row][:new_col] + \" \" + self.map[new_row][new_col+1:]\n            self.map[new_box_row] = self.map[new_box_row][:new_box_col] + \"X\" + self.map[new_box_row][new_box_col+1:]\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "self.map[self.player_row] = self.map[self.player_row][:self.player_col] + \" \" + self.map[self.player_row][self.player_col+1:]\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "self.map[new_row] = self.map[new_row][:new_col] + \"O\" + self.map[new_row][new_col+1:]\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "self.player_row = new_row\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "self.player_col = new_col\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "return_stmt",
+        "inserted": "return False",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "new_col = self.player_col\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "new_col = self.player_col\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "new_col = self.player_col - 1\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "new_col = self.player_col + 1\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".check_win",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "print(\"Congratulations! You won the game!\")\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return True\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "expr_stmt",
+        "inserted": "new_row = self.player_row - 1",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "expr_stmt",
+        "inserted": "new_row = self.player_row + 1",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "expr_stmt",
+        "inserted": "new_row = self.player_row",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "expr_stmt",
+        "inserted": "new_row = self.player_row",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "game_won",
+        "deleted": "game_won",
+        "type": "Move"
+    },
+    {
+        "action": "MOV",
+        "label": "atom_expr",
+        "inserted": "print(\"Congratulations! You won the game!\")",
+        "deleted": "print(\"Congratulations! You won the game!\")",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "string",
+        "inserted": "\"w\"",
+        "deleted": "\"up\"",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "string",
+        "inserted": "\"s\"",
+        "deleted": "\"down\"",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "string",
+        "inserted": "\"a\"",
+        "deleted": "\"left\"",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "string",
+        "inserted": "\"d\"",
+        "deleted": "\"right\"",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "check_win",
+        "deleted": "game_won",
+        "type": "Refactoring"
+    }
+]

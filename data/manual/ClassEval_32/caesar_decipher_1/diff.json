@@ -1,0 +1,356 @@
+{
+  "matches": [
+    {
+      "src": "arith_expr [262,316]",
+      "dest": "arith_expr [268,322]"
+    },
+    {
+      "src": "operator: , [57,58]",
+      "dest": "operator: , [63,64]"
+    },
+    {
+      "src": "suite [22,438]",
+      "dest": "suite [22,445]"
+    },
+    {
+      "src": "atom_expr [196,210]",
+      "dest": "atom_expr [202,216]"
+    },
+    {
+      "src": "atom_expr [137,151]",
+      "dest": "atom_expr [143,157]"
+    },
+    {
+      "src": "classdef [0,438]",
+      "dest": "classdef [0,445]"
+    },
+    {
+      "src": "suite [66,438]",
+      "dest": "suite [72,445]"
+    },
+    {
+      "src": "name: ascii_offset [304,316]",
+      "dest": "name: ascii_offset [310,322]"
+    },
+    {
+      "src": "name: chr [258,261]",
+      "dest": "name: chr [264,267]"
+    },
+    {
+      "src": "name: ord [216,219]",
+      "dest": "name: ord [222,225]"
+    },
+    {
+      "src": "operator: % [297,298]",
+      "dest": "operator: % [303,304]"
+    },
+    {
+      "src": "name: isalpha [142,149]",
+      "dest": "name: isalpha [148,155]"
+    },
+    {
+      "src": "expr_stmt [169,224]",
+      "dest": "expr_stmt [175,230]"
+    },
+    {
+      "src": "arith_expr [263,295]",
+      "dest": "arith_expr [269,301]"
+    },
+    {
+      "src": "parameters [46,65]",
+      "dest": "parameters [46,71]"
+    },
+    {
+      "src": "name: shift [290,295]",
+      "dest": "name: shift [296,301]"
+    },
+    {
+      "src": "name: decrypted_char [241,255]",
+      "dest": "name: decrypted_char [247,261]"
+    },
+    {
+      "src": "atom_expr [263,272]",
+      "dest": "atom_expr [269,278]"
+    },
+    {
+      "src": "atom_expr [184,192]",
+      "dest": "atom_expr [190,198]"
+    },
+    {
+      "src": "expr_stmt [396,413]",
+      "dest": "expr_stmt [402,419]"
+    },
+    {
+      "src": "param [59,64]",
+      "dest": "param [65,70]"
+    },
+    {
+      "src": "trailer [187,192]",
+      "dest": "trailer [193,198]"
+    },
+    {
+      "src": "param [47,58]",
+      "dest": "param [53,64]"
+    },
+    {
+      "src": "trailer [200,208]",
+      "dest": "trailer [206,214]"
+    },
+    {
+      "src": "name: shift [59,64]",
+      "dest": "name: shift [65,70]"
+    },
+    {
+      "src": "string: \"\" [87,89]",
+      "dest": "string: \"\" [93,95]"
+    },
+    {
+      "src": "name: plaintext [334,343]",
+      "dest": "name: plaintext [340,349]"
+    },
+    {
+      "src": "simple_stmt [169,225]",
+      "dest": "simple_stmt [175,231]"
+    },
+    {
+      "src": "name: plaintext [429,438]",
+      "dest": "name: plaintext [435,444]"
+    },
+    {
+      "src": "simple_stmt [396,414]",
+      "dest": "simple_stmt [402,420]"
+    },
+    {
+      "src": "name: char [196,200]",
+      "dest": "name: char [202,206]"
+    },
+    {
+      "src": "trailer [261,317]",
+      "dest": "trailer [267,323]"
+    },
+    {
+      "src": "name: plaintext [75,84]",
+      "dest": "name: plaintext [81,90]"
+    },
+    {
+      "src": "suite [121,414]",
+      "dest": "suite [127,420]"
+    },
+    {
+      "src": "simple_stmt [334,362]",
+      "dest": "simple_stmt [340,368]"
+    },
+    {
+      "src": "operator: + [302,303]",
+      "dest": "operator: + [308,309]"
+    },
+    {
+      "src": "funcdef [27,438]",
+      "dest": "funcdef [27,445]"
+    },
+    {
+      "src": "operator: - [288,289]",
+      "dest": "operator: - [294,295]"
+    },
+    {
+      "src": "trailer [219,224]",
+      "dest": "trailer [225,230]"
+    },
+    {
+      "src": "term [262,301]",
+      "dest": "term [268,307]"
+    },
+    {
+      "src": "suite [379,414]",
+      "dest": "suite [385,420]"
+    },
+    {
+      "src": "name: DecryptionUtils [6,21]",
+      "dest": "name: DecryptionUtils [6,21]"
+    },
+    {
+      "src": "name: ord [184,187]",
+      "dest": "name: ord [190,193]"
+    },
+    {
+      "src": "name: char [102,106]",
+      "dest": "name: char [108,112]"
+    },
+    {
+      "src": "trailer [149,151]",
+      "dest": "trailer [155,157]"
+    },
+    {
+      "src": "atom_expr [216,224]",
+      "dest": "atom_expr [222,230]"
+    },
+    {
+      "src": "name: char [137,141]",
+      "dest": "name: char [143,147]"
+    },
+    {
+      "src": "name: ascii_offset [275,287]",
+      "dest": "name: ascii_offset [281,293]"
+    },
+    {
+      "src": "atom_expr [258,317]",
+      "dest": "atom_expr [264,323]"
+    },
+    {
+      "src": "name: ciphertext [47,57]",
+      "dest": "name: ciphertext [53,63]"
+    },
+    {
+      "src": "name: decrypted_char [347,361]",
+      "dest": "name: decrypted_char [353,367]"
+    },
+    {
+      "src": "name: ciphertext [110,120]",
+      "dest": "name: ciphertext [116,126]"
+    },
+    {
+      "src": "if_stmt [134,414]",
+      "dest": "if_stmt [140,420]"
+    },
+    {
+      "src": "name: plaintext [396,405]",
+      "dest": "name: plaintext [402,411]"
+    },
+    {
+      "src": "operator: += [344,346]",
+      "dest": "operator: += [350,352]"
+    },
+    {
+      "src": "file_input [0,438]",
+      "dest": "file_input [0,445]"
+    },
+    {
+      "src": "string: 'A' [188,191]",
+      "dest": "string: 'A' [194,197]"
+    },
+    {
+      "src": "name: char [267,271]",
+      "dest": "name: char [273,277]"
+    },
+    {
+      "src": "operator: += [406,408]",
+      "dest": "operator: += [412,414]"
+    },
+    {
+      "src": "name: ascii_offset [169,181]",
+      "dest": "name: ascii_offset [175,187]"
+    },
+    {
+      "src": "return_stmt [422,438]",
+      "dest": "return_stmt [428,444]"
+    },
+    {
+      "src": "name: isupper [201,208]",
+      "dest": "name: isupper [207,214]"
+    },
+    {
+      "src": "trailer [141,149]",
+      "dest": "trailer [147,155]"
+    },
+    {
+      "src": "operator: = [85,86]",
+      "dest": "operator: = [91,92]"
+    },
+    {
+      "src": "test [184,224]",
+      "dest": "test [190,230]"
+    },
+    {
+      "src": "name: ord [263,266]",
+      "dest": "name: ord [269,272]"
+    },
+    {
+      "src": "operator: = [182,183]",
+      "dest": "operator: = [188,189]"
+    },
+    {
+      "src": "name: caesar_decipher [31,46]",
+      "dest": "name: caesar_decipher [31,46]"
+    },
+    {
+      "src": "suite [152,362]",
+      "dest": "suite [158,368]"
+    },
+    {
+      "src": "operator: = [256,257]",
+      "dest": "operator: = [262,263]"
+    },
+    {
+      "src": "atom [262,296]",
+      "dest": "atom [268,302]"
+    },
+    {
+      "src": "trailer [208,210]",
+      "dest": "trailer [214,216]"
+    },
+    {
+      "src": "operator: - [273,274]",
+      "dest": "operator: - [279,280]"
+    },
+    {
+      "src": "string: 'a' [220,223]",
+      "dest": "string: 'a' [226,229]"
+    },
+    {
+      "src": "for_stmt [98,414]",
+      "dest": "for_stmt [104,420]"
+    },
+    {
+      "src": "expr_stmt [75,89]",
+      "dest": "expr_stmt [81,95]"
+    },
+    {
+      "src": "number: 26 [299,301]",
+      "dest": "number: 26 [305,307]"
+    },
+    {
+      "src": "simple_stmt [241,318]",
+      "dest": "simple_stmt [247,324]"
+    },
+    {
+      "src": "expr_stmt [241,317]",
+      "dest": "expr_stmt [247,323]"
+    },
+    {
+      "src": "trailer [266,272]",
+      "dest": "trailer [272,278]"
+    },
+    {
+      "src": "expr_stmt [334,361]",
+      "dest": "expr_stmt [340,367]"
+    },
+    {
+      "src": "simple_stmt [75,90]",
+      "dest": "simple_stmt [81,96]"
+    },
+    {
+      "src": "name: char [409,413]",
+      "dest": "name: char [415,419]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [47,52]",
+      "parent": "parameters [46,71]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [428,445]",
+      "parent": "suite [72,445]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [422,438]",
+      "parent": "simple_stmt [428,445]",
+      "at": 0
+    }
+  ]
+}

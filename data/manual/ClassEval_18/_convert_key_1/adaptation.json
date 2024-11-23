@@ -1,0 +1,16 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        convert key string into camel case\n        :param key:str\n        :return:str, converted key string\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    }
+]

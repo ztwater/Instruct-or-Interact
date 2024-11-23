@@ -1,0 +1,557 @@
+{
+  "matches": [
+    {
+      "src": "name: Hotel [6,11]",
+      "dest": "name: Hotel [6,11]"
+    },
+    {
+      "src": "name: name [54,58]",
+      "dest": "name: name [60,64]"
+    },
+    {
+      "src": "funcdef [17,775]",
+      "dest": "funcdef [17,1165]"
+    },
+    {
+      "src": "name: room_type [643,652]",
+      "dest": "name: room_type [850,859]"
+    },
+    {
+      "src": "name: room_number [41,52]",
+      "dest": "name: room_number [47,58]"
+    },
+    {
+      "src": "suite [12,775]",
+      "dest": "suite [12,1165]"
+    },
+    {
+      "src": "comparison [657,691]",
+      "dest": "comparison [864,912]"
+    },
+    {
+      "src": "param [30,40]",
+      "dest": "param [36,46]"
+    },
+    {
+      "src": "name: room_type [30,39]",
+      "dest": "name: room_type [36,45]"
+    },
+    {
+      "src": "name: room [696,700]",
+      "dest": "name: room_type [977,986]"
+    },
+    {
+      "src": "name: booked_rooms [593,605]",
+      "dest": "name: booked_rooms [761,773]"
+    },
+    {
+      "src": "name: room_number [680,691]",
+      "dest": "name: room_number [901,912]"
+    },
+    {
+      "src": "operator: , [39,40]",
+      "dest": "operator: , [45,46]"
+    },
+    {
+      "src": "file_input [0,775]",
+      "dest": "file_input [0,1165]"
+    },
+    {
+      "src": "comparison [622,652]",
+      "dest": "comparison [820,860]"
+    },
+    {
+      "src": "param [41,53]",
+      "dest": "param [47,59]"
+    },
+    {
+      "src": "return_stmt [763,775]",
+      "dest": "return_stmt [1154,1165]"
+    },
+    {
+      "src": "simple_stmt [734,746]",
+      "dest": "simple_stmt [787,800]"
+    },
+    {
+      "src": "name: room [622,626]",
+      "dest": "name: name [820,824]"
+    },
+    {
+      "src": "string: \"room_number\" [192,205]",
+      "dest": "string: \"\"\"         Check if the room of the specified type and number is booked by the person named name.         Remove this name when check in successfuly (room_number is equal to specific person's booked_rooms).         When the actual check in quantity (room_number) is less than the booked quantity,         number in booked_rooms will be booked quantity minus actual quantity.         :param room_type: str, check in room type         :param room_number: int, check in room number         :param name: str, person name         :return: False if the room_type is not in the booked_rooms or room_number is higher than quantity in booked rooms.         \"\"\" [75,727]"
+    },
+    {
+      "src": "classdef [0,775]",
+      "dest": "classdef [0,1165]"
+    },
+    {
+      "src": "trailer [700,708]",
+      "dest": "trailer [987,993]"
+    },
+    {
+      "src": "trailer [626,639]",
+      "dest": "trailer [836,849]"
+    },
+    {
+      "src": "name: room [657,661]",
+      "dest": "name: room_type [882,891]"
+    },
+    {
+      "src": "name: check_in [21,29]",
+      "dest": "name: check_in [21,29]"
+    },
+    {
+      "src": "suite [717,746]",
+      "dest": "suite [774,800]"
+    },
+    {
+      "src": "operator: == [709,711]",
+      "dest": "operator: == [994,996]"
+    },
+    {
+      "src": "name: room [585,589]",
+      "dest": "name: room_type [739,748]"
+    },
+    {
+      "src": "name: name [712,716]",
+      "dest": "name: room_number [997,1008]"
+    },
+    {
+      "src": "atom_expr [696,708]",
+      "dest": "atom_expr [959,993]"
+    },
+    {
+      "src": "trailer [661,676]",
+      "dest": "trailer [892,898]"
+    },
+    {
+      "src": "operator: , [52,53]",
+      "dest": "operator: , [58,59]"
+    },
+    {
+      "src": "atom_expr [657,676]",
+      "dest": "atom_expr [864,898]"
+    },
+    {
+      "src": "parameters [29,59]",
+      "dest": "parameters [29,65]"
+    },
+    {
+      "src": "simple_stmt [139,458]",
+      "dest": "simple_stmt [75,728]"
+    },
+    {
+      "src": "comparison [696,716]",
+      "dest": "comparison [959,1008]"
+    },
+    {
+      "src": "return_stmt [734,745]",
+      "dest": "return_stmt [787,799]"
+    },
+    {
+      "src": "suite [60,775]",
+      "dest": "suite [66,1165]"
+    },
+    {
+      "src": "operator: == [677,679]",
+      "dest": "operator: < [899,900]"
+    },
+    {
+      "src": "param [54,58]",
+      "dest": "param [60,64]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [30,35]",
+      "parent": "parameters [29,65]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [736,800]",
+      "parent": "suite [66,1165]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [817,939]",
+      "parent": "suite [66,1165]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [956,1137]",
+      "parent": "suite [66,1165]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "string: \"room_number\" [192,205]",
+      "label": "\"\"\"         Check if the room of the specified type and number is booked by the person named name.         Remove this name when check in successfuly (room_number is equal to specific person's booked_rooms).         When the actual check in quantity (room_number) is less than the booked quantity,         number in booked_rooms will be booked quantity minus actual quantity.         :param room_type: str, check in room type         :param room_number: int, check in room number         :param name: str, person name         :return: False if the room_type is not in the booked_rooms or room_number is higher than quantity in booked rooms.         \"\"\""
+    },
+    {
+      "action": "move-tree",
+      "tree": "string: \"room_number\" [192,205]",
+      "parent": "simple_stmt [75,728]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "comparison [739,773]",
+      "parent": "if_stmt [736,800]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [717,746]",
+      "parent": "if_stmt [736,800]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "or_test [820,912]",
+      "parent": "if_stmt [817,939]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [913,939]",
+      "parent": "if_stmt [817,939]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "comparison [696,716]",
+      "parent": "if_stmt [956,1137]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [1009,1061]",
+      "parent": "if_stmt [956,1137]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [1074,1137]",
+      "parent": "if_stmt [956,1137]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: room [585,589]",
+      "label": "room_type"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: room [585,589]",
+      "parent": "comparison [739,773]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "comp_op [749,755]",
+      "parent": "comparison [739,773]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [756,773]",
+      "parent": "comparison [739,773]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "comparison [622,652]",
+      "parent": "or_test [820,912]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "comparison [657,691]",
+      "parent": "or_test [820,912]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: name [712,716]",
+      "label": "room_number"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [756,760]",
+      "parent": "atom_expr [756,773]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [760,773]",
+      "parent": "atom_expr [756,773]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: room [622,626]",
+      "label": "name"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: room [622,626]",
+      "parent": "comparison [820,860]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "comp_op [825,831]",
+      "parent": "comparison [820,860]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [832,860]",
+      "parent": "comparison [820,860]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: == [677,679]",
+      "label": "<"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [959,963]",
+      "parent": "atom_expr [959,993]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [963,976]",
+      "parent": "atom_expr [959,993]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [976,987]",
+      "parent": "atom_expr [959,993]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: booked_rooms [593,605]",
+      "parent": "trailer [760,773]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [832,836]",
+      "parent": "atom_expr [832,860]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [626,639]",
+      "parent": "atom_expr [832,860]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [849,860]",
+      "parent": "atom_expr [832,860]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [864,868]",
+      "parent": "atom_expr [864,898]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [868,881]",
+      "parent": "atom_expr [864,898]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [881,892]",
+      "parent": "atom_expr [864,898]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: room [696,700]",
+      "label": "room_type"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: room [696,700]",
+      "parent": "trailer [976,987]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: name [988,992]",
+      "parent": "trailer [987,993]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: booked_rooms [837,849]",
+      "parent": "trailer [836,849]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: room_type [643,652]",
+      "parent": "trailer [849,860]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: room [657,661]",
+      "label": "room_type"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: room [657,661]",
+      "parent": "trailer [881,892]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: name [893,897]",
+      "parent": "trailer [892,898]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: booked_rooms [139,151]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: = [152,153]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: { [168,169]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"room_type\" [169,180]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"Single\" [182,190]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [190,191]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 101 [207,210]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [210,211]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"name\" [212,218]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"John\" [220,226]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "dictorsetmaker [169,226]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: } [226,227]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom [168,227]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [227,228]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "atom [241,300]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [300,301]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "atom [314,373]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [373,374]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "atom [387,446]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [446,447]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "testlist_comp [168,447]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom [154,457]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [139,457]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"room_type\" [627,638]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [622,639]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: == [640,642]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"room_number\" [662,675]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"name\" [701,707]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "and_test [622,716]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "if_stmt [619,746]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [606,746]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "for_stmt [581,746]"
+    }
+  ]
+}

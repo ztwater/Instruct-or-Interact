@@ -1,0 +1,44 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Searches for tickets in the \"tickets\" table by customer name.\n        :param customer_name: str, the name of the customer to search for.\n        :return: list of tuples, the rows from the \"tickets\" table that match the search criteria.\n        >>> ticket_db = MovieTicketDB(\"ticket_database.db\")\n        >>> ticket_db.create_table()\n        >>> ticket_db.insert_ticket(\"Movie A\", \"Theater 1\", \"A1\", \"John Doe\")\n        >>> result = ticket_db.search_tickets_by_customer(\"John Doe\")\n        len(result) = 1\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "query = \"SELECT * FROM tickets WHERE customer_name = ?\"\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "self.cursor.execute(query, (customer_name,))\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "result = self.cursor.fetchall()\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "return_stmt",
+        "inserted": "return result",
+        "deleted": "",
+        "type": "Logic"
+    }
+]

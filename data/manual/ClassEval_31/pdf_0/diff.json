@@ -1,0 +1,158 @@
+{
+  "matches": [
+    {
+      "src": "trailer [82,86]",
+      "dest": "trailer [78,82]"
+    },
+    {
+      "src": "param [35,40]",
+      "dest": "param [35,40]"
+    },
+    {
+      "src": "suite [22,133]",
+      "dest": "suite [22,125]"
+    },
+    {
+      "src": "name: pdf [31,34]",
+      "dest": "name: pdf [31,34]"
+    },
+    {
+      "src": "name: std_dev [47,54]",
+      "dest": "name: sigma [45,50]"
+    },
+    {
+      "src": "name: pdf_values [65,75]",
+      "dest": "name: pdf_values [61,71]"
+    },
+    {
+      "src": "classdef [0,133]",
+      "dest": "classdef [0,125]"
+    },
+    {
+      "src": "suite [56,133]",
+      "dest": "suite [52,125]"
+    },
+    {
+      "src": "param [41,46]",
+      "dest": "param [41,44]"
+    },
+    {
+      "src": "name: DataStatistics4 [6,21]",
+      "dest": "name: DataStatistics4 [6,21]"
+    },
+    {
+      "src": "name: data [35,39]",
+      "dest": "name: data [35,39]"
+    },
+    {
+      "src": "return_stmt [116,133]",
+      "dest": "return_stmt [108,125]"
+    },
+    {
+      "src": "operator: = [76,77]",
+      "dest": "operator: = [72,73]"
+    },
+    {
+      "src": "arglist [87,106]",
+      "dest": "arglist [83,98]"
+    },
+    {
+      "src": "file_input [0,133]",
+      "dest": "file_input [0,125]"
+    },
+    {
+      "src": "expr_stmt [65,107]",
+      "dest": "expr_stmt [61,99]"
+    },
+    {
+      "src": "name: std_dev [99,106]",
+      "dest": "name: sigma [93,98]"
+    },
+    {
+      "src": "operator: , [39,40]",
+      "dest": "operator: , [39,40]"
+    },
+    {
+      "src": "name: norm [78,82]",
+      "dest": "name: norm [74,78]"
+    },
+    {
+      "src": "name: pdf_values [123,133]",
+      "dest": "name: pdf_values [115,125]"
+    },
+    {
+      "src": "operator: , [45,46]",
+      "dest": "operator: , [43,44]"
+    },
+    {
+      "src": "name: data [87,91]",
+      "dest": "name: data [83,87]"
+    },
+    {
+      "src": "name: pdf [83,86]",
+      "dest": "name: pdf [79,82]"
+    },
+    {
+      "src": "name: mean [41,45]",
+      "dest": "name: mu [41,43]"
+    },
+    {
+      "src": "atom_expr [78,107]",
+      "dest": "atom_expr [74,99]"
+    },
+    {
+      "src": "parameters [34,55]",
+      "dest": "parameters [34,51]"
+    },
+    {
+      "src": "operator: , [97,98]",
+      "dest": "operator: , [91,92]"
+    },
+    {
+      "src": "operator: , [91,92]",
+      "dest": "operator: , [87,88]"
+    },
+    {
+      "src": "simple_stmt [65,108]",
+      "dest": "simple_stmt [61,100]"
+    },
+    {
+      "src": "funcdef [27,133]",
+      "dest": "funcdef [27,125]"
+    },
+    {
+      "src": "trailer [86,107]",
+      "dest": "trailer [82,99]"
+    },
+    {
+      "src": "name: mean [93,97]",
+      "dest": "name: mu [89,91]"
+    },
+    {
+      "src": "param [47,54]",
+      "dest": "param [45,50]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "update-node",
+      "tree": "name: mean [41,45]",
+      "label": "mu"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: std_dev [47,54]",
+      "label": "sigma"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: mean [93,97]",
+      "label": "mu"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: std_dev [99,106]",
+      "label": "sigma"
+    }
+  ]
+}

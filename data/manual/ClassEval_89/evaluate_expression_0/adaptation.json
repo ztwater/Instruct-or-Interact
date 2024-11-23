@@ -1,0 +1,16 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Evaluate a mathematical expression and check if the result is 24.\n        :param expression: string, mathematical expression\n        :return: bool, True if the expression evaluates to 24, False otherwise\n        >>> game = TwentyFourPointGame()\n        >>> nums = [4, 3, 6, 6]\n        >>> ans = \"4*3+6+6\"\n        >>> ret = game.evaluate_expression(ans)\n        True\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    }
+]

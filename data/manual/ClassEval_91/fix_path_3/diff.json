@@ -1,0 +1,80 @@
+{
+  "matches": [
+    {
+      "src": "suite [14,69]",
+      "dest": "suite [14,361]"
+    },
+    {
+      "src": "trailer [64,69]",
+      "dest": "trailer [356,361]"
+    },
+    {
+      "src": "parameters [31,37]",
+      "dest": "parameters [31,37]"
+    },
+    {
+      "src": "classdef [0,69]",
+      "dest": "classdef [0,361]"
+    },
+    {
+      "src": "suite [38,69]",
+      "dest": "suite [38,361]"
+    },
+    {
+      "src": "atom_expr [54,69]",
+      "dest": "atom_expr [346,361]"
+    },
+    {
+      "src": "name: path [32,36]",
+      "dest": "name: path [32,36]"
+    },
+    {
+      "src": "string: '/' [65,68]",
+      "dest": "string: '/' [357,360]"
+    },
+    {
+      "src": "param [32,36]",
+      "dest": "param [32,36]"
+    },
+    {
+      "src": "name: path [54,58]",
+      "dest": "name: path [346,350]"
+    },
+    {
+      "src": "name: strip [59,64]",
+      "dest": "name: strip [351,356]"
+    },
+    {
+      "src": "name: fix_path [23,31]",
+      "dest": "name: fix_path [23,31]"
+    },
+    {
+      "src": "return_stmt [47,69]",
+      "dest": "return_stmt [339,361]"
+    },
+    {
+      "src": "trailer [58,64]",
+      "dest": "trailer [350,356]"
+    },
+    {
+      "src": "file_input [0,69]",
+      "dest": "file_input [0,361]"
+    },
+    {
+      "src": "funcdef [19,69]",
+      "dest": "funcdef [19,361]"
+    },
+    {
+      "src": "name: UrlPath [6,13]",
+      "dest": "name: UrlPath [6,13]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [47,331]",
+      "parent": "suite [38,361]",
+      "at": 0
+    }
+  ]
+}

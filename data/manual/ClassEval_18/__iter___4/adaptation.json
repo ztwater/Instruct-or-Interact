@@ -1,0 +1,44 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Returning Iterateable Objects with Own Data\n        :return:Iterator\n        >>> camelize_map = CamelCaseMap()\n        >>> camelize_map['first_name'] = 'John'\n        >>> camelize_map['last_name'] = 'Doe'\n        >>> camelize_map['age'] = 30\n        >>> camelize_map.__iter__()\n        <dict_keyiterator object at 0x0000026739977C20>\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".keys",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": "()",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "simple_stmt",
+        "inserted": "",
+        "deleted": "return iter(self.data)\n",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return iter(self.data)",
+        "deleted": "return iter(self.data)",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "_data",
+        "deleted": "data",
+        "type": "Refactoring"
+    }
+]

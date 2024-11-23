@@ -1,0 +1,37 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Generates a SQL statement to select records within a specified age range.\n        :param min_age: int. The minimum age.\n        :param max_age: int. The maximum age.\n        :return: str. The generated SQL statement.\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "atom_expr",
+        "inserted": "self.table_name",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": ",",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "string:",
+        "inserted": "\"SELECT * FROM {} WHERE age BETWEEN {} AND {};\"",
+        "deleted": "\"SELECT * FROM records WHERE age >= {} AND age <= {};\"",
+        "type": "Logic"
+    }
+]

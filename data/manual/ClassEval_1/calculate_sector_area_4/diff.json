@@ -1,0 +1,168 @@
+{
+  "matches": [
+    {
+      "src": "suite [21,145]",
+      "dest": "suite [21,324]"
+    },
+    {
+      "src": "trailer [112,119]",
+      "dest": "trailer [291,298]"
+    },
+    {
+      "src": "atom [81,94]",
+      "dest": "atom [260,273]"
+    },
+    {
+      "src": "classdef [0,145]",
+      "dest": "classdef [0,324]"
+    },
+    {
+      "src": "power [108,124]",
+      "dest": "power [287,303]"
+    },
+    {
+      "src": "suite [65,145]",
+      "dest": "suite [65,324]"
+    },
+    {
+      "src": "expr_stmt [74,125]",
+      "dest": "expr_stmt [253,304]"
+    },
+    {
+      "src": "number: 360 [90,93]",
+      "dest": "number: 360 [269,272]"
+    },
+    {
+      "src": "param [52,57]",
+      "dest": "param [52,57]"
+    },
+    {
+      "src": "term [82,93]",
+      "dest": "term [261,272]"
+    },
+    {
+      "src": "name: self [52,56]",
+      "dest": "name: self [52,56]"
+    },
+    {
+      "src": "operator: / [88,89]",
+      "dest": "operator: / [267,268]"
+    },
+    {
+      "src": "name: math [97,101]",
+      "dest": "name: math [276,280]"
+    },
+    {
+      "src": "name: area [74,78]",
+      "dest": "name: area [253,257]"
+    },
+    {
+      "src": "atom [107,125]",
+      "dest": "atom [286,304]"
+    },
+    {
+      "src": "term [81,125]",
+      "dest": "term [260,304]"
+    },
+    {
+      "src": "name: AreaCalculator [6,20]",
+      "dest": "name: AreaCalculator [6,20]"
+    },
+    {
+      "src": "file_input [0,145]",
+      "dest": "file_input [0,324]"
+    },
+    {
+      "src": "atom_expr [108,119]",
+      "dest": "atom_expr [287,298]"
+    },
+    {
+      "src": "operator: ** [120,122]",
+      "dest": "operator: ** [299,301]"
+    },
+    {
+      "src": "name: self [108,112]",
+      "dest": "name: self [287,291]"
+    },
+    {
+      "src": "trailer [101,104]",
+      "dest": "trailer [280,283]"
+    },
+    {
+      "src": "number: 2 [123,124]",
+      "dest": "number: 2 [302,303]"
+    },
+    {
+      "src": "name: angle [82,87]",
+      "dest": "name: angle [261,266]"
+    },
+    {
+      "src": "name: area [141,145]",
+      "dest": "name: area [320,324]"
+    },
+    {
+      "src": "atom_expr [97,104]",
+      "dest": "atom_expr [276,283]"
+    },
+    {
+      "src": "operator: * [105,106]",
+      "dest": "operator: * [284,285]"
+    },
+    {
+      "src": "name: pi [102,104]",
+      "dest": "name: pi [281,283]"
+    },
+    {
+      "src": "operator: * [95,96]",
+      "dest": "operator: * [274,275]"
+    },
+    {
+      "src": "name: radius [113,119]",
+      "dest": "name: radius [292,298]"
+    },
+    {
+      "src": "parameters [51,64]",
+      "dest": "parameters [51,64]"
+    },
+    {
+      "src": "param [58,63]",
+      "dest": "param [58,63]"
+    },
+    {
+      "src": "simple_stmt [74,126]",
+      "dest": "simple_stmt [253,305]"
+    },
+    {
+      "src": "operator: = [79,80]",
+      "dest": "operator: = [258,259]"
+    },
+    {
+      "src": "name: calculate_sector_area [30,51]",
+      "dest": "name: calculate_sector_area [30,51]"
+    },
+    {
+      "src": "funcdef [26,145]",
+      "dest": "funcdef [26,324]"
+    },
+    {
+      "src": "name: angle [58,63]",
+      "dest": "name: angle [58,63]"
+    },
+    {
+      "src": "return_stmt [134,145]",
+      "dest": "return_stmt [313,324]"
+    },
+    {
+      "src": "operator: , [56,57]",
+      "dest": "operator: , [56,57]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [74,245]",
+      "parent": "suite [65,324]",
+      "at": 0
+    }
+  ]
+}

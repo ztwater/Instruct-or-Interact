@@ -1,0 +1,209 @@
+{
+  "matches": [
+    {
+      "src": "suite [19,238]",
+      "dest": "suite [19,392]"
+    },
+    {
+      "src": "param [46,55]",
+      "dest": "param [46,50]"
+    },
+    {
+      "src": "atom_expr [179,209]",
+      "dest": "atom_expr [333,363]"
+    },
+    {
+      "src": "operator: = [80,81]",
+      "dest": "operator: = [227,228]"
+    },
+    {
+      "src": "classdef [0,238]",
+      "dest": "classdef [0,392]"
+    },
+    {
+      "src": "suite [57,238]",
+      "dest": "suite [52,392]"
+    },
+    {
+      "src": "trailer [199,209]",
+      "dest": "trailer [353,363]"
+    },
+    {
+      "src": "name: username [152,160]",
+      "dest": "name: username [306,314]"
+    },
+    {
+      "src": "name: not_signed_in [179,192]",
+      "dest": "name: not_signed_in [333,346]"
+    },
+    {
+      "src": "name: SignInSystem [6,18]",
+      "dest": "name: SignInSystem [6,18]"
+    },
+    {
+      "src": "name: append [193,199]",
+      "dest": "name: append [347,353]"
+    },
+    {
+      "src": "expr_stmt [66,84]",
+      "dest": "expr_stmt [213,231]"
+    },
+    {
+      "src": "name: is_signed_in [139,151]",
+      "dest": "name: check_sign_in [292,305]"
+    },
+    {
+      "src": "parameters [45,56]",
+      "dest": "parameters [45,51]"
+    },
+    {
+      "src": "trailer [151,161]",
+      "dest": "trailer [305,315]"
+    },
+    {
+      "src": "name: usernames [109,118]",
+      "dest": "name: users [261,266]"
+    },
+    {
+      "src": "simple_stmt [179,210]",
+      "dest": "simple_stmt [333,364]"
+    },
+    {
+      "src": "name: all_not_signed_in [28,45]",
+      "dest": "name: all_not_signed_in [28,45]"
+    },
+    {
+      "src": "file_input [0,238]",
+      "dest": "file_input [0,392]"
+    },
+    {
+      "src": "simple_stmt [66,85]",
+      "dest": "simple_stmt [213,232]"
+    },
+    {
+      "src": "suite [119,210]",
+      "dest": "suite [267,364]"
+    },
+    {
+      "src": "name: username [97,105]",
+      "dest": "name: username [244,252]"
+    },
+    {
+      "src": "atom_expr [139,161]",
+      "dest": "atom_expr [287,315]"
+    },
+    {
+      "src": "trailer [192,199]",
+      "dest": "trailer [346,353]"
+    },
+    {
+      "src": "not_test [135,161]",
+      "dest": "not_test [283,315]"
+    },
+    {
+      "src": "atom [82,84]",
+      "dest": "atom [229,231]"
+    },
+    {
+      "src": "name: username [200,208]",
+      "dest": "name: username [354,362]"
+    },
+    {
+      "src": "name: not_signed_in [225,238]",
+      "dest": "name: not_signed_in [379,392]"
+    },
+    {
+      "src": "return_stmt [218,238]",
+      "dest": "return_stmt [372,392]"
+    },
+    {
+      "src": "if_stmt [132,210]",
+      "dest": "if_stmt [280,364]"
+    },
+    {
+      "src": "suite [162,210]",
+      "dest": "suite [316,364]"
+    },
+    {
+      "src": "for_stmt [93,210]",
+      "dest": "for_stmt [240,364]"
+    },
+    {
+      "src": "funcdef [24,238]",
+      "dest": "funcdef [24,392]"
+    },
+    {
+      "src": "name: usernames [46,55]",
+      "dest": "name: self [46,50]"
+    },
+    {
+      "src": "name: not_signed_in [66,79]",
+      "dest": "name: not_signed_in [213,226]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [61,205]",
+      "parent": "suite [52,392]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: usernames [46,55]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [256,266]",
+      "parent": "for_stmt [240,364]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [256,260]",
+      "parent": "atom_expr [256,266]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [260,266]",
+      "parent": "atom_expr [256,266]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: usernames [109,118]",
+      "label": "users"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: usernames [109,118]",
+      "parent": "trailer [260,266]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [287,291]",
+      "parent": "atom_expr [287,315]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [291,305]",
+      "parent": "atom_expr [287,315]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: is_signed_in [139,151]",
+      "label": "check_sign_in"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: is_signed_in [139,151]",
+      "parent": "trailer [291,305]",
+      "at": 0
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "matches": [
+    {
+      "src": "name: self [70,74]",
+      "dest": "name: self [398,402]"
+    },
+    {
+      "src": "suite [19,192]",
+      "dest": "suite [19,532]"
+    },
+    {
+      "src": "trailer [142,192]",
+      "dest": "trailer [482,532]"
+    },
+    {
+      "src": "trailer [96,101]",
+      "dest": "trailer [436,441]"
+    },
+    {
+      "src": "classdef [0,192]",
+      "dest": "classdef [0,532]"
+    },
+    {
+      "src": "del_stmt [88,101]",
+      "dest": "del_stmt [422,441]"
+    },
+    {
+      "src": "suite [51,192]",
+      "dest": "suite [51,532]"
+    },
+    {
+      "src": "fstring_expr [150,155]",
+      "dest": "fstring_expr [490,495]"
+    },
+    {
+      "src": "name: key [46,49]",
+      "dest": "name: key [46,49]"
+    },
+    {
+      "src": "name: self [92,96]",
+      "dest": "name: self [426,430]"
+    },
+    {
+      "src": "name: __delitem__ [28,39]",
+      "dest": "name: __delitem__ [28,39]"
+    },
+    {
+      "src": "fstring [143,191]",
+      "dest": "fstring [483,531]"
+    },
+    {
+      "src": "comparison [63,74]",
+      "dest": "comparison [391,408]"
+    },
+    {
+      "src": "fstring_string: Key ' [145,150]",
+      "dest": "fstring_string: Key ' [485,490]"
+    },
+    {
+      "src": "operator: } [154,155]",
+      "dest": "operator: } [494,495]"
+    },
+    {
+      "src": "raise_stmt [128,192]",
+      "dest": "raise_stmt [468,532]"
+    },
+    {
+      "src": "simple_stmt [88,102]",
+      "dest": "simple_stmt [422,442]"
+    },
+    {
+      "src": "name: KeyError [134,142]",
+      "dest": "name: KeyError [474,482]"
+    },
+    {
+      "src": "file_input [0,192]",
+      "dest": "file_input [0,532]"
+    },
+    {
+      "src": "name: self [40,44]",
+      "dest": "name: self [40,44]"
+    },
+    {
+      "src": "suite [115,192]",
+      "dest": "suite [455,532]"
+    },
+    {
+      "src": "atom_expr [92,101]",
+      "dest": "atom_expr [426,441]"
+    },
+    {
+      "src": "fstring_string: ' does not exist in the dictionary. [155,190]",
+      "dest": "fstring_string: ' does not exist in the dictionary. [495,530]"
+    },
+    {
+      "src": "operator: , [44,45]",
+      "dest": "operator: , [44,45]"
+    },
+    {
+      "src": "fstring_start: f\" [143,145]",
+      "dest": "fstring_start: f\" [483,485]"
+    },
+    {
+      "src": "name: key [151,154]",
+      "dest": "name: key [491,494]"
+    },
+    {
+      "src": "suite [75,102]",
+      "dest": "suite [409,442]"
+    },
+    {
+      "src": "fstring_end: \" [190,191]",
+      "dest": "fstring_end: \" [530,531]"
+    },
+    {
+      "src": "parameters [39,50]",
+      "dest": "parameters [39,50]"
+    },
+    {
+      "src": "operator: { [150,151]",
+      "dest": "operator: { [490,491]"
+    },
+    {
+      "src": "param [40,45]",
+      "dest": "param [40,45]"
+    },
+    {
+      "src": "param [46,49]",
+      "dest": "param [46,49]"
+    },
+    {
+      "src": "atom_expr [134,192]",
+      "dest": "atom_expr [474,532]"
+    },
+    {
+      "src": "if_stmt [60,192]",
+      "dest": "if_stmt [388,532]"
+    },
+    {
+      "src": "name: key [63,66]",
+      "dest": "name: key [391,394]"
+    },
+    {
+      "src": "funcdef [24,192]",
+      "dest": "funcdef [24,532]"
+    },
+    {
+      "src": "name: CamelCaseMap [6,18]",
+      "dest": "name: CamelCaseMap [6,18]"
+    },
+    {
+      "src": "name: key [97,100]",
+      "dest": "name: key [437,440]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [60,380]",
+      "parent": "suite [51,532]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [398,408]",
+      "parent": "comparison [391,408]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: self [70,74]",
+      "parent": "atom_expr [398,408]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [402,408]",
+      "parent": "atom_expr [398,408]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [430,436]",
+      "parent": "atom_expr [426,441]",
+      "at": 1
+    }
+  ]
+}

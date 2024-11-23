@@ -1,0 +1,233 @@
+{
+  "matches": [
+    {
+      "src": "name: word_tokenize [221,234]",
+      "dest": "name: word_tokenize [128,141]"
+    },
+    {
+      "src": "expr_stmt [90,162]",
+      "dest": "expr_stmt [66,110]"
+    },
+    {
+      "src": "parameters [40,50]",
+      "dest": "parameters [40,56]"
+    },
+    {
+      "src": "operator: = [319,320]",
+      "dest": "operator: = [169,170]"
+    },
+    {
+      "src": "name: tokens [329,335]",
+      "dest": "name: tokens [179,185]"
+    },
+    {
+      "src": "simple_stmt [90,163]",
+      "dest": "simple_stmt [66,111]"
+    },
+    {
+      "src": "classdef [0,369]",
+      "dest": "classdef [0,233]"
+    },
+    {
+      "src": "trailer [119,162]",
+      "dest": "trailer [100,110]"
+    },
+    {
+      "src": "expr_stmt [310,336]",
+      "dest": "expr_stmt [160,186]"
+    },
+    {
+      "src": "name: str [120,123]",
+      "dest": "name: sentence [101,109]"
+    },
+    {
+      "src": "name: get_pos_tag [29,40]",
+      "dest": "name: get_pos_tag [29,40]"
+    },
+    {
+      "src": "name: pos_tag [321,328]",
+      "dest": "name: pos_tag [171,178]"
+    },
+    {
+      "src": "name: Lemmatization [6,19]",
+      "dest": "name: Lemmatization [6,19]"
+    },
+    {
+      "src": "suite [51,369]",
+      "dest": "suite [57,233]"
+    },
+    {
+      "src": "name: pos_tags [310,318]",
+      "dest": "name: pos_tags [160,168]"
+    },
+    {
+      "src": "simple_stmt [212,245]",
+      "dest": "simple_stmt [119,152]"
+    },
+    {
+      "src": "param [41,49]",
+      "dest": "param [47,55]"
+    },
+    {
+      "src": "return_stmt [354,369]",
+      "dest": "return_stmt [195,233]"
+    },
+    {
+      "src": "atom_expr [221,244]",
+      "dest": "atom_expr [128,151]"
+    },
+    {
+      "src": "file_input [0,369]",
+      "dest": "file_input [0,233]"
+    },
+    {
+      "src": "trailer [109,119]",
+      "dest": "trailer [81,100]"
+    },
+    {
+      "src": "operator: = [99,100]",
+      "dest": "operator: = [75,76]"
+    },
+    {
+      "src": "name: sentence [235,243]",
+      "dest": "name: sentence [142,150]"
+    },
+    {
+      "src": "trailer [234,244]",
+      "dest": "trailer [141,151]"
+    },
+    {
+      "src": "expr_stmt [212,244]",
+      "dest": "expr_stmt [119,151]"
+    },
+    {
+      "src": "operator: = [219,220]",
+      "dest": "operator: = [126,127]"
+    },
+    {
+      "src": "atom_expr [321,336]",
+      "dest": "atom_expr [171,186]"
+    },
+    {
+      "src": "name: sentence [101,109]",
+      "dest": "name: self [77,81]"
+    },
+    {
+      "src": "suite [20,369]",
+      "dest": "suite [20,233]"
+    },
+    {
+      "src": "name: sentence [41,49]",
+      "dest": "name: sentence [47,55]"
+    },
+    {
+      "src": "name: sentence [90,98]",
+      "dest": "name: sentence [66,74]"
+    },
+    {
+      "src": "name: pos_tags [361,369]",
+      "dest": "name: pos_tags [224,232]"
+    },
+    {
+      "src": "name: tokens [212,218]",
+      "dest": "name: tokens [119,125]"
+    },
+    {
+      "src": "simple_stmt [310,337]",
+      "dest": "simple_stmt [160,187]"
+    },
+    {
+      "src": "atom_expr [101,162]",
+      "dest": "atom_expr [77,110]"
+    },
+    {
+      "src": "funcdef [25,369]",
+      "dest": "funcdef [25,233]"
+    },
+    {
+      "src": "trailer [328,336]",
+      "dest": "trailer [178,186]"
+    },
+    {
+      "src": "name: translate [110,119]",
+      "dest": "name: remove_punctuation [82,100]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [41,46]",
+      "parent": "parameters [40,56]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom [202,233]",
+      "parent": "return_stmt [195,233]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "testlist_comp [203,232]",
+      "parent": "atom [202,233]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: sentence [101,109]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: tag [203,206]",
+      "parent": "testlist_comp [203,232]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "sync_comp_for [207,232]",
+      "parent": "testlist_comp [203,232]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: translate [110,119]",
+      "label": "remove_punctuation"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: str [120,123]",
+      "label": "sentence"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: str [120,123]",
+      "parent": "trailer [100,110]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "exprlist [211,220]",
+      "parent": "sync_comp_for [207,232]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: pos_tags [361,369]",
+      "parent": "sync_comp_for [207,232]",
+      "at": 1
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [123,133]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [133,161]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [120,161]"
+    }
+  ]
+}

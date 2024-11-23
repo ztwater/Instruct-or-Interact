@@ -1,0 +1,82 @@
+{
+  "matches": [
+    {
+      "src": "name: BankAccount [6,17]",
+      "dest": "name: BankAccount [6,17]"
+    },
+    {
+      "src": "suite [18,153]",
+      "dest": "suite [18,134]"
+    },
+    {
+      "src": "name: balance [146,153]",
+      "dest": "name: balance [127,134]"
+    },
+    {
+      "src": "classdef [0,153]",
+      "dest": "classdef [0,134]"
+    },
+    {
+      "src": "file_input [0,153]",
+      "dest": "file_input [0,134]"
+    },
+    {
+      "src": "parameters [39,41]",
+      "dest": "parameters [39,45]"
+    },
+    {
+      "src": "suite [42,153]",
+      "dest": "suite [46,134]"
+    },
+    {
+      "src": "return_stmt [139,153]",
+      "dest": "return_stmt [115,134]"
+    },
+    {
+      "src": "funcdef [23,153]",
+      "dest": "funcdef [23,134]"
+    },
+    {
+      "src": "name: view_balance [27,39]",
+      "dest": "name: view_balance [27,39]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [40,44]",
+      "parent": "parameters [39,45]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [55,107]",
+      "parent": "suite [46,134]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [122,134]",
+      "parent": "return_stmt [115,134]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [122,126]",
+      "parent": "atom_expr [122,134]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [126,134]",
+      "parent": "atom_expr [122,134]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: balance [146,153]",
+      "parent": "trailer [126,134]",
+      "at": 0
+    }
+  ]
+}

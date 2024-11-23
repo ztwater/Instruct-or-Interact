@@ -1,0 +1,208 @@
+{
+  "matches": [
+    {
+      "src": "suite [13,132]",
+      "dest": "suite [13,502]"
+    },
+    {
+      "src": "name: address [37,44]",
+      "dest": "name: self [37,41]"
+    },
+    {
+      "src": "name: address [69,76]",
+      "dest": "name: addr [363,367]"
+    },
+    {
+      "src": "name: append [117,123]",
+      "dest": "name: append [420,426]"
+    },
+    {
+      "src": "name: whitelist [84,93]",
+      "dest": "name: white_list [380,390]"
+    },
+    {
+      "src": "classdef [0,132]",
+      "dest": "classdef [0,502]"
+    },
+    {
+      "src": "param [37,45]",
+      "dest": "param [37,42]"
+    },
+    {
+      "src": "suite [57,132]",
+      "dest": "suite [49,502]"
+    },
+    {
+      "src": "comparison [69,93]",
+      "dest": "comparison [363,390]"
+    },
+    {
+      "src": "name: whitelist [107,116]",
+      "dest": "name: white_list [409,419]"
+    },
+    {
+      "src": "name: add_white_list [22,36]",
+      "dest": "name: add_white_list [22,36]"
+    },
+    {
+      "src": "comp_op [77,83]",
+      "dest": "comp_op [368,374]"
+    },
+    {
+      "src": "trailer [123,132]",
+      "dest": "trailer [426,432]"
+    },
+    {
+      "src": "file_input [0,132]",
+      "dest": "file_input [0,502]"
+    },
+    {
+      "src": "suite [94,132]",
+      "dest": "suite [391,433]"
+    },
+    {
+      "src": "name: Server [6,12]",
+      "dest": "name: Server [6,12]"
+    },
+    {
+      "src": "name: whitelist [46,55]",
+      "dest": "name: addr [43,47]"
+    },
+    {
+      "src": "name: address [124,131]",
+      "dest": "name: addr [427,431]"
+    },
+    {
+      "src": "operator: , [44,45]",
+      "dest": "operator: , [41,42]"
+    },
+    {
+      "src": "parameters [36,56]",
+      "dest": "parameters [36,48]"
+    },
+    {
+      "src": "param [46,55]",
+      "dest": "param [43,47]"
+    },
+    {
+      "src": "if_stmt [66,132]",
+      "dest": "if_stmt [360,472]"
+    },
+    {
+      "src": "funcdef [18,132]",
+      "dest": "funcdef [18,502]"
+    },
+    {
+      "src": "atom_expr [107,132]",
+      "dest": "atom_expr [404,432]"
+    },
+    {
+      "src": "trailer [116,123]",
+      "dest": "trailer [419,426]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [58,352]",
+      "parent": "suite [49,502]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "return_stmt [480,502]",
+      "parent": "suite [49,502]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: address [37,44]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: whitelist [46,55]",
+      "label": "addr"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [446,472]",
+      "parent": "if_stmt [360,472]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: address [69,76]",
+      "label": "addr"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [375,390]",
+      "parent": "comparison [363,390]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [404,433]",
+      "parent": "suite [391,433]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [375,379]",
+      "parent": "atom_expr [375,390]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [379,390]",
+      "parent": "atom_expr [375,390]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [107,132]",
+      "parent": "simple_stmt [404,433]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: whitelist [84,93]",
+      "label": "white_list"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: whitelist [84,93]",
+      "parent": "trailer [379,390]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [404,408]",
+      "parent": "atom_expr [404,432]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [408,419]",
+      "parent": "atom_expr [404,432]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: whitelist [107,116]",
+      "label": "white_list"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: whitelist [107,116]",
+      "parent": "trailer [408,419]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: address [124,131]",
+      "label": "addr"
+    }
+  ]
+}

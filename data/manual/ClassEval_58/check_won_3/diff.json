@@ -1,0 +1,120 @@
+{
+  "matches": [
+    {
+      "src": "for_stmt [62,179]",
+      "dest": "for_stmt [68,185]"
+    },
+    {
+      "src": "suite [22,198]",
+      "dest": "suite [22,204]"
+    },
+    {
+      "src": "name: cell [101,105]",
+      "dest": "name: cell [107,111]"
+    },
+    {
+      "src": "name: MinesweeperGame [6,21]",
+      "dest": "name: MinesweeperGame [6,21]"
+    },
+    {
+      "src": "classdef [0,198]",
+      "dest": "classdef [0,204]"
+    },
+    {
+      "src": "suite [53,198]",
+      "dest": "suite [59,204]"
+    },
+    {
+      "src": "parameters [40,52]",
+      "dest": "parameters [40,58]"
+    },
+    {
+      "src": "name: row [66,69]",
+      "dest": "name: row [72,75]"
+    },
+    {
+      "src": "comparison [133,144]",
+      "dest": "comparison [139,150]"
+    },
+    {
+      "src": "name: row [109,112]",
+      "dest": "name: row [115,118]"
+    },
+    {
+      "src": "if_stmt [130,179]",
+      "dest": "if_stmt [136,185]"
+    },
+    {
+      "src": "string: 'M' [141,144]",
+      "dest": "string: 'M' [147,150]"
+    },
+    {
+      "src": "name: check_won [31,40]",
+      "dest": "name: check_won [31,40]"
+    },
+    {
+      "src": "name: player_map [73,83]",
+      "dest": "name: player_map [79,89]"
+    },
+    {
+      "src": "return_stmt [187,198]",
+      "dest": "return_stmt [193,204]"
+    },
+    {
+      "src": "for_stmt [97,179]",
+      "dest": "for_stmt [103,185]"
+    },
+    {
+      "src": "file_input [0,198]",
+      "dest": "file_input [0,204]"
+    },
+    {
+      "src": "param [41,51]",
+      "dest": "param [47,57]"
+    },
+    {
+      "src": "suite [145,179]",
+      "dest": "suite [151,185]"
+    },
+    {
+      "src": "suite [113,179]",
+      "dest": "suite [119,185]"
+    },
+    {
+      "src": "operator: != [138,140]",
+      "dest": "operator: != [144,146]"
+    },
+    {
+      "src": "return_stmt [166,178]",
+      "dest": "return_stmt [172,184]"
+    },
+    {
+      "src": "simple_stmt [166,179]",
+      "dest": "simple_stmt [172,185]"
+    },
+    {
+      "src": "name: cell [133,137]",
+      "dest": "name: cell [139,143]"
+    },
+    {
+      "src": "name: player_map [41,51]",
+      "dest": "name: player_map [47,57]"
+    },
+    {
+      "src": "suite [84,179]",
+      "dest": "suite [90,185]"
+    },
+    {
+      "src": "funcdef [27,198]",
+      "dest": "funcdef [27,204]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [41,46]",
+      "parent": "parameters [40,58]",
+      "at": 0
+    }
+  ]
+}

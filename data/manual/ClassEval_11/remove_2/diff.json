@@ -1,0 +1,447 @@
+{
+  "matches": [
+    {
+      "src": "suite [243,311]",
+      "dest": "suite [818,886]"
+    },
+    {
+      "src": "arglist [386,406]",
+      "dest": "arglist [585,594]"
+    },
+    {
+      "src": "name: isinstance [485,495]",
+      "dest": "name: stat [702,706]"
+    },
+    {
+      "src": "suite [20,585]",
+      "dest": "suite [20,917]"
+    },
+    {
+      "src": "trailer [385,407]",
+      "dest": "trailer [584,595]"
+    },
+    {
+      "src": "atom_expr [182,229]",
+      "dest": "atom_expr [757,804]"
+    },
+    {
+      "src": "classdef [0,585]",
+      "dest": "classdef [0,917]"
+    },
+    {
+      "src": "suite [70,585]",
+      "dest": "suite [50,917]"
+    },
+    {
+      "src": "name: str [514,517]",
+      "dest": "name: stat [740,744]"
+    },
+    {
+      "src": "atom_expr [421,469]",
+      "dest": "atom_expr [609,651]"
+    },
+    {
+      "src": "string: \"Error: current_status should be a list.\" [427,468]",
+      "dest": "string: \"Error: stat should be an integer.\" [615,650]"
+    },
+    {
+      "src": "trailer [261,310]",
+      "dest": "trailer [836,885]"
+    },
+    {
+      "src": "name: specified_status [52,68]",
+      "dest": "name: stat [44,48]"
+    },
+    {
+      "src": "simple_stmt [182,230]",
+      "dest": "simple_stmt [757,805]"
+    },
+    {
+      "src": "trailer [187,229]",
+      "dest": "trailer [762,804]"
+    },
+    {
+      "src": "trailer [151,169]",
+      "dest": "trailer [461,474]"
+    },
+    {
+      "src": "name: print [256,261]",
+      "dest": "name: print [831,836]"
+    },
+    {
+      "src": "name: print [182,187]",
+      "dest": "name: print [757,762]"
+    },
+    {
+      "src": "param [36,51]",
+      "dest": "param [36,43]"
+    },
+    {
+      "src": "not_test [371,407]",
+      "dest": "not_test [570,595]"
+    },
+    {
+      "src": "funcdef [25,585]",
+      "dest": "funcdef [25,917]"
+    },
+    {
+      "src": "suite [408,470]",
+      "dest": "suite [596,678]"
+    },
+    {
+      "src": "operator: , [400,401]",
+      "dest": "operator: , [589,590]"
+    },
+    {
+      "src": "name: specified_status [496,512]",
+      "dest": "name: states [709,715]"
+    },
+    {
+      "src": "trailer [426,469]",
+      "dest": "trailer [614,651]"
+    },
+    {
+      "src": "atom_expr [130,169]",
+      "dest": "atom_expr [451,474]"
+    },
+    {
+      "src": "if_stmt [368,470]",
+      "dest": "if_stmt [567,678]"
+    },
+    {
+      "src": "simple_stmt [256,311]",
+      "dest": "simple_stmt [831,886]"
+    },
+    {
+      "src": "name: list [402,406]",
+      "dest": "name: int [591,594]"
+    },
+    {
+      "src": "operator: , [50,51]",
+      "dest": "operator: , [42,43]"
+    },
+    {
+      "src": "name: remove [145,151]",
+      "dest": "name: isinstance [451,461]"
+    },
+    {
+      "src": "operator: , [512,513]",
+      "dest": "operator: &= [736,738]"
+    },
+    {
+      "src": "file_input [0,589]",
+      "dest": "file_input [0,918]"
+    },
+    {
+      "src": "if_stmt [478,585]",
+      "dest": "if_stmt [699,886]"
+    },
+    {
+      "src": "name: BitStatusUtil [6,19]",
+      "dest": "name: BitStatusUtil [6,19]"
+    },
+    {
+      "src": "string: \"Specified status not found in current status.\" [262,309]",
+      "dest": "string: \"Specified status not found in current status.\" [837,884]"
+    },
+    {
+      "src": "string: \"Specified status removed successfully.\" [188,228]",
+      "dest": "string: \"Specified status removed successfully.\" [763,803]"
+    },
+    {
+      "src": "name: isinstance [375,385]",
+      "dest": "name: isinstance [574,584]"
+    },
+    {
+      "src": "param [52,68]",
+      "dest": "param [44,48]"
+    },
+    {
+      "src": "atom_expr [375,407]",
+      "dest": "atom_expr [574,595]"
+    },
+    {
+      "src": "atom_expr [256,310]",
+      "dest": "atom_expr [831,885]"
+    },
+    {
+      "src": "parameters [35,69]",
+      "dest": "parameters [35,49]"
+    },
+    {
+      "src": "simple_stmt [421,470]",
+      "dest": "simple_stmt [609,652]"
+    },
+    {
+      "src": "name: print [421,426]",
+      "dest": "name: print [609,614]"
+    },
+    {
+      "src": "name: current_status [386,400]",
+      "dest": "name: stat [585,589]"
+    },
+    {
+      "src": "name: remove [29,35]",
+      "dest": "name: remove [29,35]"
+    },
+    {
+      "src": "if_stmt [79,311]",
+      "dest": "if_stmt [444,559]"
+    },
+    {
+      "src": "name: specified_status [152,168]",
+      "dest": "name: states [462,468]"
+    },
+    {
+      "src": "name: current_status [36,50]",
+      "dest": "name: states [36,42]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [59,436]",
+      "parent": "suite [50,917]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [903,917]",
+      "parent": "suite [50,917]",
+      "at": 4
+    },
+    {
+      "action": "update-node",
+      "tree": "name: current_status [36,50]",
+      "label": "states"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: specified_status [52,68]",
+      "label": "stat"
+    },
+    {
+      "action": "insert-node",
+      "tree": "not_test [447,474]",
+      "parent": "if_stmt [444,559]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [475,559]",
+      "parent": "if_stmt [444,559]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "and_expr [702,715]",
+      "parent": "if_stmt [699,886]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [716,805]",
+      "parent": "if_stmt [699,886]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [243,311]",
+      "parent": "if_stmt [699,886]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [130,169]",
+      "parent": "not_test [447,474]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [664,678]",
+      "parent": "suite [596,678]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: isinstance [485,495]",
+      "label": "stat"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: isinstance [485,495]",
+      "parent": "and_expr [702,715]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: & [707,708]",
+      "parent": "and_expr [702,715]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: specified_status [496,512]",
+      "label": "states"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: specified_status [496,512]",
+      "parent": "and_expr [702,715]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [729,745]",
+      "parent": "suite [716,805]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [182,230]",
+      "parent": "suite [716,805]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: remove [145,151]",
+      "label": "isinstance"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: remove [145,151]",
+      "parent": "atom_expr [451,474]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [729,744]",
+      "parent": "simple_stmt [729,745]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "arglist [462,473]",
+      "parent": "trailer [461,474]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: states [729,735]",
+      "parent": "expr_stmt [729,744]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: , [512,513]",
+      "label": "&="
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: , [512,513]",
+      "parent": "expr_stmt [729,744]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "factor [739,744]",
+      "parent": "expr_stmt [729,744]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: specified_status [152,168]",
+      "label": "states"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: specified_status [152,168]",
+      "parent": "arglist [462,473]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [468,469]",
+      "parent": "arglist [462,473]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: int [470,473]",
+      "parent": "arglist [462,473]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: current_status [386,400]",
+      "label": "stat"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: list [402,406]",
+      "label": "int"
+    },
+    {
+      "action": "update-node",
+      "tree": "string: \"Error: current_status should be a list.\" [427,468]",
+      "label": "\"Error: stat should be an integer.\""
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: ~ [739,740]",
+      "parent": "factor [739,744]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: str [514,517]",
+      "label": "stat"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: str [514,517]",
+      "parent": "factor [739,744]",
+      "at": 1
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: current_status [130,144]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [144,151]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "comparison [82,116]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [130,170]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [117,230]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "arglist [496,517]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [495,518]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [485,518]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "not_test [481,518]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "suite [519,585]"
+    }
+  ]
+}

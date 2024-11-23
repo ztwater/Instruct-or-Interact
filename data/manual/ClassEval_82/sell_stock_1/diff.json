@@ -1,0 +1,313 @@
+{
+  "matches": [
+    {
+      "src": "name: stock [183,188]",
+      "dest": "name: stock [501,506]"
+    },
+    {
+      "src": "suite [28,267]",
+      "dest": "suite [28,570]"
+    },
+    {
+      "src": "parameters [47,79]",
+      "dest": "parameters [47,60]"
+    },
+    {
+      "src": "classdef [0,267]",
+      "dest": "classdef [0,570]"
+    },
+    {
+      "src": "suite [80,267]",
+      "dest": "suite [61,570]"
+    },
+    {
+      "src": "expr_stmt [124,156]",
+      "dest": "expr_stmt [411,466]"
+    },
+    {
+      "src": "return_stmt [202,221]",
+      "dest": "return_stmt [520,531]"
+    },
+    {
+      "src": "suite [235,267]",
+      "dest": "suite [545,570]"
+    },
+    {
+      "src": "name: portfolio [173,182]",
+      "dest": "name: portfolio [484,493]"
+    },
+    {
+      "src": "comparison [92,110]",
+      "dest": "comparison [374,397]"
+    },
+    {
+      "src": "name: StockPortfolioTracker [6,27]",
+      "dest": "name: StockPortfolioTracker [6,27]"
+    },
+    {
+      "src": "trailer [182,189]",
+      "dest": "trailer [500,507]"
+    },
+    {
+      "src": "name: stock [150,155]",
+      "dest": "name: stock [449,454]"
+    },
+    {
+      "src": "simple_stmt [169,190]",
+      "dest": "simple_stmt [479,508]"
+    },
+    {
+      "src": "atom_expr [173,189]",
+      "dest": "atom_expr [479,507]"
+    },
+    {
+      "src": "file_input [0,267]",
+      "dest": "file_input [0,570]"
+    },
+    {
+      "src": "name: portfolio [55,64]",
+      "dest": "name: stock [54,59]"
+    },
+    {
+      "src": "suite [111,222]",
+      "dest": "suite [398,532]"
+    },
+    {
+      "src": "name: portfolio [101,110]",
+      "dest": "name: portfolio [388,397]"
+    },
+    {
+      "src": "operator: , [53,54]",
+      "dest": "operator: , [52,53]"
+    },
+    {
+      "src": "name: sell_stock [37,47]",
+      "dest": "name: sell_stock [37,47]"
+    },
+    {
+      "src": "name: stock [92,97]",
+      "dest": "name: stock [374,379]"
+    },
+    {
+      "src": "param [55,65]",
+      "dest": "param [54,59]"
+    },
+    {
+      "src": "name: stock [48,53]",
+      "dest": "name: self [48,52]"
+    },
+    {
+      "src": "operator: += [137,139]",
+      "dest": "operator: += [429,431]"
+    },
+    {
+      "src": "return_stmt [248,267]",
+      "dest": "return_stmt [558,570]"
+    },
+    {
+      "src": "param [48,54]",
+      "dest": "param [48,53]"
+    },
+    {
+      "src": "name: cash_balance [124,136]",
+      "dest": "name: cash_balance [416,428]"
+    },
+    {
+      "src": "simple_stmt [124,157]",
+      "dest": "simple_stmt [411,467]"
+    },
+    {
+      "src": "if_stmt [89,267]",
+      "dest": "if_stmt [371,570]"
+    },
+    {
+      "src": "name: portfolio [140,149]",
+      "dest": "name: stock [432,437]"
+    },
+    {
+      "src": "funcdef [33,267]",
+      "dest": "funcdef [33,570]"
+    },
+    {
+      "src": "simple_stmt [202,222]",
+      "dest": "simple_stmt [520,532]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [70,363]",
+      "parent": "suite [61,570]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: stock [48,53]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: portfolio [55,64]",
+      "label": "stock"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [383,397]",
+      "parent": "comparison [374,397]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [383,387]",
+      "parent": "atom_expr [383,397]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [387,397]",
+      "parent": "atom_expr [383,397]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [173,189]",
+      "parent": "simple_stmt [479,508]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: portfolio [101,110]",
+      "parent": "trailer [387,397]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [411,428]",
+      "parent": "expr_stmt [411,466]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "term [432,466]",
+      "parent": "expr_stmt [411,466]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [479,483]",
+      "parent": "atom_expr [479,507]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [483,493]",
+      "parent": "atom_expr [479,507]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [493,500]",
+      "parent": "atom_expr [479,507]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [411,415]",
+      "parent": "atom_expr [411,428]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [415,428]",
+      "parent": "atom_expr [411,428]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [432,446]",
+      "parent": "term [432,466]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: * [447,448]",
+      "parent": "term [432,466]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [449,466]",
+      "parent": "term [432,466]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: portfolio [173,182]",
+      "parent": "trailer [483,493]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: cash_balance [124,136]",
+      "parent": "trailer [415,428]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: portfolio [140,149]",
+      "label": "stock"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: portfolio [140,149]",
+      "parent": "atom_expr [432,446]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [437,446]",
+      "parent": "atom_expr [432,446]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: stock [150,155]",
+      "parent": "atom_expr [449,466]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [454,466]",
+      "parent": "atom_expr [449,466]",
+      "at": 1
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [64,65]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "param [66,78]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [149,156]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [140,156]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "del_stmt [169,189]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: cash_balance [209,221]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: cash_balance [255,267]"
+    }
+  ]
+}

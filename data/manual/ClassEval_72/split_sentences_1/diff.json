@@ -1,0 +1,296 @@
+{
+  "matches": [
+    {
+      "src": "number: 1 [137,138]",
+      "dest": "number: 1 [143,144]"
+    },
+    {
+      "src": "suite [17,301]",
+      "dest": "suite [17,308]"
+    },
+    {
+      "src": "name: search [207,213]",
+      "dest": "name: search [213,219]"
+    },
+    {
+      "src": "testlist_comp [161,235]",
+      "dest": "testlist_comp [167,241]"
+    },
+    {
+      "src": "classdef [0,301]",
+      "dest": "classdef [0,308]"
+    },
+    {
+      "src": "suite [48,301]",
+      "dest": "suite [54,308]"
+    },
+    {
+      "src": "name: sentences [245,254]",
+      "dest": "name: sentences [251,260]"
+    },
+    {
+      "src": "factor [136,138]",
+      "dest": "factor [142,144]"
+    },
+    {
+      "src": "simple_stmt [57,102]",
+      "dest": "simple_stmt [63,108]"
+    },
+    {
+      "src": "name: text [96,100]",
+      "dest": "name: text [102,106]"
+    },
+    {
+      "src": "name: sentence [174,182]",
+      "dest": "name: sentence [180,188]"
+    },
+    {
+      "src": "subscript [196,199]",
+      "dest": "subscript [202,205]"
+    },
+    {
+      "src": "operator: = [67,68]",
+      "dest": "operator: = [73,74]"
+    },
+    {
+      "src": "operator: , [94,95]",
+      "dest": "operator: , [100,101]"
+    },
+    {
+      "src": "atom_expr [126,139]",
+      "dest": "atom_expr [132,145]"
+    },
+    {
+      "src": "atom_expr [69,101]",
+      "dest": "atom_expr [75,107]"
+    },
+    {
+      "src": "comp_if [201,235]",
+      "dest": "comp_if [207,241]"
+    },
+    {
+      "src": "name: re [204,206]",
+      "dest": "name: re [210,212]"
+    },
+    {
+      "src": "arglist [214,234]",
+      "dest": "arglist [220,240]"
+    },
+    {
+      "src": "trailer [261,276]",
+      "dest": "trailer [267,282]"
+    },
+    {
+      "src": "trailer [195,200]",
+      "dest": "trailer [201,206]"
+    },
+    {
+      "src": "param [42,46]",
+      "dest": "param [48,52]"
+    },
+    {
+      "src": "trailer [213,235]",
+      "dest": "trailer [219,241]"
+    },
+    {
+      "src": "operator: - [136,137]",
+      "dest": "operator: - [142,143]"
+    },
+    {
+      "src": "operator: = [158,159]",
+      "dest": "operator: = [164,165]"
+    },
+    {
+      "src": "trailer [254,261]",
+      "dest": "trailer [260,267]"
+    },
+    {
+      "src": "atom_expr [245,276]",
+      "dest": "atom_expr [251,282]"
+    },
+    {
+      "src": "funcdef [22,301]",
+      "dest": "funcdef [22,308]"
+    },
+    {
+      "src": "string: r'(?<=[.!?])\\s+' [78,94]",
+      "dest": "string: r'(?<=[.!?])\\s+' [84,100]"
+    },
+    {
+      "src": "simple_stmt [110,140]",
+      "dest": "simple_stmt [116,146]"
+    },
+    {
+      "src": "expr_stmt [57,101]",
+      "dest": "expr_stmt [63,107]"
+    },
+    {
+      "src": "atom_expr [204,235]",
+      "dest": "atom_expr [210,241]"
+    },
+    {
+      "src": "expr_stmt [148,236]",
+      "dest": "expr_stmt [154,242]"
+    },
+    {
+      "src": "atom_expr [186,200]",
+      "dest": "atom_expr [192,206]"
+    },
+    {
+      "src": "name: sentence [226,234]",
+      "dest": "name: sentence [232,240]"
+    },
+    {
+      "src": "name: sentence [161,169]",
+      "dest": "name: sentence [167,175]"
+    },
+    {
+      "src": "arglist [78,100]",
+      "dest": "arglist [84,106]"
+    },
+    {
+      "src": "trailer [135,139]",
+      "dest": "trailer [141,145]"
+    },
+    {
+      "src": "parameters [41,47]",
+      "dest": "parameters [41,53]"
+    },
+    {
+      "src": "name: sentences [148,157]",
+      "dest": "name: sentences [154,163]"
+    },
+    {
+      "src": "atom [160,236]",
+      "dest": "atom [166,242]"
+    },
+    {
+      "src": "name: sentences [292,301]",
+      "dest": "name: sentences [298,307]"
+    },
+    {
+      "src": "name: last_sentence [262,275]",
+      "dest": "name: last_sentence [268,281]"
+    },
+    {
+      "src": "file_input [0,301]",
+      "dest": "file_input [0,308]"
+    },
+    {
+      "src": "trailer [206,213]",
+      "dest": "trailer [212,219]"
+    },
+    {
+      "src": "name: split [72,77]",
+      "dest": "name: split [78,83]"
+    },
+    {
+      "src": "name: text [42,46]",
+      "dest": "name: text [48,52]"
+    },
+    {
+      "src": "factor [197,199]",
+      "dest": "factor [203,205]"
+    },
+    {
+      "src": "string: r'[^\\w\\s]' [214,224]",
+      "dest": "string: r'[^\\w\\s]' [220,230]"
+    },
+    {
+      "src": "name: RegexUtils [6,16]",
+      "dest": "name: RegexUtils [6,16]"
+    },
+    {
+      "src": "sync_comp_for [170,235]",
+      "dest": "sync_comp_for [176,241]"
+    },
+    {
+      "src": "number: 1 [198,199]",
+      "dest": "number: 1 [204,205]"
+    },
+    {
+      "src": "name: re [69,71]",
+      "dest": "name: re [75,77]"
+    },
+    {
+      "src": "operator: - [197,198]",
+      "dest": "operator: - [203,204]"
+    },
+    {
+      "src": "return_stmt [285,301]",
+      "dest": "return_stmt [291,307]"
+    },
+    {
+      "src": "name: sentences [186,195]",
+      "dest": "name: sentences [192,201]"
+    },
+    {
+      "src": "name: sentences [126,135]",
+      "dest": "name: sentences [132,141]"
+    },
+    {
+      "src": "name: sentences [57,66]",
+      "dest": "name: sentences [63,72]"
+    },
+    {
+      "src": "operator: , [224,225]",
+      "dest": "operator: , [230,231]"
+    },
+    {
+      "src": "trailer [77,101]",
+      "dest": "trailer [83,107]"
+    },
+    {
+      "src": "expr_stmt [110,139]",
+      "dest": "expr_stmt [116,145]"
+    },
+    {
+      "src": "name: split_sentences [26,41]",
+      "dest": "name: split_sentences [26,41]"
+    },
+    {
+      "src": "simple_stmt [148,237]",
+      "dest": "simple_stmt [154,243]"
+    },
+    {
+      "src": "simple_stmt [245,277]",
+      "dest": "simple_stmt [251,283]"
+    },
+    {
+      "src": "name: last_sentence [110,123]",
+      "dest": "name: last_sentence [116,129]"
+    },
+    {
+      "src": "operator: = [124,125]",
+      "dest": "operator: = [130,131]"
+    },
+    {
+      "src": "trailer [71,77]",
+      "dest": "trailer [77,83]"
+    },
+    {
+      "src": "name: append [255,261]",
+      "dest": "name: append [261,267]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [42,47]",
+      "parent": "parameters [41,53]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [291,308]",
+      "parent": "suite [54,308]",
+      "at": 4
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [285,301]",
+      "parent": "simple_stmt [291,308]",
+      "at": 0
+    }
+  ]
+}

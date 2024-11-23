@@ -1,0 +1,51 @@
+[
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "matutils",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".cosine_similarity",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "cosine_similarity",
+        "deleted": "cosine_similarity",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "vector_list_1",
+        "deleted": "vectors1",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "vector_list_2",
+        "deleted": "vectors2",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "vector_list_1",
+        "deleted": "vectors1",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "vector_list_2",
+        "deleted": "vectors2",
+        "type": "Refactoring"
+    }
+]

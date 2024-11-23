@@ -1,0 +1,70 @@
+{
+  "matches": [
+    {
+      "src": "name: BookManagementDB [6,22]",
+      "dest": "name: BookManagementDB [6,22]"
+    },
+    {
+      "src": "suite [23,186]",
+      "dest": "suite [23,297]"
+    },
+    {
+      "src": "suite [53,186]",
+      "dest": "suite [59,297]"
+    },
+    {
+      "src": "classdef [0,186]",
+      "dest": "classdef [0,297]"
+    },
+    {
+      "src": "parameters [43,52]",
+      "dest": "parameters [43,58]"
+    },
+    {
+      "src": "file_input [0,186]",
+      "dest": "file_input [0,297]"
+    },
+    {
+      "src": "name: book_id [44,51]",
+      "dest": "name: book_id [50,57]"
+    },
+    {
+      "src": "funcdef [28,186]",
+      "dest": "funcdef [28,297]"
+    },
+    {
+      "src": "param [44,51]",
+      "dest": "param [50,57]"
+    },
+    {
+      "src": "name: remove_book [32,43]",
+      "dest": "name: remove_book [32,43]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [44,49]",
+      "parent": "parameters [43,58]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [68,181]",
+      "parent": "suite [59,297]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [189,265]",
+      "parent": "suite [59,297]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [273,297]",
+      "parent": "suite [59,297]",
+      "at": 2
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "matches": [
+    {
+      "src": "name: order_total [135,146]",
+      "dest": "name: order_total [774,785]"
+    },
+    {
+      "src": "operator: > [104,105]",
+      "dest": "operator: > [743,744]"
+    },
+    {
+      "src": "suite [23,216]",
+      "dest": "suite [23,856]"
+    },
+    {
+      "src": "name: discount [173,181]",
+      "dest": "name: discount [812,820]"
+    },
+    {
+      "src": "number: 1000 [106,110]",
+      "dest": "number: 1000 [745,749]"
+    },
+    {
+      "src": "comparison [88,110]",
+      "dest": "comparison [727,749]"
+    },
+    {
+      "src": "classdef [0,216]",
+      "dest": "classdef [0,856]"
+    },
+    {
+      "src": "number: 0 [215,216]",
+      "dest": "number: 0 [854,855]"
+    },
+    {
+      "src": "suite [76,216]",
+      "dest": "suite [53,856]"
+    },
+    {
+      "src": "simple_stmt [166,182]",
+      "dest": "simple_stmt [805,821]"
+    },
+    {
+      "src": "operator: , [61,62]",
+      "dest": "operator: , [677,678]"
+    },
+    {
+      "src": "name: fidelity_points [46,61]",
+      "dest": "name: fidelity_points [630,645]"
+    },
+    {
+      "src": "name: FidelityPromo [32,45]",
+      "dest": "name: FidelityPromo [32,45]"
+    },
+    {
+      "src": "name: order_total [63,74]",
+      "dest": "name: order_total [690,701]"
+    },
+    {
+      "src": "file_input [0,216]",
+      "dest": "file_input [0,856]"
+    },
+    {
+      "src": "return_stmt [208,216]",
+      "dest": "return_stmt [847,855]"
+    },
+    {
+      "src": "return_stmt [166,181]",
+      "dest": "return_stmt [805,820]"
+    },
+    {
+      "src": "name: fidelity_points [88,103]",
+      "dest": "name: fidelity_points [727,742]"
+    },
+    {
+      "src": "name: DiscountStrategy [6,22]",
+      "dest": "name: DiscountStrategy [6,22]"
+    },
+    {
+      "src": "term [135,153]",
+      "dest": "term [774,792]"
+    },
+    {
+      "src": "suite [195,216]",
+      "dest": "suite [834,856]"
+    },
+    {
+      "src": "number: 0.05 [149,153]",
+      "dest": "number: 0.05 [788,792]"
+    },
+    {
+      "src": "operator: * [147,148]",
+      "dest": "operator: * [786,787]"
+    },
+    {
+      "src": "expr_stmt [124,153]",
+      "dest": "expr_stmt [763,792]"
+    },
+    {
+      "src": "operator: = [133,134]",
+      "dest": "operator: = [772,773]"
+    },
+    {
+      "src": "if_stmt [85,216]",
+      "dest": "if_stmt [724,856]"
+    },
+    {
+      "src": "suite [111,182]",
+      "dest": "suite [750,821]"
+    },
+    {
+      "src": "name: discount [124,132]",
+      "dest": "name: discount [763,771]"
+    },
+    {
+      "src": "funcdef [28,216]",
+      "dest": "funcdef [28,856]"
+    },
+    {
+      "src": "simple_stmt [124,154]",
+      "dest": "simple_stmt [763,793]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "parameters [45,52]",
+      "parent": "funcdef [28,856]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [62,622]",
+      "parent": "suite [53,856]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [630,682]",
+      "parent": "suite [53,856]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [690,716]",
+      "parent": "suite [53,856]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [630,681]",
+      "parent": "simple_stmt [630,682]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [690,715]",
+      "parent": "simple_stmt [690,716]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: fidelity_points [46,61]",
+      "parent": "expr_stmt [630,681]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [646,647]",
+      "parent": "expr_stmt [630,681]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [648,681]",
+      "parent": "expr_stmt [630,681]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: order_total [63,74]",
+      "parent": "expr_stmt [690,715]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [702,703]",
+      "parent": "expr_stmt [690,715]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom_expr [704,715]",
+      "parent": "expr_stmt [690,715]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [847,856]",
+      "parent": "suite [834,856]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: order [648,653]",
+      "parent": "atom_expr [648,681]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [653,662]",
+      "parent": "atom_expr [648,681]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [662,666]",
+      "parent": "atom_expr [648,681]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [666,681]",
+      "parent": "atom_expr [648,681]",
+      "at": 3
+    },
+    {
+      "action": "move-tree",
+      "tree": "return_stmt [208,216]",
+      "parent": "simple_stmt [847,856]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "arglist [667,680]",
+      "parent": "trailer [666,681]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: 'fidelity' [667,677]",
+      "parent": "arglist [667,680]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: , [61,62]",
+      "parent": "arglist [667,680]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "number: 0 [679,680]",
+      "parent": "arglist [667,680]",
+      "at": 2
+    },
+    {
+      "action": "delete-node",
+      "tree": "param [46,62]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "param [63,74]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "parameters [45,75]"
+    }
+  ]
+}

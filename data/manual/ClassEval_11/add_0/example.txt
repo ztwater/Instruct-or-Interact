@@ -1,0 +1,71 @@
+Requirement:
+
+def add(states, stat):
+    """
+    Add a status to the current status, and check the parameters whether they are legal.
+    """
+
+Retrieved Snippet:
+
+def add(current_status, new_status):
+	if not isinstance(current_status, str) or not isinstance(new_status, str):
+		raise TypeError("Parameters must be of type str")
+	return current_status + new_status
+
+Class Context:
+
+class BitStatusUtil:
+    """
+	This is a utility class that provides methods for manipulating and checking status using bitwise operations.
+	"""	
+	@staticmethod
+    def check(args):
+		...
+
+
+Adapted Snippet:
+
+def add(self, states: int, stat: int) -> int:
+	if not isinstance(states, int) or not isinstance(stat, int):
+		raise TypeError("Parameters must be of type int")
+	
+	return states + stat
+
+Failed Tests:
+TypeError: add() missing 1 required positional argument: 'stat'.
+AssertionError: 4 != 2 （这行不用）
+
+Correct Adaptation:
+def add(states, stat):
+    BitStatusUtil.check([states, stat])
+	return states | stat
+	
+Interaction:
+
+def check(args):
+	"""
+	Check if the parameters are legal.
+	"""
+	for arg in args:
+		if arg < 0:
+			raise ValueError(f"{arg} must be greater than or equal to 0")
+		if arg % 2 != 0:
+			raise ValueError(f"{arg} not even")
+	...
+	
+Above is a class context of ‘BitStatusUtil‘, please understand and remember it but do not reply to this message, do you understand?
+
+Yes, I understand.
+
+...
+I would like you to ask me at most 3 questions to retrieve necessary information to adapt the provided code snippet `add` to the class context of `BitStatusUtil`.
+It should be implemented using methods: `check`. Once you have sufficient information, please write out the adapted method.
+
+To adapt the provided code snippet add to the BitStatusUtil class, I need to make several modifications. Here are some questions to gather the necessary information:
+Q1: Should the `add` method be an instance method or a static method?
+Q2: Should the `add` method perform bitwise addition (`+`) or bitwise OR (`|`) operation to add the `stat` to the `states`?
+
+
+The answers to your questions are listed below:
+1. It should be a static method. 
+2. It should perform bitwise OR (`|`).

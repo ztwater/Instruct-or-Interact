@@ -1,0 +1,142 @@
+{
+  "matches": [
+    {
+      "src": "operator: , [119,120]",
+      "dest": "operator: , [380,381]"
+    },
+    {
+      "src": "suite [24,163]",
+      "dest": "suite [24,438]"
+    },
+    {
+      "src": "name: CurrencyConverter [6,23]",
+      "dest": "name: CurrencyConverter [6,23]"
+    },
+    {
+      "src": "classdef [0,163]",
+      "dest": "classdef [0,438]"
+    },
+    {
+      "src": "suite [60,163]",
+      "dest": "suite [64,438]"
+    },
+    {
+      "src": "testlist_comp [93,126]",
+      "dest": "testlist_comp [354,401]"
+    },
+    {
+      "src": "string: 'CAD' [121,126]",
+      "dest": "string: 'CAD' [382,387]"
+    },
+    {
+      "src": "string: 'GBP' [107,112]",
+      "dest": "string: 'GBP' [368,373]"
+    },
+    {
+      "src": "operator: = [90,91]",
+      "dest": "operator: = [351,352]"
+    },
+    {
+      "src": "file_input [0,163]",
+      "dest": "file_input [0,438]"
+    },
+    {
+      "src": "expr_stmt [69,127]",
+      "dest": "expr_stmt [330,402]"
+    },
+    {
+      "src": "operator: , [105,106]",
+      "dest": "operator: , [366,367]"
+    },
+    {
+      "src": "operator: , [112,113]",
+      "dest": "operator: , [373,374]"
+    },
+    {
+      "src": "string: 'JPY' [114,119]",
+      "dest": "string: 'JPY' [375,380]"
+    },
+    {
+      "src": "name: supported_currencies [143,163]",
+      "dest": "name: supported_currencies [418,438]"
+    },
+    {
+      "src": "name: supported_currencies [69,89]",
+      "dest": "name: supported_currencies [330,350]"
+    },
+    {
+      "src": "atom [92,127]",
+      "dest": "atom [353,402]"
+    },
+    {
+      "src": "parameters [57,59]",
+      "dest": "parameters [57,63]"
+    },
+    {
+      "src": "operator: , [98,99]",
+      "dest": "operator: , [359,360]"
+    },
+    {
+      "src": "simple_stmt [69,128]",
+      "dest": "simple_stmt [330,403]"
+    },
+    {
+      "src": "return_stmt [136,163]",
+      "dest": "return_stmt [411,438]"
+    },
+    {
+      "src": "funcdef [29,163]",
+      "dest": "funcdef [29,438]"
+    },
+    {
+      "src": "string: 'USD' [93,98]",
+      "dest": "string: 'USD' [354,359]"
+    },
+    {
+      "src": "string: 'EUR' [100,105]",
+      "dest": "string: 'EUR' [361,366]"
+    },
+    {
+      "src": "name: get_supported_currencies [33,57]",
+      "dest": "name: get_supported_currencies [33,57]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [58,62]",
+      "parent": "parameters [57,63]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [73,322]",
+      "parent": "suite [64,438]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [387,388]",
+      "parent": "testlist_comp [354,401]",
+      "at": 9
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: 'AUD' [389,394]",
+      "parent": "testlist_comp [354,401]",
+      "at": 10
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [394,395]",
+      "parent": "testlist_comp [354,401]",
+      "at": 11
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: 'CNY' [396,401]",
+      "parent": "testlist_comp [354,401]",
+      "at": 12
+    }
+  ]
+}

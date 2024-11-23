@@ -1,0 +1,65 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        simulate the operation of Thermostat. It will automatically start the auto_set_mode method to set the operating mode,\n        and then automatically adjust the current temperature according to the operating mode until the target temperature is reached.\n        :return time: int, the time it took to complete the simulation.\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "start_time = time.time()\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "while_stmt",
+        "inserted": "while self.current_temperature != self.target_temperature:\n            if self.current_temperature < self.target_temperature:\n                # Adjust temperature based on mode\n                if self.mode == 'cool':\n                    self.current_temperature += 1\n                elif self.mode == 'heat':\n                    self.current_temperature -= 1\n            elif self.current_temperature > self.target_temperature:\n                # Adjust temperature based on mode\n                if self.mode == 'cool':\n                    self.current_temperature -= 1\n                elif self.mode == 'heat':\n                    self.current_temperature += 1\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "end_time = time.time()\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "return_stmt",
+        "inserted": "return int(end_time - start_time)",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".auto_set_mode",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "auto_set_mode",
+        "deleted": "auto_set_mode",
+        "type": "Move"
+    }
+]

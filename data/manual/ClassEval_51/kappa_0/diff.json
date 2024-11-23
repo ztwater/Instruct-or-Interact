@@ -1,0 +1,72 @@
+{
+  "matches": [
+    {
+      "src": "file_input [0,647]",
+      "dest": "file_input [0,32]"
+    },
+    {
+      "src": "name: KappaCalculator [6,21]",
+      "dest": "name: KappaCalculator [6,21]"
+    },
+    {
+      "src": "classdef [0,647]",
+      "dest": "classdef [0,32]"
+    },
+    {
+      "src": "suite [45,647]",
+      "dest": "suite [22,32]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "move-tree",
+      "tree": "suite [45,647]",
+      "parent": "classdef [0,32]",
+      "at": 1
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [100,126]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [186,241]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [301,337]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [345,384]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [392,468]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [529,612]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "return_stmt [629,647]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: kappa [31,36]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "parameters [36,44]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "funcdef [27,647]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [22,647]"
+    }
+  ]
+}

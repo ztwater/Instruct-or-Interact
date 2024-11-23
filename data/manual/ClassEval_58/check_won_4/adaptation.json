@@ -1,0 +1,16 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Checks whether the player has won the game, if there are just mines in the player map, return True, otherwise return False.\n        :return: True if the player has won the game, False otherwise.\n        >>> minesweeper_game = MinesweeperGame(3, 1)\n        >>> minesweeper_game.minesweeper_map = [['X', 1, 0], [1, 1, 0], [0, 0, 0]]\n        >>> minesweeper_game.player_map = [['-', '-', '-'], ['-', '-', '-'], ['-', '-', '-']]\n        >>> minesweeper_game.check_won(minesweeper_game.player_map)\n        False\n\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    }
+]

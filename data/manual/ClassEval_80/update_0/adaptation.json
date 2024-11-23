@@ -1,0 +1,65 @@
+[
+    {
+        "action": "INS",
+        "label": "operator",
+        "inserted": "=",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "where",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "where_clause = ' AND '.join([f\"{column}='{value}'\" for column, value in where.items()])\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "simple_stmt",
+        "inserted": "where_clause = f\"WHERE {condition}\"\n",
+        "deleted": "where_clause = f\"WHERE {condition}\"\n",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "data",
+        "deleted": "values",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "where",
+        "deleted": "condition",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "where_clause",
+        "deleted": "condition",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "fstring_string",
+        "inserted": "='",
+        "deleted": " = '",
+        "type": "Logic"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "data",
+        "deleted": "values",
+        "type": "Refactoring"
+    }
+]

@@ -1,0 +1,110 @@
+{
+  "matches": [
+    {
+      "src": "simple_stmt [65,97]",
+      "dest": "simple_stmt [368,400]"
+    },
+    {
+      "src": "suite [29,138]",
+      "dest": "suite [29,441]"
+    },
+    {
+      "src": "name: NumericEntityUnescaper [6,28]",
+      "dest": "name: NumericEntityUnescaper [6,28]"
+    },
+    {
+      "src": "name: upper [117,122]",
+      "dest": "name: upper [420,425]"
+    },
+    {
+      "src": "name: hex_digits [128,138]",
+      "dest": "name: hex_digits [431,441]"
+    },
+    {
+      "src": "classdef [0,138]",
+      "dest": "classdef [0,441]"
+    },
+    {
+      "src": "suite [56,138]",
+      "dest": "suite [62,441]"
+    },
+    {
+      "src": "comparison [112,138]",
+      "dest": "comparison [415,441]"
+    },
+    {
+      "src": "trailer [122,124]",
+      "dest": "trailer [425,427]"
+    },
+    {
+      "src": "name: hex_digits [65,75]",
+      "dest": "name: hex_digits [368,378]"
+    },
+    {
+      "src": "operator: = [76,77]",
+      "dest": "operator: = [379,380]"
+    },
+    {
+      "src": "param [50,54]",
+      "dest": "param [56,60]"
+    },
+    {
+      "src": "parameters [49,55]",
+      "dest": "parameters [49,61]"
+    },
+    {
+      "src": "expr_stmt [65,96]",
+      "dest": "expr_stmt [368,399]"
+    },
+    {
+      "src": "atom_expr [112,124]",
+      "dest": "atom_expr [415,427]"
+    },
+    {
+      "src": "name: is_hex_char [38,49]",
+      "dest": "name: is_hex_char [38,49]"
+    },
+    {
+      "src": "name: char [50,54]",
+      "dest": "name: char [56,60]"
+    },
+    {
+      "src": "trailer [116,122]",
+      "dest": "trailer [419,425]"
+    },
+    {
+      "src": "return_stmt [105,138]",
+      "dest": "return_stmt [408,441]"
+    },
+    {
+      "src": "name: char [112,116]",
+      "dest": "name: char [415,419]"
+    },
+    {
+      "src": "file_input [0,138]",
+      "dest": "file_input [0,441]"
+    },
+    {
+      "src": "funcdef [34,138]",
+      "dest": "funcdef [34,441]"
+    },
+    {
+      "src": "string: \"0123456789ABCDEF\" [78,96]",
+      "dest": "string: \"0123456789ABCDEF\" [381,399]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [50,55]",
+      "parent": "parameters [49,61]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [71,360]",
+      "parent": "suite [62,441]",
+      "at": 0
+    }
+  ]
+}

@@ -1,0 +1,585 @@
+{
+  "matches": [
+    {
+      "src": "name: select_all [37,47]",
+      "dest": "name: select_all [37,47]"
+    },
+    {
+      "src": "simple_stmt [181,188]",
+      "dest": "simple_stmt [82,278]"
+    },
+    {
+      "src": "arglist [253,294]",
+      "dest": "arglist [327,349]"
+    },
+    {
+      "src": "funcdef [33,328]",
+      "dest": "funcdef [33,427]"
+    },
+    {
+      "src": "name: select [309,315]",
+      "dest": "name: select [389,395]"
+    },
+    {
+      "src": "suite [28,328]",
+      "dest": "suite [28,427]"
+    },
+    {
+      "src": "parameters [73,96]",
+      "dest": "parameters [47,53]"
+    },
+    {
+      "src": "name: print [149,154]",
+      "dest": "name: List [62,66]"
+    },
+    {
+      "src": "name: select [200,206]",
+      "dest": "name: combinations [286,298]"
+    },
+    {
+      "src": "operator: == [119,121]",
+      "dest": "operator: -> [54,56]"
+    },
+    {
+      "src": "trailer [154,164]",
+      "dest": "trailer [66,71]"
+    },
+    {
+      "src": "name: selected [259,267]",
+      "dest": "name: len [330,333]"
+    },
+    {
+      "src": "operator: , [257,258]",
+      "dest": "operator: , [328,329]"
+    },
+    {
+      "src": "name: len [122,125]",
+      "dest": "name: List [57,61]"
+    },
+    {
+      "src": "number: 1 [293,294]",
+      "dest": "number: 1 [348,349]"
+    },
+    {
+      "src": "classdef [0,328]",
+      "dest": "classdef [0,427]"
+    },
+    {
+      "src": "name: select [246,252]",
+      "dest": "name: range [321,326]"
+    },
+    {
+      "src": "name: index [223,228]",
+      "dest": "name: i [316,317]"
+    },
+    {
+      "src": "name: CombinationCalculator [6,27]",
+      "dest": "name: CombinationCalculator [6,27]"
+    },
+    {
+      "src": "name: data [316,320]",
+      "dest": "name: i [396,397]"
+    },
+    {
+      "src": "atom_expr [271,282]",
+      "dest": "atom_expr [334,344]"
+    },
+    {
+      "src": "trailer [275,282]",
+      "dest": "trailer [338,344]"
+    },
+    {
+      "src": "name: data [271,275]",
+      "dest": "name: self [334,338]"
+    },
+    {
+      "src": "trailer [315,328]",
+      "dest": "trailer [395,398]"
+    },
+    {
+      "src": "name: index [276,281]",
+      "dest": "name: datas [339,344]"
+    },
+    {
+      "src": "atom_expr [149,164]",
+      "dest": "atom_expr [62,71]"
+    },
+    {
+      "src": "atom_expr [309,328]",
+      "dest": "atom_expr [384,398]"
+    },
+    {
+      "src": "operator: + [291,292]",
+      "dest": "operator: + [346,347]"
+    },
+    {
+      "src": "atom_expr [246,295]",
+      "dest": "atom_expr [321,350]"
+    },
+    {
+      "src": "trailer [252,295]",
+      "dest": "trailer [326,350]"
+    },
+    {
+      "src": "operator: , [211,212]",
+      "dest": "operator: = [299,300]"
+    },
+    {
+      "src": "name: selected [155,163]",
+      "dest": "name: str [67,70]"
+    },
+    {
+      "src": "file_input [0,328]",
+      "dest": "file_input [0,427]"
+    },
+    {
+      "src": "name: selected [80,88]",
+      "dest": "name: self [48,52]"
+    },
+    {
+      "src": "param [80,89]",
+      "dest": "param [48,52]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "move-tree",
+      "tree": "parameters [73,96]",
+      "parent": "funcdef [33,427]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: == [119,121]",
+      "label": "->"
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: == [119,121]",
+      "parent": "funcdef [33,427]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [57,72]",
+      "parent": "funcdef [33,427]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [73,427]",
+      "parent": "funcdef [33,427]",
+      "at": 4
+    },
+    {
+      "action": "update-node",
+      "tree": "name: len [122,125]",
+      "label": "List"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: len [122,125]",
+      "parent": "atom_expr [57,72]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [61,72]",
+      "parent": "atom_expr [57,72]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [181,188]",
+      "parent": "suite [73,427]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [286,304]",
+      "parent": "suite [73,427]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "for_stmt [312,400]",
+      "parent": "suite [73,427]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "return_stmt [408,427]",
+      "parent": "suite [73,427]",
+      "at": 3
+    },
+    {
+      "action": "update-node",
+      "tree": "name: selected [80,88]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [149,164]",
+      "parent": "trailer [61,72]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: \"\"\"         Generate all possible combinations of selecting elements from the given data list, and it uses the select method.         :return: A list of combinations, List[List[str]].         \"\"\" [82,277]",
+      "parent": "simple_stmt [82,278]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [286,303]",
+      "parent": "simple_stmt [286,304]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: index [223,228]",
+      "label": "i"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: index [223,228]",
+      "parent": "for_stmt [312,400]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [246,295]",
+      "parent": "for_stmt [312,400]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [351,400]",
+      "parent": "for_stmt [312,400]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: print [149,154]",
+      "label": "List"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: select [200,206]",
+      "label": "combinations"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: select [200,206]",
+      "parent": "expr_stmt [286,303]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: , [211,212]",
+      "label": "="
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: , [211,212]",
+      "parent": "expr_stmt [286,303]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom [301,303]",
+      "parent": "expr_stmt [286,303]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: select [246,252]",
+      "label": "range"
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [364,400]",
+      "parent": "suite [351,400]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: selected [155,163]",
+      "label": "str"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [364,399]",
+      "parent": "simple_stmt [364,400]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "number: 1 [327,328]",
+      "parent": "arglist [327,349]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "arith_expr [330,349]",
+      "parent": "arglist [327,349]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: combinations [364,376]",
+      "parent": "atom_expr [364,399]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [376,383]",
+      "parent": "atom_expr [364,399]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [383,399]",
+      "parent": "atom_expr [364,399]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [330,345]",
+      "parent": "arith_expr [330,349]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: + [291,292]",
+      "parent": "arith_expr [330,349]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "number: 1 [293,294]",
+      "parent": "arith_expr [330,349]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [309,328]",
+      "parent": "trailer [383,399]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: selected [259,267]",
+      "label": "len"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: selected [259,267]",
+      "parent": "atom_expr [330,345]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [333,345]",
+      "parent": "atom_expr [330,345]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [384,388]",
+      "parent": "atom_expr [384,398]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [388,395]",
+      "parent": "atom_expr [384,398]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [271,282]",
+      "parent": "trailer [333,345]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: select [309,315]",
+      "parent": "trailer [388,395]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: data [316,320]",
+      "label": "i"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: data [316,320]",
+      "parent": "trailer [395,398]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: data [271,275]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: index [276,281]",
+      "label": "datas"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "param [74,79]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [88,89]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "param [90,95]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: data [253,257]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: + [268,269]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom [270,283]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "arith_expr [259,283]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [283,284]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: index [285,290]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "arith_expr [285,294]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [320,321]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom [322,324]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [324,325]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 0 [326,327]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "arglist [316,327]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "parameters [47,53]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: select [67,73]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: index [113,118]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [125,131]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [122,131]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "comparison [113,131]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [149,165]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [132,188]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "if_stmt [110,188]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: data [207,211]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: selected [213,221]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: , [221,222]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: + [229,230]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 1 [231,232]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "arith_expr [223,232]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "arglist [207,232]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [206,233]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "atom_expr [200,233]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [200,234]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "simple_stmt [246,296]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [97,296]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "funcdef [63,296]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [54,328]"
+    }
+  ]
+}

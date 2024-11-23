@@ -1,0 +1,119 @@
+{
+  "matches": [
+    {
+      "src": "trailer [100,112]",
+      "dest": "trailer [202,214]"
+    },
+    {
+      "src": "name: get_current_time [25,41]",
+      "dest": "name: get_current_time [25,41]"
+    },
+    {
+      "src": "name: datetime [68,76]",
+      "dest": "name: self [180,184]"
+    },
+    {
+      "src": "suite [16,140]",
+      "dest": "suite [16,242]"
+    },
+    {
+      "src": "classdef [0,140]",
+      "dest": "classdef [0,242]"
+    },
+    {
+      "src": "suite [44,140]",
+      "dest": "suite [48,242]"
+    },
+    {
+      "src": "name: current_time [128,140]",
+      "dest": "name: current_time [230,242]"
+    },
+    {
+      "src": "trailer [76,85]",
+      "dest": "trailer [184,193]"
+    },
+    {
+      "src": "operator: = [66,67]",
+      "dest": "operator: = [178,179]"
+    },
+    {
+      "src": "string: '%H:%M:%S' [101,111]",
+      "dest": "string: '%H:%M:%S' [203,213]"
+    },
+    {
+      "src": "name: datetime [77,85]",
+      "dest": "name: datetime [185,193]"
+    },
+    {
+      "src": "name: strftime [92,100]",
+      "dest": "name: strftime [194,202]"
+    },
+    {
+      "src": "parameters [41,43]",
+      "dest": "parameters [41,47]"
+    },
+    {
+      "src": "name: TimeUtils [6,15]",
+      "dest": "name: TimeUtils [6,15]"
+    },
+    {
+      "src": "trailer [91,100]",
+      "dest": "trailer [193,202]"
+    },
+    {
+      "src": "atom_expr [68,112]",
+      "dest": "atom_expr [180,214]"
+    },
+    {
+      "src": "simple_stmt [53,113]",
+      "dest": "simple_stmt [165,215]"
+    },
+    {
+      "src": "file_input [0,140]",
+      "dest": "file_input [0,242]"
+    },
+    {
+      "src": "return_stmt [121,140]",
+      "dest": "return_stmt [223,242]"
+    },
+    {
+      "src": "funcdef [21,140]",
+      "dest": "funcdef [21,242]"
+    },
+    {
+      "src": "expr_stmt [53,112]",
+      "dest": "expr_stmt [165,214]"
+    },
+    {
+      "src": "name: current_time [53,65]",
+      "dest": "name: current_time [165,177]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [42,46]",
+      "parent": "parameters [41,47]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [57,157]",
+      "parent": "suite [48,242]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: datetime [68,76]",
+      "label": "self"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "trailer [85,89]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [89,91]"
+    }
+  ]
+}

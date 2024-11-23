@@ -1,0 +1,238 @@
+{
+  "matches": [
+    {
+      "src": "return_stmt [180,192]",
+      "dest": "return_stmt [403,415]"
+    },
+    {
+      "src": "suite [18,230]",
+      "dest": "suite [18,453]"
+    },
+    {
+      "src": "name: email_box_size [55,69]",
+      "dest": "name: self [55,59]"
+    },
+    {
+      "src": "name: email_size [71,81]",
+      "dest": "name: size [61,65]"
+    },
+    {
+      "src": "name: total_size [136,146]",
+      "dest": "name: total_size [362,372]"
+    },
+    {
+      "src": "classdef [0,230]",
+      "dest": "classdef [0,453]"
+    },
+    {
+      "src": "suite [83,230]",
+      "dest": "suite [67,453]"
+    },
+    {
+      "src": "name: total_size [92,102]",
+      "dest": "name: total_size [306,316]"
+    },
+    {
+      "src": "comparison [136,166]",
+      "dest": "comparison [362,389]"
+    },
+    {
+      "src": "param [71,81]",
+      "dest": "param [61,65]"
+    },
+    {
+      "src": "name: email_box_size [109,123]",
+      "dest": "name: get_occupied_size [324,341]"
+    },
+    {
+      "src": "atom_expr [105,124]",
+      "dest": "atom_expr [319,343]"
+    },
+    {
+      "src": "operator: + [147,148]",
+      "dest": "operator: <= [373,375]"
+    },
+    {
+      "src": "operator: , [69,70]",
+      "dest": "operator: , [59,60]"
+    },
+    {
+      "src": "file_input [0,230]",
+      "dest": "file_input [0,453]"
+    },
+    {
+      "src": "simple_stmt [180,193]",
+      "dest": "simple_stmt [403,416]"
+    },
+    {
+      "src": "name: email_size [149,159]",
+      "dest": "name: self [376,380]"
+    },
+    {
+      "src": "return_stmt [219,230]",
+      "dest": "return_stmt [442,453]"
+    },
+    {
+      "src": "param [55,70]",
+      "dest": "param [55,60]"
+    },
+    {
+      "src": "name: is_full_with_one_more_email [27,54]",
+      "dest": "name: is_full_with_one_more_email [27,54]"
+    },
+    {
+      "src": "trailer [108,124]",
+      "dest": "trailer [323,341]"
+    },
+    {
+      "src": "operator: = [103,104]",
+      "dest": "operator: = [317,318]"
+    },
+    {
+      "src": "suite [206,230]",
+      "dest": "suite [429,453]"
+    },
+    {
+      "src": "name: EmailClient [6,17]",
+      "dest": "name: EmailClient [6,17]"
+    },
+    {
+      "src": "expr_stmt [92,124]",
+      "dest": "expr_stmt [306,350]"
+    },
+    {
+      "src": "simple_stmt [92,125]",
+      "dest": "simple_stmt [306,351]"
+    },
+    {
+      "src": "name: sum [105,108]",
+      "dest": "name: self [319,323]"
+    },
+    {
+      "src": "funcdef [23,230]",
+      "dest": "funcdef [23,453]"
+    },
+    {
+      "src": "parameters [54,82]",
+      "dest": "parameters [54,66]"
+    },
+    {
+      "src": "if_stmt [133,230]",
+      "dest": "if_stmt [359,453]"
+    },
+    {
+      "src": "suite [167,193]",
+      "dest": "suite [390,416]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [76,298]",
+      "parent": "suite [67,453]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: email_box_size [55,69]",
+      "label": "self"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: email_size [71,81]",
+      "label": "size"
+    },
+    {
+      "action": "insert-node",
+      "tree": "arith_expr [319,350]",
+      "parent": "expr_stmt [306,350]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: total_size [136,146]",
+      "parent": "comparison [362,389]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: + [147,148]",
+      "label": "<="
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: + [147,148]",
+      "parent": "comparison [362,389]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [376,389]",
+      "parent": "comparison [362,389]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [105,124]",
+      "parent": "arith_expr [319,350]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: + [344,345]",
+      "parent": "arith_expr [319,350]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: size [346,350]",
+      "parent": "arith_expr [319,350]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: email_size [149,159]",
+      "label": "self"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: email_size [149,159]",
+      "parent": "atom_expr [376,389]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [380,389]",
+      "parent": "atom_expr [376,389]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: sum [105,108]",
+      "label": "self"
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [341,343]",
+      "parent": "atom_expr [319,343]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: email_box_size [109,123]",
+      "label": "get_occupied_size"
+    },
+    {
+      "action": "delete-node",
+      "tree": "arith_expr [136,159]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: <= [160,162]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 100 [163,166]"
+    }
+  ]
+}

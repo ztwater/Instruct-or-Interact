@@ -1,0 +1,104 @@
+{
+  "matches": [
+    {
+      "src": "name: decimal_to_octal [31,47]",
+      "dest": "name: decimal_to_octal [31,47]"
+    },
+    {
+      "src": "suite [22,127]",
+      "dest": "suite [22,392]"
+    },
+    {
+      "src": "name: oct [82,85]",
+      "dest": "name: oct [347,350]"
+    },
+    {
+      "src": "name: decimal_num [86,97]",
+      "dest": "name: decimal_num [351,362]"
+    },
+    {
+      "src": "classdef [0,127]",
+      "dest": "classdef [0,392]"
+    },
+    {
+      "src": "suite [61,127]",
+      "dest": "suite [61,392]"
+    },
+    {
+      "src": "expr_stmt [70,102]",
+      "dest": "expr_stmt [335,367]"
+    },
+    {
+      "src": "subscript [99,101]",
+      "dest": "subscript [364,366]"
+    },
+    {
+      "src": "trailer [85,98]",
+      "dest": "trailer [350,363]"
+    },
+    {
+      "src": "parameters [47,60]",
+      "dest": "parameters [47,60]"
+    },
+    {
+      "src": "name: NumberConverter [6,21]",
+      "dest": "name: NumberConverter [6,21]"
+    },
+    {
+      "src": "trailer [98,102]",
+      "dest": "trailer [363,367]"
+    },
+    {
+      "src": "param [48,59]",
+      "dest": "param [48,59]"
+    },
+    {
+      "src": "return_stmt [111,127]",
+      "dest": "return_stmt [376,392]"
+    },
+    {
+      "src": "name: octal_num [118,127]",
+      "dest": "name: octal_num [383,392]"
+    },
+    {
+      "src": "number: 2 [99,100]",
+      "dest": "number: 2 [364,365]"
+    },
+    {
+      "src": "name: octal_num [70,79]",
+      "dest": "name: octal_num [335,344]"
+    },
+    {
+      "src": "atom_expr [82,102]",
+      "dest": "atom_expr [347,367]"
+    },
+    {
+      "src": "simple_stmt [70,103]",
+      "dest": "simple_stmt [335,368]"
+    },
+    {
+      "src": "operator: = [80,81]",
+      "dest": "operator: = [345,346]"
+    },
+    {
+      "src": "file_input [0,127]",
+      "dest": "file_input [0,392]"
+    },
+    {
+      "src": "funcdef [27,127]",
+      "dest": "funcdef [27,392]"
+    },
+    {
+      "src": "name: decimal_num [48,59]",
+      "dest": "name: decimal_num [48,59]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [70,327]",
+      "parent": "suite [61,392]",
+      "at": 0
+    }
+  ]
+}

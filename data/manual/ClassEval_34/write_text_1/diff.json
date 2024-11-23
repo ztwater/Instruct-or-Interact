@@ -1,0 +1,274 @@
+{
+  "matches": [
+    {
+      "src": "suite [21,162]",
+      "dest": "suite [21,821]"
+    },
+    {
+      "src": "atom_expr [139,162]",
+      "dest": "atom_expr [772,801]"
+    },
+    {
+      "src": "classdef [0,162]",
+      "dest": "classdef [0,821]"
+    },
+    {
+      "src": "name: write_text [30,40]",
+      "dest": "name: write_text [30,40]"
+    },
+    {
+      "src": "trailer [147,152]",
+      "dest": "trailer [780,785]"
+    },
+    {
+      "src": "suite [60,162]",
+      "dest": "suite [88,821]"
+    },
+    {
+      "src": "operator: = [78,79]",
+      "dest": "operator: = [528,529]"
+    },
+    {
+      "src": "param [50,58]",
+      "dest": "param [56,69]"
+    },
+    {
+      "src": "operator: , [48,49]",
+      "dest": "operator: , [54,55]"
+    },
+    {
+      "src": "name: document [69,77]",
+      "dest": "name: document [519,527]"
+    },
+    {
+      "src": "trailer [88,90]",
+      "dest": "trailer [538,540]"
+    },
+    {
+      "src": "name: add_paragraph [108,121]",
+      "dest": "name: add_paragraph [570,583]"
+    },
+    {
+      "src": "name: content [41,48]",
+      "dest": "name: content [47,54]"
+    },
+    {
+      "src": "simple_stmt [69,91]",
+      "dest": "simple_stmt [519,541]"
+    },
+    {
+      "src": "name: filename [50,58]",
+      "dest": "name: font_size [56,65]"
+    },
+    {
+      "src": "file_input [0,162]",
+      "dest": "file_input [0,821]"
+    },
+    {
+      "src": "name: DocFileHandler [6,20]",
+      "dest": "name: DocFileHandler [6,20]"
+    },
+    {
+      "src": "param [41,49]",
+      "dest": "param [47,55]"
+    },
+    {
+      "src": "name: content [122,129]",
+      "dest": "name: content [584,591]"
+    },
+    {
+      "src": "trailer [121,130]",
+      "dest": "trailer [583,592]"
+    },
+    {
+      "src": "parameters [40,59]",
+      "dest": "parameters [40,87]"
+    },
+    {
+      "src": "name: filename [153,161]",
+      "dest": "name: file_path [791,800]"
+    },
+    {
+      "src": "expr_stmt [69,90]",
+      "dest": "expr_stmt [519,540]"
+    },
+    {
+      "src": "name: document [139,147]",
+      "dest": "name: document [772,780]"
+    },
+    {
+      "src": "name: Document [80,88]",
+      "dest": "name: Document [530,538]"
+    },
+    {
+      "src": "atom_expr [99,130]",
+      "dest": "atom_expr [561,592]"
+    },
+    {
+      "src": "name: document [99,107]",
+      "dest": "name: document [561,569]"
+    },
+    {
+      "src": "atom_expr [80,90]",
+      "dest": "atom_expr [530,540]"
+    },
+    {
+      "src": "trailer [152,162]",
+      "dest": "trailer [790,800]"
+    },
+    {
+      "src": "trailer [107,121]",
+      "dest": "trailer [569,583]"
+    },
+    {
+      "src": "name: save [148,152]",
+      "dest": "name: save [781,785]"
+    },
+    {
+      "src": "simple_stmt [99,131]",
+      "dest": "simple_stmt [549,593]"
+    },
+    {
+      "src": "funcdef [26,162]",
+      "dest": "funcdef [26,821]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [41,46]",
+      "parent": "parameters [40,87]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [70,86]",
+      "parent": "parameters [40,87]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [97,511]",
+      "parent": "suite [88,821]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [601,625]",
+      "parent": "suite [88,821]",
+      "at": 3
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [633,663]",
+      "parent": "suite [88,821]",
+      "at": 4
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [671,722]",
+      "parent": "suite [88,821]",
+      "at": 5
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [730,764]",
+      "parent": "suite [88,821]",
+      "at": 6
+    },
+    {
+      "action": "insert-node",
+      "tree": "simple_stmt [772,802]",
+      "parent": "suite [88,821]",
+      "at": 7
+    },
+    {
+      "action": "insert-node",
+      "tree": "return_stmt [810,821]",
+      "parent": "suite [88,821]",
+      "at": 8
+    },
+    {
+      "action": "update-node",
+      "tree": "name: filename [50,58]",
+      "label": "font_size"
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [65,66]",
+      "parent": "param [56,69]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "number: 12 [66,68]",
+      "parent": "param [56,69]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: , [68,69]",
+      "parent": "param [56,69]",
+      "at": 3
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [549,592]",
+      "parent": "simple_stmt [549,593]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [139,162]",
+      "parent": "simple_stmt [772,802]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: paragraph [549,558]",
+      "parent": "expr_stmt [549,592]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [559,560]",
+      "parent": "expr_stmt [549,592]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [99,130]",
+      "parent": "expr_stmt [549,592]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [785,801]",
+      "parent": "atom_expr [772,801]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [786,800]",
+      "parent": "trailer [785,801]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: self [786,790]",
+      "parent": "atom_expr [786,800]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "trailer [152,162]",
+      "parent": "atom_expr [786,800]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: filename [153,161]",
+      "label": "file_path"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "matches": [
+    {
+      "src": "operator: { [236,237]",
+      "dest": "operator: { [390,391]"
+    },
+    {
+      "src": "suite [26,283]",
+      "dest": "suite [26,412]"
+    },
+    {
+      "src": "name: set_current_user_info_and_log [35,64]",
+      "dest": "name: set_current_user_info_and_log [35,64]"
+    },
+    {
+      "src": "name: current_user_info [128,145]",
+      "dest": "name: current_user_info [284,301]"
+    },
+    {
+      "src": "classdef [0,283]",
+      "dest": "classdef [0,412]"
+    },
+    {
+      "src": "suite [76,283]",
+      "dest": "suite [77,412]"
+    },
+    {
+      "src": "operator: = [146,147]",
+      "dest": "operator: = [302,303]"
+    },
+    {
+      "src": "fstring_end: \" [255,256]",
+      "dest": "fstring_end: \" [409,410]"
+    },
+    {
+      "src": "simple_stmt [128,158]",
+      "dest": "simple_stmt [284,309]"
+    },
+    {
+      "src": "name: user_info [65,74]",
+      "dest": "name: user [71,75]"
+    },
+    {
+      "src": "file_input [0,283]",
+      "dest": "file_input [0,412]"
+    },
+    {
+      "src": "expr_stmt [128,157]",
+      "dest": "expr_stmt [284,308]"
+    },
+    {
+      "src": "fstring_expr [236,255]",
+      "dest": "fstring_expr [390,409]"
+    },
+    {
+      "src": "param [65,74]",
+      "dest": "param [71,75]"
+    },
+    {
+      "src": "name: AccessGatewayFilter [6,25]",
+      "dest": "name: AccessGatewayFilter [6,25]"
+    },
+    {
+      "src": "operator: } [254,255]",
+      "dest": "operator: } [408,409]"
+    },
+    {
+      "src": "name: user_info [148,157]",
+      "dest": "name: user [304,308]"
+    },
+    {
+      "src": "name: current_user_info [237,254]",
+      "dest": "name: current_user_info [391,408]"
+    },
+    {
+      "src": "fstring_string: Access logged for user:  [212,236]",
+      "dest": "fstring_string: Access logged for user:  [366,390]"
+    },
+    {
+      "src": "parameters [64,75]",
+      "dest": "parameters [64,76]"
+    },
+    {
+      "src": "simple_stmt [196,257]",
+      "dest": "simple_stmt [351,412]"
+    },
+    {
+      "src": "name: log_message [196,207]",
+      "dest": "name: logging [351,358]"
+    },
+    {
+      "src": "fstring [210,256]",
+      "dest": "fstring [364,410]"
+    },
+    {
+      "src": "fstring_start: f\" [210,212]",
+      "dest": "fstring_start: f\" [364,366]"
+    },
+    {
+      "src": "funcdef [31,283]",
+      "dest": "funcdef [31,412]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [65,70]",
+      "parent": "parameters [64,76]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [86,233]",
+      "parent": "suite [77,412]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: user_info [65,74]",
+      "label": "user"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [351,411]",
+      "parent": "simple_stmt [351,412]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: user_info [148,157]",
+      "label": "user"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: log_message [196,207]",
+      "label": "logging"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: log_message [196,207]",
+      "parent": "atom_expr [351,411]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [358,363]",
+      "parent": "atom_expr [351,411]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [363,411]",
+      "parent": "atom_expr [351,411]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "fstring [210,256]",
+      "parent": "trailer [363,411]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "operator: = [208,209]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "expr_stmt [196,256]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "atom_expr [265,283]"
+    }
+  ]
+}

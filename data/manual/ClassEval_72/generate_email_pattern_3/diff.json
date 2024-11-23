@@ -1,0 +1,83 @@
+{
+  "matches": [
+    {
+      "src": "suite [17,210]",
+      "dest": "suite [17,327]"
+    },
+    {
+      "src": "parameters [48,50]",
+      "dest": "parameters [48,54]"
+    },
+    {
+      "src": "operator: = [125,126]",
+      "dest": "operator: = [248,249]"
+    },
+    {
+      "src": "classdef [0,210]",
+      "dest": "classdef [0,327]"
+    },
+    {
+      "src": "suite [51,210]",
+      "dest": "suite [55,327]"
+    },
+    {
+      "src": "name: generate_email_pattern [26,48]",
+      "dest": "name: generate_email_pattern [26,48]"
+    },
+    {
+      "src": "name: pattern [117,124]",
+      "dest": "name: pattern [240,247]"
+    },
+    {
+      "src": "name: pattern [203,210]",
+      "dest": "name: pattern [320,327]"
+    },
+    {
+      "src": "expr_stmt [117,178]",
+      "dest": "expr_stmt [240,304]"
+    },
+    {
+      "src": "file_input [0,210]",
+      "dest": "file_input [0,327]"
+    },
+    {
+      "src": "simple_stmt [117,179]",
+      "dest": "simple_stmt [240,305]"
+    },
+    {
+      "src": "return_stmt [196,210]",
+      "dest": "return_stmt [313,327]"
+    },
+    {
+      "src": "funcdef [22,210]",
+      "dest": "funcdef [22,327]"
+    },
+    {
+      "src": "name: RegexUtils [6,16]",
+      "dest": "name: RegexUtils [6,16]"
+    },
+    {
+      "src": "string: r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$' [127,178]",
+      "dest": "string: r'\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z|a-z]{2,}\\b' [250,304]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [49,53]",
+      "parent": "parameters [48,54]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [64,232]",
+      "parent": "suite [55,327]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "string: r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$' [127,178]",
+      "label": "r'\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z|a-z]{2,}\\b'"
+    }
+  ]
+}

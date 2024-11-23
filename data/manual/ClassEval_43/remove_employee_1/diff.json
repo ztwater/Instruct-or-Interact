@@ -1,0 +1,100 @@
+{
+  "matches": [
+    {
+      "src": "param [50,61]",
+      "dest": "param [56,67]"
+    },
+    {
+      "src": "suite [25,293]",
+      "dest": "suite [25,462]"
+    },
+    {
+      "src": "suite [63,293]",
+      "dest": "suite [354,423]"
+    },
+    {
+      "src": "name: HRManagementSystem [6,24]",
+      "dest": "name: HRManagementSystem [6,24]"
+    },
+    {
+      "src": "classdef [0,293]",
+      "dest": "classdef [0,462]"
+    },
+    {
+      "src": "file_input [0,293]",
+      "dest": "file_input [0,462]"
+    },
+    {
+      "src": "funcdef [30,293]",
+      "dest": "funcdef [30,462]"
+    },
+    {
+      "src": "name: employee_id [50,61]",
+      "dest": "name: employee_id [56,67]"
+    },
+    {
+      "src": "parameters [49,62]",
+      "dest": "parameters [49,68]"
+    },
+    {
+      "src": "name: remove_employee [34,49]",
+      "dest": "name: remove_employee [34,49]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-node",
+      "tree": "suite [69,462]",
+      "parent": "funcdef [30,462]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "param [50,55]",
+      "parent": "parameters [49,68]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [78,313]",
+      "parent": "suite [69,462]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [321,462]",
+      "parent": "suite [69,462]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [324,353]",
+      "parent": "if_stmt [321,462]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "suite [63,293]",
+      "parent": "if_stmt [321,462]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [436,462]",
+      "parent": "if_stmt [321,462]",
+      "at": 2
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [367,399]",
+      "parent": "suite [354,423]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [411,423]",
+      "parent": "suite [354,423]",
+      "at": 1
+    }
+  ]
+}

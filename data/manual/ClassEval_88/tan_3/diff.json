@@ -1,0 +1,158 @@
+{
+  "matches": [
+    {
+      "src": "suite [20,241]",
+      "dest": "suite [20,304]"
+    },
+    {
+      "src": "name: TriCalculator [6,19]",
+      "dest": "name: TriCalculator [6,19]"
+    },
+    {
+      "src": "trailer [196,207]",
+      "dest": "trailer [268,279]"
+    },
+    {
+      "src": "classdef [0,241]",
+      "dest": "classdef [0,304]"
+    },
+    {
+      "src": "simple_stmt [176,208]",
+      "dest": "simple_stmt [253,280]"
+    },
+    {
+      "src": "suite [36,241]",
+      "dest": "suite [42,304]"
+    },
+    {
+      "src": "parameters [32,35]",
+      "dest": "parameters [32,41]"
+    },
+    {
+      "src": "atom_expr [105,120]",
+      "dest": "atom_expr [234,244]"
+    },
+    {
+      "src": "name: tan [193,196]",
+      "dest": "name: tan [265,268]"
+    },
+    {
+      "src": "expr_stmt [176,207]",
+      "dest": "expr_stmt [253,279]"
+    },
+    {
+      "src": "name: tan [29,32]",
+      "dest": "name: tan [29,32]"
+    },
+    {
+      "src": "name: x [118,119]",
+      "dest": "name: x [242,243]"
+    },
+    {
+      "src": "trailer [117,120]",
+      "dest": "trailer [241,244]"
+    },
+    {
+      "src": "name: radians [110,117]",
+      "dest": "name: radians [234,241]"
+    },
+    {
+      "src": "file_input [0,241]",
+      "dest": "file_input [0,304]"
+    },
+    {
+      "src": "name: tan_value [232,241]",
+      "dest": "name: tan_value [295,304]"
+    },
+    {
+      "src": "operator: = [103,104]",
+      "dest": "operator: = [232,233]"
+    },
+    {
+      "src": "name: angle_rad [93,102]",
+      "dest": "name: angle_rad [222,231]"
+    },
+    {
+      "src": "name: angle_rad [197,206]",
+      "dest": "name: angle_rad [269,278]"
+    },
+    {
+      "src": "operator: = [186,187]",
+      "dest": "operator: = [263,264]"
+    },
+    {
+      "src": "name: x [33,34]",
+      "dest": "name: x [39,40]"
+    },
+    {
+      "src": "name: tan_value [176,185]",
+      "dest": "name: tan_value [253,262]"
+    },
+    {
+      "src": "expr_stmt [93,120]",
+      "dest": "expr_stmt [222,244]"
+    },
+    {
+      "src": "param [33,34]",
+      "dest": "param [39,40]"
+    },
+    {
+      "src": "simple_stmt [93,121]",
+      "dest": "simple_stmt [222,245]"
+    },
+    {
+      "src": "funcdef [25,241]",
+      "dest": "funcdef [25,304]"
+    },
+    {
+      "src": "return_stmt [225,241]",
+      "dest": "return_stmt [288,304]"
+    },
+    {
+      "src": "atom_expr [188,207]",
+      "dest": "atom_expr [265,279]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [33,38]",
+      "parent": "parameters [32,41]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [51,214]",
+      "parent": "suite [42,304]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: radians [110,117]",
+      "parent": "atom_expr [234,244]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: tan [193,196]",
+      "parent": "atom_expr [265,279]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: math [105,109]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [109,117]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: math [188,192]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "trailer [192,196]"
+    }
+  ]
+}

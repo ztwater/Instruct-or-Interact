@@ -1,0 +1,200 @@
+{
+  "matches": [
+    {
+      "src": "suite [19,176]",
+      "dest": "suite [19,509]"
+    },
+    {
+      "src": "atom_expr [91,118]",
+      "dest": "atom_expr [341,361]"
+    },
+    {
+      "src": "trailer [96,118]",
+      "dest": "trailer [345,351]"
+    },
+    {
+      "src": "classdef [0,176]",
+      "dest": "classdef [0,509]"
+    },
+    {
+      "src": "suite [48,176]",
+      "dest": "suite [58,509]"
+    },
+    {
+      "src": "name: SignInSystem [6,18]",
+      "dest": "name: SignInSystem [6,18]"
+    },
+    {
+      "src": "name: is_signed_in [65,77]",
+      "dest": "name: is_signed_in [382,394]"
+    },
+    {
+      "src": "trailer [64,77]",
+      "dest": "trailer [381,394]"
+    },
+    {
+      "src": "name: print [91,96]",
+      "dest": "name: self [341,345]"
+    },
+    {
+      "src": "name: check_sign_in [28,41]",
+      "dest": "name: check_sign_in [28,41]"
+    },
+    {
+      "src": "atom_expr [60,77]",
+      "dest": "atom_expr [377,394]"
+    },
+    {
+      "src": "name: user [60,64]",
+      "dest": "name: user [377,381]"
+    },
+    {
+      "src": "simple_stmt [91,119]",
+      "dest": "simple_stmt [334,362]"
+    },
+    {
+      "src": "file_input [0,176]",
+      "dest": "file_input [0,509]"
+    },
+    {
+      "src": "name: user [42,46]",
+      "dest": "name: username [48,56]"
+    },
+    {
+      "src": "if_stmt [57,176]",
+      "dest": "if_stmt [295,509]"
+    },
+    {
+      "src": "funcdef [24,176]",
+      "dest": "funcdef [24,509]"
+    },
+    {
+      "src": "param [42,46]",
+      "dest": "param [48,56]"
+    },
+    {
+      "src": "parameters [41,47]",
+      "dest": "parameters [41,57]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "param [42,47]",
+      "parent": "parameters [41,57]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [67,287]",
+      "parent": "suite [58,509]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: user [42,46]",
+      "label": "username"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "comparison [298,320]",
+      "parent": "if_stmt [295,509]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "suite [321,471]",
+      "parent": "if_stmt [295,509]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [484,509]",
+      "parent": "if_stmt [295,509]",
+      "at": 2
+    },
+    {
+      "action": "move-tree",
+      "tree": "simple_stmt [91,119]",
+      "parent": "suite [321,471]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "if_stmt [374,471]",
+      "parent": "suite [321,471]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "expr_stmt [334,361]",
+      "parent": "simple_stmt [334,362]",
+      "at": 0
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [60,77]",
+      "parent": "if_stmt [374,471]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [395,424]",
+      "parent": "if_stmt [374,471]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "suite [441,471]",
+      "parent": "if_stmt [374,471]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: user [334,338]",
+      "parent": "expr_stmt [334,361]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: = [339,340]",
+      "parent": "expr_stmt [334,361]",
+      "at": 1
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [91,118]",
+      "parent": "expr_stmt [334,361]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: print [91,96]",
+      "label": "self"
+    },
+    {
+      "action": "insert-tree",
+      "tree": "trailer [351,361]",
+      "parent": "atom_expr [341,361]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: users [346,351]",
+      "parent": "trailer [345,351]",
+      "at": 0
+    },
+    {
+      "action": "delete-node",
+      "tree": "string: \"User is signed in.\" [97,117]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [78,119]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "suite [132,176]"
+    }
+  ]
+}

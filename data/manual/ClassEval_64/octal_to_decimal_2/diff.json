@@ -1,0 +1,386 @@
+{
+  "matches": [
+    {
+      "src": "number: 10 [278,280]",
+      "dest": "number: 1 [548,549]"
+    },
+    {
+      "src": "suite [22,342]",
+      "dest": "suite [22,612]"
+    },
+    {
+      "src": "name: NumberConverter [6,21]",
+      "dest": "name: NumberConverter [6,21]"
+    },
+    {
+      "src": "simple_stmt [71,90]",
+      "dest": "simple_stmt [334,353]"
+    },
+    {
+      "src": "classdef [0,342]",
+      "dest": "classdef [0,612]"
+    },
+    {
+      "src": "suite [62,342]",
+      "dest": "suite [59,612]"
+    },
+    {
+      "src": "number: 0 [106,107]",
+      "dest": "number: 0 [369,370]"
+    },
+    {
+      "src": "number: 0 [88,89]",
+      "dest": "number: 0 [351,352]"
+    },
+    {
+      "src": "expr_stmt [98,107]",
+      "dest": "expr_stmt [361,370]"
+    },
+    {
+      "src": "simple_stmt [98,108]",
+      "dest": "simple_stmt [361,371]"
+    },
+    {
+      "src": "number: 8 [237,238]",
+      "dest": "number: 8 [500,501]"
+    },
+    {
+      "src": "term [223,248]",
+      "dest": "term [486,511]"
+    },
+    {
+      "src": "simple_stmt [261,281]",
+      "dest": "simple_stmt [524,551]"
+    },
+    {
+      "src": "expr_stmt [205,248]",
+      "dest": "expr_stmt [468,511]"
+    },
+    {
+      "src": "return_stmt [321,342]",
+      "dest": "return_stmt [591,612]"
+    },
+    {
+      "src": "expr_stmt [162,192]",
+      "dest": "expr_stmt [424,455]"
+    },
+    {
+      "src": "operator: //= [274,277]",
+      "dest": "operator: = [534,535]"
+    },
+    {
+      "src": "funcdef [27,342]",
+      "dest": "funcdef [27,612]"
+    },
+    {
+      "src": "expr_stmt [293,303]",
+      "dest": "expr_stmt [563,573]"
+    },
+    {
+      "src": "name: last_digit [223,233]",
+      "dest": "name: last_digit [486,496]"
+    },
+    {
+      "src": "operator: ** [239,241]",
+      "dest": "operator: ** [502,504]"
+    },
+    {
+      "src": "param [48,60]",
+      "dest": "param [48,57]"
+    },
+    {
+      "src": "parameters [47,61]",
+      "dest": "parameters [47,58]"
+    },
+    {
+      "src": "operator: = [86,87]",
+      "dest": "operator: = [349,350]"
+    },
+    {
+      "src": "power [237,247]",
+      "dest": "power [500,510]"
+    },
+    {
+      "src": "simple_stmt [162,193]",
+      "dest": "simple_stmt [424,456]"
+    },
+    {
+      "src": "operator: = [104,105]",
+      "dest": "operator: = [367,368]"
+    },
+    {
+      "src": "operator: != [144,146]",
+      "dest": "operator: != [404,406]"
+    },
+    {
+      "src": "simple_stmt [205,249]",
+      "dest": "simple_stmt [468,512]"
+    },
+    {
+      "src": "expr_stmt [261,280]",
+      "dest": "expr_stmt [524,550]"
+    },
+    {
+      "src": "operator: % [188,189]",
+      "dest": "operator: - [451,452]"
+    },
+    {
+      "src": "file_input [0,342]",
+      "dest": "file_input [0,612]"
+    },
+    {
+      "src": "suite [149,304]",
+      "dest": "suite [411,574]"
+    },
+    {
+      "src": "simple_stmt [293,304]",
+      "dest": "simple_stmt [563,574]"
+    },
+    {
+      "src": "name: octal_to_decimal [31,47]",
+      "dest": "name: octal_to_decimal [31,47]"
+    },
+    {
+      "src": "name: decimal_number [328,342]",
+      "dest": "name: decimal_number [598,612]"
+    },
+    {
+      "src": "expr_stmt [71,89]",
+      "dest": "expr_stmt [334,352]"
+    },
+    {
+      "src": "operator: = [173,174]",
+      "dest": "operator: = [435,436]"
+    },
+    {
+      "src": "name: octal_number [261,273]",
+      "dest": "name: octal_num [524,533]"
+    },
+    {
+      "src": "comparison [131,148]",
+      "dest": "comparison [394,410]"
+    },
+    {
+      "src": "name: octal_number [175,187]",
+      "dest": "name: octal_num [441,450]"
+    },
+    {
+      "src": "atom [236,248]",
+      "dest": "atom [499,511]"
+    },
+    {
+      "src": "name: power [98,103]",
+      "dest": "name: power [361,366]"
+    },
+    {
+      "src": "operator: * [234,235]",
+      "dest": "operator: * [497,498]"
+    },
+    {
+      "src": "name: decimal_number [71,85]",
+      "dest": "name: decimal_number [334,348]"
+    },
+    {
+      "src": "operator: += [220,222]",
+      "dest": "operator: += [483,485]"
+    },
+    {
+      "src": "name: power [242,247]",
+      "dest": "name: power [505,510]"
+    },
+    {
+      "src": "name: power [293,298]",
+      "dest": "name: power [563,568]"
+    },
+    {
+      "src": "name: octal_number [48,60]",
+      "dest": "name: octal_num [48,57]"
+    },
+    {
+      "src": "while_stmt [125,304]",
+      "dest": "while_stmt [388,574]"
+    },
+    {
+      "src": "number: 10 [190,192]",
+      "dest": "number: 1 [452,453]"
+    },
+    {
+      "src": "name: decimal_number [205,219]",
+      "dest": "name: decimal_number [468,482]"
+    },
+    {
+      "src": "operator: += [299,301]",
+      "dest": "operator: += [569,571]"
+    },
+    {
+      "src": "number: 1 [302,303]",
+      "dest": "number: 1 [572,573]"
+    },
+    {
+      "src": "name: last_digit [162,172]",
+      "dest": "name: last_digit [424,434]"
+    },
+    {
+      "src": "name: octal_number [131,143]",
+      "dest": "name: octal_num [394,403]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [68,326]",
+      "parent": "suite [59,612]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: octal_number [48,60]",
+      "label": "octal_num"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: octal_number [131,143]",
+      "label": "octal_num"
+    },
+    {
+      "action": "insert-node",
+      "tree": "string: '0' [407,410]",
+      "parent": "comparison [394,410]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [437,455]",
+      "parent": "expr_stmt [424,455]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: octal_number [261,273]",
+      "label": "octal_num"
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: //= [274,277]",
+      "label": "="
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [536,550]",
+      "parent": "expr_stmt [524,550]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: int [437,440]",
+      "parent": "atom_expr [437,455]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [440,455]",
+      "parent": "atom_expr [437,455]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "name: octal_num [536,545]",
+      "parent": "atom_expr [536,550]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [545,550]",
+      "parent": "atom_expr [536,550]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom_expr [441,454]",
+      "parent": "trailer [440,455]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "subscript [546,549]",
+      "parent": "trailer [545,550]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: octal_number [175,187]",
+      "label": "octal_num"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: octal_number [175,187]",
+      "parent": "atom_expr [441,454]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "trailer [450,454]",
+      "parent": "atom_expr [441,454]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "factor [547,549]",
+      "parent": "subscript [546,549]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "factor [451,453]",
+      "parent": "trailer [450,454]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: - [547,548]",
+      "parent": "factor [547,549]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "number: 10 [278,280]",
+      "label": "1"
+    },
+    {
+      "action": "move-tree",
+      "tree": "number: 10 [278,280]",
+      "parent": "factor [547,549]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: % [188,189]",
+      "label": "-"
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: % [188,189]",
+      "parent": "factor [451,453]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "number: 10 [190,192]",
+      "label": "1"
+    },
+    {
+      "action": "move-tree",
+      "tree": "number: 10 [190,192]",
+      "parent": "factor [451,453]",
+      "at": 1
+    },
+    {
+      "action": "delete-node",
+      "tree": "number: 0 [147,148]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "term [175,192]"
+    }
+  ]
+}

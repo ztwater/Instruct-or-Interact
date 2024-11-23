@@ -1,0 +1,88 @@
+{
+  "matches": [
+    {
+      "src": "name: NumberWordFormatter [6,25]",
+      "dest": "name: NumberWordFormatter [6,25]"
+    },
+    {
+      "src": "file_input [0,687]",
+      "dest": "file_input [0,36]"
+    },
+    {
+      "src": "suite [546,591]",
+      "dest": "suite [26,36]"
+    },
+    {
+      "src": "classdef [0,687]",
+      "dest": "classdef [0,36]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "move-tree",
+      "tree": "suite [546,591]",
+      "parent": "classdef [0,36]",
+      "at": 1
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [563,591]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: format_string [35,48]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "parameters [48,56]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [120,389]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "simple_stmt [475,487]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: digit [499,504]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "name: number [508,514]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "comparison [531,545]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "if_stmt [528,591]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [515,591]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "for_stmt [495,591]"
+    },
+    {
+      "action": "delete-tree",
+      "tree": "return_stmt [664,687]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [57,687]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "funcdef [31,687]"
+    },
+    {
+      "action": "delete-node",
+      "tree": "suite [26,687]"
+    }
+  ]
+}

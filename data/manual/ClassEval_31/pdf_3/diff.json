@@ -1,0 +1,369 @@
+{
+  "matches": [
+    {
+      "src": "operator: , [97,98]",
+      "dest": "operator: ** [636,638]"
+    },
+    {
+      "src": "suite [22,133]",
+      "dest": "suite [22,702]"
+    },
+    {
+      "src": "parameters [34,55]",
+      "dest": "parameters [34,51]"
+    },
+    {
+      "src": "name: DataStatistics4 [6,21]",
+      "dest": "name: DataStatistics4 [6,21]"
+    },
+    {
+      "src": "param [41,46]",
+      "dest": "param [41,44]"
+    },
+    {
+      "src": "name: pdf_values [123,133]",
+      "dest": "name: pdf_values [692,702]"
+    },
+    {
+      "src": "classdef [0,133]",
+      "dest": "classdef [0,702]"
+    },
+    {
+      "src": "atom_expr [78,107]",
+      "dest": "atom_expr [616,661]"
+    },
+    {
+      "src": "trailer [86,107]",
+      "dest": "trailer [624,661]"
+    },
+    {
+      "src": "operator: , [91,92]",
+      "dest": "operator: - [630,631]"
+    },
+    {
+      "src": "name: std_dev [99,106]",
+      "dest": "name: sigma [649,654]"
+    },
+    {
+      "src": "name: norm [78,82]",
+      "dest": "name: math [616,620]"
+    },
+    {
+      "src": "operator: = [76,77]",
+      "dest": "operator: = [574,575]"
+    },
+    {
+      "src": "name: pdf_values [65,75]",
+      "dest": "name: pdf_values [563,573]"
+    },
+    {
+      "src": "name: pdf [31,34]",
+      "dest": "name: pdf [31,34]"
+    },
+    {
+      "src": "expr_stmt [65,107]",
+      "dest": "expr_stmt [563,676]"
+    },
+    {
+      "src": "name: pdf [83,86]",
+      "dest": "name: exp [621,624]"
+    },
+    {
+      "src": "trailer [82,86]",
+      "dest": "trailer [620,624]"
+    },
+    {
+      "src": "file_input [0,133]",
+      "dest": "file_input [0,702]"
+    },
+    {
+      "src": "simple_stmt [65,108]",
+      "dest": "simple_stmt [563,677]"
+    },
+    {
+      "src": "name: mean [41,45]",
+      "dest": "name: mu [41,43]"
+    },
+    {
+      "src": "operator: , [45,46]",
+      "dest": "operator: , [43,44]"
+    },
+    {
+      "src": "name: data [35,39]",
+      "dest": "name: data [35,39]"
+    },
+    {
+      "src": "param [35,40]",
+      "dest": "param [35,40]"
+    },
+    {
+      "src": "operator: , [39,40]",
+      "dest": "operator: , [39,40]"
+    },
+    {
+      "src": "name: std_dev [47,54]",
+      "dest": "name: sigma [45,50]"
+    },
+    {
+      "src": "name: mean [93,97]",
+      "dest": "name: mu [632,634]"
+    },
+    {
+      "src": "funcdef [27,133]",
+      "dest": "funcdef [27,702]"
+    },
+    {
+      "src": "param [47,54]",
+      "dest": "param [45,50]"
+    },
+    {
+      "src": "name: data [87,91]",
+      "dest": "name: x [628,629]"
+    },
+    {
+      "src": "return_stmt [116,133]",
+      "dest": "return_stmt [685,702]"
+    },
+    {
+      "src": "suite [56,133]",
+      "dest": "suite [52,702]"
+    }
+  ],
+  "actions": [
+    {
+      "action": "insert-tree",
+      "tree": "simple_stmt [61,555]",
+      "parent": "suite [52,702]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: mean [41,45]",
+      "label": "mu"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: std_dev [47,54]",
+      "label": "sigma"
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom [576,676]",
+      "parent": "expr_stmt [563,676]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "testlist_comp [577,675]",
+      "parent": "atom [576,676]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "term [577,661]",
+      "parent": "testlist_comp [577,675]",
+      "at": 0
+    },
+    {
+      "action": "insert-tree",
+      "tree": "sync_comp_for [662,675]",
+      "parent": "testlist_comp [577,675]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "number: 1 [577,578]",
+      "parent": "term [577,661]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: / [579,580]",
+      "parent": "term [577,661]",
+      "at": 1
+    },
+    {
+      "action": "insert-tree",
+      "tree": "atom [581,613]",
+      "parent": "term [577,661]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: * [614,615]",
+      "parent": "term [577,661]",
+      "at": 3
+    },
+    {
+      "action": "move-tree",
+      "tree": "atom_expr [78,107]",
+      "parent": "term [577,661]",
+      "at": 4
+    },
+    {
+      "action": "update-node",
+      "tree": "name: norm [78,82]",
+      "label": "math"
+    },
+    {
+      "action": "update-node",
+      "tree": "name: pdf [83,86]",
+      "label": "exp"
+    },
+    {
+      "action": "insert-node",
+      "tree": "term [625,660]",
+      "parent": "trailer [624,661]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "factor [625,641]",
+      "parent": "term [625,660]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: / [642,643]",
+      "parent": "term [625,660]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom [644,660]",
+      "parent": "term [625,660]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: - [625,626]",
+      "parent": "factor [625,641]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom [626,641]",
+      "parent": "factor [625,641]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "term [645,659]",
+      "parent": "atom [644,660]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "power [627,640]",
+      "parent": "atom [626,641]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "number: 2 [645,646]",
+      "parent": "term [645,659]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: * [647,648]",
+      "parent": "term [645,659]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "power [649,659]",
+      "parent": "term [645,659]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "atom [627,635]",
+      "parent": "power [627,640]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: , [97,98]",
+      "label": "**"
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: , [97,98]",
+      "parent": "power [627,640]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "number: 2 [639,640]",
+      "parent": "power [627,640]",
+      "at": 2
+    },
+    {
+      "action": "update-node",
+      "tree": "name: std_dev [99,106]",
+      "label": "sigma"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: std_dev [99,106]",
+      "parent": "power [649,659]",
+      "at": 0
+    },
+    {
+      "action": "insert-node",
+      "tree": "operator: ** [655,657]",
+      "parent": "power [649,659]",
+      "at": 1
+    },
+    {
+      "action": "insert-node",
+      "tree": "number: 2 [658,659]",
+      "parent": "power [649,659]",
+      "at": 2
+    },
+    {
+      "action": "insert-node",
+      "tree": "arith_expr [628,634]",
+      "parent": "atom [627,635]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "name: data [87,91]",
+      "label": "x"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: data [87,91]",
+      "parent": "arith_expr [628,634]",
+      "at": 0
+    },
+    {
+      "action": "update-node",
+      "tree": "operator: , [91,92]",
+      "label": "-"
+    },
+    {
+      "action": "move-tree",
+      "tree": "operator: , [91,92]",
+      "parent": "arith_expr [628,634]",
+      "at": 1
+    },
+    {
+      "action": "update-node",
+      "tree": "name: mean [93,97]",
+      "label": "mu"
+    },
+    {
+      "action": "move-tree",
+      "tree": "name: mean [93,97]",
+      "parent": "arith_expr [628,634]",
+      "at": 2
+    },
+    {
+      "action": "delete-node",
+      "tree": "arglist [87,106]"
+    }
+  ]
+}

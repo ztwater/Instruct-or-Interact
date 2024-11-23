@@ -1,0 +1,51 @@
+[
+    {
+        "action": "INS",
+        "label": "param",
+        "inserted": "self,",
+        "deleted": "",
+        "type": "Method_Signature"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "x_interp",
+        "deleted": "x_new",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "string:",
+        "inserted": "\"\"\"\n        Linear interpolation of one-dimensional data\n        :param x: The x-coordinate of the data point, list.\n        :param y: The y-coordinate of the data point, list.\n        :param x_interp: The x-coordinate of the interpolation point, list.\n        :return: The y-coordinate of the interpolation point, list.\n        >>> interpolation = Interpolation()\n        >>> interpolation.interpolate_1d([1, 2, 3], [1, 2, 3], [1.5, 2.5])\n        [1.5, 2.5]\n        \"\"\"",
+        "deleted": "\"\"\"\n        Linear interpolation of one-dimensional data.\n    \n        Parameters:\n        - x: list or numpy array of x-coordinates of the data points\n        - y: list or numpy array of y-coordinates of the data points\n        - x_new: list or numpy array of x-coordinates where interpolation is desired\n    \n        Returns:\n        - y_new: list or numpy array of interpolated y-coordinates corresponding to x_new\n        \"\"\"",
+        "type": "Documentation"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "x_interp",
+        "deleted": "x_new",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "y_interp",
+        "deleted": "y_new",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "y_interp",
+        "deleted": "y_new",
+        "type": "Refactoring"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "y_interp",
+        "deleted": "y_new",
+        "type": "Refactoring"
+    }
+]

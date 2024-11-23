@@ -1,0 +1,23 @@
+[
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "\"\"\"\n        Determines whether a given character is a hexadecimal digit.\n        :param char: str, the character to check.\n        :return: bool, True if the character is a hexadecimal digit, False otherwise.\n        >>> NumericEntityUnescaper.is_hex_char('a')\n        True\n\n        \"\"\"\n",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "simple_stmt",
+        "inserted": "return char.upper() in hex_digits\n",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "return_stmt",
+        "inserted": "return char.upper() in hex_digits",
+        "deleted": "return char.upper() in hex_digits",
+        "type": "Move"
+    }
+]

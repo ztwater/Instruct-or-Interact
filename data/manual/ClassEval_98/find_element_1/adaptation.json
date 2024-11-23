@@ -1,0 +1,44 @@
+[
+    {
+        "action": "INS",
+        "label": "string:",
+        "inserted": "\"\"\"\n        Finds the XML elements with the specified name.\n        :param element_name: string, the name of the elements to find.\n        :return: list, a list of found elements with the specified name.\n        >>> xml_processor = XMLProcessor('test.xml')\n        >>> root = xml_processor.read_xml()\n        >>> items = xml_processor.find_element('item')\n        >>> for item in items:\n        >>>     print(item.text)\n        apple\n        banana\n        orange\n        \"\"\"",
+        "deleted": "",
+        "type": "Documentation"
+    },
+    {
+        "action": "INS",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "INS",
+        "label": "trailer",
+        "inserted": ".root",
+        "deleted": "",
+        "type": "Logic"
+    },
+    {
+        "action": "DEL",
+        "label": "expr_stmt",
+        "inserted": "",
+        "deleted": "root = ET.fromstring(xml_string)",
+        "type": "Logic"
+    },
+    {
+        "action": "MOV",
+        "label": "name",
+        "inserted": "root",
+        "deleted": "root",
+        "type": "Move"
+    },
+    {
+        "action": "UPD",
+        "label": "name",
+        "inserted": "self",
+        "deleted": "xml_string",
+        "type": "Refactoring"
+    }
+]
